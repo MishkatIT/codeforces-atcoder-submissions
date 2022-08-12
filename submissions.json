@@ -1,4 +1,20 @@
 {
+  "CF167984317": {
+    "contest_id": 977,
+    "language": "GNU C++17",
+    "path": "codeforces\\977\\977A Wrong Subtraction.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Wrong Subtraction",
+    "problem_url": "https://codeforces.com/contest/977/problem/A",
+    "submission_id": "CF167984317",
+    "submission_url": "https://codeforces.com/contest/977/submission/167984317",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/12/2022 20:38"
+  },
   "CF168015218": {
     "contest_id": 451,
     "language": "GNU C++17",
