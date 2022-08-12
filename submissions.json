@@ -371,6 +371,22 @@
     ],
     "timestamp": "Aug/13/2022 02:03"
   },
+  "CF168017989": {
+    "contest_id": 427,
+    "language": "GNU C++17",
+    "path": "codeforces\\427\\427A Police Recruits.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Police Recruits",
+    "problem_url": "https://codeforces.com/contest/427/problem/A",
+    "submission_id": "CF168017989",
+    "submission_url": "https://codeforces.com/contest/427/submission/168017989",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/13/2022 02:46"
+  },
   "CF168020688": {
     "contest_id": 200,
     "language": "GNU C++17",
