@@ -1,4 +1,21 @@
 {
+  "CF169903032": {
+    "contest_id": 1721,
+    "language": "GNU C++17",
+    "path": "codeforces\\1721\\1721A Image.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Image",
+    "problem_url": "https://codeforces.com/contest/1721/problem/A",
+    "submission_id": "CF169903032",
+    "submission_url": "https://codeforces.com/contest/1721/submission/169903032",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/28/2022 00:00"
+  },
   "CF169909397": {
     "contest_id": 58,
     "language": "GNU C++17",
