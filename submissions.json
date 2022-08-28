@@ -1,4 +1,20 @@
 {
+  "CF170003861": {
+    "contest_id": 41,
+    "language": "GNU C++17",
+    "path": "codeforces\\41\\41B Martian Dollar.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Martian Dollar",
+    "problem_url": "https://codeforces.com/contest/41/problem/B",
+    "submission_id": "CF170003861",
+    "submission_url": "https://codeforces.com/contest/41/submission/170003861",
+    "tags": [
+      "brute force",
+      "*1400"
+    ],
+    "timestamp": "Aug/29/2022 00:30"
+  },
   "CF170069052": {
     "contest_id": 112,
     "language": "GNU C++17",
