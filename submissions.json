@@ -1,4 +1,21 @@
 {
+  "CF170069052": {
+    "contest_id": 112,
+    "language": "GNU C++17",
+    "path": "codeforces\\112\\112A Petya and Strings.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Petya and Strings",
+    "problem_url": "https://codeforces.com/contest/112/problem/A",
+    "submission_id": "CF170069052",
+    "submission_url": "https://codeforces.com/contest/112/submission/170069052",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/29/2022 20:00"
+  },
   "CF170101050": {
     "contest_id": 110,
     "language": "GNU C++17",
