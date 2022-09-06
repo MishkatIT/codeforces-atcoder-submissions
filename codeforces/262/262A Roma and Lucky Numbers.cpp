@@ -6,7 +6,6 @@ using namespace std;
 int main()
 
 {
-    fio;
     int n, k, nums;
     cin >> n >> k;
     int res=0;
@@ -24,7 +23,7 @@ int main()
         if(cnt<=k)
             res++;
     }
-    cout<< res << nl;
+    cout<<res<<endl;
     return 0;
 }
 
