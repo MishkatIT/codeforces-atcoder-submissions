@@ -1,4 +1,20 @@
 {
+  "CF171643834": {
+    "contest_id": 1633,
+    "language": "GNU C++17",
+    "path": "codeforces\\1633\\1633A Div. 7.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Div. 7",
+    "problem_url": "https://codeforces.com/contest/1633/problem/A",
+    "submission_id": "CF171643834",
+    "submission_url": "https://codeforces.com/contest/1633/submission/171643834",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Sep/10/2022 23:54"
+  },
   "CF171810740": {
     "contest_id": 59,
     "language": "GNU C++17",
