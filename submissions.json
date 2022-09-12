@@ -1,4 +1,20 @@
 {
+  "CF171904692": {
+    "contest_id": 1729,
+    "language": "GNU C++17",
+    "path": "codeforces\\1729\\1729A Two Elevators.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Two Elevators",
+    "problem_url": "https://codeforces.com/contest/1729/problem/A",
+    "submission_id": "CF171904692",
+    "submission_url": "https://codeforces.com/contest/1729/submission/171904692",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/12/2022 21:51"
+  },
   "CF171972817": {
     "contest_id": 116,
     "language": "GNU C++17",
