@@ -1,4 +1,23 @@
 {
+  "CF172351893": {
+    "contest_id": 1370,
+    "language": "GNU C++17",
+    "path": "codeforces\\1370\\1370A Maximum GCD.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Maximum GCD",
+    "problem_url": "https://codeforces.com/contest/1370/problem/A",
+    "submission_id": "CF172351893",
+    "submission_url": "https://codeforces.com/contest/1370/submission/172351893",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Sep/16/2022 19:22"
+  },
   "CF172498931": {
     "contest_id": 233,
     "language": "GNU C++17",
