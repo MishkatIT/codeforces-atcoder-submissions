@@ -1106,6 +1106,22 @@
     ],
     "timestamp": "Sep/29/2022 18:58"
   },
+  "CF174002686": {
+    "contest_id": 136,
+    "language": "GNU C++17",
+    "path": "codeforces\\136\\136A Presents.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Presents",
+    "problem_url": "https://codeforces.com/contest/136/problem/A",
+    "submission_id": "CF174002686",
+    "submission_url": "https://codeforces.com/contest/136/submission/174002686",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/29/2022 23:14"
+  },
   "CF174013889": {
     "contest_id": 119,
     "language": "GNU C++17",
