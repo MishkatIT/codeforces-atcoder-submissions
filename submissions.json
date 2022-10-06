@@ -1671,6 +1671,25 @@
     ],
     "timestamp": "Oct/05/2022 21:45"
   },
+  "CF174873532": {
+    "contest_id": 755,
+    "language": "GNU C++17",
+    "path": "codeforces\\755\\755A PolandBall and Hypothesis.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "PolandBall and Hypothesis",
+    "problem_url": "https://codeforces.com/contest/755/problem/A",
+    "submission_id": "CF174873532",
+    "submission_url": "https://codeforces.com/contest/755/submission/174873532",
+    "tags": [
+      "brute force",
+      "graphs",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Oct/06/2022 21:07"
+  },
   "CF174881550": {
     "contest_id": 750,
     "language": "GNU C++17",
