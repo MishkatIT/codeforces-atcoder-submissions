@@ -1671,6 +1671,24 @@
     ],
     "timestamp": "Oct/05/2022 21:45"
   },
+  "CF174963484": {
+    "contest_id": 1391,
+    "language": "GNU C++17",
+    "path": "codeforces\\1391\\1391B Fix You.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fix You",
+    "problem_url": "https://codeforces.com/contest/1391/problem/B",
+    "submission_id": "CF174963484",
+    "submission_url": "https://codeforces.com/contest/1391/submission/174963484",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/07/2022 17:33"
+  },
   "CF174972980": {
     "contest_id": 139,
     "language": "GNU C++17",
