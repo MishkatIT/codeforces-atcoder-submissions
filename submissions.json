@@ -1671,6 +1671,25 @@
     ],
     "timestamp": "Oct/05/2022 21:45"
   },
+  "CF175292199": {
+    "contest_id": 492,
+    "language": "GNU C++17",
+    "path": "codeforces\\492\\492B Vanya and Lanterns.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Vanya and Lanterns",
+    "problem_url": "https://codeforces.com/contest/492/problem/B",
+    "submission_id": "CF175292199",
+    "submission_url": "https://codeforces.com/contest/492/submission/175292199",
+    "tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Oct/10/2022 05:23"
+  },
   "CF175294618": {
     "contest_id": 1385,
     "language": "GNU C++17",
