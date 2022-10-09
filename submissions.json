@@ -1671,6 +1671,23 @@
     ],
     "timestamp": "Oct/05/2022 21:45"
   },
+  "CF175265012": {
+    "contest_id": 1353,
+    "language": "GNU C++17",
+    "path": "codeforces\\1353\\1353B Two Arrays And Swaps.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Two Arrays And Swaps",
+    "problem_url": "https://codeforces.com/contest/1353/problem/B",
+    "submission_id": "CF175265012",
+    "submission_url": "https://codeforces.com/contest/1353/submission/175265012",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Oct/09/2022 22:20"
+  },
   "CF175292199": {
     "contest_id": 492,
     "language": "GNU C++17",
