@@ -1671,6 +1671,22 @@
     ],
     "timestamp": "Oct/05/2022 21:45"
   },
+  "CF175794011": {
+    "contest_id": 897,
+    "language": "GNU C++17",
+    "path": "codeforces\\897\\897A Scarborough Fair.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Scarborough Fair",
+    "problem_url": "https://codeforces.com/contest/897/problem/A",
+    "submission_id": "CF175794011",
+    "submission_url": "https://codeforces.com/contest/897/submission/175794011",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/12/2022 23:26"
+  },
   "CF175939881": {
     "contest_id": 1742,
     "language": "GNU C++17",
