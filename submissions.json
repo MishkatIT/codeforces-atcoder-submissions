@@ -1106,6 +1106,23 @@
     ],
     "timestamp": "Sep/29/2022 18:58"
   },
+  "CF176947509": {
+    "contest_id": 443,
+    "language": "GNU C++17",
+    "path": "codeforces\\443\\443A Anton and Letters.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Anton and Letters",
+    "problem_url": "https://codeforces.com/contest/443/problem/A",
+    "submission_id": "CF176947509",
+    "submission_url": "https://codeforces.com/contest/443/submission/176947509",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/19/2022 06:04"
+  },
   "CF176992713": {
     "contest_id": 313,
     "language": "GNU C++17",
