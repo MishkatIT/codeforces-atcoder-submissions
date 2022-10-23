@@ -1106,6 +1106,22 @@
     ],
     "timestamp": "Sep/29/2022 18:58"
   },
+  "CF177576112": {
+    "contest_id": 1754,
+    "language": "GNU C++17",
+    "path": "codeforces\\1754\\1754A Technical Support.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Technical Support",
+    "problem_url": "https://codeforces.com/contest/1754/problem/A",
+    "submission_id": "CF177576112",
+    "submission_url": "https://codeforces.com/contest/1754/submission/177576112",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Oct/23/2022 14:45"
+  },
   "CF177650171": {
     "contest_id": 1754,
     "language": "GNU C++17",
