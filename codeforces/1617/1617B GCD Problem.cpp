@@ -19,7 +19,7 @@ int32_t main()
         for(long long i=2; i<=n; i++)
             if((__gcd(i, (n - i - 1))) == 1)
             {
-                cout << i << ' ' << n - i - 1 << ' ' << c << endl;
+                cout << i << ' ' << n - i - 1 << ' ' << c << '\n';
                 break;
             }
     }
