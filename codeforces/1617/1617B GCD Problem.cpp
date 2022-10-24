@@ -3,7 +3,8 @@
     created   : Tuesday 2022-10-25-02.31.39
     problem   : 1617 B. GCD Problem
 */
-#include<bits/stdc++.h>
+#include<iostream>
+#include<algorithm>
 //#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 using namespace std;
 int main()
