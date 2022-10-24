@@ -1106,6 +1106,23 @@
     ],
     "timestamp": "Sep/29/2022 18:58"
   },
+  "CF177756791": {
+    "contest_id": 130,
+    "language": "Befunge",
+    "path": "codeforces\\130\\130A Hexagonal numbers.befunge",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hexagonal numbers",
+    "problem_url": "https://codeforces.com/contest/130/problem/A",
+    "submission_id": "CF177756791",
+    "submission_url": "https://codeforces.com/contest/130/submission/177756791",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Oct/24/2022 17:35"
+  },
   "CF177784137": {
     "contest_id": 1462,
     "language": "GNU C++17",
