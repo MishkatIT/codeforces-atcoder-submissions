@@ -14,15 +14,23 @@ int main()
     cin >> t;
     while(t--)
     {
-        long long n, c = 1;
+        long long n, a, b, c = 1;
         cin >> n;
         for(long long i=2; i<=n; i++)
-            if((__gcd(i, (n - i - 1))) == 1)
+        {
+            b = n - i - 1;
+            long long g = __gcd(i, b);
+            if(g==1)
             {
-                cout << i << ' ' << n - i - 1 << ' ' << c << '\n';
+                a = i;
                 break;
             }
+        }
+        cout << a << ' ' << b << ' ' << c << '\n';
+
     }
+
+
     return 0;
 }
 
