@@ -1106,6 +1106,19 @@
     ],
     "timestamp": "Sep/29/2022 18:58"
   },
+  "CF177810492": {
+    "contest_id": 1617,
+    "language": "GNU C++17",
+    "path": "codeforces\\1617\\1617B GCD Problem.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "GCD Problem",
+    "problem_url": "https://codeforces.com/contest/1617/problem/B",
+    "submission_id": "CF177810492",
+    "submission_url": "https://codeforces.com/contest/1617/submission/177810492",
+    "tags": [],
+    "timestamp": "Oct/25/2022 03:24"
+  },
   "CF177810562": {
     "contest_id": 1617,
     "language": "GNU C++17",
