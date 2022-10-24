@@ -11,7 +11,7 @@ int main()
 {
 //    fio;
     int t;
-    scanf("%d", &t);
+    cin >> t;
     while(t--)
     {
         long long n, c = 1;
@@ -19,7 +19,7 @@ int main()
         for(long long i=2; i<=n; i++)
             if((__gcd(i, (n - i - 1))) == 1)
             {
-                printf("%lld %lld %lld \n", i, n - i - 1, c);
+                cout << i << ' ' << n - i - 1 << ' ' << c << '\n';
                 break;
             }
     }
