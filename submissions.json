@@ -1106,6 +1106,22 @@
     ],
     "timestamp": "Sep/29/2022 18:58"
   },
+  "CF177927911": {
+    "contest_id": 1607,
+    "language": "GNU C++17",
+    "path": "codeforces\\1607\\1607B Odd Grasshopper.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Odd Grasshopper",
+    "problem_url": "https://codeforces.com/contest/1607/problem/B",
+    "submission_id": "CF177927911",
+    "submission_url": "https://codeforces.com/contest/1607/submission/177927911",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Oct/26/2022 03:06"
+  },
   "CF177929304": {
     "contest_id": 977,
     "language": "GNU C++17",
