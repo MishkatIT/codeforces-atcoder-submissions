@@ -28,8 +28,8 @@ int main()
     {
         int x, y;
         cin >> x >> y;
-//        long long ans = v[x]-v[x-y];
-        cout << (long long)v[x]-(long long)v[x-y] << '\n';
+        long long ans = v[x]-v[x-y];
+        cout << ans << '\n';
     }
     return 0;
 }
