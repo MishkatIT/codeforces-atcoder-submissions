@@ -1,4 +1,21 @@
 {
+  "CF178145875": {
+    "contest_id": 1650,
+    "language": "GNU C++17",
+    "path": "codeforces\\1650\\1650A Deletions of Two Adjacent Letters.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Deletions of Two Adjacent Letters",
+    "problem_url": "https://codeforces.com/contest/1650/problem/A",
+    "submission_id": "CF178145875",
+    "submission_url": "https://codeforces.com/contest/1650/submission/178145875",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Oct/28/2022 01:01"
+  },
   "CF178149340": {
     "contest_id": 1368,
     "language": "GNU C++17",
