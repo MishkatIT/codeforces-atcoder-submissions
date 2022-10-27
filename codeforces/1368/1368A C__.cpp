@@ -14,16 +14,17 @@ int main()
     cin >> t;
     while(t--)
     {
-        long long a, b, c, ans = 0;
+        long long a, b, c, ans, i, temp;
         cin >> a >> b >> c;
-        while(a <= c and b <= c)
+        ans = a+b;
+        a = max(a, b);
+        for(i=1; ans <= c; i++)
         {
-            if(a<b)
-                swap(a, b);
-            b+=a;
-            ans++;
+            temp = ans;
+            ans  += a;
+            a = temp;
         }
-        cout << ans << '\n';
+        cout << i << '\n';
 
     }
 
