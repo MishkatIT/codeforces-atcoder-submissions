@@ -1,4 +1,21 @@
 {
+  "CF178152840": {
+    "contest_id": 1369,
+    "language": "GNU C++17",
+    "path": "codeforces\\1369\\1369A FashionabLee.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "FashionabLee",
+    "problem_url": "https://codeforces.com/contest/1369/problem/A",
+    "submission_id": "CF178152840",
+    "submission_url": "https://codeforces.com/contest/1369/submission/178152840",
+    "tags": [
+      "geometry",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/28/2022 02:28"
+  },
   "CF178160319": {
     "contest_id": 1369,
     "language": "GNU C++17",
