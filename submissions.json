@@ -1,4 +1,21 @@
 {
+  "CF178284403": {
+    "contest_id": 94,
+    "language": "GNU C++17",
+    "path": "codeforces\\94\\94A Restoring Password.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Restoring Password",
+    "problem_url": "https://codeforces.com/contest/94/problem/A",
+    "submission_id": "CF178284403",
+    "submission_url": "https://codeforces.com/contest/94/submission/178284403",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Oct/29/2022 05:16"
+  },
   "CF178360795": {
     "contest_id": 1740,
     "language": "GNU C++17",
