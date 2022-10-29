@@ -1,4 +1,21 @@
 {
+  "CF178459858": {
+    "contest_id": 1303,
+    "language": "GNU C++17",
+    "path": "codeforces\\1303\\1303A Erasing Zeroes.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Erasing Zeroes",
+    "problem_url": "https://codeforces.com/contest/1303/problem/A",
+    "submission_id": "CF178459858",
+    "submission_url": "https://codeforces.com/contest/1303/submission/178459858",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Oct/30/2022 05:25"
+  },
   "CF178590655": {
     "contest_id": 514,
     "language": "GNU C++17",
