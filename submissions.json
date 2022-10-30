@@ -1,4 +1,20 @@
 {
+  "CF178610223": {
+    "contest_id": 1256,
+    "language": "GNU C++17",
+    "path": "codeforces\\1256\\1256A Payment Without Change.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Payment Without Change",
+    "problem_url": "https://codeforces.com/contest/1256/problem/A",
+    "submission_id": "CF178610223",
+    "submission_url": "https://codeforces.com/contest/1256/submission/178610223",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Oct/30/2022 23:43"
+  },
   "CF178615569": {
     "contest_id": 124,
     "language": "GNU C++17",
