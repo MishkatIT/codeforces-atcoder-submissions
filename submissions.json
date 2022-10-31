@@ -1,4 +1,21 @@
 {
+  "CF178681524": {
+    "contest_id": 1141,
+    "language": "GNU C++17",
+    "path": "codeforces\\1141\\1141A Game 23.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Game 23",
+    "problem_url": "https://codeforces.com/contest/1141/problem/A",
+    "submission_id": "CF178681524",
+    "submission_url": "https://codeforces.com/contest/1141/submission/178681524",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Oct/31/2022 18:29"
+  },
   "CF178688960": {
     "contest_id": 1365,
     "language": "GNU C++17",
