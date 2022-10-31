@@ -1,4 +1,21 @@
 {
+  "CF178688960": {
+    "contest_id": 1365,
+    "language": "GNU C++17",
+    "path": "codeforces\\1365\\1365B Trouble Sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Trouble Sort",
+    "problem_url": "https://codeforces.com/contest/1365/problem/B",
+    "submission_id": "CF178688960",
+    "submission_url": "https://codeforces.com/contest/1365/submission/178688960",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/31/2022 19:30"
+  },
   "CF178731395": {
     "contest_id": 1527,
     "language": "GNU C++17",
