@@ -1,4 +1,20 @@
 {
+  "CF178736988": {
+    "contest_id": 276,
+    "language": "GNU C++17",
+    "path": "codeforces\\276\\276A Lunch Rush.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lunch Rush",
+    "problem_url": "https://codeforces.com/contest/276/problem/A",
+    "submission_id": "CF178736988",
+    "submission_url": "https://codeforces.com/contest/276/submission/178736988",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Nov/01/2022 02:20"
+  },
   "CF178738979": {
     "contest_id": 1355,
     "language": "GNU C++17",
