@@ -1732,6 +1732,22 @@
     ],
     "timestamp": "Nov/01/2022 17:54"
   },
+  "CF178845611": {
+    "contest_id": 1574,
+    "language": "GNU C++17",
+    "path": "codeforces\\1574\\1574A Regular Bracket Sequences.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Regular Bracket Sequences",
+    "problem_url": "https://codeforces.com/contest/1574/problem/A",
+    "submission_id": "CF178845611",
+    "submission_url": "https://codeforces.com/contest/1574/submission/178845611",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Nov/01/2022 19:04"
+  },
   "CF178884638": {
     "contest_id": 379,
     "language": "GNU C++17",
