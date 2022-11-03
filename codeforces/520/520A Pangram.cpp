@@ -7,7 +7,6 @@
 #include<string>
 #include<algorithm>
 #include<map>
-#include<set>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 using namespace std;
 int main()
@@ -18,41 +17,19 @@ int main()
     string str;
     cin >> str;
     transform(str.begin(), str.end(), str.begin(), :: tolower);
-    set<char>st;
-    for (int i = 0; i < n; i++)
+    sort(str.begin(), str.end());
+    int cnt = 0;
+    for (int i = 0; i < n - 1; i++)
     {
-        st.insert(str[i]);
-    }
-    char c = 'a';
-    string s;
-    for (int i = 0; i < 26; i++)
-        s += c++;
-    int x = 0;
-    for(auto i: st)
+        if(str[i + 1] - str[i] > 1)
         {
-            if(i != s[x])
-                {
-                    cout << "NO" ;
-                    return 0;
-                }
-                x++;
-
+            cout << "NO";
+            return 0;
         }
-        cout << (x > 25? "YES" : "NO") << '\n';
-
-//    sort(str.begin(), str.end());
-//    int cnt = 0;
-//    for (int i = 0; i < n - 1; i++)
-//    {
-//        if(str[i + 1] - str[i] > 1)
-//        {
-//            cout << "NO";
-//            return 0;
-//        }
-//        else
-//            cnt += str[i + 1] - str[i];
-//    }
-//    cout << (cnt >= 25? "YES" : "NO") << '\n';
+        else
+            cnt += str[i + 1] - str[i];
+    }
+    cout << (cnt >= 25? "YES" : "NO") << '\n';
 
 //    map<char, int> mp;
 //    char c = 'a';
