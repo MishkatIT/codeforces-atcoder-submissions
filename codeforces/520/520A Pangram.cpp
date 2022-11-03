@@ -17,41 +17,27 @@ int main()
     string str;
     cin >> str;
     transform(str.begin(), str.end(), str.begin(), :: tolower);
-    sort(str.begin(), str.end());
-    int cnt = 0;
-    for (int i = 0; i < n - 1; i++)
+    map<char, int> mp;
+    char c = 'a';
+    for (int i = 0; i < 26; i++)
     {
-        if(str[i + 1] - str[i] > 1)
+        mp[c];
+        c++;
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        mp[str[i]]++;
+    }
+    for(auto i: mp)
+    {
+        if (i.second < 1)
         {
-            cout << "NO";
+            cout << "NO" << '\n';
             return 0;
         }
-        else
-            cnt += str[i + 1] - str[i];
     }
-    cout << (cnt >= 25? "YES" : "NO") << '\n';
-
-//    map<char, int> mp;
-//    char c = 'a';
-//    for (int i = 0; i < 26; i++)
-//    {
-//        mp[c];
-//        c++;
-//    }
-//
-//    for (int i = 0; i < n; i++)
-//    {
-//        mp[str[i]]++;
-//    }
-//    for(auto i: mp)
-//    {
-//        if (i.second < 1)
-//        {
-//            cout << "NO" << '\n';
-//            return 0;
-//        }
-//    }
-//    cout << "YES" << '\n';
+    cout << "YES" << '\n';
 
     return 0;
 }
