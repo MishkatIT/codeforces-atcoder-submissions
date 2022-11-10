@@ -1,4 +1,22 @@
 {
+  "CF180402705": {
+    "contest_id": 1737,
+    "language": "GNU C++17",
+    "path": "codeforces\\1737\\1737A Ela Sorting Books.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ela Sorting Books",
+    "problem_url": "https://codeforces.com/contest/1737/problem/A",
+    "submission_id": "CF180402705",
+    "submission_url": "https://codeforces.com/contest/1737/submission/180402705",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Nov/11/2022 03:49"
+  },
   "CF180408557": {
     "contest_id": 237,
     "language": "GNU C++17",
