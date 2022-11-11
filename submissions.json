@@ -1,4 +1,23 @@
 {
+  "CF180491626": {
+    "contest_id": 478,
+    "language": "GNU C++17",
+    "path": "codeforces\\478\\478B Random Teams.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Random Teams",
+    "problem_url": "https://codeforces.com/contest/478/problem/B",
+    "submission_id": "CF180491626",
+    "submission_url": "https://codeforces.com/contest/478/submission/180491626",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Nov/11/2022 22:25"
+  },
   "CF180505285": {
     "contest_id": 723,
     "language": "GNU C++17",
