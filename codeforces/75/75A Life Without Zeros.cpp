@@ -1,33 +1,37 @@
 /*
     author    : MishkatIT
-    created   : Saturday 2022-11-12-04.08.05
-    problem   : 75 A. Life Without Zeros v2
+    created   : Saturday 2022-11-12-03.12.25
+    problem   : 75 A. Life Without Zeros
 */
 #include<iostream>
+#include<string>
 #include<algorithm>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 using namespace std;
-
-long long zeroless(long long temp)
-{
-    string str;
-    while(temp)
-    {
-        if(temp % 10 != 0)
-        {
-            str.push_back((temp % 10) + '0');
-        }
-        temp /= 10;
-    }
-    reverse(str.begin(), str.end());
-    return stoi(str);
-}
 int main()
 {
     fio;
-    long long a, b;
+    string a, b, c;
     cin >> a >> b;
-    long long c = a + b;
-    cout << (zeroless(a) + zeroless(b) == zeroless(c) ? "YES" : "NO") << '\n';
+    long long temp = stoi(a)+ stoi(b);
+    for(int i = 0; temp != 0; i++)
+    {
+        if(temp % 10 != 0)
+        {
+            c.push_back((temp % 10) + '0');
+        }
+        temp /= 10;
+    }
+    reverse(c.begin(), c.end());
+    a.erase(remove(a.begin(),a.end(), '0'),a.end());
+    b.erase(remove(b.begin(),b.end(), '0'),b.end());
+    if((long long)stoi(a) + stoi(b) == stoi(c))
+        cout << "YES" << '\n';
+    else
+        cout << "NO" << '\n';
+        
     return 0;
 }
+
+
+
