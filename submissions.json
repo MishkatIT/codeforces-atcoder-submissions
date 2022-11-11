@@ -1,4 +1,22 @@
 {
+  "CF180505285": {
+    "contest_id": 723,
+    "language": "GNU C++17",
+    "path": "codeforces\\723\\723B Text Document Analysis.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Text Document Analysis",
+    "problem_url": "https://codeforces.com/contest/723/problem/B",
+    "submission_id": "CF180505285",
+    "submission_url": "https://codeforces.com/contest/723/submission/180505285",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Nov/12/2022 00:05"
+  },
   "CF180514107": {
     "contest_id": 1520,
     "language": "GNU C++17",
