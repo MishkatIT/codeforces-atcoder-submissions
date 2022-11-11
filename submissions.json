@@ -1,4 +1,20 @@
 {
+  "CF180527814": {
+    "contest_id": 37,
+    "language": "GNU C++17",
+    "path": "codeforces\\37\\37A Towers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Towers",
+    "problem_url": "https://codeforces.com/contest/37/problem/A",
+    "submission_id": "CF180527814",
+    "submission_url": "https://codeforces.com/contest/37/submission/180527814",
+    "tags": [
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Nov/12/2022 04:54"
+  },
   "CF180870696": {
     "contest_id": 1738,
     "language": "GNU C++17",
