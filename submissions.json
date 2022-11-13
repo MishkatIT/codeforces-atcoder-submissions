@@ -1,4 +1,21 @@
 {
+  "CF180900595": {
+    "contest_id": 474,
+    "language": "GNU C++17",
+    "path": "codeforces\\474\\474B Worms.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Worms",
+    "problem_url": "https://codeforces.com/contest/474/problem/B",
+    "submission_id": "CF180900595",
+    "submission_url": "https://codeforces.com/contest/474/submission/180900595",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Nov/14/2022 02:43"
+  },
   "CF181340414": {
     "contest_id": 433,
     "language": "GNU C++17",
