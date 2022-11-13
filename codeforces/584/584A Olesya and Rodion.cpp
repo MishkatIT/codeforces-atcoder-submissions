@@ -9,23 +9,17 @@ using namespace std;
 int main()
 {
     fio;
-    int n, t;
+    string n, t;
     cin >> n >> t;
-    if(!(n == 1 && t == 10))
+    if(stoi(n) < t.length())
     {
-        if (t == 10)
-        {
-            cout << 1;
-            t = 0;
-            n--;
-        }
-        for (int i = 0; i < n; i++)
-            cout << t;
-    }
-    else
         cout << -1;
+        return 0;
+    }
+    cout << t;
+    for(int i = 0; i < stoi(n) - t.length(); i++)
+        cout << 0;
     return 0;
-
 }
 
 
