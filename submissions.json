@@ -1,4 +1,23 @@
 {
+  "CF180870696": {
+    "contest_id": 1738,
+    "language": "GNU C++17",
+    "path": "codeforces\\1738\\1738C Even Number Addicts.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Even Number Addicts",
+    "problem_url": "https://codeforces.com/contest/1738/problem/C",
+    "submission_id": "CF180870696",
+    "submission_url": "https://codeforces.com/contest/1738/submission/180870696",
+    "tags": [
+      "dp",
+      "games",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Nov/13/2022 20:55"
+  },
   "CF180880423": {
     "contest_id": 798,
     "language": "GNU C++17",
