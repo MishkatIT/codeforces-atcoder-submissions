@@ -4515,6 +4515,22 @@
     ],
     "timestamp": "Nov/14/2022 04:53"
   },
+  "CF181132837": {
+    "contest_id": 1696,
+    "language": "GNU C++17",
+    "path": "codeforces\\1696\\1696B NIT Destroys the Universe.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "NIT Destroys the Universe",
+    "problem_url": "https://codeforces.com/contest/1696/problem/B",
+    "submission_id": "CF181132837",
+    "submission_url": "https://codeforces.com/contest/1696/submission/181132837",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Nov/16/2022 01:24"
+  },
   "CF181238625": {
     "contest_id": 1737,
     "language": "GNU C++17",
