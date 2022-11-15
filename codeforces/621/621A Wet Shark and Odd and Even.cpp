@@ -14,23 +14,27 @@ int main()
     fio;
     int n;
     cin >> n;
+    vector<long long> neg;
     long long cnt = 0;
-    long long sum = 0;
-    long long mn = 1e10;
+    long long ans = 0;
     for (int i = 0; i < n; i++)
     {
-        long long temp;
+        int temp;
         cin >> temp;
         if (temp & 1)
         {
+            neg.push_back(temp);
             cnt++;
-            mn = min(mn, temp);
         }
-        sum += temp;
+        else
+            ans += temp;
     }
+    sort(neg.begin(), neg.end());
+    long long sum = 0;
     if(cnt & 1)
-        sum -= mn;
-    cout << sum;
+        neg.erase(neg.begin());
+    sum = accumulate(neg.begin(), neg.end(), sum);
+    cout << (long long)(ans + sum);
 
     return 0;
 }
