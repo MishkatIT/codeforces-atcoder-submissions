@@ -4,7 +4,7 @@
     problem   : 499 B. Lecture
 */
 #include<iostream>
-#include<unordered_map>
+#include<map>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 using namespace std;
 int main()
@@ -13,7 +13,7 @@ int main()
     int n, m;
     cin >> n >> m;
     string sa, sb;
-    unordered_map<string, string> mp;
+    map<string, string> mp;
     while(m--)
     {
         cin >> sa >> sb;
