@@ -1,4 +1,21 @@
 {
+  "CF181345772": {
+    "contest_id": 499,
+    "language": "GNU C++17",
+    "path": "codeforces\\499\\499B Lecture.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lecture",
+    "problem_url": "https://codeforces.com/contest/499/problem/B",
+    "submission_id": "CF181345772",
+    "submission_url": "https://codeforces.com/contest/499/submission/181345772",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Nov/18/2022 00:09"
+  },
   "CF181354448": {
     "contest_id": 1343,
     "language": "GNU C++17",
