@@ -15,43 +15,37 @@ int main()
     {
         string str;
         cin >> str;
-        string s = "Yes";
-        for (int i = 0; i < 10; i++)
-            s += s;
-        cout << (s.find(str) != string::npos ? "YES" : "NO") << '\n';
-//            ok = false;
-//        cout << (ok ? "YES" : "NO") << '\n';
-            //        int len = str.length();
-//        int x;
-//        if (str[0] == 'Y')
-//            x = 0;
-//        else if (str[0] == 'e')
-//            x = 1;
-//        else if (str[0] == 's')
-//            x = 2;
-//        else
-//        {
-//            cout << "NO" << '\n';
-//            continue;
-//        }
-//        string s = "Yes";
-//        bool ok = true;
-//        for(int i = 0; i < len; i++)
-//        {
-//            if(s[x] != str[i])
-//            {
-//                ok = false;
-//                break;
-//            }
-//            x++;
-//            if(x == 3)
-//                x = 0;
-//        }
-//        if(ok)
-//            cout << "YES" << '\n';
-//        else
-//            cout << "NO" << '\n';
+        int len = str.length();
+        int x;
+        if (str[0] == 'Y')
+            x = 0;
+        else if (str[0] == 'e')
+            x = 1;
+        else if (str[0] == 's')
+            x = 2;
+        else
+        {
+            cout << "NO" << '\n';
+            continue;
         }
+        string s = "Yes";
+        bool ok = true;
+        for(int i = 0; i < len; i++)
+        {
+            if(s[x] != str[i])
+            {
+                ok = false;
+                break;
+            }
+            x++;
+            if(x == 3)
+                x = 0;
+        }
+        if(ok)
+            cout << "YES" << '\n';
+        else
+            cout << "NO" << '\n';
+    }
     return 0;
 }
 
