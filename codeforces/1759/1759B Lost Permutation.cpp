@@ -17,26 +17,30 @@ int main()
     {
         int n, m;
         cin >> n >> m;
-        vector<int>v(1001, 0);
-        int temp, cnt = 0;
-        while(n--)
-        {
-            cin >> temp;
-            v[temp] = temp;
-            cnt++;
-        }
+        vector<int>v(n);
+        for(int i = 0; i < n; i++)
+            cin >> v[i];
+        sort(v.begin(), v.end());
+        v.push_back(0);
         bool ok = false;
-        for (int i = 1; m > 0; i++)
+        for(int i = 1; m > 0; i++)
         {
-            if (v[i] == 0)
+            if(v[i - 1] != i)
             {
-                v[i] = i;
+                v.insert(v.begin() + i - 1, i);
                 m -= i;
-                cnt++;
             }
         }
-        if(cnt == *max_element(v.begin(), v.end()) && m == 0)
+        if(m == 0)
             ok = true;
+        for(int i = 1; i < v.size(); i++)
+        {
+            if(v[i - 1] != i)
+            {
+                ok = false;
+                break;
+            }
+        }
         cout << (ok ? "YES" : "NO") << '\n';
     }
 
