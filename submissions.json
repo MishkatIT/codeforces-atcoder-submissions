@@ -4619,6 +4619,25 @@
     ],
     "timestamp": "Nov/18/2022 19:08"
   },
+  "CF181567753": {
+    "contest_id": 1679,
+    "language": "GNU C++17",
+    "path": "codeforces\\1679\\1679A AvtoBus.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "AvtoBus",
+    "problem_url": "https://codeforces.com/contest/1679/problem/A",
+    "submission_id": "CF181567753",
+    "submission_url": "https://codeforces.com/contest/1679/submission/181567753",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Nov/19/2022 12:22"
+  },
   "CF181586970": {
     "contest_id": 1401,
     "language": "GNU C++17",
