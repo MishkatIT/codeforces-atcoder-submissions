@@ -13,7 +13,7 @@ int main()
     fio;
     int n;
     cin >> n;
-    cout << (long long)pow(2, n + 1) - 2;
+    cout << setprecision(1000) << (long double)pow(2, n + 1) - 2;
 
     return 0;
 }
