@@ -1,44 +1,40 @@
+/*
+    author    : MishkatIT
+    created   : Sunday 2022-11-20-12.33.02
+    problem   : 381 A. Sereja and Dima v2
+*/
 #include<iostream>
+#include<queue>
 #include<algorithm>
+#include<vector>
+#include<deque>
+#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 using namespace std;
 int main()
 {
-    long int n, i, sereja = 0, dima = 0, mx;
+    fio;
+    int n;
     cin >> n;
-    long int arr[n];
-    for(i = 0; i < n; i++)
+    deque<int> dq;
+    int temp;
+    while(n--)
     {
-        cin >> arr[i];
+        cin >> temp;
+        dq.push_back(temp);
     }
-    for (int b = 1, a = n, i = 0; b <= n;)
+    int sereja = 0, dima = 0, toggle = 0;
+    while(!dq.empty())
     {
-
-        mx = max (arr[i], arr[a-1]);
-        sereja += mx;
-
-
-        if(mx == arr[i])
-            i++;
+        if(!(toggle & 1))
+            sereja += max (dq.front(), dq.back());
         else
-            a--;
+            dima += max (dq.front(), dq.back());
 
-
-        if( b == n)
-            break;
-
-
-        mx = max (arr[i], arr[a-1]);
-        dima += mx;
-        b +=2;
-
-
-        if(mx == arr[i])
-            i++;
-        else
-            a--;
-
-
-
+        dq.front() > dq.back() ? dq.pop_front() : dq.pop_back();
+        toggle++;
     }
-    cout << sereja << " "<< dima << endl;
+    cout << sereja << ' ' << dima;
+
+
+    return 0;
 }
