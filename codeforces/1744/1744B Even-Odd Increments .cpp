@@ -1,68 +1,61 @@
 /*
     author    : MishkatIT
-    created   : Sunday 2022-10-16-22.06.07
+    created   : Tuesday 2022-11-22-01.50.03
     problem   : 1744 B. Even-Odd Increments
 */
-#include<bits/stdc++.h>
-#define fio ios_base::sync_with_stdio(0);cin.tie(0);
+#include<iostream>
+#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 using namespace std;
 int main()
 {
     fio;
-    long long  t;
+    int t;
     cin >> t;
     while(t--)
     {
-        long long  n, q,  temp, ev=0, od=0, ans=0;
+        long long n, q;
         cin >> n >> q;
-        for (long long  i=0; i<n; i++)
+        long long arr[n];
+        int odd = 0, even = 0;
+        long long sum = 0;
+        for(long long i = 0; i < n; i++)
         {
-            cin >> temp;
-            if(temp%2)
-                od++;
+            cin >> arr[i];
+            if(arr[i] & 1)
+                odd++;
             else
-                ev++;
-            ans+=temp;
-
-
+                even++;
+            sum += arr[i];
         }
-
-        long long  a, b;
+        int x, y;
         while(q--)
         {
-            cin >> a >> b;
-            if(a==0)
+            cin >> x >> y;
+            if(x & 1)
             {
-                ans+=ev*b;
+                sum += (odd * y);
+                if(y & 1)
                 {
-                    if(b%2)
-                    {
-                        od+=ev;
-                        ev=0;
-                    }
-
+                    even += odd;
+                    odd = 0;
                 }
-
             }
             else
             {
-                ans+=od*b;
+                sum += (even * y);
+                if(y & 1)
                 {
-                    if(b%2==1)
-                    {
-                        ev+=od;
-                        od=0;
-                    }
-
+                    odd += even;
+                    even = 0;
                 }
             }
-
-            cout << ans << '\n';
+            cout << sum << '\n';
         }
 
     }
 
-
+    return 0;
 }
+
 
 
