@@ -19,6 +19,8 @@ signed main()
         cin >> l >> r >> d;
         if(l > r)
             swap(l, r);
+        int rem = r % l;
+        int div = r / l;
         if((d + 1) * l >= r)
             cout << "YES" << '\n';
         else
