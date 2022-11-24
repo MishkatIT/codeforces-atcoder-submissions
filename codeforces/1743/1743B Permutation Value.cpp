@@ -15,25 +15,20 @@ int main()
     {
         int n;
         cin >> n;
-        cout << "1" << ' ';
-        for(int i = n; i > 1; i--)
-            cout << i << ' ';
-        cout << '\n';
-
-//        int x = (n / 2) + 1;
-//        int y = x + 1;
-//        for (int i = 1; i <= n; i++)
-//        {
-//            if(i <= x)
-//            {
-//                cout << i << ' ';
-//            }
-//            if(y <= n)
-//            {
-//                cout << y << ' ';
-//                y++;
-//            }
-//        }
+        int x = (n / 2) + 1;
+        int y = x + 1;
+        for (int i = 1; i <= n; i++)
+        {
+            if(i <= x)
+            {
+                cout << i << ' ';
+            }
+            if(y <= n)
+            {
+                cout << y << ' ';
+                y++;
+            }
+        }
     }
 
     return 0;
