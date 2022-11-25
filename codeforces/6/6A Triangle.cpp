@@ -15,10 +15,13 @@ int main()
     for(int i = 0; i < n; i++)
         cin >> a[i];
     sort(a, a + n);
-    int mx = -200;
-    for (int i = 0; i < 2; i++)
-        mx = max (mx ,(a[i] + a[i + 1] - a[i + 2]));
-    cout << (mx > 0 ? "TRIANGLE" :(mx == 0 ? "SEGMENT" : "IMPOSSIBLE"));
+    if ((a[0] + a[1] > a[2]) ||(a[1] + a[2] > a[3]))
+        cout << "TRIANGLE";
+    else if ((a[0] + a[1] == a[2]) ||(a[1] + a[2] == a[3]))
+        cout << "SEGMENT";
+    else
+        cout << "IMPOSSIBLE";
+
     return 0;
 }
 
