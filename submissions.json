@@ -4619,6 +4619,22 @@
     ],
     "timestamp": "Nov/18/2022 19:08"
   },
+  "CF182522953": {
+    "contest_id": 1758,
+    "language": "GNU C++17",
+    "path": "codeforces\\1758\\1758B XOR _ Average.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "XOR = Average",
+    "problem_url": "https://codeforces.com/contest/1758/problem/B",
+    "submission_id": "CF182522953",
+    "submission_url": "https://codeforces.com/contest/1758/submission/182522953",
+    "tags": [
+      "constructive algorithms",
+      "*900"
+    ],
+    "timestamp": "Nov/25/2022 22:50"
+  },
   "CF182564819": {
     "contest_id": 459,
     "language": "GNU C++17",
