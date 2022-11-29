@@ -4619,6 +4619,22 @@
     ],
     "timestamp": "Nov/18/2022 19:08"
   },
+  "CF183252140": {
+    "contest_id": 598,
+    "language": "GNU C++17",
+    "path": "codeforces\\598\\598A Tricky Sum.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tricky Sum",
+    "problem_url": "https://codeforces.com/contest/598/problem/A",
+    "submission_id": "CF183252140",
+    "submission_url": "https://codeforces.com/contest/598/submission/183252140",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Nov/29/2022 22:36"
+  },
   "CF183325859": {
     "contest_id": 1609,
     "language": "GNU C++17",
