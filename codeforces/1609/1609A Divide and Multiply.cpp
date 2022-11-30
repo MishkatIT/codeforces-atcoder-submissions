@@ -26,18 +26,20 @@ int main()
     cin >> t;
     while(t--)
     {
-        long long n, pwr = 0, mx = 0, sum = 0;
+        long long n, pwr = 0;
         cin >> n;
         long long arr[n];
         for (int i = 0; i < n; i++)
         {
             cin >> arr[i];
             pwr += power(arr[i]);
-            arr[i] = temp;
-            mx = max(mx, temp);
-            sum += temp;
+            arr[i] = temp;;
         }
+        long long sum = 0;
+        sum = accumulate(arr, arr + n, sum);
+        long long mx = *max_element(arr, arr + n);
         cout << setprecision(1000) << mx * pow(2, (int) pwr) + sum - mx << '\n';
+
     }
     return 0;
 }
