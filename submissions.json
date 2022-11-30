@@ -6236,6 +6236,22 @@
     ],
     "timestamp": "Nov/30/2022 18:11"
   },
+  "CF183388956": {
+    "contest_id": 1253,
+    "language": "GNU C++17",
+    "path": "codeforces\\1253\\1253A Single Push.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Single Push",
+    "problem_url": "https://codeforces.com/contest/1253/problem/A",
+    "submission_id": "CF183388956",
+    "submission_url": "https://codeforces.com/contest/1253/submission/183388956",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Nov/30/2022 23:18"
+  },
   "CF183461269": {
     "contest_id": 1444,
     "language": "GNU C++17",
