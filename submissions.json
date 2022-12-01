@@ -6236,6 +6236,23 @@
     ],
     "timestamp": "Nov/30/2022 18:11"
   },
+  "CF183514515": {
+    "contest_id": 1726,
+    "language": "GNU C++17",
+    "path": "codeforces\\1726\\1726A Mainak and Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mainak and Array",
+    "problem_url": "https://codeforces.com/contest/1726/problem/A",
+    "submission_id": "CF183514515",
+    "submission_url": "https://codeforces.com/contest/1726/submission/183514515",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Dec/01/2022 23:40"
+  },
   "CF183521415": {
     "contest_id": 1764,
     "language": "GNU C++17",
