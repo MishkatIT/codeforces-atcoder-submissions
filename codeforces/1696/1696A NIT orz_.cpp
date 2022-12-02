@@ -16,11 +16,11 @@ int main()
         int n, z;
         cin >> n >> z;
         int mx = 0;
-        int arr[n];
+        vector<int> v(n);
         for (int i = 0; i < n; i++)
         {
-            cin >> arr[i];
-            mx = max (mx, arr[i] | z);
+            cin >> v[i];
+            mx = max (mx, v[i] | z);
         }
         cout << mx << '\n';
     }
