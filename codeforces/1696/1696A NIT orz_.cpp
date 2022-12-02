@@ -15,13 +15,14 @@ int main()
     {
         int n, z;
         cin >> n >> z;
+        int mx = 0;
         int arr[n];
         for (int i = 0; i < n; i++)
         {
             cin >> arr[i];
-            arr[i] |= z;
+            mx = max (mx, arr[i] | z);
         }
-        cout << *max_element(arr, arr + n) << '\n';
+        cout << mx << '\n';
     }
     return 0;
 }
