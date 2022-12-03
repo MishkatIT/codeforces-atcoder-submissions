@@ -6236,6 +6236,23 @@
     ],
     "timestamp": "Nov/30/2022 18:11"
   },
+  "CF183744647": {
+    "contest_id": 313,
+    "language": "GNU C++17",
+    "path": "codeforces\\313\\313B Ilya and Queries.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ilya and Queries",
+    "problem_url": "https://codeforces.com/contest/313/problem/B",
+    "submission_id": "CF183744647",
+    "submission_url": "https://codeforces.com/contest/313/submission/183744647",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/03/2022 21:25"
+  },
   "CF183764748": {
     "contest_id": 1560,
     "language": "GNU C++17",
