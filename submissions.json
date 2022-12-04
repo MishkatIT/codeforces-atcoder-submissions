@@ -6236,6 +6236,24 @@
     ],
     "timestamp": "Nov/30/2022 18:11"
   },
+  "CF183875138": {
+    "contest_id": 1712,
+    "language": "GNU C++17",
+    "path": "codeforces\\1712\\1712B Woeful Permutation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Woeful Permutation",
+    "problem_url": "https://codeforces.com/contest/1712/problem/B",
+    "submission_id": "CF183875138",
+    "submission_url": "https://codeforces.com/contest/1712/submission/183875138",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Dec/05/2022 02:22"
+  },
   "CF183876184": {
     "contest_id": 1602,
     "language": "GNU C++17",
