@@ -4619,6 +4619,22 @@
     ],
     "timestamp": "Nov/18/2022 19:08"
   },
+  "CF184270130": {
+    "contest_id": 47,
+    "language": "GNU C++17",
+    "path": "codeforces\\47\\47B Coins.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Coins",
+    "problem_url": "https://codeforces.com/contest/47/problem/B",
+    "submission_id": "CF184270130",
+    "submission_url": "https://codeforces.com/contest/47/submission/184270130",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Dec/08/2022 03:11"
+  },
   "CF184353831": {
     "contest_id": 476,
     "language": "GNU C++17",
