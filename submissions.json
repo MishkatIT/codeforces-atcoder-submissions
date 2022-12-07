@@ -4619,6 +4619,23 @@
     ],
     "timestamp": "Nov/18/2022 19:08"
   },
+  "CF184177181": {
+    "contest_id": 147,
+    "language": "GNU C++17",
+    "path": "codeforces\\147\\147A Punctuation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Punctuation",
+    "problem_url": "https://codeforces.com/contest/147/problem/A",
+    "submission_id": "CF184177181",
+    "submission_url": "https://codeforces.com/contest/147/submission/184177181",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Dec/07/2022 14:19"
+  },
   "CF184270130": {
     "contest_id": 47,
     "language": "GNU C++17",
