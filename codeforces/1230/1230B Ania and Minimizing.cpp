@@ -13,22 +13,22 @@ int main()
     cin >> len >> k;
     string str;
     cin >> str;
-    int cnt = 0;
-    for (int i = 0; cnt < k; i++)
+    if(len == 1 && k != 0)
     {
-        if(i == 0)
-        {
-            if(str[i] != '1')
-            {
-                str[i] = '1';
-                cnt++;
-            }
-            if(len == 1)
-                str[i] = '0', cnt++;
-            continue;
-        }
+        cout << 0;
+        return 0;
+    }
+    if(k > 0)
+        if (str[0] != '1')
+            str[0] = '1';
+        else
+            k++;
+    for (int i = 1; i < k; i++)
+    {
         if(str[i] != '0')
-            str[i] = '0', cnt++;
+            str[i] = '0';
+        else
+            k++;
         if(i + 1 == len)
             break;
     }
