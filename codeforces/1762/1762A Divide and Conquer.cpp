@@ -50,7 +50,7 @@ signed main()
         for (int i = 0; i < even.size(); i++)
         {
             int cnt = 0;
-            while(even[i] % 2 == 0)
+            while(even[i] % 2 == 0 && even[i] > 0)
             {
                 even[i] /= 2;
                 cnt++;
