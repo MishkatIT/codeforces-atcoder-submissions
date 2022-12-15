@@ -11,14 +11,21 @@ int main()
     fio;
     int n;
     cin >> n;
-    long long mn = LONG_MAX;
-    long long a, b, ans = 0;
+    vector<pair<long long, long long>> v;
+    int a, b;
     for (int i = 0; i < n; i++)
     {
         cin >> a >> b;
-        if(b < mn)
-            mn = b;
-        ans += (a * mn);
+        v.emplace_back(a, b);
+    }
+
+    long long mn = LONG_MAX;
+    long long ans = 0;
+    for(auto &i: v)
+    {
+        if(i.second < mn)
+            mn = i.second;
+        ans += (i.first * mn);
     }
     cout << ans;
 
