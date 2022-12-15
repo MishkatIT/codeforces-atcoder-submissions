@@ -1,4 +1,21 @@
 {
+  "CF185398775": {
+    "contest_id": 513,
+    "language": "GNU C++17",
+    "path": "codeforces\\513\\513A Game.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Game",
+    "problem_url": "https://codeforces.com/contest/513/problem/A",
+    "submission_id": "CF185398775",
+    "submission_url": "https://codeforces.com/contest/513/submission/185398775",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/16/2022 04:47"
+  },
   "CF185399208": {
     "contest_id": 501,
     "language": "GNU C++17",
