@@ -1,4 +1,20 @@
 {
+  "CF185400708": {
+    "contest_id": 52,
+    "language": "GNU C++17",
+    "path": "codeforces\\52\\52A 123-sequence.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "123-sequence",
+    "problem_url": "https://codeforces.com/contest/52/problem/A",
+    "submission_id": "CF185400708",
+    "submission_url": "https://codeforces.com/contest/52/submission/185400708",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Dec/16/2022 05:45"
+  },
   "CF185444437": {
     "contest_id": 1762,
     "language": "GNU C++17",
