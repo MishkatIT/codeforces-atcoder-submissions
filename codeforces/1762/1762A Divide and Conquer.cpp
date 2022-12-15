@@ -5,8 +5,8 @@
 */
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-#define int long long
 using namespace std;
+#define int long long
 signed main()
 {
     fio;
@@ -16,47 +16,35 @@ signed main()
     {
         int n;
         cin >> n;
-        int a;
-        vector<int> odd, even ;
+        vector<int> v(n);
+        int sum = 0;
         for (int i = 0; i < n; i++)
         {
-            cin >> a;
-            if (a & 1)
-            {
-                odd.push_back(a);
-            }
-            else
-            {
-                even.push_back(a);
-            }
+            cin >> v[i];
+            sum += v[i];
         }
-        if(!(odd.size() & 1))
+        if(sum % 2 == 0)
         {
             cout << 0 << '\n';
             continue;
         }
-        int ans = (int)1e9;
-        for (int i = 0; i < odd.size(); i++)
+        int ans = 1e18;
+        for (int i = 0; i < n; i++)
         {
             int cnt = 0;
-            while(odd[i] % 2 != 0)
-            {
-                odd[i] /= 2;
-                cnt++;
-            }
-            if(cnt)
-                ans = min(ans, cnt);
-        }
-        for (int i = 0; i < even.size(); i++)
-        {
-            int cnt = 0;
-            while(even[i] % 2 == 0 && even[i] > 0)
-            {
-                even[i] /= 2;
-                cnt++;
-            }
-            if(cnt)
-                ans = min(ans, cnt);
+            if(v[i] % 2 != 0)
+                while(v[i] % 2 != 0)
+                {
+                    v[i] /= 2;
+                    cnt++;
+                }
+            else
+                while(v[i] % 2 == 0 && v[i] > 0)
+                {
+                    v[i] /= 2;
+                    cnt++;
+                }
+            ans = min(ans, cnt);
         }
         cout << ans << '\n';
     }
