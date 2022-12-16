@@ -1,4 +1,20 @@
 {
+  "CF185519414": {
+    "contest_id": 1767,
+    "language": "GNU C++17",
+    "path": "codeforces\\1767\\1767A Cut the Triangle.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cut the Triangle",
+    "problem_url": "https://codeforces.com/contest/1767/problem/A",
+    "submission_id": "CF185519414",
+    "submission_url": "https://codeforces.com/contest/1767/submission/185519414",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/16/2022 21:57"
+  },
   "CF185539482": {
     "contest_id": 1767,
     "language": "GNU C++17",
