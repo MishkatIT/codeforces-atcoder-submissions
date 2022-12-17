@@ -17,26 +17,28 @@ int main()
         string str;
         cin >> str;
         int cnt = 0;
+        string ans;
         for (int i = 0; i < n; i++)
         {
             if(str[i] == '0')
             {
                 if(i != 0)
-                    cout << '+';
+                    ans.push_back ('+');
             }
             else if(cnt)
             {
-                cout << '-';
+                ans.push_back('-');
                 cnt--;
             }
             else
             {
                 if(i != 0)
-                    cout << '+';
+                    ans.push_back('+');
                 cnt++;
             }
         }
-        cout << '\n';
+
+        cout << ans << '\n';
     }
     return 0;
 }
