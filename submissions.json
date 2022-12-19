@@ -1,4 +1,22 @@
 {
+  "CF186036130": {
+    "contest_id": 16,
+    "language": "GNU C++17",
+    "path": "codeforces\\16\\16B Burglar and Matches.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Burglar and Matches",
+    "problem_url": "https://codeforces.com/contest/16/problem/B",
+    "submission_id": "CF186036130",
+    "submission_url": "https://codeforces.com/contest/16/submission/186036130",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Dec/20/2022 01:28"
+  },
   "CF186036692": {
     "contest_id": 16,
     "language": "GNU C++17",

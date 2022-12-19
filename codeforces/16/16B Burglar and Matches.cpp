@@ -9,22 +9,24 @@ using namespace std;
 int main()
 {
     fio;
+
     int n, m;
     cin >> n >> m;
-    map<int, int> mp;
+    vector<pair<int, int>> v;
     int a, b;
     for (int i = 0; i < m; i++)
     {
         cin >> b >> a;
-        mp[a] += b;
+        v.emplace_back(a, b);
     }
+    sort(v.rbegin(), v.rend());
     int ans = 0;
-    for (auto i = mp.rbegin(); i != mp.rend(); i++)
+    for (auto& i: v)
     {
         if(n < 1)
             break;
-        ans += (min(n, i -> second) * i -> first);
-        n -= i -> second;
+        ans += (min(n, i.second) * i.first);
+        n -= i.second;
     }
     cout << ans << '\n';
     return 0;
