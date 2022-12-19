@@ -11,12 +11,12 @@ int main()
     fio;
     int n, m;
     cin >> n >> m;
-    multimap<int, int> mp;
+    map<int, int> mp;
     int a, b;
     for (int i = 0; i < m; i++)
     {
         cin >> b >> a;
-        mp.emplace(a, b);
+        mp[a] += b;
     }
     int ans = 0;
     for (auto i = mp.rbegin(); i != mp.rend(); i++)
