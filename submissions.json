@@ -1,4 +1,20 @@
 {
+  "CF186141674": {
+    "contest_id": 1203,
+    "language": "GNU C++17",
+    "path": "codeforces\\1203\\1203A Circle of Students.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Circle of Students",
+    "problem_url": "https://codeforces.com/contest/1203/problem/A",
+    "submission_id": "CF186141674",
+    "submission_url": "https://codeforces.com/contest/1203/submission/186141674",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Dec/21/2022 00:19"
+  },
   "CF186155743": {
     "contest_id": 1438,
     "language": "GNU C++17",
