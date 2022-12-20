@@ -15,7 +15,7 @@ int main()
     {
         int n;
         cin >> n;
-        set<int> s;
+        unordered_set<int> s;
         int temp;
         for (int i = 0; i < n; i++)
         {
