@@ -13,13 +13,21 @@ int main()
     cin >> n;
     string str;
     cin >> str;
+    char mx = str[0];
+    int pos = 0;
     for(int i = 1; i < n; i++)
     {
-        if(str[i] < str[i - 1])
+
+        if(str[i] < mx)
         {
             cout << "YES" << '\n';
-            cout << i << ' ' << i + 1;
+            cout << pos + 1 << ' ' << i + 1;
             return 0;
+        }
+        else
+        {
+            mx = str[i];
+            pos = i;
         }
     }
     cout << "NO" << '\n';
