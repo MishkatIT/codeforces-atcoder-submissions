@@ -1,4 +1,21 @@
 {
+  "CF186305531": {
+    "contest_id": 1690,
+    "language": "GNU C++17",
+    "path": "codeforces\\1690\\1690D Black and White Stripe.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Black and White Stripe",
+    "problem_url": "https://codeforces.com/contest/1690/problem/D",
+    "submission_id": "CF186305531",
+    "submission_url": "https://codeforces.com/contest/1690/submission/186305531",
+    "tags": [
+      "implementation",
+      "two pointers",
+      "*1000"
+    ],
+    "timestamp": "Dec/22/2022 05:28"
+  },
   "CF186379439": {
     "contest_id": 753,
     "language": "GNU C++17",
