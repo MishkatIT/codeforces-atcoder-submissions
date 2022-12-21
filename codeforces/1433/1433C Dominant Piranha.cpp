@@ -16,25 +16,32 @@ int main()
         int n;
         cin >> n;
         int arr[n];
-        int mx =  - 1;
         for (int i = 0; i < n; i++)
         {
             cin >> arr[i];
-            mx = max(mx, arr[i]);
         }
-        int i;
-        for (i = 0; i < n; i++)
+        int mx = *max_element(arr, arr + n);
+        bool ok = false;
+        for (int i = 0; i < n; i++)
         {
             if(arr[i] == mx)
             {
-                if((( i - 1 >= 0) && (arr[i - 1] < mx)) || ((i + 1 < n) && (arr[i + 1] < mx)))
+                if(( i - 1 >= 0) && (arr[i - 1] < mx))
+                {
+                    cout << i + 1 << '\n';
+                    ok = true;
                     break;
+                }
+                else if((i + 1 < n) && (arr[i + 1] < mx))
+                {
+                    cout << i + 1 << '\n';
+                    ok = true;
+                    break;
+                }
             }
         }
-        int ans = -1;
-        if(i != n)
-            ans = (i + 1);
-        cout << ans << '\n';
+        if(!ok)
+            cout << -1 << '\n';
     }
     return 0;
 }
