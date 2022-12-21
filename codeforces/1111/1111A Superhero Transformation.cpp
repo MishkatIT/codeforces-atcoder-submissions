@@ -11,26 +11,38 @@ int main()
     fio;
     string s, t;
     cin >> s >> t;
+    if(s.size() != t.size())
+    {
+        cout << "NO" << '\n';
+        return 0;
+    }
     string x = "aeiou";
     map<char, bool> mp;
     for (auto& i: x)
     {
         mp[i] = true;
     }
+    bool ok = true;
     for (int i = 0; i < s.size(); i++)
     {
-        if(mp[s[i]] & mp[t[i]])
+        if(mp[s[i]])
         {
-            t[i] = s[i];
+            if(!mp[t[i]])
+            {
+                ok = false;
+                break;
+            }
         }
-        else if(!mp[s[i]] & !mp[t[i]])
+        if(!mp[s[i]])
         {
-            t[i] = s[i];
+            if(mp[t[i]])
+            {
+                ok = false;
+                break;
+            }
         }
     }
-    if(s == t)
-        cout << "YES" << '\n';
-    else
-        cout << "NO" << '\n';
+    cout << (ok ? "YES" : "NO") << '\n';
+
     return 0;
 }
