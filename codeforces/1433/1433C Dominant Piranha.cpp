@@ -15,25 +15,32 @@ int main()
     {
         int n;
         cin >> n;
-        int arr[n + 1];
-        int mx = -1;
-        for (int i = 1; i <= n; i++)
+        int arr[n];
+        int mx =  - 1;
+        for (int i = 0; i < n; i++)
         {
             cin >> arr[i];
             mx = max(mx, arr[i]);
         }
+        int i;
         int ans = -1;
-        for (int i = 1; i <= n; i++)
+        bool ok = false;
+        for (i = 0; i < n - 1; i++)
         {
-            if(arr[i] == mx)
+            if(arr[i] < mx && arr[i + 1] == mx)
             {
-                bool ok = false;
-                if(i != 1 && arr[i - 1] != mx)
-                    ok = true;
-                else if(i != n && arr[i + 1] != mx)
-                    ok = true;
-                if(ok)
+                ok = true;
+                ans = i + 2;
+                break;
+            }
+        }
+        if(!ok)
+        {
+            for (int i = n - 1; i > 0; i--)
+            {
+                if(arr[i] < mx && arr[i - 1] == mx)
                 {
+                    ok = true;
                     ans = i;
                     break;
                 }
