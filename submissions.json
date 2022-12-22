@@ -1,4 +1,22 @@
 {
+  "CF186380420": {
+    "contest_id": 753,
+    "language": "GNU C++17",
+    "path": "codeforces\\753\\753A Santa Claus and Candies.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Santa Claus and Candies",
+    "problem_url": "https://codeforces.com/contest/753/problem/A",
+    "submission_id": "CF186380420",
+    "submission_url": "https://codeforces.com/contest/753/submission/186380420",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/22/2022 22:13"
+  },
   "CF186380625": {
     "contest_id": 753,
     "language": "GNU C++17",

@@ -12,14 +12,14 @@ int main()
     int n;
     cin >> n;
     int temp = 0;
-    unordered_multiset<int> s;
+    vector<int> s;
     for (int i = 1; (n - (temp + i)) > i; i++)
     {
-        s.insert(i);
+        s.push_back(i);
         temp += i;
     }
     if(temp != n)
-        s.insert(n - temp);
+        s.push_back(n - temp);
     cout << s.size() << '\n';
     for (auto& i: s)
             cout << i << ' ';
