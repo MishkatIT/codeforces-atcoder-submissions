@@ -12,7 +12,7 @@ int main()
     int n;
     cin >> n;
     int temp = 0;
-    vector<int> s;
+    deque<int> s;
     for (int i = 1; (n - (temp + i)) > i; i++)
     {
         s.push_back(i);
