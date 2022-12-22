@@ -12,14 +12,14 @@ int main()
     int n;
     cin >> n;
     int temp = 0;
-    deque<int> s;
+    multiset<int> s;
     for (int i = 1; (n - (temp + i)) > i; i++)
     {
-        s.push_back(i);
+        s.insert(i);
         temp += i;
     }
     if(temp != n)
-        s.push_back(n - temp);
+        s.insert(n - temp);
     cout << s.size() << '\n';
     for (auto& i: s)
             cout << i << ' ';
