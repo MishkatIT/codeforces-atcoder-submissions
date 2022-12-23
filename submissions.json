@@ -1,4 +1,22 @@
 {
+  "CF186506412": {
+    "contest_id": 452,
+    "language": "GNU C++17",
+    "path": "codeforces\\452\\452A Eevee.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Eevee",
+    "problem_url": "https://codeforces.com/contest/452/problem/A",
+    "submission_id": "CF186506412",
+    "submission_url": "https://codeforces.com/contest/452/submission/186506412",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Dec/24/2022 01:32"
+  },
   "CF186509344": {
     "contest_id": 120,
     "language": "GNU C++17",
