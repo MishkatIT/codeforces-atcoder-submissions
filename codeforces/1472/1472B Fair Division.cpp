@@ -27,7 +27,9 @@ int main()
                 two++;
         }
         bool ok = false;
-        if(one == 0)
+        if(two == n * 2)
+            ok = true;
+        else if(one == 0)
         {
             if(two % 2 == 0)
                 ok = true;

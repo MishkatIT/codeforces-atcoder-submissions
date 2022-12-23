@@ -1,4 +1,22 @@
 {
+  "CF186511736": {
+    "contest_id": 1472,
+    "language": "GNU C++17",
+    "path": "codeforces\\1472\\1472B Fair Division.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fair Division",
+    "problem_url": "https://codeforces.com/contest/1472/problem/B",
+    "submission_id": "CF186511736",
+    "submission_url": "https://codeforces.com/contest/1472/submission/186511736",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/24/2022 02:56"
+  },
   "CF186512302": {
     "contest_id": 1472,
     "language": "GNU C++17",
