@@ -1,4 +1,22 @@
 {
+  "CF186509344": {
+    "contest_id": 120,
+    "language": "GNU C++17",
+    "path": "codeforces\\120\\120A Elevator.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elevator",
+    "problem_url": "https://codeforces.com/contest/120/problem/A",
+    "submission_id": "CF186509344",
+    "submission_url": "https://codeforces.com/contest/120/submission/186509344",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/24/2022 02:14"
+  },
   "CF186511736": {
     "contest_id": 1472,
     "language": "GNU C++17",
