@@ -1,4 +1,20 @@
 {
+  "CF186498688": {
+    "contest_id": 1101,
+    "language": "GNU C++17",
+    "path": "codeforces\\1101\\1101A Minimum Integer.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Minimum Integer",
+    "problem_url": "https://codeforces.com/contest/1101/problem/A",
+    "submission_id": "CF186498688",
+    "submission_url": "https://codeforces.com/contest/1101/submission/186498688",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/24/2022 00:03"
+  },
   "CF186500963": {
     "contest_id": 849,
     "language": "GNU C++17",
