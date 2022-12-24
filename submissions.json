@@ -1,4 +1,20 @@
 {
+  "CF186562793": {
+    "contest_id": 652,
+    "language": "GNU C++17",
+    "path": "codeforces\\652\\652B z-sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "z-sort",
+    "problem_url": "https://codeforces.com/contest/652/problem/B",
+    "submission_id": "CF186562793",
+    "submission_url": "https://codeforces.com/contest/652/submission/186562793",
+    "tags": [
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Dec/24/2022 16:44"
+  },
   "CF186585318": {
     "contest_id": 1698,
     "language": "GNU C++17",
