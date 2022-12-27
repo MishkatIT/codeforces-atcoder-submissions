@@ -16,15 +16,26 @@ int main()
         vector<long long> v(3);
         for (auto& i: v)
             cin >> i;
-        long long mn = (v[0] + v[1] + v[2]) / 2;
-        for (int i = 0; i < 3; i++)
+        int ans = 0;
+        long long temp;
+        sort(v.rbegin(), v.rend());
+        if(v[0] > v[1])
         {
-            for (int j = i + 1; j < 3; j++)
-            {
-                mn = min(mn, v[i] + v[j]);
-            }
+            temp = v[0] - v[1];
+            long long mn = min(temp, v[2]);
+            ans += mn;
+            v[0] -= mn;
+            v[2] -= mn;
         }
-        cout << mn << '\n';
+        sort(v.rbegin(), v.rend());
+        if(v[1] > 0)
+        {
+            temp = v[2] / 2;
+            ans += temp * 2;
+            v[0] -= temp;
+            ans += min(v[0], v[1]);
+        }
+        cout << ans << '\n';
     }
     return 0;
 }

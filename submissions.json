@@ -1,4 +1,20 @@
 {
+  "CF186972392": {
+    "contest_id": 1263,
+    "language": "GNU C++17",
+    "path": "codeforces\\1263\\1263A Sweet Problem.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sweet Problem",
+    "problem_url": "https://codeforces.com/contest/1263/problem/A",
+    "submission_id": "CF186972392",
+    "submission_url": "https://codeforces.com/contest/1263/submission/186972392",
+    "tags": [
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Dec/28/2022 02:20"
+  },
   "CF186973208": {
     "contest_id": 1263,
     "language": "GNU C++17",
