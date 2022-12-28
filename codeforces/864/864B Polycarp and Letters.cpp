@@ -19,13 +19,12 @@ int main()
     {
         if(i <= 90)
         {
-            mx = max (mx, (int)s.size());
             s.clear();
+            continue;
         }
-        else
-            s.insert(i);
+        s.insert(i);
+        mx = max(mx, (int)s.size());
     }
-    mx = max (mx, (int)s.size());
     cout << mx;
     return 0;
 }
