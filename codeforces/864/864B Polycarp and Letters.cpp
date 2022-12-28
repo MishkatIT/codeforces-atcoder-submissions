@@ -13,7 +13,7 @@ int main()
     cin >> n;
     string str;
     cin >> str;
-    unordered_set<char> s;
+    set<char> s;
     int mx = 0;
     for (auto& i: str)
     {
