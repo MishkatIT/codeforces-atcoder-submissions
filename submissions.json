@@ -1,4 +1,21 @@
 {
+  "CF187059012": {
+    "contest_id": 678,
+    "language": "GNU C++17",
+    "path": "codeforces\\678\\678A Johny Likes Numbers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Johny Likes Numbers",
+    "problem_url": "https://codeforces.com/contest/678/problem/A",
+    "submission_id": "CF187059012",
+    "submission_url": "https://codeforces.com/contest/678/submission/187059012",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/28/2022 22:40"
+  },
   "CF187061168": {
     "contest_id": 864,
     "language": "GNU C++17",
