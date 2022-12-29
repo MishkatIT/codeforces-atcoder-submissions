@@ -1,4 +1,20 @@
 {
+  "CF187178056": {
+    "contest_id": 46,
+    "language": "GNU C++17",
+    "path": "codeforces\\46\\46B T-shirts from Sponsor.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "T-shirts from Sponsor",
+    "problem_url": "https://codeforces.com/contest/46/problem/B",
+    "submission_id": "CF187178056",
+    "submission_url": "https://codeforces.com/contest/46/submission/187178056",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/30/2022 00:39"
+  },
   "CF187238378": {
     "contest_id": 1511,
     "language": "GNU C++17",
