@@ -1,4 +1,21 @@
 {
+  "CF187161645": {
+    "contest_id": 100,
+    "language": "Pike",
+    "path": "codeforces\\100\\100A Carpeting the Room.pike",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Carpeting the Room",
+    "problem_url": "https://codeforces.com/contest/100/problem/A",
+    "submission_id": "CF187161645",
+    "submission_url": "https://codeforces.com/contest/100/submission/187161645",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/29/2022 22:01"
+  },
   "CF187178056": {
     "contest_id": 46,
     "language": "GNU C++17",
