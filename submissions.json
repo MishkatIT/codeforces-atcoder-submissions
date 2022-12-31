@@ -6004,6 +6004,23 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF187477592": {
+    "contest_id": 864,
+    "language": "GNU C++17",
+    "path": "codeforces\\864\\864A Fair Game.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fair Game",
+    "problem_url": "https://codeforces.com/contest/864/problem/A",
+    "submission_id": "CF187477592",
+    "submission_url": "https://codeforces.com/contest/864/submission/187477592",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Jan/01/2023 01:28"
+  },
   "CF187526454": {
     "contest_id": 174,
     "language": "GNU C++17",
