@@ -6004,6 +6004,25 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF187467572": {
+    "contest_id": 1770,
+    "language": "GNU C++17",
+    "path": "codeforces\\1770\\1770C Koxia and Number Theory.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Koxia and Number Theory",
+    "problem_url": "https://codeforces.com/contest/1770/problem/C",
+    "submission_id": "CF187467572",
+    "submission_url": "https://codeforces.com/contest/1770/submission/187467572",
+    "tags": [
+      "brute force",
+      "chinese remainder theorem",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Dec/31/2022 23:02"
+  },
   "CF187468876": {
     "contest_id": 1765,
     "language": "GNU C++17",
