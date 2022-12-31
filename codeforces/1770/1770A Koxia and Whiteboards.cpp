@@ -15,25 +15,21 @@ signed main()
     {
         int n, m;
         cin >> n >> m;
-        priority_queue<int, vector<int>, greater<int>> pq;
-        int temp;
+        vector<int> a(n), b(m);
         for (int i = 0; i < n; i++)
-        {
-            cin >> temp;
-            pq.push(temp);
-        }
-        while(m--)
-        {
-            cin >> temp;
-            pq.pop();
-            pq.push(temp);
-        }
-        int sum = 0;
-        while(!pq.empty())
-        {
-            sum += pq.top();
-            pq.pop();
-        }
+            cin >> a[i];
+        for (int i = 0; i < m; i++)
+            cin >> b[i];
+        int sum = b.back();
+        b.pop_back();
+//        a.erase(a.begin());
+        n--;
+        m--;
+        for (auto& i: b)
+            a.push_back(i);
+        sort(a.rbegin(), a.rend());
+        for (int i = 0; i < n; i++)
+            sum += a[i];
         cout << sum << '\n';
     }
     return 0;
