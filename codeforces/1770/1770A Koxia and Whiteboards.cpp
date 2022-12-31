@@ -15,21 +15,16 @@ signed main()
     {
         int n, m;
         cin >> n >> m;
-        vector<int> a(n), b(m);
-        for (int i = 0; i < n; i++)
-            cin >> a[i];
-        for (int i = 0; i < m; i++)
-            cin >> b[i];
-        int sum = b.back();
-        b.pop_back();
-//        a.erase(a.begin());
         n--;
-        m--;
-        for (auto& i: b)
-            a.push_back(i);
-        sort(a.rbegin(), a.rend());
+        int sz = (n + m);
+        vector<int> v(sz);
+        for (auto& i: v)
+            cin >> i;
+        sort(v.rbegin(), v.rend());
+        int sum;
+        cin >> sum;
         for (int i = 0; i < n; i++)
-            sum += a[i];
+            sum += v[i];
         cout << sum << '\n';
     }
     return 0;
