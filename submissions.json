@@ -6004,6 +6004,23 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF187644780": {
+    "contest_id": 1731,
+    "language": "Python 3",
+    "path": "codeforces\\1731\\1731B Kill Demodogs.py",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Kill Demodogs",
+    "problem_url": "https://codeforces.com/contest/1731/problem/B",
+    "submission_id": "CF187644780",
+    "submission_url": "https://codeforces.com/contest/1731/submission/187644780",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jan/02/2023 23:31"
+  },
   "CF187769999": {
     "contest_id": 1779,
     "language": "GNU C++17",
