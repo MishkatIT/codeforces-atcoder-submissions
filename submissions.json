@@ -6004,6 +6004,22 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF187850803": {
+    "contest_id": 1554,
+    "language": "Python 3",
+    "path": "codeforces\\1554\\1554A Cherry.py",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cherry",
+    "problem_url": "https://codeforces.com/contest/1554/problem/A",
+    "submission_id": "CF187850803",
+    "submission_url": "https://codeforces.com/contest/1554/submission/187850803",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jan/04/2023 02:16"
+  },
   "CF187850960": {
     "contest_id": 1554,
     "language": "GNU C++17",
