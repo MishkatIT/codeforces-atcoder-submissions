@@ -6004,6 +6004,23 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF187792716": {
+    "contest_id": 1779,
+    "language": "GNU C++17",
+    "path": "codeforces\\1779\\1779B MKnez_s ConstructiveForces Task.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "MKnez's ConstructiveForces Task",
+    "problem_url": "https://codeforces.com/contest/1779/problem/B",
+    "submission_id": "CF187792716",
+    "submission_url": "https://codeforces.com/contest/1779/submission/187792716",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/03/2023 21:40"
+  },
   "CF187848312": {
     "contest_id": 1779,
     "language": "GNU C++17",
