@@ -17,6 +17,14 @@ int main()
         cin >> n;
         string str;
         cin >> str;
+        set<char> s;
+        for (auto &i: str)
+            s.insert(i);
+        if(s.size() == 1)
+        {
+            cout << - 1 << '\n';
+            continue;
+        }
         bool ok = false;
         for (int i = 0; i < n - 1; i++)
         {
