@@ -6004,6 +6004,24 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF188138729": {
+    "contest_id": 1768,
+    "language": "GNU C++17",
+    "path": "codeforces\\1768\\1768A Greatest Convex.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Greatest Convex",
+    "problem_url": "https://codeforces.com/contest/1768/problem/A",
+    "submission_id": "CF188138729",
+    "submission_url": "https://codeforces.com/contest/1768/submission/188138729",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Jan/06/2023 01:12"
+  },
   "CF188231547": {
     "contest_id": 1768,
     "language": "GNU C++17",
