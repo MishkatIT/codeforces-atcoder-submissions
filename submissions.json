@@ -6004,6 +6004,22 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF188509557": {
+    "contest_id": 1606,
+    "language": "GNU C++17",
+    "path": "codeforces\\1606\\1606A AB Balance.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "AB Balance",
+    "problem_url": "https://codeforces.com/contest/1606/problem/A",
+    "submission_id": "CF188509557",
+    "submission_url": "https://codeforces.com/contest/1606/submission/188509557",
+    "tags": [
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Jan/08/2023 23:37"
+  },
   "CF188513095": {
     "contest_id": 709,
     "language": "GNU C++17",
