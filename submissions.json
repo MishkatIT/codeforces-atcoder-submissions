@@ -6004,6 +6004,23 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF188516026": {
+    "contest_id": 709,
+    "language": "GNU C++17",
+    "path": "codeforces\\709\\709C Letters Cyclic Shift.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Letters Cyclic Shift",
+    "problem_url": "https://codeforces.com/contest/709/problem/C",
+    "submission_id": "CF188516026",
+    "submission_url": "https://codeforces.com/contest/709/submission/188516026",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jan/09/2023 00:38"
+  },
   "CF188767973": {
     "contest_id": 1775,
     "language": "GNU C++17",
