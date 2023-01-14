@@ -27,7 +27,7 @@ int main()
             bool ok = false;
             for (int j = 1; j < v[i].length(); j++)
             {
-                if(mp[v[i].substr(0, j)] && mp[v[i].substr(j)])
+                if(mp[v[i].substr(0, j)] && mp[v[i].substr(j, v[i].length() - 1)])
                 {
                     ok = true;
                     break;
