@@ -22,6 +22,7 @@ int main()
             cin >> v[i];
             mp[v[i]]++;
         }
+        string ans;
         for (int i = 0; i < n; i++)
         {
             bool ok = false;
@@ -29,14 +30,19 @@ int main()
             {
                 if(mp[v[i].substr(0, j)] && mp[v[i].substr(j, v[i].length() - 1)])
                 {
+                    ans.push_back('1');
                     ok = true;
                     break;
                 }
             }
-
-            cout << ok;
+            if(!ok)
+            {
+                ans.push_back('0');
+            }
         }
-        cout << '\n';
+        cout << ans << '\n';
+
     }
     return 0;
 }
+
