@@ -6004,6 +6004,23 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF189435167": {
+    "contest_id": 5,
+    "language": "GNU C++17",
+    "path": "codeforces\\5\\5B Center Alignment.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Center Alignment",
+    "problem_url": "https://codeforces.com/contest/5/problem/B",
+    "submission_id": "CF189435167",
+    "submission_url": "https://codeforces.com/contest/5/submission/189435167",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jan/16/2023 19:00"
+  },
   "CF189472293": {
     "contest_id": 762,
     "language": "GNU C++17",
