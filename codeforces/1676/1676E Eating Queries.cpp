@@ -26,14 +26,14 @@ int main()
         {
             sum[i] = sum[i - 1] + v[i];
         }
+        int temp;
         for (int i = 0; i < q; i++)
         {
-            int temp;
             cin >> temp;
-            int pos = lower_bound(sum.begin(), sum.end(), temp) - sum.begin();
-            if(++pos > n)
-                pos = -1;
-            cout << pos << '\n';
+            if(temp > sum[n - 1])
+                cout << -1 << '\n';
+            else
+                cout << lower_bound(sum.begin(), sum.end(), temp) - sum.begin() + 1 << '\n';
         }
     }
     return 0;
