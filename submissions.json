@@ -4065,6 +4065,24 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF189675021": {
+    "contest_id": 1676,
+    "language": "GNU C++17",
+    "path": "codeforces\\1676\\1676E Eating Queries.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Eating Queries",
+    "problem_url": "https://codeforces.com/contest/1676/problem/E",
+    "submission_id": "CF189675021",
+    "submission_url": "https://codeforces.com/contest/1676/submission/189675021",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Jan/19/2023 00:40"
+  },
   "CF189778728": {
     "contest_id": 1626,
     "language": "GNU C++17",
