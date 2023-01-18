@@ -15,25 +15,24 @@ int main()
     {
         int n, q;
         cin >> n >> q;
-        vector<long long>v(n), sum(n);
+        vector<long long>v(n);
         for (int i = 0; i < n; i++)
         {
             cin >> v[i];
         }
         sort(v.rbegin(), v.rend());
-        sum[0] = v[0];
         for (int i = 1; i < n; i++)
         {
-            sum[i] = sum[i - 1] + v[i];
+            v[i] = v[i] + v[i - 1];
         }
         int temp;
         for (int i = 0; i < q; i++)
         {
             cin >> temp;
-            if(temp > sum[n - 1])
+            if(temp > v[n - 1])
                 cout << -1 << '\n';
             else
-                cout << lower_bound(sum.begin(), sum.end(), temp) - sum.begin() + 1 << '\n';
+                cout << lower_bound(v.begin(), v.end(), temp) - v.begin() + 1 << '\n';
         }
     }
     return 0;
