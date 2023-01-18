@@ -15,24 +15,27 @@ int main()
     {
         int n, q;
         cin >> n >> q;
-        vector<long long>v(n);
+        int arr[n];
+        long long sum = 0;
         for (int i = 0; i < n; i++)
         {
-            cin >> v[i];
+            cin >> arr[i];
         }
-        sort(v.rbegin(), v.rend());
+        sort(arr, arr + n, greater<>());
         for (int i = 1; i < n; i++)
         {
-            v[i] = v[i] + v[i - 1];
+            arr[i] = arr[i] + arr[i - 1];
         }
         int temp;
         for (int i = 0; i < q; i++)
         {
             cin >> temp;
-            if(temp > v[n - 1])
+            if(temp > arr[n - 1])
                 cout << -1 << '\n';
             else
-                cout << lower_bound(v.begin(), v.end(), temp) - v.begin() + 1 << '\n';
+            {
+                cout << lower_bound(arr, arr + n, temp) - arr + 1 << '\n';
+            }
         }
     }
     return 0;
