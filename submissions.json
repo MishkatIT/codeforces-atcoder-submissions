@@ -4065,6 +4065,25 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF190548157": {
+    "contest_id": 1780,
+    "language": "GNU C++17",
+    "path": "codeforces\\1780\\1780B GCD Partition.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "GCD Partition",
+    "problem_url": "https://codeforces.com/contest/1780/problem/B",
+    "submission_id": "CF190548157",
+    "submission_url": "https://codeforces.com/contest/1780/submission/190548157",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Jan/25/2023 21:44"
+  },
   "CF190584619": {
     "contest_id": 1436,
     "language": "GNU C++17",
