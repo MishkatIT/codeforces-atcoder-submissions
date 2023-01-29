@@ -4065,6 +4065,22 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF191164864": {
+    "contest_id": 1660,
+    "language": "GNU C++17",
+    "path": "codeforces\\1660\\1660B Vlad and Candies.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Vlad and Candies",
+    "problem_url": "https://codeforces.com/contest/1660/problem/B",
+    "submission_id": "CF191164864",
+    "submission_url": "https://codeforces.com/contest/1660/submission/191164864",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/29/2023 23:49"
+  },
   "CF191169743": {
     "contest_id": 1512,
     "language": "GNU C++17",
