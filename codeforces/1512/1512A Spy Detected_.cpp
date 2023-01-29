@@ -12,23 +12,17 @@ int main()
     cin >> t;
     while(t--)
     {
-        int n, temp;
+        int n;
         cin >> n;
-        map<int, pair<int, int>> mp;
+        int arr[n];
+        map<int, int> mp;
         for (int i = 0; i < n; i++)
         {
-            cin >> temp;
-            mp[temp].first++;
-            mp[temp].second = i + 1;
+            cin >> arr[i];
+            mp[arr[i]] = i + 1;
         }
-        for (auto& i: mp)
-        {
-            if(i.second.first == 1)
-            {
-                cout << i.second.second << '\n';
-                break;
-            }
-        }
+        sort(arr, arr + n);
+        cout <<(arr[0] == arr[1] ? mp[arr[n - 1]] : mp[arr[0]]) << '\n';
     }
     return 0;
 }
