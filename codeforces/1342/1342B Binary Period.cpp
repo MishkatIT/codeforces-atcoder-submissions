@@ -22,11 +22,11 @@ int main()
             cout << str << '\n';
             continue;
         }
-//        int x = str[0] == '1';
-        for (int i = 0; i < (int)str.length(); i++)
+        int x = str[0] == '1';
+        for (int i = 0; i < (int)str.length() * 2; i++)
             {
-                cout << "01";
-//                x ^= 1;
+                cout << x;
+                x ^= 1;
             }
         cout << '\n';
 
