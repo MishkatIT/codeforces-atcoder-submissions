@@ -4065,6 +4065,25 @@
     ],
     "timestamp": "Dec/31/2022 18:29"
   },
+  "CF191624493": {
+    "contest_id": 1108,
+    "language": "GNU C++17",
+    "path": "codeforces\\1108\\1108B Divisors of Two Integers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Divisors of Two Integers",
+    "problem_url": "https://codeforces.com/contest/1108/problem/B",
+    "submission_id": "CF191624493",
+    "submission_url": "https://codeforces.com/contest/1108/submission/191624493",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Feb/02/2023 01:42"
+  },
   "CF191725020": {
     "contest_id": 285,
     "language": "GNU C++17",
