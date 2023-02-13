@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Monday 2023-02-13-21.42.29
+    created   : Monday 2023-02-13-21.34.07
 */
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -11,10 +11,13 @@ int main()
     fio;
     int n;
     cin >> n;
-    vector<int> v(n);
-    for(auto& i: v)
-        cin >> i;
-    sort(v.begin(), v.end());
-    cout << v.back();
+    int temp;
+    int mx = -1;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> temp;
+        mx = max(mx, temp); // energy never exceed the max.
+    }
+    cout << mx;
     return 0;
 }
