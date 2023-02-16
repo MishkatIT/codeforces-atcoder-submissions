@@ -1,4 +1,21 @@
 {
+  "CF193929647": {
+    "contest_id": 13,
+    "language": "GNU C++17",
+    "path": "codeforces\\13\\13A Numbers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Numbers",
+    "problem_url": "https://codeforces.com/contest/13/problem/A",
+    "submission_id": "CF193929647",
+    "submission_url": "https://codeforces.com/contest/13/submission/193929647",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/17/2023 02:21"
+  },
   "CF194146903": {
     "contest_id": 1363,
     "language": "GNU C++17",
