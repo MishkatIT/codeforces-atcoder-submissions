@@ -1,4 +1,21 @@
 {
+  "CF194168474": {
+    "contest_id": 1622,
+    "language": "GNU C++17",
+    "path": "codeforces\\1622\\1622A Construct a Rectangle.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Construct a Rectangle",
+    "problem_url": "https://codeforces.com/contest/1622/problem/A",
+    "submission_id": "CF194168474",
+    "submission_url": "https://codeforces.com/contest/1622/submission/194168474",
+    "tags": [
+      "geometry",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/19/2023 03:46"
+  },
   "CF194285511": {
     "contest_id": 702,
     "language": "GNU C++17",
