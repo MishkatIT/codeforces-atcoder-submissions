@@ -1,4 +1,21 @@
 {
+  "CF194166344": {
+    "contest_id": 875,
+    "language": "GNU C++17",
+    "path": "codeforces\\875\\875A Classroom Watch.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Classroom Watch",
+    "problem_url": "https://codeforces.com/contest/875/problem/A",
+    "submission_id": "CF194166344",
+    "submission_url": "https://codeforces.com/contest/875/submission/194166344",
+    "tags": [
+      "brute force",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Feb/19/2023 03:17"
+  },
   "CF194168474": {
     "contest_id": 1622,
     "language": "GNU C++17",
