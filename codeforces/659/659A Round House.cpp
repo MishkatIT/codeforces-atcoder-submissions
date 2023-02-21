@@ -11,13 +11,24 @@ int main()
     fio;
     int n, a, b;
     cin >> n >> a >> b;
-    int ans = a;
-    ans += b;
-    ans %= n;
-    while(ans > n)
-        ans -= n;
-    while(ans <= 0)
-        ans += n;
-    cout << ans;
+    b %= n;
+    if(b == 0)
+    {
+        cout << a;
+        return 0;
+    }
+    if(b < 0)
+    {
+        b += a;
+        if(b < 1)
+            b += n;
+        cout << b;
+        return 0;
+    }
+    a = (a + b) % n;
+    if(a == 0)
+        a = n;
+    cout << a;
+    return 0;
 }
 
