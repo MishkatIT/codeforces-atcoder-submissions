@@ -1,4 +1,21 @@
 {
+  "CF194601142": {
+    "contest_id": 440,
+    "language": "GNU C++17",
+    "path": "codeforces\\440\\440B Balancer.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Balancer",
+    "problem_url": "https://codeforces.com/contest/440/problem/B",
+    "submission_id": "CF194601142",
+    "submission_url": "https://codeforces.com/contest/440/submission/194601142",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Feb/23/2023 00:12"
+  },
   "CF194660985": {
     "contest_id": 1304,
     "language": "GNU C++17",
