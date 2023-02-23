@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Thursday 2023-02-23-23.17.25
+    created   : Thursday 2023-02-23-22.32.58
 */
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -11,25 +11,22 @@ int main()
     fio;
     int n;
     cin >> n;
-    int arr[n][2];
-    for (int i = 0; i < n; i++)
-    {
-        cin >> arr[i][0] >> arr[i][1];
-        if (arr[i][0] < arr[i][1])
-            swap(arr[i][0], arr[i][1]);
-
-    }
+    int w, h;
+    cin >> w >> h;
+    if(w < h)
+        swap(w, h);
+    int temp = w;
+    bool ok = true;
     for (int i = 1; i < n; i++)
     {
-        if(arr[i][0] <= arr[i - 1][0])continue;
-        else if(arr[i][1] <= arr[i - 1][0])
-            arr[i][0] = arr[i][1];
-        else
-        {
-            cout << "NO" << '\n';
-            return 0;
-        }
+        cin >> w >> h;
+        if(w < h)
+            swap(w, h);
+        if(w > temp && h > temp)
+            ok = false;
+        if(w <= temp) temp = w;
+        else if(h <= temp) temp = h;
     }
-    cout << "YES" << '\n';
+    cout << (ok ? "YES" : "NO") << '\n';
     return 0;
 }
