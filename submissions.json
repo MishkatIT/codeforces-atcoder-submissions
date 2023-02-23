@@ -1,4 +1,24 @@
 {
+  "CF194660985": {
+    "contest_id": 1304,
+    "language": "GNU C++17",
+    "path": "codeforces\\1304\\1304B Longest Palindrome.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Longest Palindrome",
+    "problem_url": "https://codeforces.com/contest/1304/problem/B",
+    "submission_id": "CF194660985",
+    "submission_url": "https://codeforces.com/contest/1304/submission/194660985",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Feb/23/2023 16:28"
+  },
   "CF194703903": {
     "contest_id": 1008,
     "language": "GNU C++17",
