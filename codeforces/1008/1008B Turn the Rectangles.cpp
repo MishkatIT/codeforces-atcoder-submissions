@@ -11,22 +11,22 @@ int main()
     fio;
     int n;
     cin >> n;
-    int w, h;
-    cin >> w >> h;
-    if(w < h)
-        swap(w, h);
-    int temp = w;
-    bool ok = true;
-    for (int i = 1; i < n; i++)
+    int w, h, mx = INT_MAX;
+    for (int i = 0; i < n; i++)
     {
         cin >> w >> h;
         if(w < h)
             swap(w, h);
-        if(w > temp && h > temp)
-            ok = false;
-        if(w <= temp) temp = w;
-        else if(h <= temp) temp = h;
+        if(w <= mx)
+            mx = w;
+        else if(h <= mx)
+            mx = h;
+        else
+        {
+            cout << "NO" << '\n';
+            return 0;
+        }
     }
-    cout << (ok ? "YES" : "NO") << '\n';
+    cout << "YES" << '\n';
     return 0;
 }
