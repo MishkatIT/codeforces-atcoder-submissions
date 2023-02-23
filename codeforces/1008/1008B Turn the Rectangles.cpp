@@ -19,14 +19,17 @@ int main()
             swap(arr[i][0], arr[i][1]);
 
     }
-    bool ok = true;
     for (int i = 1; i < n; i++)
     {
         if(arr[i][0] <= arr[i - 1][0])continue;
         else if(arr[i][1] <= arr[i - 1][0])
             arr[i][0] = arr[i][1];
-        else ok = false;
+        else
+        {
+            cout << "NO" << '\n';
+            return 0;
+        }
     }
-    cout << (ok ? "YES" : "NO") << '\n';
+    cout << "YES" << '\n';
     return 0;
 }
