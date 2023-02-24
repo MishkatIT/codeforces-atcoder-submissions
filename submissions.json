@@ -1,4 +1,20 @@
 {
+  "CF194821970": {
+    "contest_id": 253,
+    "language": "GNU C++17",
+    "path": "codeforces\\253\\253A Boys and Girls.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Boys and Girls",
+    "problem_url": "https://codeforces.com/contest/253/problem/A",
+    "submission_id": "CF194821970",
+    "submission_url": "https://codeforces.com/contest/253/submission/194821970",
+    "tags": [
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Feb/25/2023 00:02"
+  },
   "CF194994090": {
     "contest_id": 1789,
     "language": "GNU C++17",
