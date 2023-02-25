@@ -1,4 +1,23 @@
 {
+  "CF194994090": {
+    "contest_id": 1789,
+    "language": "GNU C++17",
+    "path": "codeforces\\1789\\1789B Serval and Inversion Magic.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Serval and Inversion Magic",
+    "problem_url": "https://codeforces.com/contest/1789/problem/B",
+    "submission_id": "CF194994090",
+    "submission_url": "https://codeforces.com/contest/1789/submission/194994090",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Feb/26/2023 02:46"
+  },
   "CF195064096": {
     "contest_id": 1789,
     "language": "GNU C++17",
