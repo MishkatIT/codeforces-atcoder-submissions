@@ -1,4 +1,23 @@
 {
+  "CF195064096": {
+    "contest_id": 1789,
+    "language": "GNU C++17",
+    "path": "codeforces\\1789\\1789C Serval and Toxel_s Arrays.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Serval and Toxel's Arrays",
+    "problem_url": "https://codeforces.com/contest/1789/problem/C",
+    "submission_id": "CF195064096",
+    "submission_url": "https://codeforces.com/contest/1789/submission/195064096",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Feb/27/2023 01:19"
+  },
   "CF195204140": {
     "contest_id": 455,
     "language": "GNU C++17",
