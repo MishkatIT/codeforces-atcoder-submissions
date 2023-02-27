@@ -1,4 +1,20 @@
 {
+  "CF195204140": {
+    "contest_id": 455,
+    "language": "GNU C++17",
+    "path": "codeforces\\455\\455A Boredom.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Boredom",
+    "problem_url": "https://codeforces.com/contest/455/problem/A",
+    "submission_id": "CF195204140",
+    "submission_url": "https://codeforces.com/contest/455/submission/195204140",
+    "tags": [
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Feb/28/2023 01:54"
+  },
   "CF195293391": {
     "contest_id": 1796,
     "language": "GNU C++17",
