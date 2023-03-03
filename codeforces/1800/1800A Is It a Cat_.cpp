@@ -18,21 +18,25 @@ int main()
         cin >> n;
         string str;
         cin >> str;
-        for(auto& i: str)
+        bool ok = true;
+        int x = 0;
+        for (int i = 0; i < n; i++)
         {
-            if(i <= 'Z')
-                i += ('a' - 'A'); // i += 32;
+            char temp = tolower(str[i]);
+            if(temp == s[x]) continue;
+            else if(i != x && x < 4 && temp == s[x + 1])
+            {
+                x++;
+            }
+            else
+            {
+                ok = false;
+                break;
+            }
         }
-        string ans;
-        for(auto& i: str)
-        {
-            if(ans.empty() || ans.back() != i)
-                ans += i;
-        }
-        if(ans == s)
-            cout << "YES" << '\n';
-        else
-            cout << "NO" << '\n';
+//        debug(x);
+        if( x != 3) ok = false;
+        cout << (ok ? "YES" : "NO") << '\n';
     }
     return 0;
 }

@@ -1,4 +1,21 @@
 {
+  "CF195807909": {
+    "contest_id": 1800,
+    "language": "GNU C++17",
+    "path": "codeforces\\1800\\1800A Is It a Cat_.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is It a Cat?",
+    "problem_url": "https://codeforces.com/contest/1800/problem/A",
+    "submission_id": "CF195807909",
+    "submission_url": "https://codeforces.com/contest/1800/submission/195807909",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/03/2023 18:48"
+  },
   "CF195810264": {
     "contest_id": 1800,
     "language": "GNU C++17",
