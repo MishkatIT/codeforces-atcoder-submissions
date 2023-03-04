@@ -1,4 +1,20 @@
 {
+  "CF196060755": {
+    "contest_id": 1794,
+    "language": "GNU C++17",
+    "path": "codeforces\\1794\\1794A Prefix and Suffix Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prefix and Suffix Array",
+    "problem_url": "https://codeforces.com/contest/1794/problem/A",
+    "submission_id": "CF196060755",
+    "submission_url": "https://codeforces.com/contest/1794/submission/196060755",
+    "tags": [
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/05/2023 02:25"
+  },
   "CF196184494": {
     "contest_id": 1447,
     "language": "GNU C++17",
