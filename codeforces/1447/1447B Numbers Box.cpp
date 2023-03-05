@@ -33,7 +33,6 @@ int main()
         else
             cout << ans - (mn * 2) << '\n';
     }
-    
     return 0;
 }
 

@@ -1,4 +1,21 @@
 {
+  "CF196184494": {
+    "contest_id": 1447,
+    "language": "GNU C++17",
+    "path": "codeforces\\1447\\1447B Numbers Box.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Numbers Box",
+    "problem_url": "https://codeforces.com/contest/1447/problem/B",
+    "submission_id": "CF196184494",
+    "submission_url": "https://codeforces.com/contest/1447/submission/196184494",
+    "tags": [
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Mar/06/2023 02:19"
+  },
   "CF196185019": {
     "contest_id": 1447,
     "language": "GNU C++20 (64)",
