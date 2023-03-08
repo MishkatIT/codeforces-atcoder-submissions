@@ -1,4 +1,20 @@
 {
+  "CF196552184": {
+    "contest_id": 617,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\617\\617B Chocolate.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chocolate",
+    "problem_url": "https://codeforces.com/contest/617/problem/B",
+    "submission_id": "CF196552184",
+    "submission_url": "https://codeforces.com/contest/617/submission/196552184",
+    "tags": [
+      "combinatorics",
+      "*1300"
+    ],
+    "timestamp": "Mar/09/2023 02:03"
+  },
   "CF196621163": {
     "contest_id": 43,
     "language": "GNU C++20 (64)",
