@@ -1,4 +1,21 @@
 {
+  "CF196621592": {
+    "contest_id": 43,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\43\\43B Letter.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Letter",
+    "problem_url": "https://codeforces.com/contest/43/problem/B",
+    "submission_id": "CF196621592",
+    "submission_url": "https://codeforces.com/contest/43/submission/196621592",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Mar/09/2023 16:36"
+  },
   "CF196637160": {
     "contest_id": 767,
     "language": "GNU C++20 (64)",
