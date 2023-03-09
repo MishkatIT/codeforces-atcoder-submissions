@@ -1,4 +1,21 @@
 {
+  "CF196646633": {
+    "contest_id": 978,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\978\\978B File Name.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "File Name",
+    "problem_url": "https://codeforces.com/contest/978/problem/B",
+    "submission_id": "CF196646633",
+    "submission_url": "https://codeforces.com/contest/978/submission/196646633",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Mar/09/2023 17:59"
+  },
   "CF196681955": {
     "contest_id": 1802,
     "language": "GNU C++20 (64)",
