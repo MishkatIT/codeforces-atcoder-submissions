@@ -1,4 +1,21 @@
 {
+  "CF196637160": {
+    "contest_id": 767,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\767\\767A Snacktower.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Snacktower",
+    "problem_url": "https://codeforces.com/contest/767/problem/A",
+    "submission_id": "CF196637160",
+    "submission_url": "https://codeforces.com/contest/767/submission/196637160",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/09/2023 17:28"
+  },
   "CF196646633": {
     "contest_id": 978,
     "language": "GNU C++20 (64)",
