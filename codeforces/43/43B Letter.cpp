@@ -11,18 +11,18 @@ int main()
     fio;
     string a, b;
     getline(cin, a);
-    map<char, int> mp;
+    vector<int> arr(200);
     for(auto &i: a)
     {
-        mp[i]++;
+        arr[i]++;
     }
     getline(cin, b);
     for(auto &i: b)
     {
         if(i != ' ')
         {
-            if(mp[i])
-                mp[i]--;
+            if(arr[i])
+                arr[i]--;
             else
             {
                 cout << "NO";
