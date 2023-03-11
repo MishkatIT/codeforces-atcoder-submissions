@@ -1,4 +1,20 @@
 {
+  "CF196971713": {
+    "contest_id": 1157,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1157\\1157A Reachable Numbers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Reachable Numbers",
+    "problem_url": "https://codeforces.com/contest/1157/problem/A",
+    "submission_id": "CF196971713",
+    "submission_url": "https://codeforces.com/contest/1157/submission/196971713",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/12/2023 00:03"
+  },
   "CF197120002": {
     "contest_id": 1673,
     "language": "GNU C++20 (64)",
