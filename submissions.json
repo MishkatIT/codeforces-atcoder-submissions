@@ -1,4 +1,22 @@
 {
+  "CF197269152": {
+    "contest_id": 31,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\31\\31B Sysadmin Bob.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sysadmin Bob",
+    "problem_url": "https://codeforces.com/contest/31/problem/B",
+    "submission_id": "CF197269152",
+    "submission_url": "https://codeforces.com/contest/31/submission/197269152",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Mar/13/2023 22:30"
+  },
   "CF197412854": {
     "contest_id": 1562,
     "language": "GNU C++20 (64)",
