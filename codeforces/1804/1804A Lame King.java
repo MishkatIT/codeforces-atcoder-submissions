@@ -1,5 +1,4 @@
-import java.lang.Math;
-import java.util.Scanner;
+import java.util.*;
 
 public class LameKing {
 	static Scanner sc = new Scanner(System.in);
