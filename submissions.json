@@ -1,4 +1,21 @@
 {
+  "CF197546114": {
+    "contest_id": 1291,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1291\\1291B Array Sharpening.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Array Sharpening",
+    "problem_url": "https://codeforces.com/contest/1291/problem/B",
+    "submission_id": "CF197546114",
+    "submission_url": "https://codeforces.com/contest/1291/submission/197546114",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Mar/15/2023 23:04"
+  },
   "CF197552306": {
     "contest_id": 1804,
     "language": "Java 17",
