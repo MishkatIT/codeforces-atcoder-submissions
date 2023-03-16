@@ -1,4 +1,21 @@
 {
+  "CF197615204": {
+    "contest_id": 1804,
+    "language": "GNU C11",
+    "path": "codeforces\\1804\\1804A Lame King.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lame King",
+    "problem_url": "https://codeforces.com/contest/1804/problem/A",
+    "submission_id": "CF197615204",
+    "submission_url": "https://codeforces.com/contest/1804/submission/197615204",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/16/2023 15:30"
+  },
   "CF197621999": {
     "contest_id": 1804,
     "language": "GNU C++17",
