@@ -1,4 +1,20 @@
 {
+  "CF198135093": {
+    "contest_id": 1807,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1807\\1807B Grab the Candies.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Grab the Candies",
+    "problem_url": "https://codeforces.com/contest/1807/problem/B",
+    "submission_id": "CF198135093",
+    "submission_url": "https://codeforces.com/contest/1807/submission/198135093",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Mar/19/2023 21:02"
+  },
   "CF198162403": {
     "contest_id": 1807,
     "language": "GNU C++20 (64)",
