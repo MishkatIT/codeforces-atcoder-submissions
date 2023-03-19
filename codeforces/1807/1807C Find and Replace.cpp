@@ -1,10 +1,9 @@
 /*
     author    : MishkatIT
-    created   : Monday 2023-03-20-21.35.07
+    created   : Sunday 2023-03-19-21.04.14
 */
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-#define debug(_) cout << #_ << " is " << _ << '\n';
 using namespace std;
 int main()
 {
@@ -17,30 +16,39 @@ int main()
         cin >> n;
         string str;
         cin >> str;
-        map<char, int> mp;
-        mp[str[0]] = 0;
-        vector<int> v;
-        for(int i = 1; i < n; i++)
+        int t = '0';
+        for (int i = 0; i < n; i++)
         {
-            if(mp.find(str[i]) == mp.end())
+            if(str[i] >= 'a' && str[i] <= 'z')
             {
-                mp[str[i]] = (mp[str[i - 1]] ^ 1);
+                char temp = str[i];
+                for(int j = 0; j < n; j++)
+                {
+                    if(str[j] == temp)
+                        str[j] = t;
+                }
             }
-            v.push_back(mp[str[i]]);
+            if(t == '0') t = '1';
+            else t = '0';
         }
-        int x = 1;
+        char x = '0';
         bool ok = true;
-        for(int i = 0; i < n - 1; i++)
+        for(int i = 0; i < n; i++)
         {
-            if(v[i] != x)
+            if(str[i] == x)
+            {
+                if(x == '0') x = '1';
+                else x = '0';
+            }
+            else
             {
                 ok = false;
                 break;
             }
-            x ^= 1;
+
         }
         cout << (ok ? "YES" : "NO") << '\n';
     }
+
     return 0;
 }
-
