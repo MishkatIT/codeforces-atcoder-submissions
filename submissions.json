@@ -1,4 +1,22 @@
 {
+  "CF198666664": {
+    "contest_id": 1352,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1352\\1352E Special Elements.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Special Elements",
+    "problem_url": "https://codeforces.com/contest/1352/problem/E",
+    "submission_id": "CF198666664",
+    "submission_url": "https://codeforces.com/contest/1352/submission/198666664",
+    "tags": [
+      "brute force",
+      "implementation",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Mar/23/2023 01:27"
+  },
   "CF198745319": {
     "contest_id": 1647,
     "language": "GNU C++20 (64)",
