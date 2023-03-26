@@ -1,4 +1,23 @@
 {
+  "CF199240735": {
+    "contest_id": 600,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\600\\600B Queries about less or equal elements.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Queries about less or equal elements",
+    "problem_url": "https://codeforces.com/contest/600/problem/B",
+    "submission_id": "CF199240735",
+    "submission_url": "https://codeforces.com/contest/600/submission/199240735",
+    "tags": [
+      "binary search",
+      "data structures",
+      "sortings",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Mar/26/2023 19:07"
+  },
   "CF199256368": {
     "contest_id": 1798,
     "language": "GNU C++20 (64)",
