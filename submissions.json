@@ -1,4 +1,22 @@
 {
+  "CF199256368": {
+    "contest_id": 1798,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1798\\1798A Showstopper.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Showstopper",
+    "problem_url": "https://codeforces.com/contest/1798/problem/A",
+    "submission_id": "CF199256368",
+    "submission_url": "https://codeforces.com/contest/1798/submission/199256368",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Mar/26/2023 20:45"
+  },
   "CF199294772": {
     "contest_id": 1798,
     "language": "GNU C++20 (64)",
