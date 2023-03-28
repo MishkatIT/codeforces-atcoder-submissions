@@ -1,4 +1,22 @@
 {
+  "CF199590732": {
+    "contest_id": 1352,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1352\\1352F Binary String Reconstruction.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Binary String Reconstruction",
+    "problem_url": "https://codeforces.com/contest/1352/problem/F",
+    "submission_id": "CF199590732",
+    "submission_url": "https://codeforces.com/contest/1352/submission/199590732",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Mar/29/2023 02:40"
+  },
   "CF199647880": {
     "contest_id": 1808,
     "language": "GNU C++20 (64)",
