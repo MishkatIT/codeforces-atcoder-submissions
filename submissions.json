@@ -1,4 +1,20 @@
 {
+  "CF199568657": {
+    "contest_id": 1092,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1092\\1092A Uniform String.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Uniform String",
+    "problem_url": "https://codeforces.com/contest/1092/problem/A",
+    "submission_id": "CF199568657",
+    "submission_url": "https://codeforces.com/contest/1092/submission/199568657",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/28/2023 22:58"
+  },
   "CF199583983": {
     "contest_id": 1409,
     "language": "GNU C++20 (64)",
