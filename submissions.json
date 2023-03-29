@@ -1,4 +1,21 @@
 {
+  "CF199647880": {
+    "contest_id": 1808,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1808\\1808A Lucky Numbers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lucky Numbers",
+    "problem_url": "https://codeforces.com/contest/1808/problem/A",
+    "submission_id": "CF199647880",
+    "submission_url": "https://codeforces.com/contest/1808/submission/199647880",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Mar/29/2023 15:23"
+  },
   "CF199862910": {
     "contest_id": 1808,
     "language": "GNU C++20 (64)",
