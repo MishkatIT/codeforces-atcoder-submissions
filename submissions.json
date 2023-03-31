@@ -1,4 +1,22 @@
 {
+  "CF200037169": {
+    "contest_id": 1674,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1674\\1674C Infinite Replacement.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Infinite Replacement",
+    "problem_url": "https://codeforces.com/contest/1674/problem/C",
+    "submission_id": "CF200037169",
+    "submission_url": "https://codeforces.com/contest/1674/submission/200037169",
+    "tags": [
+      "combinatorics",
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Apr/01/2023 01:03"
+  },
   "CF200456119": {
     "contest_id": 1703,
     "language": "GNU C++20 (64)",
