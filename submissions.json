@@ -1,4 +1,21 @@
 {
+  "CF199966372": {
+    "contest_id": 1810,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1810\\1810A Beautiful Sequence.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Beautiful Sequence",
+    "problem_url": "https://codeforces.com/contest/1810/problem/A",
+    "submission_id": "CF199966372",
+    "submission_url": "https://codeforces.com/contest/1810/submission/199966372",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Mar/31/2023 20:44"
+  },
   "CF200002189": {
     "contest_id": 1810,
     "language": "GNU C++20 (64)",
