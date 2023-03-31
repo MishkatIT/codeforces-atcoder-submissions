@@ -1,4 +1,22 @@
 {
+  "CF200002189": {
+    "contest_id": 1810,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1810\\1810B Candies.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Candies",
+    "problem_url": "https://codeforces.com/contest/1810/problem/B",
+    "submission_id": "CF200002189",
+    "submission_url": "https://codeforces.com/contest/1810/submission/200002189",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Mar/31/2023 21:52"
+  },
   "CF200037169": {
     "contest_id": 1674,
     "language": "GNU C++20 (64)",
