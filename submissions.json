@@ -1,4 +1,22 @@
 {
+  "CF200456119": {
+    "contest_id": 1703,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1703\\1703A YES or YES_.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "YES or YES?",
+    "problem_url": "https://codeforces.com/contest/1703/problem/A",
+    "submission_id": "CF200456119",
+    "submission_url": "https://codeforces.com/contest/1703/submission/200456119",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Apr/02/2023 23:19"
+  },
   "CF200477598": {
     "contest_id": 1494,
     "language": "GNU C++20 (64)",
