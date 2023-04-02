@@ -1,4 +1,22 @@
 {
+  "CF200486406": {
+    "contest_id": 1810,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1810\\1810C Make It Permutation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Make It Permutation",
+    "problem_url": "https://codeforces.com/contest/1810/problem/C",
+    "submission_id": "CF200486406",
+    "submission_url": "https://codeforces.com/contest/1810/submission/200486406",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Apr/03/2023 04:25"
+  },
   "CF200587102": {
     "contest_id": 1661,
     "language": "GNU C++20 (64)",
