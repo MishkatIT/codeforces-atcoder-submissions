@@ -1,4 +1,21 @@
 {
+  "CF200623970": {
+    "contest_id": 1733,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1733\\1733A Consecutive Sum.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Consecutive Sum",
+    "problem_url": "https://codeforces.com/contest/1733/problem/A",
+    "submission_id": "CF200623970",
+    "submission_url": "https://codeforces.com/contest/1733/submission/200623970",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Apr/04/2023 05:31"
+  },
   "CF200703610": {
     "contest_id": 1811,
     "language": "GNU C++20 (64)",
