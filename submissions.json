@@ -1,4 +1,26 @@
 {
+  "CF200587102": {
+    "contest_id": 1661,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1661\\1661B Getting Zero.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Getting Zero",
+    "problem_url": "https://codeforces.com/contest/1661/problem/B",
+    "submission_id": "CF200587102",
+    "submission_url": "https://codeforces.com/contest/1661/submission/200587102",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*1300"
+    ],
+    "timestamp": "Apr/03/2023 22:06"
+  },
   "CF200623970": {
     "contest_id": 1733,
     "language": "GNU C++20 (64)",
