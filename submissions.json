@@ -1,4 +1,21 @@
 {
+  "CF200771647": {
+    "contest_id": 1811,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1811\\1811B Conveyor Belts.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Conveyor Belts",
+    "problem_url": "https://codeforces.com/contest/1811/problem/B",
+    "submission_id": "CF200771647",
+    "submission_url": "https://codeforces.com/contest/1811/submission/200771647",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Apr/04/2023 22:30"
+  },
   "CF200906348": {
     "contest_id": 1097,
     "language": "GNU C++20 (64)",
