@@ -1,4 +1,20 @@
 {
+  "CF201153882": {
+    "contest_id": 20,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\20\\20A BerOS file system.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "BerOS file system",
+    "problem_url": "https://codeforces.com/contest/20/problem/A",
+    "submission_id": "CF201153882",
+    "submission_url": "https://codeforces.com/contest/20/submission/201153882",
+    "tags": [
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Apr/07/2023 20:49"
+  },
   "CF201181307": {
     "contest_id": 1777,
     "language": "GNU C++20 (64)",
