@@ -1,4 +1,21 @@
 {
+  "CF201151485": {
+    "contest_id": 1805,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1805\\1805A We Need the Zero.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "We Need the Zero",
+    "problem_url": "https://codeforces.com/contest/1805/problem/A",
+    "submission_id": "CF201151485",
+    "submission_url": "https://codeforces.com/contest/1805/submission/201151485",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Apr/07/2023 20:28"
+  },
   "CF201153882": {
     "contest_id": 20,
     "language": "GNU C++20 (64)",
