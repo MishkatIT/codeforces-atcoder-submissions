@@ -6502,6 +6502,23 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF201561554": {
+    "contest_id": 1816,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1816\\1816C Ian and Array Sorting.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ian and Array Sorting",
+    "problem_url": "https://codeforces.com/contest/1816/problem/C",
+    "submission_id": "CF201561554",
+    "submission_url": "https://codeforces.com/contest/1816/submission/201561554",
+    "tags": [
+      "math",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Apr/09/2023 22:56"
+  },
   "CF201591504": {
     "contest_id": 1790,
     "language": "GNU C++20 (64)",
