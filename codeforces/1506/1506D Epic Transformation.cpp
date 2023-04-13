@@ -22,25 +22,25 @@ int main()
             cin >> x;
             mp[x]++;
         }
-        priority_queue<int> pq;
+        priority_queue<pair<int, int>> pq;
         for(auto &i : mp)
         {
-            pq.push(i.second);
+            pq.push({i.second, i.first});
         }
         int ans = n;
         while(pq.size() > 1)
         {
-            int a = pq.top();
+            auto a = pq.top();
             pq.pop();
-            int b = pq.top();
+            auto b = pq.top();
             pq.pop();
-            a--;
-            b--;
+            a.first--;
+            b.first--;
             ans -= 2;
-            if(a)
-                pq.push(a);
-            if(b)
-                pq.push(b);
+            if(a.first)
+                pq.push({a.first, a.second});
+            if(b.first)
+                pq.push({b.first, b.second});
         }
         cout << ans << '\n';
     }
