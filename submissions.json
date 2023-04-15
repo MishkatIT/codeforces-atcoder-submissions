@@ -2436,6 +2436,23 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF202280323": {
+    "contest_id": 353,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\353\\353A Domino.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Domino",
+    "problem_url": "https://codeforces.com/contest/353/problem/A",
+    "submission_id": "CF202280323",
+    "submission_url": "https://codeforces.com/contest/353/submission/202280323",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Apr/16/2023 00:38"
+  },
   "CF202512952": {
     "contest_id": 1542,
     "language": "GNU C++20 (64)",
