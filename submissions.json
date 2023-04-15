@@ -2436,6 +2436,26 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF202233949": {
+    "contest_id": 1535,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1535\\1535B Array Reodering.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Array Reodering",
+    "problem_url": "https://codeforces.com/contest/1535/problem/B",
+    "submission_id": "CF202233949",
+    "submission_url": "https://codeforces.com/contest/1535/submission/202233949",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Apr/15/2023 17:52"
+  },
   "CF202280323": {
     "contest_id": 353,
     "language": "GNU C++20 (64)",
