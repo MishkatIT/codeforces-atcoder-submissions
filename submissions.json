@@ -2436,6 +2436,22 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF202512952": {
+    "contest_id": 1542,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1542\\1542A Odd Set.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Odd Set",
+    "problem_url": "https://codeforces.com/contest/1542/problem/A",
+    "submission_id": "CF202512952",
+    "submission_url": "https://codeforces.com/contest/1542/submission/202512952",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/17/2023 22:01"
+  },
   "CF202607458": {
     "contest_id": 1539,
     "language": "GNU C++20 (64)",
