@@ -2436,6 +2436,23 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF202902042": {
+    "contest_id": 1821,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1821\\1821B Sort the Subarray.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sort the Subarray",
+    "problem_url": "https://codeforces.com/contest/1821/problem/B",
+    "submission_id": "CF202902042",
+    "submission_url": "https://codeforces.com/contest/1821/submission/202902042",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Apr/21/2023 03:29"
+  },
   "CF202982720": {
     "contest_id": 1530,
     "language": "GNU C++20 (64)",
