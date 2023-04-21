@@ -2436,6 +2436,22 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF202983801": {
+    "contest_id": 1632,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1632\\1632A ABC.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "ABC",
+    "problem_url": "https://codeforces.com/contest/1632/problem/A",
+    "submission_id": "CF202983801",
+    "submission_url": "https://codeforces.com/contest/1632/submission/202983801",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Apr/22/2023 01:01"
+  },
   "CF202984016": {
     "contest_id": 1631,
     "language": "GNU C++20 (64)",
