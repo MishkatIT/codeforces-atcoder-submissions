@@ -23,14 +23,15 @@ int main()
         }
         string str;
         cin >> str;
-        vector<int> ans(n + 10);
+        int ans[n + 10];
+        memset(ans, 0, sizeof ans);
         vector<int> temp;
         for (int i = 0; i < n; i++)
         {
             if(str[i] == '0')
             {
                 temp.push_back(v[i]);
-                v[i] = n + 12;
+                v[i] = n + 10;
             }
         }
         sort(temp.begin(), temp.end());
@@ -52,3 +53,4 @@ int main()
     }
     return 0;
 }
+

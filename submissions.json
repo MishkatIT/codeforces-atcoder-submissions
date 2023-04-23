@@ -2436,6 +2436,25 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF203154213": {
+    "contest_id": 1622,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1622\\1622B Berland Music.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Berland Music",
+    "problem_url": "https://codeforces.com/contest/1622/problem/B",
+    "submission_id": "CF203154213",
+    "submission_url": "https://codeforces.com/contest/1622/submission/203154213",
+    "tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Apr/23/2023 19:01"
+  },
   "CF203154404": {
     "contest_id": 1622,
     "language": "GNU C++20 (64)",
