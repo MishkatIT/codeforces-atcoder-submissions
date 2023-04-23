@@ -23,7 +23,8 @@ int main()
         }
         string str;
         cin >> str;
-        int ans[n + 10];
+        const int N = 2e5 + 10;
+        int ans[N];
         memset(ans, 0, sizeof ans);
         vector<int> temp;
         for (int i = 0; i < n; i++)
@@ -31,7 +32,7 @@ int main()
             if(str[i] == '0')
             {
                 temp.push_back(v[i]);
-                v[i] = n + 10;
+                v[i] = 1e8;
             }
         }
         sort(temp.begin(), temp.end());
