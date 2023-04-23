@@ -24,8 +24,7 @@ int main()
         string str;
         cin >> str;
         const int N = 2e5 + 10;
-        int ans[N];
-        memset(ans, 0, sizeof ans);
+        vector<int> ans(N);
         vector<int> temp;
         for (int i = 0; i < n; i++)
         {
