@@ -2436,6 +2436,22 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF203311906": {
+    "contest_id": 1822,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1822\\1822C Bun Lover.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Bun Lover",
+    "problem_url": "https://codeforces.com/contest/1822/problem/C",
+    "submission_id": "CF203311906",
+    "submission_url": "https://codeforces.com/contest/1822/submission/203311906",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/24/2023 21:44"
+  },
   "CF203332163": {
     "contest_id": 1822,
     "language": "GNU C++20 (64)",
