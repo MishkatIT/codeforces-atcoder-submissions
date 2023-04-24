@@ -2436,6 +2436,24 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF203361197": {
+    "contest_id": 1195,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1195\\1195B Sport Mafia.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sport Mafia",
+    "problem_url": "https://codeforces.com/contest/1195/problem/B",
+    "submission_id": "CF203361197",
+    "submission_url": "https://codeforces.com/contest/1195/submission/203361197",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Apr/25/2023 00:54"
+  },
   "CF203407524": {
     "contest_id": 272,
     "language": "GNU C++20 (64)",
