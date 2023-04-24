@@ -17,7 +17,7 @@ int main()
         cin >> n;
         n--;
         int x = log2(n);
-        x = 1 << x;
+        x = powl(2, x);
         while(n >= x)
             cout << n-- << ' ';
         cout << 0;
