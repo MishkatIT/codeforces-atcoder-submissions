@@ -2436,6 +2436,22 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF203526114": {
+    "contest_id": 1611,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1611\\1611C Polycarp Recovers the Permutation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Polycarp Recovers the Permutation",
+    "problem_url": "https://codeforces.com/contest/1611/problem/C",
+    "submission_id": "CF203526114",
+    "submission_url": "https://codeforces.com/contest/1611/submission/203526114",
+    "tags": [
+      "constructive algorithms",
+      "*1000"
+    ],
+    "timestamp": "Apr/26/2023 13:39"
+  },
   "CF203671621": {
     "contest_id": 242,
     "language": "GNU C++20 (64)",
