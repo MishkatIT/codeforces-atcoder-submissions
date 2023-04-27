@@ -21,7 +21,7 @@ int main()
         r = max(r, y);
         mp[ {x, y}] = i + 1;
     }
-    int x = mp[ {l, r}];
+    auto x = mp[ {l, r}];
     if(x)
         cout << x << '\n';
     else
