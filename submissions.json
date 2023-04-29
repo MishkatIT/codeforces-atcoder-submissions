@@ -2436,6 +2436,24 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF203905973": {
+    "contest_id": 1823,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1823\\1823A A-characteristic.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "A-characteristic",
+    "problem_url": "https://codeforces.com/contest/1823/problem/A",
+    "submission_id": "CF203905973",
+    "submission_url": "https://codeforces.com/contest/1823/submission/203905973",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/29/2023 18:54"
+  },
   "CF203912995": {
     "contest_id": 1823,
     "language": "GNU C++20 (64)",
