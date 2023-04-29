@@ -2436,6 +2436,22 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF203935935": {
+    "contest_id": 1818,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1818\\1818B Indivisible.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Indivisible",
+    "problem_url": "https://codeforces.com/contest/1818/problem/B",
+    "submission_id": "CF203935935",
+    "submission_url": "https://codeforces.com/contest/1818/submission/203935935",
+    "tags": [
+      "constructive algorithms",
+      "*900"
+    ],
+    "timestamp": "Apr/29/2023 21:33"
+  },
   "CF203936430": {
     "contest_id": 1818,
     "language": "GNU C++20 (64)",
