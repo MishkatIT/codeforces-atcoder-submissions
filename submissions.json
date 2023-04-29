@@ -2436,6 +2436,23 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF203936430": {
+    "contest_id": 1818,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1818\\1818A Politics.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Politics",
+    "problem_url": "https://codeforces.com/contest/1818/problem/A",
+    "submission_id": "CF203936430",
+    "submission_url": "https://codeforces.com/contest/1818/submission/203936430",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Apr/29/2023 21:35"
+  },
   "CF203974951": {
     "contest_id": 1818,
     "language": "GNU C++20 (64)",
