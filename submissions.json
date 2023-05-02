@@ -2436,6 +2436,23 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF204268857": {
+    "contest_id": 259,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\259\\259A Little Elephant and Chess.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Elephant and Chess",
+    "problem_url": "https://codeforces.com/contest/259/problem/A",
+    "submission_id": "CF204268857",
+    "submission_url": "https://codeforces.com/contest/259/submission/204268857",
+    "tags": [
+      "brute force",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "May/02/2023 21:14"
+  },
   "CF204270337": {
     "contest_id": 259,
     "language": "GNU C++20 (64)",
