@@ -2436,6 +2436,23 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF204658447": {
+    "contest_id": 1826,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1826\\1826B Lunatic Never Content.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lunatic Never Content",
+    "problem_url": "https://codeforces.com/contest/1826/problem/B",
+    "submission_id": "CF204658447",
+    "submission_url": "https://codeforces.com/contest/1826/submission/204658447",
+    "tags": [
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "May/06/2023 01:00"
+  },
   "CF204754697": {
     "contest_id": 1829,
     "language": "GNU C++20 (64)",
