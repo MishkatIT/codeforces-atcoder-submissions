@@ -2436,6 +2436,22 @@
     ],
     "timestamp": "Apr/09/2023 21:04"
   },
+  "CF205342806": {
+    "contest_id": 1176,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1176\\1176B Merge it_.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Merge it!",
+    "problem_url": "https://codeforces.com/contest/1176/problem/B",
+    "submission_id": "CF205342806",
+    "submission_url": "https://codeforces.com/contest/1176/submission/205342806",
+    "tags": [
+      "math",
+      "*1100"
+    ],
+    "timestamp": "May/10/2023 21:00"
+  },
   "CF205348544": {
     "contest_id": 1288,
     "language": "GNU C++20 (64)",
