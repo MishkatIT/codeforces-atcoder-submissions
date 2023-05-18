@@ -3821,6 +3821,22 @@
     ],
     "timestamp": "May/16/2023 19:29"
   },
+  "CF206359759": {
+    "contest_id": 227,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\227\\227B Effective Approach.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Effective Approach",
+    "problem_url": "https://codeforces.com/contest/227/problem/B",
+    "submission_id": "CF206359759",
+    "submission_url": "https://codeforces.com/contest/227/submission/206359759",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/18/2023 21:36"
+  },
   "CF206371066": {
     "contest_id": 1457,
     "language": "GNU C++20 (64)",
