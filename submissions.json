@@ -3821,6 +3821,23 @@
     ],
     "timestamp": "May/16/2023 19:29"
   },
+  "CF206480224": {
+    "contest_id": 1833,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1833\\1833B Restore the Weather.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Restore the Weather",
+    "problem_url": "https://codeforces.com/contest/1833/problem/B",
+    "submission_id": "CF206480224",
+    "submission_url": "https://codeforces.com/contest/1833/submission/206480224",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "May/19/2023 20:57"
+  },
   "CF206497206": {
     "contest_id": 1833,
     "language": "GNU C++20 (64)",
