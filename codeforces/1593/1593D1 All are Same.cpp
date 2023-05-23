@@ -23,16 +23,21 @@ int main()
             cin >> i;
         }
         sort(v.begin(), v.end());
+        int k = 0;
+//        for (int i = 0; i < n; i++)
+//          cout << v[i] << " \n"[i == n - 1];
         vector<int> temp;
         for (int i = 1; i < n; i++)
         {
-            temp.push_back(abs(v[i] - v[i - 1]));
+            if(v[i] != v[i - 1])
+            {
+                temp.push_back(abs(v[i] - v[i - 1]));
+//                break;
+            }
         }
-        int k = 0;
         for (int i = 0; i < temp.size(); i++)
-            k = __gcd(k, temp[i]);
-        if(!k)
-            k = -1;
+          k = __gcd(k, temp[i]);
+        if(!k) k = -1;
         cout << k << '\n';
     }
     return 0;
