@@ -8789,6 +8789,23 @@
     ],
     "timestamp": "May/22/2023 03:29"
   },
+  "CF207028376": {
+    "contest_id": 1579,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1579\\1579B Shifting Sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Shifting Sort",
+    "problem_url": "https://codeforces.com/contest/1579/problem/B",
+    "submission_id": "CF207028376",
+    "submission_url": "https://codeforces.com/contest/1579/submission/207028376",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "May/24/2023 16:05"
+  },
   "CF207051113": {
     "contest_id": 1366,
     "language": "GNU C++20 (64)",
