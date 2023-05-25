@@ -19,14 +19,19 @@ int main()
     while(t--)
     {
         ll z1, o1, t1, z2, o2, t2;
-        cin >> z1 >> o1 >> t1 >> z2 >> o2 >> t2;
+        cin >> z1 >> o1 >> t1;
+        cin >> z2 >> o2 >> t2;
         ll sum = 0;
-        ll mn = min(t1, o2);
+        ll mn;
+        mn = min(t1, o2);
         sum += (2 * mn);
         t1 -= mn;
-        t2 -= min(t2, z1);
-        t2 -= min(t1, t2);
-        sum -= (2 * min(t2, o1));
+        mn = min(t2, z1);
+        t2 -= mn;
+        mn = min(t1, t2);
+        t2 -= mn;
+        mn = min(t2, o1);
+        sum -= (2 * mn);
         cout << sum << '\n';
     }
     return 0;
