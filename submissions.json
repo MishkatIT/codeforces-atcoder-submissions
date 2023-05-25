@@ -8789,6 +8789,23 @@
     ],
     "timestamp": "May/22/2023 03:29"
   },
+  "CF207163045": {
+    "contest_id": 1837,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1837\\1837A Grasshopper on a Line.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Grasshopper on a Line",
+    "problem_url": "https://codeforces.com/contest/1837/problem/A",
+    "submission_id": "CF207163045",
+    "submission_url": "https://codeforces.com/contest/1837/submission/207163045",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/25/2023 20:40"
+  },
   "CF207208969": {
     "contest_id": 1837,
     "language": "GNU C++20 (64)",
