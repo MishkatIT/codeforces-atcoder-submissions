@@ -1,4 +1,23 @@
 {
+  "CF207369613": {
+    "contest_id": 1335,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1335\\1335C Two Teams Composing.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Two Teams Composing",
+    "problem_url": "https://codeforces.com/contest/1335/problem/C",
+    "submission_id": "CF207369613",
+    "submission_url": "https://codeforces.com/contest/1335/submission/207369613",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "May/26/2023 20:51"
+  },
   "CF207394714": {
     "contest_id": 1638,
     "language": "GNU C++20 (64)",
