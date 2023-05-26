@@ -25,28 +25,29 @@ int main()
         {
             cin >> i;
         }
-        int odd = -1, even = -1;
+        int oddmax = -1, evenmax = -1;
         bool ok = true;
         for (int i = 0; i < n; i++)
         {
             if(v[i] & 1)
             {
-                if(v[i] < odd)
-                {
-                    ok = false;
-                    break;
-                }
-                odd = v[i];
-            }
-            else
-            {
-                if(v[i] < even)
+                if(v[i] < oddmax)
                 {
                     ok = false;
                     break;
                 }
                 else
-                    even = v[i];
+                    oddmax = max(oddmax, v[i]);
+            }
+            else
+            {
+                if(v[i] < evenmax)
+                {
+                    ok = false;
+                    break;
+                }
+                else
+                    evenmax = max(evenmax, v[i]);
             }
         }
         cout << (ok ? "YES" : "NO") << '\n';

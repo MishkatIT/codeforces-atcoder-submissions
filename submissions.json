@@ -1,4 +1,22 @@
 {
+  "CF207394714": {
+    "contest_id": 1638,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1638\\1638B Odd Swap Sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Odd Swap Sort",
+    "problem_url": "https://codeforces.com/contest/1638/problem/B",
+    "submission_id": "CF207394714",
+    "submission_url": "https://codeforces.com/contest/1638/submission/207394714",
+    "tags": [
+      "data structures",
+      "math",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "May/27/2023 00:37"
+  },
   "CF207395168": {
     "contest_id": 1638,
     "language": "GNU C++20 (64)",
