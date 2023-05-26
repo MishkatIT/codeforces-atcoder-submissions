@@ -20,19 +20,21 @@ int main()
     {
         int n;
         cin >> n;
-        vector<int>v(n + 10);
-        int uni = 0;
-        int mx = 0;
+        map<int, int> mp;
         for (int i = 0; i < n; i++)
         {
             int x;
             cin >> x;
-            if(!v[x])uni++;
-            v[x]++;
-            mx = max(mx, v[x]);
+            mp[x]++;
         }
-        if(mx == uni)mx--;
-        cout << min(mx, uni) << '\n';
+        vector<int> v;
+        for(auto& i: mp)
+            v.push_back(i.second);
+        sort(v.rbegin(), v.rend());
+        int a = v[0];
+        int b = v.size();
+        if(v[0] == b)a--;
+        cout << min (a, b) << '\n';
     }
     return 0;
 }
