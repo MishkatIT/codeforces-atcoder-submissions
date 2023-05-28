@@ -1,4 +1,21 @@
 {
+  "CF207641774": {
+    "contest_id": 1831,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1831\\1831B Array merging.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Array merging",
+    "problem_url": "https://codeforces.com/contest/1831/problem/B",
+    "submission_id": "CF207641774",
+    "submission_url": "https://codeforces.com/contest/1831/submission/207641774",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "May/28/2023 22:00"
+  },
   "CF207682308": {
     "contest_id": 1455,
     "language": "GNU C++20 (64)",
