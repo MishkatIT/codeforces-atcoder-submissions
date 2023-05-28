@@ -1,4 +1,21 @@
 {
+  "CF207576419": {
+    "contest_id": 1609,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1609\\1609B William the Vigilant.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "William the Vigilant",
+    "problem_url": "https://codeforces.com/contest/1609/problem/B",
+    "submission_id": "CF207576419",
+    "submission_url": "https://codeforces.com/contest/1609/submission/207576419",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "May/28/2023 19:56"
+  },
   "CF207597359": {
     "contest_id": 1831,
     "language": "GNU C++20 (64)",
