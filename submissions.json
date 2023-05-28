@@ -1,4 +1,22 @@
 {
+  "CF207682308": {
+    "contest_id": 1455,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1455\\1455C Ping-pong.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ping-pong",
+    "problem_url": "https://codeforces.com/contest/1455/problem/C",
+    "submission_id": "CF207682308",
+    "submission_url": "https://codeforces.com/contest/1455/submission/207682308",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "May/29/2023 01:44"
+  },
   "CF207684336": {
     "contest_id": 1566,
     "language": "GNU C++20 (64)",
