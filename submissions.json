@@ -1,4 +1,22 @@
 {
+  "CF207785606": {
+    "contest_id": 1625,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1625\\1625B Elementary Particles.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Elementary Particles",
+    "problem_url": "https://codeforces.com/contest/1625/problem/B",
+    "submission_id": "CF207785606",
+    "submission_url": "https://codeforces.com/contest/1625/submission/207785606",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "May/29/2023 23:35"
+  },
   "CF207792185": {
     "contest_id": 1574,
     "language": "GNU C++20 (64)",
