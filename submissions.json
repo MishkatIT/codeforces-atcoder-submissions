@@ -1,4 +1,20 @@
 {
+  "CF208522536": {
+    "contest_id": 1199,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1199\\1199A City Day.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "City Day",
+    "problem_url": "https://codeforces.com/contest/1199/problem/A",
+    "submission_id": "CF208522536",
+    "submission_url": "https://codeforces.com/contest/1199/submission/208522536",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jun/05/2023 01:24"
+  },
   "CF208524466": {
     "contest_id": 431,
     "language": "GNU C++20 (64)",
