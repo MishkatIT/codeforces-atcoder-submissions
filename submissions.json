@@ -1,4 +1,22 @@
 {
+  "CF208519473": {
+    "contest_id": 1839,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1839\\1839A The Good Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "The Good Array",
+    "problem_url": "https://codeforces.com/contest/1839/problem/A",
+    "submission_id": "CF208519473",
+    "submission_url": "https://codeforces.com/contest/1839/submission/208519473",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/05/2023 00:51"
+  },
   "CF208522536": {
     "contest_id": 1199,
     "language": "GNU C++20 (64)",
