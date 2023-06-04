@@ -1,4 +1,21 @@
 {
+  "CF208470513": {
+    "contest_id": 1326,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1326\\1326A Bad Ugly Numbers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bad Ugly Numbers",
+    "problem_url": "https://codeforces.com/contest/1326/problem/A",
+    "submission_id": "CF208470513",
+    "submission_url": "https://codeforces.com/contest/1326/submission/208470513",
+    "tags": [
+      "constructive algorithms",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Jun/04/2023 21:26"
+  },
   "CF208519473": {
     "contest_id": 1839,
     "language": "GNU C++20 (64)",
