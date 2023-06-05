@@ -36,11 +36,7 @@ int main()
             bool same = true;
             for (int j = 0; j + 1 < v[i].size(); j++)
             {
-                if((v[i][j + 1] - v[i][j]) != dif)
-                {
-                  same = false;
-                  break;
-                }
+                same &= ((v[i][j + 1] - v[i][j]) == dif);
             }
             if(same)
             {
