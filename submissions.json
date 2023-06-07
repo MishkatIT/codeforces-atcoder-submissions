@@ -1,4 +1,22 @@
 {
+  "CF208908583": {
+    "contest_id": 1840,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1840\\1840E Character Blocking.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Character Blocking",
+    "problem_url": "https://codeforces.com/contest/1840/problem/E",
+    "submission_id": "CF208908583",
+    "submission_url": "https://codeforces.com/contest/1840/submission/208908583",
+    "tags": [
+      "data structures",
+      "hashing",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Jun/07/2023 21:06"
+  },
   "CF208932558": {
     "contest_id": 1177,
     "language": "GNU C++20 (64)",
