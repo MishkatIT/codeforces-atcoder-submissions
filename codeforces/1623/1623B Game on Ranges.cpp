@@ -20,7 +20,7 @@ int main()
     {
         int n;
         cin >> n;
-        deque<pair<int, int>> testing_vector, ans(n + 10);
+        deque<pair<int, int>> dq, ans(n + 10);
         vector<bool> track(1010);
         for (int i = 0; i < n; i++)
         {
@@ -33,14 +33,14 @@ int main()
             }
             else
             {
-                testing_vector.push_back({l, r});
+                dq.push_back({l, r});
             }
         }
-        while(!testing_vector.empty())
+        while(!dq.empty())
         {
 //        cout << 'x';
-            pair<int, int> cur = {testing_vector.front().first, testing_vector.front().second};
-            testing_vector.pop_front();
+            pair<int, int> cur = {dq.front().first, dq.front().second};
+            dq.pop_front();
             int pos = -1;
             int blank = 0;
             for (int i = cur.first; i <= cur.second; i++)
@@ -58,7 +58,7 @@ int main()
             }
             else
             {
-                testing_vector.push_back(cur);
+                dq.push_back(cur);
             }
         }
         for (int i = 1; i <= n; i++)
@@ -69,4 +69,3 @@ int main()
     return 0;
 }
 
-// Implementing by using Vector, T.C. may/ must be higher..
