@@ -16,14 +16,18 @@ int main()
         for (int j = i * i; j <= n + 1; j += i)
             prime[j] = true;
     }
-    cout << (n <= 2 ? 1 : 2) << '\n';
+    vector<int> ans;
+    set<int> s;
     for (int i = 2; n; i++)
     {
         if(prime[i])
-            cout << 2 << ' ';
+            ans.push_back(2), s.insert(2);
         else
-            cout << 1 << ' ';
+            ans.push_back(1), s.insert(1);
         n--;
     }
+    cout << (int)s.size() << '\n';
+    for(auto i: ans)
+        cout << i << ' ' ;
     return 0;
 }
