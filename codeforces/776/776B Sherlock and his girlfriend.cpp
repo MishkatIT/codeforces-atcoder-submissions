@@ -24,7 +24,6 @@ int main()
         else
             cout << 1 << ' ';
         n--;
-        
     }
     return 0;
 }
