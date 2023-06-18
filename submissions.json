@@ -1,4 +1,21 @@
 {
+  "CF210093766": {
+    "contest_id": 1834,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1834\\1834A Unit Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Unit Array",
+    "problem_url": "https://codeforces.com/contest/1834/problem/A",
+    "submission_id": "CF210093766",
+    "submission_url": "https://codeforces.com/contest/1834/submission/210093766",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/18/2023 17:40"
+  },
   "CF210171431": {
     "contest_id": 1836,
     "language": "GNU C++20 (64)",
