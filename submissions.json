@@ -1,4 +1,20 @@
 {
+  "CF210510732": {
+    "contest_id": 1395,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1395\\1395B Boboniu Plays Chess.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Boboniu Plays Chess",
+    "problem_url": "https://codeforces.com/contest/1395/problem/B",
+    "submission_id": "CF210510732",
+    "submission_url": "https://codeforces.com/contest/1395/submission/210510732",
+    "tags": [
+      "constructive algorithms",
+      "*1100"
+    ],
+    "timestamp": "Jun/21/2023 12:33"
+  },
   "CF210569511": {
     "contest_id": 1332,
     "language": "GNU C++20 (64)",
