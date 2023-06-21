@@ -1,4 +1,22 @@
 {
+  "CF210569511": {
+    "contest_id": 1332,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1332\\1332A Exercising Walk.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Exercising Walk",
+    "problem_url": "https://codeforces.com/contest/1332/problem/A",
+    "submission_id": "CF210569511",
+    "submission_url": "https://codeforces.com/contest/1332/submission/210569511",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jun/21/2023 22:19"
+  },
   "CF210662665": {
     "contest_id": 1203,
     "language": "GNU C++20 (64)",
