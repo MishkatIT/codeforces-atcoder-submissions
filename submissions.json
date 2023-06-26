@@ -1,4 +1,21 @@
 {
+  "CF211139948": {
+    "contest_id": 1454,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1454\\1454C Sequence Transformation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sequence Transformation",
+    "problem_url": "https://codeforces.com/contest/1454/problem/C",
+    "submission_id": "CF211139948",
+    "submission_url": "https://codeforces.com/contest/1454/submission/211139948",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jun/26/2023 19:35"
+  },
   "CF211140189": {
     "contest_id": 1454,
     "language": "GNU C++20 (64)",
