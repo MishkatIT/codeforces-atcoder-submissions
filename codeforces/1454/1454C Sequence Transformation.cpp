@@ -14,12 +14,9 @@ int main()
     {
         int n;
         cin >> n;
-        vector<int> v(n);
-        for(auto& i: v) cin >> i;
-        v.resize(unique(v.begin(), v.end()) - v.begin());
-        n = v.size();
-        v.insert(v.begin(), 0);
-//        const int N = 2e5 + 10;
+        vector<int> v(n + 10);
+        for (int i = 1; i <= n; i++) cin >> v[i];
+        const int N = 2e5 + 10;
 //        vector<pair<int, int>> track(N, {-1, 0});
         map<int, pair<int, int>> track;
         for (int i = 1; i <= n; i++)
@@ -31,7 +28,7 @@ int main()
             }
             else
             {
-                if(i - track[v[i]].first > 1)
+                if(v[i] != v[i - 1])
                     track[v[i]].second++;
                 track[v[i]].first = i;
             }
@@ -40,7 +37,7 @@ int main()
         for (int i = 1; i <= n; i++)
         {
             pair<int, int> x = track[v[i]];
-            if(x.second > 0)
+            if(x.second> 0)
             {
                 if(v[i] != v[1] && v[i] != v[n])
                     x.second++;
@@ -54,3 +51,4 @@ int main()
     }
     return 0;
 }
+
