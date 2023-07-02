@@ -33,6 +33,16 @@ int main()
         {
             cout << 0 << '\n';
         }
+        else if(str[n - 1] == c)
+        {
+            cout << 1 << '\n';
+            cout << n << '\n';
+        }
+        else if(str[n - 2] == c)
+        {
+            cout << 1 << '\n';
+            cout << n - 1 << '\n';
+        }
         else
         {
             bool ok;
