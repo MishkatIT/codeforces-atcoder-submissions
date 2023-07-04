@@ -20,7 +20,7 @@ int main()
     {
         int n;
         cin >> n;
-        vector<pair<int, int>>v(n);
+        vector<pair<ll, ll>>v(n);
         for (int i = 0; i < n; i++)
         {
             int x;
@@ -31,12 +31,12 @@ int main()
         ll sum = 0;
         for (int x = 1, i = 0; i < n; i++)
         {
-            sum += x * 2 * 1LL * v[i].first;
+            sum += x * 2 * v[i].first;
             x += (i & 1);
         }
         cout << sum << '\n';
         cout << 0 << ' ';
-        vector<int> ans(n);
+        vector<ll> ans(n);
         for (int x = 1, i = 0; i < n; i++)
         {
             if (i & 1) ans[v[i].second] = x;
