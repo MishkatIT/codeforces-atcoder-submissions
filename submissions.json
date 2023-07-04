@@ -5234,6 +5234,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF212075499": {
+    "contest_id": 1469,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1469\\1469B Red and Blue.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Red and Blue",
+    "problem_url": "https://codeforces.com/contest/1469/problem/B",
+    "submission_id": "CF212075499",
+    "submission_url": "https://codeforces.com/contest/1469/submission/212075499",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jul/04/2023 18:00"
+  },
   "CF212091030": {
     "contest_id": 1614,
     "language": "GNU C++20 (64)",
