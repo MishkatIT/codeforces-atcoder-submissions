@@ -25,7 +25,7 @@ int main()
         {
             int x;
             cin >> x;
-            if(!(x & 1))
+            if(x % 2 == 0)
             {
                 s.insert(x);
             }
@@ -33,7 +33,7 @@ int main()
         int ans = 0;
         for (auto& i: s)
         {
-            if(!(i & 1))
+            if(i % 2 == 0)
             {
                 ans++;
                 s.insert(i / 2);
