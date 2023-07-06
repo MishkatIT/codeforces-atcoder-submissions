@@ -20,25 +20,23 @@ int main()
     {
         int n;
         cin >> n;
-        map<int, bool, greater<int>> mp;
+        set<int, greater<int>> s;
         for (int i = 0; i < n; i++)
         {
             int x;
             cin >> x;
             if(!(x & 1))
             {
-                mp[x] = true;
+                s.insert(x);
             }
         }
         int ans = 0;
-        for (auto& i: mp)
+        for (auto& i: s)
         {
-            if(!(i.first & 1))
+            if(!(i & 1))
             {
                 ans++;
-                int x = i.first / 2;
-                if(!(x & 1))
-                    mp[x] = true;
+                s.insert(i / 2);
             }
         }
         cout << ans << '\n';
