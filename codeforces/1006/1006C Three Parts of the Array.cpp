@@ -17,12 +17,21 @@ int main()
     int n;
     cin >> n;
     vector<ll>v(n);
-    for (auto& i : v) cin >> i;
-    ll l = 0, r = n - 1;
-    ll suml = 0, sumr = 0;
-    ll ans = 0;
+    for (auto& i : v)
+    {
+        cin >> i;
+    }
+    if(n == 1)
+    {
+        cout << 0;
+        return 0;
+    }
+    ll l = 1, r = n - 2;
+    ll suml = v.front(), sumr = v.back();
+    ll ans = suml * (suml == sumr);
     while(l <= r)
     {
+//      debug(suml)debug(sumr)debug(l)debug(r)
         if(suml <= sumr) suml += v[l++];
         else sumr += v[r--];
         if(suml == sumr) ans = sumr;
