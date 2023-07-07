@@ -10487,6 +10487,24 @@
     ],
     "timestamp": "Jul/07/2023 21:50"
   },
+  "CF212701175": {
+    "contest_id": 1846,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1846\\1846B Rudolph and Tic-Tac-Toe.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Rudolph and Tic-Tac-Toe",
+    "problem_url": "https://codeforces.com/contest/1846/problem/B",
+    "submission_id": "CF212701175",
+    "submission_url": "https://codeforces.com/contest/1846/submission/212701175",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/07/2023 23:05"
+  },
   "CF212779436": {
     "contest_id": 1846,
     "language": "GNU C++20 (64)",

@@ -57,19 +57,6 @@ char win(const vector<string>& board)
     return '.';
 }
 
-bool isDraw(const vector<string>& board)
-{
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 3; j++)
-        {
-            if (board[i][j] == '.')
-                return false;
-        }
-    }
-    return true;
-}
-
 int main()
 {
     fio;
@@ -87,8 +74,6 @@ int main()
         char winner = win(board);
         if (winner != '.')
             cout << winner << '\n';
-        else if (isDraw(board))
-            cout << "DRAW" << '\n';
         else
             cout << "DRAW" << '\n';
     }
