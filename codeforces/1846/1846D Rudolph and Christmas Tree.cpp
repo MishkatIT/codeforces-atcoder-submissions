@@ -21,8 +21,16 @@ int main()
     {
         ld n, d, h;
         cin >> n >> d >> h;
-        vector<ld> v(n);
-        for (auto& i: v) cin >> i;
+        set<ld> s;
+        for (ld i = 0; i < n; i++)
+        {
+            ld x;
+            cin >> x;
+            s.insert(x);
+        }
+        vector<ld> v;
+        for(auto& i: s)
+            v.push_back(i);
         ld area = (d * h) / 2;
         ld ans = area;
         for (ld i = 1; i < n; i++)
