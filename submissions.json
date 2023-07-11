@@ -5234,6 +5234,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF213278385": {
+    "contest_id": 1689,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1689\\1689B Mystic Permutation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Mystic Permutation",
+    "problem_url": "https://codeforces.com/contest/1689/problem/B",
+    "submission_id": "CF213278385",
+    "submission_url": "https://codeforces.com/contest/1689/submission/213278385",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Jul/11/2023 18:12"
+  },
   "CF213473744": {
     "contest_id": 1844,
     "language": "GNU C++20 (64)",
