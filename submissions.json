@@ -5234,6 +5234,25 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF213661851": {
+    "contest_id": 1845,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1845\\1845A Forbidden Integer.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Forbidden Integer",
+    "problem_url": "https://codeforces.com/contest/1845/problem/A",
+    "submission_id": "CF213661851",
+    "submission_url": "https://codeforces.com/contest/1845/submission/213661851",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Jul/13/2023 19:57"
+  },
   "CF213787865": {
     "contest_id": 1665,
     "language": "GNU C++20 (64)",
