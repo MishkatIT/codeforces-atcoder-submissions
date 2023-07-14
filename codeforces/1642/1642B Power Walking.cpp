@@ -21,13 +21,13 @@ int main()
     while(t--) {
         int n;
         cin >> n;
-        map<int, bool> mp;
+        set<int> s;
         for (int i = 0; i < n; i++) {
             int x;
             cin >> x;
-            mp[x] = true;
+            s.insert(x);
         }
-        int sz = mp.size();
+        int sz = s.size();
         for (int i = 1; i <= sz; i++) {
             cout << sz << ' ';
         }
