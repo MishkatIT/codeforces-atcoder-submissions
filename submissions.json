@@ -5234,6 +5234,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF214247817": {
+    "contest_id": 1832,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1832\\1832C Contrast Value.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Contrast Value",
+    "problem_url": "https://codeforces.com/contest/1832/problem/C",
+    "submission_id": "CF214247817",
+    "submission_url": "https://codeforces.com/contest/1832/submission/214247817",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jul/18/2023 00:00"
+  },
   "CF214520259": {
     "contest_id": 1351,
     "language": "GNU C++20 (64)",
