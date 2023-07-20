@@ -5234,6 +5234,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF214651788": {
+    "contest_id": 1668,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1668\\1668A Direction Change.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Direction Change",
+    "problem_url": "https://codeforces.com/contest/1668/problem/A",
+    "submission_id": "CF214651788",
+    "submission_url": "https://codeforces.com/contest/1668/submission/214651788",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/20/2023 23:26"
+  },
   "CF214762491": {
     "contest_id": 1850,
     "language": "GNU C++20 (64)",
