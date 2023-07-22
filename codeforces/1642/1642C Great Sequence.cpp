@@ -28,23 +28,23 @@ int main()
             mp[temp]++;
         }
         ll ans = 0;
-        for (auto& i: mp) {
+        map<ll, ll>::iterator it;
+        for (it = mp.begin(); it != mp.end(); it++) {
             if(x == 1) {
-                i.second = (i.second & 1);
+                it -> second = (it -> second & 1);
             } else {
-                ll zz = i.first * x;
+                ll zz = it -> first * x;
                 auto exist = mp.find(zz);
-                if(exist != mp.end()) {
-                    ll mn = min(exist -> second, i.second);
-                    exist -> second -= mn;
-                    i.second -= mn;
+                if (exist != mp.end()) {
+                    ll mn = min(exist->second, it -> second);
+                    exist->second -= mn;
+                    it->second -= mn;
                 }
             }
-            ans += i.second;
+            ans += it -> second;
         }
         cout << ans << '\n';
     }
     return 0;
 }
-
-//testing
+// finding the elements differently 
