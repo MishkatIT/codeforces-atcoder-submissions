@@ -5234,6 +5234,24 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF215264225": {
+    "contest_id": 1245,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1245\\1245B Restricted RPS.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Restricted RPS",
+    "problem_url": "https://codeforces.com/contest/1245/problem/B",
+    "submission_id": "CF215264225",
+    "submission_url": "https://codeforces.com/contest/1245/submission/215264225",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Jul/24/2023 01:11"
+  },
   "CF215638048": {
     "contest_id": 1851,
     "language": "GNU C++20 (64)",
