@@ -19,15 +19,25 @@ int main()
     int t;
     string a, b;
     cin >> a >> b;
-    string x, y;
-    // equalizing the length by adding some leading zeros if require.
-    x = string(a.length(), '0') + b;
-    y = string(b.length(), '0') + a;
-    if(x > y) {
-        cout << '<';
-    } else if(x < y) {
+    int i = 0, j = 0;
+    int lena = a.length(), lenb = b.length();
+    while(i < lena && a[i] == '0') i++;
+    while(j < lenb && b[j] == '0') j++;
+    if(lena - i > lenb - j) {
         cout << '>';
+    } else if(lena - i < lenb - j) {
+        cout << '<';
     } else {
+        while(i < lena) {
+            if(a[i] > b[j]) {
+                cout << '>';
+                return 0;
+            } else if(a[i] < b[j]) {
+                cout << '<';
+                return 0;
+            }
+            i++, j++;
+        }
         cout << '=';
     }
     return 0;
