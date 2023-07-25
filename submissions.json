@@ -5234,6 +5234,22 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF215638048": {
+    "contest_id": 1851,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1851\\1851C Tiles Comeback.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Tiles Comeback",
+    "problem_url": "https://codeforces.com/contest/1851/problem/C",
+    "submission_id": "CF215638048",
+    "submission_url": "https://codeforces.com/contest/1851/submission/215638048",
+    "tags": [
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jul/26/2023 00:55"
+  },
   "CF215747948": {
     "contest_id": 1851,
     "language": "GNU C++20 (64)",
