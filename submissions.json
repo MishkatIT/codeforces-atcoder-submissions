@@ -11062,6 +11062,24 @@
     ],
     "timestamp": "Jul/24/2023 01:11"
   },
+  "CF215633130": {
+    "contest_id": 1851,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1851\\1851B Parity Sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Parity Sort",
+    "problem_url": "https://codeforces.com/contest/1851/problem/B",
+    "submission_id": "CF215633130",
+    "submission_url": "https://codeforces.com/contest/1851/submission/215633130",
+    "tags": [
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Jul/26/2023 00:08"
+  },
   "CF215638048": {
     "contest_id": 1851,
     "language": "GNU C++20 (64)",
