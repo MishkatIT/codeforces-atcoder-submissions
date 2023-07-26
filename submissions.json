@@ -5234,6 +5234,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF215747948": {
+    "contest_id": 1851,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1851\\1851D Prefix Permutation Sums.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Prefix Permutation Sums",
+    "problem_url": "https://codeforces.com/contest/1851/problem/D",
+    "submission_id": "CF215747948",
+    "submission_url": "https://codeforces.com/contest/1851/submission/215747948",
+    "tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jul/26/2023 20:22"
+  },
   "CF215760116": {
     "contest_id": 1851,
     "language": "GNU C++20 (64)",
