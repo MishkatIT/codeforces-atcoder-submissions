@@ -35,7 +35,9 @@ int main()
         }
         int ans = 0;
         for (int i = 0; i < n; i++) {
-            ans += mp[abs(v[i] - h)];
+            if(mp.find(abs(v[i] - h)) != mp.end()) {
+                ans++;
+            }
         }
         cout << ans << '\n';
     }
