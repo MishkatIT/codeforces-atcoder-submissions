@@ -5234,6 +5234,22 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF216125734": {
+    "contest_id": 782,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\782\\782A Andryusha and Socks.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Andryusha and Socks",
+    "problem_url": "https://codeforces.com/contest/782/problem/A",
+    "submission_id": "CF216125734",
+    "submission_url": "https://codeforces.com/contest/782/submission/216125734",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/28/2023 23:30"
+  },
   "CF216194612": {
     "contest_id": 799,
     "language": "GNU C++20 (64)",
