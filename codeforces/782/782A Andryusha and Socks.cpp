@@ -18,19 +18,23 @@ int main()
     fio;
     int n;
     cin >> n;
-    n *= 2;
+    n *= 2;////////////
     int ans = 0;
     map<int, bool> mp;
+    int xx = 0;
     for (int i = 0; i < n; i++) {
-        int x;
-        cin >> x;
-        if(!mp[x]) {
-            mp[x] = true;
-        } else {
-            mp.erase(x);
-        }
-        ans = max(ans, (int)mp.size());
+      int x;
+      cin >> x;
+      if(!mp[x]) {
+        mp[x] = true;
+        xx++;
+      } else {
+        mp[x] = false;
+        xx--;
+      }
+      ans = max(ans, xx);
     }
     cout << ans;
     return 0;
 }
+
