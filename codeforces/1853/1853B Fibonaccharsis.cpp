@@ -13,10 +13,10 @@ int main()
     while(t--) {
         int n, k;
         cin >> n >> k;
-//        if(k > 28) {
-//            cout << 0 << '\n';
-//            continue;
-//        }
+        if(k > 28) {
+            cout << 0 << '\n';
+            continue;
+        }
         int ans = 0;
         for (int i = n; i >= 0; i--) {
             bool ok = true;
