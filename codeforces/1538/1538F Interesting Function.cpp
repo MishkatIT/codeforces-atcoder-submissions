@@ -24,7 +24,9 @@ int main()
         ll ans = 0;
         while(r) {
             ans += r - l;
-            l /= 10;
+            if(l) {
+                l /= 10;
+            }
             r /= 10;
         }
         cout << ans << '\n';
