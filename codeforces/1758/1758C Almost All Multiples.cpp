@@ -21,7 +21,13 @@ int main()
     while(t--) {
         int n, x;
         cin >> n >> x;
-        if(n % x == 0) {
+        if (x == n) {
+            cout << x << ' ';
+            for (int i = 2; i < n; i++) {
+                cout << i << ' ';
+            }
+            cout << 1 << '\n';
+        } else if(n % x == 0) {
             cout << x << ' ';
             vector<bool> taken(2e5 + 10);
             taken[1] = taken[x] = true;

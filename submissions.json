@@ -5234,6 +5234,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF218060177": {
+    "contest_id": 1758,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1758\\1758C Almost All Multiples.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Almost All Multiples",
+    "problem_url": "https://codeforces.com/contest/1758/problem/C",
+    "submission_id": "CF218060177",
+    "submission_url": "https://codeforces.com/contest/1758/submission/218060177",
+    "tags": [
+      "greedy",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Aug/09/2023 23:53"
+  },
   "CF218060273": {
     "contest_id": 1758,
     "language": "GNU C++20 (64)",
