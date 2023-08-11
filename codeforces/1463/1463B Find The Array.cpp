@@ -21,14 +21,29 @@ int main()
     while(t--) {
         int n;
         cin >> n;
+        vector<int>v(n);
+        ll s = 0, sOddPos = 0, sEvenPos = 0;
         for (int i = 0; i < n; i++) {
-            int x;
-            cin >> x;
-            cout << (1 << (int)(log2(x))) << ' ';
+            cin >> v[i];
+            s += v[i];
+            if(i % 2 == 0) {
+                sEvenPos += v[i];
+            }
         }
-        cout << '\n';
+        sOddPos = s - sEvenPos;
+        for (int i = 0; i < n; i++) {
+            if(sEvenPos >= sOddPos) {
+                if(i & 1) {
+                    v[i] = 1;
+                }
+            } else {
+                if(!(i & 1)) {
+                    v[i] = 1;
+                }
+            }
+            cout << v[i] << " \n"[i == n - 1];
+        }
     }
     return 0;
 }
 
-// 2^a % 2^b == 0 if(a >= b && a >= 0)
