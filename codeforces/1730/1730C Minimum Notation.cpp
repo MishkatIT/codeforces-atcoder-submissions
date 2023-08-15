@@ -21,23 +21,19 @@ int main()
     while(t--) {
         string str;
         cin >> str;
-        vector<int> freq(10);
-        char mn = str.back();
-        for (int i = str.length() - 1; i >= 0; i--) {
-            int x = str[i] - '0';
-            if(str[i] > mn) {
-                x++;
+        string ans;
+        ans += str.back();
+        for (int i = str.length() - 2; i >= 0; i--) {
+            if(str[i] > ans.front()) {
+                char x = str[i];
+                if(x != '9') ++x;
+                ans += x;
             } else {
-                mn = min(mn, str[i]);
-            }
-            freq[min(x, 9)]++;
-        }
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < freq[i]; j++) {
-                cout << i;
+                ans = str[i] + ans;
             }
         }
-        cout << '\n';
+        sort(ans.begin(), ans.end());
+        cout << ans << '\n';
     }
     return 0;
 }
