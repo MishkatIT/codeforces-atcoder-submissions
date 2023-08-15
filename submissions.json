@@ -3849,6 +3849,26 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF218997390": {
+    "contest_id": 1807,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1807\\1807G2 Subsequence Addition (Hard Version).cpp",
+    "platform": "Codeforces",
+    "problem_index": "G2",
+    "problem_name": "Subsequence Addition (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1807/problem/G2",
+    "submission_id": "CF218997390",
+    "submission_url": "https://codeforces.com/contest/1807/submission/218997390",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Aug/15/2023 22:31"
+  },
   "CF219015403": {
     "contest_id": 1730,
     "language": "GNU C++20 (64)",
