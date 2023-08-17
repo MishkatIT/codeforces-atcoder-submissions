@@ -3849,6 +3849,24 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF219254731": {
+    "contest_id": 1858,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1858\\1858A Buttons.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Buttons",
+    "problem_url": "https://codeforces.com/contest/1858/problem/A",
+    "submission_id": "CF219254731",
+    "submission_url": "https://codeforces.com/contest/1858/submission/219254731",
+    "tags": [
+      "games",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/17/2023 20:17"
+  },
   "CF219344863": {
     "contest_id": 1860,
     "language": "GNU C++20 (64)",
