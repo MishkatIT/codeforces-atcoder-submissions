@@ -28,7 +28,7 @@ int main()
             int n = str.size();
             bool f = false;
             for (int i = 0; i + 1 < n; i++) {
-                if(str[i] == str[i + 1]) {
+                if((str[i] == '(' && str[i + 1] == '(') || (str[i] == ')' && str[i + 1] == ')')) {
                     f = true;
                     break;
                 }
