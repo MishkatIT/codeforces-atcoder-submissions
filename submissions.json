@@ -3849,6 +3849,25 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF219345043": {
+    "contest_id": 1860,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1860\\1860B Fancy Coins.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fancy Coins",
+    "problem_url": "https://codeforces.com/contest/1860/problem/B",
+    "submission_id": "CF219345043",
+    "submission_url": "https://codeforces.com/contest/1860/submission/219345043",
+    "tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Aug/17/2023 22:36"
+  },
   "CF219350084": {
     "contest_id": 1860,
     "language": "GNU C++20 (64)",
