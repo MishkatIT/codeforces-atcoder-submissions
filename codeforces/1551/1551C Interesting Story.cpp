@@ -40,7 +40,15 @@ int main()
         auto check = [&](int i) -> int {
             sort(v.begin(), v.end(), [&](auto a, auto b)
             {
-                return a.first[i] - (a.second - a.first[i]) > b.first[i] - (b.second - b.first[i]);
+                int diff_a = a.first[i] - (a.second - a.first[i]);
+                int diff_b = b.first[i] - (b.second  - b.first[i]);
+                if(diff_a == diff_b) {
+                    if(a.first[i] == b.first[i]) {
+                        return a.second < b.second;
+                    }
+                    return a.first[i] > b.first[i];
+                }
+                return diff_a > diff_b;
             });
             int choosen = 0;
             int rest = 0;
