@@ -43,9 +43,12 @@ int main()
                 int diff_a = a.first[i] - (a.second - a.first[i]);
                 int diff_b = b.first[i] - (b.second  - b.first[i]);
                 if(diff_a == diff_b) {
-                    if(a.first[i] == b.first[i]) {
-                        return a.second < b.second;
-                    }
+//                    if(a.first[i] == b.first[i]) {
+////                        if(a.second == b.second) {
+////                            return true;
+////                        }
+//                        return a.second < b.second;
+//                    }
                     return a.first[i] > b.first[i];
                 }
                 return diff_a > diff_b;
