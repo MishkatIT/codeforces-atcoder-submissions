@@ -19,8 +19,12 @@ int main()
     int n;
     cin >> n;
     string s = "OYGRBIV";
-    cout << s;
-    for (int i = 0; i < n - 7; i++) {
+    string ans = "";
+    for (int i = 0; i < (n / 7) * 7; i++) {
+        cout << s[i % 7];
+    }
+
+    for (int i = 0; i < n % 7; i++) {
         cout << s[i % 4 + 3];
     }
 
