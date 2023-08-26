@@ -40,19 +40,16 @@ int main()
             }
             if(idx != -1) {
                 mx = tempMax;
-                ans.push_back(v[idx]);
+                cout << v[idx] << ' ';
                 v[idx] = -1;
             }
         }
         for (auto& i: v) {
             if(i != -1) {
-                ans.push_back(i);
+                cout << i << ' ';
             }
         }
-
-        for (int i = 0; i < n; i++) {
-            cout << ans[i] << " \n"[i == n - 1];
-        }
+        cout << '\n';
     }
     return 0;
 }
