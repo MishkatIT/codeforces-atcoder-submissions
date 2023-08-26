@@ -3849,6 +3849,25 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF220606557": {
+    "contest_id": 1864,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1864\\1864B Swap and Reverse.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Swap and Reverse",
+    "problem_url": "https://codeforces.com/contest/1864/problem/B",
+    "submission_id": "CF220606557",
+    "submission_url": "https://codeforces.com/contest/1864/submission/220606557",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Aug/27/2023 01:46"
+  },
   "CF220606606": {
     "contest_id": 1864,
     "language": "GNU C++20 (64)",
