@@ -30,6 +30,8 @@ int main()
         cin >> response;
         if(response > mid - k) {
             low = mid + 1;
+        } else if(response < mid - k) {
+            high = mid - 1;
         } else {
             pos = mid;
             high = mid - 1;
