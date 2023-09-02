@@ -21,11 +21,11 @@ int main()
     while(t--) {
         int n, k;
         cin >> n >> k;
-        set<int> s;
+        int mex = 1LL * n * (n + 1) / 2; // this MEX calculation working at the case of 0 to n unique numbers.
         vector<int> v(n);
         for (auto& i : v) {
             cin >> i;
-            s.insert(i);
+            mex -= i;
         }
         k %= (n + 1); // we're getting the initial array after n + 1 moves.
         if(k == 0) {
@@ -33,12 +33,6 @@ int main()
                 cout << v[i] << " \n"[i == n - 1];
             }
         } else {
-            int mex = 0;
-            for (auto& i: s) {
-              if(i == mex) mex++;
-              else break;
-            }
-
             for (int i = n - (k - 1); i < n; i++) {
                 cout << v[i] << ' ';
             }
