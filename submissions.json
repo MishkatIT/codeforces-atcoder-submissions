@@ -3849,6 +3849,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF221582738": {
+    "contest_id": 1863,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1863\\1863C MEX Repetition.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "MEX Repetition",
+    "problem_url": "https://codeforces.com/contest/1863/problem/C",
+    "submission_id": "CF221582738",
+    "submission_url": "https://codeforces.com/contest/1863/submission/221582738",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/02/2023 21:19"
+  },
   "CF221583674": {
     "contest_id": 1863,
     "language": "GNU C++20 (64)",
