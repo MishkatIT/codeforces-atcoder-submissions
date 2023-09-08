@@ -21,9 +21,8 @@ int main()
     int cnt = 0;
     for (int i = 1; i <= n; i++) {
         for (int j = i; j <= n; j++) {
-            int k = i ^ j;
-            if(i + j > k) {             //for non-degenerate triangle
-                if(k >= j && k <= n) {  // the third number should be equal to i ^ j, also should on the range j to n.
+            for (int k = j; k < min(n + 1, i + j); k++) {
+                if(((i ^ j) ^ k) == 0) {
                     cnt++;
                 }
             }
