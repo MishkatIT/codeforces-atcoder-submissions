@@ -3849,6 +3849,24 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF222492837": {
+    "contest_id": 888,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\888\\888C K-Dominant Character.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "K-Dominant Character",
+    "problem_url": "https://codeforces.com/contest/888/problem/C",
+    "submission_id": "CF222492837",
+    "submission_url": "https://codeforces.com/contest/888/submission/222492837",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Sep/08/2023 23:06"
+  },
   "CF222498970": {
     "contest_id": 922,
     "language": "GNU C++20 (64)",
