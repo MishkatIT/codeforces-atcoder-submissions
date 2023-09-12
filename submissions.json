@@ -3849,6 +3849,23 @@
     ],
     "timestamp": "Jun/27/2023 17:09"
   },
+  "CF223117469": {
+    "contest_id": 1867,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1867\\1867E2 Salyg1n and Array (hard version).cpp",
+    "platform": "Codeforces",
+    "problem_index": "E2",
+    "problem_name": "Salyg1n and Array (hard version)",
+    "problem_url": "https://codeforces.com/contest/1867/problem/E2",
+    "submission_id": "CF223117469",
+    "submission_url": "https://codeforces.com/contest/1867/submission/223117469",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "*2200"
+    ],
+    "timestamp": "Sep/12/2023 22:53"
+  },
   "CF223135710": {
     "contest_id": 797,
     "language": "GNU C++20 (64)",
