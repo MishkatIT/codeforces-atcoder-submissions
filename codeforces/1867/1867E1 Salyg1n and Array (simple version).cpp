@@ -32,9 +32,8 @@ int main()
             Xor ^= ask(i);
         }
         if(n % k != 0) {
-            int rem = n % k;
-            int i = n - k + 1 - rem / 2;
-            for (; i + k - 1 <= n; i += rem / 2) {
+            int i = n - (n % k) + 1 - k + 1;
+            for (; i + k - 1 <= n; i++) {
                 Xor ^= ask(i);
             }
         }
