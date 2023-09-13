@@ -17,9 +17,9 @@ vector<int> divisors(N, -1);
 
 void sieve()
 {
-    for (int i = 3; i * i < N; i++) {
+    for (int i = 2; i * i < N; i++) {
         if(divisors[i] == -1) {
-            for (int j = i * i; j < N; j += 2 * i) {
+            for (int j = i * i; j < N; j += i) {
                 divisors[j] = i;
             }
         }
