@@ -24,11 +24,10 @@ int main()
         int a[n][m];
         int now = -1;
         set<int> s;
-        int high = min(n, m);
+
         for (int j = 0; j < m; j++) {
             int x = j;
-            set<int> temp;
-            for (int i = 0; i < high; i++) {
+            for (int i = 0; i < min(n, m); i++) {
                 if(j == 0) {
                     if(i == m - 1) a[i][j] = 0;
                     else a[i][j] = i;
@@ -40,15 +39,8 @@ int main()
 
                     a[i][j] = x;
                 }
-                temp.insert(a[i][j]);
                 x++;
             }
-            int mex = 0;
-            for (auto& i: temp) {
-                if(i == mex) mex++;
-                else break;
-            }
-            s.insert(mex);
             now++;
         }
 
@@ -60,11 +52,9 @@ int main()
             }
         }
 
-        int mex = 0;
-        for (auto& i: s) {
-            if(i == mex)mex++;
-            else break;
-        }
+        int mex;
+        if(m == 1) mex = 0;
+        else mex = min(n + 1, m);
         cout << mex << '\n';
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
