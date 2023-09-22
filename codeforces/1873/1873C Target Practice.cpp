@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Thursday 2023-09-21-20.49.51
+    created   : Friday 2023-09-22-10.18.29
 */
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -20,27 +20,18 @@ int main()
     cin >> t;
     while(t--) {
         int n = 10;
-        char arr[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                cin >> arr[i][j];
-            }
-        }
-        int x = 1;
         int ans = 0;
-        for (int i = 0; i < n / 2; i++) {
-            int cnt = 0;
-           for (int j = i; j < (n - i); j++) {
-              cnt += (arr[i][j] == 'X');
-              cnt += (arr[n - i - 1][j] == 'X');
-           }
-           for (int j = i + 1; j < (n - i) - 1; j++) {
-              cnt += (arr[j][i] == 'X');
-              cnt += (arr[j][n - i - 1] == 'X');
-           }
-          ans += (cnt * (i + 1));
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                char c;
+                cin >> c;
+                if(c == 'X') {
+                    ans += min({i, n - i + 1, j, n - j + 1}); // measuring distance from four directions.
+                }
+            }
         }
         cout << ans << '\n';
     }
     return 0;
 }
+
