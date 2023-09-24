@@ -1,36 +1,40 @@
-/*
-    author    : MishkatIT
-    created   : Sunday 2023-09-24-19.50.32
-*/
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-#define debug(_) cout << #_ << " is " << _ << '\n';
 using namespace std;
-using ll        = long long;
-using ld        = long double;
-const ll mod    = 1e9 + 7;
-const ll N      = 1e5 + 10;
-const ll inf    = 1e9;
-const ll linf   = 1e18;
+const int N = 11;
+int n, m, k;
+char arr[N][N][N];
 
-int k, n, m;
-char arr[11][11][11];
-int ans = 0;
+int dx[] = {-1, 1, 0, 0, 0, 0};
+int dy[] = {0, 0, -1, 1, 0, 0};
+int dz[] = {0, 0, 0, 0, -1, 1};
+// 3 dimensional, 6 directional array
 
-int dx[] = {1, -1, 0, 0, 0, 0};
-int dy[] = {0, 0, 1, -1, 0, 0};
-int dz[] = {0, 0, 0, 0, 1, -1};
-
-void dfs(int z, int x, int y)
+bool inRange(int nz, int nx, int ny)
 {
-    for (int i = 0; i < 6; i++) {
-        arr[z][x][y] = 'v';
-        int nz = z + dz[i];
-        int nx = x + dx[i];
-        int ny = y + dy[i];
-        if(nz >= 0 && nz < k && nx >= 0 && nx < n && ny >= 0 && ny < m && arr[nz][nx][ny] == '.') {
-            dfs(nz, nx, ny);
-            ans++;
+    return (nx >= 0 && nx < n && ny >= 0 && ny < m && nz >= 0 && nz < k);
+}
+
+int ans = 0;
+void bfs(int z, int x, int y)
+{
+    queue<array<int, 3>> q;
+    q.push({z, x, y});
+    arr[z][x][y] = 'v';
+
+    while (!q.empty()) {
+        array<int, 3> now = q.front();
+        q.pop();
+        for (int i = 0; i < 6; i++) {
+            int nz = now[0] + dx[i];
+            int nx = now[1] + dy[i];
+            int ny = now[2] + dz[i];
+
+            if (inRange(nz, nx, ny) && arr[nz][nx][ny] == '.') {
+                q.push({nz, nx, ny});
+                arr[nz][nx][ny] = 'v'; // Marked as visited
+                ans++;
+            }
         }
     }
 }
@@ -44,10 +48,10 @@ int main()
             cin >> arr[i][j];
         }
     }
-    int x, y;
-    cin >> x >> y;
-    dfs(0, x - 1, y - 1);
+    int tapX, tapY;
+    cin >> tapX >> tapY;
+    --tapX, --tapY;
+    bfs(0, tapX, tapY);
     cout << ++ans;
     return 0;
 }
-
