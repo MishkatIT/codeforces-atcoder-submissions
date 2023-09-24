@@ -1,4 +1,22 @@
 {
+  "CF224989616": {
+    "contest_id": 1879,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1879\\1879C Make it Alternating.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Make it Alternating",
+    "problem_url": "https://codeforces.com/contest/1879/problem/C",
+    "submission_id": "CF224989616",
+    "submission_url": "https://codeforces.com/contest/1879/submission/224989616",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Sep/25/2023 00:05"
+  },
   "CF225164440": {
     "contest_id": 1882,
     "language": "GNU C++20 (64)",
