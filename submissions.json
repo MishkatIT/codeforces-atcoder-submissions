@@ -1,4 +1,23 @@
 {
+  "CF225235930": {
+    "contest_id": 1496,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1496\\1496A Split it_.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Split it!",
+    "problem_url": "https://codeforces.com/contest/1496/problem/A",
+    "submission_id": "CF225235930",
+    "submission_url": "https://codeforces.com/contest/1496/submission/225235930",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Sep/26/2023 15:37"
+  },
   "CF225485521": {
     "contest_id": 1878,
     "language": "GNU C++20 (64)",
