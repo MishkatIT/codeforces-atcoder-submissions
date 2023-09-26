@@ -1,4 +1,21 @@
 {
+  "CF225229082": {
+    "contest_id": 1838,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1838\\1838B Minimize Permutation Subarrays.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Minimize Permutation Subarrays",
+    "problem_url": "https://codeforces.com/contest/1838/problem/B",
+    "submission_id": "CF225229082",
+    "submission_url": "https://codeforces.com/contest/1838/submission/225229082",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/26/2023 14:34"
+  },
   "CF225235930": {
     "contest_id": 1496,
     "language": "GNU C++20 (64)",
