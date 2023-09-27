@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Wednesday 2023-09-27-23.03.31
+    created   : Tuesday 2023-09-26-20.46.35
 */
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -18,19 +18,18 @@ int main()
     fio;
     int t;
     cin >> t;
-    while(t--) {
-        ll n, k, x;
-        cin >> n >> k >> x;
-        ll minSum = k * (k + 1) / 2;
-        ll maxSum = n * (n + 1) / 2 - (n - k) * (n - k + 1) / 2;
-        // minimum and and maximum possible sum if we choose unique 'k' elements.
+    while(t--)
+    {
+      ll n, k, x;
+      cin >> n >> k >> x;
+      ll temp = n * (n + 1) / 2;
+      ll zz = (n - k) * (n - k + 1) / 2;
+      if(temp < x || (k * (k + 1) / 2 > x) || temp - x < zz) {
+        cout << "NO" << '\n';
+      } else {
+        cout << "YES" << '\n';
+      }
 
-        if(x >= minSum && x <= maxSum) {
-            cout << "YES" << '\n';
-        } else {
-            cout << "NO" << '\n';
-        }
     }
     return 0;
 }
-
