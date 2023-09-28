@@ -1,4 +1,19 @@
 {
+  "CF225659681": {
+    "contest_id": 1882,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1882\\1882A Increasing Sequence.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Increasing Sequence",
+    "problem_url": "https://codeforces.com/contest/1882/problem/A",
+    "submission_id": "CF225659681",
+    "submission_url": "https://codeforces.com/contest/1882/submission/225659681",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Sep/28/2023 19:48"
+  },
   "CF225660056": {
     "contest_id": 1879,
     "language": "GNU C++20 (64)",
