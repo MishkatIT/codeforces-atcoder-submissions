@@ -38,11 +38,11 @@ int main()
         cout << ans;
         return 0;
     }
-    vector<int> cur(N, 0);
+    map<int, int> mp;
     cout << freq[1] << '\n';
     for (auto& i : v) {
-        cur[i]++;
-        cout << cur[i] << ' ';
+        mp[i]++;
+        cout << mp[i] << ' ';
     }
     return 0;
 }
