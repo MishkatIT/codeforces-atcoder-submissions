@@ -38,9 +38,11 @@ int main()
         cout << ans;
         return 0;
     }
+    vector<int> cur(N, 0);
     cout << freq[1] << '\n';
     for (auto& i : v) {
-        cout << freq[i]-- << ' ';
+        cur[i]++;
+        cout << cur[i] << ' ';
     }
     return 0;
 }

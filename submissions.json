@@ -1,4 +1,20 @@
 {
+  "CF225756801": {
+    "contest_id": 48,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\48\\48D Permutations.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Permutations",
+    "problem_url": "https://codeforces.com/contest/48/problem/D",
+    "submission_id": "CF225756801",
+    "submission_url": "https://codeforces.com/contest/48/submission/225756801",
+    "tags": [
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Sep/29/2023 15:17"
+  },
   "CF225898917": {
     "contest_id": 48,
     "language": "GNU C++20 (64)",
