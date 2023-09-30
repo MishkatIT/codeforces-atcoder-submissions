@@ -1,4 +1,21 @@
 {
+  "CF226070779": {
+    "contest_id": 1612,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1612\\1612B Special Permutation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Special Permutation",
+    "problem_url": "https://codeforces.com/contest/1612/problem/B",
+    "submission_id": "CF226070779",
+    "submission_url": "https://codeforces.com/contest/1612/submission/226070779",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Oct/01/2023 00:45"
+  },
   "CF226085638": {
     "contest_id": 1845,
     "language": "GNU C++20 (64)",
