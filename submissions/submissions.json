@@ -1,4 +1,20 @@
 {
+  "AC46089103": {
+    "contest_id": "abc322",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc322\\abc322C Festival.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Festival",
+    "problem_url": "https://atcoder.jp/contests/abc322/tasks/abc322_c",
+    "submission_id": "AC46089103",
+    "submission_url": "https://atcoder.jp/contests/abc322/submissions/46089103",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Sep/30/2023 18:26"
+  },
   "AC46161540": {
     "contest_id": "abc321",
     "language": "C++ 20 (gcc 12.2)",
