@@ -1,4 +1,22 @@
 {
+  "CF226150396": {
+    "contest_id": 1143,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1143\\1143B Nirvana.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nirvana",
+    "problem_url": "https://codeforces.com/contest/1143/problem/B",
+    "submission_id": "CF226150396",
+    "submission_url": "https://codeforces.com/contest/1143/submission/226150396",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Oct/01/2023 17:05"
+  },
   "CF226201760": {
     "contest_id": 1530,
     "language": "GNU C++20 (64)",
