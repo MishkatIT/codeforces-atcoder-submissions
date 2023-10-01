@@ -1,4 +1,23 @@
 {
+  "CF226201760": {
+    "contest_id": 1530,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1530\\1530C Pursuit.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pursuit",
+    "problem_url": "https://codeforces.com/contest/1530/problem/C",
+    "submission_id": "CF226201760",
+    "submission_url": "https://codeforces.com/contest/1530/submission/226201760",
+    "tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Oct/02/2023 00:04"
+  },
   "CF226272223": {
     "contest_id": 1165,
     "language": "GNU C++20 (64)",
