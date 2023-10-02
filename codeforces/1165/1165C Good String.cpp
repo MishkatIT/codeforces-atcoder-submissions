@@ -20,19 +20,33 @@ int main()
     cin >> n;
     string str;
     cin >> str;
-    string ans;
-    ans += str.front();
-    for (auto& i : str) {
-        if(ans.size() % 2 == 0 || ans.back() != i) {
-            ans += i;
+    vector<bool> bad(N);
+    int l = 0, r = 1;
+    int toRemove = 0;
+    while(r < n) {
+        if(str[l] == str[r]) {
+            bad[r] = true;
+            r++;
+            toRemove++;
+        } else {
+            l = r + 1;
+            r = l + 1;
         }
     }
-    if(ans.size() & 1) {
-        ans.pop_back();
+    if((n - toRemove) & 1) {
+        toRemove++;
+        for (int i = n - 1; i >= 0; i--) {
+            if(!bad[i]) {
+                bad[i] = true;
+                break;
+            }
+        }
     }
-    cout << n - ans.size() << '\n';
-    for (auto& i : ans) {
-        cout << i;
+    cout << toRemove << '\n';
+    for (int i = 0; i < n; i++) {
+        if(!bad[i]) {
+            cout << str[i];
+        }
     }
     return 0;
 }
