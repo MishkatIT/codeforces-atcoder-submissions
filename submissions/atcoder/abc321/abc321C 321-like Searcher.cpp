@@ -18,17 +18,16 @@ vector<ll> v;
 
 void calc()
 {
-    string s = "9876543210";
-
-    for (ll i = 2; i < (1 << 10); i++) {
-        string temp;
-        for (ll j = 9; j >= 0; j--) {
+    for (int i = 2; i < (1 << 10); i++) {
+        ll cur = 0;
+        ll x = 1;
+        for (int j = 0; j <= 9; j++) {
             if(i & (1 << j)) {
-                temp += s[9 - j];
+                cur = x * j + cur;
+                x *= 10;
             }
         }
-        ll xx = stoll(temp);
-        v.push_back(xx);
+        v.push_back(cur);
     }
     sort(v.begin(), v.end());
 }
