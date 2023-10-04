@@ -1,4 +1,21 @@
 {
+  "CF226596015": {
+    "contest_id": 1873,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1873\\1873E Building an Aquarium.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Building an Aquarium",
+    "problem_url": "https://codeforces.com/contest/1873/problem/E",
+    "submission_id": "CF226596015",
+    "submission_url": "https://codeforces.com/contest/1873/submission/226596015",
+    "tags": [
+      "binary search",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Oct/04/2023 19:42"
+  },
   "CF226596022": {
     "contest_id": 1873,
     "language": "GNU C++20 (64)",
