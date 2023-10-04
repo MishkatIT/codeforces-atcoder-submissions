@@ -1,4 +1,21 @@
 {
+  "CF226644451": {
+    "contest_id": 1140,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1140\\1140B Good String.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Good String",
+    "problem_url": "https://codeforces.com/contest/1140/problem/B",
+    "submission_id": "CF226644451",
+    "submission_url": "https://codeforces.com/contest/1140/submission/226644451",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Oct/05/2023 00:21"
+  },
   "CF226652697": {
     "contest_id": 312,
     "language": "GNU C++20 (64)",
