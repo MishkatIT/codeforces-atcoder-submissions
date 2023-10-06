@@ -23,15 +23,15 @@ int main()
         cin >> i.second >> i.first;
     }
     sort(v.rbegin(), v.rend());
-    priority_queue<ll, vector<ll>, greater<ll>> pq;
+    multiset<ll> s;
     ll ans = 0;
     ll sum = 0;
     for (int i = 0; i < n; i++) {
         sum += v[i].second;
-        pq.push(v[i].second);
-        if(pq.size() > k) {
-            sum -= pq.top();
-            pq.pop();
+        s.insert(v[i].second);
+        if(s.size() > k) {
+            sum -= *s.begin();
+            s.erase(s.begin());
         }
         ans = max(ans, sum * v[i].first);
     }
