@@ -1,4 +1,24 @@
 {
+  "CF227188143": {
+    "contest_id": 1511,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1511\\1511D Min Cost String.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Min Cost String",
+    "problem_url": "https://codeforces.com/contest/1511/problem/D",
+    "submission_id": "CF227188143",
+    "submission_url": "https://codeforces.com/contest/1511/submission/227188143",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Oct/08/2023 17:44"
+  },
   "CF227339292": {
     "contest_id": 1877,
     "language": "GNU C++20 (64)",
