@@ -1,4 +1,19 @@
 {
+  "CF227339292": {
+    "contest_id": 1877,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1877\\1877A Goals of Victory.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Goals of Victory",
+    "problem_url": "https://codeforces.com/contest/1877/problem/A",
+    "submission_id": "CF227339292",
+    "submission_url": "https://codeforces.com/contest/1877/submission/227339292",
+    "tags": [
+      "math"
+    ],
+    "timestamp": "Oct/09/2023 20:25"
+  },
   "CF227345563": {
     "contest_id": 1886,
     "language": "GNU C++20 (64)",
