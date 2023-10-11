@@ -16,21 +16,45 @@ const ll linf   = 1e18;
 int main()
 {
     fio;
-    int n;
+    ll t;
+    ll n;
     cin >> n;
-    ll g = 0;
-    for (int i = 0; i < n; i++) {
-        ll x;
-        cin >> x;
-        g = __gcd(g, x);
+    vector<ll> v(n);
+    for (auto& i : v) {
+        cin >> i;
+    }
+    sort(v.begin(), v.end());
+
+    map<ll, ll> mp;
+    ll x = v.front();
+    for (ll i = 2; i * i <= x; i++) {
+        if(x % i == 0) {
+            int cnt = 0;
+            while(x % i == 0) {
+                cnt++;
+                x /= i;
+            }
+            mp[i] = cnt;
+        }
+    }
+    if (x > 1) {
+        mp[x] = 1;
     }
 
-    int ans = 0;
-    for (ll i = 1; i * i <= g; i++) {
-        if(g % i == 0) {
-            ans++;
-            ans += (g / i != i);
+    for (auto& i: v) {
+        for (auto& x : mp) {
+            ll cnt = 0;
+            while(i % x.first == 0) {
+                i /= x.first;
+                cnt++;
+            }
+            x.second = min(x.second, cnt);
         }
+    }
+
+    ll ans = 1;
+    for (auto& i: mp) {
+        ans *= (i.second + 1);
     }
     cout << ans;
     return 0;
