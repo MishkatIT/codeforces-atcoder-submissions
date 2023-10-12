@@ -1,4 +1,20 @@
 {
+  "CF227892477": {
+    "contest_id": 1881,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1881\\1881D Divide and Equalize.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Divide and Equalize",
+    "problem_url": "https://codeforces.com/contest/1881/problem/D",
+    "submission_id": "CF227892477",
+    "submission_url": "https://codeforces.com/contest/1881/submission/227892477",
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Oct/12/2023 21:55"
+  },
   "CF227936054": {
     "contest_id": 1881,
     "language": "GNU C++20 (64)",
