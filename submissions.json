@@ -1,4 +1,20 @@
 {
+  "CF227936054": {
+    "contest_id": 1881,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1881\\1881A Don_t Try to Count.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Don't Try to Count",
+    "problem_url": "https://codeforces.com/contest/1881/problem/A",
+    "submission_id": "CF227936054",
+    "submission_url": "https://codeforces.com/contest/1881/submission/227936054",
+    "tags": [
+      "brute force",
+      "strings"
+    ],
+    "timestamp": "Oct/12/2023 23:56"
+  },
   "CF227957015": {
     "contest_id": 1881,
     "language": "GNU C++20 (64)",
