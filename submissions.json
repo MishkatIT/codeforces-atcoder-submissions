@@ -1,4 +1,19 @@
 {
+  "CF227864589": {
+    "contest_id": 1881,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1881\\1881B Three Threadlets.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Three Threadlets",
+    "problem_url": "https://codeforces.com/contest/1881/problem/B",
+    "submission_id": "CF227864589",
+    "submission_url": "https://codeforces.com/contest/1881/submission/227864589",
+    "tags": [
+      "math"
+    ],
+    "timestamp": "Oct/12/2023 21:17"
+  },
   "CF227892477": {
     "contest_id": 1881,
     "language": "GNU C++20 (64)",
