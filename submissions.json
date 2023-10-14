@@ -1,4 +1,21 @@
 {
+  "CF228179229": {
+    "contest_id": 1203,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1203\\1203E Boxers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Boxers",
+    "problem_url": "https://codeforces.com/contest/1203/problem/E",
+    "submission_id": "CF228179229",
+    "submission_url": "https://codeforces.com/contest/1203/submission/228179229",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Oct/14/2023 19:56"
+  },
   "CF228315926": {
     "contest_id": 1204,
     "language": "GNU C++20 (64)",
