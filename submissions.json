@@ -1,4 +1,23 @@
 {
+  "CF228455395": {
+    "contest_id": 1853,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1853\\1853C Ntarsis_ Set.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ntarsis' Set",
+    "problem_url": "https://codeforces.com/contest/1853/problem/C",
+    "submission_id": "CF228455395",
+    "submission_url": "https://codeforces.com/contest/1853/submission/228455395",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Oct/16/2023 23:43"
+  },
   "CF228554391": {
     "contest_id": 817,
     "language": "GNU C++20 (64)",
