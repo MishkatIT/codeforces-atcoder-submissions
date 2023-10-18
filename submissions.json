@@ -1,4 +1,22 @@
 {
+  "CF228707595": {
+    "contest_id": 801,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\801\\801B Valued Keys.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Valued Keys",
+    "problem_url": "https://codeforces.com/contest/801/problem/B",
+    "submission_id": "CF228707595",
+    "submission_url": "https://codeforces.com/contest/801/submission/228707595",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Oct/18/2023 22:19"
+  },
   "CF228762461": {
     "contest_id": 285,
     "language": "GNU C++20 (64)",
