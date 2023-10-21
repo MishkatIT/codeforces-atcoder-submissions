@@ -1,4 +1,23 @@
 {
+  "CF229095911": {
+    "contest_id": 1859,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1859\\1859B Olya and Game with Arrays.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Olya and Game with Arrays",
+    "problem_url": "https://codeforces.com/contest/1859/problem/B",
+    "submission_id": "CF229095911",
+    "submission_url": "https://codeforces.com/contest/1859/submission/229095911",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Oct/21/2023 22:37"
+  },
   "CF229148970": {
     "contest_id": 1884,
     "language": "GNU C++20 (64)",
