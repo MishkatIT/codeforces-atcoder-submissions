@@ -1,4 +1,19 @@
 {
+  "CF229212646": {
+    "contest_id": 1883,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1883\\1883A Morning.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Morning",
+    "problem_url": "https://codeforces.com/contest/1883/problem/A",
+    "submission_id": "CF229212646",
+    "submission_url": "https://codeforces.com/contest/1883/submission/229212646",
+    "tags": [
+      "math"
+    ],
+    "timestamp": "Oct/22/2023 17:16"
+  },
   "CF229219557": {
     "contest_id": 1883,
     "language": "GNU C++20 (64)",
