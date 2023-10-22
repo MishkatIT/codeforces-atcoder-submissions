@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Sunday 2023-10-22-23.10.09
+    created   : Sunday 2023-10-22-13.42.41
 */
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
@@ -13,7 +13,8 @@ const ll N      = 1e5 + 10;
 const ll inf    = 1e9;
 const ll linf   = 1e18;
 
-int main()
+#define int long long
+signed main()
 {
     fio;
     int t;
@@ -23,19 +24,44 @@ int main()
         cin >> n;
         string str;
         cin >> str;
+        str = '#' + str;
+        vector<int> ans;
+        int r = n;
+        int ex = 0;
 
-        ll ex = 0;
-        for (int i = n - 1, r = n - 1; i >= 0; i--) {
-            while(r >= 0 && str[r] == '1') {
+        auto chk = [&] (int pos) {
+            r = min(r, pos);
+            while(r > 0) {
+                if(str[r] == '0') {
+                    ex += (pos - r);
+                    str[r] = '1';
+                    str[pos] = '0';
+                    break;
+                }
                 r--;
             }
-            ex += (i - r);
-            if(r >= 0) {
-                str[r] = '1';
-                cout << ex << ' ';
-            } else {
-                cout << -1 << ' ';
+
+        };
+
+        int xx = n - 1;
+        for (int i = n; i > 0; i--) {
+            if(str[i] == '1') {
+                chk(i);
             }
+            if(r > 0) {
+                ans.push_back(ex);
+            } else {
+                break;
+            }
+        }
+
+        for(auto& i: ans) {
+            cout << i << ' ';
+        }
+
+        int rem = n - ans.size();
+        while(rem--) {
+            cout << -1 << ' ';
         }
         cout << '\n';
     }
