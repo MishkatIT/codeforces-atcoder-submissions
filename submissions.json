@@ -1,4 +1,21 @@
 {
+  "CF229148970": {
+    "contest_id": 1884,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1884\\1884A Simple Design.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Simple Design",
+    "problem_url": "https://codeforces.com/contest/1884/problem/A",
+    "submission_id": "CF229148970",
+    "submission_url": "https://codeforces.com/contest/1884/submission/229148970",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Oct/22/2023 13:09"
+  },
   "CF229212646": {
     "contest_id": 1883,
     "language": "GNU C++20 (64)",
