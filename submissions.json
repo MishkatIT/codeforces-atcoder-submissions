@@ -1,4 +1,20 @@
 {
+  "CF229270651": {
+    "contest_id": 1883,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1883\\1883C Raspberries.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Raspberries",
+    "problem_url": "https://codeforces.com/contest/1883/problem/C",
+    "submission_id": "CF229270651",
+    "submission_url": "https://codeforces.com/contest/1883/submission/229270651",
+    "tags": [
+      "dp",
+      "math"
+    ],
+    "timestamp": "Oct/22/2023 18:37"
+  },
   "CF229321024": {
     "contest_id": 1884,
     "language": "GNU C++20 (64)",
