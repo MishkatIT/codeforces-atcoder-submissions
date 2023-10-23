@@ -1,4 +1,20 @@
 {
+  "CF229454901": {
+    "contest_id": 102,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\102\\102B Sum of Digits.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sum of Digits",
+    "problem_url": "https://codeforces.com/contest/102/problem/B",
+    "submission_id": "CF229454901",
+    "submission_url": "https://codeforces.com/contest/102/submission/229454901",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Oct/23/2023 22:19"
+  },
   "CF229599526": {
     "contest_id": 1561,
     "language": "GNU C++20 (64)",
