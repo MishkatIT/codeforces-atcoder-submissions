@@ -1,4 +1,20 @@
 {
+  "CF229610819": {
+    "contest_id": 1883,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1883\\1883E Look Back.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Look Back",
+    "problem_url": "https://codeforces.com/contest/1883/problem/E",
+    "submission_id": "CF229610819",
+    "submission_url": "https://codeforces.com/contest/1883/submission/229610819",
+    "tags": [
+      "bitmasks",
+      "greedy"
+    ],
+    "timestamp": "Oct/25/2023 00:41"
+  },
   "CF229902780": {
     "contest_id": 75,
     "language": "GNU C++20 (64)",
