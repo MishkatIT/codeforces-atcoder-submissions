@@ -1,4 +1,20 @@
 {
+  "AC46923572": {
+    "contest_id": "abc323",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc323\\abc323C World Tour Finals.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "World Tour Finals",
+    "problem_url": "https://atcoder.jp/contests/abc323/tasks/abc323_c",
+    "submission_id": "AC46923572",
+    "submission_url": "https://atcoder.jp/contests/abc323/submissions/46923572",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Oct/25/2023 16:54"
+  },
   "AC46931391": {
     "contest_id": "abc323",
     "language": "C++ 20 (gcc 12.2)",
