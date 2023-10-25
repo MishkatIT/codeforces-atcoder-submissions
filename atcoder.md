@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **153**
+### 📊 Total Problems Solved: **154**
 
 </div>
 
@@ -1095,6 +1095,13 @@
 <td align="center"><a href="./submissions/atcoder/abc330/abc330A%20Counting%20Passes.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Nov/26/2023 18:13</sub></td>
+</tr>
+<tr>
+<td align="center">154</td>
+<td><a href="https://atcoder.jp/contests/abc323/tasks/abc323_c"><b>C</b> - World Tour Finals</a></td>
+<td align="center"><a href="./submissions/atcoder/abc323/abc323C%20World%20Tour%20Finals.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*250</code></td>
+<td align="center"><sub>Oct/26/2023 00:10</sub></td>
 </tr>
 </tbody>
 </table>
