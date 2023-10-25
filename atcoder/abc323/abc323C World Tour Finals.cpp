@@ -1,91 +1,65 @@
 /*
-
-    Created by : Ayon Das Gupta
-
+    author    : MishkatIT
+    created   : Wednesday 2023-10-25-16.15.59
 */
-
-#include <bits/stdc++.h>
-#define ll long long int
-#define ki(x) cout << x << '\n'
+#include<bits/stdc++.h>
+#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define debug(_) cout << #_ << " is " << _ << '\n';
 using namespace std;
+using ll        = long long;
+using ld        = long double;
+const ll mod    = 1e9 + 7;
+const ll N      = 1e5 + 10;
+const ll inf    = 1e9;
+const ll linf   = 1e18;
 
 int main()
 {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+    fio;
+    int n, m;
+    cin >> n >> m;
 
-    int n,m;
-    cin>>n>>m;
-
-    vector<int> v(m),total(n);
-    vector<vector<char>> s(n, vector<char> (m));
-
-    for(int i=0; i<m; i++) cin>>v[i];
-
-    for(int i=0; i<n; i++) {
-        for(int j=0; j<m; j++) {
-             cin>>s[i][j];
-        }
+    vector<int> score(m);
+    for (auto& i: score) {
+        cin >> i;
     }
 
-    vector<pair<int,int>> ans,ans2;
+    vector<string> player(n);
+    for (auto& i: player) {
+        cin >> i;
+    }
 
-    int max1=-1,l;
-    for(int i=0; i<n; i++) {
-     int sum=i+1;
-        for(int j=0; j<m; j++) {
-           if(s[i][j]=='o') sum+=v[j];
-        }
-        //ki(sum);
-        total[i]=sum;
-
-        if(sum>max1) {
-           max1=sum;
-           l=i;
-        }
-     }
-
-     //ki(max1);
-     ans.push_back({l,0});
-
-     for(int i=0; i<n; i++) {
-        if(l!=i) ans2.push_back({total[i],i});
-     }
-
-     sort(ans2.begin(),ans2.end());
-
-     for(auto &x:ans2) {
-        int sum=x.first,count=0;
-        //ki(x.first);
-        vector<int> tmp;
-        for(int i=0; i<m; i++) {
-            if(s[x.second][i]=='x') tmp.push_back(v[i]);//unsolved ques
-        }
-
-        sort(tmp.rbegin(),tmp.rend());
-//        for(auto &i:tmp) cout<<i<<' ';
-//        cout<<'\n';
-
-        for(auto &j:tmp) {
-            if( sum < max1 ) {
-                sum+=j;
-                //ki(sum);
-                count++;
+    int mx = 0;
+    vector<int> score_of_player(n);
+    for (int i = 0; i < n; i++) {
+        int tmax = 0;
+        for (int j = 0; j < m; j++) { // m, length of each string
+            if(player[i][j] == 'o') {
+                tmax += (score[j]);
             }
-            else {
-                break;
+        }
+        tmax += (i + 1);
+        score_of_player[i] = tmax;
+        mx = max(mx, tmax);
+    }
+    vector<pair<int, int>> sorted_score(m); // {score, position}
+    for (int i = 0; i < n; i++) {
+        sorted_score[i] = {score[i], i};
+    }
+    sort(sorted_score.rbegin(), sorted_score.rend()); // descending sort
+
+    for (int i = 0; i < n; i++) {
+        int j = 0;
+        int cnt = 0;
+        while(score_of_player[i] < mx) {
+            if (player[i][sorted_score[j].second] != 'o') {
+                score_of_player[i] += sorted_score[j].first;
+                cnt++;
             }
-         }
-         //ki(max1);
-         tmp.clear();
-         ans.push_back({x.second,count});
-      }
-
-      sort(ans.begin(),ans.end());
-
-      for(auto &i:ans) cout<<i.second<<'\n';
-
+            j++;
+        }
+        cout << cnt << '\n';
+    }
     return 0;
 }
 
