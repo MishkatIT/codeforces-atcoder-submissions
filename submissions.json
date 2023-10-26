@@ -1,4 +1,22 @@
 {
+  "CF229902780": {
+    "contest_id": 75,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\75\\75B Facetook Priority Wall.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Facetook Priority Wall",
+    "problem_url": "https://codeforces.com/contest/75/problem/B",
+    "submission_id": "CF229902780",
+    "submission_url": "https://codeforces.com/contest/75/submission/229902780",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Oct/26/2023 22:31"
+  },
   "CF229907868": {
     "contest_id": 1760,
     "language": "GNU C++20 (64)",
