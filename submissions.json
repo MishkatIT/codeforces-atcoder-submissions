@@ -21369,6 +21369,21 @@
     ],
     "timestamp": "Oct/28/2023 23:13"
   },
+  "CF230270177": {
+    "contest_id": 1890,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1890\\1890A Doremy_s Paint 3.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Doremy's Paint 3",
+    "problem_url": "https://codeforces.com/contest/1890/problem/A",
+    "submission_id": "CF230270177",
+    "submission_url": "https://codeforces.com/contest/1890/submission/230270177",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "Oct/28/2023 23:59"
+  },
   "CF230271641": {
     "contest_id": 1890,
     "language": "GNU C++20 (64)",

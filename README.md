@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1075 | [B - Qingshan Loves Strings](https://codeforces.com/contest/1890/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1890/1890B%20Qingshan%20Loves%20Strings.cpp "GNU C++20 (64)") | `implementation` | Oct/29/2023 00:09 | 
+1076 | [B - Qingshan Loves Strings](https://codeforces.com/contest/1890/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1890/1890B%20Qingshan%20Loves%20Strings.cpp "GNU C++20 (64)") | `implementation` | Oct/29/2023 00:09 | 
+1075 | [A - Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1890/1890A%20Doremy_s%20Paint%203.cpp "GNU C++20 (64)") | `constructive algorithms` | Oct/28/2023 23:59 | 
 1074 | [B - Codeforces Subsequences](https://codeforces.com/contest/1368/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1368/1368B%20Codeforces%20Subsequences.cpp "GNU C++20 (64)") | `brute force` `constructive algorithms` `greedy` `math` `strings` `*1500` | Oct/28/2023 23:13 | 
 1073 | [C - Poisoned Dagger](https://codeforces.com/contest/1613/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1613/1613C%20Poisoned%20Dagger.cpp "GNU C++20 (64)") | `binary search` `*1200` | Oct/27/2023 21:41 | 
 1072 | [F - Quests](https://codeforces.com/contest/1760/problem/F) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1760/1760F%20Quests.cpp "GNU C++20 (64)") | `binary search` `greedy` `sortings` `*1500` | Oct/26/2023 23:05 | 
