@@ -21368,5 +21368,20 @@
       "*1500"
     ],
     "timestamp": "Oct/28/2023 23:13"
+  },
+  "CF230271641": {
+    "contest_id": 1890,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1890\\1890B Qingshan Loves Strings.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Qingshan Loves Strings",
+    "problem_url": "https://codeforces.com/contest/1890/problem/B",
+    "submission_id": "CF230271641",
+    "submission_url": "https://codeforces.com/contest/1890/submission/230271641",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Oct/29/2023 00:09"
   }
 }
