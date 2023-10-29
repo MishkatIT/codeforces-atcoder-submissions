@@ -41,3 +41,21 @@ int main()
     return 0;
 }
 
+/*
+    if all the numbers are the same then it's obviously possible. 
+    what if there are multiple numbers?
+    example 1: 1 2 1 1 2 2
+    One possible rearrangement is 1 2 1 2 1 2
+
+    example 2: 1 2 1 1 2 
+    One possible rearrangement is 1 2 1 2 1 
+
+    example 3: 1 2 1 1 2 1
+    One possible rearrangement is 1 2 1 2 1 1; 
+    in this case, you'll never make the sum equal. 
+
+    example 4: 1 2 3 1 4 6 5 3
+    This is also not possible. 
+
+    did you get the visualization or math behind it? think... :)
+*/
