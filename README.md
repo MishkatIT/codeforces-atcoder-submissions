@@ -5,13 +5,15 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Badge](https://cp-logo.vercel.app/codeforces/MishkatIT)](https://codeforces.com/profile/MishkatIT)
-* AtCoder &nbsp; [![Badge](https://cp-logo.vercel.app/atcoder/MishkatIT?logo=true)](https://atcoder.jp/users/MishkatIT)
+* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT)
+* AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT)
+
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1077 | [A - Sorting with Twos](https://codeforces.com/contest/1891/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1891/1891A%20Sorting%20with%20Twos.cpp "GNU C++20 (64)") | `constructive algorithms` `constructive algorithms` `constructive algorithms` `constructive algorithms` `constructive algorithms` `constructive algorithms` `sortings` | Oct/30/2023 20:59 | 
 1076 | [B - Qingshan Loves Strings](https://codeforces.com/contest/1890/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1890/1890B%20Qingshan%20Loves%20Strings.cpp "GNU C++20 (64)") | `implementation` | Oct/29/2023 00:09 | 
 1075 | [A - Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1890/1890A%20Doremy_s%20Paint%203.cpp "GNU C++20 (64)") | `constructive algorithms` | Oct/28/2023 23:59 | 
 1074 | [B - Codeforces Subsequences](https://codeforces.com/contest/1368/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1368/1368B%20Codeforces%20Subsequences.cpp "GNU C++20 (64)") | `brute force` `constructive algorithms` `greedy` `math` `strings` `*1500` | Oct/28/2023 23:13 | 
