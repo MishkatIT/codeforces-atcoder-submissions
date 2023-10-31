@@ -5,8 +5,8 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Codeforces](https://badges.joonhyung.xyz/codeforces/jo_on.svg)](https://codeforces.com/profile/MishkatIT)
-* AtCoder &nbsp; [![AtCoder](https://badges.joonhyung.xyz/atcoder/topology.svg)](https://atcoder.jp/users/MishkatIT)
+* Codeforces &nbsp; [![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT)
+* AtCoder &nbsp; [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT)
 
 ## Contents
 
