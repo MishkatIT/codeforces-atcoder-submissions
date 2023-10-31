@@ -5,8 +5,8 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-[![Badge](https://cp-logo.vercel.app/codeforces/MishkatIT)](https://codeforces.com/profile/MishkatIT)
-[![Badge](https://cp-logo.vercel.app/atcoder/mishkatit)](https://atcoder.jp/users/mishkatit)
+* Codeforces &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/MishkatIT)](https://codeforces.com/profile/MishkatIT)
+* AtCoder &nbsp; [![AtCoder](https://cp-logo.vercel.app/atcoder/mishkatit)](https://atcoder.jp/users/mishkatit)
 
 
 ## Contents
