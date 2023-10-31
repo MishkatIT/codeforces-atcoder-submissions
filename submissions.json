@@ -21419,5 +21419,21 @@
       "sortings"
     ],
     "timestamp": "Oct/30/2023 20:59"
+  },
+  "CF230637944": {
+    "contest_id": 1891,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1891\\1891B Deja Vu.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Deja Vu",
+    "problem_url": "https://codeforces.com/contest/1891/problem/B",
+    "submission_id": "CF230637944",
+    "submission_url": "https://codeforces.com/contest/1891/submission/230637944",
+    "tags": [
+      "math",
+      "sortings"
+    ],
+    "timestamp": "Oct/31/2023 13:36"
   }
 }
