@@ -21452,6 +21452,22 @@
     ],
     "timestamp": "Oct/31/2023 13:36"
   },
+  "CF230707075": {
+    "contest_id": 1585,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1585\\1585B Array Eversion.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Array Eversion",
+    "problem_url": "https://codeforces.com/contest/1585/problem/B",
+    "submission_id": "CF230707075",
+    "submission_url": "https://codeforces.com/contest/1585/submission/230707075",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Oct/31/2023 21:52"
+  },
   "CF230859850": {
     "contest_id": 768,
     "language": "GNU C++20 (64)",
