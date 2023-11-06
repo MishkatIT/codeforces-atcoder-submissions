@@ -1,0 +1,33 @@
+/*
+    author    : MishkatIT
+    created   : Monday 2023-11-06-17.11.08
+*/
+#include<bits/stdc++.h>
+#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define debug(_) cout << #_ << " is " << _ << '\n';
+using namespace std;
+using ll        = long long;
+using ld        = long double;
+const ll mod    = 1e9 + 7;
+const ll N      = 1e5 + 10;
+const ll inf    = 1e9;
+const ll linf   = 1e18;
+
+int main()
+{
+    fio;
+    int t;
+    cin >> t;
+    while(t--) {
+        int x, y, k;
+        cin >> x >> y >> k;
+        if(x + k >= y) {
+            cout << max(x, y) << '\n';
+        } else {
+            int ans = x + k;
+            ans += (y - ans) * 2;
+            cout << ans << '\n';
+        }
+    }
+    return 0;
+}

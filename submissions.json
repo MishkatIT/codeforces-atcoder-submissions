@@ -21452,6 +21452,22 @@
     ],
     "timestamp": "Oct/31/2023 13:36"
   },
+  "CF231573917": {
+    "contest_id": 1895,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1895\\1895A Treasure Chest.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Treasure Chest",
+    "problem_url": "https://codeforces.com/contest/1895/problem/A",
+    "submission_id": "CF231573917",
+    "submission_url": "https://codeforces.com/contest/1895/submission/231573917",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/06/2023 17:15"
+  },
   "CF231577022": {
     "contest_id": 1895,
     "language": "GNU C++20 (64)",
