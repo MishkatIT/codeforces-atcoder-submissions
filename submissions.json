@@ -21452,6 +21452,22 @@
     ],
     "timestamp": "Oct/31/2023 13:36"
   },
+  "CF231698433": {
+    "contest_id": 1888,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1888\\1888A Chemistry.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Chemistry",
+    "problem_url": "https://codeforces.com/contest/1888/problem/A",
+    "submission_id": "CF231698433",
+    "submission_url": "https://codeforces.com/contest/1888/submission/231698433",
+    "tags": [
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Nov/07/2023 15:54"
+  },
   "CF231698487": {
     "contest_id": 1888,
     "language": "GNU C++20 (64)",
