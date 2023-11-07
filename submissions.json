@@ -21452,6 +21452,23 @@
     ],
     "timestamp": "Oct/31/2023 13:36"
   },
+  "CF231698487": {
+    "contest_id": 1888,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1888\\1888B Raspberries.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Raspberries",
+    "problem_url": "https://codeforces.com/contest/1888/problem/B",
+    "submission_id": "CF231698487",
+    "submission_url": "https://codeforces.com/contest/1888/submission/231698487",
+    "tags": [
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Nov/07/2023 15:55"
+  },
   "CF231739522": {
     "contest_id": 414,
     "language": "GNU C++20 (64)",
