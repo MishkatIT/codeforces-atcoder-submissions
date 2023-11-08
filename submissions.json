@@ -21452,6 +21452,24 @@
     ],
     "timestamp": "Oct/31/2023 13:36"
   },
+  "CF231955972": {
+    "contest_id": 1894,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1894\\1894C Anonymous Informant.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Anonymous Informant",
+    "problem_url": "https://codeforces.com/contest/1894/problem/C",
+    "submission_id": "CF231955972",
+    "submission_url": "https://codeforces.com/contest/1894/submission/231955972",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Nov/08/2023 21:07"
+  },
   "CF232052109": {
     "contest_id": 1792,
     "language": "GNU C++20 (64)",
