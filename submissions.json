@@ -21452,6 +21452,22 @@
     ],
     "timestamp": "Oct/31/2023 13:36"
   },
+  "CF231902345": {
+    "contest_id": 1894,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1894\\1894B Two Out of Three.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Two Out of Three",
+    "problem_url": "https://codeforces.com/contest/1894/problem/B",
+    "submission_id": "CF231902345",
+    "submission_url": "https://codeforces.com/contest/1894/submission/231902345",
+    "tags": [
+      "constructive algorithms",
+      "*1000"
+    ],
+    "timestamp": "Nov/08/2023 14:05"
+  },
   "CF231955972": {
     "contest_id": 1894,
     "language": "GNU C++20 (64)",
