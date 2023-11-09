@@ -8,13 +8,15 @@ A repository to keep track of problem solving practice, containing solutions fro
 * Codeforces &nbsp; [![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT)
 * AtCoder &nbsp; [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT)
 
+
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1080 | [C - Min Max Sort](https://codeforces.com/contest/1792/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1792/1792C%20Min%20Max%20Sort.cpp "GNU C++20 (64)") | `binary search` `brute force` `greedy` `math` `two pointers` `*1500` | Nov/09/2023 16:35 | 
 1079 | [B - Deja Vu](https://codeforces.com/contest/1891/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1891/1891B%20Deja%20Vu.cpp "GNU C++20 (64)") | `math` `sortings` | Oct/31/2023 13:36 | 
 1078 | [A - Dreamoon and Ranking Collection](https://codeforces.com/contest/1330/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1330/1330A%20Dreamoon%20and%20Ranking%20Collection.cpp "GNU C++20 (64)") | `implementation` `*900` | Oct/30/2023 23:56 | 
-1077 | [A - Sorting with Twos](https://codeforces.com/contest/1891/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1891/1891A%20Sorting%20with%20Twos.cpp "GNU C++20 (64)") | `constructive algorithms` `sortings` | Oct/30/2023 20:59 | 
+1077 | [A - Sorting with Twos](https://codeforces.com/contest/1891/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1891/1891A%20Sorting%20with%20Twos.cpp "GNU C++20 (64)") | `constructive algorithms` `constructive algorithms` `constructive algorithms` `constructive algorithms` `constructive algorithms` `constructive algorithms` `sortings` | Oct/30/2023 20:59 | 
 1076 | [B - Qingshan Loves Strings](https://codeforces.com/contest/1890/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1890/1890B%20Qingshan%20Loves%20Strings.cpp "GNU C++20 (64)") | `implementation` | Oct/29/2023 00:09 | 
 1075 | [A - Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1890/1890A%20Doremy_s%20Paint%203.cpp "GNU C++20 (64)") | `constructive algorithms` | Oct/28/2023 23:59 | 
 1074 | [B - Codeforces Subsequences](https://codeforces.com/contest/1368/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1368/1368B%20Codeforces%20Subsequences.cpp "GNU C++20 (64)") | `brute force` `constructive algorithms` `greedy` `math` `strings` `*1500` | Oct/28/2023 23:13 | 
