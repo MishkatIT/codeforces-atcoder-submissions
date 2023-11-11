@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1098 | [E - Data Structures Fan](https://codeforces.com/contest/1872/problem/E) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1872/1872E%20Data%20Structures%20Fan.cpp "GNU C++20 (64)") | `binary search` `bitmasks` `data structures` `dp` `*1500` | Nov/11/2023 21:10 | 
 1097 | [C - Min Max Sort](https://codeforces.com/contest/1792/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1792/1792C%20Min%20Max%20Sort.cpp "GNU C++20 (64)") | `binary search` `brute force` `greedy` `math` `two pointers` `*1500` | Nov/09/2023 16:35 | 
 1096 | [C - Anonymous Informant](https://codeforces.com/contest/1894/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1894/1894C%20Anonymous%20Informant.cpp "GNU C++20 (64)") | `constructive algorithms` `graphs` `implementation` `*1400` | Nov/08/2023 21:07 | 
 1095 | [B - Two Out of Three](https://codeforces.com/contest/1894/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1894/1894B%20Two%20Out%20of%20Three.cpp "GNU C++20 (64)") | `constructive algorithms` `*1000` | Nov/08/2023 14:05 | 
