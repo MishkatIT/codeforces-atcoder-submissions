@@ -47,7 +47,7 @@ public:
         return res;
     }
 
-    void build(vector<int>& arr, int cur, int s, int e, string& str)
+    void build(vector<int>& arr, int cur, int s, int e, string str)
     {
         if (s == e) {
             if (str[s] == '0') {

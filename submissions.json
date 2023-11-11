@@ -21762,6 +21762,25 @@
     ],
     "timestamp": "Nov/09/2023 16:35"
   },
+  "CF232393565": {
+    "contest_id": 1872,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1872\\1872E Data Structures Fan.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Data Structures Fan",
+    "problem_url": "https://codeforces.com/contest/1872/problem/E",
+    "submission_id": "CF232393565",
+    "submission_url": "https://codeforces.com/contest/1872/submission/232393565",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Nov/11/2023 21:07"
+  },
   "CF232395307": {
     "contest_id": 1872,
     "language": "GNU C++20 (64)",
