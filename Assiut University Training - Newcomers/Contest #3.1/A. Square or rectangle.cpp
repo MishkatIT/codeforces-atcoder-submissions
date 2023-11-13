@@ -12,7 +12,6 @@ const ll mod    = 1e9 + 7;
 const ll N      = 1e5 + 10;
 const ll inf    = 1e9;
 const ll linf   = 1e18;
-
 int main()
 {
     fio;
