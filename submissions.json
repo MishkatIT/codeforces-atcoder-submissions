@@ -21853,5 +21853,23 @@
       "*1500"
     ],
     "timestamp": "Nov/13/2023 00:34"
+  },
+  "CF232666220": {
+    "contest_id": 1774,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1774\\1774B Coloring.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Coloring",
+    "problem_url": "https://codeforces.com/contest/1774/problem/B",
+    "submission_id": "CF232666220",
+    "submission_url": "https://codeforces.com/contest/1774/submission/232666220",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Nov/13/2023 23:46"
   }
 }
