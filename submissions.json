@@ -21871,5 +21871,22 @@
       "*1500"
     ],
     "timestamp": "Nov/13/2023 23:46"
+  },
+  "CF232789077": {
+    "contest_id": 18,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\18\\18A Triangle.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Triangle",
+    "problem_url": "https://codeforces.com/contest/18/problem/A",
+    "submission_id": "CF232789077",
+    "submission_url": "https://codeforces.com/contest/18/submission/232789077",
+    "tags": [
+      "brute force",
+      "geometry",
+      "*1500"
+    ],
+    "timestamp": "Nov/15/2023 00:10"
   }
 }

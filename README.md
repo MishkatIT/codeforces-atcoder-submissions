@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1103 | [A - Triangle](https://codeforces.com/contest/18/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/18/18A%20Triangle.cpp "GNU C++20 (64)") | `brute force` `geometry` `*1500` | Nov/15/2023 00:10 | 
 1102 | [B - Coloring](https://codeforces.com/contest/1774/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1774/1774B%20Coloring.cpp "GNU C++20 (64)") | `constructive algorithms` `greedy` `math` `*1500` | Nov/13/2023 23:46 | 
 1101 | [C - Sum on Subarrays](https://codeforces.com/contest/1809/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1809/1809C%20Sum%20on%20Subarrays.cpp "GNU C++20 (64)") | `constructive algorithms` `greedy` `math` `*1500` | Nov/13/2023 00:34 | 
 1100 | [E - Price Maximization](https://codeforces.com/contest/1690/problem/E) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1690/1690E%20Price%20Maximization.cpp "GNU C++20 (64)") | `binary search` `greedy` `math` `two pointers` `*1500` | Nov/12/2023 19:11 | 
