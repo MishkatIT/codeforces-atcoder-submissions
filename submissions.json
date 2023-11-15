@@ -21929,5 +21929,21 @@
       "*1500"
     ],
     "timestamp": "Nov/15/2023 00:10"
+  },
+  "CF232890920": {
+    "contest_id": 622,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\622\\622B The Time.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Time",
+    "problem_url": "https://codeforces.com/contest/622/problem/B",
+    "submission_id": "CF232890920",
+    "submission_url": "https://codeforces.com/contest/622/submission/232890920",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Nov/15/2023 23:59"
   }
 }
