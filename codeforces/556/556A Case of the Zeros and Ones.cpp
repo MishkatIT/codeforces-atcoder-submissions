@@ -22,12 +22,21 @@ int main()
     cin >> n;
     string str;
     cin >> str;
-    int one = 0, zero = 0;
-    for (auto& i : str) {
-        one += (i == '1');
+    stack<char> s;
+    for (int i = 0; i < n; i++) {
+        if (s.size()) {
+            int a = s.top() - '0';
+            int b = str[i] - '0';
+            if (b == (a ^ 1)) {
+                s.pop();
+            } else {
+                s.push(str[i]);
+            }
+        } else {
+            s.push(str[i]);
+        }
     }
-    zero = (n - one);
-    cout << abs(one - zero);
+    cout << s.size();
     return 0;
 }
 
