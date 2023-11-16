@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1107 | [A - Case of the Zeros and Ones](https://codeforces.com/contest/556/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/556/556A%20Case%20of%20the%20Zeros%20and%20Ones.cpp "GNU C++20 (64)") | `greedy` `*900` | Nov/16/2023 23:31 | 
 1106 | [B - The Time](https://codeforces.com/contest/622/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/622/622B%20The%20Time.cpp "GNU C++20 (64)") | `implementation` `*900` | Nov/15/2023 23:59 | 
 1105 | [A - Triangle](https://codeforces.com/contest/18/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/18/18A%20Triangle.cpp "GNU C++20 (64)") | `brute force` `geometry` `*1500` | Nov/15/2023 00:10 | 
 1104 | [E2 - Close Tuples (hard version)](https://codeforces.com/contest/1462/problem/E2) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1462/1462E2%20Close%20Tuples%20(hard%20version).cpp "GNU C++20 (64)") | `binary search` `combinatorics` `implementation` `math` `sortings` `two pointers` `*1700` | Nov/14/2023 21:07 | 
