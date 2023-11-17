@@ -1,65 +1,63 @@
 /*
     author    : MishkatIT
-    created   : Saturday 2023-11-18-18.25.17
+    created   : Friday 2023-11-17-21.45.48
 */
-
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-#define debug(_) cout << #_ << " is " << _ << '\n';
-
 using namespace std;
-using ll        = long long;
-using ld        = long double;
-const ll mod    = 1e9 + 7;
-const ll N      = 2e5 + 10;
-const ll inf    = 1e9;
-const ll linf   = 1e18;
+using ll = long long;
 
-int maxSubArraySum(vector<int>& v, int l, int r) // solving by using Kadane's Algo...
+ll maxSubArraySum(ll a[], ll x, ll y)
 {
-    int sum = 0;
-    int mxSum = v[l];
-    while(l <= r) {
-        sum += v[l];
-        mxSum = max(mxSum, sum);
-        sum = max(0, sum);
-        l++;
+//    cout << "sdfdsf" << x << ' ' << y << '\n';
+    ll mx_ = a[x], mx_end = a[x];
+
+    for (ll i = x + 1; i < y; i++) {
+        mx_end = max(a[i], mx_end + a[i]);
+        mx_ = max(mx_, mx_end);
+//        cout << "dfd" << mx_ << ' ';
     }
-    return mxSum;
+    return mx_;
 }
+
 
 
 int main()
 {
     fio;
-    int t;
+    ll t;
     cin >> t;
-    while (t--) {
-        int n;
+    while(t--) {
+        ll n;
         cin >> n;
-        vector<int> v(n);
-        for (auto& i : v) {
-            cin >> i;
+        ll v[n];
+        for(ll i = 0; i < n; i++)
+            cin >> v[i];
+        ll ans = *max_element(v, v + n);
+        ll l = 0, r = l + 1;
+        int x = (abs(v[l]) & 1);
+//        cout << "xxxxxxx" << x << '\n';
+        ll sum = v[l];
+        while(r < n) {
+           if((abs(v[r]) % 2) != x) {
+//            cout << v[r] << ' ';
+            r++;
+//            cout << (v[r] % 2) << ' ';
+//            cout << "xx"<< x << '\n';
+            x ^= 1;
+//
+           } else {
+            ll xx = maxSubArraySum(v, l, r);
+            ans = max(ans, xx);
+            l = r;
+            x = (abs(v[l]) & 1);
+            r++;
+           }
         }
-
-        bool toogle = (v.front() & 1);
-        int ans = v.front(), j = 0;
-        for (int i = 0; i < n; i++) {
-            ans = max(ans, v[i]);
-            if ((v[i] & 1) == toogle)
-            {
-                toogle ^= 1;
-            } else {
-                ans = max (ans, maxSubArraySum(v, j, i - 1));
-                j = i;
-                i--;
-                toogle = (v[j] & 1);
-            }
-        }
-        ans = max (ans, maxSubArraySum(v, j, n - 1));
+        ll xx = maxSubArraySum(v, l, r);
+        ans = max(ans, xx);
         cout << ans << '\n';
     }
+
     return 0;
 }
-
-
