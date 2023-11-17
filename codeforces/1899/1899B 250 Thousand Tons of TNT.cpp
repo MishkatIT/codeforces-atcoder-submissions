@@ -11,10 +11,9 @@ int main()
     fio;
     ll N = 150000;
     vector<set<ll>> divi(N + 10);
-    for (ll i = 1; i * i <= N; i++) {
+    for (ll i = 1; i <= N / 2 + 2; i++) {
         for (ll j = i; j <= N; j += i) {
             divi[j].insert(i);
-            divi[j].insert(j / i);
         }
     }
     ll t;
