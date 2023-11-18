@@ -10,13 +10,11 @@ int main()
 {
     fio;
     ll N = 150000;
-    vector<int> divi[N + 10];
+    vector<set<ll>> divi(N + 10);
     for (ll i = 1; i * i <= N; i++) {
         for (ll j = i; j <= N; j += i) {
-            divi[j].push_back(i);
-            if (j / i != i) {
-                divi[j].push_back(j / i);
-            }
+            divi[j].insert(i);
+            divi[j].insert(j / i);
         }
     }
     ll t;
@@ -31,15 +29,17 @@ int main()
         for (ll i = 1; i <= n; i++) {
             pre[i] = pre[i - 1] + arr[i - 1];
         }
-        sort(divi[n].begin(), divi[n].end());
         ll ans = 0;
         for (auto& i : divi[n]) {
             if (i == n && i != 1)break;
+//            cout << 's' << i << '\n';
             ll mx = 0, mn = 1e18;
             for (ll x = i; x <= n; x += i) {
+//                    cout << pre[x] - pre[x - i] << ' ';
                 mx = max(mx, pre[x] - pre[x - i]);
                 mn = min(mn, pre[x] - pre[x - i]);
             }
+//            cout << '\n';
             ans = max(ans, abs(mx - mn));
         }
         cout << ans<< '\n';
