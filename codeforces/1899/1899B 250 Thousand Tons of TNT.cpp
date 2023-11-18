@@ -8,7 +8,7 @@ using namespace std;
 using ll = long long;
 int main()
 {
-//    fio;
+    fio;
     ll N = 150000;
     vector<int> divi[N + 10];
     for (ll i = 1; i * i <= N; i++) {
@@ -20,12 +20,13 @@ int main()
         }
     }
     ll t;
-    scanf("%lld", &t);
+    cin >> t;
     while(t--) {
         ll n;
-        scanf("%lld", &n);
+        cin >> n;
         ll arr[n];
-        for(ll i = 0; i < n; i++) scanf("%lld", &arr[i]);
+        for(ll i = 0; i < n; i++)
+            cin >> arr[i];
         vector<ll> pre(n + 10);
         for (ll i = 1; i <= n; i++) {
             pre[i] = pre[i - 1] + arr[i - 1];
@@ -41,7 +42,7 @@ int main()
             }
             ans = max(ans, abs(mx - mn));
         }
-        printf("%lld\n", ans);
+        cout << ans<< '\n';
     }
 
     return 0;
