@@ -21978,6 +21978,24 @@
     ],
     "timestamp": "Nov/16/2023 23:31"
   },
+  "CF233429009": {
+    "contest_id": 1899,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1899\\1899E Queue Sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Queue Sort",
+    "problem_url": "https://codeforces.com/contest/1899/problem/E",
+    "submission_id": "CF233429009",
+    "submission_url": "https://codeforces.com/contest/1899/submission/233429009",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Nov/19/2023 20:28"
+  },
   "CF233441323": {
     "contest_id": 1898,
     "language": "GNU C++20 (64)",
