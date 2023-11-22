@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1108 | [C - Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1536/1536C%20Diluc%20and%20Kaeya.cpp "GNU C++20 (64)") | `data structures` `dp` `hashing` `number theory` `*1500` | Nov/23/2023 18:47 | 
+1109 | [C - Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1536/1536C%20Diluc%20and%20Kaeya.cpp "GNU C++20 (64)") | `data structures` `dp` `hashing` `number theory` `*1500` | Nov/23/2023 18:47 | 
+1108 | [B - Symmetric Matrix](https://codeforces.com/contest/1426/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1426/1426B%20Symmetric%20Matrix.cpp "GNU C++20 (64)") | `implementation` `*900` | Nov/22/2023 17:52 | 
 1107 | [A - Case of the Zeros and Ones](https://codeforces.com/contest/556/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/556/556A%20Case%20of%20the%20Zeros%20and%20Ones.cpp "GNU C++20 (64)") | `greedy` `*900` | Nov/16/2023 23:31 | 
 1106 | [B - The Time](https://codeforces.com/contest/622/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/622/622B%20The%20Time.cpp "GNU C++20 (64)") | `implementation` `*900` | Nov/15/2023 23:59 | 
 1105 | [A - Triangle](https://codeforces.com/contest/18/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/18/18A%20Triangle.cpp "GNU C++20 (64)") | `brute force` `geometry` `*1500` | Nov/15/2023 00:10 | 
