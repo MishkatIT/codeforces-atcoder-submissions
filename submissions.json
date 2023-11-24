@@ -22285,6 +22285,23 @@
     ],
     "timestamp": "Nov/23/2023 18:47"
   },
+  "CF234078114": {
+    "contest_id": 1901,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1901\\1901B Chip and Ribbon.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chip and Ribbon",
+    "problem_url": "https://codeforces.com/contest/1901/problem/B",
+    "submission_id": "CF234078114",
+    "submission_url": "https://codeforces.com/contest/1901/submission/234078114",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Nov/24/2023 21:19"
+  },
   "CF234247860": {
     "contest_id": 1896,
     "language": "GNU C++20 (64)",
