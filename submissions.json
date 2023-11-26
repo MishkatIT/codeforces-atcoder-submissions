@@ -22285,6 +22285,24 @@
     ],
     "timestamp": "Nov/23/2023 18:47"
   },
+  "CF234419575": {
+    "contest_id": 1901,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1901\\1901C Add, Divide and Floor.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Add, Divide and Floor",
+    "problem_url": "https://codeforces.com/contest/1901/problem/C",
+    "submission_id": "CF234419575",
+    "submission_url": "https://codeforces.com/contest/1901/submission/234419575",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Nov/26/2023 19:19"
+  },
   "CF234432328": {
     "contest_id": 1900,
     "language": "GNU C++20 (64)",
