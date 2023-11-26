@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **152**
+### 📊 Total Problems Solved: **153**
 
 </div>
 
@@ -1088,6 +1088,13 @@
 <td align="center"><a href="./submissions/atcoder/abc340/abc340A%20Arithmetic%20Progression.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Feb/10/2024 18:01</sub></td>
+</tr>
+<tr>
+<td align="center">153</td>
+<td><a href="https://atcoder.jp/contests/abc330/tasks/abc330_a"><b>A</b> - Counting Passes</a></td>
+<td align="center"><a href="./submissions/atcoder/abc330/abc330A%20Counting%20Passes.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Nov/26/2023 18:13</sub></td>
 </tr>
 </tbody>
 </table>
