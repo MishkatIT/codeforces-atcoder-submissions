@@ -1,4 +1,20 @@
 {
+  "AC47971138": {
+    "contest_id": "abc330",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc330/abc330A Counting_Passes.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Counting Passes",
+    "problem_url": "https://atcoder.jp/contests/abc330/tasks/abc330_a",
+    "submission_id": "AC47971138",
+    "submission_url": "https://atcoder.jp/contests/abc330/submissions/47971138",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/26/2023 12:13"
+  },
   "AC49152139": {
     "contest_id": "dp",
     "language": "C++ 20 (gcc 12.2)",
