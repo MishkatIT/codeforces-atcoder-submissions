@@ -22285,6 +22285,22 @@
     ],
     "timestamp": "Nov/23/2023 18:47"
   },
+  "CF236520421": {
+    "contest_id": 1906,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1906\\1906A Easy As ABC.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Easy As ABC",
+    "problem_url": "https://codeforces.com/contest/1906/problem/A",
+    "submission_id": "CF236520421",
+    "submission_url": "https://codeforces.com/contest/1906/submission/236520421",
+    "tags": [
+      "brute force",
+      "*1000"
+    ],
+    "timestamp": "Dec/09/2023 21:27"
+  },
   "CF236531101": {
     "contest_id": 1907,
     "language": "GNU C++20 (64)",
