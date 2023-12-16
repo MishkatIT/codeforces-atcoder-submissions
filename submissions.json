@@ -22529,6 +22529,23 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF237476934": {
+    "contest_id": 1905,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1905\\1905A Constructive Problems.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Constructive Problems",
+    "problem_url": "https://codeforces.com/contest/1905/problem/A",
+    "submission_id": "CF237476934",
+    "submission_url": "https://codeforces.com/contest/1905/submission/237476934",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/16/2023 20:43"
+  },
   "CF237535168": {
     "contest_id": 377,
     "language": "GNU C++20 (64)",
