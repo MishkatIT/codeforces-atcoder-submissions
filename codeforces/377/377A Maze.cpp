@@ -21,17 +21,25 @@ int dy[] = {0, 1, -1, 0};
 
 bool vis[N][N];
 
-void dfs(int x, int y)
+void bfs(int x, int y)
 {
-    if (!k) return;
-    vis[x][y] = true;
+    queue<pair<int, int>> q;
+    q.push({x, y});
     arr[x][y] = '-';
     k--;
-    for (int i = 0; i < 4; i++) {
-        int nx = dx[i] + x;
-        int ny = dy[i] + y;
-        if (nx >= 0 && nx < n && ny >= 0 && ny < m && !vis[nx][ny] && arr[nx][ny] == '.') {
-            dfs(nx, ny);
+    while(!q.empty()) {
+        int a = q.front().first;
+        int b = q.front().second;
+        q.pop();
+        vis[a][b] = true;
+        for (int i = 0; i < 4; i++) {
+            int nx = dx[i] + a;
+            int ny = dy[i] + b;
+            if (nx >= 0 && nx < n && ny >= 0 && ny < m && !vis[nx][ny] && arr[nx][ny] == '.' && k) {
+                k--;
+                q.push({nx, ny});
+                arr[nx][ny] = '-';
+            }
         }
     }
 }
@@ -53,7 +61,7 @@ int main()
     }
 
     k = dot - k;
-    dfs(x, y);
+    bfs(x, y);
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
