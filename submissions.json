@@ -22529,6 +22529,22 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF237741956": {
+    "contest_id": 1913,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1913\\1913A Rating Increase.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rating Increase",
+    "problem_url": "https://codeforces.com/contest/1913/problem/A",
+    "submission_id": "CF237741956",
+    "submission_url": "https://codeforces.com/contest/1913/submission/237741956",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/18/2023 20:45"
+  },
   "CF237756335": {
     "contest_id": 1913,
     "language": "GNU C++20 (64)",
