@@ -22529,6 +22529,23 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF237703413": {
+    "contest_id": 1796,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1796\\1796C Maximum Set.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Maximum Set",
+    "problem_url": "https://codeforces.com/contest/1796/problem/C",
+    "submission_id": "CF237703413",
+    "submission_url": "https://codeforces.com/contest/1796/submission/237703413",
+    "tags": [
+      "binary search",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Dec/18/2023 15:46"
+  },
   "CF237741956": {
     "contest_id": 1913,
     "language": "GNU C++20 (64)",
