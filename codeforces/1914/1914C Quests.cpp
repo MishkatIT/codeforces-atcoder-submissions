@@ -32,11 +32,11 @@ int main()
         }
         int ans = 0;
         int sum = 0;
-        int mx = 0;
+        priority_queue<int> pq;
         for (int i = 0; i < n && i < k; i++) {
             sum += a[i];
-            mx = max(mx, b[i]);
-            ans = max(ans, sum + mx * (k - i - 1));
+            pq.push(b[i]);
+            ans = max(ans, sum + pq.top() * (k - i - 1));
         }
         cout << ans << '\n';
     }
