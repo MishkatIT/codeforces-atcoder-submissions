@@ -22529,6 +22529,23 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF238388863": {
+    "contest_id": 902,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\902\\902A Visiting a Friend.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Visiting a Friend",
+    "problem_url": "https://codeforces.com/contest/902/problem/A",
+    "submission_id": "CF238388863",
+    "submission_url": "https://codeforces.com/contest/902/submission/238388863",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/22/2023 21:21"
+  },
   "CF238513075": {
     "contest_id": 1909,
     "language": "GNU C++20 (64)",
