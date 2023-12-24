@@ -22529,6 +22529,25 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF238673117": {
+    "contest_id": 1909,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1909\\1909B Make Almost Equal With Mod.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Make Almost Equal With Mod",
+    "problem_url": "https://codeforces.com/contest/1909/problem/B",
+    "submission_id": "CF238673117",
+    "submission_url": "https://codeforces.com/contest/1909/submission/238673117",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Dec/24/2023 20:04"
+  },
   "CF238741853": {
     "contest_id": 1917,
     "language": "GNU C++20 (64)",
