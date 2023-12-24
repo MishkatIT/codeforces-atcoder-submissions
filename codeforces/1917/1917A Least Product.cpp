@@ -37,12 +37,7 @@ int main()
         }
         if (pos == n) {
             cout << 1 << '\n';
-            for (int i = 0; i < n; i++) {
-                if (v[i] > 0) {
-                    cout << i + 1 << " 0" << '\n'; break;
-
-                }
-            }
+            cout << "1 0" << '\n';
             continue;
         }
         int neg = n - pos;
