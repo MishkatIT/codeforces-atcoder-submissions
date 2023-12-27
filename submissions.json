@@ -22529,6 +22529,25 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF239115405": {
+    "contest_id": 572,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\572\\572B Order Book.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Order Book",
+    "problem_url": "https://codeforces.com/contest/572/problem/B",
+    "submission_id": "CF239115405",
+    "submission_url": "https://codeforces.com/contest/572/submission/239115405",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Dec/28/2023 00:12"
+  },
   "CF239194740": {
     "contest_id": 1497,
     "language": "GNU C++20 (64)",
