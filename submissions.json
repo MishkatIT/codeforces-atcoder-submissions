@@ -22529,6 +22529,24 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF239414092": {
+    "contest_id": 1915,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1915\\1915B Not Quite Latin Square.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Not Quite Latin Square",
+    "problem_url": "https://codeforces.com/contest/1915/problem/B",
+    "submission_id": "CF239414092",
+    "submission_url": "https://codeforces.com/contest/1915/submission/239414092",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/29/2023 01:09"
+  },
   "CF239472480": {
     "contest_id": 1917,
     "language": "GNU C++20 (64)",
