@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Friday 2023-12-29-01.04.17
+    created   : Thursday 2023-12-28-20.34.10
 */
 
 #include<bits/stdc++.h>
@@ -21,9 +21,17 @@ int main()
     int t;
     cin >> t;
     while (t--) {
-        int a, b, c;
-        cin >> a >> b >> c;
-        cout << (a ^ b ^ c) << '\n';
+        int n = 3;
+        vector<int> v(n);
+        for (auto& i : v) {
+            cin >> i;
+        }
+        sort(v.begin(), v.end());
+        if (v[0] == v[1]) {
+            cout << v[2] << '\n';
+        } else {
+            cout << v[0] << '\n';
+        }
     }
     return 0;
 }
