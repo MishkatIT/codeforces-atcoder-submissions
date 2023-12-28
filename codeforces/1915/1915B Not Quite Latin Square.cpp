@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Friday 2023-12-29-01.04.17
+    created   : Thursday 2023-12-28-20.39.16
 */
 
 #include<bits/stdc++.h>
@@ -21,11 +21,19 @@ int main()
     int t;
     cin >> t;
     while (t--) {
-        int x = ('A' + 'B' + 'C') * 3 + '?';
-        for (int i = 0; i < 3 * 3; i++) {
-            char c;
-            cin >> c;
-            x -= c;
+        char arr[3][3];
+        int x = 'A' + 'B' + 'C' + '?';
+        int ff;
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                cin >> arr[i][j];
+                if (arr[i][j] == '?') {
+                    ff = i;
+                }
+            }
+        }
+        for (int i = 0; i < 3; i++) {
+            x -= arr[ff][i];
         }
         cout << char(x) << '\n';
     }
