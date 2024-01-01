@@ -20,20 +20,20 @@ int main()
     fio;
     int n;
     cin >> n;
-    vector<array<int, 2>> range(2 * n);
-    for (int i = 0; i < 2 * n; i += 2) {
-        cin >> range[i][0] >> range[i + 1][0];
-        range[i][1] = 1;
-        range[i + 1][1] = -1;
+    map<int, int> range;
+    for (int i = 0; i < n; i++) {
+        int b, d;
+        cin >> b >> d;
+        range[b]++;
+        range[d]--;
     }
-    sort(range.begin(), range.end());
     int year = -1, mx = -1;
     int sum = 0;
     for (auto& i : range) {
-        sum += i[1];
+        sum += i.second;
         if (sum > mx) {
             mx = sum;
-            year = i[0];
+            year = i.first;
         }
     }
     cout << year << ' ' << mx;
