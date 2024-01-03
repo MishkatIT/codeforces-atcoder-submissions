@@ -22529,6 +22529,24 @@
     ],
     "timestamp": "Dec/11/2023 20:47"
   },
+  "CF240120340": {
+    "contest_id": 195,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\195\\195B After Training.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "After Training",
+    "problem_url": "https://codeforces.com/contest/195/problem/B",
+    "submission_id": "CF240120340",
+    "submission_url": "https://codeforces.com/contest/195/submission/240120340",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jan/03/2024 20:24"
+  },
   "CF240122838": {
     "contest_id": 195,
     "language": "GNU C++20 (64)",
