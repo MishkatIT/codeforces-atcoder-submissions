@@ -22528,5 +22528,24 @@
       "*1400"
     ],
     "timestamp": "Dec/11/2023 20:47"
+  },
+  "CF240233044": {
+    "contest_id": 1692,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1692\\1692G 2^Sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "2^Sort",
+    "problem_url": "https://codeforces.com/contest/1692/problem/G",
+    "submission_id": "CF240233044",
+    "submission_url": "https://codeforces.com/contest/1692/submission/240233044",
+    "tags": [
+      "data structures",
+      "dp",
+      "sortings",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Jan/04/2024 19:13"
   }
 }

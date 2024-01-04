@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1134 | [G - 2^Sort](https://codeforces.com/contest/1692/problem/G) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1692/1692G%202^Sort.cpp "GNU C++20 (64)") | `data structures` `dp` `sortings` `two pointers` `*1400` | Jan/04/2024 19:13 | 
 1133 | [D - Jumping Through Segments](https://codeforces.com/contest/1907/problem/D) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1907/1907D%20Jumping%20Through%20Segments.cpp "GNU C++20 (64)") | `binary search` `constructive algorithms` `*1400` | Dec/11/2023 20:47 | 
 1132 | [C - Removal of Unattractive Pairs](https://codeforces.com/contest/1907/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1907/1907C%20Removal%20of%20Unattractive%20Pairs.cpp "GNU C++20 (64)") | `constructive algorithms` `greedy` `math` `strings` `*1100` | Dec/10/2023 23:54 | 
 1131 | [B - YetnotherrokenKeoard](https://codeforces.com/contest/1907/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1907/1907B%20YetnotherrokenKeoard.cpp "GNU C++20 (64)") | `data structures` `implementation` `strings` `*1000` | Dec/09/2023 22:50 | 
