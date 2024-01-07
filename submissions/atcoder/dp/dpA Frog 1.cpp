@@ -1,49 +1,47 @@
 /*
-    Author    : MishkatIT
-    Created   : Monday 23-12-2024 22:36:31
+    author    : MishkatIT
+    created   : Sunday 2024-01-07-22.25.13
 */
 
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define debug(_) cout << #_ << " is " << _ << '\n';
+
 using namespace std;
+using ll        = long long;
+using ld        = long double;
+const ll mod    = 1e9 + 7;
+const ll N      = 1e5 + 10;
+const ll inf    = 1e9;
+const ll linf   = 1e18;
 
-#ifdef LOCAL
-#include "algo/debug.h"
-#else
-#define debug(...) 42
-#endif
 
-using ll = long long;
-using ld = long double;
-const int mod = 1e9 + 7;
-const int N = 2e5 + 10;
-const int inf = 1e9;
-const ll linf = 1e18;
-
-vector<int> dp;
-
-ll solve(int n, vector<int>& v) {
-    if (n <= 0) return 0;
-    if (dp[n] != -1) return dp[n];
-    ll a = abs(v[n] - v[n - 1]) + solve(n - 1, v);
-    ll b = inf;
-    if (n - 2 >= 0) {
-        b = abs(v[n] - v[n - 2]) + solve(n - 2, v);
+int h[N], dp[N];
+int n;
+int k;
+int solve(int cur) {
+    if (cur == n - 1) return 0;
+    int& ans = dp[cur];
+    if (ans != inf) return ans;
+    for (int i = 1; i <= k; i++) {
+        int j = cur + i;
+        if (j < n) {
+            ans = min(ans, solve(j) + abs(h[j] - h[cur]));
+        }
     }
-    return dp[n] = min(a, b);
+    return ans;
 }
 
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    int n;
+int main()
+{
+    fio;
+    fill(dp, dp + N, inf);
     cin >> n;
-    vector<int> v(n);
-    for (auto& i : v) {
-        cin >> i;
+    k = 2;
+    for (int i = 0; i < n; i++) {
+        cin >> h[i];
     }
-    dp.resize(n + 5, -1);
-    cout << solve(n - 1, v) << '\n';
-
+    cout << solve(0);
     return 0;
 }
+
