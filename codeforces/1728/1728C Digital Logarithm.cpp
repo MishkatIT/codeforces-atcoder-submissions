@@ -45,7 +45,7 @@ int main()
             if (i.second > 0) {
                 if (i.first > 9) {
                     ans += i.second;
-                    a[to_string(i.first).size()] += i.second;
+                    a[log10(i.first) + 1] += i.second;
                     i.second = 0;
                 }
             }
@@ -54,7 +54,7 @@ int main()
             if (i.second > 0) {
                 if (i.first > 9) {
                     ans += i.second;
-                    b[to_string(i.first).size()] += i.second;
+                    b[log10(i.first) + 1] += i.second;
                     i.second = 0;
                 }
             }
