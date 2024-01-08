@@ -24,15 +24,17 @@ int main()
     for (auto& i : v) {
         cin >> i;
     }
-    map<int, int> mp;
+    vector<int> d(N);
+    set<int> s;
     for (auto& i : v) {
-        mp[i]++;
-        if (mp.size() == n) {
+        s.insert(i);
+        d[i]++;
+        if (s.size() == n) {
             cout << 1;
-            for (auto it = mp.begin(); it != mp.end(); ) {
-                it -> second--;
-                if (!it -> second) {
-                    it = mp.erase(it);
+            for (auto it = s.begin(); it != s.end();) {
+                d[*it]--;
+                if (d[*it] == 0) {
+                    it = s.erase(it);
                 } else {
                     it++;
                 }
