@@ -23598,6 +23598,24 @@
     ],
     "timestamp": "Jan/04/2024 19:13"
   },
+  "CF240972508": {
+    "contest_id": 1916,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1916\\1916B Two Divisors.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Two Divisors",
+    "problem_url": "https://codeforces.com/contest/1916/problem/B",
+    "submission_id": "CF240972508",
+    "submission_url": "https://codeforces.com/contest/1916/submission/240972508",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Jan/09/2024 23:56"
+  },
   "CF241076299": {
     "contest_id": 1669,
     "language": "GNU C++20 (64)",
