@@ -23598,6 +23598,22 @@
     ],
     "timestamp": "Jan/04/2024 19:13"
   },
+  "CF241076299": {
+    "contest_id": 1669,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1669\\1669D Colorful Stamp.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Colorful Stamp",
+    "problem_url": "https://codeforces.com/contest/1669/problem/D",
+    "submission_id": "CF241076299",
+    "submission_url": "https://codeforces.com/contest/1669/submission/241076299",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jan/10/2024 22:12"
+  },
   "CF241076678": {
     "contest_id": 1669,
     "language": "GNU C++20 (64)",
