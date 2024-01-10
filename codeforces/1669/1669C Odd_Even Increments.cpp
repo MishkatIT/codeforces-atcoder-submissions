@@ -28,8 +28,10 @@ int main()
             cin >> i;
         }
         bool ok = true;
-        for (int i = 0; i + 2 < n; i++) {
-            ok &= (v[i] % 2 == v[i + 2] % 2);
+        for (int i = 0; i < n; i++) {
+            if (i + 2 < n) {
+                ok &= (v[i] % 2 == v[i + 2] % 2);
+            }
         }
         cout << (ok ? "YES" : "NO") << '\n';
     }
