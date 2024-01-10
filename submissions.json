@@ -23598,6 +23598,19 @@
     ],
     "timestamp": "Jan/04/2024 19:13"
   },
+  "CF241077926": {
+    "contest_id": 1671,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1671\\1671A String Building.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "String Building",
+    "problem_url": "https://codeforces.com/contest/1671/problem/A",
+    "submission_id": "CF241077926",
+    "submission_url": "https://codeforces.com/contest/1671/submission/241077926",
+    "tags": [],
+    "timestamp": "Jan/10/2024 22:28"
+  },
   "CF241273130": {
     "contest_id": 270,
     "language": "GNU C++20 (64)",
