@@ -29,16 +29,18 @@ int main()
     cin >> str;
     sort(v.begin(), v.end());
     int cur = 1;
-    stack<int> s;
+    vector<int> s;
     for (auto& i : str) {
         if (i == '0') {
             cout << v[cur].second << ' ';
-            s.push(v[cur].second);
+            s.push_back(v[cur].second);
             cur++;
         } else {
-            cout << s.top() << ' ';
-            s.pop();
+            cout << s.back() << ' ';
+            s.pop_back();
         }
     }
     return 0;
 }
+
+
