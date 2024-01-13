@@ -23598,6 +23598,25 @@
     ],
     "timestamp": "Jan/04/2024 19:13"
   },
+  "CF241472922": {
+    "contest_id": 1920,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1920\\1920B Summation Game.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Summation Game",
+    "problem_url": "https://codeforces.com/contest/1920/problem/B",
+    "submission_id": "CF241472922",
+    "submission_url": "https://codeforces.com/contest/1920/submission/241472922",
+    "tags": [
+      "games",
+      "greedy",
+      "math",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Jan/13/2024 22:06"
+  },
   "CF241491980": {
     "contest_id": 1381,
     "language": "GNU C++20 (64)",
