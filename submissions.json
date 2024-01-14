@@ -23598,6 +23598,24 @@
     ],
     "timestamp": "Jan/04/2024 19:13"
   },
+  "CF241610649": {
+    "contest_id": 982,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\982\\982B Bus of Characters.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bus of Characters",
+    "problem_url": "https://codeforces.com/contest/982/problem/B",
+    "submission_id": "CF241610649",
+    "submission_url": "https://codeforces.com/contest/982/submission/241610649",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jan/15/2024 00:21"
+  },
   "CF241707997": {
     "contest_id": 1921,
     "language": "GNU C++20 (64)",
