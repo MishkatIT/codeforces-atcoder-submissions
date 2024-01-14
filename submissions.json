@@ -23598,6 +23598,23 @@
     ],
     "timestamp": "Jan/04/2024 19:13"
   },
+  "CF241606513": {
+    "contest_id": 1703,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1703\\1703B ICPC Balloons.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "ICPC Balloons",
+    "problem_url": "https://codeforces.com/contest/1703/problem/B",
+    "submission_id": "CF241606513",
+    "submission_url": "https://codeforces.com/contest/1703/submission/241606513",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/14/2024 23:42"
+  },
   "CF241610133": {
     "contest_id": 755,
     "language": "GNU C++20 (64)",
