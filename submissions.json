@@ -23598,6 +23598,23 @@
     ],
     "timestamp": "Jan/04/2024 19:13"
   },
+  "CF241794259": {
+    "contest_id": 1921,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1921\\1921C Sending Messages.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sending Messages",
+    "problem_url": "https://codeforces.com/contest/1921/problem/C",
+    "submission_id": "CF241794259",
+    "submission_url": "https://codeforces.com/contest/1921/submission/241794259",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/15/2024 21:51"
+  },
   "CF241944693": {
     "contest_id": 1921,
     "language": "GNU C++20 (64)",
