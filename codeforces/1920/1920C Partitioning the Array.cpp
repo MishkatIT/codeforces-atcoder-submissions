@@ -27,26 +27,15 @@ int main()
         for (auto& i : v) {
             cin >> i;
         }
-        vector<int> divi;
-        for (int i = 1; i * i <= n; i++) {
-            if (n % i == 0) {
-                divi.push_back(i);
-                if (n / i != i) {
-                    divi.push_back(n / i);
-                }
-            }
-        }
         int ans = 0;
-        for (auto& i : divi) {
-            int gg = 0;
-            for (int j = 0; j < i; j++) {
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
                 int g = 0;
-                for (int x = j; x + i < n; x += i) {
-                    g = __gcd(g, abs(v[x] - v[x + i]));
+                for (int j = 0; j + i < n; j++) {
+                    g = __gcd(g, abs(v[j + i] - v[j]));
                 }
-                gg = __gcd(gg, g);
+                ans += (g != 1);
             }
-            ans += (gg != 1);
         }
         cout << ans << '\n';
     }
