@@ -25,11 +25,15 @@ int main()
         cin >> n;
         string a, b, c;
         cin >> a >> b >> c;
-        bool ok = true;
-        for (int i = 0; i < n; i++) {
-            ok &= ((a[i] == c[i]) || (b[i] == c[i]));
-        }
-        cout << (!ok ? "YES" : "NO") << '\n';
+         bool ok = true;
+         for (int i = 0; i < n; i++) {
+            if (a[i] == b[i]) {
+                ok &= (c[i] == a[i]);
+            } else {
+                ok &= ((a[i] == c[i]) || (b[i] == c[i]));
+            }
+         }
+         cout << (!ok ? "YES" : "NO") << '\n';
     }
     return 0;
 }
