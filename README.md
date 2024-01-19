@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1187 | [B - Forming Triangles](https://codeforces.com/contest/1922/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1922/1922B%20Forming%20Triangles.cpp "GNU C++20 (64)") | `combinatorics` `constructive algorithms` `math` `*1200` | Jan/20/2024 01:55 | 
 1186 | [G - 2^Sort](https://codeforces.com/contest/1692/problem/G) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1692/1692G%202^Sort.cpp "GNU C++20 (64)") | `data structures` `dp` `sortings` `two pointers` `*1400` | Jan/04/2024 19:13 | 
 1185 | [B - After Training](https://codeforces.com/contest/195/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/195/195B%20After%20Training.cpp "GNU C++20 (64)") | `data structures` `implementation` `math` `*1300` | Jan/03/2024 20:43 | 
 1184 | [B - Lecture Sleep](https://codeforces.com/contest/961/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/961/961B%20Lecture%20Sleep.cpp "GNU C++20 (64)") | `data structures` `dp` `implementation` `two pointers` `*1200` | Jan/02/2024 18:41 | 
