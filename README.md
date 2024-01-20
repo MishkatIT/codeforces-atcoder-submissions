@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1218 | [C - Closest Cities](https://codeforces.com/contest/1922/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1922/1922C%20Closest%20Cities.cpp "GNU C++20 (64)") | `greedy` `*1300` | Jan/21/2024 02:17 | 
 1217 | [B - Forming Triangles](https://codeforces.com/contest/1922/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1922/1922B%20Forming%20Triangles.cpp "GNU C++20 (64)") | `combinatorics` `constructive algorithms` `math` `*1200` | Jan/20/2024 01:55 | 
 1216 | [A - Tricky Template](https://codeforces.com/contest/1922/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1922/1922A%20Tricky%20Template.cpp "GNU C++20 (64)") | `constructive algorithms` `implementation` `strings` `*800` | Jan/19/2024 02:50 | 
 1215 | [C - Partitioning the Array](https://codeforces.com/contest/1920/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1920/1920C%20Partitioning%20the%20Array.cpp "GNU C++20 (64)") | `brute force` `math` `number theory` `*1500` | Jan/17/2024 00:25 | 
