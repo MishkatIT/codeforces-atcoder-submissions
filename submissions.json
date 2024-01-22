@@ -24270,6 +24270,25 @@
     ],
     "timestamp": "Jan/21/2024 02:17"
   },
+  "CF242905078": {
+    "contest_id": 708,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\708\\708A Letters Cyclic Shift.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Letters Cyclic Shift",
+    "problem_url": "https://codeforces.com/contest/708/problem/A",
+    "submission_id": "CF242905078",
+    "submission_url": "https://codeforces.com/contest/708/submission/242905078",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jan/22/2024 23:31"
+  },
   "CF243577086": {
     "contest_id": 1925,
     "language": "GNU C++20 (64)",
