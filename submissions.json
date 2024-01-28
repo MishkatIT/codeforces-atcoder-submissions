@@ -24270,6 +24270,24 @@
     ],
     "timestamp": "Jan/21/2024 02:17"
   },
+  "CF243741271": {
+    "contest_id": 1849,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1849\\1849B Monsters.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Monsters",
+    "problem_url": "https://codeforces.com/contest/1849/problem/B",
+    "submission_id": "CF243741271",
+    "submission_url": "https://codeforces.com/contest/1849/submission/243741271",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Jan/28/2024 15:44"
+  },
   "CF243968622": {
     "contest_id": 1891,
     "language": "GNU C++20 (64)",
