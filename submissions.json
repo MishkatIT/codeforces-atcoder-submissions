@@ -24270,6 +24270,25 @@
     ],
     "timestamp": "Jan/21/2024 02:17"
   },
+  "CF243725052": {
+    "contest_id": 1925,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1925\\1925B A Balanced Problemset_.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "A Balanced Problemset?",
+    "problem_url": "https://codeforces.com/contest/1925/problem/B",
+    "submission_id": "CF243725052",
+    "submission_url": "https://codeforces.com/contest/1925/submission/243725052",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Jan/28/2024 13:35"
+  },
   "CF243725167": {
     "contest_id": 1925,
     "language": "GNU C++20 (64)",

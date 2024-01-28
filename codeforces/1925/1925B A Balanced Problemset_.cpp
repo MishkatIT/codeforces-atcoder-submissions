@@ -34,7 +34,7 @@ int main()
                 }
             }
         }
-//        if (x == 1) ans = n;
+        if (x == 1) ans = n;
         cout << ans << '\n';
     }
     return 0;
