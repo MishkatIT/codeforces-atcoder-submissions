@@ -1,50 +1,38 @@
 /*
-    Author    : MishkatIT
-    Created   : Monday 23-12-2024 22:36:31
+    author    : MishkatIT
+    created   : Tuesday 2024-01-30-02.33.31
 */
 
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define debug(_) cout << #_ << " is " << _ << '\n';
+
 using namespace std;
+using ll        = long long;
+using ld        = long double;
+const ll mod    = 1e9 + 7;
+const ll N      = 2e5 + 10;
+const ll inf    = 1e9;
+const ll linf   = 1e18;
 
-#ifdef LOCAL
-#include "algo/debug.h"
-#else
-#define debug(...) 42
-#endif
-
-using ll = long long;
-using ld = long double;
-const int mod = 1e9 + 7;
-const int N = 2e5 + 10;
-const int inf = 1e9;
-const ll linf = 1e18;
-
-vector<int> dp;
-
-ll solve(int n, int k, vector<int>& v) {
-    if (n <= 0) return 0;
-    if (dp[n] != -1) return dp[n];
-    ll mn = linf;
-    for (int i = 1; i <= k; i++) {
-        if (n - i >= 0) {
-            mn = min(mn, abs(v[n] - v[n - i]) + solve(n - i, k, v));
-        }
-    }
-    return dp[n] = mn;
-}
-
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
+int main()
+{
+    fio;
     int n, k;
     cin >> n >> k;
     vector<int> v(n);
-    for (auto& i : v) {
-        cin >> i;
+    for (auto& i : v) cin >> i;
+    vector<int> dp(n, inf);
+    dp[0] = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j <= k; j++) {
+            if (i - j >= 0) {
+                dp[i] = min(dp[i], dp[i - j] + abs(v[i] - v[i - j]));
+            }
+        }
     }
-    dp.resize(n + 5, -1);
-    cout << solve(n - 1, k, v) << '\n';
-
+//    for (int i = 0; i < n; i++)cout << dp[i] << ' ';
+    cout << dp[n - 1];
     return 0;
 }
+
