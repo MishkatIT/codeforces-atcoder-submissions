@@ -24270,6 +24270,24 @@
     ],
     "timestamp": "Jan/21/2024 02:17"
   },
+  "CF244069468": {
+    "contest_id": 1847,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1847\\1847B Hamon Odyssey.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hamon Odyssey",
+    "problem_url": "https://codeforces.com/contest/1847/problem/B",
+    "submission_id": "CF244069468",
+    "submission_url": "https://codeforces.com/contest/1847/submission/244069468",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "two pointers",
+      "*1000"
+    ],
+    "timestamp": "Jan/30/2024 20:26"
+  },
   "CF244078204": {
     "contest_id": 1918,
     "language": "GNU C++20 (64)",
