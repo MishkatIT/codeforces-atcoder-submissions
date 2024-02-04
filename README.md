@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1219 | [C - Helping the Nature](https://codeforces.com/contest/1700/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1700/1700C%20Helping%20the%20Nature.cpp "GNU C++20 (64)") | `constructive algorithms` `data structures` `greedy` `*1700` | Feb/04/2024 20:14 | 
 1218 | [C - Closest Cities](https://codeforces.com/contest/1922/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1922/1922C%20Closest%20Cities.cpp "GNU C++20 (64)") | `greedy` `*1300` | Jan/21/2024 02:17 | 
 1217 | [B - Forming Triangles](https://codeforces.com/contest/1922/problem/B) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1922/1922B%20Forming%20Triangles.cpp "GNU C++20 (64)") | `combinatorics` `constructive algorithms` `math` `*1200` | Jan/20/2024 01:55 | 
 1216 | [A - Tricky Template](https://codeforces.com/contest/1922/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1922/1922A%20Tricky%20Template.cpp "GNU C++20 (64)") | `constructive algorithms` `implementation` `strings` `*800` | Jan/19/2024 02:50 | 
