@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1234 | [C - Theofanis' Nightmare](https://codeforces.com/contest/1903/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1903/1903C%20Theofanis_%20Nightmare.cpp "GNU C++20 (64)") | `constructive algorithms` `greedy` `*1400` | Feb/05/2024 23:37 | 
 1233 | [C - Helping the Nature](https://codeforces.com/contest/1700/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1700/1700C%20Helping%20the%20Nature.cpp "GNU C++20 (64)") | `constructive algorithms` `data structures` `greedy` `*1700` | Feb/04/2024 20:14 | 
 1232 | [C - Lucky Conversion](https://codeforces.com/contest/146/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/146/146C%20Lucky%20Conversion.cpp "GNU C++20 (64)") | `greedy` `*1200` | Feb/04/2024 02:01 | 
 1231 | [C - Place for a Selfie](https://codeforces.com/contest/1805/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1805/1805C%20Place%20for%20a%20Selfie.cpp "GNU C++20 (64)") | `binary search` `data structures` `geometry` `math` `*1400` | Feb/03/2024 23:03 | 
