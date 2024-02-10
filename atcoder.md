@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **150**
+### 📊 Total Problems Solved: **151**
 
 </div>
 
@@ -1074,6 +1074,13 @@
 <td align="center"><a href="./submissions/atcoder/abc340/abc340C%20Divide%20and%20Divide.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Feb/10/2024 18:19</sub></td>
+</tr>
+<tr>
+<td align="center">151</td>
+<td><a href="https://atcoder.jp/contests/abc340/tasks/abc340_b"><b>B</b> - Append</a></td>
+<td align="center"><a href="./submissions/atcoder/abc340/abc340B%20Append.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Feb/10/2024 18:03</sub></td>
 </tr>
 </tbody>
 </table>
