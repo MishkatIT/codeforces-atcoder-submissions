@@ -1,4 +1,20 @@
 {
+  "AC50144436": {
+    "contest_id": "abc340",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc340/abc340B Append.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Append",
+    "problem_url": "https://atcoder.jp/contests/abc340/tasks/abc340_b",
+    "submission_id": "AC50144436",
+    "submission_url": "https://atcoder.jp/contests/abc340/submissions/50144436",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/10/2024 12:03"
+  },
   "AC50157267": {
     "contest_id": "abc340",
     "language": "C++ 20 (gcc 12.2)",
