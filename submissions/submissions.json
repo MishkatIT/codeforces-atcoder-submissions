@@ -1,4 +1,20 @@
 {
+  "AC50157267": {
+    "contest_id": "abc340",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc340\\abc340C Divide and Divide.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Divide and Divide",
+    "problem_url": "https://atcoder.jp/contests/abc340/tasks/abc340_c",
+    "submission_id": "AC50157267",
+    "submission_url": "https://atcoder.jp/contests/abc340/submissions/50157267",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Feb/10/2024 18:19"
+  },
   "AC50294615": {
     "contest_id": "abc340",
     "language": "C++ 20 (gcc 12.2)",
