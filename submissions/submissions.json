@@ -1,4 +1,20 @@
 {
+  "AC50140059": {
+    "contest_id": "abc340",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc340\\abc340A Arithmetic Progression.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Arithmetic Progression",
+    "problem_url": "https://atcoder.jp/contests/abc340/tasks/abc340_a",
+    "submission_id": "AC50140059",
+    "submission_url": "https://atcoder.jp/contests/abc340/submissions/50140059",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Feb/10/2024 18:01"
+  },
   "AC50144436": {
     "contest_id": "abc340",
     "language": "C++ 20 (gcc 12.2)",
