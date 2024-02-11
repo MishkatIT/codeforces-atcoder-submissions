@@ -24582,5 +24582,23 @@
       "*1400"
     ],
     "timestamp": "Feb/05/2024 23:37"
+  },
+  "CF245855003": {
+    "contest_id": 123,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\123\\123A Prime Permutation.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prime Permutation",
+    "problem_url": "https://codeforces.com/contest/123/problem/A",
+    "submission_id": "CF245855003",
+    "submission_url": "https://codeforces.com/contest/123/submission/245855003",
+    "tags": [
+      "implementation",
+      "number theory",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Feb/11/2024 18:17"
   }
 }

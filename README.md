@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1235 | [A - Prime Permutation](https://codeforces.com/contest/123/problem/A) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/123/123A%20Prime%20Permutation.cpp "GNU C++20 (64)") | `implementation` `number theory` `strings` `*1300` | Feb/11/2024 18:17 | 
 1234 | [C - Theofanis' Nightmare](https://codeforces.com/contest/1903/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1903/1903C%20Theofanis_%20Nightmare.cpp "GNU C++20 (64)") | `constructive algorithms` `greedy` `*1400` | Feb/05/2024 23:37 | 
 1233 | [C - Helping the Nature](https://codeforces.com/contest/1700/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1700/1700C%20Helping%20the%20Nature.cpp "GNU C++20 (64)") | `constructive algorithms` `data structures` `greedy` `*1700` | Feb/04/2024 20:14 | 
 1232 | [C - Lucky Conversion](https://codeforces.com/contest/146/problem/C) | [GNU C++20 (64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/146/146C%20Lucky%20Conversion.cpp "GNU C++20 (64)") | `greedy` `*1200` | Feb/04/2024 02:01 | 
