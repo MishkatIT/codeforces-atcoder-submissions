@@ -24771,6 +24771,23 @@
     ],
     "timestamp": "Feb/11/2024 18:17"
   },
+  "CF245884236": {
+    "contest_id": 1928,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1928\\1928A Rectangle Cutting.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rectangle Cutting",
+    "problem_url": "https://codeforces.com/contest/1928/problem/A",
+    "submission_id": "CF245884236",
+    "submission_url": "https://codeforces.com/contest/1928/submission/245884236",
+    "tags": [
+      "geometry",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/11/2024 21:50"
+  },
   "CF245982572": {
     "contest_id": 1860,
     "language": "GNU C++20 (64)",
