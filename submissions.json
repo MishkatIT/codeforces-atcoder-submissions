@@ -24771,6 +24771,23 @@
     ],
     "timestamp": "Feb/11/2024 18:17"
   },
+  "CF246119832": {
+    "contest_id": 1931,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1931\\1931A Recovering a Small String.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Recovering a Small String",
+    "problem_url": "https://codeforces.com/contest/1931/problem/A",
+    "submission_id": "CF246119832",
+    "submission_url": "https://codeforces.com/contest/1931/submission/246119832",
+    "tags": [
+      "brute force",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/13/2024 20:41"
+  },
   "CF246127193": {
     "contest_id": 1931,
     "language": "GNU C++20 (64)",
