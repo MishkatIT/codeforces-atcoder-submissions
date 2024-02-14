@@ -24771,6 +24771,25 @@
     ],
     "timestamp": "Feb/11/2024 18:17"
   },
+  "CF246400231": {
+    "contest_id": 1931,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1931\\1931F Chat Screenshots.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Chat Screenshots",
+    "problem_url": "https://codeforces.com/contest/1931/problem/F",
+    "submission_id": "CF246400231",
+    "submission_url": "https://codeforces.com/contest/1931/submission/246400231",
+    "tags": [
+      "combinatorics",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Feb/15/2024 01:20"
+  },
   "CF246409616": {
     "contest_id": 17,
     "language": "GNU C++20 (64)",
