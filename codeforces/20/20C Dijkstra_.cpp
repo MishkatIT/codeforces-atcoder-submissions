@@ -20,19 +20,18 @@ vector<int> parent;
 
 void dijkstra(int n)
 {
-    set<pair<int, int>> s;
-    s.insert({0, 1});
+    priority_queue<pair<ll, int>, vector<pair<ll, int>>, greater<pair<ll, int>>> pq; // weight, edge
+    pq.push({0, 1});
     dist[1] = 0;
-    while (!s.empty()) {
-        int u = s.begin() -> second;
-        s.erase(s.begin());
+    while (!pq.empty()) {
+        int u = pq.top().second;
+        pq.pop();
         for (auto& x : adj[u]) {
             ll w = x.second;
             int v = x.first;
             if (dist[u] + w < dist[v]) {
-                s.erase({dist[v], v});
                 dist[v] = dist[u] + w;
-                s.insert({dist[v], v});
+                pq.push({dist[v], v});
                 parent[v] = u;
             }
         }
