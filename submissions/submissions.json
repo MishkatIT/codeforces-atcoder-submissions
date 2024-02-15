@@ -1,4 +1,20 @@
 {
+  "AC50294615": {
+    "contest_id": "abc340",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc340\\abc340D Super_Takahashi_Bros..cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Super Takahashi Bros.",
+    "problem_url": "https://atcoder.jp/contests/abc340/tasks/abc340_d",
+    "submission_id": "AC50294615",
+    "submission_url": "https://atcoder.jp/contests/abc340/submissions/50294615",
+    "tags": [
+      "AtCoder",
+      "*425"
+    ],
+    "timestamp": "Feb/16/2024 00:48"
+  },
   "AC50294624": {
     "contest_id": "abc340",
     "language": "C++ 20 (gcc 12.2)",
