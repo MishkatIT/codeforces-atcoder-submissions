@@ -24771,6 +24771,24 @@
     ],
     "timestamp": "Feb/11/2024 18:17"
   },
+  "CF246527409": {
+    "contest_id": 1929,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1929\\1929B Sasha and the Drawing.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sasha and the Drawing",
+    "problem_url": "https://codeforces.com/contest/1929/problem/B",
+    "submission_id": "CF246527409",
+    "submission_url": "https://codeforces.com/contest/1929/submission/246527409",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/15/2024 21:12"
+  },
   "CF246641099": {
     "contest_id": 20,
     "language": "GNU C++20 (64)",
