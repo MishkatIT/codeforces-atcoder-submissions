@@ -15,25 +15,24 @@ const ll N      = 2e5 + 10;
 const ll inf    = 1e9;
 const ll linf   = 1e18;
 
-vector<vector<pair<int, int>>> adj;
-vector<ll> dist;
+vector<pair<int, int>> adj[N];
+vector<ll> dist(N, linf);
 
 
 void dijkstra()
 {
-    set<pair<ll, int>> s;
-    s.insert({0, 1});
-    dist[1] = 0;
-    while(!s.empty()) {
-        int u = s.begin() -> second;
-        s.erase(s.begin());
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    pq.push({0, 1});
+    while(!pq.empty()) {
+        dist[1] = 0;
+        int u = pq.top().second;
+        pq.pop();
         for (auto& i : adj[u]) {
             int v = i.first;
             ll w = i.second;
             if (dist[u] + w < dist[v]) {
-                s.erase({dist[v], v});
                 dist[v] = dist[u] + w;
-                s.insert({dist[v], v});
+                pq.push({dist[v], v});
             }
         }
     }
@@ -44,8 +43,6 @@ signed main()
     fio;
     int n;
     cin >> n;
-    adj.resize(n + 5);
-    dist.resize(n + 5, linf);
     for (int i = 1; i < n; i++) {
         int a, b, x;
         cin >> a >> b >> x;
