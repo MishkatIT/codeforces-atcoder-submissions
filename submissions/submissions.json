@@ -1,4 +1,20 @@
 {
+  "AC50344039": {
+    "contest_id": "abc341",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc341/abc341B Foreign_Exchange.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Foreign Exchange",
+    "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_b",
+    "submission_id": "AC50344039",
+    "submission_url": "https://atcoder.jp/contests/abc341/submissions/50344039",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Feb/17/2024 12:12"
+  },
   "AC50358619": {
     "contest_id": "abc341",
     "language": "C++ 20 (gcc 12.2)",
