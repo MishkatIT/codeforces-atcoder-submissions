@@ -1,4 +1,20 @@
 {
+  "AC50358619": {
+    "contest_id": "abc341",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc341\\abc341C Takahashi Gets Lost.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Takahashi Gets Lost",
+    "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_c",
+    "submission_id": "AC50358619",
+    "submission_url": "https://atcoder.jp/contests/abc341/submissions/50358619",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Feb/17/2024 18:30"
+  },
   "AC50413992": {
     "contest_id": "abc341",
     "language": "C++ 20 (gcc 12.2)",
