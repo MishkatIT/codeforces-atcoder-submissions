@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **146**
+### 📊 Total Problems Solved: **147**
 
 </div>
 
@@ -1046,6 +1046,13 @@
 <td align="center"><a href="./submissions/atcoder/abc341/abc341C%20Takahashi%20Gets%20Lost.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*250</code></td>
 <td align="center"><sub>Feb/17/2024 18:30</sub></td>
+</tr>
+<tr>
+<td align="center">147</td>
+<td><a href="https://atcoder.jp/contests/abc341/tasks/abc341_b"><b>B</b> - Foreign Exchange</a></td>
+<td align="center"><a href="./submissions/atcoder/abc341/abc341B%20Foreign%20Exchange.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Feb/17/2024 18:12</sub></td>
 </tr>
 </tbody>
 </table>
