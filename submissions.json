@@ -25059,6 +25059,23 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF247101280": {
+    "contest_id": 1932,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1932\\1932D Card Game.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Card Game",
+    "problem_url": "https://codeforces.com/contest/1932/problem/D",
+    "submission_id": "CF247101280",
+    "submission_url": "https://codeforces.com/contest/1932/submission/247101280",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Feb/18/2024 20:41"
+  },
   "CF247224972": {
     "contest_id": 1926,
     "language": "C++20 (GCC 11-64)",
