@@ -1,4 +1,20 @@
 {
+  "AC50413992": {
+    "contest_id": "abc341",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc341\\abc341D Only one of two.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Only one of two",
+    "problem_url": "https://atcoder.jp/contests/abc341/tasks/abc341_d",
+    "submission_id": "AC50413992",
+    "submission_url": "https://atcoder.jp/contests/abc341/submissions/50413992",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Feb/18/2024 14:15"
+  },
   "AC50777189": {
     "contest_id": "abc343",
     "language": "C++ 20 (gcc 12.2)",
