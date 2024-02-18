@@ -25059,6 +25059,22 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF247027289": {
+    "contest_id": 1932,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1932\\1932B Chaya Calendar.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chaya Calendar",
+    "problem_url": "https://codeforces.com/contest/1932/problem/B",
+    "submission_id": "CF247027289",
+    "submission_url": "https://codeforces.com/contest/1932/submission/247027289",
+    "tags": [
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Feb/18/2024 18:38"
+  },
   "CF247069124": {
     "contest_id": 1932,
     "language": "C++20 (GCC 11-64)",
