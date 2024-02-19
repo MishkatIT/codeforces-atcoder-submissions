@@ -1,6 +1,6 @@
 /*
     author    : MishkatIT
-    created   : Friday 2024-02-23-03.42.05
+    created   : Monday 2024-02-19-20.19.49
 */
 
 #include<bits/stdc++.h>
@@ -21,10 +21,15 @@ int main()
     int t;
     cin >> t;
     while (t--) {
-        string x;
-        cin >> x;
-        sort(x.begin(), x.end());
-        cout << x[2] << '\n';
+        string str;
+        cin >> str;
+        int a = 0, b = 0;
+        for (int i = 0; i < str.size(); i++) {
+            a += (str[i] == 'A');
+            b += (str[i] == 'B');
+        }
+        if (a > b) cout << 'A' << '\n';
+        else cout << 'B' << '\n';
     }
     return 0;
 }
