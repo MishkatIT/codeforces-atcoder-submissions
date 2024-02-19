@@ -25059,6 +25059,23 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF247287180": {
+    "contest_id": 1926,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1926\\1926B Vlad and Shapes.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Vlad and Shapes",
+    "problem_url": "https://codeforces.com/contest/1926/problem/B",
+    "submission_id": "CF247287180",
+    "submission_url": "https://codeforces.com/contest/1926/submission/247287180",
+    "tags": [
+      "geometry",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/19/2024 21:13"
+  },
   "CF247307306": {
     "contest_id": 1926,
     "language": "C++20 (GCC 11-64)",
