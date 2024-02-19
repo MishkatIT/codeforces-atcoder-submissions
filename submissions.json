@@ -25059,6 +25059,23 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF247307306": {
+    "contest_id": 1926,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1926\\1926C Vlad and a Sum of Sum of Digits.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Vlad and a Sum of Sum of Digits",
+    "problem_url": "https://codeforces.com/contest/1926/problem/C",
+    "submission_id": "CF247307306",
+    "submission_url": "https://codeforces.com/contest/1926/submission/247307306",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Feb/19/2024 21:32"
+  },
   "CF247363927": {
     "contest_id": 1926,
     "language": "C++20 (GCC 11-64)",
