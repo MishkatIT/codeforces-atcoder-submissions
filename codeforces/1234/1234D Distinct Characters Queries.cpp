@@ -17,21 +17,20 @@ int getInt(char c)
     return (int)(c - 'a');
 }
 
-struct Node {
-    vector<bool> lazy = vector<bool>(26, false);
-    vector<bool> freq = vector<bool>(26, false);
+struct freq {
+    vector<bool> f = vector<bool> (26, false);
 };
 
 class SegmentTree
 {
 public:
-    vector<Node> tree;
+    vector<freq> tree;
     int n;
 
     SegmentTree()
     {
         n = str.size();
-        tree.assign(4 * n, Node());
+        tree.assign(4 * n, freq());
         build(1, 0, n - 1);
     }
 
@@ -39,87 +38,53 @@ public:
     {
         if (s > e) return;
         if (s == e) {
-            tree[node].freq[getInt(str[s])] = true;
+            tree[node].f[getInt(str[s])] = true;
         } else {
             int mid = (s + e) / 2;
             build(2 * node, s, mid);
             build(2 * node + 1, mid + 1, e);
             for (int i = 0; i < 26; i++) {
-                tree[node].freq[i] = tree[2 * node].freq[i] | tree[2 * node + 1].freq[i];
+                tree[node].f[i] = tree[2 * node].f[i] | tree[2 * node + 1].f[i];
             }
         }
         return;
     }
 
-    void propagate(int node, int s, int e)
-    {
-        if (tree[node].lazy == vector<bool>(26, false)) return;
-
-        for (int i = 0; i < 26; i++) {
-            if (tree[node].lazy[i]) {
-                tree[node].freq[i] = true;
-            }
-        }
-
-        if (s != e) {
-            for (int i = 0; i < 26; i++) {
-                if (tree[node].lazy[i]) {
-                    tree[2 * node].lazy[i] = tree[2 * node + 1].lazy[i] = true;
-                }
-            }
-        }
-
-        tree[node].lazy = vector<bool>(26, false);
-    }
-
     void update(int node, int s, int e, int l, int r, char val)
     {
-        propagate(node, s, e);
-
         if (l > e || r < s) {
             return;
         }
-        if (l <= s && e <= r) {
-            for (int i = 0; i < 26; i++) {
-                if (i == getInt(val)) {
-                    tree[node].freq[i] = true;
-                } else {
-                    tree[node].freq[i] = false;
-                }
-            }
-
-            if (s != e) {
-                tree[2 * node].lazy[getInt(val)] = tree[2 * node + 1].lazy[getInt(val)] = true;
-            }
-
+        if (s == e) {
+            tree[node].f[getInt(str[s])] = false;
+            str[s] = val;
+            tree[node].f[getInt(str[s])] = true;
             return;
         }
         int mid = (s + e) / 2;
         update(2 * node, s, mid, l, r, val);
         update(2 * node + 1, mid + 1, e, l, r, val);
         for (int i = 0; i < 26; i++) {
-            tree[node].freq[i] = tree[2 * node].freq[i] | tree[2 * node + 1].freq[i];
+            tree[node].f[i] = tree[2 * node].f[i] | tree[2 * node + 1].f[i];
         }
         return;
     }
 
-    Node query(int node, int s, int e, int l, int r)
+    freq query(int node, int s, int e, int l, int r)
     {
-        propagate(node, s, e);
-
         if (l > e || r < s) {
-            Node x;
+            freq x;
             return x;
         }
         if (l <= s && e <= r) {
             return tree[node];
         }
         int mid = (s + e) / 2;
-        Node left = query(2 * node, s, mid, l, r);
-        Node right = query(2 * node + 1, mid + 1, e, l, r);
-        Node x;
+        freq left = query(2 * node, s, mid, l, r);
+        freq right = query(2 * node + 1, mid + 1, e, l, r);
+        freq x;
         for (int i = 0; i < 26; i++) {
-            x.freq[i] = left.freq[i] | right.freq[i];
+            x.f[i] = left.f[i] | right.f[i];
         }
         return x;
     }
@@ -129,7 +94,7 @@ public:
         update(1, 0, n - 1, l, r, val);
     }
 
-    Node range_query(int l, int r)
+    freq range_query(int l, int r)
     {
         return query(1, 0, n - 1, l, r);
     }
@@ -156,13 +121,12 @@ int main()
             int l, r;
             cin >> l >> r;
             --l, --r;
-            Node x = st.range_query(l, r);
+            freq x = st.range_query(l, r);
             int uni = 0;
-            for (int i = 0; i < 26; i++) uni += x.freq[i];
+            for (int i = 0; i < 26; i++) uni += x.f[i];
             cout << uni << '\n';
         }
 
     }
     return 0;
 }
-
