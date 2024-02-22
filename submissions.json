@@ -25059,6 +25059,22 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF247802406": {
+    "contest_id": 1926,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1926\\1926A Vlad and the Best of Five.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vlad and the Best of Five",
+    "problem_url": "https://codeforces.com/contest/1926/problem/A",
+    "submission_id": "CF247802406",
+    "submission_url": "https://codeforces.com/contest/1926/submission/247802406",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Feb/23/2024 03:42"
+  },
   "CF247903060": {
     "contest_id": 1923,
     "language": "C++20 (GCC 11-64)",
