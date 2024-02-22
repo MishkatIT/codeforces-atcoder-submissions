@@ -18,7 +18,7 @@ int getInt(char c)
 }
 
 struct freq {
-    vector<bool> f = vector<bool> (26, false);
+    vector<int> f = vector<int> (26, 0);
 };
 
 class SegmentTree
@@ -38,13 +38,13 @@ public:
     {
         if (s > e) return;
         if (s == e) {
-            tree[node].f[getInt(str[s])] = true;
+            tree[node].f[getInt(str[s])]++;
         } else {
             int mid = (s + e) / 2;
             build(2 * node, s, mid);
             build(2 * node + 1, mid + 1, e);
             for (int i = 0; i < 26; i++) {
-                tree[node].f[i] = tree[2 * node].f[i] | tree[2 * node + 1].f[i];
+                tree[node].f[i] = tree[2 * node].f[i] + tree[2 * node + 1].f[i];
             }
         }
         return;
@@ -56,16 +56,16 @@ public:
             return;
         }
         if (s == e) {
-            tree[node].f[getInt(str[s])] = false;
+            tree[node].f[getInt(str[s])]--;
             str[s] = val;
-            tree[node].f[getInt(str[s])] = true;
+            tree[node].f[getInt(str[s])]++;
             return;
         }
         int mid = (s + e) / 2;
         update(2 * node, s, mid, l, r, val);
         update(2 * node + 1, mid + 1, e, l, r, val);
         for (int i = 0; i < 26; i++) {
-            tree[node].f[i] = tree[2 * node].f[i] | tree[2 * node + 1].f[i];
+            tree[node].f[i] = tree[2 * node].f[i] + tree[2 * node + 1].f[i];
         }
         return;
     }
@@ -84,7 +84,7 @@ public:
         freq right = query(2 * node + 1, mid + 1, e, l, r);
         freq x;
         for (int i = 0; i < 26; i++) {
-            x.f[i] = left.f[i] | right.f[i];
+            x.f[i] = left.f[i] + right.f[i];
         }
         return x;
     }
@@ -123,7 +123,9 @@ int main()
             --l, --r;
             freq x = st.range_query(l, r);
             int uni = 0;
-            for (int i = 0; i < 26; i++) uni += x.f[i];
+            for (auto& i : x.f) {
+                uni += (i != 0);
+            }
             cout << uni << '\n';
         }
 
