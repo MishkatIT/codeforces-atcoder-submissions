@@ -25059,6 +25059,24 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF248495463": {
+    "contest_id": 1933,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1933\\1933A Turtle Puzzle_ Rearrange and Negate.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Turtle Puzzle: Rearrange and Negate",
+    "problem_url": "https://codeforces.com/contest/1933/problem/A",
+    "submission_id": "CF248495463",
+    "submission_url": "https://codeforces.com/contest/1933/submission/248495463",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Feb/27/2024 20:36"
+  },
   "CF248510876": {
     "contest_id": 1933,
     "language": "C++20 (GCC 11-64)",
