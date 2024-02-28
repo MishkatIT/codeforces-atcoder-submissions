@@ -25059,6 +25059,24 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF248809427": {
+    "contest_id": 1537,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1537\\1537D Deleting Divisors.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Deleting Divisors",
+    "problem_url": "https://codeforces.com/contest/1537/problem/D",
+    "submission_id": "CF248809427",
+    "submission_url": "https://codeforces.com/contest/1537/submission/248809427",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Feb/29/2024 02:46"
+  },
   "CF248857900": {
     "contest_id": 1547,
     "language": "C++20 (GCC 11-64)",
