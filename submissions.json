@@ -25059,6 +25059,24 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF248928191": {
+    "contest_id": 1937,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1937\\1937B Binary Path.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Binary Path",
+    "problem_url": "https://codeforces.com/contest/1937/problem/B",
+    "submission_id": "CF248928191",
+    "submission_url": "https://codeforces.com/contest/1937/submission/248928191",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Feb/29/2024 21:12"
+  },
   "CF249092855": {
     "contest_id": 1930,
     "language": "C++20 (GCC 11-64)",
