@@ -25059,6 +25059,26 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF249092855": {
+    "contest_id": 1930,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1930\\1930C Lexicographically Largest.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Lexicographically Largest",
+    "problem_url": "https://codeforces.com/contest/1930/problem/C",
+    "submission_id": "CF249092855",
+    "submission_url": "https://codeforces.com/contest/1930/submission/249092855",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Mar/01/2024 19:44"
+  },
   "CF249198399": {
     "contest_id": 1923,
     "language": "C++20 (GCC 11-64)",
