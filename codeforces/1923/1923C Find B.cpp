@@ -6,7 +6,7 @@
 #include<bits/stdc++.h>
 #define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define debug(_) cout << #_ << " is " << _ << '\n';
-
+#define int long long
 using namespace std;
 using ll        = long long;
 using ld        = long double;
@@ -71,7 +71,8 @@ public:
     }
 };
 
-int main()
+
+signed main()
 {
     fio;
     int t;
