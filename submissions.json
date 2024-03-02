@@ -25059,6 +25059,25 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF249385320": {
+    "contest_id": 1934,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1934\\1934B Yet Another Coin Problem.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Coin Problem",
+    "problem_url": "https://codeforces.com/contest/1934/problem/B",
+    "submission_id": "CF249385320",
+    "submission_url": "https://codeforces.com/contest/1934/submission/249385320",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Mar/03/2024 04:12"
+  },
   "CF249450310": {
     "contest_id": 1746,
     "language": "C++20 (GCC 11-64)",
