@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **142**
+### 📊 Total Problems Solved: **143**
 
 </div>
 
@@ -1018,6 +1018,13 @@
 <td align="center"><a href="./submissions/atcoder/abc344/abc344A%20Spoiler.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*150</code></td>
 <td align="center"><sub>Mar/09/2024 18:02</sub></td>
+</tr>
+<tr>
+<td align="center">143</td>
+<td><a href="https://atcoder.jp/contests/abc343/tasks/abc343_d"><b>D</b> - Diversity of Scores</a></td>
+<td align="center"><a href="./submissions/atcoder/abc343/abc343D%20Diversity%20of%20Scores.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Mar/02/2024 18:40</sub></td>
 </tr>
 </tbody>
 </table>
