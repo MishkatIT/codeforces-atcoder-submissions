@@ -34,14 +34,13 @@ int main()
                     cur.push_back(c[j]);
                 }
             }
-
+            sort(cur.rbegin(), cur.rend());
             for (auto& j : cur) {
                 if (nn >= j) {
                     nn -= j;
                     tans++;
                 }
             }
-             sort(cur.rbegin(), cur.rend());
             for (auto& j : cur) {
                 tans += nn / j;
                 nn %= j;
