@@ -1,4 +1,20 @@
 {
+  "AC50814664": {
+    "contest_id": "abc343",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc343\\abc343D Diversity_of_Scores.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Diversity of Scores",
+    "problem_url": "https://atcoder.jp/contests/abc343/tasks/abc343_d",
+    "submission_id": "AC50814664",
+    "submission_url": "https://atcoder.jp/contests/abc343/submissions/50814664",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Mar/02/2024 18:40"
+  },
   "AC51025289": {
     "contest_id": "abc344",
     "language": "C++ 20 (gcc 12.2)",
