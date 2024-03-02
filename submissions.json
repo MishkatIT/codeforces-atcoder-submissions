@@ -25059,6 +25059,23 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF249383155": {
+    "contest_id": 1934,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1934\\1934A Too Min Too Max.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Too Min Too Max",
+    "problem_url": "https://codeforces.com/contest/1934/problem/A",
+    "submission_id": "CF249383155",
+    "submission_url": "https://codeforces.com/contest/1934/submission/249383155",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/03/2024 03:36"
+  },
   "CF249385037": {
     "contest_id": 1934,
     "language": "C++20 (GCC 11-64)",
