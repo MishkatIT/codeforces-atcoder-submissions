@@ -25059,6 +25059,22 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF250184492": {
+    "contest_id": 555,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\555\\555A Case of Matryoshkas.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Case of Matryoshkas",
+    "problem_url": "https://codeforces.com/contest/555/problem/A",
+    "submission_id": "CF250184492",
+    "submission_url": "https://codeforces.com/contest/555/submission/250184492",
+    "tags": [
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/08/2024 15:48"
+  },
   "CF250188985": {
     "contest_id": 1935,
     "language": "C++20 (GCC 11-64)",
