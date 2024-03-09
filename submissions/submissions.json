@@ -1,4 +1,20 @@
 {
+  "AC51062637": {
+    "contest_id": "abc344",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc344\\abc344D String_Bags.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "String Bags",
+    "problem_url": "https://atcoder.jp/contests/abc344/tasks/abc344_d",
+    "submission_id": "AC51062637",
+    "submission_url": "https://atcoder.jp/contests/abc344/submissions/51062637",
+    "tags": [
+      "AtCoder",
+      "*425"
+    ],
+    "timestamp": "Mar/09/2024 18:40"
+  },
   "AC51140251": {
     "contest_id": "abc344",
     "language": "C++ 20 (gcc 12.2)",
