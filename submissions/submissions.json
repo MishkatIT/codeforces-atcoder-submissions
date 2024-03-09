@@ -1,4 +1,20 @@
 {
+  "AC51048915": {
+    "contest_id": "abc344",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc344\\abc344C A_B_C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "A+B+C",
+    "problem_url": "https://atcoder.jp/contests/abc344/tasks/abc344_c",
+    "submission_id": "AC51048915",
+    "submission_url": "https://atcoder.jp/contests/abc344/submissions/51048915",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Mar/09/2024 18:20"
+  },
   "AC51062637": {
     "contest_id": "abc344",
     "language": "C++ 20 (gcc 12.2)",
