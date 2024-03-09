@@ -1,4 +1,20 @@
 {
+  "AC51025289": {
+    "contest_id": "abc344",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc344\\abc344A Spoiler.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Spoiler",
+    "problem_url": "https://atcoder.jp/contests/abc344/tasks/abc344_a",
+    "submission_id": "AC51025289",
+    "submission_url": "https://atcoder.jp/contests/abc344/submissions/51025289",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Mar/09/2024 18:02"
+  },
   "AC51033564": {
     "contest_id": "abc344",
     "language": "C++ 20 (gcc 12.2)",
