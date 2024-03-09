@@ -1,4 +1,20 @@
 {
+  "AC51033564": {
+    "contest_id": "abc344",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc344/abc344B Delimiter.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Delimiter",
+    "problem_url": "https://atcoder.jp/contests/abc344/tasks/abc344_b",
+    "submission_id": "AC51033564",
+    "submission_url": "https://atcoder.jp/contests/abc344/submissions/51033564",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Mar/09/2024 12:06"
+  },
   "AC51048915": {
     "contest_id": "abc344",
     "language": "C++ 20 (gcc 12.2)",
