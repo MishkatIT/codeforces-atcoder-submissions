@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **138**
+### 📊 Total Problems Solved: **139**
 
 </div>
 
@@ -990,6 +990,13 @@
 <td align="center"><a href="./submissions/atcoder/abc349/abc349A%20Zero%20Sum%20Game.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Apr/13/2024 18:02</sub></td>
+</tr>
+<tr>
+<td align="center">139</td>
+<td><a href="https://atcoder.jp/contests/abc344/tasks/abc344_d"><b>D</b> - String Bags</a></td>
+<td align="center"><a href="./submissions/atcoder/abc344/abc344D%20String%20Bags.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*425</code></td>
+<td align="center"><sub>Mar/10/2024 21:15</sub></td>
 </tr>
 </tbody>
 </table>
