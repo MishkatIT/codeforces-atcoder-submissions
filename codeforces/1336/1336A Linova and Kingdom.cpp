@@ -10,7 +10,7 @@ const ll N      = 2e5 + 10;
 const ll inf    = 1e9;
 const ll linf   = 1e18;
 
-vector<vector<int>> adj;
+vector<int> adj[N];
 vector<int> all;
 int dfs(int i, int parent, int depth = 0)
 {
@@ -29,7 +29,6 @@ int main()
     fio;
     int n, k;
     cin >> n >> k;
-    adj.resize(n + 5);
     for (int i = 1; i < n; i++) {
         int u, v;
         cin >> u >> v;
