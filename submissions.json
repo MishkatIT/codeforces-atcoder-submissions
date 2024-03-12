@@ -25059,6 +25059,23 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF250992683": {
+    "contest_id": 1941,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1941\\1941D Rudolf and the Ball Game.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Rudolf and the Ball Game",
+    "problem_url": "https://codeforces.com/contest/1941/problem/D",
+    "submission_id": "CF250992683",
+    "submission_url": "https://codeforces.com/contest/1941/submission/250992683",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/13/2024 00:36"
+  },
   "CF251111322": {
     "contest_id": 1703,
     "language": "C++17 (GCC 7-32)",
