@@ -25059,6 +25059,23 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF250988827": {
+    "contest_id": 1941,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1941\\1941C Rudolf and the Ugly String.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Rudolf and the Ugly String",
+    "problem_url": "https://codeforces.com/contest/1941/problem/C",
+    "submission_id": "CF250988827",
+    "submission_url": "https://codeforces.com/contest/1941/submission/250988827",
+    "tags": [
+      "dp",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Mar/13/2024 00:07"
+  },
   "CF250992683": {
     "contest_id": 1941,
     "language": "C++17 (GCC 7-32)",
