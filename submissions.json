@@ -25059,6 +25059,25 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF250987706": {
+    "contest_id": 1941,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1941\\1941B Rudolf and 121.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Rudolf and 121",
+    "problem_url": "https://codeforces.com/contest/1941/problem/B",
+    "submission_id": "CF250987706",
+    "submission_url": "https://codeforces.com/contest/1941/submission/250987706",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Mar/12/2024 23:59"
+  },
   "CF250988827": {
     "contest_id": 1941,
     "language": "C++17 (GCC 7-32)",
