@@ -25059,6 +25059,23 @@
     ],
     "timestamp": "Feb/16/2024 23:59"
   },
+  "CF250934551": {
+    "contest_id": 1941,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1941\\1941A Rudolf and the Ticket.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rudolf and the Ticket",
+    "problem_url": "https://codeforces.com/contest/1941/problem/A",
+    "submission_id": "CF250934551",
+    "submission_url": "https://codeforces.com/contest/1941/submission/250934551",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/12/2024 18:41"
+  },
   "CF250985708": {
     "contest_id": 1941,
     "language": "C++17 (GCC 7-32)",
