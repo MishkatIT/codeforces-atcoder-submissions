@@ -38,19 +38,16 @@ int main()
         for (int i = 0; i < temp.size(); i++) {
             int low = 0, high = temp.size() - 1;
             int target = temp[i].second;
-            int x = high;
-            while(low <= high) {
+            while(low < high) {
                 int mid = low + (high - low) / 2;
                 if (temp[mid].first <= target) {
                     low = mid + 1;
                 } else {
-                    x = min(x, mid);
-                    high = mid - 1;
+                    high = mid;
                 }
             }
-            if (temp[low].first <= target) x++;
-            x = temp.size() - low;
-            ans += x;
+            if (temp[low].first <= target) low++;
+            ans += temp.size() - low;
         }
         cout << ans << '\n';
     }
