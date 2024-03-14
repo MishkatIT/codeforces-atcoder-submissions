@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1315 | [C - Circular RMQ](https://codeforces.com/contest/52/problem/C) | [C++14 (GCC 6-32)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/52/52C%20Circular%20RMQ.cpp "C++14 (GCC 6-32)") | `data structures` `*2200` | Mar/15/2024 03:31 | 
 1314 | [B - Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | [C++14 (GCC 6-32)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1941/1941B%20Rudolf%20and%20121.cpp "C++14 (GCC 6-32)") | `brute force` `dp` `greedy` `math` `*1000` | Mar/14/2024 03:43 | 
 1313 | [G - Fall Down](https://codeforces.com/contest/1669/problem/G) | [C++14 (GCC 6-32)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1669/1669G%20Fall%20Down.cpp "C++14 (GCC 6-32)") | `dfs and similar` `implementation` `*1200` | Mar/14/2024 02:56 | 
 1312 | [E - Binary Deque](https://codeforces.com/contest/1692/problem/E) | [C++14 (GCC 6-32)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1692/1692E%20Binary%20Deque.cpp "C++14 (GCC 6-32)") | `binary search` `implementation` `two pointers` `*1200` | Mar/14/2024 02:27 | 
