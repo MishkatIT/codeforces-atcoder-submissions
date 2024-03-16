@@ -26230,6 +26230,23 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF251687989": {
+    "contest_id": 1948,
+    "language": "C++14 (GCC 6-32)",
+    "path": "codeforces\\1948\\1948A Special Characters.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Special Characters",
+    "problem_url": "https://codeforces.com/contest/1948/problem/A",
+    "submission_id": "CF251687989",
+    "submission_url": "https://codeforces.com/contest/1948/submission/251687989",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Mar/16/2024 19:02"
+  },
   "CF251690137": {
     "contest_id": 1948,
     "language": "C++14 (GCC 6-32)",
