@@ -26230,6 +26230,27 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF251816464": {
+    "contest_id": 1948,
+    "language": "C++14 (GCC 6-32)",
+    "path": "codeforces\\1948\\1948C Arrow Path.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Arrow Path",
+    "problem_url": "https://codeforces.com/contest/1948/problem/C",
+    "submission_id": "CF251816464",
+    "submission_url": "https://codeforces.com/contest/1948/submission/251816464",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "shortest paths",
+      "*1300"
+    ],
+    "timestamp": "Mar/17/2024 01:49"
+  },
   "CF251936333": {
     "contest_id": 1944,
     "language": "C++14 (GCC 6-32)",
