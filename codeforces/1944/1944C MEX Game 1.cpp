@@ -23,20 +23,32 @@ int main()
     while (t--) {
         int n;
         cin >> n;
-        vector<int> f(n);
+        map<int,int> mp;
         for (int i = 0; i < n; i++) {
             int x;
             cin >> x;
-            f[x]++;
+            mp[x]++;
         }
+
+        set<int> s;
+        int first = -1;
+        for (auto& i : mp) {
+            if (i.second > 1) {
+                s.insert(i.first);
+            } else {
+                if (first == -1) {
+                    s.insert(i.first);
+                    first = 1;
+                }
+            }
+        }
+
         int mex = 0;
-        bool taken = false;
-        for (int i = 0; i < n; i++) {
-            if ((f[i] == 1 && taken) || f[i] == 0) break;
-            else mex++;
-            if (f[i] == 1) taken = true;
+        for (auto& i : s) {
+            mex += (i == mex);
         }
         cout << mex << '\n';
     }
     return 0;
 }
+
