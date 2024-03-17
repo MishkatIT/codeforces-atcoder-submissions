@@ -1,3 +1,8 @@
+/*
+    author    : MishkatIT
+    created   : Monday 2024-03-18-00.48.23
+*/
+
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -22,30 +27,22 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        vector<int> v(n);
-        for (auto& i : v) {
-            cin >> i;
-        }
-        vector<int> temp[n + 5];
+        vector<pair<int, int>> v(n);
         for (int i = 0; i < n; i++) {
-            temp[v[i]].push_back(i + 1);
+            cin >> v[i].first;
+            v[i].second = i + 1;
         }
-        for (int i = 1; i <= n; i++) {
-            sort(temp[i].rbegin(), temp[i].rend());
-        }
-        vector<int> c;
-        for (int i = 1; i <= n; i++) {
-            for (auto& x : temp[i]) {
-                c.push_back(x);
-            }
-        }
+        sort(v.begin(), v.end(), [&](auto& a, auto& b) {
+            return (a.first < b.first) || (a.first == b.first && a.second > b.second);
+        });
         tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> s;
         ll ans = 0;
         for (int i = 0; i < n; i++) {
-            ans += s.size() - s.order_of_key(c[i]);
-            s.insert(c[i]);
+            ans += s.size() - s.order_of_key(v[i].second);
+            s.insert(v[i].second);
         }
         cout << ans << '\n';
     }
     return 0;
 }
+
