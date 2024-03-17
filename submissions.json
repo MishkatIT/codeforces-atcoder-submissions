@@ -26230,6 +26230,23 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF251948691": {
+    "contest_id": 1944,
+    "language": "C++14 (GCC 6-32)",
+    "path": "codeforces\\1944\\1944B Equal XOR.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Equal XOR",
+    "problem_url": "https://codeforces.com/contest/1944/problem/B",
+    "submission_id": "CF251948691",
+    "submission_url": "https://codeforces.com/contest/1944/submission/251948691",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*1100"
+    ],
+    "timestamp": "Mar/17/2024 20:22"
+  },
   "CF251957364": {
     "contest_id": 1944,
     "language": "C++14 (GCC 6-32)",
