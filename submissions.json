@@ -26230,6 +26230,24 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF251979061": {
+    "contest_id": 1944,
+    "language": "C++14 (GCC 6-32)",
+    "path": "codeforces\\1944\\1944C MEX Game 1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "MEX Game 1",
+    "problem_url": "https://codeforces.com/contest/1944/problem/C",
+    "submission_id": "CF251979061",
+    "submission_url": "https://codeforces.com/contest/1944/submission/251979061",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Mar/18/2024 00:07"
+  },
   "CF251985205": {
     "contest_id": 1676,
     "language": "C++14 (GCC 6-32)",
