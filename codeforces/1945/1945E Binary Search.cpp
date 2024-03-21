@@ -29,8 +29,11 @@ int main()
             pos[v[i]] = i;
         }
         int low = 1, high = n + 1, mid;
+        set<int> midVis;
         while(high - low > 1) {
             mid = low + (high - low) / 2;
+            midVis.insert(mid);
+//        debug(low)debug(high)
             if (v[mid] > x) {
                 high = mid;
             } else {
@@ -40,11 +43,39 @@ int main()
 
         if (v[low] == x) {
             cout << 0 << '\n';
-        } else  {
+        }
+        else  {
             cout << 1 << '\n';
             cout << low << ' ' << pos[x] << '\n';
             swap(v[low], v[pos[x]]);
         }
+// else {
+//            int pp = 1;
+//            for (pp = 1; pp < low; pp++) {
+//                if (midVis.find(pp) == midVis.end()) break;
+//            }
+//            cout << 2 << '\n';
+//            cout << pos[x] << ' ' << pp << '\n';
+////            swap(v[pp], v[pos[x]]);
+//            cout << pp << ' ' << low << '\n';
+////            swap(v[pp], v[low]);
+//        }
+////        debug(low)
+////        debug(v[low])
+//
+//
+//low = 1, high = n + 1, mid;
+//
+//        while(high - low > 1) {
+//            mid = low + (high - low) / 2;
+////        debug(low)debug(high)
+//            if (v[mid] > x) {
+//                high = mid;
+//            } else {
+//                low = mid;
+//            }
+//        }
+//        debug(v[low])
     }
     return 0;
 }
