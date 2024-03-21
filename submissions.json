@@ -26230,6 +26230,25 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF252646285": {
+    "contest_id": 1945,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1945\\1945E Binary Search.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Binary Search",
+    "problem_url": "https://codeforces.com/contest/1945/problem/E",
+    "submission_id": "CF252646285",
+    "submission_url": "https://codeforces.com/contest/1945/submission/252646285",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Mar/22/2024 02:25"
+  },
   "CF252715031": {
     "contest_id": 1945,
     "language": "C++17 (GCC 7-32)",
