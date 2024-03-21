@@ -43,6 +43,7 @@ int main()
         } else  {
             cout << 1 << '\n';
             cout << low << ' ' << pos[x] << '\n';
+            swap(v[low], v[pos[x]]);
         }
     }
     return 0;
