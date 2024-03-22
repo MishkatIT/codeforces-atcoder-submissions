@@ -26230,6 +26230,23 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF252717883": {
+    "contest_id": 1945,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1945\\1945B Fireworks.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fireworks",
+    "problem_url": "https://codeforces.com/contest/1945/problem/B",
+    "submission_id": "CF252717883",
+    "submission_url": "https://codeforces.com/contest/1945/submission/252717883",
+    "tags": [
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Mar/22/2024 17:07"
+  },
   "CF252729352": {
     "contest_id": 1778,
     "language": "C++20 (GCC 13-64)",
