@@ -26230,6 +26230,24 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF252818681": {
+    "contest_id": 1932,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1932\\1932E Final Countdown.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Final Countdown",
+    "problem_url": "https://codeforces.com/contest/1932/problem/E",
+    "submission_id": "CF252818681",
+    "submission_url": "https://codeforces.com/contest/1932/submission/252818681",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Mar/23/2024 00:19"
+  },
   "CF252821277": {
     "contest_id": 1946,
     "language": "C++20 (GCC 13-64)",
