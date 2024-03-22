@@ -26230,6 +26230,23 @@
     ],
     "timestamp": "Mar/15/2024 03:31"
   },
+  "CF252821277": {
+    "contest_id": 1946,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1946\\1946A Median of an Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Median of an Array",
+    "problem_url": "https://codeforces.com/contest/1946/problem/A",
+    "submission_id": "CF252821277",
+    "submission_url": "https://codeforces.com/contest/1946/submission/252821277",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/23/2024 00:44"
+  },
   "CF252825473": {
     "contest_id": 1946,
     "language": "C++20 (GCC 13-64)",
