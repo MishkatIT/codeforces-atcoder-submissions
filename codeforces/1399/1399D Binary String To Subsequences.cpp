@@ -25,23 +25,32 @@ int main()
         cin >> n;
         string str;
         cin >> str;
-        vector<vector<int>> f(2);
-        vector<int> ans(n);
+        vector<int> one, zero, ans;
         int cur = 1;
-        for (int i = 0; i < n; i++) {
-            int x = str[i] - '0';
-            if (f[!x].empty()) {
-                f[x].push_back(cur++);
+        for (auto& i : str) {
+            if (i == '0') {
+                if (one.empty()) {
+                    zero.push_back(cur++);
+                    ans.push_back(zero.back());
+                } else {
+                    ans.push_back(one.back());
+                    zero.push_back(one.back());
+                    one.pop_back();
+                }
             } else {
-                f[x].push_back(f[!x].back());
-                f[!x].pop_back();
+                if (zero.empty()) {
+                    one.push_back(cur++);
+                    ans.push_back(one.back());
+                } else {
+                    ans.push_back(zero.back());
+                    one.push_back(zero.back());
+                    zero.pop_back();
+                }
             }
-            ans[i] = f[x].back();
         }
         cout << cur - 1 << '\n';
-        for (int i = 0; i < n; i++) {
-            cout << ans[i] << " \n"[i == n - 1];
-        }
+        for (auto& i : ans) cout << i << ' ';
+        cout << '\n';
     }
     return 0;
 }
