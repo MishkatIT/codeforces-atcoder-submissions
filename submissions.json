@@ -26229,5 +26229,24 @@
       "*2200"
     ],
     "timestamp": "Mar/15/2024 03:31"
+  },
+  "CF253003975": {
+    "contest_id": 1933,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1933\\1933C Turtle Fingers_ Count the Values of k.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Turtle Fingers: Count the Values of k",
+    "problem_url": "https://codeforces.com/contest/1933/problem/C",
+    "submission_id": "CF253003975",
+    "submission_url": "https://codeforces.com/contest/1933/submission/253003975",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Mar/24/2024 05:23"
   }
 }

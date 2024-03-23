@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1316 | [C - Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | [C++20 (GCC 13-64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1933/1933C%20Turtle%20Fingers_%20Count%20the%20Values%20of%20k.cpp "C++20 (GCC 13-64)") | `brute force` `implementation` `math` `number theory` `*1100` | Mar/24/2024 05:23 | 
 1315 | [C - Circular RMQ](https://codeforces.com/contest/52/problem/C) | [C++14 (GCC 6-32)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/52/52C%20Circular%20RMQ.cpp "C++14 (GCC 6-32)") | `data structures` `*2200` | Mar/15/2024 03:31 | 
 1314 | [B - Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | [C++14 (GCC 6-32)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1941/1941B%20Rudolf%20and%20121.cpp "C++14 (GCC 6-32)") | `brute force` `dp` `greedy` `math` `*1000` | Mar/14/2024 03:43 | 
 1313 | [G - Fall Down](https://codeforces.com/contest/1669/problem/G) | [C++14 (GCC 6-32)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1669/1669G%20Fall%20Down.cpp "C++14 (GCC 6-32)") | `dfs and similar` `implementation` `*1200` | Mar/14/2024 02:56 | 
