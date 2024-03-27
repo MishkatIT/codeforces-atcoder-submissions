@@ -26700,6 +26700,23 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF253509741": {
+    "contest_id": 1795,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1795\\1795D Triangle Coloring.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Triangle Coloring",
+    "problem_url": "https://codeforces.com/contest/1795/problem/D",
+    "submission_id": "CF253509741",
+    "submission_url": "https://codeforces.com/contest/1795/submission/253509741",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Mar/27/2024 20:34"
+  },
   "CF253852360": {
     "contest_id": 1781,
     "language": "C++20 (GCC 13-64)",
