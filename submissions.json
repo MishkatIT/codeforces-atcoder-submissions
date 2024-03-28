@@ -26700,6 +26700,25 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF253862932": {
+    "contest_id": 1950,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1950\\1950E Nearly Shortest Repeating Substring.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Nearly Shortest Repeating Substring",
+    "problem_url": "https://codeforces.com/contest/1950/problem/E",
+    "submission_id": "CF253862932",
+    "submission_url": "https://codeforces.com/contest/1950/submission/253862932",
+    "tags": [
+      "brute force",
+      "implementation",
+      "number theory",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Mar/29/2024 04:38"
+  },
   "CF254010923": {
     "contest_id": 1775,
     "language": "C++20 (GCC 13-64)",
