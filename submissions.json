@@ -26700,6 +26700,22 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF253856863": {
+    "contest_id": 1950,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1950\\1950A Stair, Peak, or Neither_.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Stair, Peak, or Neither?",
+    "problem_url": "https://codeforces.com/contest/1950/problem/A",
+    "submission_id": "CF253856863",
+    "submission_url": "https://codeforces.com/contest/1950/submission/253856863",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/29/2024 03:05"
+  },
   "CF253857296": {
     "contest_id": 1950,
     "language": "C++20 (GCC 13-64)",
