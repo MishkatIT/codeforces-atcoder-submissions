@@ -26700,6 +26700,23 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF254212796": {
+    "contest_id": 1942,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1942\\1942A Farmer John_s Challenge.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Farmer John's Challenge",
+    "problem_url": "https://codeforces.com/contest/1942/problem/A",
+    "submission_id": "CF254212796",
+    "submission_url": "https://codeforces.com/contest/1942/submission/254212796",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/31/2024 01:58"
+  },
   "CF254225760": {
     "contest_id": 1741,
     "language": "C++20 (GCC 13-64)",
