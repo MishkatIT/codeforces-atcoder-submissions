@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF254355712": {
+    "contest_id": 1883,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1883\\1883G1 Dances (Easy version).cpp",
+    "platform": "Codeforces",
+    "problem_index": "G1",
+    "problem_name": "Dances (Easy version)",
+    "problem_url": "https://codeforces.com/contest/1883/problem/G1",
+    "submission_id": "CF254355712",
+    "submission_url": "https://codeforces.com/contest/1883/submission/254355712",
+    "tags": [
+      "binary search",
+      "greedy",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Apr/01/2024 03:41"
+  },
   "CF254361096": {
     "contest_id": 1883,
     "language": "C++20 (GCC 13-64)",
