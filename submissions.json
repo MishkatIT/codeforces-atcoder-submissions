@@ -26700,6 +26700,22 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF254638207": {
+    "contest_id": 1703,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1703\\1703E Mirror Grid.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Mirror Grid",
+    "problem_url": "https://codeforces.com/contest/1703/problem/E",
+    "submission_id": "CF254638207",
+    "submission_url": "https://codeforces.com/contest/1703/submission/254638207",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Apr/02/2024 05:25"
+  },
   "CF255082374": {
     "contest_id": 1857,
     "language": "C++20 (GCC 13-64)",
