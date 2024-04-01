@@ -26700,6 +26700,22 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF254632662": {
+    "contest_id": 1883,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1883\\1883F You Are So Beautiful.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "You Are So Beautiful",
+    "problem_url": "https://codeforces.com/contest/1883/problem/F",
+    "submission_id": "CF254632662",
+    "submission_url": "https://codeforces.com/contest/1883/submission/254632662",
+    "tags": [
+      "data structures",
+      "*1400"
+    ],
+    "timestamp": "Apr/02/2024 03:40"
+  },
   "CF254638207": {
     "contest_id": 1703,
     "language": "C++20 (GCC 13-64)",
