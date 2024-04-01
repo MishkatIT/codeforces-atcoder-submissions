@@ -26700,6 +26700,21 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF254619510": {
+    "contest_id": 1952,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1952\\1952D Are You a Procrastinator_.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Are You a Procrastinator?",
+    "problem_url": "https://codeforces.com/contest/1952/problem/D",
+    "submission_id": "CF254619510",
+    "submission_url": "https://codeforces.com/contest/1952/submission/254619510",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Apr/02/2024 01:06"
+  },
   "CF254632662": {
     "contest_id": 1883,
     "language": "C++20 (GCC 13-64)",
