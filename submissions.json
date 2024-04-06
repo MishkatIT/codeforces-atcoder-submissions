@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF255392903": {
+    "contest_id": 1951,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1951\\1951C Ticket Hoarding.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ticket Hoarding",
+    "problem_url": "https://codeforces.com/contest/1951/problem/C",
+    "submission_id": "CF255392903",
+    "submission_url": "https://codeforces.com/contest/1951/submission/255392903",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Apr/07/2024 05:07"
+  },
   "CF255879518": {
     "contest_id": 1789,
     "language": "C++20 (GCC 13-64)",
