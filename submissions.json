@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF255391699": {
+    "contest_id": 1951,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1951\\1951B Battle Cows.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Battle Cows",
+    "problem_url": "https://codeforces.com/contest/1951/problem/B",
+    "submission_id": "CF255391699",
+    "submission_url": "https://codeforces.com/contest/1951/submission/255391699",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Apr/07/2024 04:47"
+  },
   "CF255392903": {
     "contest_id": 1951,
     "language": "C++20 (GCC 13-64)",
