@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF255879518": {
+    "contest_id": 1789,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1789\\1789A Serval and Mocha_s Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Serval and Mocha's Array",
+    "problem_url": "https://codeforces.com/contest/1789/problem/A",
+    "submission_id": "CF255879518",
+    "submission_url": "https://codeforces.com/contest/1789/submission/255879518",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Apr/09/2024 19:28"
+  },
   "CF255880532": {
     "contest_id": 1853,
     "language": "C++20 (GCC 13-64)",
