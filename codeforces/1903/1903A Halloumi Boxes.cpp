@@ -30,6 +30,7 @@ int main()
         if (k > 1 || is_sorted(v.begin(), v.end())) {
             cout << "YES" << '\n';
         } else {
+            sort(v.begin(), v.end());
             if (v.front() == v.back()) {
                 cout << "YES" << '\n';
             } else {
