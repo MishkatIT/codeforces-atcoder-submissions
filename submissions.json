@@ -26700,6 +26700,22 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF255911658": {
+    "contest_id": 1955,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1955\\1955A Yogurt Sale.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yogurt Sale",
+    "problem_url": "https://codeforces.com/contest/1955/problem/A",
+    "submission_id": "CF255911658",
+    "submission_url": "https://codeforces.com/contest/1955/submission/255911658",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/10/2024 00:26"
+  },
   "CF255913281": {
     "contest_id": 1955,
     "language": "C++20 (GCC 13-64)",
