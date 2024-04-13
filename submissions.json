@@ -26700,6 +26700,23 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF256420988": {
+    "contest_id": 1954,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1954\\1954B Make It Ugly.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Make It Ugly",
+    "problem_url": "https://codeforces.com/contest/1954/problem/B",
+    "submission_id": "CF256420988",
+    "submission_url": "https://codeforces.com/contest/1954/submission/256420988",
+    "tags": [
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Apr/13/2024 13:26"
+  },
   "CF256474674": {
     "contest_id": 1956,
     "language": "C++20 (GCC 13-64)",
