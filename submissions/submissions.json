@@ -1,4 +1,20 @@
 {
+  "AC52295886": {
+    "contest_id": "abc349",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc349/abc349A Zero_Sum_Game.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Zero Sum Game",
+    "problem_url": "https://atcoder.jp/contests/abc349/tasks/abc349_a",
+    "submission_id": "AC52295886",
+    "submission_url": "https://atcoder.jp/contests/abc349/submissions/52295886",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/13/2024 12:02"
+  },
   "AC52310709": {
     "contest_id": "abc349",
     "language": "C++ 20 (gcc 12.2)",
