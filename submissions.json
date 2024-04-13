@@ -26700,6 +26700,26 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF256474674": {
+    "contest_id": 1956,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1956\\1956A Nene_s Game.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nene's Game",
+    "problem_url": "https://codeforces.com/contest/1956/problem/A",
+    "submission_id": "CF256474674",
+    "submission_url": "https://codeforces.com/contest/1956/submission/256474674",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "games",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Apr/13/2024 20:42"
+  },
   "CF256482593": {
     "contest_id": 1956,
     "language": "C++20 (GCC 13-64)",
