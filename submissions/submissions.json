@@ -1,4 +1,20 @@
 {
+  "AC52317129": {
+    "contest_id": "abc349",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc349/abc349C Airport_Code.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Airport Code",
+    "problem_url": "https://atcoder.jp/contests/abc349/tasks/abc349_c",
+    "submission_id": "AC52317129",
+    "submission_url": "https://atcoder.jp/contests/abc349/submissions/52317129",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/13/2024 12:20"
+  },
   "AC52839156": {
     "contest_id": "abc351",
     "language": "C++ 20 (gcc 12.2)",
