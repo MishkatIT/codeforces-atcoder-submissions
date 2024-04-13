@@ -27,6 +27,14 @@ int main()
         for (auto& i : v) {
             cin >> i;
         }
+        set<int> s(v.begin(), v.end());
+        if (s.size() == 1) {
+            cout << -1 << '\n';
+            continue;
+        }
+        if (n == 2) {
+            cout << 0 << '\n';
+        }
         int ans = inf;
         int cnt = 1;
         for (int i = 0; i + 1 < n; i++) {
@@ -37,9 +45,10 @@ int main()
                 i++;
             }
         }
-        if (ans == inf) ans = -1;
         ans = min(ans, cnt);
         cout << ans << '\n';
     }
     return 0;
 }
+
+
