@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF256696679": {
+    "contest_id": 1956,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1956\\1956C Nene_s Magical Matrix.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Nene's Magical Matrix",
+    "problem_url": "https://codeforces.com/contest/1956/problem/C",
+    "submission_id": "CF256696679",
+    "submission_url": "https://codeforces.com/contest/1956/submission/256696679",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Apr/15/2024 01:58"
+  },
   "CF257007684": {
     "contest_id": 1876,
     "language": "C++20 (GCC 13-64)",
