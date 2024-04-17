@@ -26700,6 +26700,23 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF257007684": {
+    "contest_id": 1876,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1876\\1876A Helmets in Night Light.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Helmets in Night Light",
+    "problem_url": "https://codeforces.com/contest/1876/problem/A",
+    "submission_id": "CF257007684",
+    "submission_url": "https://codeforces.com/contest/1876/submission/257007684",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Apr/17/2024 13:24"
+  },
   "CF257010756": {
     "contest_id": 1715,
     "language": "C++20 (GCC 13-64)",
