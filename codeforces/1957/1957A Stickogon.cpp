@@ -1,6 +1,6 @@
 /*
     Author    : MishkatIT
-    Created   : Tuesday 23-04-2024 01:25:53
+    Created   : Monday 22-04-2024 22:03:45
 */
 
 #include <bits/stdc++.h>
@@ -21,12 +21,12 @@ const ll linf = 1e18;
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    int tc;
-    cin >> tc;
-    while (tc--)
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int t;
+    cin >> t;
+    while (t--)
     {
         int n;
         cin >> n;
@@ -37,14 +37,12 @@ int main()
             cin >> x;
             mp[x]++;
         }
-        debug(mp)
         int ans = 0;
         for (auto &i : mp)
         {
             ans += i.second / 3;
         }
         cout << ans << '\n';
-        debug(ans)
     }
     return 0;
 }
