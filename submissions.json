@@ -26700,6 +26700,27 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF257882327": {
+    "contest_id": 1730,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1730\\1730B Meeting on the Line.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Meeting on the Line",
+    "problem_url": "https://codeforces.com/contest/1730/problem/B",
+    "submission_id": "CF257882327",
+    "submission_url": "https://codeforces.com/contest/1730/submission/257882327",
+    "tags": [
+      "binary search",
+      "geometry",
+      "greedy",
+      "implementation",
+      "math",
+      "ternary search",
+      "*1600"
+    ],
+    "timestamp": "Apr/23/2024 22:03"
+  },
   "CF257979749": {
     "contest_id": 1555,
     "language": "C++20 (GCC 13-64)",
