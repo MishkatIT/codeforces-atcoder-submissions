@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **134**
+### 📊 Total Problems Solved: **135**
 
 </div>
 
@@ -962,6 +962,13 @@
 <td align="center"><a href="./submissions/atcoder/abc351/abc351C%20Merge%20the%20balls.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*250</code></td>
 <td align="center"><sub>Apr/27/2024 18:28</sub></td>
+</tr>
+<tr>
+<td align="center">135</td>
+<td><a href="https://atcoder.jp/contests/abc351/tasks/abc351_b"><b>B</b> - Spot the Difference</a></td>
+<td align="center"><a href="./submissions/atcoder/abc351/abc351B%20Spot%20the%20Difference.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Apr/27/2024 18:06</sub></td>
 </tr>
 </tbody>
 </table>
