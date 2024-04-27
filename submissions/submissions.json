@@ -1,4 +1,20 @@
 {
+  "AC52861156": {
+    "contest_id": "abc351",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc351/abc351C Merge_the_balls.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Merge the balls",
+    "problem_url": "https://atcoder.jp/contests/abc351/tasks/abc351_c",
+    "submission_id": "AC52861156",
+    "submission_url": "https://atcoder.jp/contests/abc351/submissions/52861156",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Apr/27/2024 12:28"
+  },
   "AC53100877": {
     "contest_id": "abc352",
     "language": "C++ 20 (gcc 12.2)",
