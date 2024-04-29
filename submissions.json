@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF258707862": {
+    "contest_id": 1969,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1969\\1969A Two Friends.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Two Friends",
+    "problem_url": "https://codeforces.com/contest/1969/problem/A",
+    "submission_id": "CF258707862",
+    "submission_url": "https://codeforces.com/contest/1969/submission/258707862",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Apr/29/2024 20:41"
+  },
   "CF258713892": {
     "contest_id": 1969,
     "language": "C++20 (GCC 13-64)",
