@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF258789041": {
+    "contest_id": 1698,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1698\\1698D Fixed Point Guessing.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Fixed Point Guessing",
+    "problem_url": "https://codeforces.com/contest/1698/problem/D",
+    "submission_id": "CF258789041",
+    "submission_url": "https://codeforces.com/contest/1698/submission/258789041",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive",
+      "*1600"
+    ],
+    "timestamp": "Apr/30/2024 02:30"
+  },
   "CF258979366": {
     "contest_id": 1972,
     "language": "C++20 (GCC 13-64)",
