@@ -26700,6 +26700,23 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF259247305": {
+    "contest_id": 1968,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1968\\1968B Prefiquence.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Prefiquence",
+    "problem_url": "https://codeforces.com/contest/1968/problem/B",
+    "submission_id": "CF259247305",
+    "submission_url": "https://codeforces.com/contest/1968/submission/259247305",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "May/02/2024 23:02"
+  },
   "CF259247312": {
     "contest_id": 1968,
     "language": "C++20 (GCC 13-64)",
