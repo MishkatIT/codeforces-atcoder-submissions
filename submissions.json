@@ -26700,6 +26700,22 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF259116261": {
+    "contest_id": 1972,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1972\\1972B Coin Games.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Coin Games",
+    "problem_url": "https://codeforces.com/contest/1972/problem/B",
+    "submission_id": "CF259116261",
+    "submission_url": "https://codeforces.com/contest/1972/submission/259116261",
+    "tags": [
+      "games",
+      "*900"
+    ],
+    "timestamp": "May/02/2024 17:57"
+  },
   "CF259247182": {
     "contest_id": 1968,
     "language": "C++20 (GCC 13-64)",
