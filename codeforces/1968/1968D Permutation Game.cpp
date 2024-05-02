@@ -28,21 +28,21 @@ int main() {
     while (tc--) {
         int n, k, posa, posb;
         cin >> n >> k >> posa >> posb;
-        vector<ll> permu(n + 5), v(n + 5);
+        vector<int> permu(n + 5), v(n + 5);
         for (int i = 1; i <= n; i++) {
             cin >> permu[i];
         }
         for (int i = 1; i <= n; i++) {
             cin >> v[i];
         }
-        ll mxa = 0, mxb = 0;
+        priority_queue<ll> pqa, pqb;
         ll ansa = 0, ansb = 0;
         ll tota = 0, totb = 0;
         for (int i = 0; i < min(n, k); i++) {
-            mxa = max(mxa, v[posa]);
-            mxb = max(mxb, v[posb]);
-            ansa = max(ansa, 1LL * (k - i) * mxa + tota);
-            ansb = max(ansb, 1LL * (k - i) * mxb + totb);
+            pqa.push(v[posa]);
+            pqb.push(v[posb]);
+            ansa = max(ansa, 1LL * (k - i) * pqa.top() + tota);
+            ansb = max(ansb, 1LL * (k - i) * pqb.top() + totb);
             tota += v[posa];
             totb += v[posb];
             posa = permu[posa];
