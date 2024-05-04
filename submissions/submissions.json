@@ -1,4 +1,20 @@
 {
+  "AC53100877": {
+    "contest_id": "abc352",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc352\\abc352B Typing.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Typing",
+    "problem_url": "https://atcoder.jp/contests/abc352/tasks/abc352_b",
+    "submission_id": "AC53100877",
+    "submission_url": "https://atcoder.jp/contests/abc352/submissions/53100877",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/04/2024 18:13"
+  },
   "AC53114768": {
     "contest_id": "abc352",
     "language": "C++ 20 (gcc 12.2)",
