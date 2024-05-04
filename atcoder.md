@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **132**
+### 📊 Total Problems Solved: **133**
 
 </div>
 
@@ -948,6 +948,13 @@
 <td align="center"><a href="./submissions/atcoder/abc352/abc352A%20AtCoder%20Line.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>May/04/2024 18:38</sub></td>
+</tr>
+<tr>
+<td align="center">133</td>
+<td><a href="https://atcoder.jp/contests/abc352/tasks/abc352_c"><b>C</b> - Standing On The Shoulders</a></td>
+<td align="center"><a href="./submissions/atcoder/abc352/abc352C%20Standing%20On%20The%20Shoulders.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>May/04/2024 18:33</sub></td>
 </tr>
 </tbody>
 </table>
