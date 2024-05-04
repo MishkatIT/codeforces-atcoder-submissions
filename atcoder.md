@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **130**
+### 📊 Total Problems Solved: **131**
 
 </div>
 
@@ -934,6 +934,13 @@
 <td align="center"><a href="./submissions/atcoder/abc356/abc356A%20Subsegment%20Reverse.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Jun/01/2024 18:02</sub></td>
+</tr>
+<tr>
+<td align="center">131</td>
+<td><a href="https://atcoder.jp/contests/abc352/tasks/abc352_d"><b>D</b> - Permutation Subsequence</a></td>
+<td align="center"><a href="./submissions/atcoder/abc352/abc352D%20Permutation%20Subsequence.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*425</code></td>
+<td align="center"><sub>May/04/2024 19:06</sub></td>
 </tr>
 </tbody>
 </table>
