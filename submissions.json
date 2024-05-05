@@ -26700,6 +26700,23 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF259645672": {
+    "contest_id": 1970,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1970\\1970A1 Balanced Shuffle (Easy).cpp",
+    "platform": "Codeforces",
+    "problem_index": "A1",
+    "problem_name": "Balanced Shuffle (Easy)",
+    "problem_url": "https://codeforces.com/contest/1970/problem/A1",
+    "submission_id": "CF259645672",
+    "submission_url": "https://codeforces.com/contest/1970/submission/259645672",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "May/05/2024 20:31"
+  },
   "CF259771474": {
     "contest_id": 665,
     "language": "C++20 (GCC 13-64)",
