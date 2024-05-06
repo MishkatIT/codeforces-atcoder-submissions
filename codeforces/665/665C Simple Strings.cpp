@@ -19,45 +19,30 @@ const ll N = 2e5 + 10;
 const ll inf = 1e9;
 const ll linf = 1e18;
 
+string str;
 int n, i;
-char modify (string& str, char ch) {
-    for (char c = 'a'; c <= 'z'; c++) {
+char modify (char c) {
+    for (int ch = 0; ch < 26; ch++) {
         bool ok = true;
-        if (c == ch) ok = false;
-        if (i + 2 < n && c == (str[i + 2])) ok = false;
+        if (ch == c - 'a') ok = false;
+        if (i + 2 < n && ch == (str[i + 2] - 'a')) ok = false;
         if (ok) {
-            return (c);
+            return (ch + 'a');
         }
     }
-}
-
-
-int func(string& str) {
-    int op = 0;
-    for (i = 0; i + 1 < n; i++) {
-        if (str[i] == str[i + 1]) {
-            str[i + 1] = modify(str, str[i + 1]);
-            op++;
-        }
-    }
-    return op;
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    string s;
-    cin >> s;
-    string revs = s;
-    n = s.length();
-    int op1 = func(s);
-    reverse(revs.begin(), revs.end());
-    int op2 = func(revs);
-    if (op1 < op2) {
-        cout << s;
-    } else {
-        reverse(revs.begin(), revs.end());
-        cout << revs;
+
+    cin >> str;
+    n = str.length();
+    for (i = 0; i + 1 < n; i++) {
+        if (str[i] == str[i + 1]) {
+            str[i + 1] = modify(str[i + 1]);
+        }
     }
+    cout << str;
     return 0;
 }
