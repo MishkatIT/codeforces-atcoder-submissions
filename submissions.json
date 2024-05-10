@@ -26700,6 +26700,24 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF260450260": {
+    "contest_id": 1971,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1971\\1971G XOUR.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "XOUR",
+    "problem_url": "https://codeforces.com/contest/1971/problem/G",
+    "submission_id": "CF260450260",
+    "submission_url": "https://codeforces.com/contest/1971/submission/260450260",
+    "tags": [
+      "data structures",
+      "dsu",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "May/11/2024 01:45"
+  },
   "CF260454140": {
     "contest_id": 1970,
     "language": "C++20 (GCC 13-64)",
