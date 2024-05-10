@@ -26700,6 +26700,25 @@
     ],
     "timestamp": "Mar/24/2024 05:23"
   },
+  "CF260454201": {
+    "contest_id": 1970,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1970\\1970C2 Game on Tree (Medium).cpp",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Game on Tree (Medium)",
+    "problem_url": "https://codeforces.com/contest/1970/problem/C2",
+    "submission_id": "CF260454201",
+    "submission_url": "https://codeforces.com/contest/1970/submission/260454201",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "trees",
+      "*1700"
+    ],
+    "timestamp": "May/11/2024 02:25"
+  },
   "CF260706608": {
     "contest_id": 1178,
     "language": "C++20 (GCC 13-64)",
