@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+1337 | [B - Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | [C++20 (GCC 13-64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1620/1620B%20Triangles%20on%20a%20Rectangle.cpp "C++20 (GCC 13-64)") | `geometry` `greedy` `math` `*1000` | May/16/2024 21:57 | 
 1336 | [C - Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | [C++20 (GCC 13-64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1933/1933C%20Turtle%20Fingers_%20Count%20the%20Values%20of%20k.cpp "C++20 (GCC 13-64)") | `brute force` `implementation` `math` `number theory` `*1100` | Mar/24/2024 05:23 | 
 1335 | [D - Binary String To Subsequences](https://codeforces.com/contest/1399/problem/D) | [C++20 (GCC 13-64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/1399/1399D%20Binary%20String%20To%20Subsequences.cpp "C++20 (GCC 13-64)") | `constructive algorithms` `data structures` `greedy` `implementation` `*1500` | Mar/24/2024 00:05 | 
 1334 | [C - Replacement](https://codeforces.com/contest/570/problem/C) | [C++20 (GCC 13-64)](https://github.com/MishkatIT/codeforces-atcoder-submissions/blob/main/codeforces/570/570C%20Replacement.cpp "C++20 (GCC 13-64)") | `constructive algorithms` `data structures` `implementation` `*1600` | Mar/23/2024 23:31 | 
