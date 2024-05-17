@@ -28,9 +28,6 @@ struct idx {
 class segmentTree {
     vector<idx> tree;
 
-    #define lc (node << 1)
-    #define rc ((node << 1) | 1)
-
 public:
     int n;
     segmentTree(string &str) {
@@ -54,9 +51,9 @@ public:
             return;
         }
         int mid = (s + e) / 2;
-        build(str, lc, s, mid);
-        build(str, rc, mid + 1, e);
-        tree[node] = merge(tree[lc], tree[rc]);
+        build(str, 2 * node, s, mid);
+        build(str, 2 * node + 1, mid + 1, e);
+        tree[node] = merge(tree[2 * node], tree[2 * node + 1]);
     }
 
     idx range_query(int node, int s, int e, int l, int r) {
@@ -67,8 +64,8 @@ public:
             return tree[node];
         }
         int mid = (s + e) / 2;
-        idx left = range_query(lc, s, mid, l, r);
-        idx right = range_query(rc, mid + 1, e, l, r);
+        idx left = range_query(2 * node, s, mid, l, r);
+        idx right = range_query(2 * node + 1, mid + 1, e, l, r);
         return merge(left, right);
     }
 
