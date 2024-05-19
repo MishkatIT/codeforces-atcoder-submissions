@@ -28118,6 +28118,23 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF261677087": {
+    "contest_id": 1708,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1708\\1708B Difference of GCDs.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Difference of GCDs",
+    "problem_url": "https://codeforces.com/contest/1708/problem/B",
+    "submission_id": "CF261677087",
+    "submission_url": "https://codeforces.com/contest/1708/submission/261677087",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "May/19/2024 22:13"
+  },
   "CF261679100": {
     "contest_id": 1682,
     "language": "C++20 (GCC 13-64)",
