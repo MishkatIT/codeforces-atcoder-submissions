@@ -28118,6 +28118,24 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF261679100": {
+    "contest_id": 1682,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1682\\1682B AND Sorting.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "AND Sorting",
+    "problem_url": "https://codeforces.com/contest/1682/problem/B",
+    "submission_id": "CF261679100",
+    "submission_url": "https://codeforces.com/contest/1682/submission/261679100",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "May/19/2024 22:31"
+  },
   "CF261808220": {
     "contest_id": 1974,
     "language": "C++20 (GCC 13-64)",
