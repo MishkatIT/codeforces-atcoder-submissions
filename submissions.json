@@ -28118,6 +28118,23 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF261808220": {
+    "contest_id": 1974,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1974\\1974A Phone Desktop.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Phone Desktop",
+    "problem_url": "https://codeforces.com/contest/1974/problem/A",
+    "submission_id": "CF261808220",
+    "submission_url": "https://codeforces.com/contest/1974/submission/261808220",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/20/2024 20:49"
+  },
   "CF261822229": {
     "contest_id": 1974,
     "language": "C++20 (GCC 13-64)",
