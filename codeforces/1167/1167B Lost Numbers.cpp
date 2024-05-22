@@ -61,14 +61,8 @@ int main() {
     }
     ans.push_back(c), ans.push_back(d);
     ans.push_back(sqrt(ask(5, 5)));
-    int lastOne = 0;
-    for (auto& i : x) {
-        lastOne ^= i;
-    }
-    for (auto& i : ans) {
-        lastOne ^= i;
-    }
-    ans.push_back(lastOne);
+    ans.push_back(accumulate(x.begin(), x.end(), 0) - accumulate(ans.begin(), ans.end(), 0));
+
     cout << "! ";
     for (auto &i : ans) {
         cout << i << ' ';
