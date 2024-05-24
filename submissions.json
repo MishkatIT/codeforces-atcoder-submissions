@@ -28118,6 +28118,23 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF262414254": {
+    "contest_id": 1263,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1263\\1263B PIN Codes.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "PIN Codes",
+    "problem_url": "https://codeforces.com/contest/1263/problem/B",
+    "submission_id": "CF262414254",
+    "submission_url": "https://codeforces.com/contest/1263/submission/262414254",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "May/24/2024 22:35"
+  },
   "CF262522809": {
     "contest_id": 1975,
     "language": "C++20 (GCC 13-64)",
