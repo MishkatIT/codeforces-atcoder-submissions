@@ -19,7 +19,7 @@ const ll N = 2e5 + 10;
 const ll inf = 1e9;
 const ll linf = 1e18;
 
-vector<vector<int>> adj;
+vector<set<int>> adj;
 vector<bool> vis;
 
 void dfs(int i) {
@@ -50,8 +50,8 @@ int main() {
     vis.resize(n + 5);
     for (int i = 0; i < 26; i++) {
         for (int j = 1; j < f[i].size(); j++) {
-            adj[f[i][j]].push_back(f[i][0]);
-            adj[f[i][0]].push_back(f[i][j]);
+            adj[f[i][j]].insert(f[i][0]);
+            adj[f[i][0]].insert(f[i][j]);
         }
     }
 
