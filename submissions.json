@@ -28118,6 +28118,25 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF262522809": {
+    "contest_id": 1975,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1975\\1975A Bazoka and Mocha_s Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bazoka and Mocha's Array",
+    "problem_url": "https://codeforces.com/contest/1975/problem/A",
+    "submission_id": "CF262522809",
+    "submission_url": "https://codeforces.com/contest/1975/submission/262522809",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "May/25/2024 20:39"
+  },
   "CF262607274": {
     "contest_id": 1975,
     "language": "C++20 (GCC 13-64)",
