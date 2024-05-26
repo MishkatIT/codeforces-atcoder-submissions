@@ -28118,6 +28118,22 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF262722679": {
+    "contest_id": 1977,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1977\\1977A Little Nikita.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Nikita",
+    "problem_url": "https://codeforces.com/contest/1977/problem/A",
+    "submission_id": "CF262722679",
+    "submission_url": "https://codeforces.com/contest/1977/submission/262722679",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/26/2024 20:38"
+  },
   "CF262929416": {
     "contest_id": 1681,
     "language": "C++20 (GCC 13-64)",
