@@ -27,7 +27,13 @@ ll bfs(ll n, ll x) {
     while (!q.empty()) {
         ll cur = q.front();
         q.pop();
-         if (ceil(log10(cur)) == n) {
+        auto Length = [] (ll cur) {
+            string x;
+            x = to_string(cur);
+            return x.length();
+        };
+        // cout << Length(cur) <<  ' ' << mp[cur] << '\n';;
+        if (Length(cur) == n) {
             return mp[cur];
         }
         ll temp = cur;
