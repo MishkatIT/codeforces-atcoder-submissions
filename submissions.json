@@ -28118,6 +28118,24 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF263451319": {
+    "contest_id": 1981,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1981\\1981A Turtle and Piggy Are Playing a Game.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Turtle and Piggy Are Playing a Game",
+    "problem_url": "https://codeforces.com/contest/1981/problem/A",
+    "submission_id": "CF263451319",
+    "submission_url": "https://codeforces.com/contest/1981/submission/263451319",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/31/2024 16:13"
+  },
   "CF263501295": {
     "contest_id": 1981,
     "language": "C++20 (GCC 13-64)",
