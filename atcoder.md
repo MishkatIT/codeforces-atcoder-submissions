@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **129**
+### 📊 Total Problems Solved: **130**
 
 </div>
 
@@ -927,6 +927,13 @@
 <td align="center"><a href="./submissions/atcoder/abc356/abc356B%20Nutrients.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*150</code></td>
 <td align="center"><sub>Jun/01/2024 18:11</sub></td>
+</tr>
+<tr>
+<td align="center">130</td>
+<td><a href="https://atcoder.jp/contests/abc356/tasks/abc356_a"><b>A</b> - Subsegment Reverse</a></td>
+<td align="center"><a href="./submissions/atcoder/abc356/abc356A%20Subsegment%20Reverse.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Jun/01/2024 18:02</sub></td>
 </tr>
 </tbody>
 </table>
