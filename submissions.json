@@ -28118,6 +28118,23 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF263619577": {
+    "contest_id": 1976,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1976\\1976B Increase_Decrease_Copy.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Increase/Decrease/Copy",
+    "problem_url": "https://codeforces.com/contest/1976/problem/B",
+    "submission_id": "CF263619577",
+    "submission_url": "https://codeforces.com/contest/1976/submission/263619577",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jun/01/2024 17:16"
+  },
   "CF263642885": {
     "contest_id": 230,
     "language": "C++20 (GCC 13-64)",
