@@ -1,4 +1,20 @@
 {
+  "AC54106378": {
+    "contest_id": "abc356",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc356\\abc356D Masked Popcount.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Masked Popcount",
+    "problem_url": "https://atcoder.jp/contests/abc356/tasks/abc356_d",
+    "submission_id": "AC54106378",
+    "submission_url": "https://atcoder.jp/contests/abc356/submissions/54106378",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/01/2024 18:36"
+  },
   "AC55545491": {
     "contest_id": "abc362",
     "language": "C++ 20 (gcc 12.2)",
