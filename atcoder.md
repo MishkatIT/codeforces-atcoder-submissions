@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **127**
+### 📊 Total Problems Solved: **128**
 
 </div>
 
@@ -913,6 +913,13 @@
 <td align="center"><a href="./submissions/atcoder/abc356/abc356D%20Masked%20Popcount.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*400</code></td>
 <td align="center"><sub>Jun/01/2024 18:36</sub></td>
+</tr>
+<tr>
+<td align="center">128</td>
+<td><a href="https://atcoder.jp/contests/abc356/tasks/abc356_c"><b>C</b> - Keys</a></td>
+<td align="center"><a href="./submissions/atcoder/abc356/abc356C%20Keys.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Jun/01/2024 18:24</sub></td>
 </tr>
 </tbody>
 </table>
