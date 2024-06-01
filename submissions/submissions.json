@@ -1,4 +1,20 @@
 {
+  "AC54099792": {
+    "contest_id": "abc356",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc356/abc356C Keys.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Keys",
+    "problem_url": "https://atcoder.jp/contests/abc356/tasks/abc356_c",
+    "submission_id": "AC54099792",
+    "submission_url": "https://atcoder.jp/contests/abc356/submissions/54099792",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/01/2024 12:24"
+  },
   "AC54106378": {
     "contest_id": "abc356",
     "language": "C++ 20 (gcc 12.2)",
