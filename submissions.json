@@ -28118,6 +28118,24 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF264315924": {
+    "contest_id": 1674,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1674\\1674D A-B-C Sort.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "A-B-C Sort",
+    "problem_url": "https://codeforces.com/contest/1674/problem/D",
+    "submission_id": "CF264315924",
+    "submission_url": "https://codeforces.com/contest/1674/submission/264315924",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jun/06/2024 02:45"
+  },
   "CF264414666": {
     "contest_id": 1979,
     "language": "C++20 (GCC 13-64)",
