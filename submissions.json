@@ -28118,6 +28118,23 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF264651662": {
+    "contest_id": 1979,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1979\\1979B XOR Sequences.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "XOR Sequences",
+    "problem_url": "https://codeforces.com/contest/1979/problem/B",
+    "submission_id": "CF264651662",
+    "submission_url": "https://codeforces.com/contest/1979/submission/264651662",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jun/08/2024 03:38"
+  },
   "CF264761109": {
     "contest_id": 474,
     "language": "C++20 (GCC 13-64)",
