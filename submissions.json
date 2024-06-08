@@ -28118,6 +28118,22 @@
     ],
     "timestamp": "May/16/2024 21:57"
   },
+  "CF264761109": {
+    "contest_id": 474,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\474\\474D Flowers.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Flowers",
+    "problem_url": "https://codeforces.com/contest/474/problem/D",
+    "submission_id": "CF264761109",
+    "submission_url": "https://codeforces.com/contest/474/submission/264761109",
+    "tags": [
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Jun/08/2024 23:30"
+  },
   "CF264866634": {
     "contest_id": 1984,
     "language": "C++20 (GCC 13-64)",
