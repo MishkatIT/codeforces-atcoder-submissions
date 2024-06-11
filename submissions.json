@@ -28994,6 +28994,23 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF265296371": {
+    "contest_id": 1985,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1985\\1985D Manhattan Circle.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Manhattan Circle",
+    "problem_url": "https://codeforces.com/contest/1985/problem/D",
+    "submission_id": "CF265296371",
+    "submission_url": "https://codeforces.com/contest/1985/submission/265296371",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/11/2024 21:17"
+  },
   "CF265314981": {
     "contest_id": 1985,
     "language": "C++20 (GCC 13-64)",
