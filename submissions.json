@@ -28994,6 +28994,23 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF265341225": {
+    "contest_id": 1985,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1985\\1985F Final Boss.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Final Boss",
+    "problem_url": "https://codeforces.com/contest/1985/problem/F",
+    "submission_id": "CF265341225",
+    "submission_url": "https://codeforces.com/contest/1985/submission/265341225",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*1500"
+    ],
+    "timestamp": "Jun/11/2024 22:04"
+  },
   "CF265542002": {
     "contest_id": 1985,
     "language": "C++20 (GCC 13-64)",
