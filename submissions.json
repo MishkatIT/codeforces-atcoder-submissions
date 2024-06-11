@@ -28994,6 +28994,24 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF265314981": {
+    "contest_id": 1985,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1985\\1985E Secret Box.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Secret Box",
+    "problem_url": "https://codeforces.com/contest/1985/problem/E",
+    "submission_id": "CF265314981",
+    "submission_url": "https://codeforces.com/contest/1985/submission/265314981",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jun/11/2024 21:34"
+  },
   "CF265341225": {
     "contest_id": 1985,
     "language": "C++20 (GCC 13-64)",
