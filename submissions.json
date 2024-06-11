@@ -28994,6 +28994,22 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF265287703": {
+    "contest_id": 1985,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1985\\1985C Good Prefixes.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Good Prefixes",
+    "problem_url": "https://codeforces.com/contest/1985/problem/C",
+    "submission_id": "CF265287703",
+    "submission_url": "https://codeforces.com/contest/1985/submission/265287703",
+    "tags": [
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jun/11/2024 21:10"
+  },
   "CF265296371": {
     "contest_id": 1985,
     "language": "C++20 (GCC 13-64)",
