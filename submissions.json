@@ -28994,6 +28994,23 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF265214086": {
+    "contest_id": 1985,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1985\\1985A Creating Words.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Creating Words",
+    "problem_url": "https://codeforces.com/contest/1985/problem/A",
+    "submission_id": "CF265214086",
+    "submission_url": "https://codeforces.com/contest/1985/submission/265214086",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jun/11/2024 20:36"
+  },
   "CF265236555": {
     "contest_id": 1985,
     "language": "C++20 (GCC 13-64)",
