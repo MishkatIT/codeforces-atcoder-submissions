@@ -28994,6 +28994,27 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF265542002": {
+    "contest_id": 1985,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1985\\1985H1 Maximize the Largest Component (Easy Version).cpp",
+    "platform": "Codeforces",
+    "problem_index": "H1",
+    "problem_name": "Maximize the Largest Component (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1985/problem/H1",
+    "submission_id": "CF265542002",
+    "submission_url": "https://codeforces.com/contest/1985/submission/265542002",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jun/13/2024 03:34"
+  },
   "CF265788425": {
     "contest_id": 1407,
     "language": "C++20 (GCC 13-64)",
