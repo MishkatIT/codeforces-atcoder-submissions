@@ -1,4 +1,20 @@
 {
+  "AC54511594": {
+    "contest_id": "abc356",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc356/abc356B Nutrients.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Nutrients",
+    "problem_url": "https://atcoder.jp/contests/abc356/tasks/abc356_b",
+    "submission_id": "AC54511594",
+    "submission_url": "https://atcoder.jp/contests/abc356/submissions/54511594",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Jun/13/2024 18:53"
+  },
   "AC54561090": {
     "contest_id": "abc358",
     "language": "C++ 20 (gcc 12.2)",
