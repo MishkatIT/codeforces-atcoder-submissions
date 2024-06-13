@@ -1,4 +1,20 @@
 {
+  "AC54511417": {
+    "contest_id": "abc356",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc356\\abc356A Subsegment_Reverse.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Subsegment Reverse",
+    "problem_url": "https://atcoder.jp/contests/abc356/tasks/abc356_a",
+    "submission_id": "AC54511417",
+    "submission_url": "https://atcoder.jp/contests/abc356/submissions/54511417",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jun/14/2024 00:27"
+  },
   "AC54511594": {
     "contest_id": "abc356",
     "language": "C++ 20 (gcc 12.2)",
