@@ -1,4 +1,20 @@
 {
+  "AC54593376": {
+    "contest_id": "abc358",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc358/abc358B Ticket_Counter.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Ticket Counter",
+    "problem_url": "https://atcoder.jp/contests/abc358/tasks/abc358_b",
+    "submission_id": "AC54593376",
+    "submission_url": "https://atcoder.jp/contests/abc358/submissions/54593376",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/15/2024 12:52"
+  },
   "AC55052280": {
     "contest_id": "abc360",
     "language": "C++ 20 (gcc 12.2)",
