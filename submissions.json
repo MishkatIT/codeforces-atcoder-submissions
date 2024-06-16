@@ -28994,6 +28994,26 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF266114537": {
+    "contest_id": 1978,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1978\\1978C Manhattan Permutations.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Manhattan Permutations",
+    "problem_url": "https://codeforces.com/contest/1978/problem/C",
+    "submission_id": "CF266114537",
+    "submission_url": "https://codeforces.com/contest/1978/submission/266114537",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jun/17/2024 03:42"
+  },
   "CF266233601": {
     "contest_id": 1475,
     "language": "C++20 (GCC 13-64)",
