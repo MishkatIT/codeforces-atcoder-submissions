@@ -28994,6 +28994,24 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF266233601": {
+    "contest_id": 1475,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1475\\1475E Advertising Agency.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Advertising Agency",
+    "problem_url": "https://codeforces.com/contest/1475/problem/E",
+    "submission_id": "CF266233601",
+    "submission_url": "https://codeforces.com/contest/1475/submission/266233601",
+    "tags": [
+      "combinatorics",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jun/18/2024 02:14"
+  },
   "CF266484604": {
     "contest_id": 1342,
     "language": "C++20 (GCC 13-64)",
