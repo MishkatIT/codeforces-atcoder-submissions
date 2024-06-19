@@ -28994,6 +28994,23 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF266484604": {
+    "contest_id": 1342,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1342\\1342A Road To Zero.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Road To Zero",
+    "problem_url": "https://codeforces.com/contest/1342/problem/A",
+    "submission_id": "CF266484604",
+    "submission_url": "https://codeforces.com/contest/1342/submission/266484604",
+    "tags": [
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jun/19/2024 23:57"
+  },
   "CF266487069": {
     "contest_id": 1405,
     "language": "C++20 (GCC 13-64)",
