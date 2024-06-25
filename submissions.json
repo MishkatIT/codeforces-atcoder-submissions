@@ -28994,6 +28994,25 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF267400787": {
+    "contest_id": 1982,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1982\\1982B Collatz Conjecture.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Collatz Conjecture",
+    "problem_url": "https://codeforces.com/contest/1982/problem/B",
+    "submission_id": "CF267400787",
+    "submission_url": "https://codeforces.com/contest/1982/submission/267400787",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Jun/25/2024 22:27"
+  },
   "CF267525051": {
     "contest_id": 1986,
     "language": "C++20 (GCC 13-64)",
