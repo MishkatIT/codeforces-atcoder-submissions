@@ -28994,6 +28994,25 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF267345107": {
+    "contest_id": 1982,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1982\\1982A Soccer.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Soccer",
+    "problem_url": "https://codeforces.com/contest/1982/problem/A",
+    "submission_id": "CF267345107",
+    "submission_url": "https://codeforces.com/contest/1982/submission/267345107",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jun/25/2024 20:56"
+  },
   "CF267385125": {
     "contest_id": 1982,
     "language": "C++20 (GCC 13-64)",
