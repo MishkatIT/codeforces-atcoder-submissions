@@ -28994,6 +28994,25 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF267554255": {
+    "contest_id": 1986,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1986\\1986E Beautiful Array.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Beautiful Array",
+    "problem_url": "https://codeforces.com/contest/1986/problem/E",
+    "submission_id": "CF267554255",
+    "submission_url": "https://codeforces.com/contest/1986/submission/267554255",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Jun/26/2024 23:20"
+  },
   "CF267555712": {
     "contest_id": 1986,
     "language": "C++20 (GCC 13-64)",

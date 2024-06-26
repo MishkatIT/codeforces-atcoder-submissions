@@ -44,29 +44,38 @@ int main() {
             cout << -1 << '\n';
             continue;
         }
+        // debug(mp);
         ll ans = 0;
         for (auto &i : mp) {
             sort(i.second.begin(), i.second.end());
             int sz = i.second.size();
             for (int j = 0; j + 1 < sz; j += 2) {
-                ans += (i.second[j + 1] - i.second[j]);
+                ans += (i.second[j + 1] - i.second[j]) / k;
             }
+            // debug(sz);
+            // debug(ans);
+            // debug(i.second);
+            // debug(ans);
             if ((sz & 1) && (sz > 1)) {
                 ll temp = ans;
                 int idx = sz - 1;
                 while (idx > 0) {
-                    temp -= (i.second[idx - 1] - i.second[idx - 2]);
-                    temp += (i.second[idx] - i.second[idx - 2]);
+                    // //debug(ans);
+                    // if (idx - 2 >= 0) {
+                    temp -= (i.second[idx - 1] - i.second[idx - 2]) / k;
+                    temp += (i.second[idx] - i.second[idx - 2]) / k;
                     ans = min(ans, temp);
-                    temp -= (i.second[idx] - i.second[idx - 2]);
+                    temp -= (i.second[idx] - i.second[idx - 2]) / k;
                     idx--;
-                    temp += (i.second[idx + 1] - i.second[idx]);
+                    // }
+                    temp += (i.second[idx + 1] - i.second[idx]) / k;
                     ans = min(ans, temp);
                     idx--;
+                    // //debug(idx);
                 }
             }
         }
-        cout << ans / k << '\n';
+        cout << ans << '\n';
     }
     return 0;
 }
