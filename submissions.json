@@ -28994,6 +28994,24 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF267725741": {
+    "contest_id": 1989,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1989\\1989B Substring and Subsequence.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Substring and Subsequence",
+    "problem_url": "https://codeforces.com/contest/1989/problem/B",
+    "submission_id": "CF267725741",
+    "submission_url": "https://codeforces.com/contest/1989/submission/267725741",
+    "tags": [
+      "brute force",
+      "greedy",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jun/27/2024 21:37"
+  },
   "CF267757413": {
     "contest_id": 1989,
     "language": "C++20 (GCC 13-64)",
