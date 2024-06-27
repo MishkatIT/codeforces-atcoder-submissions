@@ -28994,6 +28994,22 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF267757413": {
+    "contest_id": 1989,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1989\\1989A Catch the Coin.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Catch the Coin",
+    "problem_url": "https://codeforces.com/contest/1989/problem/A",
+    "submission_id": "CF267757413",
+    "submission_url": "https://codeforces.com/contest/1989/submission/267757413",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/27/2024 22:30"
+  },
   "CF267914915": {
     "contest_id": 1989,
     "language": "C++20 (GCC 13-64)",
