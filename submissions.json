@@ -28994,6 +28994,22 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF267914915": {
+    "contest_id": 1989,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1989\\1989C Two Movies.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Two Movies",
+    "problem_url": "https://codeforces.com/contest/1989/problem/C",
+    "submission_id": "CF267914915",
+    "submission_url": "https://codeforces.com/contest/1989/submission/267914915",
+    "tags": [
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Jun/29/2024 01:52"
+  },
   "CF268106726": {
     "contest_id": 1325,
     "language": "C++20 (GCC 13-64)",
