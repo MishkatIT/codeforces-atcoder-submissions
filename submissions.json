@@ -28994,6 +28994,23 @@
     ],
     "timestamp": "Jun/10/2024 02:56"
   },
+  "CF268142764": {
+    "contest_id": 1987,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1987\\1987A Upload More RAM.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Upload More RAM",
+    "problem_url": "https://codeforces.com/contest/1987/problem/A",
+    "submission_id": "CF268142764",
+    "submission_url": "https://codeforces.com/contest/1987/submission/268142764",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/30/2024 20:39"
+  },
   "CF268175859": {
     "contest_id": 1987,
     "language": "C++20 (GCC 13-64)",
