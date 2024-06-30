@@ -1,4 +1,20 @@
 {
+  "AC55100098": {
+    "contest_id": "abc360",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc360/abc360C Move_It.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Move It",
+    "problem_url": "https://atcoder.jp/contests/abc360/tasks/abc360_c",
+    "submission_id": "AC55100098",
+    "submission_url": "https://atcoder.jp/contests/abc360/submissions/55100098",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Jun/30/2024 14:06"
+  },
   "AC55615900": {
     "contest_id": "abc362",
     "language": "C++ 20 (gcc 12.2)",
