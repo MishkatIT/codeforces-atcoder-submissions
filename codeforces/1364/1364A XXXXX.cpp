@@ -1,60 +1,53 @@
 /*
-    author    : MishkatIT
-    created   : Sunday 2022-11-27-02.00.29
-    problem   : 1364 A. XXXXX
+    Author    : MishkatIT
+    Created   : Wednesday 03-07-2024 00:05:24
 */
-#include<iostream>
-#include<vector>
-#define fio ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+
+#include <bits/stdc++.h>
 using namespace std;
-int main()
-{
-    fio;
-    int t;
-    cin >> t;
-    while(t--)
-    {
+
+#ifdef LOCAL
+#include "algo/debug.h"
+#else
+#define debug(...) 42
+#endif
+
+using ll = long long;
+using ld = long double;
+const ll mod = 1e9 + 7;
+const ll N = 2e5 + 10;
+const ll inf = 1e9;
+const ll linf = 1e18;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int tc;
+    cin >> tc;
+    while (tc--) {
         int n, x;
         cin >> n >> x;
-        int arr[n];
-        vector<long long> psum(n + 1, 0);
-        for(int i = 0; i < n; i++)
-        {
-            cin >> arr[i];
-            psum[i + 1] = psum[i] + arr[i];
+        vector<int> v(n);
+        for (auto& i : v) {
+            cin >> i;
         }
-        bool ok = false;
-        long long len = n;
-        for (int i = n; i >= 0; i--)
-        {
-            if(psum[i] % x != 0)
-            {
-                ok = true;
-                break;
+        int ans = -1;
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += v[i];
+            if (sum % x != 0) {
+                ans = i + 1;
             }
-            len--;
         }
-        long long inilen = len;
-
-        len = n;
-        long long temp = psum[n];
-        for (int i = 1; i <= n; i++)
-        {
-            if(temp % x != 0)
-            {
-                ok = true;
-                break;
+        sum = 0;
+        for (int i = n - 1; i >= 0; i--) {
+            sum += v[i];
+            if (sum % x != 0) {
+                ans = max(ans, n - i);
             }
-            temp -= (psum[i]);
-            len--;
         }
-        if(!ok)
-            cout << -1 << '\n';
-        else
-            cout << max (inilen, len) << '\n';
+        cout << ans << '\n';
     }
     return 0;
 }
-
-
-
