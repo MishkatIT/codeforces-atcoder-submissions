@@ -57,7 +57,17 @@ int main() {
                 bad[i + 1][j] %= 3;
             }
         }
-        cout << (bad == good? "YES" : "NO") << '\n';
+        // debug(bad);
+        bool ok = true;
+        for (int i = 0; i < n; i++) {
+            bad[i][m - 1] %= 3;
+            ok &= (good[i][m - 1] == bad[i][m - 1]);
+        }
+        for (int j = 0; j < m; j++) {
+            bad[n - 1][j] %= 3;
+            ok &= (good[n - 1][j] == bad[n - 1][j]);
+        }
+        cout << (ok ? "YES" : "NO") << '\n';
     }
     return 0;
 }
