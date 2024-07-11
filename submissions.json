@@ -29817,6 +29817,26 @@
     ],
     "timestamp": "Jul/03/2024 01:01"
   },
+  "CF269940453": {
+    "contest_id": 1992,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1992\\1992A Only Pluses.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Only Pluses",
+    "problem_url": "https://codeforces.com/contest/1992/problem/A",
+    "submission_id": "CF269940453",
+    "submission_url": "https://codeforces.com/contest/1992/submission/269940453",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jul/11/2024 20:59"
+  },
   "CF269987769": {
     "contest_id": 1992,
     "language": "C++20 (GCC 13-64)",
