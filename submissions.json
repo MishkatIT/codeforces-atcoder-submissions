@@ -29817,6 +29817,24 @@
     ],
     "timestamp": "Jul/03/2024 01:01"
   },
+  "CF269924375": {
+    "contest_id": 1992,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1992\\1992B Angry Monk.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Angry Monk",
+    "problem_url": "https://codeforces.com/contest/1992/problem/B",
+    "submission_id": "CF269924375",
+    "submission_url": "https://codeforces.com/contest/1992/submission/269924375",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jul/11/2024 20:49"
+  },
   "CF269940453": {
     "contest_id": 1992,
     "language": "C++20 (GCC 13-64)",
