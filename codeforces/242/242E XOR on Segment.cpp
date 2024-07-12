@@ -19,7 +19,7 @@ const ll N = 2e5 + 10;
 const ll inf = 1e9;
 const ll linf = 1e18;
 
-int mxBit = 20;
+int mxBit = 40;
 
 struct Node {
     ll sum;

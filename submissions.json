@@ -29817,6 +29817,23 @@
     ],
     "timestamp": "Jul/03/2024 01:01"
   },
+  "CF270210884": {
+    "contest_id": 242,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\242\\242E XOR on Segment.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "XOR on Segment",
+    "problem_url": "https://codeforces.com/contest/242/problem/E",
+    "submission_id": "CF270210884",
+    "submission_url": "https://codeforces.com/contest/242/submission/270210884",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "*2000"
+    ],
+    "timestamp": "Jul/12/2024 22:44"
+  },
   "CF270223269": {
     "contest_id": 242,
     "language": "C++20 (GCC 13-64)",
