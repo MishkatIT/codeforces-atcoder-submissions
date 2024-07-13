@@ -1,4 +1,20 @@
 {
+  "AC55553635": {
+    "contest_id": "abc362",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc362/abc362B Right_Triangle.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Right Triangle",
+    "problem_url": "https://atcoder.jp/contests/abc362/tasks/abc362_b",
+    "submission_id": "AC55553635",
+    "submission_url": "https://atcoder.jp/contests/abc362/submissions/55553635",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/13/2024 12:54"
+  },
   "AC56000476": {
     "contest_id": "abc364",
     "language": "C++ 20 (gcc 12.2)",
