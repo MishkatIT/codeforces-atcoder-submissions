@@ -1,4 +1,20 @@
 {
+  "AC55545491": {
+    "contest_id": "abc362",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc362/abc362A Buy_a_Pen.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Buy a Pen",
+    "problem_url": "https://atcoder.jp/contests/abc362/tasks/abc362_a",
+    "submission_id": "AC55545491",
+    "submission_url": "https://atcoder.jp/contests/abc362/submissions/55545491",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/13/2024 12:39"
+  },
   "AC55553635": {
     "contest_id": "abc362",
     "language": "C++ 20 (gcc 12.2)",
