@@ -29817,6 +29817,23 @@
     ],
     "timestamp": "Jul/03/2024 01:01"
   },
+  "CF270367638": {
+    "contest_id": 609,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\609\\609B The Best Gift.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Best Gift",
+    "problem_url": "https://codeforces.com/contest/609/problem/B",
+    "submission_id": "CF270367638",
+    "submission_url": "https://codeforces.com/contest/609/submission/270367638",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jul/14/2024 00:17"
+  },
   "CF270718506": {
     "contest_id": 1988,
     "language": "C++20 (GCC 13-64)",
