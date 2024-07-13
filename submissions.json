@@ -29817,6 +29817,23 @@
     ],
     "timestamp": "Jul/03/2024 01:01"
   },
+  "CF270364743": {
+    "contest_id": 616,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\616\\616B Dinner with Emma.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dinner with Emma",
+    "problem_url": "https://codeforces.com/contest/616/problem/B",
+    "submission_id": "CF270364743",
+    "submission_url": "https://codeforces.com/contest/616/submission/270364743",
+    "tags": [
+      "games",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Jul/13/2024 23:53"
+  },
   "CF270367638": {
     "contest_id": 609,
     "language": "C++20 (GCC 13-64)",
