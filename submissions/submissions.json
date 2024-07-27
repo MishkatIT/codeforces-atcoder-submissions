@@ -1,4 +1,20 @@
 {
+  "AC56000476": {
+    "contest_id": "abc364",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc364/abc364A Glutton_Takahashi.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Glutton Takahashi",
+    "problem_url": "https://atcoder.jp/contests/abc364/tasks/abc364_a",
+    "submission_id": "AC56000476",
+    "submission_url": "https://atcoder.jp/contests/abc364/submissions/56000476",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/27/2024 12:02"
+  },
   "AC56012717": {
     "contest_id": "abc364",
     "language": "C++ 20 (gcc 12.2)",
