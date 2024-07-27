@@ -1,4 +1,20 @@
 {
+  "AC56021882": {
+    "contest_id": "abc364",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc364/abc364C Minimum_Glutton.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Minimum Glutton",
+    "problem_url": "https://atcoder.jp/contests/abc364/tasks/abc364_c",
+    "submission_id": "AC56021882",
+    "submission_url": "https://atcoder.jp/contests/abc364/submissions/56021882",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Jul/27/2024 12:22"
+  },
   "AC56819092": {
     "contest_id": "abc367",
     "language": "C++ 20 (gcc 12.2)",
