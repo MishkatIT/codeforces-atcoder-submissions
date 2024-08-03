@@ -1,4 +1,20 @@
 {
+  "AC56259279": {
+    "contest_id": "abc365",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc365/abc365A Leap_Year.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Leap Year",
+    "problem_url": "https://atcoder.jp/contests/abc365/tasks/abc365_a",
+    "submission_id": "AC56259279",
+    "submission_url": "https://atcoder.jp/contests/abc365/submissions/56259279",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/03/2024 12:11"
+  },
   "AC56266909": {
     "contest_id": "abc365",
     "language": "C++ 20 (gcc 12.2)",
