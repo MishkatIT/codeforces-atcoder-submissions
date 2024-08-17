@@ -1,4 +1,20 @@
 {
+  "AC56814060": {
+    "contest_id": "abc367",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc367\\abc367C Enumerate_Sequences.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Enumerate Sequences",
+    "problem_url": "https://atcoder.jp/contests/abc367/tasks/abc367_c",
+    "submission_id": "AC56814060",
+    "submission_url": "https://atcoder.jp/contests/abc367/submissions/56814060",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/17/2024 18:47"
+  },
   "AC59355562": {
     "contest_id": "abc378",
     "language": "C++ 20 (gcc 12.2)",
