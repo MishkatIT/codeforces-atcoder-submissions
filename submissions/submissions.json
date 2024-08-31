@@ -1,4 +1,20 @@
 {
+  "AC57310100": {
+    "contest_id": "abc369",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc369/abc369C Count_Arithmetic_Subarrays.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Count Arithmetic Subarrays",
+    "problem_url": "https://atcoder.jp/contests/abc369/tasks/abc369_c",
+    "submission_id": "AC57310100",
+    "submission_url": "https://atcoder.jp/contests/abc369/submissions/57310100",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/31/2024 12:50"
+  },
   "AC58493742": {
     "contest_id": "abc374",
     "language": "C++ 20 (gcc 12.2)",
