@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **119**
+### 📊 Total Problems Solved: **120**
 
 </div>
 
@@ -857,6 +857,13 @@
 <td align="center"><a href="./submissions/atcoder/abc369/abc369C%20Count%20Arithmetic%20Subarrays.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Aug/31/2024 18:50</sub></td>
+</tr>
+<tr>
+<td align="center">120</td>
+<td><a href="https://atcoder.jp/contests/abc369/tasks/abc369_b"><b>B</b> - Piano 3</a></td>
+<td align="center"><a href="./submissions/atcoder/abc369/abc369B%20Piano%203.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Aug/31/2024 18:28</sub></td>
 </tr>
 </tbody>
 </table>
