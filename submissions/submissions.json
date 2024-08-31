@@ -1,4 +1,20 @@
 {
+  "AC57299174": {
+    "contest_id": "abc369",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc369\\abc369B Piano 3.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Piano 3",
+    "problem_url": "https://atcoder.jp/contests/abc369/tasks/abc369_b",
+    "submission_id": "AC57299174",
+    "submission_url": "https://atcoder.jp/contests/abc369/submissions/57299174",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/31/2024 18:28"
+  },
   "AC57310100": {
     "contest_id": "abc369",
     "language": "C++ 20 (gcc 12.2)",
