@@ -1,4 +1,20 @@
 {
+  "AC58493742": {
+    "contest_id": "abc374",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc374\\abc374C Separated_Lunch.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Separated Lunch",
+    "problem_url": "https://atcoder.jp/contests/abc374/tasks/abc374_c",
+    "submission_id": "AC58493742",
+    "submission_url": "https://atcoder.jp/contests/abc374/submissions/58493742",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/05/2024 21:48"
+  },
   "AC58602170": {
     "contest_id": "abc045",
     "language": "C++ 20 (gcc 12.2)",
