@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **117**
+### 📊 Total Problems Solved: **118**
 
 </div>
 
@@ -843,6 +843,13 @@
 <td align="center"><a href="./submissions/atcoder/abc375/abc375A%20Seats.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Oct/12/2024 18:02</sub></td>
+</tr>
+<tr>
+<td align="center">118</td>
+<td><a href="https://atcoder.jp/contests/abc374/tasks/abc374_c"><b>C</b> - Separated Lunch</a></td>
+<td align="center"><a href="./submissions/atcoder/abc374/abc374C%20Separated%20Lunch.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Oct/05/2024 21:48</sub></td>
 </tr>
 </tbody>
 </table>
