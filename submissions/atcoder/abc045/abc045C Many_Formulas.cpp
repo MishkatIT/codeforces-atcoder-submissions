@@ -27,10 +27,10 @@ int main() {
     cin >> str;
     int n = str.size();
     ll sum = 0;
-    for (int i = 0; i < (1 << n); i++) { 
+    for (int i = 1; i < (1 << n); i++) {
         ll temp = 0;
         for (int j = 0; j < n; j++) {
-            if (!(i & (1 << j))) { 
+            if (i & (1 << j)) {
                 temp *= 10;
                 temp += (str[j] - '0');
             } else {
@@ -38,7 +38,7 @@ int main() {
                 temp = 0;
             }
         }
-        sum += temp; 
+        sum += temp;
     }
     cout << sum << '\n';
     return 0;
