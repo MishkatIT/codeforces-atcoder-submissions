@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **115**
+### 📊 Total Problems Solved: **116**
 
 </div>
 
@@ -829,6 +829,13 @@
 <td align="center"><a href="./submissions/atcoder/abc375/abc375D%20ABA.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*400</code></td>
 <td align="center"><sub>Oct/12/2024 19:18</sub></td>
+</tr>
+<tr>
+<td align="center">116</td>
+<td><a href="https://atcoder.jp/contests/abc375/tasks/abc375_b"><b>B</b> - Traveling Takahashi Problem</a></td>
+<td align="center"><a href="./submissions/atcoder/abc375/abc375B%20Traveling%20Takahashi%20Problem.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Oct/12/2024 18:09</sub></td>
 </tr>
 </tbody>
 </table>
