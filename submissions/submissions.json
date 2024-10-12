@@ -1,4 +1,20 @@
 {
+  "AC58670716": {
+    "contest_id": "abc375",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc375/abc375A Seats.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Seats",
+    "problem_url": "https://atcoder.jp/contests/abc375/tasks/abc375_a",
+    "submission_id": "AC58670716",
+    "submission_url": "https://atcoder.jp/contests/abc375/submissions/58670716",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/12/2024 12:02"
+  },
   "AC58680215": {
     "contest_id": "abc375",
     "language": "C++ 20 (gcc 12.2)",
