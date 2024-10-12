@@ -1,4 +1,20 @@
 {
+  "AC58680215": {
+    "contest_id": "abc375",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc375\\abc375B Traveling Takahashi Problem.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Traveling Takahashi Problem",
+    "problem_url": "https://atcoder.jp/contests/abc375/tasks/abc375_b",
+    "submission_id": "AC58680215",
+    "submission_url": "https://atcoder.jp/contests/abc375/submissions/58680215",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Oct/12/2024 18:09"
+  },
   "AC58717243": {
     "contest_id": "abc375",
     "language": "C++ 20 (gcc 12.2)",
