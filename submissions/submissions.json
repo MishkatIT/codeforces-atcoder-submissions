@@ -1,4 +1,20 @@
 {
+  "AC58940146": {
+    "contest_id": "abc376",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc376\\abc376A Candy_Button.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Candy Button",
+    "problem_url": "https://atcoder.jp/contests/abc376/tasks/abc376_a",
+    "submission_id": "AC58940146",
+    "submission_url": "https://atcoder.jp/contests/abc376/submissions/58940146",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Oct/19/2024 18:09"
+  },
   "AC58954418": {
     "contest_id": "abc376",
     "language": "C++ 20 (gcc 12.2)",
