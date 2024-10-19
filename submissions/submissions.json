@@ -1,4 +1,20 @@
 {
+  "AC58960489": {
+    "contest_id": "abc376",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc376\\abc376C Prepare_Another_Box.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Prepare Another Box",
+    "problem_url": "https://atcoder.jp/contests/abc376/tasks/abc376_c",
+    "submission_id": "AC58960489",
+    "submission_url": "https://atcoder.jp/contests/abc376/submissions/58960489",
+    "tags": [
+      "AtCoder",
+      "*350"
+    ],
+    "timestamp": "Oct/19/2024 18:42"
+  },
   "AC58974530": {
     "contest_id": "abc376",
     "language": "C++ 20 (gcc 12.2)",
