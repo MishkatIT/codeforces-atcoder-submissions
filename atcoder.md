@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **112**
+### 📊 Total Problems Solved: **113**
 
 </div>
 
@@ -808,6 +808,13 @@
 <td align="center"><a href="./submissions/atcoder/abc376/abc376C%20Prepare%20Another%20Box.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*350</code></td>
 <td align="center"><sub>Oct/19/2024 18:42</sub></td>
+</tr>
+<tr>
+<td align="center">113</td>
+<td><a href="https://atcoder.jp/contests/abc376/tasks/abc376_b"><b>B</b> - Hands on Ring (Easy)</a></td>
+<td align="center"><a href="./submissions/atcoder/abc376/abc376B%20Hands%20on%20Ring%20(Easy).cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*250</code></td>
+<td align="center"><sub>Oct/19/2024 18:32</sub></td>
 </tr>
 </tbody>
 </table>
