@@ -1,4 +1,20 @@
 {
+  "AC58954418": {
+    "contest_id": "abc376",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc376\\abc376B Hands_on_Ring__Easy_.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Hands on Ring (Easy)",
+    "problem_url": "https://atcoder.jp/contests/abc376/tasks/abc376_b",
+    "submission_id": "AC58954418",
+    "submission_url": "https://atcoder.jp/contests/abc376/submissions/58954418",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Oct/19/2024 18:32"
+  },
   "AC58960489": {
     "contest_id": "abc376",
     "language": "C++ 20 (gcc 12.2)",
