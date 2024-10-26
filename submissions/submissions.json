@@ -1,4 +1,20 @@
 {
+  "AC59152236": {
+    "contest_id": "abc377",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc377\\abc377A Rearranging_ABC.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Rearranging ABC",
+    "problem_url": "https://atcoder.jp/contests/abc377/tasks/abc377_a",
+    "submission_id": "AC59152236",
+    "submission_url": "https://atcoder.jp/contests/abc377/submissions/59152236",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/26/2024 18:01"
+  },
   "AC59165343": {
     "contest_id": "abc377",
     "language": "C++ 20 (gcc 12.2)",
