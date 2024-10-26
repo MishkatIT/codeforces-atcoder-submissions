@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **109**
+### 📊 Total Problems Solved: **110**
 
 </div>
 
@@ -787,6 +787,13 @@
 <td align="center"><a href="./submissions/atcoder/abc377/abc377B%20Avoid%20Rook%20Attack.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Oct/26/2024 18:12</sub></td>
+</tr>
+<tr>
+<td align="center">110</td>
+<td><a href="https://atcoder.jp/contests/abc377/tasks/abc377_a"><b>A</b> - Rearranging ABC</a></td>
+<td align="center"><a href="./submissions/atcoder/abc377/abc377A%20Rearranging%20ABC.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Oct/26/2024 18:01</sub></td>
 </tr>
 </tbody>
 </table>
