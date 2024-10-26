@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **108**
+### 📊 Total Problems Solved: **109**
 
 </div>
 
@@ -780,6 +780,13 @@
 <td align="center"><a href="./submissions/atcoder/abc377/abc377C%20Avoid%20Knight%20Attack.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Oct/26/2024 18:31</sub></td>
+</tr>
+<tr>
+<td align="center">109</td>
+<td><a href="https://atcoder.jp/contests/abc377/tasks/abc377_b"><b>B</b> - Avoid Rook Attack</a></td>
+<td align="center"><a href="./submissions/atcoder/abc377/abc377B%20Avoid%20Rook%20Attack.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Oct/26/2024 18:12</sub></td>
 </tr>
 </tbody>
 </table>
