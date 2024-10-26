@@ -1,4 +1,20 @@
 {
+  "AC59165343": {
+    "contest_id": "abc377",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc377\\abc377B Avoid_Rook_Attack.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Avoid Rook Attack",
+    "problem_url": "https://atcoder.jp/contests/abc377/tasks/abc377_b",
+    "submission_id": "AC59165343",
+    "submission_url": "https://atcoder.jp/contests/abc377/submissions/59165343",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Oct/26/2024 18:12"
+  },
   "AC59173509": {
     "contest_id": "abc377",
     "language": "C++ 20 (gcc 12.2)",
