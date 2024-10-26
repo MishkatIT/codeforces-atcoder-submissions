@@ -1,4 +1,20 @@
 {
+  "AC59173509": {
+    "contest_id": "abc377",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc377/abc377C Avoid_Knight_Attack.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Avoid Knight Attack",
+    "problem_url": "https://atcoder.jp/contests/abc377/tasks/abc377_c",
+    "submission_id": "AC59173509",
+    "submission_url": "https://atcoder.jp/contests/abc377/submissions/59173509",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/26/2024 12:31"
+  },
   "AC59353497": {
     "contest_id": "abc378",
     "language": "C++ 20 (gcc 12.2)",
