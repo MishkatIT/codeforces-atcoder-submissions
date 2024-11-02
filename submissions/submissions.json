@@ -1,4 +1,20 @@
 {
+  "AC59368967": {
+    "contest_id": "abc378",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc378/abc378C Repeating.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Repeating",
+    "problem_url": "https://atcoder.jp/contests/abc378/tasks/abc378_c",
+    "submission_id": "AC59368967",
+    "submission_url": "https://atcoder.jp/contests/abc378/submissions/59368967",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/02/2024 12:23"
+  },
   "AC59380930": {
     "contest_id": "abc378",
     "language": "C++ 20 (gcc 12.2)",
