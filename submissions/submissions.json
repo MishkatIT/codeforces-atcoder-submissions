@@ -1,4 +1,20 @@
 {
+  "AC59381992": {
+    "contest_id": "abc378",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc378\\abc378B Garbage_Collection.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Garbage Collection",
+    "problem_url": "https://atcoder.jp/contests/abc378/tasks/abc378_b",
+    "submission_id": "AC59381992",
+    "submission_url": "https://atcoder.jp/contests/abc378/submissions/59381992",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/02/2024 18:51"
+  },
   "AC59828232": {
     "contest_id": "abc380",
     "language": "C++ 20 (gcc 12.2)",
