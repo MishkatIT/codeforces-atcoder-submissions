@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **105**
+### 📊 Total Problems Solved: **106**
 
 </div>
 
@@ -759,6 +759,13 @@
 <td align="center"><a href="./submissions/atcoder/abc378/abc378D%20Count%20Simple%20Paths.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*425</code></td>
 <td align="center"><sub>Nov/02/2024 18:48</sub></td>
+</tr>
+<tr>
+<td align="center">106</td>
+<td><a href="https://atcoder.jp/contests/abc378/tasks/abc378_c"><b>C</b> - Repeating</a></td>
+<td align="center"><a href="./submissions/atcoder/abc378/abc378C%20Repeating.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Nov/02/2024 18:23</sub></td>
 </tr>
 </tbody>
 </table>
