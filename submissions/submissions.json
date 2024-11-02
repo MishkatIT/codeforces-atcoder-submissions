@@ -1,4 +1,20 @@
 {
+  "AC59353497": {
+    "contest_id": "abc378",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc378\\abc378A Pairing.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Pairing",
+    "problem_url": "https://atcoder.jp/contests/abc378/tasks/abc378_a",
+    "submission_id": "AC59353497",
+    "submission_url": "https://atcoder.jp/contests/abc378/submissions/59353497",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/02/2024 18:05"
+  },
   "AC59368967": {
     "contest_id": "abc378",
     "language": "C++ 20 (gcc 12.2)",
