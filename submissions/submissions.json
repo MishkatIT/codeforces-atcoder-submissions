@@ -1,4 +1,20 @@
 {
+  "AC59380930": {
+    "contest_id": "abc378",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc378\\abc378D Count Simple Paths.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Count Simple Paths",
+    "problem_url": "https://atcoder.jp/contests/abc378/tasks/abc378_d",
+    "submission_id": "AC59380930",
+    "submission_url": "https://atcoder.jp/contests/abc378/submissions/59380930",
+    "tags": [
+      "AtCoder",
+      "*425"
+    ],
+    "timestamp": "Nov/02/2024 18:48"
+  },
   "AC59381992": {
     "contest_id": "abc378",
     "language": "C++ 20 (gcc 12.2)",
