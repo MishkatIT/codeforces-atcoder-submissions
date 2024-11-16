@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **100**
+### 📊 Total Problems Solved: **101**
 
 </div>
 
@@ -724,6 +724,13 @@
 <td align="center"><a href="./submissions/atcoder/abc384/abc384B%20ARC%20Division.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Dec/14/2024 18:13</sub></td>
+</tr>
+<tr>
+<td align="center">101</td>
+<td><a href="https://atcoder.jp/contests/abc380/tasks/abc380_c"><b>C</b> - Move Segment</a></td>
+<td align="center"><a href="./submissions/atcoder/abc380/abc380C%20Move%20Segment.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Nov/16/2024 19:18</sub></td>
 </tr>
 </tbody>
 </table>
