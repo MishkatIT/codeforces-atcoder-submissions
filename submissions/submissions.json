@@ -1,4 +1,20 @@
 {
+  "AC59835655": {
+    "contest_id": "abc380",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc380\\abc380B Hurdle Parsing.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Hurdle Parsing",
+    "problem_url": "https://atcoder.jp/contests/abc380/tasks/abc380_b",
+    "submission_id": "AC59835655",
+    "submission_url": "https://atcoder.jp/contests/abc380/submissions/59835655",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/16/2024 18:06"
+  },
   "AC59869375": {
     "contest_id": "abc380",
     "language": "C++ 20 (gcc 12.2)",
