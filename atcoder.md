@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **102**
+### 📊 Total Problems Solved: **103**
 
 </div>
 
@@ -738,6 +738,13 @@
 <td align="center"><a href="./submissions/atcoder/abc380/abc380B%20Hurdle%20Parsing.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Nov/16/2024 18:06</sub></td>
+</tr>
+<tr>
+<td align="center">103</td>
+<td><a href="https://atcoder.jp/contests/abc380/tasks/abc380_a"><b>A</b> - 123233</a></td>
+<td align="center"><a href="./submissions/atcoder/abc380/abc380A%20123233.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Nov/16/2024 18:02</sub></td>
 </tr>
 </tbody>
 </table>
