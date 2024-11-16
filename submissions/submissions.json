@@ -1,4 +1,20 @@
 {
+  "AC59869375": {
+    "contest_id": "abc380",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc380\\abc380C Move Segment.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Move Segment",
+    "problem_url": "https://atcoder.jp/contests/abc380/tasks/abc380_c",
+    "submission_id": "AC59869375",
+    "submission_url": "https://atcoder.jp/contests/abc380/submissions/59869375",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/16/2024 19:18"
+  },
   "AC60734847": {
     "contest_id": "abc384",
     "language": "C++ 20 (gcc 12.2)",
