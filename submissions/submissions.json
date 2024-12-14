@@ -1,4 +1,20 @@
 {
+  "AC60749157": {
+    "contest_id": "abc384",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc384\\abc384D Repeated_Sequence.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Repeated Sequence",
+    "problem_url": "https://atcoder.jp/contests/abc384/tasks/abc384_d",
+    "submission_id": "AC60749157",
+    "submission_url": "https://atcoder.jp/contests/abc384/submissions/60749157",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Dec/14/2024 18:38"
+  },
   "AC60779052": {
     "contest_id": "abc384",
     "language": "C++ 20 (gcc 12.2)",
