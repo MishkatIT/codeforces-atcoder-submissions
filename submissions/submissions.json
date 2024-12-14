@@ -1,4 +1,20 @@
 {
+  "AC60739431": {
+    "contest_id": "abc384",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc384\\abc384C Perfect_Standings.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Perfect Standings",
+    "problem_url": "https://atcoder.jp/contests/abc384/tasks/abc384_c",
+    "submission_id": "AC60739431",
+    "submission_url": "https://atcoder.jp/contests/abc384/submissions/60739431",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/14/2024 18:20"
+  },
   "AC60741319": {
     "contest_id": "abc384",
     "language": "C++ 20 (gcc 12.2)",
