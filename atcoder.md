@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **97**
+### 📊 Total Problems Solved: **98**
 
 </div>
 
@@ -703,6 +703,13 @@
 <td align="center"><a href="./submissions/atcoder/abc384/abc384E%20Takahashi%20is%20Slime%202.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*450</code></td>
 <td align="center"><sub>Dec/14/2024 20:01</sub></td>
+</tr>
+<tr>
+<td align="center">98</td>
+<td><a href="https://atcoder.jp/contests/abc384/tasks/abc384_d"><b>D</b> - Repeated Sequence</a></td>
+<td align="center"><a href="./submissions/atcoder/abc384/abc384D%20Repeated%20Sequence.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Dec/14/2024 18:38</sub></td>
 </tr>
 </tbody>
 </table>
