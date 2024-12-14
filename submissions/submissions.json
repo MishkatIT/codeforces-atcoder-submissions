@@ -1,4 +1,20 @@
 {
+  "AC60779573": {
+    "contest_id": "abc384",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc384\\abc384E Takahashi is Slime 2.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Takahashi is Slime 2",
+    "problem_url": "https://atcoder.jp/contests/abc384/tasks/abc384_e",
+    "submission_id": "AC60779573",
+    "submission_url": "https://atcoder.jp/contests/abc384/submissions/60779573",
+    "tags": [
+      "AtCoder",
+      "*450"
+    ],
+    "timestamp": "Dec/14/2024 20:01"
+  },
   "AC60942010": {
     "contest_id": "abc385",
     "language": "C++ 20 (gcc 12.2)",
