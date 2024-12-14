@@ -1,4 +1,20 @@
 {
+  "AC60734847": {
+    "contest_id": "abc384",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc384/abc384B ARC_Division.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "ARC Division",
+    "problem_url": "https://atcoder.jp/contests/abc384/tasks/abc384_b",
+    "submission_id": "AC60734847",
+    "submission_url": "https://atcoder.jp/contests/abc384/submissions/60734847",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Dec/14/2024 12:13"
+  },
   "AC60739431": {
     "contest_id": "abc384",
     "language": "C++ 20 (gcc 12.2)",
