@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **99**
+### 📊 Total Problems Solved: **100**
 
 </div>
 
@@ -717,6 +717,13 @@
 <td align="center"><a href="./submissions/atcoder/abc384/abc384C%20Perfect%20Standings.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Dec/14/2024 18:20</sub></td>
+</tr>
+<tr>
+<td align="center">100</td>
+<td><a href="https://atcoder.jp/contests/abc384/tasks/abc384_b"><b>B</b> - ARC Division</a></td>
+<td align="center"><a href="./submissions/atcoder/abc384/abc384B%20ARC%20Division.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Dec/14/2024 18:13</sub></td>
 </tr>
 </tbody>
 </table>
