@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **95**
+### 📊 Total Problems Solved: **96**
 
 </div>
 
@@ -689,6 +689,13 @@
 <td align="center"><a href="./submissions/atcoder/abc385/abc385C%20Illuminate%20Buildings.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*350</code></td>
 <td align="center"><sub>Dec/23/2024 01:40</sub></td>
+</tr>
+<tr>
+<td align="center">96</td>
+<td><a href="https://atcoder.jp/contests/abc385/tasks/abc385_b"><b>B</b> - Santa Claus 1</a></td>
+<td align="center"><a href="./submissions/atcoder/abc385/abc385B%20Santa%20Claus%201.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Dec/21/2024 18:09</sub></td>
 </tr>
 </tbody>
 </table>
