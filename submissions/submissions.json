@@ -1,4 +1,20 @@
 {
+  "AC61027937": {
+    "contest_id": "abc385",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc385\\abc385C Illuminate Buildings.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Illuminate Buildings",
+    "problem_url": "https://atcoder.jp/contests/abc385/tasks/abc385_c",
+    "submission_id": "AC61027937",
+    "submission_url": "https://atcoder.jp/contests/abc385/submissions/61027937",
+    "tags": [
+      "AtCoder",
+      "*350"
+    ],
+    "timestamp": "Dec/23/2024 01:39"
+  },
   "AC61027938": {
     "contest_id": "abc385",
     "language": "C++ 20 (gcc 12.2)",
