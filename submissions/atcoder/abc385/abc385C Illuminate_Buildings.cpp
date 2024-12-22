@@ -14,8 +14,8 @@ int main() {
 
     int ans = 1;
 
-    for (int i = 1; i <= n; i++) {
-        for (int j = 0; j <= i; j++) {
+    for (int i = 1; i < n; i++) {
+        for (int j = 0; j < i; j++) {
             int last = -1;
             int cnt = 1;
             for (int k = j; k < n; k += i) {
