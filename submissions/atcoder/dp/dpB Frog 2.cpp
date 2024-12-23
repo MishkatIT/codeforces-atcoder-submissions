@@ -1,6 +1,6 @@
 /*
     Author    : MishkatIT
-    Created   : Monday 21-04-2025 08:02:46
+    Created   : Monday 23-12-2024 22:36:31
 */
 
 #include <bits/stdc++.h>
@@ -19,17 +19,18 @@ const int N = 2e5 + 10;
 const int inf = 1e9;
 const ll linf = 1e18;
 
+
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     int n, k;
     cin >> n >> k;
-    vector<int> v(n);
+    vector<ll> v(n);
     for (auto& i : v) {
         cin >> i;
     }
-    vector<int> dp(n + 5, inf);
+    vector<ll> dp(n + 5, linf);
     dp[0] = 0;
     for (int i = 0; i < n; i++) {
         for (int j = 1; j <= k; j++) {
