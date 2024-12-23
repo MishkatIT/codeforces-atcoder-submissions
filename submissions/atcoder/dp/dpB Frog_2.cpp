@@ -19,6 +19,19 @@ const int N = 2e5 + 10;
 const int inf = 1e9;
 const ll linf = 1e18;
 
+vector<int> dp;
+
+ll solve(int n, int k, vector<int>& v) {
+    if (n <= 0) return 0;
+    if (dp[n] != -1) return dp[n];
+    ll mn = linf;
+    for (int i = 1; i <= k; i++) {
+        if (n - i >= 0) {
+            mn = min(mn, abs(v[n] - v[n - i]) + solve(n - i, k, v));
+        }
+    }
+    return dp[n] = mn;
+}
 
 int main() {
     ios_base::sync_with_stdio(false);
@@ -26,19 +39,12 @@ int main() {
 
     int n, k;
     cin >> n >> k;
-    vector<ll> v(n);
+    vector<int> v(n);
     for (auto& i : v) {
         cin >> i;
     }
-    vector<ll> dp(n + 5, linf);
-    dp[0] = 0;
-    for (int i = 0; i < n; i++) {
-        for (int j = 1; j <= k; j++) {
-            if (i + j < n) {
-                dp[i + j] = min(dp[i + j], dp[i] + abs(v[i] - v[i + j]));
-            }
-        }
-    }
-    cout << dp[n - 1] << '\n';
+    dp.resize(n + 5, -1);
+    cout << solve(n - 1, k, v) << '\n';
+
     return 0;
 }
