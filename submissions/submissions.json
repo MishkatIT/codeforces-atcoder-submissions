@@ -1,4 +1,20 @@
 {
+  "AC62101697": {
+    "contest_id": "abc390",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc390/abc390C Paint_to_make_a_rectangle.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Paint to make a rectangle",
+    "problem_url": "https://atcoder.jp/contests/abc390/tasks/abc390_c",
+    "submission_id": "AC62101697",
+    "submission_url": "https://atcoder.jp/contests/abc390/submissions/62101697",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/25/2025 14:13"
+  },
   "AC62311834": {
     "contest_id": "abc391",
     "language": "C++ 20 (gcc 12.2)",
