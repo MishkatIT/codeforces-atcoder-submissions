@@ -1,4 +1,20 @@
 {
+  "AC62100106": {
+    "contest_id": "abc390",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc390/abc390B Geometric_Sequence.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Geometric Sequence",
+    "problem_url": "https://atcoder.jp/contests/abc390/tasks/abc390_b",
+    "submission_id": "AC62100106",
+    "submission_url": "https://atcoder.jp/contests/abc390/submissions/62100106",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jan/25/2025 13:57"
+  },
   "AC62101697": {
     "contest_id": "abc390",
     "language": "C++ 20 (gcc 12.2)",
