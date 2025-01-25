@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **93**
+### 📊 Total Problems Solved: **94**
 
 </div>
 
@@ -675,6 +675,13 @@
 <td align="center"><a href="./submissions/atcoder/abc390/abc390B%20Geometric%20Sequence.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Jan/25/2025 19:57</sub></td>
+</tr>
+<tr>
+<td align="center">94</td>
+<td><a href="https://atcoder.jp/contests/abc390/tasks/abc390_a"><b>A</b> - 12435</a></td>
+<td align="center"><a href="./submissions/atcoder/abc390/abc390A%2012435.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Jan/25/2025 19:54</sub></td>
 </tr>
 </tbody>
 </table>
