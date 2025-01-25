@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **91**
+### 📊 Total Problems Solved: **92**
 
 </div>
 
@@ -661,6 +661,13 @@
 <td align="center"><a href="./submissions/atcoder/abc391/abc391A%20Lucky%20Direction.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Feb/01/2025 22:43</sub></td>
+</tr>
+<tr>
+<td align="center">92</td>
+<td><a href="https://atcoder.jp/contests/abc390/tasks/abc390_c"><b>C</b> - Paint to make a rectangle</a></td>
+<td align="center"><a href="./submissions/atcoder/abc390/abc390C%20Paint%20to%20make%20a%20rectangle.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Jan/25/2025 20:13</sub></td>
 </tr>
 </tbody>
 </table>
