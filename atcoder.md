@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **90**
+### 📊 Total Problems Solved: **91**
 
 </div>
 
@@ -654,6 +654,13 @@
 <td align="center"><a href="./submissions/atcoder/abc391/abc391B%20Seek%20Grid.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Feb/01/2025 22:56</sub></td>
+</tr>
+<tr>
+<td align="center">91</td>
+<td><a href="https://atcoder.jp/contests/abc391/tasks/abc391_a"><b>A</b> - Lucky Direction</a></td>
+<td align="center"><a href="./submissions/atcoder/abc391/abc391A%20Lucky%20Direction.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Feb/01/2025 22:43</sub></td>
 </tr>
 </tbody>
 </table>
