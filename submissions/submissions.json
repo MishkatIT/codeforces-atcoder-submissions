@@ -1,4 +1,20 @@
 {
+  "AC62312076": {
+    "contest_id": "abc391",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc391\\abc391B Seek Grid.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Seek Grid",
+    "problem_url": "https://atcoder.jp/contests/abc391/tasks/abc391_b",
+    "submission_id": "AC62312076",
+    "submission_url": "https://atcoder.jp/contests/abc391/submissions/62312076",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/01/2025 22:56"
+  },
   "AC62314181": {
     "contest_id": "abc391",
     "language": "C++ 20 (gcc 12.2)",
