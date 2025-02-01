@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **89**
+### 📊 Total Problems Solved: **90**
 
 </div>
 
@@ -647,6 +647,13 @@
 <td align="center"><a href="./submissions/atcoder/abc391/abc391C%20Pigeonhole%20Query.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Feb/02/2025 02:14</sub></td>
+</tr>
+<tr>
+<td align="center">90</td>
+<td><a href="https://atcoder.jp/contests/abc391/tasks/abc391_b"><b>B</b> - Seek Grid</a></td>
+<td align="center"><a href="./submissions/atcoder/abc391/abc391B%20Seek%20Grid.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Feb/01/2025 22:56</sub></td>
 </tr>
 </tbody>
 </table>
