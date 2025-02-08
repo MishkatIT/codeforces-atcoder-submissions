@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **87**
+### 📊 Total Problems Solved: **88**
 
 </div>
 
@@ -633,6 +633,13 @@
 <td align="center"><a href="./submissions/atcoder/abc392/abc392C%20Bib.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Feb/08/2025 18:20</sub></td>
+</tr>
+<tr>
+<td align="center">88</td>
+<td><a href="https://atcoder.jp/contests/abc392/tasks/abc392_a"><b>A</b> - Shuffled Equation</a></td>
+<td align="center"><a href="./submissions/atcoder/abc392/abc392A%20Shuffled%20Equation.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Feb/08/2025 18:01</sub></td>
 </tr>
 </tbody>
 </table>
