@@ -18,14 +18,14 @@ void tridib(){
      cin>>n;
      vector<pair<int,int>>p(n);
      for(auto& [x,y]:p){
-           int a;
-           cin>>a;
-           x=a;
+          // int a;
+           cin>>x;
+          // x=a;
      }
      for(auto& [x,y]:p){
-           int a;
-           cin>>a;
-           y=a;
+         //  int a;
+           cin>>y;
+          // y=a;
      }
     // for(int i=0;i<n;i++){
       //    cout<<p[i].first<<" "<<p[i].second<<'\n';
