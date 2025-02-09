@@ -1,4 +1,20 @@
 {
+  "AC62599643": {
+    "contest_id": "abc392",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc392\\abc392A Shuffled_Equation.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Shuffled Equation",
+    "problem_url": "https://atcoder.jp/contests/abc392/tasks/abc392_a",
+    "submission_id": "AC62599643",
+    "submission_url": "https://atcoder.jp/contests/abc392/submissions/62599643",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Feb/09/2025 17:07"
+  },
   "AC62600110": {
     "contest_id": "abc392",
     "language": "C++ 20 (gcc 12.2)",
