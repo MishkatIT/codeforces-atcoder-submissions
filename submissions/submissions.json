@@ -1,4 +1,20 @@
 {
+  "AC62600110": {
+    "contest_id": "abc392",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc392\\abc392B Who_is_Missing_.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Who is Missing?",
+    "problem_url": "https://atcoder.jp/contests/abc392/tasks/abc392_b",
+    "submission_id": "AC62600110",
+    "submission_url": "https://atcoder.jp/contests/abc392/submissions/62600110",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/09/2025 17:20"
+  },
   "AC62600731": {
     "contest_id": "abc392",
     "language": "C++ 20 (gcc 12.2)",
