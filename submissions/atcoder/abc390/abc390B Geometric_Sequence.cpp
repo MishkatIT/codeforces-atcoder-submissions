@@ -10,12 +10,12 @@ int32_t main() {
     }
    // cout<<da<<'\n';
    bool ok=false;
-    for(int i=0;i<n-2;i++){
+    for(int i=1;i<n-1;i++){
          //if((v[i]/v[i-1])!=da){
           //    ok=true;
          //     break;
         // }
-      if((v[i]*v[i+2])!=(v[i+1]*v[i+1])){
+      if((v[i-1]*v[i+1])!=(v[i]*v[i])){
            ok=true;
            break;
       }
