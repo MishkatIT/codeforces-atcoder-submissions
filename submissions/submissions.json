@@ -1,4 +1,20 @@
 {
+  "AC63263210": {
+    "contest_id": "abc395",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc395\\abc395C Shortest Duplicate Subarray.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Shortest Duplicate Subarray",
+    "problem_url": "https://atcoder.jp/contests/abc395/tasks/abc395_c",
+    "submission_id": "AC63263210",
+    "submission_url": "https://atcoder.jp/contests/abc395/submissions/63263210",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/01/2025 18:19"
+  },
   "AC63936072": {
     "contest_id": "abc315",
     "language": "C++ 20 (gcc 12.2)",
