@@ -1,4 +1,20 @@
 {
+  "AC63260416": {
+    "contest_id": "abc395",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc395\\abc395B Make Target.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Make Target",
+    "problem_url": "https://atcoder.jp/contests/abc395/tasks/abc395_b",
+    "submission_id": "AC63260416",
+    "submission_url": "https://atcoder.jp/contests/abc395/submissions/63260416",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Mar/01/2025 18:16"
+  },
   "AC63263210": {
     "contest_id": "abc395",
     "language": "C++ 20 (gcc 12.2)",
