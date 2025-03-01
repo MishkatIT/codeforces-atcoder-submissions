@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **83**
+### 📊 Total Problems Solved: **84**
 
 </div>
 
@@ -605,6 +605,13 @@
 <td align="center"><a href="./submissions/atcoder/abc315/abc315A%20tcdr.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Mar/18/2025 19:31</sub></td>
+</tr>
+<tr>
+<td align="center">84</td>
+<td><a href="https://atcoder.jp/contests/abc395/tasks/abc395_c"><b>C</b> - Shortest Duplicate Subarray</a></td>
+<td align="center"><a href="./submissions/atcoder/abc395/abc395C%20Shortest%20Duplicate%20Subarray.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Mar/01/2025 18:19</sub></td>
 </tr>
 </tbody>
 </table>
