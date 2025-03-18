@@ -1,4 +1,20 @@
 {
+  "AC63936072": {
+    "contest_id": "abc315",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc315/abc315A tcdr.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "tcdr",
+    "problem_url": "https://atcoder.jp/contests/abc315/tasks/abc315_a",
+    "submission_id": "AC63936072",
+    "submission_url": "https://atcoder.jp/contests/abc315/submissions/63936072",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/18/2025 13:31"
+  },
   "AC63982264": {
     "contest_id": "abc152",
     "language": "C++ 20 (gcc 12.2)",
