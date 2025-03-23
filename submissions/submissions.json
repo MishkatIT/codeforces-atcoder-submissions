@@ -1,4 +1,20 @@
 {
+  "AC64149120": {
+    "contest_id": "abc343",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc343\\abc343A Wrong Answer.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Wrong Answer",
+    "problem_url": "https://atcoder.jp/contests/abc343/tasks/abc343_a",
+    "submission_id": "AC64149120",
+    "submission_url": "https://atcoder.jp/contests/abc343/submissions/64149120",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/24/2025 02:36"
+  },
   "AC64190876": {
     "contest_id": "abc281",
     "language": "C++ 20 (gcc 12.2)",
