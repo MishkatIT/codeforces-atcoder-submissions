@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **72**
+### 📊 Total Problems Solved: **73**
 
 </div>
 
@@ -526,6 +526,13 @@
 <td align="center">72</td>
 <td><a href="https://atcoder.jp/contests/abc346/tasks/abc346_a"><b>A</b> - Adjacent Product</a></td>
 <td align="center"><a href="./submissions/atcoder/abc346/abc346A%20Adjacent%20Product.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Mar/26/2025 00:08</sub></td>
+</tr>
+<tr>
+<td align="center">73</td>
+<td><a href="https://atcoder.jp/contests/abc361/tasks/abc361_a"><b>A</b> - Insert</a></td>
+<td align="center"><a href="./submissions/atcoder/abc361/abc361A%20Insert.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Mar/26/2025 00:08</sub></td>
 </tr>
