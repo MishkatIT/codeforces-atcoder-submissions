@@ -1,4 +1,20 @@
 {
+  "AC64190878": {
+    "contest_id": "abc361",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc361/abc361A Insert.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Insert",
+    "problem_url": "https://atcoder.jp/contests/abc361/tasks/abc361_a",
+    "submission_id": "AC64190878",
+    "submission_url": "https://atcoder.jp/contests/abc361/submissions/64190878",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/25/2025 18:08"
+  },
   "AC64190882": {
     "contest_id": "abc346",
     "language": "C++ 20 (gcc 12.2)",
