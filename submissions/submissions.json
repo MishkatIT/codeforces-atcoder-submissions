@@ -1,4 +1,20 @@
 {
+  "AC64190882": {
+    "contest_id": "abc346",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc346/abc346A Adjacent_Product.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Adjacent Product",
+    "problem_url": "https://atcoder.jp/contests/abc346/tasks/abc346_a",
+    "submission_id": "AC64190882",
+    "submission_url": "https://atcoder.jp/contests/abc346/submissions/64190882",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/25/2025 18:08"
+  },
   "AC64190885": {
     "contest_id": "abc395",
     "language": "C++ 20 (gcc 12.2)",
