@@ -1,4 +1,20 @@
 {
+  "AC64237047": {
+    "contest_id": "abc333",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc333/abc333A Three_Threes.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Three Threes",
+    "problem_url": "https://atcoder.jp/contests/abc333/tasks/abc333_a",
+    "submission_id": "AC64237047",
+    "submission_url": "https://atcoder.jp/contests/abc333/submissions/64237047",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/27/2025 22:55"
+  },
   "AC64237056": {
     "contest_id": "abc294",
     "language": "C++ 20 (gcc 12.2)",
