@@ -1,4 +1,20 @@
 {
+  "AC64380231": {
+    "contest_id": "abc399",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc399\\abc399A Hamming_Distance.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Hamming Distance",
+    "problem_url": "https://atcoder.jp/contests/abc399/tasks/abc399_a",
+    "submission_id": "AC64380231",
+    "submission_url": "https://atcoder.jp/contests/abc399/submissions/64380231",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/30/2025 22:24"
+  },
   "AC64380342": {
     "contest_id": "abc398",
     "language": "C++ 20 (gcc 12.2)",
