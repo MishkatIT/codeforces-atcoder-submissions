@@ -1,4 +1,20 @@
 {
+  "AC64380342": {
+    "contest_id": "abc398",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc398/abc398A Doors_in_the_Center.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Doors in the Center",
+    "problem_url": "https://atcoder.jp/contests/abc398/tasks/abc398_a",
+    "submission_id": "AC64380342",
+    "submission_url": "https://atcoder.jp/contests/abc398/submissions/64380342",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/30/2025 16:34"
+  },
   "AC64581070": {
     "contest_id": "abc177",
     "language": "C++ 23 (gcc 12.2)",
