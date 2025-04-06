@@ -18,12 +18,14 @@ int main() {
         }
      }
      for (int i = 0; i < n; i++) {
+        bool printed = false;
         for (int j = 0; j < n; j++) {
             if (arr[i][j]) {
+                printed = true;
                 cout << j + 1 << ' ';
             }
         }
-        cout << '\n';
+        if (printed) cout << '\n';
      }
     return 0;
 }
