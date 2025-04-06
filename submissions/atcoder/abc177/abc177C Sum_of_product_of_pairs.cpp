@@ -7,23 +7,22 @@ void check(){
   long long n;
   cin>>n;
   vector<long long>v(n);
-  long long s=0;
   for(auto& u:v){
     cin>>u;
-    s+=u;
+  }
+  vector<long long>v1(n);
+  v1[0]=v[0];
+  for(int i=1;i<n;i++){
+    v1[i]=v1[i-1]+v[i];
   }
   long long ans=0;
-  long long wow=0;
   for(int i=0;i<n;i++){
-    wow+=v[i];
-    long long cat=s-wow;
+    long long cat=v1[n-1]-v1[i];
      long long da=((v[i]%mod)*(cat%mod))%mod;
     ans+=da;
-    //ans%=mod;
-
+   // ans%=mod;
   }
-  long long pat=ans%mod;
-  cout<<pat<<'\n';
+  cout<<ans%mod<<'\n';
 }
 int main(){
   // int t;
