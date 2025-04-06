@@ -1,4 +1,20 @@
 {
+  "AC64597782": {
+    "contest_id": "abc343",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc343\\abc343B Adjacency_Matrix.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Adjacency Matrix",
+    "problem_url": "https://atcoder.jp/contests/abc343/tasks/abc343_b",
+    "submission_id": "AC64597782",
+    "submission_url": "https://atcoder.jp/contests/abc343/submissions/64597782",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Apr/06/2025 21:50"
+  },
   "AC64597806": {
     "contest_id": "abc343",
     "language": "C++ 20 (gcc 12.2)",
