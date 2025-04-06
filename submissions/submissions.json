@@ -1,4 +1,20 @@
 {
+  "AC64581070": {
+    "contest_id": "abc177",
+    "language": "C++ 23 (gcc 12.2)",
+    "path": "atcoder\\abc177\\abc177C Sum_of_product_of_pairs.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Sum of product of pairs",
+    "problem_url": "https://atcoder.jp/contests/abc177/tasks/abc177_c",
+    "submission_id": "AC64581070",
+    "submission_url": "https://atcoder.jp/contests/abc177/submissions/64581070",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/06/2025 12:29"
+  },
   "AC64581398": {
     "contest_id": "abc177",
     "language": "C++ 23 (gcc 12.2)",
