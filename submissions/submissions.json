@@ -1,4 +1,20 @@
 {
+  "AC64597844": {
+    "contest_id": "abc365",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc365\\abc365B Second Best.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Second Best",
+    "problem_url": "https://atcoder.jp/contests/abc365/tasks/abc365_b",
+    "submission_id": "AC64597844",
+    "submission_url": "https://atcoder.jp/contests/abc365/submissions/64597844",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/06/2025 21:54"
+  },
   "AC64667524": {
     "contest_id": "abs",
     "language": "C++ 20 (gcc 12.2)",
