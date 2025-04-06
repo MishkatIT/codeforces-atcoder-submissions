@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **65**
+### 📊 Total Problems Solved: **66**
 
 </div>
 
@@ -479,6 +479,13 @@
 <td align="center"><a href="./submissions/atcoder/abc343/abc343B%20Adjacency%20Matrix.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*150</code></td>
 <td align="center"><sub>Apr/06/2025 21:51</sub></td>
+</tr>
+<tr>
+<td align="center">66</td>
+<td><a href="https://atcoder.jp/contests/abc237/tasks/abc237_b"><b>B</b> - Matrix Transposition</a></td>
+<td align="center"><a href="./submissions/atcoder/abc237/abc237B%20Matrix%20Transposition.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Apr/06/2025 21:45</sub></td>
 </tr>
 </tbody>
 </table>
