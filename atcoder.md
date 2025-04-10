@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **59**
+### 📊 Total Problems Solved: **60**
 
 </div>
 
@@ -437,6 +437,13 @@
 <td align="center"><a href="./submissions/atcoder/abc373/abc373B%201D%20Keyboard.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Apr/13/2025 20:21</sub></td>
+</tr>
+<tr>
+<td align="center">60</td>
+<td><a href="https://atcoder.jp/contests/abc264/tasks/abc264_b"><b>B</b> - Nice Grid</a></td>
+<td align="center"><a href="./submissions/atcoder/abc264/abc264B%20Nice%20Grid.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Apr/10/2025 12:39</sub></td>
 </tr>
 </tbody>
 </table>

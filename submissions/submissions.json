@@ -1,4 +1,20 @@
 {
+  "AC64667547": {
+    "contest_id": "abc264",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc264\\abc264B Nice Grid.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Nice Grid",
+    "problem_url": "https://atcoder.jp/contests/abc264/tasks/abc264_b",
+    "submission_id": "AC64667547",
+    "submission_url": "https://atcoder.jp/contests/abc264/submissions/64667547",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/10/2025 12:39"
+  },
   "AC64827180": {
     "contest_id": "abc045",
     "language": "C++ 20 (gcc 12.2)",
