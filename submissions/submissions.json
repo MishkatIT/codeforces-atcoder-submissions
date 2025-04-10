@@ -1,4 +1,20 @@
 {
+  "AC64667534": {
+    "contest_id": "abc061",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc061\\abc061B Counting Roads.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Counting Roads",
+    "problem_url": "https://atcoder.jp/contests/abc061/tasks/abc061_b",
+    "submission_id": "AC64667534",
+    "submission_url": "https://atcoder.jp/contests/abc061/submissions/64667534",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/10/2025 12:39"
+  },
   "AC64667540": {
     "contest_id": "abc364",
     "language": "C++ 20 (gcc 12.2)",
