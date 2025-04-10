@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **61**
+### 📊 Total Problems Solved: **62**
 
 </div>
 
@@ -449,6 +449,13 @@
 <td align="center">61</td>
 <td><a href="https://atcoder.jp/contests/abc364/tasks/abc364_b"><b>B</b> - Grid Walk</a></td>
 <td align="center"><a href="./submissions/atcoder/abc364/abc364B%20Grid%20Walk.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Apr/10/2025 12:39</sub></td>
+</tr>
+<tr>
+<td align="center">62</td>
+<td><a href="https://atcoder.jp/contests/abc061/tasks/abc061_b"><b>B</b> - Counting Roads</a></td>
+<td align="center"><a href="./submissions/atcoder/abc061/abc061B%20Counting%20Roads.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Apr/10/2025 12:39</sub></td>
 </tr>
