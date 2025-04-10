@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **62**
+### 📊 Total Problems Solved: **63**
 
 </div>
 
@@ -458,6 +458,13 @@
 <td align="center"><a href="./submissions/atcoder/abc061/abc061B%20Counting%20Roads.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Apr/10/2025 12:39</sub></td>
+</tr>
+<tr>
+<td align="center">63</td>
+<td><a href="https://atcoder.jp/contests/abs/tasks/abc081_b"><b>ABC081B</b> - Shift only</a></td>
+<td align="center"><a href="./submissions/atcoder/abs/absABC081B%20Shift%20only.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Apr/10/2025 12:38</sub></td>
 </tr>
 </tbody>
 </table>
