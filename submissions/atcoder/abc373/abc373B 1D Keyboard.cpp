@@ -14,9 +14,9 @@ int main() {
     int pos = 0;
     while (str[pos] != 'A') pos++;
     int ans = 0;
-    for (int i = 1; i < 26; i++) {
+    for (char i = 'B'; i <= 'Z'; i++) {
         for (int j = 0; j < 26; j++) {
-            if (str[j] == char('A' + i)) {
+            if (str[j] == i) {
                 ans += abs(pos - j);
                 pos = j;
                 break;
@@ -24,5 +24,6 @@ int main() {
         }
     }
     cout << ans << '\n';
+
     return 0;
 }
