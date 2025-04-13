@@ -1,4 +1,20 @@
 {
+  "AC64833660": {
+    "contest_id": "abc126",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc126\\abc126A Changing_a_Character.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Changing a Character",
+    "problem_url": "https://atcoder.jp/contests/abc126/tasks/abc126_a",
+    "submission_id": "AC64833660",
+    "submission_url": "https://atcoder.jp/contests/abc126/submissions/64833660",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/14/2025 02:54"
+  },
   "AC64833668": {
     "contest_id": "abc175",
     "language": "C++ 20 (gcc 12.2)",
