@@ -34,6 +34,5 @@ int main() {
         }
     }
     cout << (ok ? "Yes" : "No") << '\n';
-
     return 0;
 }
