@@ -1,4 +1,20 @@
 {
+  "AC64830190": {
+    "contest_id": "abc373",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc373/abc373B 1D_Keyboard.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "1D Keyboard",
+    "problem_url": "https://atcoder.jp/contests/abc373/tasks/abc373_b",
+    "submission_id": "AC64830190",
+    "submission_url": "https://atcoder.jp/contests/abc373/submissions/64830190",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/13/2025 14:16"
+  },
   "AC64830245": {
     "contest_id": "abc373",
     "language": "C++ 20 (gcc 12.2)",
