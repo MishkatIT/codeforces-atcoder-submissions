@@ -1,4 +1,20 @@
 {
+  "AC64833782": {
+    "contest_id": "abc307",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc307/abc307B racecar.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "racecar",
+    "problem_url": "https://atcoder.jp/contests/abc307/tasks/abc307_b",
+    "submission_id": "AC64833782",
+    "submission_url": "https://atcoder.jp/contests/abc307/submissions/64833782",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/13/2025 21:29"
+  },
   "AC64833784": {
     "contest_id": "abc307",
     "language": "C++ 20 (gcc 12.2)",
