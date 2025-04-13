@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **57**
+### 📊 Total Problems Solved: **58**
 
 </div>
 
@@ -423,6 +423,13 @@
 <td align="center"><a href="./submissions/atcoder/abc175/abc175A%20Rainy%20Season.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Apr/14/2025 02:56</sub></td>
+</tr>
+<tr>
+<td align="center">58</td>
+<td><a href="https://atcoder.jp/contests/abc126/tasks/abc126_a"><b>A</b> - Changing a Character</a></td>
+<td align="center"><a href="./submissions/atcoder/abc126/abc126A%20Changing%20a%20Character.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Apr/14/2025 02:54</sub></td>
 </tr>
 </tbody>
 </table>
