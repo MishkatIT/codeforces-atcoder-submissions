@@ -1,4 +1,20 @@
 {
+  "AC64833668": {
+    "contest_id": "abc175",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc175\\abc175A Rainy Season.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Rainy Season",
+    "problem_url": "https://atcoder.jp/contests/abc175/tasks/abc175_a",
+    "submission_id": "AC64833668",
+    "submission_url": "https://atcoder.jp/contests/abc175/submissions/64833668",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/14/2025 02:56"
+  },
   "AC64833782": {
     "contest_id": "abc307",
     "language": "C++ 20 (gcc 12.2)",
