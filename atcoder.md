@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **52**
+### 📊 Total Problems Solved: **53**
 
 </div>
 
@@ -387,6 +387,13 @@
 <td><a href="https://atcoder.jp/contests/abc167/tasks/abc167_a"><b>A</b> - Registration</a></td>
 <td align="center"><a href="./submissions/atcoder/abc167/abc167A%20Registration.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Apr/17/2025 20:35</sub></td>
+</tr>
+<tr>
+<td align="center">53</td>
+<td><a href="https://atcoder.jp/contests/abc322/tasks/abc322_b"><b>B</b> - Prefix and Suffix</a></td>
+<td align="center"><a href="./submissions/atcoder/abc322/abc322B%20Prefix%20and%20Suffix.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Apr/17/2025 20:35</sub></td>
 </tr>
 </tbody>
