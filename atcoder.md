@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **54**
+### 📊 Total Problems Solved: **55**
 
 </div>
 
@@ -402,6 +402,13 @@
 <td align="center"><a href="./submissions/atcoder/abc045/abc045C%20Many%20Formulas.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Apr/17/2025 20:29</sub></td>
+</tr>
+<tr>
+<td align="center">55</td>
+<td><a href="https://atcoder.jp/contests/abc146/tasks/abc146_a"><b>A</b> - Can't Wait for Holiday</a></td>
+<td align="center"><a href="./submissions/atcoder/abc146/abc146A%20Can_t%20Wait%20for%20Holiday.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Apr/17/2025 16:51</sub></td>
 </tr>
 </tbody>
 </table>
