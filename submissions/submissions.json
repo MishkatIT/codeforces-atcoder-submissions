@@ -1,4 +1,20 @@
 {
+  "AC64954131": {
+    "contest_id": "abc045",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc045\\abc045C Many Formulas.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Many Formulas",
+    "problem_url": "https://atcoder.jp/contests/abc045/tasks/arc061_a",
+    "submission_id": "AC64954131",
+    "submission_url": "https://atcoder.jp/contests/abc045/submissions/64954131",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/17/2025 20:29"
+  },
   "AC64954245": {
     "contest_id": "abc322",
     "language": "C++ 20 (gcc 12.2)",
