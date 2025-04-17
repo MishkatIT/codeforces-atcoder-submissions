@@ -1,4 +1,20 @@
 {
+  "AC64954245": {
+    "contest_id": "abc322",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc322/abc322B Prefix_and_Suffix.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Prefix and Suffix",
+    "problem_url": "https://atcoder.jp/contests/abc322/tasks/abc322_b",
+    "submission_id": "AC64954245",
+    "submission_url": "https://atcoder.jp/contests/abc322/submissions/64954245",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/17/2025 14:35"
+  },
   "AC64954260": {
     "contest_id": "abc167",
     "language": "C++ 20 (gcc 12.2)",
