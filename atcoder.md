@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **50**
+### 📊 Total Problems Solved: **51**
 
 </div>
 
@@ -375,6 +375,13 @@
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Apr/21/2025 08:08</sub></td>
 </tr>
+<tr>
+<td align="center">51</td>
+<td><a href="https://atcoder.jp/contests/dp/tasks/dp_a"><b>A</b> - Frog 1</a></td>
+<td align="center"><a href="./submissions/atcoder/dp/dpA%20Frog%201.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Apr/21/2025 08:06</sub></td>
+</tr>
 </tbody>
 </table>
 
@@ -382,6 +389,6 @@
 
 <div align="center">
 
-*Last Updated: January 18, 2026 at 00:23 BDT (UTC+6)*
+*Last Updated: January 18, 2026 at 00:24 BDT (UTC+6)*
 
 </div>
