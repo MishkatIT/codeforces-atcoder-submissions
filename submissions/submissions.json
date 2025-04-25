@@ -1,4 +1,20 @@
 {
+  "AC65194103": {
+    "contest_id": "abc294",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc294\\abc294B ASCII_Art.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "ASCII Art",
+    "problem_url": "https://atcoder.jp/contests/abc294/tasks/abc294_b",
+    "submission_id": "AC65194103",
+    "submission_url": "https://atcoder.jp/contests/abc294/submissions/65194103",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/25/2025 20:13"
+  },
   "AC65194158": {
     "contest_id": "abc306",
     "language": "C++ 20 (gcc 12.2)",
