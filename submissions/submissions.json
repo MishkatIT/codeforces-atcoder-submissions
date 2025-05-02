@@ -1,4 +1,20 @@
 {
+  "AC65404125": {
+    "contest_id": "abc403",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc403\\abc403A Odd_Position_Sum.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Odd Position Sum",
+    "problem_url": "https://atcoder.jp/contests/abc403/tasks/abc403_a",
+    "submission_id": "AC65404125",
+    "submission_url": "https://atcoder.jp/contests/abc403/submissions/65404125",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/02/2025 21:26"
+  },
   "AC65745003": {
     "contest_id": "abc405",
     "language": "C++ 20 (gcc 12.2)",
