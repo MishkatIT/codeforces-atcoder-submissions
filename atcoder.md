@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **44**
+### 📊 Total Problems Solved: **45**
 
 </div>
 
@@ -332,6 +332,13 @@
 <td align="center"><a href="./submissions/atcoder/abc392/abc392B%20Who%20is%20Missing_.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>May/18/2025 18:26</sub></td>
+</tr>
+<tr>
+<td align="center">45</td>
+<td><a href="https://atcoder.jp/contests/abc349/tasks/abc349_b"><b>B</b> - Commencement</a></td>
+<td align="center"><a href="./submissions/atcoder/abc349/abc349B%20Commencement.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>May/18/2025 18:19</sub></td>
 </tr>
 </tbody>
 </table>
