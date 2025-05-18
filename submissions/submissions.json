@@ -1,4 +1,20 @@
 {
+  "AC65954397": {
+    "contest_id": "abc349",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc349\\abc349B Commencement.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Commencement",
+    "problem_url": "https://atcoder.jp/contests/abc349/tasks/abc349_b",
+    "submission_id": "AC65954397",
+    "submission_url": "https://atcoder.jp/contests/abc349/submissions/65954397",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/18/2025 18:19"
+  },
   "AC65954822": {
     "contest_id": "abc392",
     "language": "C++ 20 (gcc 12.2)",
