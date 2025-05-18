@@ -29,15 +29,13 @@ int32_t main() {
     for (int i = 0; i < n; i++) {
         cin >> v[i];
     }
-    
-    auto cmp = [&](auto& a, auto& b) {
-        return a.size() < b.size();
-    };
-
-    sort(v.begin(), v.end(), cmp);
-
-    for (int i = 0; i < n; i++) {
-        cout << v[i];
+    for (int i = 1; i <= 50; i++) {
+        for (int j = 0; j < n; j++) {
+            if (v[j].size() == i) {
+                cout << v[j];
+                break;
+            }
+        }
     }
 
     return 0;
