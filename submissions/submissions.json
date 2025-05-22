@@ -1,4 +1,20 @@
 {
+  "AC66046921": {
+    "contest_id": "abc394",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc394/abc394B cat.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "cat",
+    "problem_url": "https://atcoder.jp/contests/abc394/tasks/abc394_b",
+    "submission_id": "AC66046921",
+    "submission_url": "https://atcoder.jp/contests/abc394/submissions/66046921",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/22/2025 17:06"
+  },
   "AC66114701": {
     "contest_id": "abc205",
     "language": "C++ 20 (gcc 12.2)",
