@@ -2,7 +2,7 @@
   "AC66070006": {
     "contest_id": "abc405",
     "language": "C (gcc 12.2.0)",
-    "path": "atcoder\\abc405\\abc405A Is it rated_.txt",
+    "path": "atcoder\\abc405\\abc405A Is it rated_.c",
     "platform": "AtCoder",
     "problem_index": "A",
     "problem_name": "Is it rated?",
