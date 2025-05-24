@@ -1,4 +1,20 @@
 {
+  "AC66130982": {
+    "contest_id": "abc117",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc117/abc117D XXOR.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "XXOR",
+    "problem_url": "https://atcoder.jp/contests/abc117/tasks/abc117_d",
+    "submission_id": "AC66130982",
+    "submission_url": "https://atcoder.jp/contests/abc117/submissions/66130982",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/24/2025 13:30"
+  },
   "AC66134334": {
     "contest_id": "abc125",
     "language": "C++ 20 (gcc 12.2)",
