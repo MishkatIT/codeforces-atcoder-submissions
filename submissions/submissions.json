@@ -1,4 +1,20 @@
 {
+  "AC66123956": {
+    "contest_id": "arc097",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/arc097/arc097C K-th_Substring.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "K-th Substring",
+    "problem_url": "https://atcoder.jp/contests/arc097/tasks/arc097_a",
+    "submission_id": "AC66123956",
+    "submission_url": "https://atcoder.jp/contests/arc097/submissions/66123956",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/24/2025 13:08"
+  },
   "AC66130982": {
     "contest_id": "abc117",
     "language": "C++ 20 (gcc 12.2)",
