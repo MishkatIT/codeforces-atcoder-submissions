@@ -1,4 +1,20 @@
 {
+  "AC66319483": {
+    "contest_id": "abc408",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc408\\abc408A Timeout.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Timeout",
+    "problem_url": "https://atcoder.jp/contests/abc408/tasks/abc408_a",
+    "submission_id": "AC66319483",
+    "submission_url": "https://atcoder.jp/contests/abc408/submissions/66319483",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "May/31/2025 18:14"
+  },
   "AC66325971": {
     "contest_id": "abc408",
     "language": "C++ 20 (gcc 12.2)",
