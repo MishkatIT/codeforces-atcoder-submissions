@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **36**
+### 📊 Total Problems Solved: **37**
 
 </div>
 
@@ -276,6 +276,13 @@
 <td align="center"><a href="./submissions/atcoder/abc408/abc408A%20Timeout.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*150</code></td>
 <td align="center"><sub>May/31/2025 18:14</sub></td>
+</tr>
+<tr>
+<td align="center">37</td>
+<td><a href="https://atcoder.jp/contests/abc408/tasks/abc408_b"><b>B</b> - Compression</a></td>
+<td align="center"><a href="./submissions/atcoder/abc408/abc408B%20Compression.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>May/31/2025 18:08</sub></td>
 </tr>
 </tbody>
 </table>
