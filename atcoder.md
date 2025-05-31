@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **34**
+### 📊 Total Problems Solved: **35**
 
 </div>
 
@@ -262,6 +262,13 @@
 <td align="center"><a href="./submissions/atcoder/abc408/abc408D%20Flip%20to%20Gather.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*400</code></td>
 <td align="center"><sub>Jun/01/2025 19:01</sub></td>
+</tr>
+<tr>
+<td align="center">35</td>
+<td><a href="https://atcoder.jp/contests/abc408/tasks/abc408_c"><b>C</b> - Not All Covered</a></td>
+<td align="center"><a href="./submissions/atcoder/abc408/abc408C%20Not%20All%20Covered.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>May/31/2025 18:21</sub></td>
 </tr>
 </tbody>
 </table>
