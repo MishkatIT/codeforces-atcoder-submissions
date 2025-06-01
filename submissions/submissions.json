@@ -1,4 +1,20 @@
 {
+  "AC66386330": {
+    "contest_id": "abc408",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc408\\abc408D Flip_to_Gather.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Flip to Gather",
+    "problem_url": "https://atcoder.jp/contests/abc408/tasks/abc408_d",
+    "submission_id": "AC66386330",
+    "submission_url": "https://atcoder.jp/contests/abc408/submissions/66386330",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/01/2025 19:01"
+  },
   "AC66686122": {
     "contest_id": "agc039",
     "language": "C++ 20 (gcc 12.2)",
