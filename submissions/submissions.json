@@ -1,4 +1,20 @@
 {
+  "AC66450297": {
+    "contest_id": "abc408",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc408\\abc408B Compression.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Compression",
+    "problem_url": "https://atcoder.jp/contests/abc408/tasks/abc408_b",
+    "submission_id": "AC66450297",
+    "submission_url": "https://atcoder.jp/contests/abc408/submissions/66450297",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Jun/04/2025 18:57"
+  },
   "AC67390809": {
     "contest_id": "abc413",
     "language": "C++ 20 (gcc 12.2)",
