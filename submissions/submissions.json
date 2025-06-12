@@ -1,4 +1,20 @@
 {
+  "AC66686122": {
+    "contest_id": "agc039",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\agc039\\agc039A Connection_and_Disconnection.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Connection and Disconnection",
+    "problem_url": "https://atcoder.jp/contests/agc039/tasks/agc039_a",
+    "submission_id": "AC66686122",
+    "submission_url": "https://atcoder.jp/contests/agc039/submissions/66686122",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/12/2025 20:01"
+  },
   "AC66720240": {
     "contest_id": "abc410",
     "language": "C++ 20 (gcc 12.2)",
