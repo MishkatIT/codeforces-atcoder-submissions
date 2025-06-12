@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **32**
+### 📊 Total Problems Solved: **33**
 
 </div>
 
@@ -248,6 +248,13 @@
 <td align="center"><a href="./submissions/atcoder/abc410/abc410A%20G1.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Jun/14/2025 18:02</sub></td>
+</tr>
+<tr>
+<td align="center">33</td>
+<td><a href="https://atcoder.jp/contests/agc039/tasks/agc039_a"><b>A</b> - Connection and Disconnection</a></td>
+<td align="center"><a href="./submissions/atcoder/agc039/agc039A%20Connection%20and%20Disconnection.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Jun/12/2025 20:01</sub></td>
 </tr>
 </tbody>
 </table>
