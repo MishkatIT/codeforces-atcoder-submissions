@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **30**
+### 📊 Total Problems Solved: **31**
 
 </div>
 
@@ -234,6 +234,13 @@
 <td align="center"><a href="./submissions/atcoder/abc410/abc410C%20Rotatable%20Array.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Jun/14/2025 18:59</sub></td>
+</tr>
+<tr>
+<td align="center">31</td>
+<td><a href="https://atcoder.jp/contests/abc410/tasks/abc410_b"><b>B</b> - Reverse Proxy</a></td>
+<td align="center"><a href="./submissions/atcoder/abc410/abc410B%20Reverse%20Proxy.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Jun/14/2025 18:15</sub></td>
 </tr>
 </tbody>
 </table>
