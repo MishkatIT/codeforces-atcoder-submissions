@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **29**
+### 📊 Total Problems Solved: **30**
 
 </div>
 
@@ -227,6 +227,13 @@
 <td align="center"><a href="./submissions/atcoder/abc410/abc410D%20XOR%20Shortest%20Walk.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*400</code></td>
 <td align="center"><sub>Jun/15/2025 22:04</sub></td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td><a href="https://atcoder.jp/contests/abc410/tasks/abc410_c"><b>C</b> - Rotatable Array</a></td>
+<td align="center"><a href="./submissions/atcoder/abc410/abc410C%20Rotatable%20Array.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Jun/14/2025 18:59</sub></td>
 </tr>
 </tbody>
 </table>
