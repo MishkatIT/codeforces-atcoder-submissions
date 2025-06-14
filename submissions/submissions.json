@@ -1,4 +1,20 @@
 {
+  "AC66762112": {
+    "contest_id": "abc410",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc410\\abc410C Rotatable_Array.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Rotatable Array",
+    "problem_url": "https://atcoder.jp/contests/abc410/tasks/abc410_c",
+    "submission_id": "AC66762112",
+    "submission_url": "https://atcoder.jp/contests/abc410/submissions/66762112",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/14/2025 18:59"
+  },
   "AC66816923": {
     "contest_id": "abc410",
     "language": "C++ 20 (gcc 12.2)",
