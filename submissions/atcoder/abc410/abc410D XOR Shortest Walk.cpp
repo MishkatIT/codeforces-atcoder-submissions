@@ -31,20 +31,22 @@ int32_t main() {
         cin >> u >> v >> w;
         adj[u].push_back({v, w});
     }
-
-    vector<unordered_map<int, bool>> dp(n + 5);
+    vector<vector<int>> dp(n + 5, vector<int> ((1 << 10), -1));
+    
     int ans = inf;
-    function<void(int, int)> dfs = [&](int u, int x) {
-        if (dp[u].count(x)) return;
-        dp[u][x] = true;
-        if (u == n) ans = min(ans, x);
-        for (auto& [v, w] : adj[u]) {
-            dfs(v, x ^ w);
+    function<void(int, int)> dfs = [&](int i, int x) {
+        if (dp[i][x] != -1) return;
+        dp[i][x] = x;
+        if (i == n) {
+            ans = min(ans, x);
+        }
+        for (auto& [j, w] : adj[i]) {
+            dfs(j, x ^ w);
         }
     };
 
     dfs(1, 0);
 
-    cout << (ans == inf ? -1 : ans) << '\n';
+    cout << (ans == inf ? -1 : ans);
     return 0;
 }
