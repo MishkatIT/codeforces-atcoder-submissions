@@ -1,4 +1,20 @@
 {
+  "AC66816996": {
+    "contest_id": "abc410",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc410\\abc410D XOR_Shortest_Walk.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "XOR Shortest Walk",
+    "problem_url": "https://atcoder.jp/contests/abc410/tasks/abc410_d",
+    "submission_id": "AC66816996",
+    "submission_url": "https://atcoder.jp/contests/abc410/submissions/66816996",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/15/2025 22:03"
+  },
   "AC66817008": {
     "contest_id": "abc410",
     "language": "C++ 20 (gcc 12.2)",
