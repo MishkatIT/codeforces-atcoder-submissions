@@ -1,4 +1,20 @@
 {
+  "AC67390809": {
+    "contest_id": "abc413",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc413\\abc413A Content_Too_Large.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Content Too Large",
+    "problem_url": "https://atcoder.jp/contests/abc413/tasks/abc413_a",
+    "submission_id": "AC67390809",
+    "submission_url": "https://atcoder.jp/contests/abc413/submissions/67390809",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/06/2025 19:18"
+  },
   "AC67391463": {
     "contest_id": "abc413",
     "language": "C++ 20 (gcc 12.2)",
