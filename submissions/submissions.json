@@ -1,4 +1,20 @@
 {
+  "AC67566673": {
+    "contest_id": "abc414",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc414\\abc414A Streamer_Takahashi.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Streamer Takahashi",
+    "problem_url": "https://atcoder.jp/contests/abc414/tasks/abc414_a",
+    "submission_id": "AC67566673",
+    "submission_url": "https://atcoder.jp/contests/abc414/submissions/67566673",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/12/2025 22:25"
+  },
   "AC67566957": {
     "contest_id": "abc414",
     "language": "C++ 20 (gcc 12.2)",
