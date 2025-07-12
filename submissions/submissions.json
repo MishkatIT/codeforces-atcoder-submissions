@@ -1,4 +1,20 @@
 {
+  "AC67566957": {
+    "contest_id": "abc414",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc414\\abc414B String_Too_Long.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "String Too Long",
+    "problem_url": "https://atcoder.jp/contests/abc414/tasks/abc414_b",
+    "submission_id": "AC67566957",
+    "submission_url": "https://atcoder.jp/contests/abc414/submissions/67566957",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/12/2025 22:42"
+  },
   "AC68000469": {
     "contest_id": "abc416",
     "language": "C++ 20 (gcc 12.2)",
