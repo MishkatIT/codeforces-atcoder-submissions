@@ -10,7 +10,6 @@ const int INF=1e18+7;
 void solve(){
     string s;
     cin>>s;
-    int da=count(s.begin(),s.end(),'#');
     if(s[0]=='.'){
        s[0]='o';
     }
