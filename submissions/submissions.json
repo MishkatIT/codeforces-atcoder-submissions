@@ -1,4 +1,20 @@
 {
+  "AC68000544": {
+    "contest_id": "abc416",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc416/abc416B 1D_Akari.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "1D Akari",
+    "problem_url": "https://atcoder.jp/contests/abc416/tasks/abc416_b",
+    "submission_id": "AC68000544",
+    "submission_url": "https://atcoder.jp/contests/abc416/submissions/68000544",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Jul/27/2025 19:54"
+  },
   "AC68172504": {
     "contest_id": "abc417",
     "language": "C++ 20 (gcc 12.2)",
