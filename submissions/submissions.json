@@ -1,4 +1,20 @@
 {
+  "AC68172860": {
+    "contest_id": "abc417",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc417\\abc417C Distance_Indicators.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Distance Indicators",
+    "problem_url": "https://atcoder.jp/contests/abc417/tasks/abc417_c",
+    "submission_id": "AC68172860",
+    "submission_url": "https://atcoder.jp/contests/abc417/submissions/68172860",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/03/2025 00:51"
+  },
   "AC68334133": {
     "contest_id": "abc418",
     "language": "C++ 20 (gcc 12.2)",
