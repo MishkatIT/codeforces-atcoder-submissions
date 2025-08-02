@@ -1,4 +1,20 @@
 {
+  "AC68172612": {
+    "contest_id": "abc417",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc417/abc417B Search_and_Delete.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Search and Delete",
+    "problem_url": "https://atcoder.jp/contests/abc417/tasks/abc417_b",
+    "submission_id": "AC68172612",
+    "submission_url": "https://atcoder.jp/contests/abc417/submissions/68172612",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/02/2025 18:24"
+  },
   "AC68172860": {
     "contest_id": "abc417",
     "language": "C++ 20 (gcc 12.2)",
