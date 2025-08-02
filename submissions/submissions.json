@@ -1,4 +1,20 @@
 {
+  "AC68172504": {
+    "contest_id": "abc417",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc417\\abc417A A_Substring.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "A Substring",
+    "problem_url": "https://atcoder.jp/contests/abc417/tasks/abc417_a",
+    "submission_id": "AC68172504",
+    "submission_url": "https://atcoder.jp/contests/abc417/submissions/68172504",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/03/2025 00:14"
+  },
   "AC68172612": {
     "contest_id": "abc417",
     "language": "C++ 20 (gcc 12.2)",
