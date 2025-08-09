@@ -1,4 +1,20 @@
 {
+  "AC68361693": {
+    "contest_id": "abc418",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc418\\abc418C Flush.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Flush",
+    "problem_url": "https://atcoder.jp/contests/abc418/tasks/abc418_c",
+    "submission_id": "AC68361693",
+    "submission_url": "https://atcoder.jp/contests/abc418/submissions/68361693",
+    "tags": [
+      "AtCoder",
+      "*350"
+    ],
+    "timestamp": "Aug/09/2025 19:24"
+  },
   "AC68574619": {
     "contest_id": "abc419",
     "language": "C++ 20 (gcc 12.2)",
