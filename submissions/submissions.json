@@ -1,4 +1,20 @@
 {
+  "AC68334133": {
+    "contest_id": "abc418",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc418\\abc418A I_m_a_teapot.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "I'm a teapot",
+    "problem_url": "https://atcoder.jp/contests/abc418/tasks/abc418_a",
+    "submission_id": "AC68334133",
+    "submission_url": "https://atcoder.jp/contests/abc418/submissions/68334133",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/09/2025 18:26"
+  },
   "AC68344740": {
     "contest_id": "abc418",
     "language": "C++ 20 (gcc 12.2)",
