@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **25**
+### 📊 Total Problems Solved: **26**
 
 </div>
 
@@ -199,6 +199,13 @@
 <td align="center"><a href="./submissions/atcoder/abc419/abc419D%20Substr%20Swap.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*400</code></td>
 <td align="center"><sub>Aug/16/2025 18:34</sub></td>
+</tr>
+<tr>
+<td align="center">26</td>
+<td><a href="https://atcoder.jp/contests/abc419/tasks/abc419_c"><b>C</b> - King's Summit</a></td>
+<td align="center"><a href="./submissions/atcoder/abc419/abc419C%20King_s%20Summit.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Aug/16/2025 18:25</sub></td>
 </tr>
 </tbody>
 </table>
