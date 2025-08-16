@@ -1,4 +1,20 @@
 {
+  "AC68523704": {
+    "contest_id": "abc419",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc419\\abc419B Get_Min.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Get Min",
+    "problem_url": "https://atcoder.jp/contests/abc419/tasks/abc419_b",
+    "submission_id": "AC68523704",
+    "submission_url": "https://atcoder.jp/contests/abc419/submissions/68523704",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/16/2025 18:06"
+  },
   "AC68544191": {
     "contest_id": "abc419",
     "language": "C++ 20 (gcc 12.2)",
