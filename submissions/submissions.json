@@ -1,4 +1,20 @@
 {
+  "AC68549593": {
+    "contest_id": "abc419",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc419\\abc419D Substr_Swap.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Substr Swap",
+    "problem_url": "https://atcoder.jp/contests/abc419/tasks/abc419_d",
+    "submission_id": "AC68549593",
+    "submission_url": "https://atcoder.jp/contests/abc419/submissions/68549593",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/16/2025 18:34"
+  },
   "AC69366585": {
     "contest_id": "abc423",
     "language": "C++ 20 (gcc 12.2)",
