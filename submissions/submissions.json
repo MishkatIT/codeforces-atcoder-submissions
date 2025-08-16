@@ -1,4 +1,20 @@
 {
+  "AC68574672": {
+    "contest_id": "abc419",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc419\\abc419C King_s_Summit.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "King's Summit",
+    "problem_url": "https://atcoder.jp/contests/abc419/tasks/abc419_c",
+    "submission_id": "AC68574672",
+    "submission_url": "https://atcoder.jp/contests/abc419/submissions/68574672",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/16/2025 19:42"
+  },
   "AC68574777": {
     "contest_id": "abc419",
     "language": "C++ 20 (gcc 12.2)",
