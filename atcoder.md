@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **24**
+### 📊 Total Problems Solved: **25**
 
 </div>
 
@@ -192,6 +192,13 @@
 <td align="center"><a href="./submissions/atcoder/abc423/abc423A%20Scary%20Fee.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*150</code></td>
 <td align="center"><sub>Sep/15/2025 14:44</sub></td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td><a href="https://atcoder.jp/contests/abc419/tasks/abc419_d"><b>D</b> - Substr Swap</a></td>
+<td align="center"><a href="./submissions/atcoder/abc419/abc419D%20Substr%20Swap.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Aug/16/2025 18:34</sub></td>
 </tr>
 </tbody>
 </table>
