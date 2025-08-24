@@ -1,4 +1,20 @@
 {
+  "AC68791055": {
+    "contest_id": "abc420",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc420\\abc420A What_month_is_it_.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "What month is it?",
+    "problem_url": "https://atcoder.jp/contests/abc420/tasks/abc420_a",
+    "submission_id": "AC68791055",
+    "submission_url": "https://atcoder.jp/contests/abc420/submissions/68791055",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/24/2025 22:58"
+  },
   "AC68811793": {
     "contest_id": "abc420",
     "language": "C++ 20 (gcc 12.2)",
