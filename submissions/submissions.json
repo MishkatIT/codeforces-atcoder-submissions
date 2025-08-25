@@ -1,4 +1,20 @@
 {
+  "AC68811793": {
+    "contest_id": "abc420",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc420/abc420B Most_Minority.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Most Minority",
+    "problem_url": "https://atcoder.jp/contests/abc420/tasks/abc420_b",
+    "submission_id": "AC68811793",
+    "submission_url": "https://atcoder.jp/contests/abc420/submissions/68811793",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/25/2025 15:37"
+  },
   "AC68812001": {
     "contest_id": "abc420",
     "language": "C++ 20 (gcc 12.2)",
