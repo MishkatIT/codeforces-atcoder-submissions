@@ -1,4 +1,20 @@
 {
+  "AC68812001": {
+    "contest_id": "abc420",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc420/abc420C Sum_of_Min_Query.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Sum of Min Query",
+    "problem_url": "https://atcoder.jp/contests/abc420/tasks/abc420_c",
+    "submission_id": "AC68812001",
+    "submission_url": "https://atcoder.jp/contests/abc420/submissions/68812001",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/25/2025 15:57"
+  },
   "AC68949370": {
     "contest_id": "abc421",
     "language": "C++ 20 (gcc 12.2)",
