@@ -1,4 +1,20 @@
 {
+  "AC68949370": {
+    "contest_id": "abc421",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc421\\abc421A Misdelivery.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Misdelivery",
+    "problem_url": "https://atcoder.jp/contests/abc421/tasks/abc421_a",
+    "submission_id": "AC68949370",
+    "submission_url": "https://atcoder.jp/contests/abc421/submissions/68949370",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/30/2025 20:14"
+  },
   "AC68949962": {
     "contest_id": "abc421",
     "language": "C++ 20 (gcc 12.2)",
