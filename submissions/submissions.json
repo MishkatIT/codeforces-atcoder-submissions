@@ -1,4 +1,20 @@
 {
+  "AC68949962": {
+    "contest_id": "abc421",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc421\\abc421B Fibonacci_Reversed.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Fibonacci Reversed",
+    "problem_url": "https://atcoder.jp/contests/abc421/tasks/abc421_b",
+    "submission_id": "AC68949962",
+    "submission_url": "https://atcoder.jp/contests/abc421/submissions/68949962",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/30/2025 20:26"
+  },
   "AC68950595": {
     "contest_id": "abc421",
     "language": "C++ 20 (gcc 12.2)",
