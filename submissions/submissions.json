@@ -1,4 +1,20 @@
 {
+  "AC69356561": {
+    "contest_id": "abc423",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc423/abc423B Locked_Rooms.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Locked Rooms",
+    "problem_url": "https://atcoder.jp/contests/abc423/tasks/abc423_b",
+    "submission_id": "AC69356561",
+    "submission_url": "https://atcoder.jp/contests/abc423/submissions/69356561",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/14/2025 18:08"
+  },
   "AC69580335": {
     "contest_id": "abc424",
     "language": "C++ 20 (gcc 12.2)",
