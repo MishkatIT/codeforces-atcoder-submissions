@@ -25,7 +25,12 @@ int32_t main() {
 
     int n, c;
     cin >> n >> c;
-    int x = n / (1000 + c);
-    cout << x * 1000 << '\n';
+    int ans = n / 1000;
+    int rem = n - ans * c - ans * 1000;
+    while (rem < 0) {
+        ans--;
+        rem += 1000 + c;
+    }
+    cout << ans * 1000 << '\n';
     return 0;
 }
