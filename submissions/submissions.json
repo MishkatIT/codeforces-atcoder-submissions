@@ -1,4 +1,20 @@
 {
+  "AC69366585": {
+    "contest_id": "abc423",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc423\\abc423A Scary_Fee.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Scary Fee",
+    "problem_url": "https://atcoder.jp/contests/abc423/tasks/abc423_a",
+    "submission_id": "AC69366585",
+    "submission_url": "https://atcoder.jp/contests/abc423/submissions/69366585",
+    "tags": [
+      "AtCoder",
+      "*150"
+    ],
+    "timestamp": "Sep/15/2025 14:42"
+  },
   "AC69366630": {
     "contest_id": "abc423",
     "language": "C++ 20 (gcc 12.2)",
