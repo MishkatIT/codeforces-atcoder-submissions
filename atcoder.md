@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **23**
+### 📊 Total Problems Solved: **24**
 
 </div>
 
@@ -185,6 +185,13 @@
 <td align="center"><a href="./submissions/atcoder/abc163/abc163D%20Sum%20of%20Large%20Numbers.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*400</code></td>
 <td align="center"><sub>Sep/16/2025 17:49</sub></td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td><a href="https://atcoder.jp/contests/abc423/tasks/abc423_a"><b>A</b> - Scary Fee</a></td>
+<td align="center"><a href="./submissions/atcoder/abc423/abc423A%20Scary%20Fee.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Sep/15/2025 14:44</sub></td>
 </tr>
 </tbody>
 </table>
