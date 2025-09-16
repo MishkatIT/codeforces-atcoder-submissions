@@ -1,4 +1,20 @@
 {
+  "AC69387061": {
+    "contest_id": "abc163",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc163\\abc163D Sum of Large Numbers.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Sum of Large Numbers",
+    "problem_url": "https://atcoder.jp/contests/abc163/tasks/abc163_d",
+    "submission_id": "AC69387061",
+    "submission_url": "https://atcoder.jp/contests/abc163/submissions/69387061",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Sep/16/2025 17:49"
+  },
   "AC69387151": {
     "contest_id": "arc090",
     "language": "C++ 20 (gcc 12.2)",
