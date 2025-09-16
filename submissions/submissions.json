@@ -1,4 +1,20 @@
 {
+  "AC69387151": {
+    "contest_id": "arc090",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\arc090\\arc090C Candies.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Candies",
+    "problem_url": "https://atcoder.jp/contests/arc090/tasks/arc090_a",
+    "submission_id": "AC69387151",
+    "submission_url": "https://atcoder.jp/contests/arc090/submissions/69387151",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Sep/16/2025 17:54"
+  },
   "AC69598311": {
     "contest_id": "abc202",
     "language": "C++ 20 (gcc 12.2)",
