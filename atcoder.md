@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **22**
+### 📊 Total Problems Solved: **23**
 
 </div>
 
@@ -178,6 +178,13 @@
 <td align="center"><a href="./submissions/atcoder/arc090/arc090C%20Candies.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Sep/16/2025 17:54</sub></td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td><a href="https://atcoder.jp/contests/abc163/tasks/abc163_d"><b>D</b> - Sum of Large Numbers</a></td>
+<td align="center"><a href="./submissions/atcoder/abc163/abc163D%20Sum%20of%20Large%20Numbers.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Sep/16/2025 17:49</sub></td>
 </tr>
 </tbody>
 </table>
