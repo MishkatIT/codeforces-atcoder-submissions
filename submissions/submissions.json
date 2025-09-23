@@ -1,4 +1,20 @@
 {
+  "AC69580335": {
+    "contest_id": "abc424",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc424/abc424A Isosceles.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Isosceles",
+    "problem_url": "https://atcoder.jp/contests/abc424/tasks/abc424_a",
+    "submission_id": "AC69580335",
+    "submission_url": "https://atcoder.jp/contests/abc424/submissions/69580335",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/23/2025 18:56"
+  },
   "AC69897042": {
     "contest_id": "abc426",
     "language": "C++ 20 (gcc 12.2)",
