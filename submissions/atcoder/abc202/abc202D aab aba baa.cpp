@@ -21,12 +21,13 @@ const ll linf = 1e18;
 
 
 ll nCr(int n, int r) {
-    if (r > n - r) r = n - r;
-    ll temp = 1;
+    if (r > n) return 0;
+    if (r > n - r) r = n - r; 
+    ll res = 1;
     for (int i = 1; i <= r; i++) {
-        temp = temp * (n - r + i) / i;
+        res = res * (n - r + i) / i;
     }
-    return temp;
+    return res;
 }
 
 
