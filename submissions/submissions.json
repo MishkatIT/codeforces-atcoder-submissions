@@ -1,4 +1,20 @@
 {
+  "AC69598455": {
+    "contest_id": "abc164",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc164\\abc164D Multiple of 2019.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Multiple of 2019",
+    "problem_url": "https://atcoder.jp/contests/abc164/tasks/abc164_d",
+    "submission_id": "AC69598455",
+    "submission_url": "https://atcoder.jp/contests/abc164/submissions/69598455",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Sep/25/2025 02:55"
+  },
   "AC69628002": {
     "contest_id": "abc105",
     "language": "C++ 20 (gcc 12.2)",
