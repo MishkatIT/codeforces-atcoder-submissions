@@ -1,4 +1,20 @@
 {
+  "AC69598311": {
+    "contest_id": "abc202",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc202\\abc202D aab_aba_baa.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "aab aba baa",
+    "problem_url": "https://atcoder.jp/contests/abc202/tasks/abc202_d",
+    "submission_id": "AC69598311",
+    "submission_url": "https://atcoder.jp/contests/abc202/submissions/69598311",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Sep/25/2025 02:20"
+  },
   "AC69598315": {
     "contest_id": "abc202",
     "language": "C++ 20 (gcc 12.2)",
