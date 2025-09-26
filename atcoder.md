@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **18**
+### 📊 Total Problems Solved: **19**
 
 </div>
 
@@ -150,6 +150,13 @@
 <td align="center"><a href="./submissions/atcoder/abc177/abc177D%20Friends.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*400</code></td>
 <td align="center"><sub>Sep/26/2025 20:57</sub></td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td><a href="https://atcoder.jp/contests/abc105/tasks/abc105_d"><b>D</b> - Candy Distribution</a></td>
+<td align="center"><a href="./submissions/atcoder/abc105/abc105D%20Candy%20Distribution.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Sep/26/2025 20:50</sub></td>
 </tr>
 </tbody>
 </table>
