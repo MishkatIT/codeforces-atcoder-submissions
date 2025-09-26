@@ -1,4 +1,20 @@
 {
+  "AC69628002": {
+    "contest_id": "abc105",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc105\\abc105D Candy_Distribution.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Candy Distribution",
+    "problem_url": "https://atcoder.jp/contests/abc105/tasks/abc105_d",
+    "submission_id": "AC69628002",
+    "submission_url": "https://atcoder.jp/contests/abc105/submissions/69628002",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Sep/26/2025 20:50"
+  },
   "AC69628099": {
     "contest_id": "abc177",
     "language": "C++ 20 (gcc 12.2)",
