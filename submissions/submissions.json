@@ -1,4 +1,20 @@
 {
+  "AC69628099": {
+    "contest_id": "abc177",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc177\\abc177D Friends.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Friends",
+    "problem_url": "https://atcoder.jp/contests/abc177/tasks/abc177_d",
+    "submission_id": "AC69628099",
+    "submission_url": "https://atcoder.jp/contests/abc177/submissions/69628099",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Sep/26/2025 20:57"
+  },
   "AC69834980": {
     "contest_id": "abc426",
     "language": "C++ 20 (gcc 12.2)",
