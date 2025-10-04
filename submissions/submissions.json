@@ -1,4 +1,20 @@
 {
+  "AC69840077": {
+    "contest_id": "abc426",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc426\\abc426B The_Odd_One_Out.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "The Odd One Out",
+    "problem_url": "https://atcoder.jp/contests/abc426/tasks/abc426_b",
+    "submission_id": "AC69840077",
+    "submission_url": "https://atcoder.jp/contests/abc426/submissions/69840077",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Oct/04/2025 18:13"
+  },
   "AC69850441": {
     "contest_id": "abc426",
     "language": "C++ 20 (gcc 12.2)",
