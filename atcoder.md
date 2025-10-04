@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **14**
+### 📊 Total Problems Solved: **15**
 
 </div>
 
@@ -122,6 +122,13 @@
 <td align="center"><a href="./submissions/atcoder/abc385/abc385A%20Equally.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Oct/05/2025 02:02</sub></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td><a href="https://atcoder.jp/contests/abc426/tasks/abc426_c"><b>C</b> - Upgrade Required</a></td>
+<td align="center"><a href="./submissions/atcoder/abc426/abc426C%20Upgrade%20Required.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Oct/04/2025 18:30</sub></td>
 </tr>
 </tbody>
 </table>
