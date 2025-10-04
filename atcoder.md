@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **16**
+### 📊 Total Problems Solved: **17**
 
 </div>
 
@@ -136,6 +136,13 @@
 <td align="center"><a href="./submissions/atcoder/abc426/abc426B%20The%20Odd%20One%20Out.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Oct/04/2025 18:13</sub></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td><a href="https://atcoder.jp/contests/abc426/tasks/abc426_a"><b>A</b> - OS Versions</a></td>
+<td align="center"><a href="./submissions/atcoder/abc426/abc426A%20OS%20Versions.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Oct/04/2025 18:08</sub></td>
 </tr>
 </tbody>
 </table>
