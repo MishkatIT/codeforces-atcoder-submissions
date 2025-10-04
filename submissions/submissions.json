@@ -1,4 +1,20 @@
 {
+  "AC69850441": {
+    "contest_id": "abc426",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc426\\abc426C Upgrade Required.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Upgrade Required",
+    "problem_url": "https://atcoder.jp/contests/abc426/tasks/abc426_c",
+    "submission_id": "AC69850441",
+    "submission_url": "https://atcoder.jp/contests/abc426/submissions/69850441",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/04/2025 18:30"
+  },
   "AC69889047": {
     "contest_id": "abc385",
     "language": "C++ 20 (gcc 12.2)",
