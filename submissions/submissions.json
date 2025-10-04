@@ -1,4 +1,20 @@
 {
+  "AC69834980": {
+    "contest_id": "abc426",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc426\\abc426A OS_Versions.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "OS Versions",
+    "problem_url": "https://atcoder.jp/contests/abc426/tasks/abc426_a",
+    "submission_id": "AC69834980",
+    "submission_url": "https://atcoder.jp/contests/abc426/submissions/69834980",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/04/2025 18:08"
+  },
   "AC69840077": {
     "contest_id": "abc426",
     "language": "C++ 20 (gcc 12.2)",
