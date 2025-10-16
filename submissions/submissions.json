@@ -1,4 +1,20 @@
 {
+  "AC70175114": {
+    "contest_id": "abc395",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc395/abc395A Strictly_Increasing_.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Strictly Increasing?",
+    "problem_url": "https://atcoder.jp/contests/abc395/tasks/abc395_a",
+    "submission_id": "AC70175114",
+    "submission_url": "https://atcoder.jp/contests/abc395/submissions/70175114",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/16/2025 06:45"
+  },
   "AC70175143": {
     "contest_id": "abc333",
     "language": "C++ 20 (gcc 12.2)",
