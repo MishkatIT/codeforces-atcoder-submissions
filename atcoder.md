@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **11**
+### 📊 Total Problems Solved: **12**
 
 </div>
 
@@ -101,6 +101,13 @@
 <td align="center"><a href="./submissions/atcoder/abc428/abc428B%20Most%20Frequent%20Substrings.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Oct/18/2025 18:42</sub></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td><a href="https://atcoder.jp/contests/abc428/tasks/abc428_a"><b>A</b> - Grandma's Footsteps</a></td>
+<td align="center"><a href="./submissions/atcoder/abc428/abc428A%20Grandma_s%20Footsteps.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Oct/18/2025 18:34</sub></td>
 </tr>
 </tbody>
 </table>
