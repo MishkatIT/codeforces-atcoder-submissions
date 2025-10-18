@@ -1,4 +1,20 @@
 {
+  "AC70226571": {
+    "contest_id": "abc428",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc428\\abc428B Most_Frequent_Substrings.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Most Frequent Substrings",
+    "problem_url": "https://atcoder.jp/contests/abc428/tasks/abc428_b",
+    "submission_id": "AC70226571",
+    "submission_url": "https://atcoder.jp/contests/abc428/submissions/70226571",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Oct/18/2025 18:42"
+  },
   "AC70260477": {
     "contest_id": "abc428",
     "language": "C++ 20 (gcc 12.2)",
