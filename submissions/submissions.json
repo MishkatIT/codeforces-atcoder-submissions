@@ -1,4 +1,20 @@
 {
+  "AC70260477": {
+    "contest_id": "abc428",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder/abc428/abc428C Brackets_Stack_Query.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Brackets Stack Query",
+    "problem_url": "https://atcoder.jp/contests/abc428/tasks/abc428_c",
+    "submission_id": "AC70260477",
+    "submission_url": "https://atcoder.jp/contests/abc428/submissions/70260477",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/18/2025 13:47"
+  },
   "AC70406231": {
     "contest_id": "abc429",
     "language": "C++ 20 (gcc 12.2)",
