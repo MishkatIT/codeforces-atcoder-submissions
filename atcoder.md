@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **9**
+### 📊 Total Problems Solved: **10**
 
 </div>
 
@@ -87,6 +87,13 @@
 <td align="center"><a href="./submissions/atcoder/abc429/abc429A%20Too%20Many%20Requests.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Oct/25/2025 18:01</sub></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td><a href="https://atcoder.jp/contests/abc428/tasks/abc428_c"><b>C</b> - Brackets Stack Query</a></td>
+<td align="center"><a href="./submissions/atcoder/abc428/abc428C%20Brackets%20Stack%20Query.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Oct/18/2025 19:47</sub></td>
 </tr>
 </tbody>
 </table>
