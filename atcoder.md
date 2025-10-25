@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **6**
+### 📊 Total Problems Solved: **7**
 
 </div>
 
@@ -66,6 +66,13 @@
 <td align="center"><a href="./submissions/atcoder/abc431/abc431A%20Robot%20Balance.cpp" title="C++23 (GCC 15.2.0)"><code>C++23 (GCC 15.2.0)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Nov/08/2025 18:01</sub></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td><a href="https://atcoder.jp/contests/abc429/tasks/abc429_c"><b>C</b> - Odd One Subsequence</a></td>
+<td align="center"><a href="./submissions/atcoder/abc429/abc429C%20Odd%20One%20Subsequence.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Oct/25/2025 18:05</sub></td>
 </tr>
 </tbody>
 </table>
