@@ -1,4 +1,20 @@
 {
+  "AC70417201": {
+    "contest_id": "abc429",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc429\\abc429C Odd_One_Subsequence.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Odd One Subsequence",
+    "problem_url": "https://atcoder.jp/contests/abc429/tasks/abc429_c",
+    "submission_id": "AC70417201",
+    "submission_url": "https://atcoder.jp/contests/abc429/submissions/70417201",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Oct/25/2025 18:05"
+  },
   "AC70758481": {
     "contest_id": "abc431",
     "language": "C++23 (GCC 15.2.0)",
