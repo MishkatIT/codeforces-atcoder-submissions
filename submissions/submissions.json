@@ -1,4 +1,20 @@
 {
+  "AC70771437": {
+    "contest_id": "abc431",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc431\\abc431B Robot_Weight.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Robot Weight",
+    "problem_url": "https://atcoder.jp/contests/abc431/tasks/abc431_b",
+    "submission_id": "AC70771437",
+    "submission_url": "https://atcoder.jp/contests/abc431/submissions/70771437",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/08/2025 18:11"
+  },
   "AC70778869": {
     "contest_id": "abc431",
     "language": "C++23 (GCC 15.2.0)",
