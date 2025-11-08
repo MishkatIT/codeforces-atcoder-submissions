@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **4**
+### 📊 Total Problems Solved: **5**
 
 </div>
 
@@ -52,6 +52,13 @@
 <td align="center"><a href="./submissions/atcoder/abc431/abc431C%20Robot%20Factory.cpp" title="C++23 (GCC 15.2.0)"><code>C++23 (GCC 15.2.0)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Nov/08/2025 18:12</sub></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td><a href="https://atcoder.jp/contests/abc431/tasks/abc431_b"><b>B</b> - Robot Weight</a></td>
+<td align="center"><a href="./submissions/atcoder/abc431/abc431B%20Robot%20Weight.cpp" title="C++23 (GCC 15.2.0)"><code>C++23 (GCC 15.2.0)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Nov/08/2025 18:06</sub></td>
 </tr>
 </tbody>
 </table>
