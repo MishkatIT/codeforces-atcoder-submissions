@@ -1,4 +1,20 @@
 {
+  "AC70762685": {
+    "contest_id": "abc431",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc431\\abc431A Robot_Balance.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Robot Balance",
+    "problem_url": "https://atcoder.jp/contests/abc431/tasks/abc431_a",
+    "submission_id": "AC70762685",
+    "submission_url": "https://atcoder.jp/contests/abc431/submissions/70762685",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/08/2025 18:03"
+  },
   "AC70771437": {
     "contest_id": "abc431",
     "language": "C++23 (GCC 15.2.0)",
