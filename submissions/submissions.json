@@ -1,4 +1,20 @@
 {
+  "AC70772219": {
+    "contest_id": "abc431",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc431\\abc431C Robot Factory.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Robot Factory",
+    "problem_url": "https://atcoder.jp/contests/abc431/tasks/abc431_c",
+    "submission_id": "AC70772219",
+    "submission_url": "https://atcoder.jp/contests/abc431/submissions/70772219",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/08/2025 18:12"
+  },
   "AC71302241": {
     "contest_id": "abc434",
     "language": "C++23 (GCC 15.2.0)",
