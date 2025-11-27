@@ -1,4 +1,20 @@
 {
+  "AC71264569": {
+    "contest_id": "abc433",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc433\\abc433A Happy_Birthday__4.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Happy Birthday! 4",
+    "problem_url": "https://atcoder.jp/contests/abc433/tasks/abc433_a",
+    "submission_id": "AC71264569",
+    "submission_url": "https://atcoder.jp/contests/abc433/submissions/71264569",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/28/2025 00:00"
+  },
   "AC71264594": {
     "contest_id": "abc433",
     "language": "C++23 (GCC 15.2.0)",
