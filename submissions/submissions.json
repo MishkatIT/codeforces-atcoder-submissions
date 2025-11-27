@@ -1,4 +1,20 @@
 {
+  "AC71264594": {
+    "contest_id": "abc433",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc433\\abc433B Nearest_Taller.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Nearest Taller",
+    "problem_url": "https://atcoder.jp/contests/abc433/tasks/abc433_b",
+    "submission_id": "AC71264594",
+    "submission_url": "https://atcoder.jp/contests/abc433/submissions/71264594",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/28/2025 00:04"
+  },
   "AC71351367": {
     "contest_id": "abc434",
     "language": "C++23 (GCC 15.2.0)",
