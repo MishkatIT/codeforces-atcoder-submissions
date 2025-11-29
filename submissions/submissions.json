@@ -1,4 +1,20 @@
 {
+  "AC71306451": {
+    "contest_id": "abc434",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc434\\abc434B Bird Watching.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Bird Watching",
+    "problem_url": "https://atcoder.jp/contests/abc434/tasks/abc434_b",
+    "submission_id": "AC71306451",
+    "submission_url": "https://atcoder.jp/contests/abc434/submissions/71306451",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/29/2025 18:10"
+  },
   "AC71315182": {
     "contest_id": "abc434",
     "language": "C++23 (GCC 15.2.0)",
