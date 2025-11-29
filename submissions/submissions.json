@@ -1,4 +1,20 @@
 {
+  "AC71302241": {
+    "contest_id": "abc434",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc434\\abc434A Balloon Trip.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Balloon Trip",
+    "problem_url": "https://atcoder.jp/contests/abc434/tasks/abc434_a",
+    "submission_id": "AC71302241",
+    "submission_url": "https://atcoder.jp/contests/abc434/submissions/71302241",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/29/2025 18:05"
+  },
   "AC71306451": {
     "contest_id": "abc434",
     "language": "C++23 (GCC 15.2.0)",
