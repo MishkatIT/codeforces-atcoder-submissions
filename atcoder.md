@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **1**
+### 📊 Total Problems Solved: **2**
 
 </div>
 
@@ -31,6 +31,13 @@
 <td align="center"><a href="./submissions/atcoder/abc434/abc434C%20Flapping%20Takahashi.cpp" title="C++23 (GCC 15.2.0)"><code>C++23 (GCC 15.2.0)</code></a></td>
 <td><code>AtCoder</code> <code>*300</code></td>
 <td align="center"><sub>Nov/29/2025 18:26</sub></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><a href="https://atcoder.jp/contests/abc434/tasks/abc434_b"><b>B</b> - Bird Watching</a></td>
+<td align="center"><a href="./submissions/atcoder/abc434/abc434B%20Bird%20Watching.cpp" title="C++23 (GCC 15.2.0)"><code>C++23 (GCC 15.2.0)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Nov/29/2025 18:10</sub></td>
 </tr>
 </tbody>
 </table>
