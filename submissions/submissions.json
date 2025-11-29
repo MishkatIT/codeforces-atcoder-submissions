@@ -1,4 +1,20 @@
 {
+  "AC71315182": {
+    "contest_id": "abc434",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc434\\abc434C Flapping_Takahashi.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Flapping Takahashi",
+    "problem_url": "https://atcoder.jp/contests/abc434/tasks/abc434_c",
+    "submission_id": "AC71315182",
+    "submission_url": "https://atcoder.jp/contests/abc434/submissions/71315182",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/29/2025 18:26"
+  },
   "CF317996181": {
     "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
     "contest_id": 2108,
