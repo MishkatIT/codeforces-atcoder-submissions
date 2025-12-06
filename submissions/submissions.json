@@ -1,4 +1,20 @@
 {
+  "AC71525491": {
+    "contest_id": "abc435",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc435\\abc435C Domino.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Domino",
+    "problem_url": "https://atcoder.jp/contests/abc435/tasks/abc435_c",
+    "submission_id": "AC71525491",
+    "submission_url": "https://atcoder.jp/contests/abc435/submissions/71525491",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/06/2025 21:59"
+  },
   "AC71898636": {
     "contest_id": "abc437",
     "language": "C++23 (GCC 15.2.0)",
