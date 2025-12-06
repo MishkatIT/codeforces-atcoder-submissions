@@ -1,4 +1,20 @@
 {
+  "AC71525348": {
+    "contest_id": "abc435",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc435\\abc435B No-Divisible_Range.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "No-Divisible Range",
+    "problem_url": "https://atcoder.jp/contests/abc435/tasks/abc435_b",
+    "submission_id": "AC71525348",
+    "submission_url": "https://atcoder.jp/contests/abc435/submissions/71525348",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Dec/06/2025 21:50"
+  },
   "AC71525491": {
     "contest_id": "abc435",
     "language": "C++23 (GCC 15.2.0)",
