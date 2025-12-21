@@ -1,4 +1,20 @@
 {
+  "AC71898636": {
+    "contest_id": "abc437",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc437\\abc437A Feet.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Feet",
+    "problem_url": "https://atcoder.jp/contests/abc437/tasks/abc437_a",
+    "submission_id": "AC71898636",
+    "submission_url": "https://atcoder.jp/contests/abc437/submissions/71898636",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Dec/21/2025 16:10"
+  },
   "AC72003126": {
     "contest_id": "abc438",
     "language": "C++23 (GCC 15.2.0)",
