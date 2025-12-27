@@ -1,4 +1,20 @@
 {
+  "AC72012666": {
+    "contest_id": "abc438",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc438\\abc438B Substring_2.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Substring 2",
+    "problem_url": "https://atcoder.jp/contests/abc438/tasks/abc438_b",
+    "submission_id": "AC72012666",
+    "submission_url": "https://atcoder.jp/contests/abc438/submissions/72012666",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Dec/27/2025 18:19"
+  },
   "AC72026036": {
     "contest_id": "abc438",
     "language": "C++23 (GCC 15.2.0)",
