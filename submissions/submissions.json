@@ -1,4 +1,20 @@
 {
+  "AC72026036": {
+    "contest_id": "abc438",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder\\abc438\\abc438C 1D_puyopuyo.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "1D puyopuyo",
+    "problem_url": "https://atcoder.jp/contests/abc438/tasks/abc438_c",
+    "submission_id": "AC72026036",
+    "submission_url": "https://atcoder.jp/contests/abc438/submissions/72026036",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/27/2025 18:43"
+  },
   "CF222910417": {
     "__info_message": "Info: storing URL",
     "contest_id": 4,
