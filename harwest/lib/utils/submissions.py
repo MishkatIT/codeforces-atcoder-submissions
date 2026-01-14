@@ -28,7 +28,7 @@ class Submissions:
       if platform[0].lower() not in self.user_data:
         continue
       handle_name = self.user_data[platform[0].lower()]
-      svg_url = "https://cp-logo.vercel.app/{platform}/{handle}".format(
+      svg_url = "https://badges.joonhyung.xyz/{platform}/{handle}.svg".format(
         platform=platform[0].lower(),
         handle=handle_name
       )
@@ -59,9 +59,14 @@ class Submissions:
         problem_name=submission['problem_name'],
         problem_url=submission['problem_url']
       )
+      # Convert backslashes to forward slashes for GitHub compatibility
+      github_path = submission['path'].replace('\\', '/')
+      # Replace spaces with %20 in the file path for URL encoding
+      github_path_encoded = github_path.replace(' ', '%20')
+      
       row += '[{lang}](./{path}) | '.format(
         lang=submission['language'],
-        path=submission['path'].replace('\\', '/')
+        path=github_path_encoded
       )
       row += ' '.join(['`{tag}`'.format(tag=x) for x in submission['tags']])
       row += " | "

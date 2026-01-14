@@ -58,8 +58,14 @@ class AbstractWorkflow(ABC):
   def __get_solution_path(self, submission):
     submission_lang = submission['language']
     lang_ext = config.get_language_extension(submission_lang)
-    problem_code = submission['problem_index']
-    solution_file_name = problem_code + "." + lang_ext
+    # Characters to be replaced with underscores
+    characters_to_replace = ["#", "%", "&", "{", "}", "\\", "<", ">", "*", "?", "/", "$", "!", "'", '"', ":", "@",
+                             "+", "`", "|", "="]
+    # Replace invalid characters with underscores
+    problem_name = submission['problem_name']
+    for char in characters_to_replace:
+      problem_name = problem_name.replace(char, "_")
+    solution_file_name = str(submission['contest_id']) + submission['problem_index'] + " " + problem_name + "." + lang_ext
     solution_file_path = os.path.join(self.submissions_directory,
                                       self.client.get_platform_name()[0].lower(),
                                       str(submission['contest_id']),
