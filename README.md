@@ -9,12 +9,25 @@ automating the entire process of collecting and organizing your code submissions
 
 Here's a sample repository created using Harwest: [harwest-sample](https://github.com/nileshsah/harwest-sample)
 
+## 🚀 Quick Start for Fork Users
+
+**Want to use Harwest with GitHub Actions?** Check out our comprehensive [**Fork Setup Guide**](FORK_SETUP_GUIDE.md) for step-by-step instructions!
+
+The guide covers:
+- 🍴 Forking the repository
+- ⚙️ Configuring your usernames
+- 🤖 Setting up GitHub Actions automation
+- 📊 Getting contributions in your GitHub graph
+- 🔧 Troubleshooting common issues
+
 ## Highlights
 * Fully automated collection of all yours submissions with minimal effort setup
 * Simple and easy to use interface to get you started in minutes
+* Modern colorful UI with progress bars and clear visual feedback
 * Extensive traceability for your submissions with reference to the problem, tags, submission date and more
 * Single commit for each submission stamped with the original submission date for building rich and accurate contributions graph
 * Automated git pushes to the remote repository with every update
+* GitHub Actions support for fully automated harvesting
 * Requires little to no knowledge of operating Git (though would strongly recommend learning it)
 
 ## Platforms
