@@ -24,6 +24,8 @@ env:
 jobs:
   check-activity:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       should_run: ${{ steps.activity.outputs.should_run }}
       days_since_commit: ${{ steps.activity.outputs.days_since_commit }}
@@ -72,6 +74,8 @@ jobs:
     needs: check-activity
     if: needs.check-activity.outputs.should_run == 'true'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to push changes
     
     steps:
       - name: Checkout repository
