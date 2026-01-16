@@ -103,7 +103,12 @@ class AbstractWorkflow(ABC):
     text += f" {YELLOW}{problem_name}{RESET}"
     print("\r", " " * width, end='\r')
     print(text, end='\r')
-    return len(text) + 50  # Account for ANSI codes
+    
+    # Calculate actual ANSI code length for proper width tracking
+    # Each color code (\033[XXm) is 5-6 chars, RESET is 4 chars
+    # We have 4 color codes + 4 resets = ~40 chars of ANSI codes
+    ansi_code_length = len(CYAN) + len(RESET) + len(GREEN) + len(RESET) + len(YELLOW) + len(RESET)
+    return len(text) + ansi_code_length
 
   def run(self, start_page_index=1, full_scan=False):
     platform = self.client.get_platform_name()[0]
