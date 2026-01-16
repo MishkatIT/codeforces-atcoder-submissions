@@ -169,6 +169,94 @@ $ harwest codeforces --setup # example
 ```
 
 
+## GitHub Actions Automation (Fork-Friendly Setup)
+
+Harwest now supports fully automated execution via GitHub Actions! This allows you to automatically harvest your submissions without any manual intervention.
+
+### Features
+- **🔄 Automatic Daily Runs**: Harvests submissions every day by default
+- **📅 Smart Scheduling**: Automatically switches to monthly runs if no activity for 30+ days
+- **🎯 Manual Triggers**: Run harvesting on-demand anytime
+- **🤖 Zero Interaction**: No prompts or interactive inputs required
+- **🍴 Fork-Ready**: Easy setup for forked repositories
+
+### Setup Instructions
+
+1. **Fork this repository** to your GitHub account
+
+2. **Configure usernames** by editing `config/users.json`:
+   ```json
+   {
+     "codeforces": ["your_codeforces_handle"],
+     "atcoder": ["your_atcoder_handle"]
+   }
+   ```
+   - You can add multiple usernames for each platform
+   - Leave arrays empty for platforms you don't use
+
+3. **Configure Git author info** (Optional - uses GitHub Actions defaults if not set):
+   - Go to your repository **Settings** → **Variables** → **Actions**
+   - Add these repository variables:
+     - `GIT_AUTHOR_NAME`: Your full name for git commits
+     - `GIT_AUTHOR_EMAIL`: Your email (should match your GitHub account for contribution graph)
+     - `SUBMISSIONS_DIR`: Directory for submissions (optional, defaults to `./submissions`)
+
+4. **Enable GitHub Actions**:
+   - Go to the **Actions** tab in your repository
+   - Click "I understand my workflows, go ahead and enable them"
+
+5. **Trigger the first run** (Optional):
+   - Go to **Actions** → **Harwest Submissions** workflow
+   - Click "Run workflow"
+   - Choose platform (all/codeforces/atcoder) and whether to do a full scan
+   - Click "Run workflow"
+
+### How It Works
+
+- **Daily Mode** (default): Runs every day at midnight UTC
+- **Monthly Mode** (auto-switch): If the repository has no new commits for 30+ days, automatically switches to run only on the 1st of each month
+- **Activity Detection**: When new commits appear, automatically reverts to daily mode
+- **Schedule Logging**: Each run logs whether it's in daily or monthly mode
+
+### Manual Workflow Triggers
+
+You can manually trigger the workflow anytime:
+1. Go to **Actions** tab
+2. Select **Harwest Submissions** workflow
+3. Click **Run workflow** button
+4. Select options:
+   - **Platform**: `all`, `codeforces`, or `atcoder`
+   - **Full scan**: Check to re-scan all submissions
+5. Click **Run workflow**
+
+### Configuration Files
+
+- `config/users.json`: Platform usernames (required for automation)
+- `config/README.md`: Documentation for the config file
+- `.github/workflows/harwest.yml`: GitHub Actions workflow definition
+
+### Environment Variables Reference
+
+Set these in **Settings** → **Variables** → **Actions** (all optional):
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `GIT_AUTHOR_NAME` | Name for git commits | `GitHub Actions` |
+| `GIT_AUTHOR_EMAIL` | Email for git commits | `actions@github.com` |
+| `SUBMISSIONS_DIR` | Submissions directory path | `./submissions` |
+
+### Troubleshooting
+
+**No submissions appearing?**
+- Check that usernames in `config/users.json` are correct
+- Verify the workflow ran successfully in the Actions tab
+- Check workflow logs for any error messages
+
+**Contributions not showing in graph?**
+- Ensure `GIT_AUTHOR_EMAIL` matches your GitHub account email
+- The email must be verified in your GitHub account settings
+
+
 ## License
 
 MIT License

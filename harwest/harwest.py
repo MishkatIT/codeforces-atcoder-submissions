@@ -80,13 +80,42 @@ def process_platform(args, platform, workflow):
   if not configs:
     configs = init()
     full_scan = True
-  if args.setup or platform.lower() not in configs:
-    handle = input("> So what's your prestigious " + platform + " Handle Name? ")
-    configs[platform.lower()] = handle
-    config.write_setup_data(configs)
+  
+  # Try to load username(s) from config file first
+  platform_users = config.get_platform_users(platform)
+  
+  # If setup flag is set or no users in config, check if username in configs (old behavior)
+  if args.setup or (not platform_users and platform.lower() not in configs):
+    # Check if we can get from config file
+    if not platform_users:
+      # Fall back to interactive input only if not in automation mode
+      # Check if we're in a non-interactive environment
+      if not os.isatty(0):  # stdin is not a terminal (automation mode)
+        print(f"\U000026A0 WARNING: No username configured for {platform} in config/users.json")
+        print(f"Please add your {platform} username to config/users.json to use this platform.")
+        return
+      handle = input("> So what's your prestigious " + platform + " Handle Name? ")
+      configs[platform.lower()] = handle
+      config.write_setup_data(configs)
+      full_scan = True
+    else:
+      # Use first username from config file
+      configs[platform.lower()] = platform_users[0]
+      full_scan = True
+  elif platform_users and platform.lower() not in configs:
+    # Use username from config file
+    configs[platform.lower()] = platform_users[0]
     full_scan = True
+  
   if not args.setup:
     full_scan = full_scan or (True if args.full_scan else False)
+    
+    # Check if we have a valid username
+    if platform.lower() not in configs or not configs[platform.lower()]:
+      print(f"\U000026A0 WARNING: No username configured for {platform}")
+      print(f"Please add your {platform} username to config/users.json or run 'harwest {platform.lower()} --setup'")
+      return
+    
     workflow(configs).run(start_page_index=args.start_page, full_scan=full_scan)
 
 

@@ -1,0 +1,194 @@
+name: Harwest Submissions
+
+on:
+  # Daily schedule by default
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform to harvest (codeforces, atcoder, or all)'
+        required: false
+        default: 'all'
+      full_scan:
+        description: 'Perform full scan'
+        required: false
+        type: boolean
+        default: false
+
+env:
+  PYTHON_VERSION: '3.9'
+
+jobs:
+  check-activity:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.activity.outputs.should_run }}
+      days_since_commit: ${{ steps.activity.outputs.days_since_commit }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history to check activity
+      
+      - name: Check repository activity
+        id: activity
+        run: |
+          # Get the date of the last commit (excluding workflow commits)
+          LAST_COMMIT_DATE=$(git log -1 --format=%ct --author-date-order --all --not --grep="^Harwest Submissions" --not --grep="^GitHub Actions")
+          CURRENT_DATE=$(date +%s)
+          
+          # Calculate days since last commit
+          DAYS_DIFF=$(( (CURRENT_DATE - LAST_COMMIT_DATE) / 86400 ))
+          
+          echo "days_since_commit=$DAYS_DIFF" >> $GITHUB_OUTPUT
+          echo "📅 Days since last commit: $DAYS_DIFF"
+          
+          # If this is a scheduled run (not manual)
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            # If more than 30 days, only run on 1st of the month
+            if [ $DAYS_DIFF -gt 30 ]; then
+              CURRENT_DAY=$(date +%d)
+              if [ "$CURRENT_DAY" = "01" ]; then
+                echo "should_run=true" >> $GITHUB_OUTPUT
+                echo "🗓️ Running monthly check (1st of month) - Repository inactive for $DAYS_DIFF days"
+              else
+                echo "should_run=false" >> $GITHUB_OUTPUT
+                echo "⏭️ Skipping - Repository inactive for $DAYS_DIFF days, will run on 1st of month"
+              fi
+            else
+              echo "should_run=true" >> $GITHUB_OUTPUT
+              echo "✅ Running daily check - Repository active (last commit $DAYS_DIFF days ago)"
+            fi
+          else
+            # Manual trigger always runs
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "▶️ Manual trigger - Running regardless of activity"
+          fi
+
+  harvest:
+    needs: check-activity
+    if: needs.check-activity.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Configure Git
+        run: |
+          git config --global user.name "${{ vars.GIT_AUTHOR_NAME || 'GitHub Actions' }}"
+          git config --global user.email "${{ vars.GIT_AUTHOR_EMAIL || 'actions@github.com' }}"
+      
+      - name: Check configuration
+        id: check_config
+        run: |
+          if [ ! -f config/users.json ]; then
+            echo "❌ Error: config/users.json not found"
+            echo "Please create config/users.json with your usernames"
+            exit 1
+          fi
+          
+          # Check if any usernames are configured
+          CODEFORCES_COUNT=$(python3 -c "import json; data=json.load(open('config/users.json')); print(len(data.get('codeforces', [])))")
+          ATCODER_COUNT=$(python3 -c "import json; data=json.load(open('config/users.json')); print(len(data.get('atcoder', [])))")
+          
+          echo "📊 Configuration:"
+          echo "   Codeforces users: $CODEFORCES_COUNT"
+          echo "   AtCoder users: $ATCODER_COUNT"
+          
+          if [ "$CODEFORCES_COUNT" -eq 0 ] && [ "$ATCODER_COUNT" -eq 0 ]; then
+            echo "⚠️ Warning: No usernames configured in config/users.json"
+            echo "has_users=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_users=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Initialize Harwest (if needed)
+        if: steps.check_config.outputs.has_users == 'true'
+        run: |
+          # Create initial setup if not exists
+          if [ ! -f harwest/lib/resources/setup.json ]; then
+            echo "📝 Creating initial setup configuration"
+            mkdir -p harwest/lib/resources
+            
+            # Use environment variables or defaults
+            AUTHOR_NAME="${{ vars.GIT_AUTHOR_NAME || 'GitHub Actions' }}"
+            AUTHOR_EMAIL="${{ vars.GIT_AUTHOR_EMAIL || 'actions@github.com' }}"
+            REPO_DIR="${{ vars.SUBMISSIONS_DIR || './submissions' }}"
+            REMOTE_URL="${{ github.server_url }}/${{ github.repository }}.git"
+            
+            cat > harwest/lib/resources/setup.json << EOF
+          {
+            "directory": "$REPO_DIR",
+            "email": "$AUTHOR_EMAIL",
+            "name": "$AUTHOR_NAME",
+            "remote": "$REMOTE_URL"
+          }
+          EOF
+            
+            echo "✅ Setup configuration created"
+          fi
+      
+      - name: Harvest Codeforces submissions
+        if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'codeforces' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
+        run: |
+          FULL_SCAN_FLAG=""
+          if [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            FULL_SCAN_FLAG="--full-scan"
+          fi
+          
+          echo "⛏️ Harvesting Codeforces submissions..."
+          python3 -m harwest codeforces $FULL_SCAN_FLAG || echo "⚠️ Codeforces harvest completed with warnings"
+      
+      - name: Harvest AtCoder submissions
+        if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'atcoder' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
+        run: |
+          FULL_SCAN_FLAG=""
+          if [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            FULL_SCAN_FLAG="--full-scan"
+          fi
+          
+          echo "⛏️ Harvesting AtCoder submissions..."
+          python3 -m harwest atcoder $FULL_SCAN_FLAG || echo "⚠️ AtCoder harvest completed with warnings"
+      
+      - name: Push changes
+        if: steps.check_config.outputs.has_users == 'true'
+        run: |
+          # Check if there are changes to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "📤 Pushing changes to repository..."
+            git add .
+            git commit -m "Update submissions - $(date +'%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
+            git push || echo "Nothing to push"
+            echo "✅ Changes pushed successfully"
+          else
+            echo "ℹ️ No new submissions found"
+          fi
+      
+      - name: Log schedule status
+        if: always()
+        run: |
+          DAYS=${{ needs.check-activity.outputs.days_since_commit }}
+          if [ "$DAYS" -gt 30 ]; then
+            echo "📅 Schedule Status: MONTHLY (inactive for $DAYS days)"
+            echo "Next run: 1st of next month"
+          else
+            echo "📅 Schedule Status: DAILY (last activity $DAYS days ago)"
+            echo "Next run: Tomorrow at midnight UTC"
+          fi
