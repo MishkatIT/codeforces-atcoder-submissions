@@ -7,14 +7,14 @@ from harwest.lib.utils import config
 from harwest.lib.codeforces.workflow import CodeforcesWorkflow
 from harwest.lib.atcoder.workflow import AtcoderWorkflow
 
-# Available platforms configuration
-AVAILABLE_PLATFORMS = [
-  ("Codeforces", codeforces),
-  ("AtCoder", atcoder)
-]
-
 
 def build_argument_parser():
+  # Available platforms configuration
+  AVAILABLE_PLATFORMS = [
+    ("Codeforces", codeforces),
+    ("AtCoder", atcoder)
+  ]
+  
   parser = argparse.ArgumentParser(
     description='Creates a repository of all the submissions from a given platform')
   parser.add_argument('-i', '--init', default=False, action='store_true',
@@ -198,6 +198,6 @@ def main():
     YELLOW = '\033[93m'
     RESET = '\033[0m'
     # Generate platform list dynamically
-    platform_names = ', '.join([p[0].lower() for p in AVAILABLE_PLATFORMS])
+    platform_names = 'codeforces, atcoder'
     print(f"{YELLOW}💡 Please specify the platform to harvest, example: `harwest codeforces`{RESET}")
     print(f"{YELLOW}   Available platforms: {platform_names}{RESET}")

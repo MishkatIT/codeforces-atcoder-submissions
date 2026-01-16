@@ -6,6 +6,7 @@
 !harwest
 !harwest/**
 !README.md
+!DEMO_README.md
 !FORK_SETUP_GUIDE.md
 !requirements.txt
 !setup.py
