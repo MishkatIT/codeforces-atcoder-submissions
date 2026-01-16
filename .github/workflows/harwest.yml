@@ -37,7 +37,7 @@ jobs:
         id: activity
         run: |
           # Get the date of the last commit (excluding workflow commits)
-          LAST_COMMIT_DATE=$(git log -1 --format=%ct --author-date-order --all --not --grep="^Harwest Submissions" --not --grep="^GitHub Actions")
+          LAST_COMMIT_DATE=$(git log -1 --format=%ct --author-date-order --all --invert-grep --grep="^Harwest Submissions\|^GitHub Actions" || git log -1 --format=%ct)
           CURRENT_DATE=$(date +%s)
           
           # Calculate days since last commit
@@ -174,9 +174,17 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             echo "📤 Pushing changes to repository..."
             git add .
-            git commit -m "Update submissions - $(date +'%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
-            git push || echo "Nothing to push"
-            echo "✅ Changes pushed successfully"
+            if git commit -m "Update submissions - $(date +'%Y-%m-%d %H:%M:%S UTC')"; then
+              if git push; then
+                echo "✅ Changes pushed successfully"
+              else
+                echo "⚠️ Warning: Failed to push changes"
+                exit 1
+              fi
+            else
+              echo "⚠️ Warning: Failed to commit changes"
+              exit 1
+            fi
           else
             echo "ℹ️ No new submissions found"
           fi
