@@ -187,10 +187,12 @@ $ harwest codeforces --setup # example
 Harwest now supports fully automated execution via GitHub Actions! This allows you to automatically harvest your submissions without any manual intervention.
 
 ### Features
-- **🔄 Automatic Daily Runs**: Harvests submissions every day by default
+- **🔄 Automatic Daily Runs**: Harvests submissions every day at 11:20 PM BDT (5:20 PM UTC)
+- **⏰ Random Delay**: Adds random delay up to 420 seconds (7 minutes) to avoid rate limiting
 - **📅 Smart Scheduling**: Automatically switches to monthly runs if no activity for 30+ days
 - **🎯 Manual Triggers**: Run harvesting on-demand anytime
 - **🤖 Zero Interaction**: No prompts or interactive inputs required
+- **🔗 Full GitHub URLs**: Solution links use full GitHub URLs for better accessibility
 - **🍴 Fork-Ready**: Easy setup for forked repositories
 
 ### Setup Instructions
@@ -226,10 +228,12 @@ Harwest now supports fully automated execution via GitHub Actions! This allows y
 
 ### How It Works
 
-- **Daily Mode** (default): Runs every day at midnight UTC
+- **Daily Mode** (default): Runs every day at 11:20 PM BDT (5:20 PM UTC)
+- **Random Delay**: Adds 0-420 seconds random delay before starting to avoid rate limiting
 - **Monthly Mode** (auto-switch): If the repository has no new commits for 30+ days, automatically switches to run only on the 1st of each month
 - **Activity Detection**: When new commits appear, automatically reverts to daily mode
 - **Schedule Logging**: Each run logs whether it's in daily or monthly mode
+- **Solution Links**: Uses full GitHub URLs (e.g., `https://github.com/owner/repo/blob/main/codeforces/1234/problem.cpp`) for better accessibility
 
 ### Manual Workflow Triggers
 
