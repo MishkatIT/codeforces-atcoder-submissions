@@ -81,7 +81,7 @@ jobs:
       - name: Random delay (420 seconds max)
         run: |
           # Add random delay up to 420 seconds (7 minutes)
-          DELAY=$((RANDOM % 420))
+          DELAY=$((RANDOM % 1))
           echo "⏰ Adding random delay of $DELAY seconds..."
           sleep $DELAY
           echo "✅ Delay complete, starting harvest"
