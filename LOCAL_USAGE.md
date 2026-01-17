@@ -14,7 +14,7 @@ This guide explains how to use Harwest locally on your machine (not via GitHub A
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/codeforces-atcoder-submissions.git
-cd harwest-tool
+cd codeforces-atcoder-submissions
 ```
 
 ### 2. Install Dependencies
@@ -100,15 +100,10 @@ python -m harwest codeforces --auto --full-scan
 
 ## 📊 Generate Markdown Files
 
-After harvesting, generate the markdown files:
-
-```bash
-python generate_markdown.py
-```
-
-This creates:
+Markdown files are automatically generated during the harvest process. The tool creates:
 - `atcoder.md` - AtCoder submissions table
 - `codeforces.md` - Codeforces submissions table
+- `submissions/README.md` - Complete submissions list
 
 ## 🔧 Advanced Usage
 
@@ -136,18 +131,16 @@ Then run:
 python -m harwest codeforces --auto
 ```
 
-### Test Your Setup
+### Verify Your Setup
 
-Run the test suite:
+Verify your configuration:
 
 ```bash
-python test_harwest.py
-```
+# Check that users.json exists and is valid
+cat config/users.json
 
-Expected output:
-```
-Results: 6/6 tests passed
-🎉 All tests passed!
+# Test a small harvest
+python -m harwest codeforces --start-page 1
 ```
 
 ## 📝 Workflow Examples
@@ -155,12 +148,9 @@ Results: 6/6 tests passed
 ### Daily Update Workflow
 
 ```bash
-# Harvest new submissions
+# Harvest new submissions (markdown files generated automatically)
 python -m harwest codeforces
 python -m harwest atcoder
-
-# Generate markdown
-python generate_markdown.py
 
 # Commit and push
 git add .
@@ -175,12 +165,9 @@ git push
 rm submissions/submissions.json
 echo "{}" > submissions/submissions.json
 
-# Full scan both platforms
+# Full scan both platforms (markdown files generated automatically)
 python -m harwest codeforces --full-scan
 python -m harwest atcoder --full-scan
-
-# Generate markdown
-python generate_markdown.py
 
 # Commit
 git add .
@@ -199,7 +186,7 @@ crontab -e
 Add daily job at 11:30 PM:
 
 ```cron
-30 23 * * * cd /path/to/codeforces-atcoder-submissions && python -m harwest codeforces && python -m harwest atcoder && python generate_markdown.py && git add . && git commit -m "Daily update" && git push
+30 23 * * * cd /path/to/codeforces-atcoder-submissions && python -m harwest codeforces && python -m harwest atcoder && git add . && git commit -m "Daily update" && git push
 ```
 
 ### Task Scheduler Setup (Windows)
@@ -211,7 +198,6 @@ Create a batch file `update_harwest.bat`:
 cd /d D:\codeforces-atcoder-submissions
 python -m harwest codeforces --auto
 python -m harwest atcoder --auto
-python generate_markdown.py
 git add .
 git commit -m "Daily update"
 git push
@@ -292,7 +278,6 @@ git remote set-url origin https://github.com/YOUR_USERNAME/codeforces-atcoder-su
 | Script | Description |
 |--------|-------------|
 | `python fresh_start.py` | Interactive fresh start/fork setup |
-| `python test_harwest.py` | Run test suite (if needed) |
 
 ## 💡 Tips
 
@@ -323,8 +308,8 @@ git remote set-url origin https://github.com/YOUR_USERNAME/codeforces-atcoder-su
 
 ## 🔗 Related Files
 
-- [`FRESH_START_GUIDE.md`](FRESH_START_GUIDE.md) - Fresh start & fork setup guide
 - [`README.md`](README.md) - Project overview
+- [`USER_GUIDE.md`](USER_GUIDE.md) - Complete user guide
 - [`config/users.json`](config/users.json) - Username configuration
 - [`.github/workflows/harwest.yml`](.github/workflows/harwest.yml) - GitHub Actions workflow
 
@@ -332,7 +317,7 @@ git remote set-url origin https://github.com/YOUR_USERNAME/codeforces-atcoder-su
 
 - Check [Issues](https://github.com/nileshsah/harwest-tool/issues)
 - Read the [Original Documentation](https://github.com/nileshsah/harwest-tool)
-- Run tests: `python test_harwest.py`
+- Review the [User Guide](USER_GUIDE.md) for detailed instructions
 
 ---
 

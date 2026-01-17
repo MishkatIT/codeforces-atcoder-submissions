@@ -91,13 +91,6 @@ def analyze_repository(repo_root):
             if size > 1000:  # More than 1KB likely has content
                 items_found.append((f'{platform}.md', size, 'bytes'))
     
-    # Check README
-    readme = submissions_dir / 'README.md'
-    if readme.exists():
-        size = readme.stat().st_size
-        if size > 1000:
-            items_found.append(('submissions/README.md', size, 'bytes'))
-    
     if not items_found:
         print_info("Repository is already clean - no submission data found")
         return False
@@ -194,31 +187,6 @@ _Not configured yet_
 """
         md_file.write_text(content, encoding='utf-8')
         print_success(f"Reset {platform}.md")
-    
-    # Reset submissions README
-    submissions_dir = repo_root / 'submissions'
-    readme = submissions_dir / 'README.md'
-    readme_content = """# Submissions
-
-> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
-
-## Profile
-
-
-
-## Submissions
-
-| # | Problem | Solution | Tags | Submitted |
-|---| ------- | -------- | ---- | --------- |
-
----
-
-**Total Solved Problems:** 0
-
-*Last Updated: Never*
-"""
-    readme.write_text(readme_content, encoding='utf-8')
-    print_success("Reset submissions/README.md")
 
 
 def setup_config(repo_root):
@@ -309,6 +277,65 @@ def setup_config(repo_root):
     return users_config, setup_config
 
 
+def git_commit_and_push(repo_root):
+    """Commit and push changes to remote repository."""
+    import subprocess
+    
+    print_header("📤 PUSHING CHANGES TO REMOTE")
+    
+    try:
+        # Check if there are changes
+        result = subprocess.run(['git', 'status', '--porcelain'], 
+                              cwd=repo_root, capture_output=True, text=True)
+        
+        if not result.stdout.strip():
+            print_info("No changes to commit")
+            return True
+        
+        print_info("Changes detected, committing...")
+        
+        # Add all changes
+        subprocess.run(['git', 'add', '.'], cwd=repo_root, check=True)
+        print_success("Staged all changes")
+        
+        # Commit changes
+        commit_result = subprocess.run(
+            ['git', 'commit', '-m', 'Configure fork for personal use (via fresh_start.py)'],
+            cwd=repo_root, capture_output=True, text=True
+        )
+        
+        if commit_result.returncode == 0:
+            print_success("Changes committed")
+        else:
+            print_warning("Commit failed or no changes to commit")
+            return False
+        
+        # Push to remote
+        print_info("Pushing to remote repository...")
+        push_result = subprocess.run(
+            ['git', 'push'], 
+            cwd=repo_root, capture_output=True, text=True
+        )
+        
+        if push_result.returncode == 0:
+            print_success("Successfully pushed to remote!")
+            print_success("Changes are now reflected on GitHub")
+            return True
+        else:
+            print_error("Failed to push changes")
+            print_error(f"Error: {push_result.stderr}")
+            print_warning("You may need to push manually:")
+            print(f"  {CYAN}git push{RESET}")
+            return False
+            
+    except subprocess.CalledProcessError as e:
+        print_error(f"Git command failed: {e}")
+        return False
+    except Exception as e:
+        print_error(f"Failed to push changes: {e}")
+        return False
+
+
 def main():
     """Main reset function."""
     print(f"""
@@ -353,9 +380,45 @@ def main():
             print_info("Skipping configuration - you can configure later using:")
             print(f"  {CYAN}python fresh_start.py{RESET}")
         
+        # Ask if user wants to auto-push
+        print()
+        push_response = input(f"{BLUE}Commit and push changes to remote? (yes/no): {RESET}").strip().lower()
+        
+        pushed = False
+        if push_response in ['yes', 'y']:
+            pushed = git_commit_and_push(repo_root)
+        
         # Final summary
         print_header("✨ SETUP COMPLETE!")
-        print(f"""
+        
+        if pushed:
+            print(f"""
+{GREEN}Your repository is ready to harvest submissions!{RESET}
+
+{BOLD}✅ Changes have been pushed to GitHub!{RESET}
+
+{BOLD}Next Steps:{RESET}
+
+1. {BOLD}Enable GitHub Actions{RESET} (if not already enabled):
+   • Go to your repository on GitHub
+   • Click the "Actions" tab
+   • Click "I understand my workflows, go ahead and enable them"
+
+2. {BOLD}Run your first harvest{RESET}:
+   • Go to Actions tab
+   • Click "Harwest Submissions"
+   • Click "Run workflow"
+   • Check "Full scan" option for complete history
+   • Click "Run workflow"
+
+3. {BOLD}Or run locally{RESET}:
+   {CYAN}python -m harwest codeforces
+   python -m harwest atcoder{RESET}
+
+{GREEN}🎉 All set! Your submissions will be harvested automatically every day!{RESET}
+""")
+        else:
+            print(f"""
 {GREEN}Your repository is ready to harvest submissions!{RESET}
 
 {BOLD}Next Steps:{RESET}

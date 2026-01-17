@@ -314,7 +314,7 @@ Then create a scheduled task in Windows Task Scheduler to run this file daily.
 After first harvest, your repository will have this structure:
 
 ```
-📦 harwest-tool/
+📦 codeforces-atcoder-submissions/
 ├── 📄 README.md                   # Repository overview
 ├── 📄 USER_GUIDE.md               # This file
 ├── 📄 codeforces.md               # Codeforces submissions table
@@ -391,7 +391,7 @@ After first harvest, your repository will have this structure:
 
 **"No module named 'harwest'":**
 ```bash
-cd harwest-tool
+cd codeforces-atcoder-submissions
 pip install -r requirements.txt
 ```
 

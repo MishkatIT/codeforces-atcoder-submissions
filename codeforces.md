@@ -1,38 +1,32 @@
-# <img src="https://cdn.iconscout.com/icon/free/png-16/codeforces-3628695-3029920.png" width="20"/> Codeforces Submissions
+# Codeforces Submissions
 
-<div align="center">
+> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
 
-[![Codeforces Profile](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT)
+## Profile
 
-**Username:** [MishkatIT](https://codeforces.com/profile/MishkatIT)
+_Not configured yet_
 
-### 📊 Total Problems Solved: **0**
-
-</div>
-
----
-
-## 📝 Recent Submissions
+## Submissions
 
 <table>
 <thead>
 <tr>
 <th align="center">#</th>
-<th align="left">Problem</th>
+<th>Problem</th>
 <th align="center">Solution</th>
-<th align="left">Tags</th>
+<th>Tags</th>
 <th align="center">Submitted</th>
 </tr>
 </thead>
 <tbody>
-<tr><td colspan="5" align="center"><i>No submissions yet</i></td></tr>
+<tr>
+<td colspan="5" align="center"><i>No submissions yet</i></td>
+</tr>
 </tbody>
 </table>
 
 ---
 
-<div align="center">
+**Total Solved Problems:** 0
 
-*Last Updated: January 18, 2026 at 00:07 BDT (UTC+6)*
-
-</div>
+*Last Updated: Never*
