@@ -21,7 +21,7 @@ class AtcoderClient:
         req = self.session.get(url, verify=False)
         if req.status_code != 200:
             raise AssertionError("Unable to fetch response from: " + url +
-                                 " response code: " + req.status_code)
+                                 " response code: " + str(req.status_code))
         return req
 
 

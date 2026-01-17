@@ -117,6 +117,8 @@ class AbstractWorkflow(ABC):
     CYAN = '\033[96m'
     GREEN = '\033[92m'
     MAGENTA = '\033[95m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
     BOLD = '\033[1m'
     RESET = '\033[0m'
     
@@ -131,7 +133,12 @@ class AbstractWorkflow(ABC):
     page_index = start_page_index
     try:
       while True:
-        submissions = self.client.get_user_submissions(page_index)
+        try:
+          submissions = self.client.get_user_submissions(page_index)
+        except Exception as e:
+          print(f"\n{YELLOW}⚠️  Warning: Failed to fetch submissions for page {page_index}: {str(e)}{RESET}")
+          # Stop fetching and proceed to push whatever was collected
+          break
         response = []
         last_width = 0
         for index, submission in enumerate(submissions):
@@ -141,10 +148,19 @@ class AbstractWorkflow(ABC):
         if not len(response) or (not any(response) and not full_scan):
           break
         page_index += 1
+    except KeyboardInterrupt:
+      print(f"\n{YELLOW}⚠️  Harvest interrupted by user{RESET}")
+    except Exception as e:
+      print(f"\n{RED}❌  Error during harvest: {str(e)}{RESET}")
+      raise
     finally:
       print()
 
-    self.repository.push()
-    print(f"\n{GREEN}{'═' * 70}{RESET}")
-    print(f"{GREEN}{BOLD}✅  SUCCESS!{RESET} {GREEN}Repository updated successfully!{RESET}")
-    print(f"{GREEN}{'═' * 70}{RESET}\n")
+    try:
+      self.repository.push()
+      print(f"\n{GREEN}{'═' * 70}{RESET}")
+      print(f"{GREEN}{BOLD}✅  SUCCESS!{RESET} {GREEN}Repository updated successfully!{RESET}")
+      print(f"{GREEN}{'═' * 70}{RESET}\n")
+    except Exception as e:
+      print(f"\n{YELLOW}⚠️  Warning: Failed to push to repository: {str(e)}{RESET}")
+      print(f"{YELLOW}    Changes are saved locally but not pushed{RESET}\n")
