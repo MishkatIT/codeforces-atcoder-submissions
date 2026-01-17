@@ -53,7 +53,7 @@ class CodeforcesClient:
         )
         response = self.session.get(base_url, verify=False).json()
         if not response['status'] == "OK":
-            raise ValueError("Error while fetching submissions: " + response)
+            raise ValueError("Error while fetching submissions: " + str(response))
 
         submissions = []
         for row in response['result']:
