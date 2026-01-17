@@ -47,7 +47,8 @@ class CodeforcesClient:
                 if submission_code is None:
                     return None
             return submission_code.text
-        except Exception:
+        except Exception as e:
+            # Silently return None on any error - will use submission link
             return None
 
     def get_contest_tags(self, problem_url):

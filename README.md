@@ -1,9 +1,5 @@
 # 📦 Harwest ⛏ - Submission Archive
 
-[![PyPI](https://img.shields.io/pypi/v/harwest.svg)](https://pypi.python.org/pypi/harwest)
-[![Downloads](https://pepy.tech/badge/harwest)](https://pepy.tech/project/harwest)
-[![PyPI](https://img.shields.io/pypi/l/harwest.svg)](https://github.com/nileshsah/harwest-tool/blob/master/LICENSE)
-
 > **🍴 [Fork Setup Guide](FORK_SETUP_GUIDE.md)** - Complete setup instructions in 3 easy steps!
 > 
 > **⚡ Quick Fork Setup:** Run `python setup_fork.py` to configure your fork automatically!
@@ -13,8 +9,6 @@
 This repository automatically harvests and archives coding submissions from multiple online judges using GitHub Actions.
 
 ## 📊 Submissions by Platform
-
-> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
 
 ### 🎯 Quick Links
 

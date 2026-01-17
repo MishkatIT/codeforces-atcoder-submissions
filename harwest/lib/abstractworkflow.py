@@ -83,65 +83,70 @@ class AbstractWorkflow(ABC):
         return False
       
       # Get submission code
+      solution_code = None
       try:
         contest_id = submission.get('contest_id')
         solution_code = self.client.get_submission_code(
           contest_id=contest_id, submission_id=submission_id)
-        if solution_code is None:
-          print(f"Warning: Could not fetch code for submission {submission_id}")
-          return False
       except Exception as e:
-        print(f"Error fetching submission code: {e}")
-        return False
+        print(f"Warning: Could not fetch code for submission {submission_id}: {e}")
       
-      # Write solution file
-      try:
-        # Ensure directory exists
-        solution_dir = os.path.dirname(solution_file_path)
-        if not os.path.exists(solution_dir):
-          os.makedirs(solution_dir, exist_ok=True)
-        
-        with open(solution_file_path, 'wb') as fp:
-          fp.write(solution_code.encode("utf-8"))
-      except Exception as e:
-        print(f"Error writing solution file: {e}")
-        return False
-      
-      try:
-        submission['path'] = self.__to_git_path(solution_file_path)
-      except Exception as e:
-        print(f"Warning: Could not convert to git path: {e}")
-        submission['path'] = solution_file_path
+      # If code fetch failed, store submission with link only (no file)
+      if solution_code is None:
+        print(f"Info: Using submission link for {submission_id}")
+        submission['path'] = None  # Mark as no file available
+        # Submission will be added with link only - no file to commit
+      else:
+        # Write solution file
+        try:
+          # Ensure directory exists
+          solution_dir = os.path.dirname(solution_file_path)
+          if not os.path.exists(solution_dir):
+            os.makedirs(solution_dir, exist_ok=True)
+          
+          with open(solution_file_path, 'wb') as fp:
+            fp.write(solution_code.encode("utf-8"))
+          
+          try:
+            submission['path'] = self.__to_git_path(solution_file_path)
+          except Exception as e:
+            print(f"Warning: Could not convert to git path: {e}")
+            submission['path'] = solution_file_path
+          
+          # Add to git
+          try:
+            self.repository.add(solution_file_path)
+          except Exception as e:
+            print(f"Warning: Could not add file to git: {e}")
+        except Exception as e:
+          print(f"Error writing solution file: {e}")
+          # Even if file write fails, keep submission with link
+          submission['path'] = None
 
       # Add to submissions
       try:
-        self.submissions.add(submission)
+        self.submissions.add(submission, skip_markdown=True)  # Skip markdown for now
       except Exception as e:
         print(f"Error adding submission to database: {e}")
         return False
-      
-      # Add to git
-      try:
-        self.repository.add(solution_file_path)
-      except Exception as e:
-        print(f"Warning: Could not add file to git: {e}")
 
-      # Commit
-      try:
-        commit_message = "Add solution for problem `{problem_index} - {problem_name}`\n".format(
-          problem_name=submission.get('problem_name', 'Unknown'),
-          problem_index=submission.get('problem_index', '?')
-        )
-        commit_message += "Link: {problem_url}\n".format(problem_url=problem_url)
-        commit_message += "Tags: {tags}\n".format(
-          tags=', '.join(submission.get('tags', [])))
-        commit_message += "Ref: {sub_url}".format(
-          sub_url=submission.get('submission_url', ''))
-        
-        timestamp = submission.get('timestamp', '')
-        self.repository.commit(commit_message, timestamp)
-      except Exception as e:
-        print(f"Warning: Could not commit to git: {e}")
+      # Commit only if file was created
+      if submission.get('path'):  # Only commit if we have a file
+        try:
+          commit_message = "Add solution for problem `{problem_index} - {problem_name}`\n".format(
+            problem_name=submission.get('problem_name', 'Unknown'),
+            problem_index=submission.get('problem_index', '?')
+          )
+          commit_message += "Link: {problem_url}\n".format(problem_url=problem_url)
+          commit_message += "Tags: {tags}\n".format(
+            tags=', '.join(submission.get('tags', [])))
+          commit_message += "Ref: {sub_url}".format(
+            sub_url=submission.get('submission_url', ''))
+          
+          timestamp = submission.get('timestamp', '')
+          self.repository.commit(commit_message, timestamp)
+        except Exception as e:
+          print(f"Warning: Could not commit to git: {e}")
 
       return True
       
@@ -270,7 +275,7 @@ class AbstractWorkflow(ABC):
     # Generate markdown after harvesting
     print(f"{CYAN}📝 Generating markdown files...{RESET}")
     try:
-      self.submissions._Submissions__generate_platform_markdown()
+      self.submissions.generate_all_markdown()
       print(f"{GREEN}✓ Markdown generated successfully{RESET}")
     except Exception as e:
       print(f"{YELLOW}⚠️  Warning: Failed to generate markdown: {str(e)}{RESET}")

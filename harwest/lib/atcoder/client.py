@@ -43,11 +43,15 @@ class AtcoderClient:
     def get_submission_code(self, contest_id, submission_id):
         submission_url = AtcoderClient.SUBMISSION_URL \
             .format(contest_id=contest_id, submission_id=submission_id)
-        sub_soup = self.__get_content_soup(submission_url)
-        submission_code = sub_soup.find('pre', attrs={"id": "submission-code"})
-        if submission_code is None:
+        try:
+            sub_soup = self.__get_content_soup(submission_url)
+            submission_code = sub_soup.find('pre', attrs={"id": "submission-code"})
+            if submission_code is None:
+                return None
+            return submission_code.text
+        except Exception as e:
+            # Silently return None on any error - will use submission link
             return None
-        return submission_code.text
 
     def get_contest_tags(self, problem_url):
         con_soup = self.__get_content_soup(problem_url)

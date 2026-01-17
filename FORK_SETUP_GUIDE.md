@@ -33,8 +33,15 @@ The fastest way to set up your fork:
    ```
 
 3. **Run Setup Script**
+   
+   **For new fork users:**
    ```bash
    python setup_fork.py
+   ```
+   
+   **For fresh start (existing users):**
+   ```bash
+   python reset_repository.py
    ```
    
    The script will:

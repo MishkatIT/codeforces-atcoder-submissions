@@ -45,8 +45,13 @@ class Submissions:
       print(f"Critical error initializing Submissions: {e}")
       raise
 
-  def add(self, submission):
-    """Add a submission with error handling"""
+  def add(self, submission, skip_markdown=False):
+    """Add a submission with error handling
+    
+    Args:
+      submission: The submission data to add
+      skip_markdown: If True, skip markdown generation (for batch processing)
+    """
     try:
       if not submission:
         print("Warning: Attempted to add None submission")
@@ -59,15 +64,17 @@ class Submissions:
       
       self.store[str(submission_id)] = submission
       
-      try:
-        self.__generate_readme(list(self.store.values()))
-      except Exception as e:
-        print(f"Warning: Failed to generate README: {e}")
-      
-      try:
-        self.__generate_platform_markdown()
-      except Exception as e:
-        print(f"Warning: Failed to generate platform markdown: {e}")
+      # Only generate markdown if not skipped (for batch efficiency)
+      if not skip_markdown:
+        try:
+          self.__generate_readme(list(self.store.values()))
+        except Exception as e:
+          print(f"Warning: Failed to generate README: {e}")
+        
+        try:
+          self.__generate_platform_markdown()
+        except Exception as e:
+          print(f"Warning: Failed to generate platform markdown: {e}")
       
       try:
         config.write_submissions_data(self.submission_json_path, self.store)
@@ -79,6 +86,18 @@ class Submissions:
 
   def contains(self, submission_id):
     return str(submission_id) in self.store
+  
+  def generate_all_markdown(self):
+    """Generate all markdown files (README and platform-specific)"""
+    try:
+      self.__generate_readme(list(self.store.values()))
+    except Exception as e:
+      print(f"Warning: Failed to generate README: {e}")
+    
+    try:
+      self.__generate_platform_markdown()
+    except Exception as e:
+      print(f"Warning: Failed to generate platform markdown: {e}")
 
   def __generate_profile(self):
     profile = ""
@@ -245,6 +264,7 @@ class Submissions:
         
         # Solution link - prefer platform URLs for Codeforces or when file doesn't exist
         solution_link = None
+        submission_url = submission.get('submission_url', '')
         
         # Check if file exists
         file_exists = False
@@ -252,12 +272,9 @@ class Submissions:
           full_path = os.path.join(self.root_directory, 'submissions', path)
           file_exists = os.path.exists(full_path)
         
-        # For Codeforces, always use platform URL since code fetching isn't reliable
-        if platform.lower() == 'codeforces' and contest_id and submission_id:
-          solution_link = f"https://codeforces.com/contest/{contest_id}/submission/{submission_id}"
-        # For AtCoder, use platform URL if file doesn't exist
-        elif platform.lower() == 'atcoder' and not file_exists and contest_id and submission_id:
-          solution_link = f"https://atcoder.jp/contests/{contest_id}/submissions/{submission_id}"
+        # Use platform submission URL if no file exists
+        if not file_exists and submission_url:
+          solution_link = submission_url
         # Use GitHub link if file exists
         elif file_exists and path:
           github_path = path.replace('\\', '/')
