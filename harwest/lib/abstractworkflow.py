@@ -274,24 +274,6 @@ class AbstractWorkflow(ABC):
       print(f"{GREEN}✓ Markdown generated successfully{RESET}")
     except Exception as e:
       print(f"{YELLOW}⚠️  Warning: Failed to generate markdown: {str(e)}{RESET}")
-    
-    # Add markdown files to parent git repository if it exists
-    try:
-      import os
-      from git import Repo
-      root_dir = os.path.dirname(os.path.abspath(self.submissions_directory))
-      markdown_file = os.path.join(root_dir, f"{platform.lower()}.md")
-      
-      if os.path.exists(markdown_file):
-        # Check if parent directory is a git repository
-        parent_git_path = os.path.join(root_dir, '.git')
-        if os.path.exists(parent_git_path):
-          parent_repo = Repo(root_dir)
-          parent_repo.git.add(markdown_file)
-          print(f"{GREEN}✓ Added markdown file to parent repository{RESET}")
-    except Exception as e:
-      # Silently ignore if parent repo doesn't exist or git operations fail
-      pass
 
     try:
       self.repository.push()

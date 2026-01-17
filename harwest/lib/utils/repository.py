@@ -14,7 +14,17 @@ class Repository:
     self.author = config.get_author()
     if not os.path.exists(self.submissions_directory):
       self.init()
-    self.git = Repo(self.submissions_directory).git
+    
+    # Use parent directory as git root (consolidated repository)
+    parent_dir = os.path.dirname(os.path.abspath(self.submissions_directory))
+    if os.path.exists(os.path.join(parent_dir, '.git')):
+      self.git = Repo(parent_dir).git
+      self.git_root = parent_dir
+    else:
+      # Fallback to submissions directory if parent doesn't have git
+      self.git = Repo(self.submissions_directory).git
+      self.git_root = self.submissions_directory
+    
     self.submissions = config.load_submissions_data(self.submission_json_path)
 
   def init(self):
@@ -31,11 +41,20 @@ class Repository:
                  date="{}".format(date), author=self.author)
 
   def add(self, file_path):
-    # Only add files within the submissions directory
-    # Markdown files at root level should be handled by the parent repository
+    # Add submission files
     self.git.add(os.path.abspath(file_path))
     self.git.add(os.path.abspath(self.readme_path))
     self.git.add(os.path.abspath(self.submission_json_path))
+    
+    # Also add platform-specific markdown files at root level (now in same repo)
+    root_directory = os.path.dirname(os.path.abspath(self.submissions_directory))
+    codeforces_md = os.path.join(root_directory, "codeforces.md")
+    atcoder_md = os.path.join(root_directory, "atcoder.md")
+    
+    if os.path.exists(codeforces_md):
+      self.git.add(os.path.abspath(codeforces_md))
+    if os.path.exists(atcoder_md):
+      self.git.add(os.path.abspath(atcoder_md))
 
   def commit(self, commit_message, timestamp):
     self.git.commit(message=commit_message, date=timestamp, author=self.author)
