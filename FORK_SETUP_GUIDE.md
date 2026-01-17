@@ -1,128 +1,105 @@
-# 🚀 Fork Setup Guide - Get Started in 5 Minutes!
+# 🚀 Get Started with Harwest - 5 Minutes Setup!
 
-Welcome to Harwest! This guide will help you set up your forked repository to automatically archive your competitive programming submissions.
-
----
-
-## 📋 Prerequisites
-
-- A GitHub account
-- Your competitive programming username(s):
-  - **Codeforces**: Your handle (e.g., "tourist")
-  - **AtCoder**: Your handle (e.g., "rng_58")
+Harwest automatically archives your competitive programming submissions from Codeforces and AtCoder. This guide will help you set up your own copy.
 
 ---
 
-## ⚡ Quick Setup (Recommended)
+## 🎯 Quick Start
 
 ### Step 1: Fork the Repository
 
 1. Go to: **https://github.com/MishkatIT/harwest-tool**
-2. Click the **"Fork"** button in the top-right corner
-3. Wait for GitHub to create your personal copy
+2. Click **"Fork"** (top-right)
+3. Wait for GitHub to create your copy
 
-### Step 2: Setup Your Fork
-
-You have two options:
-
-#### Option A: Using Web Interface (No Installation Required)
-
-**Configure Usernames:**
-
-1. In your forked repository, navigate to: **`config/users.json`**
-2. Click the **✏️ (pencil)** icon to edit
-3. Replace the content with your usernames:
-
-```json
-{
-  "codeforces": ["YourCodeforcesHandle"],
-  "atcoder": ["YourAtCoderHandle"]
-}
-```
-
-**Example:**
-```json
-{
-  "codeforces": ["tourist"],
-  "atcoder": ["rng_58"]
-}
-```
-
-> **Tips:**
-> - Use your **exact** username (case-sensitive)
-> - Skip a platform? Use empty array: `"atcoder": []`
-> - Track multiple accounts? Add more: `["handle1", "handle2"]`
-
-4. Click **"Commit changes"** (green button)
-5. Click **"Commit changes"** again in the popup
-
-**That's it!** Skip to [Step 3: Enable GitHub Actions](#step-3-enable-github-actions)
-
----
-
-#### Option B: Using Setup Script (Advanced)
-
-**Clone and Run Setup:**
+### Step 2: Clone Your Fork
 
 ```bash
-# Clone your fork
 git clone https://github.com/YOUR_USERNAME/harwest-tool.git
 cd harwest-tool
-
-# Run the reset script
-python reset_repository.py
 ```
 
-The script will:
-- ✅ Analyze existing data
-- ✅ Clear old submissions (if any)
-- ✅ Configure your usernames interactively
-- ✅ Set up git author info
-- ✅ Initialize fresh markdown files
+### Step 3: Run Fresh Start Setup
 
-**Push Changes:**
+```bash
+python fresh_start.py
+```
+
+This interactive script will:
+- ✅ Show you what's currently in the repository
+- ✅ Clear old user's submission data (if any)
+- ✅ Ask for your Codeforces username
+- ✅ Ask for your AtCoder username
+- ✅ Configure git author information
+- ✅ Initialize fresh markdown files
+- ✅ Guide you to next steps
+
+### Step 4: Push Your Configuration
+
 ```bash
 git add .
 git commit -m "Configure fork for personal use"
 git push
 ```
 
----
-
-### Step 3: Enable GitHub Actions
+### Step 5: Enable GitHub Actions
 
 1. Go to your repository on GitHub
-2. Click the **"Actions"** tab
-3. You'll see: *"Workflows aren't being run on this forked repository"*
-4. Click: **"I understand my workflows, go ahead and enable them"**
+2. Click **"Actions"** tab
+3. Click **"I understand my workflows, go ahead and enable them"**
 
-✅ **Done!** Your fork is now set up and will harvest submissions automatically.
+✅ **Done!** Your setup is complete!
+
+---
+
+## 🤔 Don't Have Python? Use Web Interface
+
+If you can't run Python, you can configure manually:
+
+### Configure Usernames Only (Old Data Remains)
+
+1. In your forked repository on GitHub
+2. Navigate to: **`config/users.json`**
+3. Click the **✏️ (pencil)** icon
+4. Replace with your usernames:
+
+```json
+{
+  "codeforces": ["YourHandle"],
+  "atcoder": ["YourHandle"]
+}
+```
+
+5. Click **"Commit changes"**
+
+⚠️ **Note:** This only updates usernames. Old submission data from the previous owner will remain in your repository. To clear it, you'll need to run `python fresh_start.py` or manually delete files in the `submissions/` folder.
 
 ---
 
 ## 🎯 What Happens Next?
 
-### Automatic Harvesting
+### Automatic Daily Harvesting
 
-GitHub Actions will:
-- ✅ Run **daily at 11:20 PM BDT** (5:20 PM UTC)
+Once enabled, GitHub Actions will:
+- ✅ Run every day at 11:20 PM BDT (5:20 PM UTC)
 - ✅ Fetch your latest accepted submissions
-- ✅ Store solutions with proper timestamps
-- ✅ Generate beautiful markdown tables
-- ✅ Update your GitHub contribution graph
+- ✅ Store code files with proper timestamps
+- ✅ Update markdown files with submission tables
+- ✅ Contribute to your GitHub graph (if configured)
 
 ### Manual Trigger
 
-Want to run it now?
+Want to run it immediately?
 
 1. Go to **Actions** tab
-2. Click **"Harwest Submissions"** (left sidebar)
-3. Click **"Run workflow"** (top-right)
-4. Select options and click **"Run workflow"**
+2. Click **"Harwest Submissions"**
+3. Click **"Run workflow"** 
+4. Check **"Full scan"** for complete history (first time)
+5. Click **"Run workflow"**
 
----
+### Your Repository Structure
 
-## 📊 Repository Structure After First Run
+After first run:
 
 ```
 your-fork/
@@ -130,130 +107,138 @@ your-fork/
 ├── atcoder.md                 # All AtCoder submissions
 ├── submissions/
 │   ├── codeforces/
-│   │   ├── 1234/
-│   │   │   ├── 1234A Problem.cpp
-│   │   │   └── 1234B Another.py
-│   │   └── ...
+│   │   └── [contest]/[problem].cpp
 │   └── atcoder/
-│       ├── abc123/
-│       │   └── abc123_a.cpp
-│       └── ...
+│       └── [contest]/[problem].cpp
 └── config/
-    └── users.json             # Your usernames
+    └── users.json             # Your configured usernames
 ```
 
 ---
 
-## 🔧 Optional Configuration
+## 🔧 Advanced Configuration
 
-### Show Contributions in GitHub Graph
+### Show Contributions on Your GitHub Profile
 
-Want submissions to appear as contributions on your profile?
+To make submissions count as GitHub contributions:
 
 1. Go to: **Settings → Secrets and variables → Actions → Variables**
 2. Click **"New repository variable"**
-3. Add variable:
+3. Add:
    - **Name**: `GIT_AUTHOR_EMAIL`
    - **Value**: Your GitHub-verified email
 4. Click **"Add variable"**
 
-> ⚠️ **Important:** Use the same email that's verified in your GitHub settings.
+⚠️ **Important:** Use the exact email verified in your GitHub account.
 
-### Schedule Customization
+### Customize Schedule
 
-The workflow runs daily by default. To change the schedule:
+Edit `.github/workflows/harwest.yml`:
 
-1. Edit `.github/workflows/harwest.yml`
-2. Modify the cron expression:
 ```yaml
 schedule:
   - cron: '20 17 * * *'  # 11:20 PM BDT (5:20 PM UTC)
 ```
 
-Use [crontab.guru](https://crontab.guru/) to create custom schedules.
+Use [crontab.guru](https://crontab.guru/) to create your own schedule.
 
 ---
 
 ## 🆘 Troubleshooting
 
-### ❌ No Submissions Appearing?
+### ❌ No Submissions Appearing
 
-**Check Username:**
-- Verify in `config/users.json`
-- Ensure exact spelling and case
+**Problem:** Workflow runs but no submissions show up
 
-**Check Workflow:**
-- Go to **Actions** tab
-- Look for green ✓ (success) or red ❌ (failure)
-- Click failed run to see error details
+**Solutions:**
+1. Check `config/users.json` has correct usernames (case-sensitive!)
+2. Verify workflow completed successfully (green ✓ in Actions tab)
+3. Make sure you have accepted submissions on the platform
+4. Try running with "Full scan" option checked
 
-**Check Actions Enabled:**
-- Go to **Actions** tab
-- Should show workflow runs
-- If empty, re-enable Actions (Step 3)
+### ❌ Workflow Failing
 
-### ❌ Contributions Not Showing?
+**Problem:** Red ❌ in Actions tab
 
-1. Check `GIT_AUTHOR_EMAIL` matches your GitHub email
-2. Verify email is verified in **GitHub Settings → Emails**
-3. Make commits after email configuration
+**Solutions:**
+1. Click the failed workflow to see error details
+2. Common fixes:
+   - **"No username configured"** → Fix `config/users.json`
+   - **"Rate limiting"** → Wait 10-15 minutes, will retry automatically
+   - **"Permission error"** → Re-enable GitHub Actions
 
-### ❌ Workflow Failing?
+### ❌ Contributions Not Showing
 
-**Common Issues:**
+**Problem:** Submissions not appearing in GitHub graph
 
-- **"No username configured"** → Edit `config/users.json`
-- **"Rate limiting"** → Wait 10-15 minutes, retry automatically tomorrow
-- **"Permission error"** → Re-enable GitHub Actions
+**Solutions:**
+1. Add `GIT_AUTHOR_EMAIL` variable (see Advanced Configuration)
+2. Verify email matches your GitHub account email
+3. Check email is verified in GitHub Settings → Emails
 
-**Debug Steps:**
-1. Click failed workflow in **Actions** tab
-2. Read error message (usually clear)
-3. Fix issue and manually trigger workflow
+### ❌ Old User's Data Still Present
+
+**Problem:** Fork contains previous owner's submissions
+
+**Solutions:**
+1. Run `python fresh_start.py` (recommended)
+2. Or manually delete:
+   - `submissions/codeforces/*`
+   - `submissions/atcoder/*`
+   - Empty `submissions/submissions.json` to `{}`
 
 ---
 
 ## 💡 Pro Tips
 
-1. **First Run**: Use "Full scan" option to get complete history
-2. **Private Repo**: Works fine if you prefer privacy
-3. **Multiple Accounts**: Add multiple usernames in config
-4. **Manual Harvest**: Use "Run workflow" anytime for immediate update
-5. **Submission Links**: If code fetch fails, links to platform submissions are automatically created
+1. **First run?** Use "Full scan" to get your complete history
+2. **Private fork?** Works perfectly, submissions still harvested
+3. **Multiple accounts?** Add them as arrays: `["handle1", "handle2"]`
+4. **Failed code fetch?** Platform submission links are automatically created
+5. **Want fresh start?** Run `python fresh_start.py` anytime
 
 ---
 
-## 🔄 Starting Fresh?
+## 🔄 Starting Over?
 
-Want to clear everything and start over?
+Already set up but want to reconfigure or clear everything?
 
 ```bash
-python reset_repository.py
+python fresh_start.py
 ```
 
-This script:
-- Analyzes your current data
-- Asks confirmation before deletion
-- Clears all submissions and resets files
-- Guides you through re-configuration
+The script will:
+- Show what data currently exists
+- Ask confirmation before deleting anything
+- Let you reconfigure usernames
+- Set up everything fresh
 
 ---
 
-## 🎉 You're All Set!
+## 📚 More Resources
 
-Your Harwest setup is complete. From now on:
+- **[README.md](README.md)** - Project overview and features
+- **[LOCAL_USAGE.md](LOCAL_USAGE.md)** - Run harvester manually on your machine
+- **[Issues](../../issues)** - Report bugs or ask questions
+- **[Actions](../../actions)** - View workflow runs and logs
 
-- 📥 **Solve problems** on Codeforces and AtCoder
-- 🤖 **Harwest runs automatically** daily
-- 📊 **Check your markdown files** for updated submissions
-- 📈 **Watch your contribution graph** grow
+---
 
-### Need More Help?
+## 🎉 Success!
 
-- 📖 Check [README.md](README.md) for overview
-- 💻 See [LOCAL_USAGE.md](LOCAL_USAGE.md) for manual usage
-- 🐛 [Open an issue](../../issues) if you're stuck
-- ⭐ Star the repo if you find it useful!
+Once set up, your workflow is:
+
+1. 💻 **Solve problems** on Codeforces/AtCoder
+2. 🤖 **Harwest runs** automatically every day
+3. 📊 **Check markdown files** for updated submissions
+4. 📈 **Watch GitHub graph** grow with contributions
+
+### Questions?
+
+- Check the troubleshooting section above
+- Review workflow logs in Actions tab
+- Open an issue if you're stuck
+- Star ⭐ the repo if it helps you!
 
 ---
 

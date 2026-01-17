@@ -2,9 +2,9 @@
 > 🚀 **Want your competitive programming submissions automatically archived on GitHub?**  
 > This repository provides a fully automated system that continuously fetches and organizes your Codeforces and AtCoder submissions — transforming your GitHub profile into a **live competitive programming portfolio**.
 
-> **🍴 [Fork Setup Guide](FORK_SETUP_GUIDE.md)** - Complete setup instructions in 3 easy steps!
+> **🍴 [Fork Setup Guide](FORK_SETUP_GUIDE.md)** - Complete setup in 5 minutes!
 > 
-> **⚡ Quick Fork Setup:** Run `python setup_fork.py` to configure your fork automatically!
+> **⚡ Quick Setup:** Run `python fresh_start.py` after forking!
 >
 > **💻 [Local Usage Guide](LOCAL_USAGE.md)** - Run harwest manually on your machine
 

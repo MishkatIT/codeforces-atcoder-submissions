@@ -1,15 +1,21 @@
 #!/usr/bin/env python3
 """
-Repository Reset Script - Reset repository to fresh state.
+Fresh Start Script - Setup your Harwest fork in minutes!
 
-This script can be used by:
-1. New users who forked the repository
-2. Existing users who want to start fresh
+This script works for:
+1. ✨ New users who just forked the repository
+2. 🔄 Existing users who want to start fresh
+3. 🛠️ Anyone who wants to reconfigure their setup
 
-It will:
-- Clear all submission data
-- Reset configuration files
-- Prepare the repository for a clean start
+What it does:
+- Analyzes your current repository
+- Clears old submission data (with confirmation)
+- Configures your usernames interactively
+- Sets up git author information
+- Initializes fresh markdown files
+- Provides clear next steps
+
+Just run: python fresh_start.py
 """
 
 import os
@@ -308,9 +314,9 @@ def main():
     print(f"""
 {CYAN}╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   ║
-║         🔄  HARWEST REPOSITORY RESET  🔄                        ║
+║         ✨  HARWEST FRESH START SETUP  ✨                       ║
 ║                                                                   ║
-║         Clean start for forked or existing repositories         ║
+║         Perfect for fork users and fresh start scenarios        ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝{RESET}
 """)
@@ -348,27 +354,34 @@ def main():
             print(f"  {CYAN}python setup_fork.py{RESET}")
         
         # Final summary
-        print_header("✨ RESET COMPLETE!")
+        print_header("✨ SETUP COMPLETE!")
         print(f"""
-{GREEN}Repository has been reset to a clean state!{RESET}
+{GREEN}Your repository is ready to harvest submissions!{RESET}
 
 {BOLD}Next Steps:{RESET}
 
-1. {BOLD}Configure{RESET} (if skipped):
-   {CYAN}Edit config/users.json with your usernames{RESET}
-
-2. {BOLD}Run harvester{RESET} to fetch your submissions:
-   {CYAN}python -m harwest codeforces{RESET}
-   {CYAN}python -m harwest atcoder{RESET}
-
-3. {BOLD}Commit and push{RESET} your changes:
+1. {BOLD}Commit and push{RESET} your configuration:
    {CYAN}git add .
-   git commit -m "Reset repository and configure for personal use"
+   git commit -m "Configure fork for personal use"
    git push{RESET}
 
-4. {BOLD}Enable GitHub Actions{RESET} for automatic updates
+2. {BOLD}Enable GitHub Actions{RESET}:
+   • Go to your repository on GitHub
+   • Click the "Actions" tab
+   • Click "I understand my workflows, go ahead and enable them"
 
-{GREEN}Happy coding! 🎉{RESET}
+3. {BOLD}Run your first harvest{RESET}:
+   • Go to Actions tab
+   • Click "Harwest Submissions"
+   • Click "Run workflow"
+   • Check "Full scan" option for complete history
+   • Click "Run workflow"
+
+4. {BOLD}Or run locally{RESET}:
+   {CYAN}python -m harwest codeforces
+   python -m harwest atcoder{RESET}
+
+{GREEN}🎉 All set! Your submissions will be harvested automatically every day!{RESET}
 """)
         
     except KeyboardInterrupt:
