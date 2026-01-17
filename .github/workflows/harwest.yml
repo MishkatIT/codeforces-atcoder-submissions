@@ -131,31 +131,18 @@ jobs:
             echo "has_users=true" >> $GITHUB_OUTPUT
           fi
       
-      - name: Initialize Harwest (if needed)
+      - name: Set environment variables
         if: steps.check_config.outputs.has_users == 'true'
         run: |
-          # Create initial setup if not exists
-          if [ ! -f harwest/lib/resources/setup.json ]; then
-            echo "📝 Creating initial setup configuration"
-            mkdir -p harwest/lib/resources
-            
-            # Use environment variables or defaults
-            AUTHOR_NAME="${{ vars.GIT_AUTHOR_NAME || 'GitHub Actions' }}"
-            AUTHOR_EMAIL="${{ vars.GIT_AUTHOR_EMAIL || 'actions@github.com' }}"
-            REPO_DIR="${{ vars.SUBMISSIONS_DIR || './submissions' }}"
-            REMOTE_URL="${{ github.server_url }}/${{ github.repository }}.git"
-            
-            cat > harwest/lib/resources/setup.json << EOF
-          {
-            "directory": "$REPO_DIR",
-            "email": "$AUTHOR_EMAIL",
-            "name": "$AUTHOR_NAME",
-            "remote": "$REMOTE_URL"
-          }
-          EOF
-            
-            echo "✅ Setup configuration created"
-          fi
+          # Set environment variables for automation
+          echo "SUBMISSIONS_DIR=${{ vars.SUBMISSIONS_DIR || './submissions' }}" >> $GITHUB_ENV
+          echo "GIT_AUTHOR_NAME=${{ vars.GIT_AUTHOR_NAME || 'GitHub Actions' }}" >> $GITHUB_ENV
+          echo "GIT_AUTHOR_EMAIL=${{ vars.GIT_AUTHOR_EMAIL || 'actions@github.com' }}" >> $GITHUB_ENV
+          echo "GITHUB_REPOSITORY_URL=${{ github.server_url }}/${{ github.repository }}.git" >> $GITHUB_ENV
+          echo "GITHUB_SERVER_URL=${{ github.server_url }}" >> $GITHUB_ENV
+          echo "GITHUB_REPOSITORY=${{ github.repository }}" >> $GITHUB_ENV
+          echo "GITHUB_REF_NAME=${{ github.ref_name }}" >> $GITHUB_ENV
+          echo "✅ Environment variables configured for automation"
       
       - name: Harvest Codeforces submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'codeforces' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
@@ -167,7 +154,7 @@ jobs:
           fi
           
           echo "⛏️ Harvesting Codeforces submissions (full scan: $([ -n \"$FULL_SCAN_FLAG\" ] && echo 'yes' || echo 'no'))..."
-          python3 -m harwest codeforces $FULL_SCAN_FLAG || echo "⚠️ Codeforces harvest completed with warnings"
+          python3 -m harwest codeforces $FULL_SCAN_FLAG --auto || echo "⚠️ Codeforces harvest completed with warnings"
       
       - name: Harvest AtCoder submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'atcoder' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
@@ -179,7 +166,7 @@ jobs:
           fi
           
           echo "⛏️ Harvesting AtCoder submissions (full scan: $([ -n \"$FULL_SCAN_FLAG\" ] && echo 'yes' || echo 'no'))..."
-          python3 -m harwest atcoder $FULL_SCAN_FLAG || echo "⚠️ AtCoder harvest completed with warnings"
+          python3 -m harwest atcoder $FULL_SCAN_FLAG --auto || echo "⚠️ AtCoder harvest completed with warnings"
       
       - name: Push changes
         if: steps.check_config.outputs.has_users == 'true'

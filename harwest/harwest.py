@@ -15,8 +15,22 @@ def build_argument_parser():
     ("AtCoder", atcoder)
   ]
   
+  # Create parent parser for common automation arguments
+  automation_parser = argparse.ArgumentParser(add_help=False)
+  automation_parser.add_argument('--auto', default=False, action='store_true',
+                                 help="Run in fully automated mode (non-interactive, for CI/CD)")
+  automation_parser.add_argument('--directory', type=str, default=None,
+                                 help="Submissions directory path (for automation)")
+  automation_parser.add_argument('--author-name', type=str, default=None,
+                                 help="Git author name (for automation)")
+  automation_parser.add_argument('--author-email', type=str, default=None,
+                                 help="Git author email (for automation)")
+  automation_parser.add_argument('--remote-url', type=str, default=None,
+                                 help="Git remote repository URL (for automation)")
+  
   parser = argparse.ArgumentParser(
-    description='Creates a repository of all the submissions from a given platform')
+    description='Creates a repository of all the submissions from a given platform',
+    parents=[automation_parser])
   parser.add_argument('-i', '--init', default=False, action='store_true',
                       help="Setup the local repository configuration")
   subparsers = parser.add_subparsers(
@@ -25,7 +39,8 @@ def build_argument_parser():
   for platform in AVAILABLE_PLATFORMS:
     pt_parser = subparsers.add_parser(
       platform[0].lower(),
-      help="Scrape solutions from the " + platform[0] + " platform")
+      help="Scrape solutions from the " + platform[0] + " platform",
+      parents=[automation_parser])
     pt_parser.add_argument('-s', '--setup', default=False, action='store_true',
                            help="Setup the platform configurations")
     pt_parser.add_argument('-p', '--start-page', type=int, default=1,
@@ -35,6 +50,72 @@ def build_argument_parser():
     pt_parser.set_defaults(func=platform[1])
 
   return parser
+
+
+def init_from_args(args=None):
+  """Initialize configuration from command-line arguments and environment variables.
+  Used for automation mode (CI/CD).
+  
+  Args:
+    args: Command-line arguments (optional)
+  
+  Returns:
+    dict: Configuration dictionary
+  """
+  # Get values from args, environment variables, or defaults
+  # Priority: CLI args > environment variables > defaults
+  directory = (
+    getattr(args, 'directory', None) or 
+    os.environ.get('SUBMISSIONS_DIR') or 
+    './submissions'
+  )
+  
+  author_name = (
+    getattr(args, 'author_name', None) or 
+    os.environ.get('GIT_AUTHOR_NAME') or 
+    'GitHub Actions'
+  )
+  
+  author_email = (
+    getattr(args, 'author_email', None) or 
+    os.environ.get('GIT_AUTHOR_EMAIL') or 
+    'actions@github.com'
+  )
+  
+  remote_url = (
+    getattr(args, 'remote_url', None) or 
+    os.environ.get('GITHUB_REPOSITORY_URL') or 
+    os.environ.get('GIT_REMOTE_URL')
+  )
+  
+  # Build repository URL from GITHUB_REPOSITORY if available
+  if not remote_url and os.environ.get('GITHUB_REPOSITORY'):
+    github_server = os.environ.get('GITHUB_SERVER_URL', 'https://github.com')
+    remote_url = f"{github_server}/{os.environ.get('GITHUB_REPOSITORY')}.git"
+  
+  # Ensure directory is absolute path
+  if not os.path.isabs(directory):
+    directory = os.path.abspath(directory)
+  
+  config_dict = {
+    'name': author_name,
+    'email': author_email,
+    'directory': directory
+  }
+  
+  if remote_url:
+    config_dict['remote'] = remote_url
+  
+  # Write configuration
+  config.write_setup_data(config_dict)
+  
+  print(f"✅ Automated configuration created:")
+  print(f"   📁 Directory: {directory}")
+  print(f"   👤 Author: {author_name} <{author_email}>")
+  if remote_url:
+    print(f"   🔗 Remote: {remote_url}")
+  
+  return config_dict
 
 
 def init():
@@ -106,11 +187,25 @@ def process_platform(args, platform, workflow):
   BOLD = '\033[1m'
   RESET = '\033[0m'
   
+  # Check if running in automation mode
+  # auto_mode is True if:
+  # 1. --auto flag is explicitly set, OR
+  # 2. stdin is not a terminal (e.g., running in CI/CD pipeline)
+  auto_mode = getattr(args, 'auto', False) or not os.isatty(0)
+  
   configs = config.load_setup_data()
   full_scan = False
+  
+  # If no configs exist, initialize them
   if not configs:
-    configs = init()
-    full_scan = True
+    if auto_mode:
+      # Automated initialization from environment/args
+      configs = init_from_args(args)
+      full_scan = True
+    else:
+      # Interactive initialization
+      configs = init()
+      full_scan = True
   
   # Try to load username(s) from config file first
   platform_users = config.get_platform_users(platform)
@@ -120,8 +215,7 @@ def process_platform(args, platform, workflow):
     # Check if we can get from config file
     if not platform_users:
       # Fall back to interactive input only if not in automation mode
-      # Check if we're in a non-interactive environment
-      if not os.isatty(0):  # stdin is not a terminal (automation mode)
+      if auto_mode:
         print(f"\n{RED}{'═' * 70}{RESET}")
         print(f"{RED}{BOLD}⚠️  WARNING: No username configured{RESET}")
         print(f"{RED}{'─' * 70}{RESET}")
