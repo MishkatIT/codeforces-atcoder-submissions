@@ -261,7 +261,7 @@ class AbstractWorkflow(ABC):
     Args:
       start_page_index: Page to start from (default: 1)
       full_scan: Scan all submissions regardless of existing data (default: False)
-      check_recent_days: Check submissions from last N days (default: None, auto-set to 30 for scheduled runs)
+      check_recent_days: Minimum days to check from current date (default: 30 for regular runs)
     """
     platform = self.client.get_platform_name()[0]
     
@@ -277,11 +277,11 @@ class AbstractWorkflow(ABC):
     # Auto-set check_recent_days to 30 if not full_scan and not explicitly set
     if not full_scan and check_recent_days is None:
       check_recent_days = 30
-      print(f"\n{CYAN}ℹ️  Auto mode: Checking last {check_recent_days} days for updates{RESET}")
+      print(f"\n{CYAN}ℹ️  Auto mode: Will check at least last {check_recent_days} days{RESET}")
     
-    # Calculate cutoff timestamp if checking recent days
+    # Calculate cutoff timestamp for minimum check period
     cutoff_timestamp = None
-    if check_recent_days:
+    if check_recent_days and not full_scan:
       from datetime import datetime, timedelta
       cutoff_date = datetime.now() - timedelta(days=check_recent_days)
       cutoff_timestamp = int(cutoff_date.timestamp())
@@ -292,14 +292,16 @@ class AbstractWorkflow(ABC):
     print(f"{GREEN}Platform:{RESET} {platform}")
     print(f"{GREEN}Username:{RESET} {self.user_data[platform.lower()]}")
     print(f"{GREEN}Directory:{RESET} {self.submissions_directory}")
-    if check_recent_days:
-      print(f"{GREEN}Mode:{RESET} Last {check_recent_days} days")
-    elif full_scan:
-      print(f"{GREEN}Mode:{RESET} Full scan")
+    if full_scan:
+      print(f"{GREEN}Mode:{RESET} Full scan (all submissions)")
+    elif check_recent_days:
+      print(f"{GREEN}Mode:{RESET} Smart scan (minimum {check_recent_days} days)")
     print(f"{CYAN}{'═' * 70}{RESET}\n")
     
     page_index = start_page_index
     new_submissions_count = 0
+    within_recent_period = True  # Track if we're still in the recent period
+    
     try:
       while True:
         try:
@@ -309,16 +311,16 @@ class AbstractWorkflow(ABC):
           # Stop fetching and proceed to push whatever was collected
           break
         
-        # Filter by timestamp if checking recent days
-        if cutoff_timestamp:
-          original_count = len(submissions)
-          submissions = [s for s in submissions if self.__get_submission_timestamp(s) >= cutoff_timestamp]
-          if original_count > len(submissions):
-            print(f"\n{CYAN}ℹ️  Filtered {original_count - len(submissions)} submissions older than {check_recent_days} days{RESET}")
-          # Stop if all submissions on this page are too old
-          if not submissions:
-            print(f"\n{CYAN}ℹ️  Reached submissions older than {check_recent_days} days, stopping...{RESET}")
-            break
+        if not submissions:
+          break
+        
+        # Check if we're past the minimum check period
+        if cutoff_timestamp and within_recent_period:
+          # Check if all submissions on this page are older than cutoff
+          page_timestamps = [self.__get_submission_timestamp(s) for s in submissions]
+          if all(ts < cutoff_timestamp for ts in page_timestamps if ts > 0):
+            within_recent_period = False
+            print(f"\n{CYAN}ℹ️  Passed {check_recent_days} days threshold, will stop at next duplicate page{RESET}")
         
         response = []
         last_width = 0
@@ -333,10 +335,24 @@ class AbstractWorkflow(ABC):
         # Stop conditions
         if not len(response):
           break
-        # If not full_scan and no new submissions were added, stop
-        if not any(response) and not full_scan:
-          break
-        page_index += 1
+        
+        # Full scan: never stop on duplicates, check everything
+        if full_scan:
+          page_index += 1
+          continue
+        
+        # Regular scan: 
+        # - Within recent period (last N days): continue even if all duplicates
+        # - After recent period: stop if no new submissions
+        if within_recent_period:
+          # Keep going to ensure we check the full recent period
+          page_index += 1
+        else:
+          # Past the recent period, can stop if all submissions were duplicates
+          if not any(response):
+            print(f"\n{CYAN}ℹ️  No new submissions found and past {check_recent_days} days, stopping...{RESET}")
+            break
+          page_index += 1
     except KeyboardInterrupt:
       print(f"\n{YELLOW}⚠️  Harvest interrupted by user{RESET}")
     except Exception as e:
