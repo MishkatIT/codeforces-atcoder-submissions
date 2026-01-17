@@ -55,8 +55,8 @@ class AtcoderClient:
         return [x.text.strip() for x in span_tags]
 
     def get_user_submissions(self, page_index):
-        # Fetch submission list for the user using Kenkoooo API
-        base_url = "https://kenkoooo.com/atcoder/atcoder-api/results?user={}".format(
+        # Fetch submission list for the user using Kenkoooo API v3
+        base_url = "https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user={}&from_second=0".format(
             self.user,
         )
         response = self.__http_get(base_url).json()
