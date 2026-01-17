@@ -8,68 +8,182 @@ from harwest.lib.utils.submissions import Submissions
 
 class AbstractWorkflow(ABC):
   def __init__(self, platform_client, user_data):
-    self.user_data = user_data
-    self.client = platform_client
-    self.submissions_directory = user_data['directory']
-    self.repository = Repository(self.submissions_directory)
-    self.submissions = Submissions(self.submissions_directory, self.user_data)
+    """Initialize workflow with comprehensive validation"""
+    try:
+      if not platform_client:
+        raise ValueError("platform_client cannot be None")
+      if not user_data:
+        raise ValueError("user_data cannot be None")
+      if 'directory' not in user_data:
+        raise ValueError("user_data must contain 'directory' key")
+      
+      self.user_data = user_data
+      self.client = platform_client
+      self.submissions_directory = user_data['directory']
+      
+      # Ensure directory exists
+      if not os.path.exists(self.submissions_directory):
+        print(f"Creating submissions directory: {self.submissions_directory}")
+        os.makedirs(self.submissions_directory, exist_ok=True)
+      
+      self.repository = Repository(self.submissions_directory)
+      
+      # Pass platform name to Submissions (with error handling)
+      try:
+        platform_name = self.client.get_platform_name()[0]
+      except Exception as e:
+        print(f"Warning: Could not get platform name: {e}")
+        platform_name = None
+      
+      self.submissions = Submissions(self.submissions_directory, self.user_data, platform_name)
+      
+    except Exception as e:
+      print(f"Critical error initializing workflow: {e}")
+      raise
 
   def __add_submission(self, submission):
-    platform_prefix = self.client.get_platform_name()[1]
-    submission_id = submission['submission_id']
-    submission['submission_id'] = platform_prefix + str(submission['submission_id'])
+    """Add submission with comprehensive error handling"""
+    try:
+      if not submission:
+        print("Warning: Attempted to add None submission")
+        return False
+      
+      # Get platform information
+      try:
+        platform_prefix = self.client.get_platform_name()[1]
+        submission_id = submission.get('submission_id')
+        if not submission_id:
+          print("Warning: Submission missing submission_id")
+          return False
+      except Exception as e:
+        print(f"Error: Could not get platform info: {e}")
+        return False
+      
+      submission['submission_id'] = platform_prefix + str(submission_id)
 
-    if self.submissions.contains(submission['submission_id']):
+      if self.submissions.contains(submission['submission_id']):
+        return False
+
+      # Add or update any additional property for the submission
+      try:
+        self.enrich_submission(submission)
+      except Exception as e:
+        print(f"Warning: Failed to enrich submission: {e}")
+
+      problem_url = submission.get('problem_url', '')
+      if not problem_url:
+        print("Warning: Submission missing problem_url")
+        return False
+      
+      # Get solution file path
+      try:
+        solution_file_path = self.__get_solution_path(submission)
+      except Exception as e:
+        print(f"Error: Could not get solution path: {e}")
+        return False
+      
+      # Get submission code
+      try:
+        contest_id = submission.get('contest_id')
+        solution_code = self.client.get_submission_code(
+          contest_id=contest_id, submission_id=submission_id)
+        if solution_code is None:
+          print(f"Warning: Could not fetch code for submission {submission_id}")
+          return False
+      except Exception as e:
+        print(f"Error fetching submission code: {e}")
+        return False
+      
+      # Write solution file
+      try:
+        # Ensure directory exists
+        solution_dir = os.path.dirname(solution_file_path)
+        if not os.path.exists(solution_dir):
+          os.makedirs(solution_dir, exist_ok=True)
+        
+        with open(solution_file_path, 'wb') as fp:
+          fp.write(solution_code.encode("utf-8"))
+      except Exception as e:
+        print(f"Error writing solution file: {e}")
+        return False
+      
+      try:
+        submission['path'] = self.__to_git_path(solution_file_path)
+      except Exception as e:
+        print(f"Warning: Could not convert to git path: {e}")
+        submission['path'] = solution_file_path
+
+      # Add to submissions
+      try:
+        self.submissions.add(submission)
+      except Exception as e:
+        print(f"Error adding submission to database: {e}")
+        return False
+      
+      # Add to git
+      try:
+        self.repository.add(solution_file_path)
+      except Exception as e:
+        print(f"Warning: Could not add file to git: {e}")
+
+      # Commit
+      try:
+        commit_message = "Add solution for problem `{problem_index} - {problem_name}`\n".format(
+          problem_name=submission.get('problem_name', 'Unknown'),
+          problem_index=submission.get('problem_index', '?')
+        )
+        commit_message += "Link: {problem_url}\n".format(problem_url=problem_url)
+        commit_message += "Tags: {tags}\n".format(
+          tags=', '.join(submission.get('tags', [])))
+        commit_message += "Ref: {sub_url}".format(
+          sub_url=submission.get('submission_url', ''))
+        
+        timestamp = submission.get('timestamp', '')
+        self.repository.commit(commit_message, timestamp)
+      except Exception as e:
+        print(f"Warning: Could not commit to git: {e}")
+
+      return True
+      
+    except Exception as e:
+      print(f"Error in __add_submission: {e}")
       return False
-
-    # Add or update any additional property for the submission
-    self.enrich_submission(submission)
-
-    problem_url = submission['problem_url']
-    solution_file_path = self.__get_solution_path(submission)
-    solution_code = self.client.get_submission_code(
-      contest_id=submission['contest_id'], submission_id=submission_id)
-    if solution_code is None:
-      return False
-    with open(solution_file_path, 'wb') as fp:
-      fp.write(solution_code.encode("utf-8"))
-    submission['path'] = self.__to_git_path(self.__get_solution_path(submission))
-
-    self.submissions.add(submission)
-    self.repository.add(solution_file_path)
-
-    commit_message = "Add solution for problem `{problem_index} - {problem_name}`\n".format(
-      problem_name=submission['problem_name'],
-      problem_index=submission['problem_index']
-    )
-    commit_message += "Link: {problem_url}\n".format(problem_url=problem_url)
-    commit_message += "Tags: {tags}\n".format(
-      tags=', '.join(submission['tags']))
-    commit_message += "Ref: {sub_url}".format(
-      sub_url=submission['submission_url'])
-    self.repository.commit(commit_message, submission['timestamp'])
-
-    return True
 
   @abstractmethod
   def enrich_submission(self, submission):
     pass
 
   def __get_solution_path(self, submission):
-    submission_lang = submission['language']
-    lang_ext = config.get_language_extension(submission_lang)
-    # Characters to be replaced with underscores
-    characters_to_replace = ["#", "%", "&", "{", "}", "\\", "<", ">", "*", "?", "/", "$", "!", "'", '"', ":", "@",
-                             "+", "`", "|", "="]
-    # Replace invalid characters with underscores
-    problem_name = submission['problem_name']
-    for char in characters_to_replace:
-      problem_name = problem_name.replace(char, "_")
-    solution_file_name = str(submission['contest_id']) + submission['problem_index'] + " " + problem_name + "." + lang_ext
-    solution_file_path = os.path.join(self.submissions_directory,
-                                      self.client.get_platform_name()[0].lower(),
-                                      str(submission['contest_id']),
-                                      solution_file_name)
+    """Generate solution file path with error handling"""
+    try:
+      submission_lang = submission.get('language', 'Unknown')
+      lang_ext = config.get_language_extension(submission_lang)
+      
+      # Characters to be replaced with underscores
+      characters_to_replace = ["#", "%", "&", "{", "}", "\\", "<", ">", "*", "?", "/", "$", "!", "'", '"', ":", "@",
+                               "+", "`", "|", "="]
+      
+      # Replace invalid characters with underscores
+      problem_name = submission.get('problem_name', 'Unknown_Problem')
+      for char in characters_to_replace:
+        problem_name = problem_name.replace(char, "_")
+      
+      contest_id = submission.get('contest_id', 'unknown')
+      problem_index = submission.get('problem_index', '')
+      
+      solution_file_name = str(contest_id) + problem_index + " " + problem_name + "." + lang_ext
+      
+      platform_name = self.client.get_platform_name()[0].lower()
+      solution_file_path = os.path.join(self.submissions_directory,
+                                        platform_name,
+                                        str(contest_id),
+                                        solution_file_name)
+      return solution_file_path
+    except Exception as e:
+      print(f"Error generating solution path: {e}")
+      # Return a fallback path
+      fallback_name = f"submission_{submission.get('submission_id', 'unknown')}.txt"
+      return os.path.join(self.submissions_directory, fallback_name)
     os.makedirs(os.path.dirname(solution_file_path), exist_ok=True)
     return solution_file_path
 
@@ -79,19 +193,19 @@ class AbstractWorkflow(ABC):
 
   @staticmethod
   def __print_progress(submission, page_index, iteration, total, width):
-    # Modern progress display with colors
+    # Modern progress display with colors (ASCII-safe for Windows)
     CYAN = '\033[96m'
     GREEN = '\033[92m'
     YELLOW = '\033[93m'
     RESET = '\033[0m'
     
-    # Progress bar
+    # Progress bar with ASCII characters
     progress_percent = int((iteration / total) * 100)
     bar_length = 30
     filled = int((iteration / total) * bar_length)
-    bar = '█' * filled + '░' * (bar_length - filled)
+    bar = '#' * filled + '-' * (bar_length - filled)
     
-    text = f"\r{CYAN}⏳ Page #{page_index}{RESET} [{bar}] {GREEN}{progress_percent}%{RESET} ({iteration}/{total})"
+    text = f"\r{CYAN}Page #{page_index}{RESET} [{bar}] {GREEN}{progress_percent}%{RESET} ({iteration}/{total})"
     
     problem_name = submission['problem_name'] if 'problem_name' in submission else ""
     problem_url = submission['problem_url'] if 'problem_url' in submission else ""
@@ -104,9 +218,6 @@ class AbstractWorkflow(ABC):
     print("\r", " " * width, end='\r')
     print(text, end='\r')
     
-    # Calculate actual ANSI code length for proper width tracking
-    # Each color code (\033[XXm) is 5-6 chars, RESET is 4 chars
-    # We have 4 color codes + 4 resets = ~40 chars of ANSI codes
     ansi_code_length = len(CYAN) + len(RESET) + len(GREEN) + len(RESET) + len(YELLOW) + len(RESET)
     return len(text) + ansi_code_length
 
@@ -155,6 +266,32 @@ class AbstractWorkflow(ABC):
       raise
     finally:
       print()
+
+    # Generate markdown after harvesting
+    print(f"{CYAN}📝 Generating markdown files...{RESET}")
+    try:
+      self.submissions._Submissions__generate_platform_markdown()
+      print(f"{GREEN}✓ Markdown generated successfully{RESET}")
+    except Exception as e:
+      print(f"{YELLOW}⚠️  Warning: Failed to generate markdown: {str(e)}{RESET}")
+    
+    # Add markdown files to parent git repository if it exists
+    try:
+      import os
+      from git import Repo
+      root_dir = os.path.dirname(os.path.abspath(self.submissions_directory))
+      markdown_file = os.path.join(root_dir, f"{platform.lower()}.md")
+      
+      if os.path.exists(markdown_file):
+        # Check if parent directory is a git repository
+        parent_git_path = os.path.join(root_dir, '.git')
+        if os.path.exists(parent_git_path):
+          parent_repo = Repo(root_dir)
+          parent_repo.git.add(markdown_file)
+          print(f"{GREEN}✓ Added markdown file to parent repository{RESET}")
+    except Exception as e:
+      # Silently ignore if parent repo doesn't exist or git operations fail
+      pass
 
     try:
       self.repository.push()

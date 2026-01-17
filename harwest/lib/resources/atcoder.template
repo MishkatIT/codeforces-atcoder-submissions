@@ -1,0 +1,36 @@
+# <img src="https://atcoder.jp/favicon.ico" width="20"/> AtCoder Submissions
+
+<div align="center">
+
+{profile_placeholder}
+
+### 📊 Total Problems Solved: **{total_problems}**
+
+</div>
+
+---
+
+## 📝 Recent Submissions
+
+<table>
+<thead>
+<tr>
+<th align="center">#</th>
+<th align="left">Problem</th>
+<th align="center">Solution</th>
+<th align="left">Tags</th>
+<th align="center">Submitted</th>
+</tr>
+</thead>
+<tbody>
+{submission_placeholder}
+</tbody>
+</table>
+
+---
+
+<div align="center">
+
+*Last Updated: {last_updated}*
+
+</div>

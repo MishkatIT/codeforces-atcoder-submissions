@@ -48,17 +48,32 @@ def get_remote_url():
 
 def get_language_extension(lang_name):
   if lang_name not in lang_dict.keys():
-    raise ValueError(
-      "Please provide correct file extension for the language '" + lang_name +
-      "' in", str(RESOURCES_DIR.joinpath('language.json')), "file")
+    # Log warning and return a default extension
+    print(f"Warning: Unknown language '{lang_name}', using .txt extension")
+    print(f"   You can add this language to {RESOURCES_DIR.joinpath('language.json')}")
+    return "txt"
   return lang_dict[lang_name]
 
 
 def load_submissions_data(path):
   path = str(path)
   if not os.path.exists(path):
+    print(f"Creating new submissions database: {path}")
     open(path, 'w').write("{}")
-  return json.load(open(path, 'r'))
+    return {}
+  
+  try:
+    with open(path, 'r') as f:
+      content = f.read().strip()
+      if not content:
+        # Empty file, initialize with empty dict
+        open(path, 'w').write("{}")
+        return {}
+      return json.loads(content)
+  except json.JSONDecodeError as e:
+    print(f"Warning: Invalid JSON in {path}, reinitializing...")
+    open(path, 'w').write("{}")
+    return {}
 
 
 def write_submissions_data(path, submissions):

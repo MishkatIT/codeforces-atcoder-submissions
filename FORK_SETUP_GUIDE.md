@@ -1,30 +1,78 @@
-# 🚀 Harwest Setup Guide - Fully Automated!
+# 🚀 Harwest Setup Guide - For Fork Users!
 
-**No installation. No command line. Just fork and configure!**
+**Welcome to Harwest! Setting up your fork is quick and easy.**
 
-This guide will help you set up Harwest to automatically harvest your competitive programming submissions using GitHub Actions. Everything runs automatically - no manual work required!
+This guide will help you set up Harwest to automatically harvest your competitive programming submissions using GitHub Actions.
 
-## ⏱️ Setup Time: 2-3 Minutes
+## ⏱️ Setup Time: 3-5 Minutes
 
 ## 📋 What You Need
 
 - A GitHub account
 - Your competitive programming username(s):
-  - **Codeforces**: Your handle (e.g., "MishkatIT")
-  - **AtCoder**: Your handle (e.g., "MishkatIT")
-
-That's it! No programming knowledge, no installations, no terminal commands required.
+  - **Codeforces**: Your handle (e.g., "tourist")
+  - **AtCoder**: Your handle (e.g., "rng_58")
 
 ---
 
-## 🎯 3-Step Setup
+## 🎯 Setup Methods
 
-### Step 1: Fork the Repository (30 seconds)
+### ⚡ Method 1: Automated Setup Script (Recommended)
+
+The fastest way to set up your fork:
+
+1. **Fork the Repository**
+   - Go to: https://github.com/MishkatIT/harwest-tool
+   - Click the **"Fork"** button
+   - Wait for GitHub to create your fork
+
+2. **Clone Your Fork**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/harwest-tool.git
+   cd harwest-tool
+   ```
+
+3. **Run Setup Script**
+   ```bash
+   python setup_fork.py
+   ```
+   
+   The script will:
+   - ✅ Clear old user's data
+   - ✅ Ask for your Codeforces username
+   - ✅ Ask for your AtCoder username
+   - ✅ Configure git author info (for contribution graph)
+   - ✅ Initialize empty markdown files
+   
+4. **Push Changes**
+   ```bash
+   git add .
+   git commit -m "Configure fork for personal use"
+   git push
+   ```
+
+5. **Enable GitHub Actions**
+   - Go to your repository on GitHub
+   - Click **"Actions"** tab
+   - Click **"I understand my workflows, go ahead and enable them"**
+
+✅ **Done!** Your fork is ready.
+
+---
+
+### 📝 Method 2: Manual Setup (No Programming Required)
+
+If you prefer to do it through GitHub web interface:
+
+### Step 1: Fork and Clean Repository (30 seconds)
 
 1. Go to: https://github.com/MishkatIT/harwest-tool
 2. Click the **"Fork"** button in the top-right corner
 3. Select your GitHub account
-4. Wait a few seconds for GitHub to create your fork
+4. **Important**: Delete old user's data
+   - Go to `submissions/` folder
+   - Delete old submission files (optional, they'll be replaced)
+   - Or just leave them - they'll be ignored once you configure your username
 
 ✅ **Done!** You now have your own copy of Harwest.
 

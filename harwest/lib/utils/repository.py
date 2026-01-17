@@ -31,6 +31,8 @@ class Repository:
                  date="{}".format(date), author=self.author)
 
   def add(self, file_path):
+    # Only add files within the submissions directory
+    # Markdown files at root level should be handled by the parent repository
     self.git.add(os.path.abspath(file_path))
     self.git.add(os.path.abspath(self.readme_path))
     self.git.add(os.path.abspath(self.submission_json_path))

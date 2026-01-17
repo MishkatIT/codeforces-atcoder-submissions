@@ -17,6 +17,8 @@
   "C++20 (GCC 11-64)": "cpp",
   "C++20 (GCC 13-64)": "cpp",
   "C++23 (GCC 14-64, msys2)": "cpp",
+  "C++23 (GCC 15.2.0)": "cpp",
+
   "Java 17": "java",
   ".NET Core C#": "cs",
   "Mono C#": "cs",

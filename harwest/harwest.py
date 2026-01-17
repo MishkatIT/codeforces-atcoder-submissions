@@ -268,6 +268,16 @@ def process_platform(args, platform, workflow):
 
 
 def main():
+  # Set UTF-8 encoding for Windows console
+  import sys
+  if sys.platform == 'win32':
+    try:
+      import codecs
+      sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
+      sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
+    except:
+      pass
+  
   # Modern colorful UI with ANSI colors
   CYAN = '\033[96m'
   GREEN = '\033[92m'
@@ -280,7 +290,7 @@ def main():
   print(f"""
 {CYAN}{BOLD}  ╔═══════════════════════════════════════════════════════════╗
   ║                                                           ║
-  ║    {MAGENTA}🚀  H A R W E S T   T O O L  🚀{CYAN}                      ║
+  ║    {MAGENTA}H A R W E S T   T O O L{CYAN}                             ║
   ║                                                           ║
   ║    {YELLOW}Automated Submission Harvester for Competitive Coding{CYAN}  ║
   ║                                                           ║

@@ -32,14 +32,23 @@ class CodeforcesClient:
             contest_id=contest_id,
             submission_id=submission_id
         )
-        sub_soup = self.__get_content_soup(sub_url)
-        # For debug purpose
-        # print(sub_url)
-        # open("last_submission_page.html", "w").write(str(sub_soup))
-        submission_code = sub_soup.find('pre', attrs={'id': 'program-source-text'})
-        if submission_code is None:
+        try:
+            sub_soup = self.__get_content_soup(sub_url)
+            submission_code = sub_soup.find('pre', attrs={'id': 'program-source-text'})
+            
+            if submission_code is None:
+                # Check if page requires authentication
+                error_div = sub_soup.find('div', attrs={'class': 'error'})
+                if error_div:
+                    # Silent fail for permission issues
+                    return None
+                # Check for alternate code container (gym submissions)
+                submission_code = sub_soup.find('pre', attrs={'class': 'program-source'})
+                if submission_code is None:
+                    return None
+            return submission_code.text
+        except Exception:
             return None
-        return submission_code.text
 
     def get_contest_tags(self, problem_url):
         con_soup = self.__get_content_soup(problem_url)
