@@ -289,7 +289,7 @@ crontab -e
 
 Add daily job at 11:30 PM:
 ```cron
-30 23 * * * cd /path/to/harwest-tool && python -m harwest codeforces && python -m harwest atcoder && git add . && git commit -m "Daily update" && git push
+30 23 * * * cd /path/to/codeforces-atcoder-submissions && python -m harwest codeforces && python -m harwest atcoder && git add . && git commit -m "Daily update" && git push
 ```
 
 **Windows (Task Scheduler):**
@@ -297,7 +297,7 @@ Add daily job at 11:30 PM:
 Create `harwest_update.bat`:
 ```batch
 @echo off
-cd /d D:\harwest-tool
+cd /d D:\codeforces-atcoder-submissions
 python -m harwest codeforces --auto
 python -m harwest atcoder --auto
 git add .

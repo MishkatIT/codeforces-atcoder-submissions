@@ -38,7 +38,7 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 ### 📁 Repository Structure
 
 ```
-📦 harwest-tool/
+📦 codeforces-atcoder-submissions/
 ├── 📄 codeforces.md              # Codeforces submissions table
 ├── 📄 atcoder.md                 # AtCoder submissions table
 ├── 📂 submissions/

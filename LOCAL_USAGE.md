@@ -13,7 +13,7 @@ This guide explains how to use Harwest locally on your machine (not via GitHub A
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/harwest-tool.git
+git clone https://github.com/YOUR_USERNAME/codeforces-atcoder-submissions.git
 cd harwest-tool
 ```
 
@@ -199,7 +199,7 @@ crontab -e
 Add daily job at 11:30 PM:
 
 ```cron
-30 23 * * * cd /path/to/harwest-tool && python -m harwest codeforces && python -m harwest atcoder && python generate_markdown.py && git add . && git commit -m "Daily update" && git push
+30 23 * * * cd /path/to/codeforces-atcoder-submissions && python -m harwest codeforces && python -m harwest atcoder && python generate_markdown.py && git add . && git commit -m "Daily update" && git push
 ```
 
 ### Task Scheduler Setup (Windows)
@@ -208,7 +208,7 @@ Create a batch file `update_harwest.bat`:
 
 ```batch
 @echo off
-cd /d D:\harwest-tool
+cd /d D:\codeforces-atcoder-submissions
 python -m harwest codeforces --auto
 python -m harwest atcoder --auto
 python generate_markdown.py
@@ -269,10 +269,10 @@ python -m harwest atcoder --full-scan
 git remote -v
 
 # Set if not configured
-git remote add origin https://github.com/YOUR_USERNAME/harwest-tool.git
+git remote add origin https://github.com/YOUR_USERNAME/codeforces-atcoder-submissions.git
 
 # Or update
-git remote set-url origin https://github.com/YOUR_USERNAME/harwest-tool.git
+git remote set-url origin https://github.com/YOUR_USERNAME/codeforces-atcoder-submissions.git
 ```
 
 ## 📚 Command Reference
