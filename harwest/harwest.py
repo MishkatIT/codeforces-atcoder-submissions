@@ -15,43 +15,38 @@ def build_argument_parser():
     ("AtCoder", atcoder)
   ]
   
+  # Create parent parser for common automation arguments
+  automation_parser = argparse.ArgumentParser(add_help=False)
+  automation_parser.add_argument('--auto', default=False, action='store_true',
+                                 help="Run in fully automated mode (non-interactive, for CI/CD)")
+  automation_parser.add_argument('--directory', type=str, default=None,
+                                 help="Submissions directory path (for automation)")
+  automation_parser.add_argument('--author-name', type=str, default=None,
+                                 help="Git author name (for automation)")
+  automation_parser.add_argument('--author-email', type=str, default=None,
+                                 help="Git author email (for automation)")
+  automation_parser.add_argument('--remote-url', type=str, default=None,
+                                 help="Git remote repository URL (for automation)")
+  
   parser = argparse.ArgumentParser(
-    description='Creates a repository of all the submissions from a given platform')
+    description='Creates a repository of all the submissions from a given platform',
+    parents=[automation_parser])
   parser.add_argument('-i', '--init', default=False, action='store_true',
                       help="Setup the local repository configuration")
-  parser.add_argument('--auto', default=False, action='store_true',
-                      help="Run in fully automated mode (non-interactive, for CI/CD)")
-  parser.add_argument('--directory', type=str, default=None,
-                      help="Submissions directory path (for automation)")
-  parser.add_argument('--author-name', type=str, default=None,
-                      help="Git author name (for automation)")
-  parser.add_argument('--author-email', type=str, default=None,
-                      help="Git author email (for automation)")
-  parser.add_argument('--remote-url', type=str, default=None,
-                      help="Git remote repository URL (for automation)")
   subparsers = parser.add_subparsers(
     help='The platform to scrape the solutions from')
 
   for platform in AVAILABLE_PLATFORMS:
     pt_parser = subparsers.add_parser(
       platform[0].lower(),
-      help="Scrape solutions from the " + platform[0] + " platform")
+      help="Scrape solutions from the " + platform[0] + " platform",
+      parents=[automation_parser])
     pt_parser.add_argument('-s', '--setup', default=False, action='store_true',
                            help="Setup the platform configurations")
     pt_parser.add_argument('-p', '--start-page', type=int, default=1,
                            help='The page index to start scraping from (default: 1)')
     pt_parser.add_argument('-f', '--full-scan', default=False, action='store_true',
                            help='Run a full scan for all the submissions')
-    pt_parser.add_argument('--auto', default=False, action='store_true',
-                           help="Run in fully automated mode (non-interactive, for CI/CD)")
-    pt_parser.add_argument('--directory', type=str, default=None,
-                           help="Submissions directory path (for automation)")
-    pt_parser.add_argument('--author-name', type=str, default=None,
-                           help="Git author name (for automation)")
-    pt_parser.add_argument('--author-email', type=str, default=None,
-                           help="Git author email (for automation)")
-    pt_parser.add_argument('--remote-url', type=str, default=None,
-                           help="Git remote repository URL (for automation)")
     pt_parser.set_defaults(func=platform[1])
 
   return parser
@@ -68,10 +63,10 @@ def init_from_args(args=None):
     dict: Configuration dictionary
   """
   # Get values from args, environment variables, or defaults
+  # Priority: CLI args > environment variables > defaults
   directory = (
     getattr(args, 'directory', None) or 
     os.environ.get('SUBMISSIONS_DIR') or 
-    os.environ.get('HARWEST_DIR') or 
     './submissions'
   )
   
