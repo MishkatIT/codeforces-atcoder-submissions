@@ -161,9 +161,15 @@ The workflow intelligently manages itself:
 
 | Activity Status | Schedule | Behavior |
 |----------------|----------|----------|
-| **Active** (commits within 30 days) | Daily at 00:00 UTC | Runs every day |
-| **Inactive** (no commits for 30+ days) | 1st of each month | Runs monthly |
-| **Activity resumes** | Daily at 00:00 UTC | Auto-switches back |
+| **Active** (commits within 30 days) | Daily at 11:20 PM BDT (5:20 PM UTC) | **Full scan** every day, all platforms |
+| **Inactive** (no commits for 30+ days) | 1st of each month | **Full scan** monthly, all platforms |
+| **Activity resumes** | Daily at 11:20 PM BDT | Auto-switches back |
+| **Random Delay** | 0-420 seconds (7 min) | Added before each run |
+
+**Key Points:**
+- Scheduled runs **always** do full scan (re-scan all submissions)
+- Harvests from **both Codeforces and AtCoder** automatically
+- Random delay helps avoid rate limiting
 
 ### Manual Triggers
 

@@ -229,6 +229,8 @@ Harwest now supports fully automated execution via GitHub Actions! This allows y
 ### How It Works
 
 - **Daily Mode** (default): Runs every day at 11:20 PM BDT (5:20 PM UTC)
+- **Full Scan**: Scheduled runs (daily/monthly) **always** perform full scan of all submissions
+- **All Platforms**: Harvests from both Codeforces and AtCoder automatically
 - **Random Delay**: Adds 0-420 seconds random delay before starting to avoid rate limiting
 - **Monthly Mode** (auto-switch): If the repository has no new commits for 30+ days, automatically switches to run only on the 1st of each month
 - **Activity Detection**: When new commits appear, automatically reverts to daily mode
@@ -242,8 +244,8 @@ You can manually trigger the workflow anytime:
 2. Select **Harwest Submissions** workflow
 3. Click **Run workflow** button
 4. Select options:
-   - **Platform**: `all`, `codeforces`, or `atcoder`
-   - **Full scan**: Check to re-scan all submissions
+   - **Platform**: `all` (both), `codeforces`, or `atcoder`
+   - **Full scan**: Check to re-scan all submissions (unchecked = only new submissions)
 5. Click **Run workflow**
 
 ### Configuration Files

@@ -160,23 +160,25 @@ jobs:
       - name: Harvest Codeforces submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'codeforces' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
-          FULL_SCAN_FLAG=""
-          if [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
-            FULL_SCAN_FLAG="--full-scan"
+          # Always do full scan for scheduled runs, check manual input for manual triggers
+          FULL_SCAN_FLAG="--full-scan"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" != "true" ]; then
+            FULL_SCAN_FLAG=""
           fi
           
-          echo "⛏️ Harvesting Codeforces submissions..."
+          echo "⛏️ Harvesting Codeforces submissions (full scan: $([ -n \"$FULL_SCAN_FLAG\" ] && echo 'yes' || echo 'no'))..."
           python3 -m harwest codeforces $FULL_SCAN_FLAG || echo "⚠️ Codeforces harvest completed with warnings"
       
       - name: Harvest AtCoder submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'atcoder' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
-          FULL_SCAN_FLAG=""
-          if [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
-            FULL_SCAN_FLAG="--full-scan"
+          # Always do full scan for scheduled runs, check manual input for manual triggers
+          FULL_SCAN_FLAG="--full-scan"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" != "true" ]; then
+            FULL_SCAN_FLAG=""
           fi
           
-          echo "⛏️ Harvesting AtCoder submissions..."
+          echo "⛏️ Harvesting AtCoder submissions (full scan: $([ -n \"$FULL_SCAN_FLAG\" ] && echo 'yes' || echo 'no'))..."
           python3 -m harwest atcoder $FULL_SCAN_FLAG || echo "⚠️ AtCoder harvest completed with warnings"
       
       - name: Push changes
