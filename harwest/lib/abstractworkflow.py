@@ -137,7 +137,7 @@ class AbstractWorkflow(ABC):
           submissions = self.client.get_user_submissions(page_index)
         except Exception as e:
           print(f"\n{YELLOW}⚠️  Warning: Failed to fetch submissions for page {page_index}: {str(e)}{RESET}")
-          # Continue to next steps even if fetching fails
+          # Stop fetching and proceed to push whatever was collected
           break
         response = []
         last_width = 0
