@@ -79,19 +79,55 @@ class AbstractWorkflow(ABC):
 
   @staticmethod
   def __print_progress(submission, page_index, iteration, total, width):
-    text = "\r\U0000231B  Currently scanning page #%d: (%d/%d) " \
-           % (page_index, iteration, total)
+    # Modern progress display with colors
+    CYAN = '\033[96m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RESET = '\033[0m'
+    
+    # Progress bar
+    progress_percent = int((iteration / total) * 100)
+    bar_length = 30
+    filled = int((iteration / total) * bar_length)
+    bar = '█' * filled + '░' * (bar_length - filled)
+    
+    text = f"\r{CYAN}⏳ Page #{page_index}{RESET} [{bar}] {GREEN}{progress_percent}%{RESET} ({iteration}/{total})"
+    
     problem_name = submission['problem_name'] if 'problem_name' in submission else ""
     problem_url = submission['problem_url'] if 'problem_url' in submission else ""
-    text += problem_name + " " + problem_url
+    
+    # Truncate problem name if too long
+    if len(problem_name) > 40:
+      problem_name = problem_name[:37] + "..."
+    
+    text += f" {YELLOW}{problem_name}{RESET}"
     print("\r", " " * width, end='\r')
     print(text, end='\r')
-    return len(text)
+    
+    # Calculate actual ANSI code length for proper width tracking
+    # Each color code (\033[XXm) is 5-6 chars, RESET is 4 chars
+    # We have 4 color codes + 4 resets = ~40 chars of ANSI codes
+    ansi_code_length = len(CYAN) + len(RESET) + len(GREEN) + len(RESET) + len(YELLOW) + len(RESET)
+    return len(text) + ansi_code_length
 
   def run(self, start_page_index=1, full_scan=False):
     platform = self.client.get_platform_name()[0]
-    print("\U000026CF", "️Harvesting %s (%s) Submissions to %s" %
-          (platform, self.user_data[platform.lower()], self.submissions_directory))
+    
+    # Modern styled output
+    CYAN = '\033[96m'
+    GREEN = '\033[92m'
+    MAGENTA = '\033[95m'
+    BOLD = '\033[1m'
+    RESET = '\033[0m'
+    
+    print(f"\n{CYAN}{'═' * 70}{RESET}")
+    print(f"{MAGENTA}{BOLD}⛏️  HARVESTING SUBMISSIONS{RESET}")
+    print(f"{CYAN}{'─' * 70}{RESET}")
+    print(f"{GREEN}Platform:{RESET} {platform}")
+    print(f"{GREEN}Username:{RESET} {self.user_data[platform.lower()]}")
+    print(f"{GREEN}Directory:{RESET} {self.submissions_directory}")
+    print(f"{CYAN}{'═' * 70}{RESET}\n")
+    
     page_index = start_page_index
     try:
       while True:
@@ -109,4 +145,6 @@ class AbstractWorkflow(ABC):
       print()
 
     self.repository.push()
-    print("\U00002705", "The repository was successfully updated!")
+    print(f"\n{GREEN}{'═' * 70}{RESET}")
+    print(f"{GREEN}{BOLD}✅  SUCCESS!{RESET} {GREEN}Repository updated successfully!{RESET}")
+    print(f"{GREEN}{'═' * 70}{RESET}\n")

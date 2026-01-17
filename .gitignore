@@ -6,11 +6,17 @@
 !harwest
 !harwest/**
 !README.md
+!DEMO_README.md
+!FORK_SETUP_GUIDE.md
 !requirements.txt
 !setup.py
 !MANIFEST.in
 !harwest-runner.py
 !LICENSE
+!config
+!config/**
+!.github
+!.github/**
 
 # Still ignore these files
 __pycache__

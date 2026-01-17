@@ -49,6 +49,13 @@ class Submissions:
     index = len(set([x['problem_url'] for x in submissions]))
     problems = set()
     rows = []
+    
+    # Get GitHub repository URL from environment variable or use relative paths
+    github_repo_url = os.environ.get('GITHUB_REPOSITORY', '')
+    if github_repo_url and not github_repo_url.startswith('http'):
+      # Convert GITHUB_REPOSITORY format (owner/repo) to full URL
+      github_repo_url = f'https://github.com/{github_repo_url}'
+    
     for submission in submissions:
       if submission['problem_url'] in problems:
         continue
@@ -59,15 +66,28 @@ class Submissions:
         problem_name=submission['problem_name'],
         problem_url=submission['problem_url']
       )
+      
       # Convert backslashes to forward slashes for GitHub compatibility
       github_path = submission['path'].replace('\\', '/')
       # Replace spaces with %20 in the file path for URL encoding
       github_path_encoded = github_path.replace(' ', '%20')
       
-      row += '[{lang}](./{path}) | '.format(
-        lang=submission['language'],
-        path=github_path_encoded
-      )
+      # Create solution link - use full GitHub URL if available, otherwise relative path
+      if github_repo_url:
+        # Get branch name from environment or default to main
+        branch = os.environ.get('GITHUB_REF_NAME', 'main')
+        github_file_url = f"{github_repo_url}/blob/{branch}/{github_path_encoded}"
+        row += '[{lang}]({url} "{lang}") | '.format(
+          lang=submission['language'],
+          url=github_file_url
+        )
+      else:
+        # Fallback to relative path
+        row += '[{lang}](./{path}) | '.format(
+          lang=submission['language'],
+          path=github_path_encoded
+        )
+      
       row += ' '.join(['`{tag}`'.format(tag=x) for x in submission['tags']])
       row += " | "
       row += str(submission['timestamp']) + " | "

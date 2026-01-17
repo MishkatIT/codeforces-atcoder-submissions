@@ -9,6 +9,12 @@ from harwest.lib.atcoder.workflow import AtcoderWorkflow
 
 
 def build_argument_parser():
+  # Available platforms configuration
+  AVAILABLE_PLATFORMS = [
+    ("Codeforces", codeforces),
+    ("AtCoder", atcoder)
+  ]
+  
   parser = argparse.ArgumentParser(
     description='Creates a repository of all the submissions from a given platform')
   parser.add_argument('-i', '--init', default=False, action='store_true',
@@ -16,7 +22,7 @@ def build_argument_parser():
   subparsers = parser.add_subparsers(
     help='The platform to scrape the solutions from')
 
-  for platform in [("Codeforces", codeforces), ("AtCoder", atcoder)]:
+  for platform in AVAILABLE_PLATFORMS:
     pt_parser = subparsers.add_parser(
       platform[0].lower(),
       help="Scrape solutions from the " + platform[0] + " platform")
@@ -32,37 +38,55 @@ def build_argument_parser():
 
 
 def init():
+  # Modern colorful UI
+  CYAN = '\033[96m'
+  GREEN = '\033[92m'
+  YELLOW = '\033[93m'
+  BLUE = '\033[94m'
+  MAGENTA = '\033[95m'
+  BOLD = '\033[1m'
+  RESET = '\033[0m'
+  
   # Get directory details
-  print("[1] We'll need to create a directory to store all your files\n",
-        "   The directory will be created as", os.getcwd() + os.path.sep + "<your-input>")
-  directory = input("> So, what would you like your directory to be called? ")
+  print(f"\n{CYAN}{'─' * 70}{RESET}")
+  print(f"{MAGENTA}{BOLD}[1] 📁  DIRECTORY SETUP{RESET}")
+  print(f"{CYAN}{'─' * 70}{RESET}")
+  print(f"{BLUE}We'll create a directory to store all your submission files{RESET}")
+  print(f"{YELLOW}Location: {os.getcwd()}{os.path.sep}<your-input>{RESET}\n")
+  directory = input(f"{GREEN}➜ What would you like your directory to be called?{RESET} ")
   path = os.path.join(os.getcwd(), directory)
-  print("\U0001F44D", "Alright, so you're directory will be created at", path)
+  print(f"{GREEN}✓ Directory will be created at: {BOLD}{path}{RESET}")
   if os.path.exists(path):
-    print("\U000026A0", "WARNING! The directory with the path", path, "already exists.\n",
-          "Please abort and enter a new directory name or ensure that the",
-          "directory was previously created with this tool")
+    print(f"{YELLOW}⚠️  WARNING! Directory already exists: {path}{RESET}")
+    print(f"{YELLOW}   Please ensure it was previously created with this tool{RESET}")
 
   # Get git commits author tag details
-  print("\n[2] Then let's build your author tag which will appear in your Git commits as:\n",
-        "   Author: Steve Jobs <steve.jobs@apple.com>")
+  print(f"\n{CYAN}{'─' * 70}{RESET}")
+  print(f"{MAGENTA}{BOLD}[2] 👤  GIT AUTHOR SETUP{RESET}")
+  print(f"{CYAN}{'─' * 70}{RESET}")
+  print(f"{BLUE}Your commits will appear as: {YELLOW}Author: Steve Jobs <steve.jobs@apple.com>{RESET}\n")
   config_dict = {
-    'name': input("> So what would your beautiful (Author) Full Name be? "),
-    'email': input("> And of course, your magical (Author) Email Address? "),
+    'name': input(f"{GREEN}➜ Your Full Name:{RESET} "),
+    'email': input(f"{GREEN}➜ Your Email Address:{RESET} "),
     'directory': path
   }
 
   # Get remote git url for automated pushes
-  print("\n[3] Guess what? We can automate the Git pushes for you too!", "\U0001F389", "\n"
-        "   In case you'd like that, then please specify the remote Git Url for an \"empty\" repository\n"
-        "   It would be somewhat like https://github.com/nileshsah/harwest-tool.git\n"
-        "   But it's optional, in case you'd like to skip then leave it empty and just hit <enter>")
-  remote = input("> (Optional) So, what would be the remote url for the repository again? ")
+  print(f"\n{CYAN}{'─' * 70}{RESET}")
+  print(f"{MAGENTA}{BOLD}[3] 🚀  AUTOMATED GIT PUSH (OPTIONAL){RESET}")
+  print(f"{CYAN}{'─' * 70}{RESET}")
+  print(f"{BLUE}We can automate Git pushes for you! 🎉{RESET}")
+  print(f"{YELLOW}Provide a remote Git URL for an 'empty' repository{RESET}")
+  print(f"{YELLOW}Example: https://github.com/username/repo.git{RESET}")
+  print(f"{BLUE}Leave empty and press <enter> to skip{RESET}\n")
+  remote = input(f"{GREEN}➜ (Optional) Remote Git URL:{RESET} ")
   if len(remote):
     config_dict['remote'] = remote
   config.write_setup_data(config_dict)
 
-  print("\n", "\U0001F973", "You rock! We're all good to go now")
+  print(f"\n{GREEN}{'═' * 70}{RESET}")
+  print(f"{GREEN}{BOLD}🎉  SETUP COMPLETE!{RESET} {GREEN}You're all set to start harvesting!{RESET}")
+  print(f"{GREEN}{'═' * 70}{RESET}\n")
   return config_dict
 
 
@@ -75,30 +99,85 @@ def atcoder(args):
 
 
 def process_platform(args, platform, workflow):
+  CYAN = '\033[96m'
+  GREEN = '\033[92m'
+  YELLOW = '\033[93m'
+  RED = '\033[91m'
+  BOLD = '\033[1m'
+  RESET = '\033[0m'
+  
   configs = config.load_setup_data()
   full_scan = False
   if not configs:
     configs = init()
     full_scan = True
-  if args.setup or platform.lower() not in configs:
-    handle = input("> So what's your prestigious " + platform + " Handle Name? ")
-    configs[platform.lower()] = handle
-    config.write_setup_data(configs)
+  
+  # Try to load username(s) from config file first
+  platform_users = config.get_platform_users(platform)
+  
+  # If setup flag is set or no users in config, check if username in configs (old behavior)
+  if args.setup or (not platform_users and platform.lower() not in configs):
+    # Check if we can get from config file
+    if not platform_users:
+      # Fall back to interactive input only if not in automation mode
+      # Check if we're in a non-interactive environment
+      if not os.isatty(0):  # stdin is not a terminal (automation mode)
+        print(f"\n{RED}{'═' * 70}{RESET}")
+        print(f"{RED}{BOLD}⚠️  WARNING: No username configured{RESET}")
+        print(f"{RED}{'─' * 70}{RESET}")
+        print(f"{YELLOW}Platform: {platform}{RESET}")
+        print(f"{YELLOW}Please add your {platform} username to config/users.json{RESET}")
+        print(f"{RED}{'═' * 70}{RESET}\n")
+        return
+      print(f"\n{CYAN}{'─' * 70}{RESET}")
+      print(f"{GREEN}➜ What's your {platform} handle/username?{RESET} ", end='')
+      handle = input()
+      configs[platform.lower()] = handle
+      config.write_setup_data(configs)
+      full_scan = True
+    else:
+      # Use first username from config file
+      configs[platform.lower()] = platform_users[0]
+      full_scan = True
+  elif platform_users and platform.lower() not in configs:
+    # Use username from config file
+    configs[platform.lower()] = platform_users[0]
     full_scan = True
+  
   if not args.setup:
     full_scan = full_scan or (True if args.full_scan else False)
+    
+    # Check if we have a valid username
+    if platform.lower() not in configs or not configs[platform.lower()]:
+      print(f"\n{RED}{'═' * 70}{RESET}")
+      print(f"{RED}{BOLD}⚠️  WARNING: No username configured{RESET}")
+      print(f"{RED}{'─' * 70}{RESET}")
+      print(f"{YELLOW}Platform: {platform}{RESET}")
+      print(f"{YELLOW}Add username to config/users.json or run: harwest {platform.lower()} --setup{RESET}")
+      print(f"{RED}{'═' * 70}{RESET}\n")
+      return
+    
     workflow(configs).run(start_page_index=args.start_page, full_scan=full_scan)
 
 
 def main():
-  print("""
-      __  __                              __
-     / / / /___ _______      _____  _____/ /_
-    / /_/ / __ `/ ___/ | /| / / _ \/ ___/ __/
-   / __  / /_/ / /   | |/ |/ /  __(__  ) /_
-  /_/ /_/\__,_/_/    |__/|__/\___/____/\__/
-
-  ==========================================
+  # Modern colorful UI with ANSI colors
+  CYAN = '\033[96m'
+  GREEN = '\033[92m'
+  YELLOW = '\033[93m'
+  BLUE = '\033[94m'
+  MAGENTA = '\033[95m'
+  BOLD = '\033[1m'
+  RESET = '\033[0m'
+  
+  print(f"""
+{CYAN}{BOLD}  ╔═══════════════════════════════════════════════════════════╗
+  ║                                                           ║
+  ║    {MAGENTA}🚀  H A R W E S T   T O O L  🚀{CYAN}                      ║
+  ║                                                           ║
+  ║    {YELLOW}Automated Submission Harvester for Competitive Coding{CYAN}  ║
+  ║                                                           ║
+  ╚═══════════════════════════════════════════════════════════╝{RESET}
   """)
 
   parser = build_argument_parser()
@@ -107,11 +186,18 @@ def main():
   config_map = config.load_setup_data()
   if args.init or config_map is None:
     if config_map is None:
-      print("Hey there!", "\U0001F44B",
-            "Looks like you're using Harwest for the first time."
-            " Let's get you started", "\N{rocket}", "\n")
+      GREEN = '\033[92m'
+      BLUE = '\033[94m'
+      RESET = '\033[0m'
+      print(f"\n{GREEN}👋  Hey there!{RESET} {BLUE}Looks like you're using Harwest for the first time.{RESET}")
+      print(f"{GREEN}🚀  Let's get you started!{RESET}\n")
     init()
   if 'func' in args:
     args.func(args)
   else:
-    print("Please specify the platform to harwest, example: `harwest codeforces`")
+    YELLOW = '\033[93m'
+    RESET = '\033[0m'
+    # Generate platform list dynamically
+    platform_names = 'codeforces, atcoder'
+    print(f"{YELLOW}💡 Please specify the platform to harvest, example: `harwest codeforces`{RESET}")
+    print(f"{YELLOW}   Available platforms: {platform_names}{RESET}")
