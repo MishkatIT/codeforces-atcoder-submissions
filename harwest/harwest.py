@@ -277,15 +277,26 @@ def main():
   parser = build_argument_parser()
   args = parser.parse_args()
 
+  # Check if running in automation mode
+  auto_mode = getattr(args, 'auto', False) or not os.isatty(0)
+  
   config_map = config.load_setup_data()
-  if args.init or config_map is None:
-    if config_map is None:
-      GREEN = '\033[92m'
-      BLUE = '\033[94m'
-      RESET = '\033[0m'
-      print(f"\n{GREEN}👋  Hey there!{RESET} {BLUE}Looks like you're using Harwest for the first time.{RESET}")
-      print(f"{GREEN}🚀  Let's get you started!{RESET}\n")
+  if args.init:
+    # User explicitly requested init
+    if auto_mode:
+      init_from_args(args)
+    else:
+      init()
+  elif config_map is None and not auto_mode:
+    # First time use in interactive mode
+    GREEN = '\033[92m'
+    BLUE = '\033[94m'
+    RESET = '\033[0m'
+    print(f"\n{GREEN}👋  Hey there!{RESET} {BLUE}Looks like you're using Harwest for the first time.{RESET}")
+    print(f"{GREEN}🚀  Let's get you started!{RESET}\n")
     init()
+  # In auto mode with no config, process_platform() will handle initialization
+  
   if 'func' in args:
     args.func(args)
   else:
