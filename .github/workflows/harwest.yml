@@ -154,7 +154,7 @@ jobs:
           fi
           
           echo "⛏️ Harvesting Codeforces submissions (full scan: $([ -n \"$FULL_SCAN_FLAG\" ] && echo 'yes' || echo 'no'))..."
-          python3 -m harwest codeforces $FULL_SCAN_FLAG --auto || echo "⚠️ Codeforces harvest completed with warnings"
+          python3 -m harwest codeforces $FULL_SCAN_FLAG --auto
       
       - name: Harvest AtCoder submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'atcoder' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
@@ -166,7 +166,7 @@ jobs:
           fi
           
           echo "⛏️ Harvesting AtCoder submissions (full scan: $([ -n \"$FULL_SCAN_FLAG\" ] && echo 'yes' || echo 'no'))..."
-          python3 -m harwest atcoder $FULL_SCAN_FLAG --auto || echo "⚠️ AtCoder harvest completed with warnings"
+          python3 -m harwest atcoder $FULL_SCAN_FLAG --auto
       
       - name: Push changes
         if: steps.check_config.outputs.has_users == 'true'
