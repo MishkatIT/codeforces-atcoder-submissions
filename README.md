@@ -1,4 +1,6 @@
-# 📦 Harwest ⛏ - Submission Archive
+# 📦 Competitive Programming Submissions (Codeforces & AtCoder)
+> 🚀 **Want your competitive programming submissions automatically archived on GitHub?**  
+> This repository provides a fully automated system that continuously fetches and organizes your Codeforces and AtCoder submissions — transforming your GitHub profile into a **live competitive programming portfolio**.
 
 > **🍴 [Fork Setup Guide](FORK_SETUP_GUIDE.md)** - Complete setup instructions in 3 easy steps!
 > 
