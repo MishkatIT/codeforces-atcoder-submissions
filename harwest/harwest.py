@@ -8,6 +8,22 @@ from harwest.lib.codeforces.workflow import CodeforcesWorkflow
 from harwest.lib.atcoder.workflow import AtcoderWorkflow
 
 
+def is_automation_mode(args):
+  """Check if running in automation mode.
+  
+  Automation mode is True if:
+  1. --auto flag is explicitly set, OR
+  2. stdin is not a terminal (e.g., running in CI/CD pipeline)
+  
+  Args:
+    args: Parsed command-line arguments
+    
+  Returns:
+    bool: True if running in automation mode, False otherwise
+  """
+  return getattr(args, 'auto', False) or not os.isatty(0)
+
+
 def build_argument_parser():
   # Available platforms configuration
   AVAILABLE_PLATFORMS = [
@@ -188,10 +204,7 @@ def process_platform(args, platform, workflow):
   RESET = '\033[0m'
   
   # Check if running in automation mode
-  # auto_mode is True if:
-  # 1. --auto flag is explicitly set, OR
-  # 2. stdin is not a terminal (e.g., running in CI/CD pipeline)
-  auto_mode = getattr(args, 'auto', False) or not os.isatty(0)
+  auto_mode = is_automation_mode(args)
   
   configs = config.load_setup_data()
   full_scan = False
@@ -277,15 +290,23 @@ def main():
   parser = build_argument_parser()
   args = parser.parse_args()
 
+  # Check if running in automation mode
+  auto_mode = is_automation_mode(args)
+  
   config_map = config.load_setup_data()
-  if args.init or config_map is None:
-    if config_map is None:
-      GREEN = '\033[92m'
-      BLUE = '\033[94m'
-      RESET = '\033[0m'
-      print(f"\n{GREEN}👋  Hey there!{RESET} {BLUE}Looks like you're using Harwest for the first time.{RESET}")
-      print(f"{GREEN}🚀  Let's get you started!{RESET}\n")
+  if args.init:
+    # User explicitly requested init
+    if auto_mode:
+      init_from_args(args)
+    else:
+      init()
+  elif config_map is None and not auto_mode:
+    # First time use in interactive mode
+    print(f"\n{GREEN}👋  Hey there!{RESET} {BLUE}Looks like you're using Harwest for the first time.{RESET}")
+    print(f"{GREEN}🚀  Let's get you started!{RESET}\n")
     init()
+  # In auto mode with no config, process_platform() will handle initialization
+  
   if 'func' in args:
     args.func(args)
   else:
