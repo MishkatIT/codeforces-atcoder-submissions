@@ -188,6 +188,9 @@ def process_platform(args, platform, workflow):
   RESET = '\033[0m'
   
   # Check if running in automation mode
+  # auto_mode is True if:
+  # 1. --auto flag is explicitly set, OR
+  # 2. stdin is not a terminal (e.g., running in CI/CD pipeline)
   auto_mode = getattr(args, 'auto', False) or not os.isatty(0)
   
   configs = config.load_setup_data()

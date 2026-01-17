@@ -48,8 +48,8 @@ Now tell Harwest which accounts to harvest from:
 **Real Example:**
 ```json
 {
-  "codeforces": ["MishkatIT"],
-  "atcoder": ["MishkatIT"]
+  "codeforces": ["tourist"],
+  "atcoder": ["rng_58"]
 }
 ```
 

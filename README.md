@@ -73,7 +73,7 @@ After setup, your forked repository will contain:
 
 ## Automation Features
 
-- **🔄 Automatic Daily Runs**: Harvests submissions every day at 11:20 PM BDT (5:20 PM UTC)
+- **🔄 Automatic Daily Runs**: Harvests submissions every day at 5:20 PM UTC (11:20 PM UTC+6)
 - **⏰ Random Delay**: Adds random delay up to 420 seconds (7 minutes) to avoid rate limiting
 - **📅 Smart Scheduling**: Automatically switches to monthly runs if no activity for 30+ days
 - **🎯 Manual Triggers**: Run harvesting on-demand anytime from Actions tab
