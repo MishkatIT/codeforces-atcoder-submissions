@@ -61,7 +61,21 @@ class AbstractWorkflow(ABC):
       
       submission['submission_id'] = platform_prefix + str(submission_id)
 
-      if self.submissions.contains(submission['submission_id']):
+      # Check if submission already exists
+      already_exists = self.submissions.contains(submission['submission_id'])
+      if already_exists:
+        # Update tags/rating if they've changed (but don't re-fetch code)
+        existing = self.submissions.get_submission(submission['submission_id'])
+        if existing:
+          # Check if tags have changed (they might update ratings/tags later)
+          existing_tags = set(existing.get('tags', []))
+          new_tags = set(submission.get('tags', []))
+          if existing_tags != new_tags:
+            print(f"Info: Updating tags for submission {submission_id}")
+            # Update only metadata, keep existing path
+            submission['path'] = existing.get('path')
+            self.submissions.update(submission, skip_markdown=True)
+          return False  # Already processed, skip file/commit
         return False
 
       # Add or update any additional property for the submission
@@ -195,6 +209,21 @@ class AbstractWorkflow(ABC):
   @staticmethod
   def __to_git_path(path):
     return os.path.join(*path.split(os.sep)[-3:])
+  
+  @staticmethod
+  def __get_submission_timestamp(submission):
+    """Extract timestamp from submission for filtering."""
+    try:
+      from datetime import datetime
+      timestamp_str = submission.get('timestamp', '')
+      # Parse timestamp format: 'Jan/15/2026 14:23'
+      if timestamp_str:
+        dt = datetime.strptime(timestamp_str, '%b/%d/%Y %H:%M')
+        return int(dt.timestamp())
+    except Exception:
+      pass
+    # Fallback: return 0 to include if parsing fails
+    return 0
 
   @staticmethod
   def __print_progress(submission, page_index, iteration, total, width):
@@ -226,7 +255,14 @@ class AbstractWorkflow(ABC):
     ansi_code_length = len(CYAN) + len(RESET) + len(GREEN) + len(RESET) + len(YELLOW) + len(RESET)
     return len(text) + ansi_code_length
 
-  def run(self, start_page_index=1, full_scan=False):
+  def run(self, start_page_index=1, full_scan=False, check_recent_days=None):
+    """Run the harvest workflow.
+    
+    Args:
+      start_page_index: Page to start from (default: 1)
+      full_scan: Scan all submissions regardless of existing data (default: False)
+      check_recent_days: Check submissions from last N days (default: None, auto-set to 30 for scheduled runs)
+    """
     platform = self.client.get_platform_name()[0]
     
     # Modern styled output
@@ -238,15 +274,32 @@ class AbstractWorkflow(ABC):
     BOLD = '\033[1m'
     RESET = '\033[0m'
     
+    # Auto-set check_recent_days to 30 if not full_scan and not explicitly set
+    if not full_scan and check_recent_days is None:
+      check_recent_days = 30
+      print(f"\n{CYAN}ℹ️  Auto mode: Checking last {check_recent_days} days for updates{RESET}")
+    
+    # Calculate cutoff timestamp if checking recent days
+    cutoff_timestamp = None
+    if check_recent_days:
+      from datetime import datetime, timedelta
+      cutoff_date = datetime.now() - timedelta(days=check_recent_days)
+      cutoff_timestamp = int(cutoff_date.timestamp())
+    
     print(f"\n{CYAN}{'═' * 70}{RESET}")
     print(f"{MAGENTA}{BOLD}⛏️  HARVESTING SUBMISSIONS{RESET}")
     print(f"{CYAN}{'─' * 70}{RESET}")
     print(f"{GREEN}Platform:{RESET} {platform}")
     print(f"{GREEN}Username:{RESET} {self.user_data[platform.lower()]}")
     print(f"{GREEN}Directory:{RESET} {self.submissions_directory}")
+    if check_recent_days:
+      print(f"{GREEN}Mode:{RESET} Last {check_recent_days} days")
+    elif full_scan:
+      print(f"{GREEN}Mode:{RESET} Full scan")
     print(f"{CYAN}{'═' * 70}{RESET}\n")
     
     page_index = start_page_index
+    new_submissions_count = 0
     try:
       while True:
         try:
@@ -255,13 +308,33 @@ class AbstractWorkflow(ABC):
           print(f"\n{YELLOW}⚠️  Warning: Failed to fetch submissions for page {page_index}: {str(e)}{RESET}")
           # Stop fetching and proceed to push whatever was collected
           break
+        
+        # Filter by timestamp if checking recent days
+        if cutoff_timestamp:
+          original_count = len(submissions)
+          submissions = [s for s in submissions if self.__get_submission_timestamp(s) >= cutoff_timestamp]
+          if original_count > len(submissions):
+            print(f"\n{CYAN}ℹ️  Filtered {original_count - len(submissions)} submissions older than {check_recent_days} days{RESET}")
+          # Stop if all submissions on this page are too old
+          if not submissions:
+            print(f"\n{CYAN}ℹ️  Reached submissions older than {check_recent_days} days, stopping...{RESET}")
+            break
+        
         response = []
         last_width = 0
         for index, submission in enumerate(submissions):
-          response.append(self.__add_submission(submission))
+          added = self.__add_submission(submission)
+          response.append(added)
+          if added:
+            new_submissions_count += 1
           last_width = self.__print_progress(
             submission, page_index, index + 1, len(submissions), last_width)
-        if not len(response) or (not any(response) and not full_scan):
+        
+        # Stop conditions
+        if not len(response):
+          break
+        # If not full_scan and no new submissions were added, stop
+        if not any(response) and not full_scan:
           break
         page_index += 1
     except KeyboardInterrupt:

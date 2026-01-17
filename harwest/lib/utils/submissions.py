@@ -87,6 +87,42 @@ class Submissions:
   def contains(self, submission_id):
     return str(submission_id) in self.store
   
+  def get_submission(self, submission_id):
+    """Get a submission by ID."""
+    return self.store.get(str(submission_id))
+  
+  def update(self, submission, skip_markdown=False):
+    """Update an existing submission (for tag/rating changes)."""
+    try:
+      if not submission:
+        print("Warning: Attempted to update None submission")
+        return
+      
+      submission_id = submission.get('submission_id')
+      if not submission_id:
+        print("Warning: Submission missing submission_id")
+        return
+      
+      # Update the submission
+      self.store[str(submission_id)] = submission
+      
+      # Save to disk
+      try:
+        config.write_submissions_data(self.submission_json_path, self.store)
+      except Exception as e:
+        print(f"Error: Failed to save submissions data: {e}")
+      
+      # Optionally regenerate markdown
+      if not skip_markdown:
+        try:
+          self.__generate_readme(list(self.store.values()))
+          self.__generate_platform_markdown()
+        except Exception as e:
+          print(f"Warning: Failed to generate markdown: {e}")
+        
+    except Exception as e:
+      print(f"Error updating submission: {e}")
+  
   def generate_all_markdown(self):
     """Generate all markdown files (README and platform-specific)"""
     try:
