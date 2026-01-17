@@ -351,7 +351,7 @@ def main():
             users_config, git_config = setup_config(repo_root)
         else:
             print_info("Skipping configuration - you can configure later using:")
-            print(f"  {CYAN}python setup_fork.py{RESET}")
+            print(f"  {CYAN}python fresh_start.py{RESET}")
         
         # Final summary
         print_header("✨ SETUP COMPLETE!")

@@ -25,10 +25,10 @@ pip install -r requirements.txt
 
 ### 3. Configure Your Setup
 
-#### Option A: Use the Setup Script (Recommended)
+#### Option A: Use the Fresh Start Script (Recommended)
 
 ```bash
-python setup_fork.py
+python fresh_start.py
 ```
 
 This interactive script will:
@@ -291,9 +291,8 @@ git remote set-url origin https://github.com/YOUR_USERNAME/harwest-tool.git
 
 | Script | Description |
 |--------|-------------|
-| `python setup_fork.py` | Interactive fork setup |
-| `python test_harwest.py` | Run test suite |
-| `python generate_markdown.py` | Generate markdown files |
+| `python fresh_start.py` | Interactive fresh start/fork setup |
+| `python test_harwest.py` | Run test suite (if needed) |
 
 ## 💡 Tips
 
@@ -324,7 +323,7 @@ git remote set-url origin https://github.com/YOUR_USERNAME/harwest-tool.git
 
 ## 🔗 Related Files
 
-- [`FORK_SETUP_GUIDE.md`](FORK_SETUP_GUIDE.md) - Fork setup guide
+- [`FRESH_START_GUIDE.md`](FRESH_START_GUIDE.md) - Fresh start & fork setup guide
 - [`README.md`](README.md) - Project overview
 - [`config/users.json`](config/users.json) - Username configuration
 - [`.github/workflows/harwest.yml`](.github/workflows/harwest.yml) - GitHub Actions workflow
