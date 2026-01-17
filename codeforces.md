@@ -1,4 +1,4 @@
-# 🔵 Codeforces Submissions
+# <img src="https://cdn.iconscout.com/icon/free/png-16/codeforces-3628695-3029920.png" width="20"/> Codeforces Submissions
 
 <div align="center">
 
@@ -33,6 +33,6 @@
 
 <div align="center">
 
-*Last Updated: January 17, 2026 at 20:15 BDT (UTC+6)*
+*Last Updated: January 17, 2026 at 20:22 BDT (UTC+6)*
 
 </div>
