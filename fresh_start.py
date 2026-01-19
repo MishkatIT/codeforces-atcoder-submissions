@@ -172,7 +172,7 @@ def reset_markdown_files(repo_root):
         md_file = repo_root / f'{platform}.md'
         content = f"""# {platform.title()} Submissions
 
-> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
+> *Auto-generated*
 
 ## Profile
 
