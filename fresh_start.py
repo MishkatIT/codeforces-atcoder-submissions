@@ -195,6 +195,7 @@ _Not configured yet_
 </tr>
 </tbody>
 </table>
+
 ---
 
 **Total Solved Problems:** 0
