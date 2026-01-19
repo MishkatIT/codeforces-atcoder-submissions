@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![AtCoder Profile](https://badges.joonhyung.xyz/atcoder/sdfsadfasdfaseeedfasdfasdfsdf.svg)](https://atcoder.jp/users/sdfsadfasdfaseeedfasdfasdfsdf)
+[![AtCoder Profile](https://badges.joonhyung.xyz/atcoder/sdlkfjhi983eywkjshdf.svg)](https://atcoder.jp/users/sdlkfjhi983eywkjshdf)
 
-**Username:** [sdfsadfasdfaseeedfasdfasdfsdf](https://atcoder.jp/users/sdfsadfasdfaseeedfasdfasdfsdf)
+**Username:** [sdlkfjhi983eywkjshdf](https://atcoder.jp/users/sdlkfjhi983eywkjshdf)
 
 ### 📊 Total Problems Solved: **0**
 
@@ -33,6 +33,6 @@
 
 <div align="center">
 
-*Last Updated: January 19, 2026 at 19:32 BDT (UTC+6)*
+*Last Updated: January 19, 2026 at 19:34 BDT (UTC+6)*
 
 </div>
