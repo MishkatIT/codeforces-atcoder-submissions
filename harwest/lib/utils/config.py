@@ -2,6 +2,10 @@ import json
 import os
 from pathlib import Path
 
+import re
+from pygments.lexers import get_lexer_by_name
+from pygments.util import ClassNotFound
+
 ROOT_DIR = Path(__file__).parent.parent.parent
 RESOURCES_DIR = ROOT_DIR.joinpath('lib', 'resources')
 # Config directory at repository root (one level up from harwest package)
@@ -60,70 +64,100 @@ def get_remote_url():
 
 
 
+
+priorityMp = {
+    "cpp": ["cpp", "cc", "cxx"],
+    "c": ["c"],
+    "python": ["py"],
+    "java": ["java"],
+    "javascript": ["js"],
+    "go": ["go"],
+    "rust": ["rs"],
+    "kotlin": ["kt"],
+    "csharp": ["cs"],
+    "php": ["php"],
+}
+
+
+def normalize_lang(langName):
+    s = langName.lower()
+
+    if "c++" in s or "cpp" in s or "g++" in s:
+        return "cpp"
+
+    if s.startswith("c") and "c++" not in s:
+        return "c"
+
+    if "python" in s or "pypy" in s:
+        return "python"
+
+    if "java" in s and "script" not in s:
+        return "java"
+
+    if "javascript" in s or "node" in s:
+        return "javascript"
+
+    if "go" in s or "golang" in s:
+        return "go"
+
+    if "rust" in s:
+        return "rust"
+
+    if "kotlin" in s:
+        return "kotlin"
+
+    if "c#" in s or "csharp" in s:
+        return "csharp"
+
+    if "php" in s:
+        return "php"
+
+    return re.sub(r'\d+', '', s)
+
+
 def fetch_language_extension_with_pygments(lang_name):
-  """Fetch language extension using Pygments."""
-  try:
-    from pygments.lexers import get_lexer_by_name, find_lexer_class_by_name
-    from pygments.util import ClassNotFound
-  except ImportError:
-    print("[harwest] Pygments is not installed. Please install it with 'pip install pygments'.")
-    return None
-  # Normalize language names for Pygments
-  normalized = lang_name.lower().strip()
-  # Common normalization rules
-  if 'c++' in normalized:
-    normalized = 'cpp'
-  elif 'python' in normalized:
-    normalized = 'python'
-  elif 'java' in normalized:
-    normalized = 'java'
-  elif 'c#' in normalized:
-    normalized = 'csharp'
-  elif 'c ' == normalized or normalized == 'c':
-    normalized = 'c'
-  elif 'javascript' in normalized or 'node' in normalized:
-    normalized = 'javascript'
-  elif 'ruby' in normalized:
-    normalized = 'ruby'
-  elif 'go' in normalized:
-    normalized = 'go'
-  elif 'php' in normalized:
-    normalized = 'php'
-  # Add more rules as needed
-  try:
-    lexer = None
-    from pygments.lexers import get_lexer_by_name, find_lexer_class_by_name
-    from pygments.util import ClassNotFound
     try:
-      lexer = get_lexer_by_name(normalized)
+        key = normalize_lang(lang_name)
+        lexer = get_lexer_by_name(key)
+        return lexer.filenames
     except ClassNotFound:
-      lexer_cls = find_lexer_class_by_name(normalized)
-      if lexer_cls:
-        lexer = lexer_cls()
-    if lexer:
-      exts = getattr(lexer, 'filenames', [])
-      if exts:
-        ext = exts[0].split('.')[-1]
-        return ext
-  except Exception as e:
-    print(f"Warning: Could not fetch extension for '{lang_name}' using Pygments: {e}")
-  return None
+        return None
+
+
+def choose_extension(langKey, files):
+    if langKey in priorityMp:
+        for p in priorityMp[langKey]:
+            for f in files:
+                if f.endswith(p):
+                    return p
+    return None
+
 
 def get_language_extension(lang_name):
-  if lang_name not in lang_dict.keys():
-    ext = fetch_language_extension_with_pygments(lang_name)
-    if ext:
-      # Store in language.json for future use
-      lang_dict[lang_name] = ext
-      with open(str(RESOURCES_DIR.joinpath('language.json')), 'w', encoding='utf-8') as f:
-        json.dump(lang_dict, f, indent=2, sort_keys=True)
-      print(f"[harwest] Learned extension for '{lang_name}': .{ext}")
-      return ext
-    # Log warning and return a default extension
+    if lang_name in lang_dict:
+        return lang_dict[lang_name]
+
+    langKey = normalize_lang(lang_name)
+
+    files = fetch_language_extension_with_pygments(lang_name)
+
+    if files:
+        ans = choose_extension(langKey, files)
+
+        if ans:
+            lang_dict[lang_name] = ans
+
+            with open(str(RESOURCES_DIR.joinpath('language.json')),
+                      'w', encoding='utf-8') as f:
+                json.dump(lang_dict, f, indent=2, sort_keys=True)
+
+            print(f"[harwest] Auto-learned extension for '{lang_name}': .{ans}")
+            return ans
+
     print(f"Warning: Unknown language '{lang_name}', using .txt extension")
     print(f"   You can add this language to {RESOURCES_DIR.joinpath('language.json')}")
     return "txt"
-  return lang_dict[lang_name]
+
 
 
 def load_submissions_data(path):

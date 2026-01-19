@@ -141,18 +141,22 @@ def clear_submissions(repo_root):
 
 
 
-    # Clear users.json as well
-    config_dir = repo_root / 'config'
-    users_json = config_dir / 'users.json'
-    if users_json.exists():
-        try:
-            users_json.write_text("""{
+    # Prompt before clearing users.json (handles/config)
+    clear_config_choice = input(f"{YELLOW}{BOLD}Do you also want to DELETE your config data (handles, etc.)? (yes/no): {RESET}").strip().lower()
+    if clear_config_choice in ['yes', 'y']:
+        config_dir = repo_root / 'config'
+        users_json = config_dir / 'users.json'
+        if users_json.exists():
+            try:
+                users_json.write_text("""{
   "codeforces": [],
   "atcoder": []
 }""", encoding='utf-8')
-            print_success('Cleared users.json')
-        except Exception as e:
-            print_error(f'Failed to clear users.json: {e}')
+                print_success('Cleared users.json')
+            except Exception as e:
+                print_error(f'Failed to clear users.json: {e}')
+        else:
+            print_warning('users.json does not exist.')
 
     if cleared:
         print_success(f"Cleared: {', '.join(cleared)}")
