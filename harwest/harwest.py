@@ -147,10 +147,9 @@ def process_platform(args, platform, workflow):
     # Check if we have a valid username
     if platform.lower() not in configs or not configs[platform.lower()]:
       print(f"\n{RED}{'═' * 70}{RESET}")
-      print(f"{RED}{BOLD}⚠️  WARNING: No username configured{RESET}")
+      print(f"{RED}{BOLD}⚠️  WARNING: No username configured for {platform}{RESET}")
       print(f"{RED}{'─' * 70}{RESET}")
-      print(f"{YELLOW}Platform: {platform}{RESET}")
-      print(f"{YELLOW}Add username to config/users.json or run: harwest {platform.lower()} --setup{RESET}")
+      print(f"{YELLOW}run: python fresh_start.py {RESET}")
       print(f"{RED}{'═' * 70}{RESET}\n")
       return
     
