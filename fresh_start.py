@@ -138,10 +138,24 @@ def clear_submissions(repo_root):
     # Recreate platform directories
     (submissions_dir / 'codeforces').mkdir(exist_ok=True)
     (submissions_dir / 'atcoder').mkdir(exist_ok=True)
-    
+
+
+
+    # Clear users.json as well
+    config_dir = repo_root / 'config'
+    users_json = config_dir / 'users.json'
+    if users_json.exists():
+        try:
+            users_json.write_text("""{
+  "codeforces": [],
+  "atcoder": []
+}""", encoding='utf-8')
+            print_success('Cleared users.json')
+        except Exception as e:
+            print_error(f'Failed to clear users.json: {e}')
+
     if cleared:
         print_success(f"Cleared: {', '.join(cleared)}")
-    
     return True
 
 
@@ -169,7 +183,6 @@ _Not configured yet_
 <th>Problem</th>
 <th align="center">Solution</th>
 <th>Tags</th>
-<th align="center">Submitted</th>
 </tr>
 </thead>
 <tbody>
@@ -178,7 +191,6 @@ _Not configured yet_
 </tr>
 </tbody>
 </table>
-
 ---
 
 **Total Solved Problems:** 0
@@ -192,30 +204,110 @@ _Not configured yet_
 def setup_config(repo_root):
     """Setup configuration for the user."""
     print_header("⚙️  CONFIGURATION SETUP")
-    
+
     # Setup users.json
     config_dir = repo_root / 'config'
     users_json = config_dir / 'users.json'
-    
+
+    # Load detected config if available
+    detected_config = {}
+    if users_json.exists():
+        try:
+            with open(users_json, 'r', encoding='utf-8') as f:
+                detected_config = json.load(f)
+        except Exception as e:
+            print_warning(f"Could not read users.json: {e}")
+
     print_info("Configure your platform usernames")
     print("(Press Enter to skip a platform)\n")
-    
+
     # Get Codeforces username
-    cf_username = input(f"{BLUE}Codeforces username: {RESET}").strip()
-    
+    detected_cf = ''
+    if 'codeforces' in detected_config and detected_config['codeforces']:
+        detected_cf = ', '.join(map(str, detected_config['codeforces']))
+        print(f"{GREEN}{BOLD}Detected Codeforces username: [{detected_cf}]{RESET}")
+        print(f"{YELLOW}Press Enter to keep it or enter new if you want to change.{RESET}")
+    else:
+        print(f"{YELLOW}No Codeforces username detected. Enter new if you want to set one.{RESET}")
+    cf_username = input(f"{BLUE}Codeforces username [{detected_cf}]: {RESET}").strip()
+    if not cf_username and detected_cf:
+        cf_username = detected_cf
+
     # Get AtCoder username
-    ac_username = input(f"{BLUE}AtCoder username: {RESET}").strip()
-    
-    # Build config
+    detected_ac = ''
+    if 'atcoder' in detected_config and detected_config['atcoder']:
+        detected_ac = ', '.join(map(str, detected_config['atcoder']))
+        print(f"{GREEN}{BOLD}Detected AtCoder username: [{detected_ac}]{RESET}")
+        print(f"{YELLOW}Press Enter to keep it or enter new if you want to change.{RESET}")
+    else:
+        print(f"{YELLOW}No AtCoder username detected. Enter new if you want to set one.{RESET}")
+    ac_username = input(f"{BLUE}AtCoder username [{detected_ac}]: {RESET}").strip()
+    if not ac_username and detected_ac:
+        ac_username = detected_ac
+
+    # Try to get current git config
+    git_name = detected_config.get('name', '')
+    git_email = detected_config.get('email', '')
+    try:
+        import subprocess
+        git_name_git = subprocess.check_output(['git', 'config', 'user.name'], 
+                                          cwd=repo_root, text=True).strip()
+        git_email_git = subprocess.check_output(['git', 'config', 'user.email'], 
+                                           cwd=repo_root, text=True).strip()
+        if not git_name:
+            git_name = git_name_git
+        if not git_email:
+            git_email = git_email_git
+    except:
+        pass
+
+    if git_name:
+        print(f"{GREEN}{BOLD}Detected name: [{git_name}]{RESET}")
+        print(f"{YELLOW}Press Enter to keep it or enter new if you want to change.{RESET}")
+    else:
+        print(f"{YELLOW}No name detected. Enter new if you want to set one.{RESET}")
+    name_input = input(f"Your name [{git_name or 'GitHub Actions'}]: ").strip()
+    if not name_input and git_name:
+        name_input = git_name
+
+    if git_email:
+        print(f"{GREEN}{BOLD}Detected email: [{git_email}]{RESET}")
+        print(f"{YELLOW}Press Enter to keep it or enter new if you want to change.{RESET}")
+    else:
+        print(f"{YELLOW}No email detected. Enter new if you want to set one.{RESET}")
+    email_input = input(f"Your email [{git_email or 'actions@github.com'}]: ").strip()
+    if not email_input and git_email:
+        email_input = git_email
+
+    author_name = name_input or git_name or 'GitHub Actions'
+    author_email = email_input or git_email or 'actions@github.com'
+
+    # Try to get remote URL
+    remote_url = ""
+    try:
+        import subprocess
+        remote_url = subprocess.check_output(['git', 'config', 'remote.origin.url'], 
+                                            cwd=repo_root, text=True).strip()
+    except:
+        pass
+
+    # Build unified config for users.json
     users_config = {
+        'name': author_name,
+        'email': author_email,
+        'directory': str(repo_root / 'submissions'),
+        'remote': remote_url,
         'codeforces': [cf_username] if cf_username else [],
         'atcoder': [ac_username] if ac_username else []
     }
-    
-    # Save config
+
+
+    # Save config, create file if not exists
     config_dir.mkdir(exist_ok=True)
+    if not users_json.exists():
+        users_json.touch()
     users_json.write_text(json.dumps(users_config, indent=2), encoding='utf-8')
-    
+
     if cf_username or ac_username:
         print_success("Username configuration saved!")
         if cf_username:
@@ -224,57 +316,10 @@ def setup_config(repo_root):
             print(f"  • AtCoder: {ac_username}")
     else:
         print_warning("No usernames configured - you can add them later in config/users.json")
-    
-    # Setup git config
-    print()
-    print_info("Configure git author information")
-    print("(Leave empty to auto-detect from git)\n")
-    
-    # Try to get current git config
-    git_name = ""
-    git_email = ""
-    try:
-        import subprocess
-        git_name = subprocess.check_output(['git', 'config', 'user.name'], 
-                                          cwd=repo_root, text=True).strip()
-        git_email = subprocess.check_output(['git', 'config', 'user.email'], 
-                                           cwd=repo_root, text=True).strip()
-        print_info(f"Detected: {git_name} <{git_email}>")
-    except:
-        pass
-    
-    # Get user input
-    name_input = input(f"Your name [{git_name or 'GitHub Actions'}]: ").strip()
-    email_input = input(f"Your email [{git_email or 'actions@github.com'}]: ").strip()
-    
-    author_name = name_input or git_name or 'GitHub Actions'
-    author_email = email_input or git_email or 'actions@github.com'
-    
-    # Save to setup.json
-    resources_dir = repo_root / 'harwest' / 'lib' / 'resources'
-    setup_json = resources_dir / 'setup.json'
-    
-    setup_config = {
-        'name': author_name,
-        'email': author_email,
-        'directory': str(repo_root / 'submissions')
-    }
-    
-    # Try to get remote URL
-    try:
-        import subprocess
-        remote_url = subprocess.check_output(['git', 'config', 'remote.origin.url'], 
-                                            cwd=repo_root, text=True).strip()
-        setup_config['remote'] = remote_url
-    except:
-        pass
-    
-    resources_dir.mkdir(parents=True, exist_ok=True)
-    setup_json.write_text(json.dumps(setup_config, indent=2), encoding='utf-8')
-    
+
     print_success(f"Git configuration saved: {author_name} <{author_email}>")
     
-    return users_config, setup_config
+    return users_config, users_config
 
 
 def git_commit_and_push(repo_root):
@@ -338,59 +383,37 @@ def git_commit_and_push(repo_root):
 
 def main():
     """Main reset function."""
-    print(f"""
-{CYAN}╔═══════════════════════════════════════════════════════════════════╗
-║                                                                   ║
-║         ✨  HARWEST FRESH START SETUP  ✨                       ║
-║                                                                   ║
-║         Perfect for fork users and fresh start scenarios        ║
-║                                                                   ║
-╚═══════════════════════════════════════════════════════════════════╝{RESET}
-""")
-    
     # Get repository root
     repo_root = Path(__file__).parent
     print_info(f"Repository: {repo_root}\n")
-    
+
     try:
-        # Analyze repository
+        # Step 1: Ask for removal first
         has_data = analyze_repository(repo_root)
-        
+        clear_choice = 'no'
         if has_data:
             print()
-            response = input(f"{YELLOW}{BOLD}⚠️  Do you want to DELETE all this data? (yes/no): {RESET}").strip().lower()
-            
-            if response not in ['yes', 'y']:
-                print_warning("Reset cancelled. No changes made.")
-                return
-        
-        # Clear submissions
-        clear_submissions(repo_root)
-        
-        # Reset markdown files
-        reset_markdown_files(repo_root)
-        
-        # Setup configuration
+            clear_choice = input(f"{YELLOW}{BOLD}⚠️  Do you want to DELETE all submission/markdown data? (yes/no): {RESET}").strip().lower()
+            if clear_choice in ['yes', 'y']:
+                clear_submissions(repo_root)
+                reset_markdown_files(repo_root)
+                print_success("Submission and markdown data cleared.")
+            else:
+                print_info("Keeping existing submission/markdown data.")
+
+        # Step 2: Config setup, print detected value for each field and prompt for new value
         print()
-        response = input(f"{BLUE}Configure usernames and git settings? (yes/no): {RESET}").strip().lower()
-        
-        if response in ['yes', 'y']:
-            users_config, git_config = setup_config(repo_root)
-        else:
-            print_info("Skipping configuration - you can configure later using:")
-            print(f"  {CYAN}python fresh_start.py{RESET}")
-        
-        # Ask if user wants to auto-push
+        users_config, git_config = setup_config(repo_root)
+
+        # Step 3: Push changes
         print()
-        push_response = input(f"{BLUE}Commit and push changes to remote? (yes/no): {RESET}").strip().lower()
-        
+        push_choice = input(f"{BLUE}Do you want to commit and push changes to remote? (yes/no): {RESET}").strip().lower()
         pushed = False
-        if push_response in ['yes', 'y']:
+        if push_choice in ['yes', 'y']:
             pushed = git_commit_and_push(repo_root)
-        
+
         # Final summary
         print_header("✨ SETUP COMPLETE!")
-        
         if pushed:
             print(f"""
 {GREEN}Your repository is ready to harvest submissions!{RESET}
@@ -446,7 +469,6 @@ def main():
 
 {GREEN}🎉 All set! Your submissions will be harvested automatically every day!{RESET}
 """)
-        
     except KeyboardInterrupt:
         print(f"\n\n{YELLOW}Reset cancelled by user.{RESET}")
         sys.exit(1)

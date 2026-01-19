@@ -10,7 +10,6 @@ class Repository:
     self.submissions_directory = submissions_directory
     self.submission_json_path = \
       os.path.join(self.submissions_directory, "submissions.json")
-    self.readme_path = os.path.join(self.submissions_directory, "README.md")
     self.author = config.get_author()
     if not os.path.exists(self.submissions_directory):
       self.init()
@@ -43,7 +42,6 @@ class Repository:
   def add(self, file_path):
     # Add submission files
     self.git.add(os.path.abspath(file_path))
-    self.git.add(os.path.abspath(self.readme_path))
     self.git.add(os.path.abspath(self.submission_json_path))
     
     # Also add platform-specific markdown files at root level (now in same repo)
@@ -57,7 +55,30 @@ class Repository:
       self.git.add(os.path.abspath(atcoder_md))
 
   def commit(self, commit_message, timestamp):
-    self.git.commit(message=commit_message, date=timestamp, author=self.author)
+    import subprocess
+    # Add all files in the submissions directory
+    self.git.add(os.path.join(self.submissions_directory, '.'))
+    # Add submissions.json explicitly
+    self.git.add(os.path.abspath(self.submission_json_path))
+    # Add root-level markdown files if they exist
+    root_directory = os.path.dirname(os.path.abspath(self.submissions_directory))
+    codeforces_md = os.path.join(root_directory, "codeforces.md")
+    atcoder_md = os.path.join(root_directory, "atcoder.md")
+    if os.path.exists(codeforces_md):
+      self.git.add(os.path.abspath(codeforces_md))
+    if os.path.exists(atcoder_md):
+      self.git.add(os.path.abspath(atcoder_md))
+    # Only commit if there are staged changes
+    try:
+      # Check for staged changes
+      repo_dir = self.git_root
+      result = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo_dir)
+      if result.returncode != 0:
+        self.git.commit(message=commit_message, date=timestamp, author=self.author)
+      else:
+        pass  # No staged changes, skip commit
+    except Exception as e:
+      print(f"[harwest] Commit failed: {e}")
 
   def push(self, force_push=False):
     remote_url = config.get_remote_url()
@@ -66,7 +87,24 @@ class Repository:
     else:
       try:
         self.git.remote("add", "origin", remote_url)
-      except GitCommandError: pass
+      except GitCommandError:
+        pass
+      # Pull latest changes before pushing, stashing if needed
+      try:
+        self.git.pull("origin", "main", "--rebase")
+      except Exception as e:
+        err_msg = str(e)
+        if 'You have unstaged changes' in err_msg or 'Please commit or stash them' in err_msg:
+          print("\u26a0\ufe0f", "Unstaged changes detected, stashing before pull...")
+          try:
+            self.git.stash('save')
+            self.git.pull("origin", "main", "--rebase")
+            self.git.stash('pop')
+            print("\u2705", "Stash applied after pull.")
+          except Exception as e2:
+            print("\u26a0\ufe0f", f"Stash/pull failed: {e2}")
+        else:
+          print("\u26a0\ufe0f", f"Warning: git pull failed: {e}")
       args = ["origin", "main"]
       if force_push:
         args.insert(0, "-f")

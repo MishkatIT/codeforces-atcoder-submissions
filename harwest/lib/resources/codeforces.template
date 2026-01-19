@@ -4,7 +4,9 @@
 
 {profile_placeholder}
 
+
 ### 📊 Total Problems Solved: **{total_problems}**
+<sub>Only public problems are counted. Private problems are not included in this total.</sub>
 
 </div>
 

@@ -193,10 +193,9 @@ class AbstractWorkflow(ABC):
       solution_file_name = str(contest_id) + problem_index + " " + problem_name + "." + lang_ext
       
       platform_name = self.client.get_platform_name()[0].lower()
-      solution_file_path = os.path.join(self.submissions_directory,
-                                        platform_name,
-                                        str(contest_id),
-                                        solution_file_name)
+      solution_dir = os.path.join(self.submissions_directory, platform_name, str(contest_id))
+      os.makedirs(solution_dir, exist_ok=True)
+      solution_file_path = os.path.join(solution_dir, solution_file_name)
       return solution_file_path
     except Exception as e:
       print(f"Error generating solution path: {e}")
@@ -368,6 +367,27 @@ class AbstractWorkflow(ABC):
       print(f"{GREEN}✓ Markdown generated successfully{RESET}")
     except Exception as e:
       print(f"{YELLOW}⚠️  Warning: Failed to generate markdown: {str(e)}{RESET}")
+
+
+    # Final add and commit for any uncommitted changes (e.g., markdown, metadata)
+    try:
+      from datetime import datetime
+      now = datetime.now().strftime('%b/%d/%Y %H:%M')
+      # Explicitly add all relevant files before committing
+      import os
+      submissions_dir = self.submissions_directory if hasattr(self, 'submissions_directory') else self.user_data.get('directory', './submissions')
+      self.repository.git.add(os.path.join(submissions_dir, '.'))
+      # Add root-level markdown files if they exist
+      root_directory = os.path.dirname(os.path.abspath(submissions_dir))
+      codeforces_md = os.path.join(root_directory, "codeforces.md")
+      atcoder_md = os.path.join(root_directory, "atcoder.md")
+      if os.path.exists(codeforces_md):
+          self.repository.git.add(os.path.abspath(codeforces_md))
+      if os.path.exists(atcoder_md):
+          self.repository.git.add(os.path.abspath(atcoder_md))
+      self.repository.commit("Update metadata and markdown after harvest", now)
+    except Exception as e:
+      print(f"{YELLOW}⚠️  Warning: Final add/commit failed: {str(e)}{RESET}")
 
     try:
       self.repository.push()

@@ -15,7 +15,6 @@ _Not configured yet_
 <th>Problem</th>
 <th align="center">Solution</th>
 <th>Tags</th>
-<th align="center">Submitted</th>
 </tr>
 </thead>
 <tbody>
@@ -24,7 +23,6 @@ _Not configured yet_
 </tr>
 </tbody>
 </table>
-
 ---
 
 **Total Solved Problems:** 0
