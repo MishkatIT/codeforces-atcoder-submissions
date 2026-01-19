@@ -1,30 +1,44 @@
-# Atcoder Submissions
+# <img src="https://atcoder.jp/favicon.ico" width="20"/> AtCoder Submissions
 
-> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
+<div align="center">
 
-## Profile
+[![AtCoder Profile](https://badges.joonhyung.xyz/atcoder/sdfsdf.svg)](https://atcoder.jp/users/sdfsdf)
 
-_Not configured yet_
+**Username:** [sdfsdf](https://atcoder.jp/users/sdfsdf)
 
-## Submissions
+### 📊 Total Problems Solved: **1**
+
+</div>
+
+---
+
+## 📝 Recent Submissions
 
 <table>
 <thead>
 <tr>
 <th align="center">#</th>
-<th>Problem</th>
+<th align="left">Problem</th>
 <th align="center">Solution</th>
-<th>Tags</th>
+<th align="left">Tags</th>
+<th align="center">Submitted</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="5" align="center"><i>No submissions yet</i></td>
+<td align="center">1</td>
+<td><a href="https://atcoder.jp/contests/abc405/tasks/abc405_a"><b>A</b> - Is it rated?</a></td>
+<td align="center"><a href="./submissions/atcoder/abc405/abc405A%20Is%20it%20rated_.txt" title="C (gcc 12.2.0)"><code>C (gcc 12.2.0)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>May/24/2025 11:04</sub></td>
 </tr>
 </tbody>
 </table>
+
 ---
 
-**Total Solved Problems:** 0
+<div align="center">
 
-*Last Updated: Never*
+*Last Updated: January 19, 2026 at 19:29 BDT (UTC+6)*
+
+</div>
