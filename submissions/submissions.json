@@ -34063,5 +34063,18 @@
       "greedy"
     ],
     "timestamp": "Jan/18/2026 20:37"
+  },
+  "CF358511516": {
+    "contest_id": 2185,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Shifted MEX",
+    "problem_url": "https://codeforces.com/contest/2185/problem/C",
+    "submission_id": "CF358511516",
+    "submission_url": "https://codeforces.com/contest/2185/submission/358511516",
+    "tags": [],
+    "timestamp": "Jan/18/2026 20:52"
   }
 }
