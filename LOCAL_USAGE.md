@@ -50,20 +50,6 @@ Edit `config/users.json`:
 
 ## 📥 Harvesting Submissions
 
-### Initialize Configuration
-
-First time only - set up local configuration:
-
-```bash
-python -m harwest --init
-```
-
-You'll be asked for:
-- Directory for submissions (default: `./submissions`)
-- Your name (for git commits)
-- Your email (for git commits)
-- Git remote URL (optional)
-
 ### Harvest from Codeforces
 
 ```bash
@@ -103,7 +89,6 @@ python -m harwest codeforces --auto --full-scan
 Markdown files are automatically generated during the harvest process. The tool creates:
 - `atcoder.md` - AtCoder submissions table
 - `codeforces.md` - Codeforces submissions table
-- `submissions/README.md` - Complete submissions list
 
 ## 🔧 Advanced Usage
 

@@ -5,9 +5,10 @@
 {profile_placeholder}
 
 
-### 📊 Total Problems Solved: **{total_problems}**
-<sub>Only public problems are counted. Private problems are not included in this total.</sub>
 
+### 📊 Total Problems Solved: **{total_problems}**
+<div style="color: #d9534f; font-weight: bold; margin-top: 8px;">
+<sub>Only public problems are counted. Private problems are not included in this total.</sub>
 </div>
 
 ---

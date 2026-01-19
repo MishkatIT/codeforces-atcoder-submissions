@@ -69,8 +69,15 @@ This interactive script will:
 
 ### 🔍 Verification
 
+
 Check your configuration is valid:
 
+#### On Windows (Command Prompt):
+```cmd
+type config\users.json
+```
+
+#### On Unix-like systems (Linux, macOS, Git Bash, WSL):
 ```bash
 cat config/users.json
 ```

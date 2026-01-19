@@ -5,6 +5,42 @@ from harwest.lib.utils import config
 
 
 class Submissions:
+  def update_readme_platforms_section(self):
+    """Update the platforms section in README.md using config/users.json"""
+    import json
+    import re
+    config_path = os.path.join(self.root_directory, "config", "users.json")
+    readme_path = os.path.join(self.root_directory, "README.md")
+    # Load usernames
+    try:
+      with open(config_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+      codeforces_users = data.get("codeforces", [])
+      atcoder_users = data.get("atcoder", [])
+    except Exception as e:
+      print(f"Error reading config/users.json: {e}")
+      return
+
+    # Build table with markers
+    table = "<!-- AUTO-UPDATE PLATFORMS SECTION START -->\n"
+    table += "| Platform | Profile | Solutions | Submissions |\n|----------|---------|-----------|-------------|\n"
+    for user in codeforces_users:
+      table += f"| **Codeforces** | [{user}](https://codeforces.com/profile/{user}) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/{user}.svg)](https://codeforces.com/profile/{user}) | [📝 View All](codeforces.md) |\n"
+    for user in atcoder_users:
+      table += f"| **AtCoder** | [{user}](https://atcoder.jp/users/{user}) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/{user}.svg)](https://atcoder.jp/users/{user}) | [📝 View All](atcoder.md) |\n"
+    table += "<!-- AUTO-UPDATE PLATFORMS SECTION END -->\n"
+
+    # Update README.md using markers
+    try:
+      with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+      pattern = r"<!-- AUTO-UPDATE PLATFORMS SECTION START -->([\s\S]*?)<!-- AUTO-UPDATE PLATFORMS SECTION END -->"
+      new_content = re.sub(pattern, table, content, count=1)
+      with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(new_content)
+      print("[OK] Updated platforms section in README.md")
+    except Exception as e:
+      print(f"Error updating README.md: {e}")
   def __init__(self, submissions_directory, user_data, platform_name=None):
     """Initialize Submissions handler with comprehensive error checking"""
     try:
@@ -40,7 +76,12 @@ class Submissions:
       except Exception as e:
         print(f"Warning: Could not determine root directory: {e}")
         self.root_directory = os.path.dirname(submissions_directory)
-        
+
+      # Update README platforms section after config/users.json is loaded
+      try:
+        self.update_readme_platforms_section()
+      except Exception as e:
+        print(f"Warning: Could not update README platforms section: {e}")
     except Exception as e:
       print(f"Critical error initializing Submissions: {e}")
       raise
@@ -75,6 +116,7 @@ class Submissions:
         config.write_submissions_data(self.submission_json_path, self.store)
       except Exception as e:
         print(f"Error: Failed to save submissions data: {e}")
+      # No longer call update_readme_platforms.py; handled internally
         
     except Exception as e:
       print(f"Error adding submission: {e}")
@@ -106,6 +148,7 @@ class Submissions:
         config.write_submissions_data(self.submission_json_path, self.store)
       except Exception as e:
         print(f"Error: Failed to save submissions data: {e}")
+      # No longer call update_readme_platforms.py; handled internally
       
       # Optionally regenerate markdown
       if not skip_markdown:

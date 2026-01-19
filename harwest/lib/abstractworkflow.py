@@ -1,4 +1,6 @@
 import os
+import sys
+
 from abc import ABC, abstractmethod
 
 from harwest.lib.utils import config
@@ -71,7 +73,7 @@ class AbstractWorkflow(ABC):
           existing_tags = set(existing.get('tags', []))
           new_tags = set(submission.get('tags', []))
           if existing_tags != new_tags:
-            print(f"Info: Updating tags for submission {submission_id}")
+            submission['__info_message'] = 'Info: Updating Tags'
             # Update only metadata, keep existing path
             submission['path'] = existing.get('path')
             self.submissions.update(submission, skip_markdown=True)
@@ -107,9 +109,9 @@ class AbstractWorkflow(ABC):
       
       # If code fetch failed, store submission with link only (no file)
       if solution_code is None:
-        print("Code unavailable; link only. Reason: code not provided or fetch failed.")
         submission['path'] = None  # Mark as no file available
         # Submission will be added with link only - no file to commit
+        submission['__info_message'] = f"Info: {self.client.get_platform_name()[0]} did not provide solution code; storing submission with link only."
       else:
         # Write solution file
         try:
@@ -247,7 +249,11 @@ class AbstractWorkflow(ABC):
     if len(problem_name) > 40:
       problem_name = problem_name[:37] + "..."
     
-    text += f" {YELLOW}{problem_name}{RESET}"
+    # If submission has an info message, append it to the progress bar
+    info_message = submission.get('__info_message')
+    text += f"{problem_name}{RESET}"
+    if info_message:
+      text += f"[{info_message}]{RESET}"
     print("\r", " " * width, end='\r')
     print(text, end='\r')
     

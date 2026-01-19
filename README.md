@@ -30,10 +30,24 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 
 ### 🎯 Platforms
 
+<!-- AUTO-UPDATE PLATFORMS SECTION START -->
 | Platform | Profile | Solutions | Submissions |
 |----------|---------|-----------|-------------|
-| **Codeforces** | [MishkatIT](https://codeforces.com/profile/MishkatIT) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT) | [📝 View All](codeforces.md) |
+| **Codeforces** | [Mitmax](https://codeforces.com/profile/Mitmax) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/Mitmax.svg)](https://codeforces.com/profile/Mitmax) | [📝 View All](codeforces.md) |
 | **AtCoder** | [MishkatIT](https://atcoder.jp/users/MishkatIT) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT) | [📝 View All](atcoder.md) |
+<!-- AUTO-UPDATE PLATFORMS SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 📁 Repository Structure
 
