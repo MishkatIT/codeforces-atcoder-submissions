@@ -180,11 +180,12 @@ class AbstractWorkflow(ABC):
       submission_lang = submission.get('language', 'Unknown')
       lang_ext = config.get_language_extension(submission_lang)
       
-      # Characters to be replaced with underscores
-      characters_to_replace = ["#", "%", "&", "{", "}", "\\", "<", ">", "*", "?", "/", "$", "!", "'", '"', ":", "@",
-                               "+", "`", "|", "="]
-      
-      # Replace invalid characters with underscores
+      # Characters to be replaced with underscores (add space and more for Windows safety)
+      characters_to_replace = [
+        "#", "%", "&", "{", "}", "\\", "<", ">", "*", "?", "/", "$", "!", "'", '"', ":", "@",
+        "+", "`", "|", "=", ",", ";", " ", "[", "]", "(", ")"
+      ]
+      # Replace invalid characters (including spaces) with underscores
       problem_name = submission.get('problem_name', 'Unknown_Problem')
       for char in characters_to_replace:
         problem_name = problem_name.replace(char, "_")
