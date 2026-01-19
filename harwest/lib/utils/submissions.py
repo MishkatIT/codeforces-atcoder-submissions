@@ -67,11 +67,6 @@ class Submissions:
       # Only generate markdown if not skipped (for batch efficiency)
       if not skip_markdown:
         try:
-          self.__generate_readme(list(self.store.values()))
-        except Exception as e:
-          print(f"Warning: Failed to generate README: {e}")
-        
-        try:
           self.__generate_platform_markdown()
         except Exception as e:
           print(f"Warning: Failed to generate platform markdown: {e}")
@@ -115,7 +110,6 @@ class Submissions:
       # Optionally regenerate markdown
       if not skip_markdown:
         try:
-          self.__generate_readme(list(self.store.values()))
           self.__generate_platform_markdown()
         except Exception as e:
           print(f"Warning: Failed to generate markdown: {e}")
@@ -125,11 +119,6 @@ class Submissions:
   
   def generate_all_markdown(self):
     """Generate all markdown files (README and platform-specific)"""
-    try:
-      self.__generate_readme(list(self.store.values()))
-    except Exception as e:
-      print(f"Warning: Failed to generate README: {e}")
-    
     try:
       self.__generate_platform_markdown()
     except Exception as e:
@@ -154,59 +143,59 @@ class Submissions:
       )
     return profile
 
-  def __generate_readme(self, submissions):
-    submissions = sorted(
-      submissions,
-      key=lambda s: datetime.strptime(s['timestamp'], '%b/%d/%Y %H:%M'),
-      reverse=True
-    )
-    index = len(set([x['problem_url'] for x in submissions]))
-    problems = set()
-    rows = []
+  # def __generate_readme(self, submissions):
+  #   submissions = sorted(
+  #     submissions,
+  #     key=lambda s: datetime.strptime(s['timestamp'], '%b/%d/%Y %H:%M'),
+  #     reverse=True
+  #   )
+  #   index = len(set([x['problem_url'] for x in submissions]))
+  #   problems = set()
+  #   rows = []
     
-    # Get GitHub repository URL from environment variable or use relative paths
-    github_repo_url = os.environ.get('GITHUB_REPOSITORY', '')
-    if github_repo_url and not github_repo_url.startswith('http'):
-      # Convert GITHUB_REPOSITORY format (owner/repo) to full URL
-      github_repo_url = f'https://github.com/{github_repo_url}'
+  #   # Get GitHub repository URL from environment variable or use relative paths
+  #   github_repo_url = os.environ.get('GITHUB_REPOSITORY', '')
+  #   if github_repo_url and not github_repo_url.startswith('http'):
+  #     # Convert GITHUB_REPOSITORY format (owner/repo) to full URL
+  #     github_repo_url = f'https://github.com/{github_repo_url}'
     
-    for submission in submissions:
-      if submission['problem_url'] in problems:
-        continue
-      problems.add(submission['problem_url'])
-      row = str(index) + " | "
-      row += '[{problem_index} - {problem_name}]({problem_url}) | '.format(
-        problem_index=submission['problem_index'],
-        problem_name=submission['problem_name'],
-        problem_url=submission['problem_url']
-      )
+  #   for submission in submissions:
+  #     if submission['problem_url'] in problems:
+  #       continue
+  #     problems.add(submission['problem_url'])
+  #     row = str(index) + " | "
+  #     row += '[{problem_index} - {problem_name}]({problem_url}) | '.format(
+  #       problem_index=submission['problem_index'],
+  #       problem_name=submission['problem_name'],
+  #       problem_url=submission['problem_url']
+  #     )
       
-      # Convert backslashes to forward slashes for GitHub compatibility
-      github_path = submission['path'].replace('\\', '/')
-      # Replace spaces with %20 in the file path for URL encoding
-      github_path_encoded = github_path.replace(' ', '%20')
+  #     # Convert backslashes to forward slashes for GitHub compatibility
+  #     github_path = submission['path'].replace('\\', '/')
+  #     # Replace spaces with %20 in the file path for URL encoding
+  #     github_path_encoded = github_path.replace(' ', '%20')
       
-      # Create solution link - use full GitHub URL if available, otherwise relative path
-      if github_repo_url:
-        # Get branch name from environment or default to main
-        branch = os.environ.get('GITHUB_REF_NAME', 'main')
-        github_file_url = f"{github_repo_url}/blob/{branch}/{github_path_encoded}"
-        row += '[{lang}]({url} "{lang}") | '.format(
-          lang=submission['language'],
-          url=github_file_url
-        )
-      else:
-        # Fallback to relative path
-        row += '[{lang}](./{path}) | '.format(
-          lang=submission['language'],
-          path=github_path_encoded
-        )
+  #     # Create solution link - use full GitHub URL if available, otherwise relative path
+  #     if github_repo_url:
+  #       # Get branch name from environment or default to main
+  #       branch = os.environ.get('GITHUB_REF_NAME', 'main')
+  #       github_file_url = f"{github_repo_url}/blob/{branch}/{github_path_encoded}"
+  #       row += '[{lang}]({url} "{lang}") | '.format(
+  #         lang=submission['language'],
+  #         url=github_file_url
+  #       )
+  #     else:
+  #       # Fallback to relative path
+  #       row += '[{lang}](./{path}) | '.format(
+  #         lang=submission['language'],
+  #         path=github_path_encoded
+  #       )
       
-      row += ' '.join(['`{tag}`'.format(tag=x) for x in submission['tags']])
-      row += " | "
-      row += str(submission['timestamp']) + " | "
-      rows.append(row)
-      index -= 1
+  #     row += ' '.join(['`{tag}`'.format(tag=x) for x in submission['tags']])
+  #     row += " | "
+  #     row += str(submission['timestamp']) + " | "
+  #     rows.append(row)
+  #     index -= 1
 
     # README.md generation logic removed
 

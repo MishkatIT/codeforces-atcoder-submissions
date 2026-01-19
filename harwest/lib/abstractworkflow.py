@@ -107,7 +107,7 @@ class AbstractWorkflow(ABC):
       
       # If code fetch failed, store submission with link only (no file)
       if solution_code is None:
-        print(f"Info: Code unavailable for {submission_id}, storing only submission link")
+        print("Code unavailable; link only. Reason: code not provided or fetch failed.")
         submission['path'] = None  # Mark as no file available
         # Submission will be added with link only - no file to commit
       else:
