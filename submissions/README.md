@@ -64,17 +64,17 @@ A repository to keep track of problem solving practice, containing solutions fro
 96 | [B - Typing](https://atcoder.jp/contests/abc352/tasks/abc352_b) | [C++ 20 (gcc 12.2)](./atcoder/abc352/abc352B%20Typing.cpp) | `AtCoder` `*200` | Apr/25/2025 19:28 | 
 95 | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b) | [C++ 20 (gcc 12.2)](./atcoder/dp/dpB%20Frog%202.cpp) | `AtCoder` `*100` | Apr/21/2025 08:08 | 
 94 | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a) | [C++ 20 (gcc 12.2)](./atcoder/dp/dpA%20Frog%201.cpp) | `AtCoder` `*100` | Apr/21/2025 08:06 | 
-93 | [A - Registration](https://atcoder.jp/contests/abc167/tasks/abc167_a) | [C++ 20 (gcc 12.2)](./atcoder/abc167/abc167A%20Registration.cpp) | `AtCoder` `*100` | Apr/17/2025 20:35 | 
-92 | [B - Prefix and Suffix](https://atcoder.jp/contests/abc322/tasks/abc322_b) | [C++ 20 (gcc 12.2)](./atcoder/abc322/abc322B%20Prefix%20and%20Suffix.cpp) | `AtCoder` `*200` | Apr/17/2025 20:35 | 
+93 | [B - Prefix and Suffix](https://atcoder.jp/contests/abc322/tasks/abc322_b) | [C++ 20 (gcc 12.2)](./atcoder/abc322/abc322B%20Prefix%20and%20Suffix.cpp) | `AtCoder` `*200` | Apr/17/2025 20:35 | 
+92 | [A - Registration](https://atcoder.jp/contests/abc167/tasks/abc167_a) | [C++ 20 (gcc 12.2)](./atcoder/abc167/abc167A%20Registration.cpp) | `AtCoder` `*100` | Apr/17/2025 20:35 | 
 91 | [C - Many Formulas](https://atcoder.jp/contests/abc045/tasks/arc061_a) | [C++ 20 (gcc 12.2)](./atcoder/abc045/abc045C%20Many%20Formulas.cpp) | `AtCoder` `*300` | Apr/17/2025 20:29 | 
 90 | [A - Can't Wait for Holiday](https://atcoder.jp/contests/abc146/tasks/abc146_a) | [C++ 20 (gcc 12.2)](./atcoder/abc146/abc146A%20Can_t%20Wait%20for%20Holiday.cpp) | `AtCoder` `*100` | Apr/17/2025 16:51 | 
 89 | [B - racecar](https://atcoder.jp/contests/abc307/tasks/abc307_b) | [C++ 20 (gcc 12.2)](./atcoder/abc307/abc307B%20racecar.cpp) | `AtCoder` `*200` | Apr/14/2025 03:29 | 
 88 | [A - Rainy Season](https://atcoder.jp/contests/abc175/tasks/abc175_a) | [C++ 20 (gcc 12.2)](./atcoder/abc175/abc175A%20Rainy%20Season.cpp) | `AtCoder` `*100` | Apr/14/2025 02:56 | 
 87 | [A - Changing a Character](https://atcoder.jp/contests/abc126/tasks/abc126_a) | [C++ 20 (gcc 12.2)](./atcoder/abc126/abc126A%20Changing%20a%20Character.cpp) | `AtCoder` `*100` | Apr/14/2025 02:54 | 
 86 | [B - 1D Keyboard](https://atcoder.jp/contests/abc373/tasks/abc373_b) | [C++ 20 (gcc 12.2)](./atcoder/abc373/abc373B%201D%20Keyboard.cpp) | `AtCoder` `*200` | Apr/13/2025 20:21 | 
-85 | [B - Nice Grid](https://atcoder.jp/contests/abc264/tasks/abc264_b) | [C++ 20 (gcc 12.2)](./atcoder/abc264/abc264B%20Nice%20Grid.cpp) | `AtCoder` `*200` | Apr/10/2025 12:39 | 
+85 | [B - Counting Roads](https://atcoder.jp/contests/abc061/tasks/abc061_b) | [C++ 20 (gcc 12.2)](./atcoder/abc061/abc061B%20Counting%20Roads.cpp) | `AtCoder` `*200` | Apr/10/2025 12:39 | 
 84 | [B - Grid Walk](https://atcoder.jp/contests/abc364/tasks/abc364_b) | [C++ 20 (gcc 12.2)](./atcoder/abc364/abc364B%20Grid%20Walk.cpp) | `AtCoder` `*200` | Apr/10/2025 12:39 | 
-83 | [B - Counting Roads](https://atcoder.jp/contests/abc061/tasks/abc061_b) | [C++ 20 (gcc 12.2)](./atcoder/abc061/abc061B%20Counting%20Roads.cpp) | `AtCoder` `*200` | Apr/10/2025 12:39 | 
+83 | [B - Nice Grid](https://atcoder.jp/contests/abc264/tasks/abc264_b) | [C++ 20 (gcc 12.2)](./atcoder/abc264/abc264B%20Nice%20Grid.cpp) | `AtCoder` `*200` | Apr/10/2025 12:39 | 
 82 | [ABC081B - Shift only](https://atcoder.jp/contests/abs/tasks/abc081_b) | [C++ 20 (gcc 12.2)](./atcoder/abs/absABC081B%20Shift%20only.cpp) | `AtCoder` `*200` | Apr/10/2025 12:38 | 
 81 | [B - Second Best](https://atcoder.jp/contests/abc365/tasks/abc365_b) | [C++ 20 (gcc 12.2)](./atcoder/abc365/abc365B%20Second%20Best.cpp) | `AtCoder` `*200` | Apr/06/2025 21:54 | 
 80 | [B - Adjacency Matrix](https://atcoder.jp/contests/abc343/tasks/abc343_b) | [C++ 20 (gcc 12.2)](./atcoder/abc343/abc343B%20Adjacency%20Matrix.cpp) | `AtCoder` `*150` | Apr/06/2025 21:51 | 
@@ -84,9 +84,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 76 | [A - Three Threes](https://atcoder.jp/contests/abc333/tasks/abc333_a) | [C++ 20 (gcc 12.2)](./atcoder/abc333/abc333A%20Three%20Threes.cpp) | `AtCoder` `*100` | Mar/28/2025 04:55 | 
 75 | [B - Make Target](https://atcoder.jp/contests/abc395/tasks/abc395_b) | [C++ 20 (gcc 12.2)](./atcoder/abc395/abc395B%20Make%20Target.cpp) | `AtCoder` `*200` | Mar/28/2025 03:57 | 
 74 | [A - Strictly Increasing?](https://atcoder.jp/contests/abc395/tasks/abc395_a) | [C++ 20 (gcc 12.2)](./atcoder/abc395/abc395A%20Strictly%20Increasing_.cpp) | `AtCoder` `*100` | Mar/26/2025 00:09 | 
-73 | [A - Adjacent Product](https://atcoder.jp/contests/abc346/tasks/abc346_a) | [C++ 20 (gcc 12.2)](./atcoder/abc346/abc346A%20Adjacent%20Product.cpp) | `AtCoder` `*100` | Mar/26/2025 00:08 | 
+73 | [A - Count Down](https://atcoder.jp/contests/abc281/tasks/abc281_a) | [C++ 20 (gcc 12.2)](./atcoder/abc281/abc281A%20Count%20Down.cpp) | `AtCoder` `*100` | Mar/26/2025 00:08 | 
 72 | [A - Insert](https://atcoder.jp/contests/abc361/tasks/abc361_a) | [C++ 20 (gcc 12.2)](./atcoder/abc361/abc361A%20Insert.cpp) | `AtCoder` `*100` | Mar/26/2025 00:08 | 
-71 | [A - Count Down](https://atcoder.jp/contests/abc281/tasks/abc281_a) | [C++ 20 (gcc 12.2)](./atcoder/abc281/abc281A%20Count%20Down.cpp) | `AtCoder` `*100` | Mar/26/2025 00:08 | 
+71 | [A - Adjacent Product](https://atcoder.jp/contests/abc346/tasks/abc346_a) | [C++ 20 (gcc 12.2)](./atcoder/abc346/abc346A%20Adjacent%20Product.cpp) | `AtCoder` `*100` | Mar/26/2025 00:08 | 
 70 | [A - Wrong Answer](https://atcoder.jp/contests/abc343/tasks/abc343_a) | [C++ 20 (gcc 12.2)](./atcoder/abc343/abc343A%20Wrong%20Answer.cpp) | `AtCoder` `*100` | Mar/24/2025 02:36 | 
 69 | [A - Welcome to AtCoder Land](https://atcoder.jp/contests/abc358/tasks/abc358_a) | [C++ 20 (gcc 12.2)](./atcoder/abc358/abc358A%20Welcome%20to%20AtCoder%20Land.cpp) | `AtCoder` `*100` | Mar/24/2025 02:34 | 
 68 | [A - Buy a Pen](https://atcoder.jp/contests/abc362/tasks/abc362_a) | [C++ 20 (gcc 12.2)](./atcoder/abc362/abc362A%20Buy%20a%20Pen.cpp) | `AtCoder` `*100` | Mar/24/2025 02:33 | 
