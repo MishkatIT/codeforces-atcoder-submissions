@@ -410,6 +410,16 @@ def main():
         print()
         users_config, git_config = setup_config(repo_root)
 
+        # Update README.md platforms section
+        try:
+            from harwest.lib.utils.submissions import Submissions
+            submissions_dir = repo_root / 'submissions'
+            s = Submissions(str(submissions_dir), users_config)
+            s.update_readme_platforms_section()
+            print_success('README.md platforms section updated!')
+        except Exception as e:
+            print_warning(f'Could not update README.md platforms section: {e}')
+
         # Step 3: Push changes
         print()
         push_choice = input(f"{BLUE}Do you want to commit and push changes to remote? (yes/no): {RESET}").strip().lower()
