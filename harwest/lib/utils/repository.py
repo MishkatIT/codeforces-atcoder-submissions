@@ -8,8 +8,7 @@ from git import Repo, GitCommandError
 class Repository:
   def __init__(self, submissions_directory):
     self.submissions_directory = submissions_directory
-    self.submission_json_path = \
-      os.path.join(self.submissions_directory, "submissions.json")
+    self.submission_json_path = os.path.join(self.submissions_directory, "submissions.json")
     self.author = config.get_author()
     if not os.path.exists(self.submissions_directory):
       self.init()
@@ -31,12 +30,9 @@ class Repository:
       git = Repo.init(self.submissions_directory).git
       git.config("user.email", config.get_author_email())
       git.config("user.name", config.get_author_name())
-      shutil.copy2(
-        str(config.RESOURCES_DIR.joinpath("readme.template")),
-        self.readme_path)
-      git.add("README.md")
+      # No README.md logic needed
       date = datetime.now().strftime('%b/%d/%Y %H:%M')
-      git.commit(message="Initial commit with README.md",
+      git.commit(message="Initial commit",
                  date="{}".format(date), author=self.author)
 
   def add(self, file_path):

@@ -107,7 +107,7 @@ class AbstractWorkflow(ABC):
       
       # If code fetch failed, store submission with link only (no file)
       if solution_code is None:
-        print(f"Info: Using submission link for {submission_id}")
+        print(f"Info: Code unavailable for {submission_id}, storing only submission link")
         submission['path'] = None  # Mark as no file available
         # Submission will be added with link only - no file to commit
       else:
@@ -294,7 +294,7 @@ class AbstractWorkflow(ABC):
     if full_scan:
       print(f"{GREEN}Mode:{RESET} Full scan (all submissions)")
     elif check_recent_days:
-      print(f"{GREEN}Mode:{RESET} Smart scan (minimum {check_recent_days} days)")
+      print(f"{GREEN}Mode:{RESET} Smart scan (Last {check_recent_days} days checking)")
     print(f"{CYAN}{'═' * 70}{RESET}\n")
     
     page_index = start_page_index

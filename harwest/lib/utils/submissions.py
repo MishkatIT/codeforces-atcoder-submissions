@@ -24,7 +24,7 @@ class Submissions:
         print(f"Creating submissions directory: {submissions_directory}")
         os.makedirs(submissions_directory, exist_ok=True)
       
-      self.readme_path = os.path.join(submissions_directory, "README.md")
+      # README.md logic removed
       self.submission_json_path = os.path.join(submissions_directory, "submissions.json")
       
       # Load submissions data (handles missing/empty files)
@@ -208,13 +208,7 @@ class Submissions:
       rows.append(row)
       index -= 1
 
-    template = open(str(config.RESOURCES_DIR.joinpath("readme.template")), 'r',
-                    encoding="utf-8").read()
-    readme_data = template.format(
-      profile_placeholder=self.__generate_profile(),
-      submission_placeholder="\n".join(rows))
-    with open(self.readme_path, 'w', encoding="utf-8") as fp:
-      fp.write(readme_data)
+    # README.md generation logic removed
 
   def __generate_platform_markdown(self):
     """Generate platform-specific markdown files at root level"""
