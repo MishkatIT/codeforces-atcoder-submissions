@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[![AtCoder Profile](https://badges.joonhyung.xyz/atcoder/sdfsdf.svg)](https://atcoder.jp/users/sdfsdf)
+[![AtCoder Profile](https://badges.joonhyung.xyz/atcoder/sdfsadfasdfaseeedfasdfasdfsdf.svg)](https://atcoder.jp/users/sdfsadfasdfaseeedfasdfasdfsdf)
 
-**Username:** [sdfsdf](https://atcoder.jp/users/sdfsdf)
+**Username:** [sdfsadfasdfaseeedfasdfasdfsdf](https://atcoder.jp/users/sdfsadfasdfaseeedfasdfasdfsdf)
 
-### 📊 Total Problems Solved: **1**
+### 📊 Total Problems Solved: **0**
 
 </div>
 
@@ -25,13 +25,7 @@
 </tr>
 </thead>
 <tbody>
-<tr>
-<td align="center">1</td>
-<td><a href="https://atcoder.jp/contests/abc405/tasks/abc405_a"><b>A</b> - Is it rated?</a></td>
-<td align="center"><a href="./submissions/atcoder/abc405/abc405A%20Is%20it%20rated_.c" title="C (gcc 12.2.0)"><code>C (gcc 12.2.0)</code></a></td>
-<td><code>AtCoder</code> <code>*100</code></td>
-<td align="center"><sub>May/24/2025 11:04</sub></td>
-</tr>
+<tr><td colspan="5" align="center"><i>No submissions yet</i></td></tr>
 </tbody>
 </table>
 
@@ -39,6 +33,6 @@
 
 <div align="center">
 
-*Last Updated: January 19, 2026 at 19:31 BDT (UTC+6)*
+*Last Updated: January 19, 2026 at 19:32 BDT (UTC+6)*
 
 </div>

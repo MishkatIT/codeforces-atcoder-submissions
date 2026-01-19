@@ -1,18 +1,1 @@
-{
-  "AC66070006": {
-    "contest_id": "abc405",
-    "language": "C (gcc 12.2.0)",
-    "path": "atcoder\\abc405\\abc405A Is it rated_.c",
-    "platform": "AtCoder",
-    "problem_index": "A",
-    "problem_name": "Is it rated?",
-    "problem_url": "https://atcoder.jp/contests/abc405/tasks/abc405_a",
-    "submission_id": "AC66070006",
-    "submission_url": "https://atcoder.jp/contests/abc405/submissions/66070006",
-    "tags": [
-      "AtCoder",
-      "*100"
-    ],
-    "timestamp": "May/24/2025 11:04"
-  }
-}
+{}
