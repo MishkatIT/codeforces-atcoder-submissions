@@ -28,7 +28,7 @@
 <tr>
 <td align="center">1</td>
 <td><a href="https://atcoder.jp/contests/abc405/tasks/abc405_a"><b>A</b> - Is it rated?</a></td>
-<td align="center"><a href="./submissions/atcoder/abc405/abc405A%20Is%20it%20rated_.txt" title="C (gcc 12.2.0)"><code>C (gcc 12.2.0)</code></a></td>
+<td align="center"><a href="./submissions/atcoder/abc405/abc405A%20Is%20it%20rated_.c" title="C (gcc 12.2.0)"><code>C (gcc 12.2.0)</code></a></td>
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>May/24/2025 11:04</sub></td>
 </tr>
