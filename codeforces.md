@@ -1,30 +1,40 @@
-# Codeforces Submissions
+# <img src="https://cdn.iconscout.com/icon/free/png-16/codeforces-3628695-3029920.png" width="20"/> Codeforces Submissions
 
-> *Auto-generated with ❤ using [Harwest](https://github.com/nileshsah/harwest-tool)*
+<div align="center">
 
-## Profile
+[![Codeforces Profile](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT)
 
-_Not configured yet_
+**Username:** [MishkatIT](https://codeforces.com/profile/MishkatIT)
 
-## Submissions
+
+### 📊 Total Problems Solved: **0**
+<sub>Only public problems are counted. Private problems are not included in this total.</sub>
+
+</div>
+
+---
+
+## 📝 Recent Submissions
 
 <table>
 <thead>
 <tr>
 <th align="center">#</th>
-<th>Problem</th>
+<th align="left">Problem</th>
 <th align="center">Solution</th>
-<th>Tags</th>
+<th align="left">Tags</th>
+<th align="center">Submitted</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td colspan="5" align="center"><i>No submissions yet</i></td>
-</tr>
+<tr><td colspan="5" align="center"><i>No submissions yet</i></td></tr>
 </tbody>
 </table>
+
 ---
 
-**Total Solved Problems:** 0
+<div align="center">
 
-*Last Updated: Never*
+*Last Updated: January 19, 2026 at 19:03 BDT (UTC+6)*
+
+</div>
