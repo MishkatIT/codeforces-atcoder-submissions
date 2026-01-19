@@ -11134,1358 +11134,1358 @@
 <td align="center">1587</td>
 <td><a href="https://codeforces.com/contest/1822/problem/A"><b>A</b> - TubeTube Feed</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1822/submission/203266315" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Apr/24/2023 20:45</sub></td>
 </tr>
 <tr>
 <td align="center">1588</td>
 <td><a href="https://codeforces.com/contest/1411/problem/B"><b>B</b> - Fair Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1411/submission/203257414" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>number theory</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/24/2023 20:30</sub></td>
 </tr>
 <tr>
 <td align="center">1589</td>
 <td><a href="https://codeforces.com/contest/1632/problem/B"><b>B</b> - Roof Construction</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1632/submission/203234315" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>bitmasks</code> <code>constructive algorithms</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/24/2023 16:51</sub></td>
 </tr>
 <tr>
 <td align="center">1590</td>
 <td><a href="https://codeforces.com/contest/1607/problem/C"><b>C</b> - Minimum Extraction</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1607/submission/203224362" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>sortings</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/24/2023 14:13</sub></td>
 </tr>
 <tr>
 <td align="center">1591</td>
 <td><a href="https://codeforces.com/contest/404/problem/A"><b>A</b> - Valera and X</a></td>
 <td align="center"><a href="https://codeforces.com/contest/404/submission/203171400" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/23/2023 22:01</sub></td>
 </tr>
 <tr>
 <td align="center">1592</td>
 <td><a href="https://codeforces.com/contest/1622/problem/B"><b>B</b> - Berland Music</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1622/submission/203154404" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Apr/23/2023 19:03</sub></td>
 </tr>
 <tr>
 <td align="center">1593</td>
 <td><a href="https://codeforces.com/contest/1550/problem/B"><b>B</b> - Maximum Cost Deletion</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1550/submission/203142598" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>math</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/23/2023 17:41</sub></td>
 </tr>
 <tr>
 <td align="center">1594</td>
 <td><a href="https://codeforces.com/contest/1521/problem/A"><b>A</b> - Nastia and Nearly Good Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1521/submission/203124630" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>math</code> <code>number theory</code></td>
 <td align="center"><sub>Apr/23/2023 14:20</sub></td>
 </tr>
 <tr>
 <td align="center">1595</td>
 <td><a href="https://codeforces.com/contest/1631/problem/A"><b>A</b> - Min Max Swap</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1631/submission/202984016" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>*800</code></td>
 <td align="center"><sub>Apr/22/2023 01:05</sub></td>
 </tr>
 <tr>
 <td align="center">1596</td>
 <td><a href="https://codeforces.com/contest/1632/problem/A"><b>A</b> - ABC</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1632/submission/202983801" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Apr/22/2023 01:01</sub></td>
 </tr>
 <tr>
 <td align="center">1597</td>
 <td><a href="https://codeforces.com/contest/1530/problem/A"><b>A</b> - Binary Decimal</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1530/submission/202982720" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Apr/22/2023 00:42</sub></td>
 </tr>
 <tr>
 <td align="center">1598</td>
 <td><a href="https://codeforces.com/contest/1821/problem/B"><b>B</b> - Sort the Subarray</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1821/submission/202902042" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>*1100</code></td>
 <td align="center"><sub>Apr/21/2023 03:29</sub></td>
 </tr>
 <tr>
 <td align="center">1599</td>
 <td><a href="https://codeforces.com/contest/1821/problem/A"><b>A</b> - Matching</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1821/submission/202896420" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>combinatorics</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Apr/21/2023 01:18</sub></td>
 </tr>
 <tr>
 <td align="center">1600</td>
 <td><a href="https://codeforces.com/contest/1196/problem/B"><b>B</b> - Odd Sum Segments</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1196/submission/202884307" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>math</code> <code>*1200</code></td>
 <td align="center"><sub>Apr/20/2023 22:51</sub></td>
 </tr>
 <tr>
 <td align="center">1601</td>
 <td><a href="https://codeforces.com/contest/1557/problem/B"><b>B</b> - Moamen and k-subarrays</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1557/submission/202793732" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>sortings</code> <code>*1100</code></td>
 <td align="center"><sub>Apr/20/2023 15:08</sub></td>
 </tr>
 <tr>
 <td align="center">1602</td>
 <td><a href="https://codeforces.com/contest/1509/problem/B"><b>B</b> - TMT Document</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1509/submission/202784920" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>*1100</code></td>
 <td align="center"><sub>Apr/20/2023 13:07</sub></td>
 </tr>
 <tr>
 <td align="center">1603</td>
 <td><a href="https://codeforces.com/contest/1541/problem/B"><b>B</b> - Pleasant Pairs</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1541/submission/202611816" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Apr/18/2023 19:43</sub></td>
 </tr>
 <tr>
 <td align="center">1604</td>
 <td><a href="https://codeforces.com/contest/1539/problem/C"><b>C</b> - Stable Groups</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1539/submission/202607458" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>sortings</code> <code>*1200</code></td>
 <td align="center"><sub>Apr/18/2023 19:07</sub></td>
 </tr>
 <tr>
 <td align="center">1605</td>
 <td><a href="https://codeforces.com/contest/1542/problem/A"><b>A</b> - Odd Set</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1542/submission/202512952" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>*800</code></td>
 <td align="center"><sub>Apr/17/2023 22:01</sub></td>
 </tr>
 <tr>
 <td align="center">1606</td>
 <td><a href="https://codeforces.com/contest/353/problem/A"><b>A</b> - Domino</a></td>
 <td align="center"><a href="https://codeforces.com/contest/353/submission/202280323" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>*1200</code></td>
 <td align="center"><sub>Apr/16/2023 00:38</sub></td>
 </tr>
 <tr>
 <td align="center">1607</td>
 <td><a href="https://codeforces.com/contest/1535/problem/B"><b>B</b> - Array Reodering</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1535/submission/202233949" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Apr/15/2023 17:52</sub></td>
 </tr>
 <tr>
 <td align="center">1608</td>
 <td><a href="https://codeforces.com/contest/252/problem/A"><b>A</b> - Little Xor</a></td>
 <td align="center"><a href="https://codeforces.com/contest/252/submission/202073682" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>*1100</code></td>
 <td align="center"><sub>Apr/14/2023 19:49</sub></td>
 </tr>
 <tr>
 <td align="center">1609</td>
 <td><a href="https://codeforces.com/contest/1547/problem/A"><b>A</b> - Shortest Path with Obstacle</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1547/submission/202040256" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Apr/14/2023 15:09</sub></td>
 </tr>
 <tr>
 <td align="center">1610</td>
 <td><a href="https://codeforces.com/contest/1547/problem/B"><b>B</b> - Alphabetical Strings</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1547/submission/201985016" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Apr/14/2023 01:55</sub></td>
 </tr>
 <tr>
 <td align="center">1611</td>
 <td><a href="https://codeforces.com/contest/1814/problem/C"><b>C</b> - Search in Parallel</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1814/submission/201974996" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>sortings</code></td>
 <td align="center"><sub>Apr/14/2023 00:01</sub></td>
 </tr>
 <tr>
 <td align="center">1612</td>
 <td><a href="https://codeforces.com/contest/1265/problem/B"><b>B</b> - Beautiful Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1265/submission/201951039" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Apr/13/2023 20:32</sub></td>
 </tr>
 <tr>
 <td align="center">1613</td>
 <td><a href="https://codeforces.com/contest/6/problem/C"><b>C</b> - Alice, Bob and Chocolate</a></td>
 <td align="center"><a href="https://codeforces.com/contest/6/submission/201938497" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>two pointers</code> <code>*1200</code></td>
 <td align="center"><sub>Apr/13/2023 19:01</sub></td>
 </tr>
 <tr>
 <td align="center">1614</td>
 <td><a href="https://codeforces.com/contest/27/problem/A"><b>A</b> - Next Test</a></td>
 <td align="center"><a href="https://codeforces.com/contest/27/submission/201922273" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>sortings</code> <code>*1200</code></td>
 <td align="center"><sub>Apr/13/2023 16:55</sub></td>
 </tr>
 <tr>
 <td align="center">1615</td>
 <td><a href="https://codeforces.com/contest/1506/problem/D"><b>D</b> - Epic Transformation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1506/submission/201921446" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>data structures</code> <code>greedy</code></td>
 <td align="center"><sub>Apr/13/2023 16:49</sub></td>
 </tr>
 <tr>
 <td align="center">1616</td>
 <td><a href="https://codeforces.com/contest/1605/problem/C"><b>C</b> - Dominant Character</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1605/submission/201891136" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>implementation</code></td>
 <td align="center"><sub>Apr/13/2023 06:06</sub></td>
 </tr>
 <tr>
 <td align="center">1617</td>
 <td><a href="https://codeforces.com/contest/1660/problem/C"><b>C</b> - Get an Even String</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1660/submission/201767148" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>dp</code> <code>greedy</code> <code>strings</code></td>
 <td align="center"><sub>Apr/12/2023 07:06</sub></td>
 </tr>
 <tr>
 <td align="center">1618</td>
 <td><a href="https://codeforces.com/contest/1337/problem/A"><b>A</b> - Ichihime and Triangle</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1337/submission/201729991" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Apr/11/2023 23:55</sub></td>
 </tr>
 <tr>
 <td align="center">1619</td>
 <td><a href="https://codeforces.com/contest/1325/problem/B"><b>B</b> - CopyCopyCopyCopyCopy</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1325/submission/201727089" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Apr/11/2023 23:33</sub></td>
 </tr>
 <tr>
 <td align="center">1620</td>
 <td><a href="https://codeforces.com/contest/1790/problem/E"><b>E</b> - Vlad and a Pair of Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1790/submission/201591504" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>bitmasks</code> <code>constructive algorithms</code> <code>*1400</code></td>
 <td align="center"><sub>Apr/10/2023 03:47</sub></td>
 </tr>
 <tr>
 <td align="center">1621</td>
 <td><a href="https://codeforces.com/contest/1816/problem/C"><b>C</b> - Ian and Array Sorting</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1816/submission/201561554" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>sortings</code> <code>*1300</code></td>
 <td align="center"><sub>Apr/09/2023 22:56</sub></td>
 </tr>
 <tr>
 <td align="center">1622</td>
 <td><a href="https://codeforces.com/contest/1816/problem/B"><b>B</b> - Grid Reconstruction</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1816/submission/201520112" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/09/2023 21:31</sub></td>
 </tr>
 <tr>
 <td align="center">1623</td>
 <td><a href="https://codeforces.com/contest/1816/problem/A"><b>A</b> - Ian Visits Mary</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1816/submission/201496444" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>geometry</code> <code>number theory</code></td>
 <td align="center"><sub>Apr/09/2023 21:04</sub></td>
 </tr>
 <tr>
 <td align="center">1624</td>
 <td><a href="https://codeforces.com/contest/1797/problem/C"><b>C</b> - Li Hua and Chess</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1797/submission/201383691" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>interactive</code></td>
 <td align="center"><sub>Apr/09/2023 02:36</sub></td>
 </tr>
 <tr>
 <td align="center">1625</td>
 <td><a href="https://codeforces.com/contest/1797/problem/B"><b>B</b> - Li Hua and Pattern</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1797/submission/201355029" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>*1100</code></td>
 <td align="center"><sub>Apr/08/2023 23:00</sub></td>
 </tr>
 <tr>
 <td align="center">1626</td>
 <td><a href="https://codeforces.com/contest/1797/problem/A"><b>A</b> - Li Hua and Maze</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1797/submission/201299657" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>flows</code> <code>graphs</code></td>
 <td align="center"><sub>Apr/08/2023 20:46</sub></td>
 </tr>
 <tr>
 <td align="center">1627</td>
 <td><a href="https://codeforces.com/contest/1520/problem/C"><b>C</b> - Not Adjacent Matrix</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1520/submission/201197985" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/08/2023 05:31</sub></td>
 </tr>
 <tr>
 <td align="center">1628</td>
 <td><a href="https://codeforces.com/contest/1777/problem/B"><b>B</b> - Emordnilap</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1777/submission/201185817" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>combinatorics</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Apr/08/2023 02:25</sub></td>
 </tr>
 <tr>
 <td align="center">1629</td>
 <td><a href="https://codeforces.com/contest/1777/problem/A"><b>A</b> - Everybody Likes Good Arrays!</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1777/submission/201181307" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Apr/08/2023 01:28</sub></td>
 </tr>
 <tr>
 <td align="center">1630</td>
 <td><a href="https://codeforces.com/contest/20/problem/A"><b>A</b> - BerOS file system</a></td>
 <td align="center"><a href="https://codeforces.com/contest/20/submission/201153882" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*1700</code></td>
 <td align="center"><sub>Apr/07/2023 20:49</sub></td>
 </tr>
 <tr>
 <td align="center">1631</td>
 <td><a href="https://codeforces.com/contest/1805/problem/A"><b>A</b> - We Need the Zero</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1805/submission/201151485" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>bitmasks</code> <code>brute force</code> <code>*800</code></td>
 <td align="center"><sub>Apr/07/2023 20:28</sub></td>
 </tr>
 <tr>
 <td align="center">1632</td>
 <td><a href="https://codeforces.com/contest/1805/problem/B"><b>B</b> - The String Has a Target</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1805/submission/201149103" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>strings</code> <code>*800</code></td>
 <td align="center"><sub>Apr/07/2023 20:06</sub></td>
 </tr>
 <tr>
 <td align="center">1633</td>
 <td><a href="https://codeforces.com/contest/1814/problem/A"><b>A</b> - Coins</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1814/submission/201062876" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Apr/07/2023 00:15</sub></td>
 </tr>
 <tr>
 <td align="center">1634</td>
 <td><a href="https://codeforces.com/contest/1097/problem/B"><b>B</b> - Petr and a Combination Lock</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1097/submission/200906348" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>bitmasks</code> <code>brute force</code> <code>dp</code></td>
 <td align="center"><sub>Apr/06/2023 00:43</sub></td>
 </tr>
 <tr>
 <td align="center">1635</td>
 <td><a href="https://codeforces.com/contest/1811/problem/E"><b>E</b> - Living Sequence</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1811/submission/200897573" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>dp</code> <code>math</code></td>
 <td align="center"><sub>Apr/05/2023 23:01</sub></td>
 </tr>
 <tr>
 <td align="center">1636</td>
 <td><a href="https://codeforces.com/contest/1811/problem/B"><b>B</b> - Conveyor Belts</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1811/submission/200771647" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>*1000</code></td>
 <td align="center"><sub>Apr/04/2023 22:30</sub></td>
 </tr>
 <tr>
 <td align="center">1637</td>
 <td><a href="https://codeforces.com/contest/1811/problem/C"><b>C</b> - Restore the Array</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1811/submission/200742515" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>*1100</code></td>
 <td align="center"><sub>Apr/04/2023 21:37</sub></td>
 </tr>
 <tr>
 <td align="center">1638</td>
 <td><a href="https://codeforces.com/contest/1811/problem/A"><b>A</b> - Insert Digit</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1811/submission/200703610" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>math</code> <code>strings</code></td>
 <td align="center"><sub>Apr/04/2023 20:46</sub></td>
 </tr>
 <tr>
 <td align="center">1639</td>
 <td><a href="https://codeforces.com/contest/1733/problem/A"><b>A</b> - Consecutive Sum</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1733/submission/200623970" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>sortings</code> <code>*800</code></td>
 <td align="center"><sub>Apr/04/2023 05:31</sub></td>
 </tr>
 <tr>
 <td align="center">1640</td>
 <td><a href="https://codeforces.com/contest/1661/problem/B"><b>B</b> - Getting Zero</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1661/submission/200587102" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>bitmasks</code> <code>brute force</code> <code>dfs and similar</code></td>
 <td align="center"><sub>Apr/03/2023 22:06</sub></td>
 </tr>
 <tr>
 <td align="center">1641</td>
 <td><a href="https://codeforces.com/contest/1810/problem/C"><b>C</b> - Make It Permutation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1810/submission/200486406" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>sortings</code></td>
 <td align="center"><sub>Apr/03/2023 04:25</sub></td>
 </tr>
 <tr>
 <td align="center">1642</td>
 <td><a href="https://codeforces.com/contest/1494/problem/A"><b>A</b> - ABC String</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1494/submission/200477598" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>bitmasks</code> <code>brute force</code> <code>implementation</code></td>
 <td align="center"><sub>Apr/03/2023 02:24</sub></td>
 </tr>
 <tr>
 <td align="center">1643</td>
 <td><a href="https://codeforces.com/contest/1703/problem/A"><b>A</b> - YES or YES?</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1703/submission/200456119" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Apr/02/2023 23:19</sub></td>
 </tr>
 <tr>
 <td align="center">1644</td>
 <td><a href="https://codeforces.com/contest/1674/problem/C"><b>C</b> - Infinite Replacement</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1674/submission/200037169" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>combinatorics</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Apr/01/2023 01:03</sub></td>
 </tr>
 <tr>
 <td align="center">1645</td>
 <td><a href="https://codeforces.com/contest/1810/problem/B"><b>B</b> - Candies</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1810/submission/200002189" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>math</code> <code>number theory</code></td>
 <td align="center"><sub>Mar/31/2023 21:52</sub></td>
 </tr>
 <tr>
 <td align="center">1646</td>
 <td><a href="https://codeforces.com/contest/1810/problem/A"><b>A</b> - Beautiful Sequence</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1810/submission/199966372" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>*800</code></td>
 <td align="center"><sub>Mar/31/2023 20:44</sub></td>
 </tr>
 <tr>
 <td align="center">1647</td>
 <td><a href="https://codeforces.com/contest/1698/problem/C"><b>C</b> - 3SUM Closure</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1698/submission/199890954" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>data structures</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/31/2023 05:01</sub></td>
 </tr>
 <tr>
 <td align="center">1648</td>
 <td><a href="https://codeforces.com/contest/1808/problem/B"><b>B</b> - Playing in a Casino</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1808/submission/199862910" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>sortings</code> <code>*1200</code></td>
 <td align="center"><sub>Mar/30/2023 23:18</sub></td>
 </tr>
 <tr>
 <td align="center">1649</td>
 <td><a href="https://codeforces.com/contest/1808/problem/A"><b>A</b> - Lucky Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1808/submission/199647880" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>*900</code></td>
 <td align="center"><sub>Mar/29/2023 15:23</sub></td>
 </tr>
 <tr>
 <td align="center">1650</td>
 <td><a href="https://codeforces.com/contest/1352/problem/F"><b>F</b> - Binary String Reconstruction</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1352/submission/199590732" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>dfs and similar</code> <code>math</code></td>
 <td align="center"><sub>Mar/29/2023 02:40</sub></td>
 </tr>
 <tr>
 <td align="center">1651</td>
 <td><a href="https://codeforces.com/contest/1409/problem/B"><b>B</b> - Minimum Product</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1409/submission/199583983" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Mar/29/2023 01:19</sub></td>
 </tr>
 <tr>
 <td align="center">1652</td>
 <td><a href="https://codeforces.com/contest/1092/problem/A"><b>A</b> - Uniform String</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1092/submission/199568657" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Mar/28/2023 22:58</sub></td>
 </tr>
 <tr>
 <td align="center">1653</td>
 <td><a href="https://codeforces.com/contest/1798/problem/D"><b>D</b> - Shocking Arrangement</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1798/submission/199329686" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Mar/27/2023 02:27</sub></td>
 </tr>
 <tr>
 <td align="center">1654</td>
 <td><a href="https://codeforces.com/contest/1798/problem/B"><b>B</b> - Three Sevens</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1798/submission/199294772" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>data structures</code> <code>greedy</code></td>
 <td align="center"><sub>Mar/26/2023 22:09</sub></td>
 </tr>
 <tr>
 <td align="center">1655</td>
 <td><a href="https://codeforces.com/contest/1798/problem/A"><b>A</b> - Showstopper</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1798/submission/199256368" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>sortings</code></td>
 <td align="center"><sub>Mar/26/2023 20:45</sub></td>
 </tr>
 <tr>
 <td align="center">1656</td>
 <td><a href="https://codeforces.com/contest/600/problem/B"><b>B</b> - Queries about less or equal elements</a></td>
 <td align="center"><a href="https://codeforces.com/contest/600/submission/199240735" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>data structures</code> <code>sortings</code></td>
 <td align="center"><sub>Mar/26/2023 19:07</sub></td>
 </tr>
 <tr>
 <td align="center">1657</td>
 <td><a href="https://codeforces.com/contest/1352/problem/G"><b>G</b> - Special Permutation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1352/submission/198997804" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>*1600</code></td>
 <td align="center"><sub>Mar/25/2023 01:44</sub></td>
 </tr>
 <tr>
 <td align="center">1658</td>
 <td><a href="https://codeforces.com/contest/1742/problem/F"><b>F</b> - Smaller</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1742/submission/198978183" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>strings</code></td>
 <td align="center"><sub>Mar/24/2023 22:52</sub></td>
 </tr>
 <tr>
 <td align="center">1659</td>
 <td><a href="https://codeforces.com/contest/1809/problem/B"><b>B</b> - Points on Plane</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1809/submission/198846279" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Mar/24/2023 00:15</sub></td>
 </tr>
 <tr>
 <td align="center">1660</td>
 <td><a href="https://codeforces.com/contest/1809/problem/A"><b>A</b> - Garland</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1809/submission/198841680" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Mar/23/2023 23:41</sub></td>
 </tr>
 <tr>
 <td align="center">1661</td>
 <td><a href="https://codeforces.com/contest/1647/problem/C"><b>C</b> - Madoka and Childish Pranks</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1647/submission/198745319" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/23/2023 19:21</sub></td>
 </tr>
 <tr>
 <td align="center">1662</td>
 <td><a href="https://codeforces.com/contest/1352/problem/E"><b>E</b> - Special Elements</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1352/submission/198666664" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>two pointers</code></td>
 <td align="center"><sub>Mar/23/2023 01:27</sub></td>
 </tr>
 <tr>
 <td align="center">1663</td>
 <td><a href="https://codeforces.com/contest/1729/problem/C"><b>C</b> - Jumping on Tiles</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1729/submission/198656300" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>strings</code> <code>*1100</code></td>
 <td align="center"><sub>Mar/22/2023 23:33</sub></td>
 </tr>
 <tr>
 <td align="center">1664</td>
 <td><a href="https://codeforces.com/contest/1353/problem/C"><b>C</b> - Board Moves</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1353/submission/198652453" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>*1000</code></td>
 <td align="center"><sub>Mar/22/2023 22:59</sub></td>
 </tr>
 <tr>
 <td align="center">1665</td>
 <td><a href="https://codeforces.com/contest/1194/problem/C"><b>C</b> - From S To T</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1194/submission/198485437" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>strings</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/21/2023 17:41</sub></td>
 </tr>
 <tr>
 <td align="center">1666</td>
 <td><a href="https://codeforces.com/contest/1807/problem/C"><b>C</b> - Find and Replace</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1807/submission/198378010" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Mar/20/2023 21:50</sub></td>
 </tr>
 <tr>
 <td align="center">1667</td>
 <td><a href="https://codeforces.com/contest/1807/problem/E"><b>E</b> - Interview</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1807/submission/198357724" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>implementation</code> <code>interactive</code></td>
 <td align="center"><sub>Mar/20/2023 19:01</sub></td>
 </tr>
 <tr>
 <td align="center">1668</td>
 <td><a href="https://codeforces.com/contest/1807/problem/G1"><b>G1</b> - Subsequence Addition (Easy Version)</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1807/submission/198235004" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>data structures</code> <code>dp</code></td>
 <td align="center"><sub>Mar/19/2023 22:42</sub></td>
 </tr>
 <tr>
 <td align="center">1669</td>
 <td><a href="https://codeforces.com/contest/1807/problem/D"><b>D</b> - Odd Queries</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1807/submission/198219526" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>implementation</code> <code>*900</code></td>
 <td align="center"><sub>Mar/19/2023 22:20</sub></td>
 </tr>
 <tr>
 <td align="center">1670</td>
 <td><a href="https://codeforces.com/contest/1807/problem/B"><b>B</b> - Grab the Candies</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1807/submission/198135093" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>*800</code></td>
 <td align="center"><sub>Mar/19/2023 21:02</sub></td>
 </tr>
 <tr>
 <td align="center">1671</td>
 <td><a href="https://codeforces.com/contest/1807/problem/A"><b>A</b> - Plus or Minus</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1807/submission/198119156" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Mar/19/2023 20:57</sub></td>
 </tr>
 <tr>
 <td align="center">1672</td>
 <td><a href="https://codeforces.com/contest/1157/problem/C1"><b>C1</b> - Increasing Subsequence (easy version)</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1157/submission/197823340" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/18/2023 01:29</sub></td>
 </tr>
 <tr>
 <td align="center">1673</td>
 <td><a href="https://codeforces.com/contest/1092/problem/C"><b>C</b> - Prefixes and Suffixes</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1092/submission/197687708" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>strings</code> <code>*1700</code></td>
 <td align="center"><sub>Mar/17/2023 01:32</sub></td>
 </tr>
 <tr>
 <td align="center">1674</td>
 <td><a href="https://codeforces.com/contest/1092/problem/B"><b>B</b> - Teams Forming</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1092/submission/197662923" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>sortings</code> <code>*800</code></td>
 <td align="center"><sub>Mar/16/2023 21:50</sub></td>
 </tr>
 <tr>
 <td align="center">1675</td>
 <td><a href="https://codeforces.com/contest/1312/problem/B"><b>B</b> - Bogosort</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1312/submission/197661731" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>sortings</code> <code>*1000</code></td>
 <td align="center"><sub>Mar/16/2023 21:42</sub></td>
 </tr>
 <tr>
 <td align="center">1676</td>
 <td><a href="https://codeforces.com/contest/1352/problem/D"><b>D</b> - Alice, Bob and Candies</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1352/submission/197656305" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/16/2023 21:00</sub></td>
 </tr>
 <tr>
 <td align="center">1677</td>
 <td><a href="https://codeforces.com/contest/1804/problem/A"><b>A</b> - Lame King</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1804/submission/197621999" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Mar/16/2023 16:37</sub></td>
 </tr>
 <tr>
 <td align="center">1678</td>
 <td><a href="https://codeforces.com/contest/1291/problem/B"><b>B</b> - Array Sharpening</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1291/submission/197546114" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/15/2023 23:04</sub></td>
 </tr>
 <tr>
 <td align="center">1679</td>
 <td><a href="https://codeforces.com/contest/1562/problem/B"><b>B</b> - Scenes From a Memory</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1562/submission/197525930" title="Java 17"><code>Java 17</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>constructive algorithms</code> <code>implementation</code></td>
 <td align="center"><sub>Mar/15/2023 20:38</sub></td>
 </tr>
 <tr>
 <td align="center">1680</td>
 <td><a href="https://codeforces.com/contest/31/problem/B"><b>B</b> - Sysadmin Bob</a></td>
 <td align="center"><a href="https://codeforces.com/contest/31/submission/197269152" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Mar/13/2023 22:30</sub></td>
 </tr>
 <tr>
 <td align="center">1681</td>
 <td><a href="https://codeforces.com/contest/1673/problem/B"><b>B</b> - A Perfectly Balanced String?</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1673/submission/197120002" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>strings</code></td>
 <td align="center"><sub>Mar/12/2023 22:13</sub></td>
 </tr>
 <tr>
 <td align="center">1682</td>
 <td><a href="https://codeforces.com/contest/1157/problem/A"><b>A</b> - Reachable Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1157/submission/196971713" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*1100</code></td>
 <td align="center"><sub>Mar/12/2023 00:03</sub></td>
 </tr>
 <tr>
 <td align="center">1683</td>
 <td><a href="https://codeforces.com/contest/1157/problem/B"><b>B</b> - Long Number</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1157/submission/196958886" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/11/2023 22:26</sub></td>
 </tr>
 <tr>
 <td align="center">1684</td>
 <td><a href="https://codeforces.com/contest/593/problem/A"><b>A</b> - 2Char</a></td>
 <td align="center"><a href="https://codeforces.com/contest/593/submission/196856385" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>*1200</code></td>
 <td align="center"><sub>Mar/11/2023 02:09</sub></td>
 </tr>
 <tr>
 <td align="center">1685</td>
 <td><a href="https://codeforces.com/contest/1697/problem/C"><b>C</b> - awoo's Favorite Problem</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1697/submission/196714870" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>constructive algorithms</code> <code>data structures</code></td>
 <td align="center"><sub>Mar/10/2023 02:47</sub></td>
 </tr>
 <tr>
 <td align="center">1686</td>
 <td><a href="https://codeforces.com/contest/1802/problem/B"><b>B</b> - Settlement of Guinea Pigs</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1802/submission/196687691" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Mar/09/2023 22:31</sub></td>
 </tr>
 <tr>
 <td align="center">1687</td>
 <td><a href="https://codeforces.com/contest/1802/problem/A"><b>A</b> - Likes</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1802/submission/196681955" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Mar/09/2023 21:46</sub></td>
 </tr>
 <tr>
 <td align="center">1688</td>
 <td><a href="https://codeforces.com/contest/978/problem/B"><b>B</b> - File Name</a></td>
 <td align="center"><a href="https://codeforces.com/contest/978/submission/196646633" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>strings</code> <code>*800</code></td>
 <td align="center"><sub>Mar/09/2023 17:59</sub></td>
 </tr>
 <tr>
 <td align="center">1689</td>
 <td><a href="https://codeforces.com/contest/767/problem/A"><b>A</b> - Snacktower</a></td>
 <td align="center"><a href="https://codeforces.com/contest/767/submission/196637160" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>implementation</code> <code>*1100</code></td>
 <td align="center"><sub>Mar/09/2023 17:28</sub></td>
 </tr>
 <tr>
 <td align="center">1690</td>
 <td><a href="https://codeforces.com/contest/43/problem/B"><b>B</b> - Letter</a></td>
 <td align="center"><a href="https://codeforces.com/contest/43/submission/196621592" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>strings</code> <code>*1100</code></td>
 <td align="center"><sub>Mar/09/2023 16:36</sub></td>
 </tr>
 <tr>
 <td align="center">1691</td>
 <td><a href="https://codeforces.com/contest/617/problem/B"><b>B</b> - Chocolate</a></td>
 <td align="center"><a href="https://codeforces.com/contest/617/submission/196552184" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>combinatorics</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/09/2023 02:03</sub></td>
 </tr>
 <tr>
 <td align="center">1692</td>
 <td><a href="https://codeforces.com/contest/1512/problem/C"><b>C</b> - A-B Palindrome</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1512/submission/196544612" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Mar/09/2023 00:49</sub></td>
 </tr>
 <tr>
 <td align="center">1693</td>
 <td><a href="https://codeforces.com/contest/1512/problem/D"><b>D</b> - Corrupted Array</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1512/submission/196525923" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>data structures</code> <code>greedy</code></td>
 <td align="center"><sub>Mar/08/2023 21:55</sub></td>
 </tr>
 <tr>
 <td align="center">1694</td>
 <td><a href="https://codeforces.com/contest/1673/problem/A"><b>A</b> - Subtle Substring Subtraction</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1673/submission/196394646" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>games</code> <code>greedy</code> <code>strings</code></td>
 <td align="center"><sub>Mar/07/2023 20:14</sub></td>
 </tr>
 <tr>
 <td align="center">1695</td>
 <td><a href="https://codeforces.com/contest/1311/problem/C"><b>C</b> - Perform the Combo</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1311/submission/196239113" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>*1300</code></td>
 <td align="center"><sub>Mar/06/2023 16:30</sub></td>
 </tr>
 <tr>
 <td align="center">1696</td>
 <td><a href="https://codeforces.com/contest/1447/problem/B"><b>B</b> - Numbers Box</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1447/submission/196185019" title="C++20 (GCC 11-64)"><code>C++20 (GCC 11-64)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>math</code> <code>*1000</code></td>
 <td align="center"><sub>Mar/06/2023 02:25</sub></td>
 </tr>
 <tr>
 <td align="center">1697</td>
 <td><a href="https://codeforces.com/contest/1794/problem/A"><b>A</b> - Prefix and Suffix Array</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1794/submission/196060755" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>strings</code> <code>*800</code></td>
 <td align="center"><sub>Mar/05/2023 02:25</sub></td>
 </tr>
 <tr>
 <td align="center">1698</td>
 <td><a href="https://codeforces.com/contest/1794/problem/B"><b>B</b> - Not Dividing</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1794/submission/196059711" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Mar/05/2023 02:18</sub></td>
 </tr>
 <tr>
 <td align="center">1699</td>
 <td><a href="https://codeforces.com/contest/118/problem/B"><b>B</b> - Present from Lena</a></td>
 <td align="center"><a href="https://codeforces.com/contest/118/submission/195997690" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>implementation</code> <code>*1000</code></td>
 <td align="center"><sub>Mar/04/2023 22:52</sub></td>
 </tr>
 <tr>
 <td align="center">1700</td>
 <td><a href="https://codeforces.com/contest/1463/problem/A"><b>A</b> - Dungeon</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1463/submission/195886051" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>math</code> <code>*1100</code></td>
 <td align="center"><sub>Mar/04/2023 03:38</sub></td>
 </tr>
 <tr>
 <td align="center">1701</td>
 <td><a href="https://codeforces.com/contest/1791/problem/F"><b>F</b> - Range Update Point Query</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1791/submission/195832798" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>brute force</code> <code>data structures</code></td>
 <td align="center"><sub>Mar/03/2023 21:20</sub></td>
 </tr>
 <tr>
 <td align="center">1702</td>
 <td><a href="https://codeforces.com/contest/1800/problem/A"><b>A</b> - Is It a Cat?</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1800/submission/195810264" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>strings</code> <code>*800</code></td>
 <td align="center"><sub>Mar/03/2023 19:02</sub></td>
 </tr>
 <tr>
 <td align="center">1703</td>
 <td><a href="https://codeforces.com/contest/1800/problem/D"><b>D</b> - Remove Two Letters</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1800/submission/195709403" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>greedy</code> <code>hashing</code></td>
 <td align="center"><sub>Mar/02/2023 23:22</sub></td>
 </tr>
 <tr>
 <td align="center">1704</td>
 <td><a href="https://codeforces.com/contest/1800/problem/C2"><b>C2</b> - Powering the Hero (hard version)</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1800/submission/195640062" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>greedy</code> <code>*1100</code></td>
 <td align="center"><sub>Mar/02/2023 21:28</sub></td>
 </tr>
 <tr>
 <td align="center">1705</td>
 <td><a href="https://codeforces.com/contest/1800/problem/C1"><b>C1</b> - Powering the Hero (easy version)</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1800/submission/195639279" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>greedy</code> <code>*1000</code></td>
 <td align="center"><sub>Mar/02/2023 21:27</sub></td>
 </tr>
 <tr>
 <td align="center">1706</td>
 <td><a href="https://codeforces.com/contest/1800/problem/B"><b>B</b> - Count the Number of Pairs</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1800/submission/195624347" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>strings</code> <code>*1000</code></td>
 <td align="center"><sub>Mar/02/2023 21:13</sub></td>
 </tr>
 <tr>
 <td align="center">1707</td>
 <td><a href="https://codeforces.com/contest/550/problem/A"><b>A</b> - Two Substrings</a></td>
 <td align="center"><a href="https://codeforces.com/contest/550/submission/195486369" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>dp</code> <code>greedy</code></td>
 <td align="center"><sub>Mar/02/2023 00:03</sub></td>
 </tr>
 <tr>
 <td align="center">1708</td>
 <td><a href="https://codeforces.com/contest/1799/problem/A"><b>A</b> - Recent Actions</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1799/submission/195381076" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>greedy</code> <code>implementation</code></td>
 <td align="center"><sub>Mar/01/2023 02:36</sub></td>
 </tr>
 <tr>
 <td align="center">1709</td>
 <td><a href="https://codeforces.com/contest/1796/problem/B"><b>B</b> - Asterisk-Minor Template</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1796/submission/195309005" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>strings</code> <code>*1000</code></td>
 <td align="center"><sub>Feb/28/2023 21:08</sub></td>
 </tr>
 <tr>
 <td align="center">1710</td>
 <td><a href="https://codeforces.com/contest/1796/problem/A"><b>A</b> - Typical Interview Problem</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1796/submission/195293391" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Feb/28/2023 20:49</sub></td>
 </tr>
 <tr>
 <td align="center">1711</td>
 <td><a href="https://codeforces.com/contest/455/problem/A"><b>A</b> - Boredom</a></td>
 <td align="center"><a href="https://codeforces.com/contest/455/submission/195204140" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>dp</code> <code>*1500</code></td>
 <td align="center"><sub>Feb/28/2023 01:54</sub></td>
 </tr>
 <tr>
 <td align="center">1712</td>
 <td><a href="https://codeforces.com/contest/1789/problem/C"><b>C</b> - Serval and Toxel's Arrays</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1789/submission/195064096" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>combinatorics</code> <code>dp</code> <code>implementation</code></td>
 <td align="center"><sub>Feb/27/2023 01:19</sub></td>
 </tr>
 <tr>
 <td align="center">1713</td>
 <td><a href="https://codeforces.com/contest/1789/problem/B"><b>B</b> - Serval and Inversion Magic</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1789/submission/194994090" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Feb/26/2023 02:46</sub></td>
 </tr>
 <tr>
 <td align="center">1714</td>
 <td><a href="https://codeforces.com/contest/253/problem/A"><b>A</b> - Boys and Girls</a></td>
 <td align="center"><a href="https://codeforces.com/contest/253/submission/194821970" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>*1100</code></td>
 <td align="center"><sub>Feb/25/2023 00:02</sub></td>
 </tr>
 <tr>
 <td align="center">1715</td>
 <td><a href="https://codeforces.com/contest/1278/problem/A"><b>A</b> - Shuffle Hashing</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1278/submission/194714792" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Feb/24/2023 00:59</sub></td>
 </tr>
 <tr>
 <td align="center">1716</td>
 <td><a href="https://codeforces.com/contest/1008/problem/B"><b>B</b> - Turn the Rectangles</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1008/submission/194706320" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>sortings</code> <code>*1000</code></td>
 <td align="center"><sub>Feb/23/2023 23:36</sub></td>
 </tr>
 <tr>
 <td align="center">1717</td>
 <td><a href="https://codeforces.com/contest/1304/problem/B"><b>B</b> - Longest Palindrome</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1304/submission/194660985" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>constructive algorithms</code> <code>greedy</code></td>
 <td align="center"><sub>Feb/23/2023 16:28</sub></td>
 </tr>
 <tr>
 <td align="center">1718</td>
 <td><a href="https://codeforces.com/contest/440/problem/B"><b>B</b> - Balancer</a></td>
 <td align="center"><a href="https://codeforces.com/contest/440/submission/194601142" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>*1600</code></td>
 <td align="center"><sub>Feb/23/2023 00:12</sub></td>
 </tr>
 <tr>
 <td align="center">1719</td>
 <td><a href="https://codeforces.com/contest/327/problem/B"><b>B</b> - Hungry Sequence</a></td>
 <td align="center"><a href="https://codeforces.com/contest/327/submission/194591630" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>*1200</code></td>
 <td align="center"><sub>Feb/22/2023 22:35</sub></td>
 </tr>
 <tr>
 <td align="center">1720</td>
 <td><a href="https://codeforces.com/contest/659/problem/A"><b>A</b> - Round House</a></td>
 <td align="center"><a href="https://codeforces.com/contest/659/submission/194512939" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>*1000</code></td>
 <td align="center"><sub>Feb/22/2023 03:23</sub></td>
 </tr>
 <tr>
 <td align="center">1721</td>
 <td><a href="https://codeforces.com/contest/1283/problem/A"><b>A</b> - Minutes Before the New Year</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1283/submission/194487246" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>*800</code></td>
 <td align="center"><sub>Feb/21/2023 23:08</sub></td>
 </tr>
 <tr>
 <td align="center">1722</td>
 <td><a href="https://codeforces.com/contest/702/problem/B"><b>B</b> - Powers of Two</a></td>
 <td align="center"><a href="https://codeforces.com/contest/702/submission/194285511" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>data structures</code> <code>implementation</code></td>
 <td align="center"><sub>Feb/20/2023 02:53</sub></td>
 </tr>
 <tr>
 <td align="center">1723</td>
 <td><a href="https://codeforces.com/contest/1622/problem/A"><b>A</b> - Construct a Rectangle</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1622/submission/194168474" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>geometry</code> <code>math</code> <code>*800</code></td>
 <td align="center"><sub>Feb/19/2023 03:46</sub></td>
 </tr>
 <tr>
 <td align="center">1724</td>
 <td><a href="https://codeforces.com/contest/875/problem/A"><b>A</b> - Classroom Watch</a></td>
 <td align="center"><a href="https://codeforces.com/contest/875/submission/194166344" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>math</code> <code>*1200</code></td>
 <td align="center"><sub>Feb/19/2023 03:17</sub></td>
 </tr>
 <tr>
 <td align="center">1725</td>
 <td><a href="https://codeforces.com/contest/1363/problem/A"><b>A</b> - Odd Selection</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1363/submission/194146903" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Feb/18/2023 23:43</sub></td>
 </tr>
 <tr>
 <td align="center">1726</td>
 <td><a href="https://codeforces.com/contest/13/problem/A"><b>A</b> - Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/13/submission/193929647" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>*1000</code></td>
 <td align="center"><sub>Feb/17/2023 02:21</sub></td>
 </tr>
 <tr>
 <td align="center">1727</td>
 <td><a href="https://codeforces.com/contest/1795/problem/B"><b>B</b> - Ideal Point</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1795/submission/193873178" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>geometry</code> <code>greedy</code></td>
 <td align="center"><sub>Feb/16/2023 21:22</sub></td>
 </tr>
 <tr>
 <td align="center">1728</td>
 <td><a href="https://codeforces.com/contest/1795/problem/A"><b>A</b> - Two Towers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1795/submission/193847899" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>strings</code></td>
 <td align="center"><sub>Feb/16/2023 20:48</sub></td>
 </tr>
 <tr>
 <td align="center">1729</td>
 <td><a href="https://codeforces.com/contest/1538/problem/C"><b>C</b> - Number of Pairs</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1538/submission/193832405" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>data structures</code> <code>math</code></td>
 <td align="center"><sub>Feb/16/2023 19:34</sub></td>
 </tr>
 <tr>
 <td align="center">1730</td>
 <td><a href="https://codeforces.com/contest/1553/problem/A"><b>A</b> - Digits Sum</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1553/submission/193727206" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>number theory</code> <code>*800</code></td>
 <td align="center"><sub>Feb/15/2023 20:42</sub></td>
 </tr>
 <tr>
 <td align="center">1731</td>
 <td><a href="https://codeforces.com/contest/1473/problem/B"><b>B</b> - String LCM</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1473/submission/193619178" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>math</code> <code>number theory</code></td>
 <td align="center"><sub>Feb/14/2023 21:30</sub></td>
 </tr>
 <tr>
 <td align="center">1732</td>
 <td><a href="https://codeforces.com/contest/463/problem/B"><b>B</b> - Caisa and Pylons</a></td>
 <td align="center"><a href="https://codeforces.com/contest/463/submission/193493133" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Feb/13/2023 21:57</sub></td>
 </tr>
 <tr>
 <td align="center">1733</td>
 <td><a href="https://codeforces.com/contest/1791/problem/G1"><b>G1</b> - Teleporters (Easy Version)</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1791/submission/193366567" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>sortings</code> <code>*1100</code></td>
 <td align="center"><sub>Feb/12/2023 21:45</sub></td>
 </tr>
 <tr>
 <td align="center">1734</td>
 <td><a href="https://codeforces.com/contest/1538/problem/A"><b>A</b> - Stone Game</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1538/submission/193107349" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>dp</code> <code>greedy</code></td>
 <td align="center"><sub>Feb/11/2023 01:04</sub></td>
 </tr>
 <tr>
 <td align="center">1735</td>
 <td><a href="https://codeforces.com/contest/1788/problem/C"><b>C</b> - Matching Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1788/submission/193036474" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Feb/10/2023 14:58</sub></td>
 </tr>
 <tr>
 <td align="center">1736</td>
 <td><a href="https://codeforces.com/contest/1788/problem/B"><b>B</b> - Sum of Two Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1788/submission/192981781" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>implementation</code></td>
 <td align="center"><sub>Feb/10/2023 01:13</sub></td>
 </tr>
 <tr>
 <td align="center">1737</td>
 <td><a href="https://codeforces.com/contest/1788/problem/A"><b>A</b> - One and Two</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1788/submission/192967148" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Feb/09/2023 23:24</sub></td>
 </tr>
 <tr>
 <td align="center">1738</td>
 <td><a href="https://codeforces.com/contest/1515/problem/B"><b>B</b> - Phoenix and Puzzle</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1515/submission/192832754" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>geometry</code> <code>math</code></td>
 <td align="center"><sub>Feb/09/2023 14:07</sub></td>
 </tr>
 <tr>
 <td align="center">1739</td>
 <td><a href="https://codeforces.com/contest/1244/problem/B"><b>B</b> - Rooms and Staircases</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1244/submission/192765915" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>*1000</code></td>
 <td align="center"><sub>Feb/08/2023 22:44</sub></td>
 </tr>
 <tr>
 <td align="center">1740</td>
 <td><a href="https://codeforces.com/contest/1330/problem/B"><b>B</b> - Dreamoon Likes Permutations</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1330/submission/192627739" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>*1400</code></td>
 <td align="center"><sub>Feb/07/2023 21:57</sub></td>
 </tr>
 <tr>
 <td align="center">1741</td>
 <td><a href="https://codeforces.com/contest/483/problem/A"><b>A</b> - Counterexample </a></td>
 <td align="center"><a href="https://codeforces.com/contest/483/submission/192390126" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Feb/06/2023 01:55</sub></td>
 </tr>
 <tr>
 <td align="center">1742</td>
 <td><a href="https://codeforces.com/contest/224/problem/A"><b>A</b> - Parallelepiped</a></td>
 <td align="center"><a href="https://codeforces.com/contest/224/submission/192372871" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>geometry</code> <code>math</code></td>
 <td align="center"><sub>Feb/05/2023 23:19</sub></td>
 </tr>
 <tr>
 <td align="center">1743</td>
 <td><a href="https://codeforces.com/contest/1791/problem/D"><b>D</b> - Distinct Split</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1791/submission/192060554" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>strings</code></td>
 <td align="center"><sub>Feb/04/2023 01:07</sub></td>
 </tr>
 <tr>
 <td align="center">1744</td>
 <td><a href="https://codeforces.com/contest/1791/problem/E"><b>E</b> - Negatives and Positives</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1791/submission/192022435" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>dp</code> <code>greedy</code> <code>sortings</code></td>
 <td align="center"><sub>Feb/03/2023 22:41</sub></td>
 </tr>
 <tr>
 <td align="center">1745</td>
 <td><a href="https://codeforces.com/contest/1791/problem/C"><b>C</b> - Prepend and Append</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1791/submission/191903777" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>two pointers</code> <code>*800</code></td>
 <td align="center"><sub>Feb/03/2023 20:56</sub></td>
 </tr>
 <tr>
 <td align="center">1746</td>
 <td><a href="https://codeforces.com/contest/1791/problem/B"><b>B</b> - Following Directions</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1791/submission/191887194" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>geometry</code> <code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Feb/03/2023 20:48</sub></td>
 </tr>
 <tr>
 <td align="center">1747</td>
 <td><a href="https://codeforces.com/contest/1644/problem/B"><b>B</b> - Anti-Fibonacci Permutation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1644/submission/191736265" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>constructive algorithms</code> <code>implementation</code></td>
 <td align="center"><sub>Feb/02/2023 22:26</sub></td>
 </tr>
 <tr>
 <td align="center">1748</td>
 <td><a href="https://codeforces.com/contest/1644/problem/A"><b>A</b> - Doors and Keys</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1644/submission/191729706" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Feb/02/2023 21:33</sub></td>
 </tr>
 <tr>
 <td align="center">1749</td>
 <td><a href="https://codeforces.com/contest/285/problem/C"><b>C</b> - Building Permutation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/285/submission/191725020" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>sortings</code></td>
 <td align="center"><sub>Feb/02/2023 20:54</sub></td>
 </tr>
 <tr>
 <td align="center">1750</td>
 <td><a href="https://codeforces.com/contest/1108/problem/B"><b>B</b> - Divisors of Two Integers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1108/submission/191624493" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Feb/02/2023 01:42</sub></td>
 </tr>
 <tr>
 <td align="center">1751</td>
 <td><a href="https://codeforces.com/contest/1778/problem/A"><b>A</b> - Flip Flop Sum</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1778/submission/191553292" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Feb/01/2023 20:43</sub></td>
 </tr>
 <tr>
 <td align="center">1752</td>
 <td><a href="https://codeforces.com/contest/6/problem/B"><b>B</b> - President's Office</a></td>
 <td align="center"><a href="https://codeforces.com/contest/6/submission/191429463" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*1100</code></td>
 <td align="center"><sub>Feb/01/2023 01:12</sub></td>
 </tr>
 <tr>
 <td align="center">1753</td>
 <td><a href="https://codeforces.com/contest/1342/problem/B"><b>B</b> - Binary Period</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1342/submission/191387126" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>strings</code> <code>*1100</code></td>
 <td align="center"><sub>Jan/31/2023 20:09</sub></td>
 </tr>
 <tr>
 <td align="center">1754</td>
 <td><a href="https://codeforces.com/contest/1343/problem/A"><b>A</b> - Candies</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1343/submission/191272635" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>math</code> <code>*900</code></td>
 <td align="center"><sub>Jan/30/2023 21:31</sub></td>
 </tr>
 <tr>
 <td align="center">1755</td>
 <td><a href="https://codeforces.com/contest/1553/problem/B"><b>B</b> - Reverse String</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1553/submission/191264341" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>dp</code> <code>hashing</code></td>
 <td align="center"><sub>Jan/30/2023 20:34</sub></td>
 </tr>
 <tr>
 <td align="center">1756</td>
 <td><a href="https://codeforces.com/contest/1146/problem/A"><b>A</b> - Love "A"</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1146/submission/191174254" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>strings</code> <code>*800</code></td>
 <td align="center"><sub>Jan/30/2023 01:23</sub></td>
 </tr>
 <tr>
 <td align="center">1757</td>
 <td><a href="https://codeforces.com/contest/1512/problem/A"><b>A</b> - Spy Detected!</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1512/submission/191172876" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>*800</code></td>
 <td align="center"><sub>Jan/30/2023 01:10</sub></td>
 </tr>
 <tr>
 <td align="center">1758</td>
 <td><a href="https://codeforces.com/contest/1660/problem/B"><b>B</b> - Vlad and Candies</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1660/submission/191164864" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>*800</code></td>
 <td align="center"><sub>Jan/29/2023 23:49</sub></td>
 </tr>
 <tr>
 <td align="center">1759</td>
 <td><a href="https://codeforces.com/contest/1790/problem/C"><b>C</b> - Premutation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1790/submission/190893829" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Jan/28/2023 00:51</sub></td>
 </tr>
 <tr>
 <td align="center">1760</td>
 <td><a href="https://codeforces.com/contest/1790/problem/B"><b>B</b> - Taisia and Dice</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1790/submission/190828085" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Jan/27/2023 21:26</sub></td>
 </tr>
 <tr>
 <td align="center">1761</td>
 <td><a href="https://codeforces.com/contest/1790/problem/A"><b>A</b> - Polycarp and the Day of Pi</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1790/submission/190788499" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>math</code> <code>strings</code></td>
 <td align="center"><sub>Jan/27/2023 20:47</sub></td>
 </tr>
 <tr>
 <td align="center">1762</td>
 <td><a href="https://codeforces.com/contest/1090/problem/M"><b>M</b> - The Pleasant Walk</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1090/submission/190702734" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*1000</code></td>
 <td align="center"><sub>Jan/27/2023 02:35</sub></td>
 </tr>
 <tr>
 <td align="center">1763</td>
 <td><a href="https://codeforces.com/contest/186/problem/A"><b>A</b> - Comparing Strings</a></td>
 <td align="center"><a href="https://codeforces.com/contest/186/submission/190588210" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>strings</code> <code>*1100</code></td>
 <td align="center"><sub>Jan/26/2023 01:42</sub></td>
 </tr>
 <tr>
 <td align="center">1764</td>
 <td><a href="https://codeforces.com/contest/1436/problem/A"><b>A</b> - Reorder</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1436/submission/190584619" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>*800</code></td>
 <td align="center"><sub>Jan/26/2023 01:02</sub></td>
 </tr>
 <tr>
 <td align="center">1765</td>
 <td><a href="https://codeforces.com/contest/1780/problem/B"><b>B</b> - GCD Partition</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1780/submission/190548157" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Jan/25/2023 21:44</sub></td>
 </tr>
 <tr>
 <td align="center">1766</td>
 <td><a href="https://codeforces.com/contest/1780/problem/A"><b>A</b> - Hayato and School</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1780/submission/190533627" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>*800</code></td>
 <td align="center"><sub>Jan/25/2023 21:19</sub></td>
 </tr>
 <tr>
 <td align="center">1767</td>
 <td><a href="https://codeforces.com/contest/1792/problem/A"><b>A</b> - GamingForces</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1792/submission/190326396" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>sortings</code> <code>*800</code></td>
 <td align="center"><sub>Jan/24/2023 20:42</sub></td>
 </tr>
 <tr>
 <td align="center">1768</td>
 <td><a href="https://codeforces.com/contest/638/problem/A"><b>A</b> - Home Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/638/submission/190314365" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>*special</code> <code>constructive algorithms</code> <code>math</code></td>
 <td align="center"><sub>Jan/24/2023 20:05</sub></td>
 </tr>
 <tr>
 <td align="center">1769</td>
 <td><a href="https://codeforces.com/contest/1294/problem/C"><b>C</b> - Product of Three Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1294/submission/190227272" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>math</code> <code>number theory</code></td>
 <td align="center"><sub>Jan/23/2023 21:49</sub></td>
 </tr>
 <tr>
 <td align="center">1770</td>
 <td><a href="https://codeforces.com/contest/1669/problem/F"><b>F</b> - Eating Candies</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1669/submission/190098307" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>data structures</code> <code>greedy</code></td>
 <td align="center"><sub>Jan/22/2023 18:49</sub></td>
 </tr>
 <tr>
 <td align="center">1771</td>
 <td><a href="https://codeforces.com/contest/1419/problem/A"><b>A</b> - Digit Game</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1419/submission/190031157" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>games</code> <code>greedy</code> <code>implementation</code></td>
 <td align="center"><sub>Jan/21/2023 23:57</sub></td>
 </tr>
 <tr>
 <td align="center">1772</td>
 <td><a href="https://codeforces.com/contest/1626/problem/A"><b>A</b> - Equidistant Letters</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1626/submission/189779222" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>constructive algorithms</code> <code>sortings</code> <code>*800</code></td>
 <td align="center"><sub>Jan/20/2023 00:57</sub></td>
 </tr>
 <tr>
 <td align="center">1773</td>
 <td><a href="https://codeforces.com/contest/1626/problem/B"><b>B</b> - Minor Reduction</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1626/submission/189778728" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>greedy</code> <code>strings</code> <code>*1100</code></td>
 <td align="center"><sub>Jan/20/2023 00:50</sub></td>
 </tr>
 <tr>
 <td align="center">1774</td>
 <td><a href="https://codeforces.com/contest/1676/problem/E"><b>E</b> - Eating Queries</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1676/submission/189675021" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>binary search</code> <code>greedy</code> <code>sortings</code></td>
 <td align="center"><sub>Jan/19/2023 00:40</sub></td>
 </tr>
 <tr>
 <td align="center">1775</td>
 <td><a href="https://codeforces.com/contest/25/problem/B"><b>B</b> - Phone numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/25/submission/189584260" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>*1100</code></td>
 <td align="center"><sub>Jan/18/2023 02:34</sub></td>
 </tr>
 <tr>
 <td align="center">1776</td>
 <td><a href="https://codeforces.com/contest/762/problem/A"><b>A</b> - k-th divisor</a></td>
 <td align="center"><a href="https://codeforces.com/contest/762/submission/189472293" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>math</code> <code>number theory</code> <code>*1400</code></td>
 <td align="center"><sub>Jan/17/2023 01:05</sub></td>
 </tr>
 <tr>
 <td align="center">1777</td>
 <td><a href="https://codeforces.com/contest/5/problem/B"><b>B</b> - Center Alignment</a></td>
 <td align="center"><a href="https://codeforces.com/contest/5/submission/189435167" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>implementation</code> <code>strings</code> <code>*1200</code></td>
 <td align="center"><sub>Jan/16/2023 19:00</sub></td>
 </tr>
 <tr>
 <td align="center">1778</td>
 <td><a href="https://codeforces.com/contest/1669/problem/E"><b>E</b> - 2-Letter Strings</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1669/submission/189414258" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>data structures</code> <code>math</code> <code>strings</code></td>
 <td align="center"><sub>Jan/16/2023 15:04</sub></td>
 </tr>
 <tr>
 <td align="center">1779</td>
 <td><a href="https://codeforces.com/contest/545/problem/C"><b>C</b> - Woodcutters</a></td>
 <td align="center"><a href="https://codeforces.com/contest/545/submission/189249451" title="Python 3"><code>Python 3</code></a></td>
-<td>-</td>
+<td><code>dp</code> <code>greedy</code> <code>*1500</code></td>
 <td align="center"><sub>Jan/15/2023 01:02</sub></td>
 </tr>
 <tr>
 <td align="center">1780</td>
 <td><a href="https://codeforces.com/contest/1703/problem/D"><b>D</b> - Double Strings</a></td>
 <td align="center"><a href="https://codeforces.com/contest/1703/submission/189209515" title="C++17 (GCC 7-32)"><code>C++17 (GCC 7-32)</code></a></td>
-<td>-</td>
+<td><code>brute force</code> <code>data structures</code> <code>strings</code></td>
 <td align="center"><sub>Jan/14/2023 17:50</sub></td>
 </tr>
 <tr>
@@ -15736,6 +15736,6 @@
 
 <div align="center">
 
-*Last Updated: January 19, 2026 at 23:54 BDT (UTC+6)*
+*Last Updated: January 19, 2026 at 23:55 BDT (UTC+6)*
 
 </div>
