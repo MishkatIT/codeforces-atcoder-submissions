@@ -9,10 +9,8 @@
 
 
 ### 📊 Total Problems Solved: **2243**
-<sub>Only <b>public</b> problems are counted. <b>Private</b> problems are not included in this total.</sub>
-
 <div style="color: #d9534f; font-weight: bold; margin-top: 8px;">
-<sub>Only public problems are shown.</sub>
+<sub>Only public problems are counted. Private problems are not included in this total.</sub>
 </div>
 
 ---
@@ -15738,6 +15736,6 @@
 
 <div align="center">
 
-*Last Updated: January 19, 2026 at 23:25 BDT (UTC+6)*
+*Last Updated: January 19, 2026 at 23:28 BDT (UTC+6)*
 
 </div>
