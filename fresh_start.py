@@ -300,7 +300,7 @@ def setup_config(repo_root):
     users_config = {
         'name': author_name,
         'email': author_email,
-        'directory': str(repo_root / 'submissions'),
+        'directory': 'submissions',
         'remote': remote_url,
         'codeforces': [cf_username] if cf_username else [],
         'atcoder': [ac_username] if ac_username else []

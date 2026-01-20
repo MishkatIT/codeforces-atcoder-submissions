@@ -6,7 +6,9 @@
 [![AtCoder Profile](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT)
 [![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=github-actions)](../../actions/workflows/harwest.yml)
 
-**Automatically archive your competitive programming submissions from Codeforces & AtCoder**
+**Automatically archive your competitive programming submissions from Codeforces & AtCoder**  
+
+> **NEW!** For all your harvesting needs, use the magical `harwest_control_panel.bat` (the one batch to rule them all)! It's so powerful, even your submissions are afraid to be left behind. Run it, and let the automation wizardry begin!
 
 </div>
 
@@ -36,6 +38,46 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 | **Codeforces** | [MishkatIT](https://codeforces.com/profile/MishkatIT) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT) | [📝 View All](codeforces.md) |
 | **AtCoder** | [MishkatIT](https://atcoder.jp/users/MishkatIT) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

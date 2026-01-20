@@ -262,6 +262,11 @@ class AbstractWorkflow(ABC):
     return len(text) + ansi_code_length
 
   def run(self, start_page_index=1, full_scan=False, check_recent_days=None):
+    # Stylized eye-catching workflow start message
+    CYAN = '\033[96m'
+    BOLD = '\033[1m'
+    RESET = '\033[0m'
+    print(f"\n{CYAN}{BOLD}[harwest] Workflow starting... Please wait while submissions are being fetched.{RESET}", end='', flush=True)
     """Run the harvest workflow.
     
     Args:

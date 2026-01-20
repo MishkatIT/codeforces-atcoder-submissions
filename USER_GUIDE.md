@@ -1,5 +1,8 @@
 # 📖 Harwest - Complete User Guide
 
+...existing content...
+# 📖 Harwest - Complete User Guide
+
 **Comprehensive guide for setting up and using Harwest to automatically archive your competitive programming submissions from Codeforces and AtCoder.**
 
 ---
@@ -435,6 +438,7 @@ The script will clear everything and reconfigure.
 | Command | Description |
 |---------|-------------|
 | `python fresh_start.py` | Interactive setup/reset |
+| `harwest_control_panel.bat` | The one batch to rule them all! Launch this for a magical menu (and a few laughs) to harvest everything locally. |
 | `python -m harwest --help` | Show help |
 | `python -m harwest PLATFORM` | Check recent submissions |
 | `python -m harwest PLATFORM --full-scan` | Harvest all submissions |

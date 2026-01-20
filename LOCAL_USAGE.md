@@ -263,6 +263,7 @@ git remote set-url origin https://github.com/YOUR_USERNAME/codeforces-atcoder-su
 | Script | Description |
 |--------|-------------|
 | `python fresh_start.py` | Interactive fresh start/fork setup |
+| `harwest_control_panel.bat` | The one batch to rule them all! Launch this for a magical menu (and a few laughs) to harvest everything locally. |
 
 ## 💡 Tips
 

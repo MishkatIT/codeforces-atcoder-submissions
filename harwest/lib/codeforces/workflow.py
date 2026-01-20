@@ -8,4 +8,6 @@ class CodeforcesWorkflow(AbstractWorkflow):
     super().__init__(CodeforcesClient(username), user_data)
 
   def enrich_submission(self, submission):
-    submission['tags'] = self.client.get_contest_tags(submission['problem_url'])
+    tags = self.client.get_contest_tags(submission['problem_url'])
+    if tags:
+      submission['tags'] = tags
