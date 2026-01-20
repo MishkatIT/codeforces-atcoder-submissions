@@ -1,7 +1,7 @@
 name: Harwest Submissions
 
 on:
-  # Daily schedule - 11:35 PM BDT (5:35 PM UTC) with random delay
+  # Daily schedule - 11:35 PM BDT (5:35 PM UTC)
   schedule:
     - cron: '35 17 * * *'  # Runs daily at 5:35 PM UTC (11:35 PM BDT)
   
@@ -78,14 +78,6 @@ jobs:
       contents: write  # Required to push changes
     
     steps:
-      - name: Random delay (419 seconds max)
-        run: |
-          # Add random delay up to 419 seconds (6 minutes 59 seconds)
-          DELAY=$((RANDOM % 1))
-          echo "⏰ Adding random delay of $DELAY seconds..."
-          sleep $DELAY
-          echo "✅ Delay complete, starting harvest"
-      
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
