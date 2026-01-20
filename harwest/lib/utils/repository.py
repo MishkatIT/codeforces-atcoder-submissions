@@ -6,10 +6,11 @@ from git import Repo, GitCommandError
 
 
 class Repository:
-  def __init__(self, submissions_directory):
+  def __init__(self, submissions_directory, author_name=None, author_email=None, remote_url=None):
     self.submissions_directory = submissions_directory
     self.submission_json_path = os.path.join(self.submissions_directory, "submissions.json")
-    self.author = config.get_author()
+    self.author = config.get_author(author_name, author_email)
+    self.remote_url_override = remote_url
     if not os.path.exists(self.submissions_directory):
       self.init()
     
@@ -77,7 +78,7 @@ class Repository:
       print(f"[harwest] Commit failed: {e}")
 
   def push(self, force_push=False):
-    remote_url = config.get_remote_url()
+    remote_url = self.remote_url_override or config.get_remote_url()
     if not remote_url:
       print("\U00002757", "The remote git repository url is not defined, skipping push")
     else:

@@ -35,27 +35,34 @@ def load_users_config():
     print(f"Error loading users config: {e}")
     return None
 
-def get_submissions_dir():
+def get_submissions_dir(override=None):
+  if override:
+    return override
   users = load_users_config()
   if users and 'directory' in users:
     return users['directory']
   return './submissions'
 
-def get_author():
-  users = load_users_config()
-  name = users.get('name', 'Unknown') if users else 'Unknown'
-  email = users.get('email', 'unknown@example.com') if users else 'unknown@example.com'
+def get_author(override_name=None, override_email=None):
+  name = override_name if override_name else (load_users_config().get('name', 'Unknown') if load_users_config() else 'Unknown')
+  email = override_email if override_email else (load_users_config().get('email', 'unknown@example.com') if load_users_config() else 'unknown@example.com')
   return f'{name} <{email}>'
 
-def get_author_name():
+def get_author_name(override=None):
+  if override:
+    return override
   users = load_users_config()
   return users.get('name', 'Unknown') if users else 'Unknown'
 
-def get_author_email():
+def get_author_email(override=None):
+  if override:
+    return override
   users = load_users_config()
   return users.get('email', 'unknown@example.com') if users else 'unknown@example.com'
 
-def get_remote_url():
+def get_remote_url(override=None):
+  if override:
+    return override
   users = load_users_config()
   if users and 'remote' in users:
     return users['remote']

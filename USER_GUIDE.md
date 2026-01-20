@@ -495,10 +495,21 @@ The script will clear everything and reconfigure.
 | `python -m harwest PLATFORM --start-page N` | Start from page N |
 | `python -m harwest PLATFORM --auto` | Non-interactive mode |
 
+### Advanced Options (Automation/CI)
+
+| Command | Description |
+|---------|-------------|
+| `python -m harwest PLATFORM --directory PATH` | Custom submissions directory (overrides config) |
+| `python -m harwest PLATFORM --author-name NAME` | Set git author name (overrides config) |
+| `python -m harwest PLATFORM --author-email EMAIL` | Set git author email (overrides config) |
+| `python -m harwest PLATFORM --remote-url URL` | Set git remote URL (overrides config) |
+
 ### Platforms
 
 - `codeforces` - Codeforces submissions
 - `atcoder` - AtCoder submissions
+
+> **Note:** Some options shown in `--help` may not be fully implemented. Use `python fresh_start.py` for initial setup.
 
 ---
 
@@ -511,10 +522,6 @@ The script will clear everything and reconfigure.
 5. **Private Fork:** Works perfectly in private repositories
 6. **Failed Code Fetch:** Fallback links to platform automatically created
 7. **Fresh Start Anytime:** Run `python fresh_start.py` to reset
-8. **Backup:** Keep backup of `submissions/submissions.json`:
-   ```bash
-   cp submissions/submissions.json submissions/submissions.json.backup
-   ```
 
 ---
 

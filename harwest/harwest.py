@@ -47,8 +47,6 @@ def build_argument_parser():
   parser = argparse.ArgumentParser(
     description='Creates a repository of all the submissions from a given platform',
     parents=[automation_parser])
-  parser.add_argument('-i', '--init', default=False, action='store_true',
-                      help="Setup the local repository configuration")
   subparsers = parser.add_subparsers(
     help='The platform to scrape the solutions from')
 
@@ -57,8 +55,6 @@ def build_argument_parser():
       platform[0].lower(),
       help="Scrape solutions from the " + platform[0] + " platform",
       parents=[automation_parser])
-    pt_parser.add_argument('-s', '--setup', default=False, action='store_true',
-                           help="Setup the platform configurations")
     pt_parser.add_argument('-p', '--start-page', type=int, default=1,
                            help='The page index to start scraping from (default: 1)')
     pt_parser.add_argument('-f', '--full-scan', default=False, action='store_true',
@@ -122,38 +118,37 @@ def process_platform(args, platform, workflow):
       print(f"{RED}{'═' * 70}{RESET}\n")
       return
   
+  # Override config values with command-line arguments if provided
+  if args.directory:
+    configs['directory'] = args.directory
+  
   # Try to load username(s) from config file first
   platform_users = config.get_platform_users(platform)
   
-  # If setup flag is set or no users in config, check if username in configs (old behavior)
-  if args.setup or (not platform_users and platform.lower() not in configs):
-    if not platform_users:
-      print(f"\n{RED}{'═' * 70}{RESET}")
-      print(f"{RED}{BOLD}❌  ERROR: No username configured for {platform}.{RESET}")
-      print(f"{RED}{'─' * 70}{RESET}")
-      print(f"{YELLOW}Please add your {platform} username to config/users.json{RESET}")
-      print(f"{RED}{'═' * 70}{RESET}\n")
-      return
-    else:
-      configs[platform.lower()] = platform_users[0]
-      full_scan = True
-  elif platform_users and platform.lower() not in configs:
+  if not platform_users:
+    print(f"\n{RED}{'═' * 70}{RESET}")
+    print(f"{RED}{BOLD}❌  ERROR: No username configured for {platform}.{RESET}")
+    print(f"{RED}{'─' * 70}{RESET}")
+    print(f"{YELLOW}Please add your {platform} username to config/users.json{RESET}")
+    print(f"{RED}{'═' * 70}{RESET}\n")
+    return
+  
+  if platform.lower() not in configs:
     configs[platform.lower()] = platform_users[0]
     full_scan = True
   
-  if not args.setup:
-    full_scan = full_scan or (True if args.full_scan else False)
+  full_scan = full_scan or (True if args.full_scan else False)
+  
+  # Check if we have a valid username
+  if platform.lower() not in configs or not configs[platform.lower()]:
+    print(f"\n{RED}{'═' * 70}{RESET}")
+    print(f"{RED}{BOLD}⚠️  WARNING: No username configured for {platform}{RESET}")
+    print(f"{RED}{'─' * 70}{RESET}")
+    print(f"{YELLOW}run: python fresh_start.py {RESET}")
+    print(f"{RED}{'═' * 70}{RESET}\n")
+    return
     
-    # Check if we have a valid username
-    if platform.lower() not in configs or not configs[platform.lower()]:
-      print(f"\n{RED}{'═' * 70}{RESET}")
-      print(f"{RED}{BOLD}⚠️  WARNING: No username configured for {platform}{RESET}")
-      print(f"{RED}{'─' * 70}{RESET}")
-      print(f"{YELLOW}run: python fresh_start.py {RESET}")
-      print(f"{RED}{'═' * 70}{RESET}\n")
-      return
-    
-    workflow(configs).run(start_page_index=args.start_page, full_scan=full_scan)
+    workflow(configs, args.author_name, args.author_email, args.remote_url).run(start_page_index=args.start_page, full_scan=full_scan)
 
 
 def main():

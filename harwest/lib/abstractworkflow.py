@@ -9,7 +9,7 @@ from harwest.lib.utils.submissions import Submissions
 
 
 class AbstractWorkflow(ABC):
-  def __init__(self, platform_client, user_data):
+  def __init__(self, platform_client, user_data, author_name=None, author_email=None, remote_url=None):
     """Initialize workflow with comprehensive validation"""
     try:
       if not platform_client:
@@ -28,7 +28,7 @@ class AbstractWorkflow(ABC):
         print(f"Creating submissions directory: {self.submissions_directory}")
         os.makedirs(self.submissions_directory, exist_ok=True)
       
-      self.repository = Repository(self.submissions_directory)
+      self.repository = Repository(self.submissions_directory, author_name, author_email, remote_url)
       
       # Pass platform name to Submissions (with error handling)
       try:

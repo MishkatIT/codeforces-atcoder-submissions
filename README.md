@@ -39,6 +39,10 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 | **AtCoder** | [MishkatIT](https://atcoder.jp/users/MishkatIT) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
 
+
+
+
+
 ### 📁 Repository Structure
 
 <details>
