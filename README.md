@@ -1,4 +1,8 @@
-# 📦 Competitive Programming Archive
+<div align="center">
+
+# Competitive Programming Archive
+
+</div>
 
 <div align="center">
 
