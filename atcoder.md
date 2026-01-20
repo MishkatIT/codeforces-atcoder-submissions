@@ -12,6 +12,7 @@
 
 ---
 <div align="center">
+
 ## 📝 Recent Submissions
 
 <table>
@@ -650,6 +651,7 @@
 </tr>
 </tbody>
 </table>
+
 </div>
 
 ---
