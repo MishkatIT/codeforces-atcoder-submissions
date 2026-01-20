@@ -31,22 +31,22 @@
 <tr>
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2185/problem/E"><b>E</b> - The Robotic Rush</a></td>
-<td align="center"><a href="https://codeforces.com/contest/2185/submission/358700279" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
+<td align="center"><a href="https://codeforces.com/contest/2185/submission/358700153" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
 <td><code>binary search</code> <code>implementation</code> <code>two pointers</code></td>
 <td align="center"><sub>Jan/19/2026 13:09</sub></td>
 </tr>
 <tr>
 <td align="center">2</td>
-<td><a href="https://codeforces.com/contest/2185/problem/D"><b>D</b> - OutOfMemoryError</a></td>
-<td align="center"><a href="https://codeforces.com/contest/2185/submission/358635534" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>data structures</code> <code>implementation</code> <code>math</code></td>
+<td><a href="https://codeforces.com/contest/2185/problem/C"><b>C</b> - Shifted MEX</a></td>
+<td align="center"><a href="https://codeforces.com/contest/2185/submission/358635241" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
+<td><code>implementation</code> <code>sortings</code></td>
 <td align="center"><sub>Jan/18/2026 22:49</sub></td>
 </tr>
 <tr>
 <td align="center">3</td>
-<td><a href="https://codeforces.com/contest/2185/problem/C"><b>C</b> - Shifted MEX</a></td>
-<td align="center"><a href="https://codeforces.com/contest/2185/submission/358635241" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>implementation</code> <code>sortings</code></td>
+<td><a href="https://codeforces.com/contest/2185/problem/D"><b>D</b> - OutOfMemoryError</a></td>
+<td align="center"><a href="https://codeforces.com/contest/2185/submission/358635534" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
+<td><code>data structures</code> <code>implementation</code> <code>math</code></td>
 <td align="center"><sub>Jan/18/2026 22:49</sub></td>
 </tr>
 <tr>
@@ -2123,16 +2123,16 @@
 </tr>
 <tr>
 <td align="center">300</td>
-<td><a href="https://codeforces.com/contest/2108/problem/A"><b>A</b> - Permutation Warm-Up</a></td>
-<td align="center"><a href="https://codeforces.com/contest/2108/submission/317996275" title="C++20 (GCC 13-64)"><code>C++20 (GCC 13-64)</code></a></td>
-<td><code>combinatorics</code> <code>greedy</code> <code>math</code></td>
+<td><a href="https://codeforces.com/contest/2108/problem/B"><b>B</b> - SUMdamental Decomposition</a></td>
+<td align="center"><a href="https://codeforces.com/contest/2108/submission/317996181" title="C++20 (GCC 13-64)"><code>C++20 (GCC 13-64)</code></a></td>
+<td><code>bitmasks</code> <code>constructive algorithms</code> <code>greedy</code></td>
 <td align="center"><sub>May/01/2025 21:52</sub></td>
 </tr>
 <tr>
 <td align="center">301</td>
-<td><a href="https://codeforces.com/contest/2108/problem/B"><b>B</b> - SUMdamental Decomposition</a></td>
-<td align="center"><a href="https://codeforces.com/contest/2108/submission/317996181" title="C++20 (GCC 13-64)"><code>C++20 (GCC 13-64)</code></a></td>
-<td><code>bitmasks</code> <code>constructive algorithms</code> <code>greedy</code></td>
+<td><a href="https://codeforces.com/contest/2108/problem/A"><b>A</b> - Permutation Warm-Up</a></td>
+<td align="center"><a href="https://codeforces.com/contest/2108/submission/317996275" title="C++20 (GCC 13-64)"><code>C++20 (GCC 13-64)</code></a></td>
+<td><code>combinatorics</code> <code>greedy</code> <code>math</code></td>
 <td align="center"><sub>May/01/2025 21:52</sub></td>
 </tr>
 </tbody>
@@ -2142,6 +2142,6 @@
 
 <div align="center">
 
-*Last Updated: January 20, 2026 at 13:42 BDT (UTC+6)*
+*Last Updated: January 20, 2026 at 13:44 BDT (UTC+6)*
 
 </div>
