@@ -1,9 +1,9 @@
 name: Harwest Submissions
 
 on:
-  # Daily schedule - 11:20 PM BDT (5:20 PM UTC) with random delay
+  # Daily schedule - 11:35 PM BDT (5:35 PM UTC) with random delay
   schedule:
-    - cron: '20 17 * * *'  # Runs daily at 5:20 PM UTC (11:20 PM BDT)
+    - cron: '35 17 * * *'  # Runs daily at 5:35 PM UTC (11:35 PM BDT)
   
   # Allow manual trigger
   workflow_dispatch:
@@ -78,10 +78,10 @@ jobs:
       contents: write  # Required to push changes
     
     steps:
-      - name: Random delay (420 seconds max)
+      - name: Random delay (419 seconds max)
         run: |
-          # Add random delay up to 420 seconds (7 minutes)
-          DELAY=$((RANDOM % 1))
+          # Add random delay up to 419 seconds (6 minutes 59 seconds)
+          DELAY=$((RANDOM % 420))
           echo "⏰ Adding random delay of $DELAY seconds..."
           sleep $DELAY
           echo "✅ Delay complete, starting harvest"

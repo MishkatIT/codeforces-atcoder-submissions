@@ -10,10 +10,9 @@
 
 
 <!-- AUTO-UPDATE BADGES SECTION START -->
-[![Codeforces](https://badges.joonhyung.xyz/codeforces/Abdullah_78.svg)](https://codeforces.com/profile/Abdullah_78)
-[![AtCoder](https://badges.joonhyung.xyz/atcoder/Tridib21.svg)](https://atcoder.jp/users/Tridib21)
 [![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=github-actions)](../../actions/workflows/harwest.yml)
 <!-- AUTO-UPDATE BADGES SECTION END -->
+
 
 
 
@@ -76,9 +75,9 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 <!-- AUTO-UPDATE PLATFORMS SECTION START -->
 | Platform | Profile | Solutions | Submissions |
 |----------|---------|-----------|-------------|
-| **Codeforces** | [Abdullah_78](https://codeforces.com/profile/Abdullah_78) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/Abdullah_78.svg)](https://codeforces.com/profile/Abdullah_78) | [📝 View All](codeforces.md) |
-| **AtCoder** | [Tridib21](https://atcoder.jp/users/Tridib21) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/Tridib21.svg)](https://atcoder.jp/users/Tridib21) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
+
+
 
 
 </div>
@@ -146,7 +145,7 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 
 ### 🤖 Automated Daily Harvesting
 
-GitHub Actions runs **every day at 11:20 PM BDT (5:20 PM UTC)**:
+GitHub Actions runs **every day at 11:35 PM BDT (5:35 PM UTC)**:
 - ✅ **Smart Scanning**: Checks last 30 days for new submissions (fast & efficient)
 - ✅ **Full History**: First run fetches all submissions with `--full-scan`
 - ✅ **Auto Updates**: Tags and ratings update automatically when changed

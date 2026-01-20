@@ -3,10 +3,6 @@
   "email": "mishkatcse1@gmail.com",
   "directory": "submissions",
   "remote": "https://github.com/MishkatIT/codeforces-atcoder-submissions.git",
-  "codeforces": [
-    "Abdullah_78"
-  ],
-  "atcoder": [
-    "Tridib21"
-  ]
+  "codeforces": [],
+  "atcoder": []
 }

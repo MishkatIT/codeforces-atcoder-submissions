@@ -98,7 +98,7 @@ git push
 
 ### 📅 Default Schedule
 
-GitHub Actions runs **automatically every day at 11:20 PM BDT (5:20 PM UTC)**.
+GitHub Actions runs **automatically every day at 11:35 PM BDT (5:35 PM UTC)**.
 
 <details>
 <summary>What happens during each run</summary>
@@ -158,7 +158,7 @@ Edit [`.github/workflows/harwest.yml`](.github/workflows/harwest.yml):
 
 ```yaml
 schedule:
-  - cron: '20 17 * * *'  # 11:20 PM BDT (5:20 PM UTC)
+  - cron: '35 17 * * *'  # 11:35 PM BDT (5:35 PM UTC)
 ```
 
 **Examples:**
