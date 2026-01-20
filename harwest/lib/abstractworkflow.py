@@ -39,6 +39,8 @@ class AbstractWorkflow(ABC):
       
       self.submissions = Submissions(self.submissions_directory, self.user_data, platform_name)
       
+      self.url_only_count = 0  # Counter for submissions stored with URL only
+      
     except Exception as e:
       print(f"Critical error initializing workflow: {e}")
       raise
@@ -111,7 +113,8 @@ class AbstractWorkflow(ABC):
       if solution_code is None:
         submission['path'] = None  # Mark as no file available
         # Submission will be added with link only - no file to commit
-        submission['__info_message'] = f"Info: {self.client.get_platform_name()[0]} did not provide solution code; storing submission with link only."
+        submission['__info_message'] = f"Info: storing URL"
+        self.url_only_count += 1
       else:
         # Write solution file
         try:
@@ -410,6 +413,8 @@ class AbstractWorkflow(ABC):
       self.repository.push()
       print(f"\n{GREEN}{'═' * 80}{RESET}")
       print(f"{GREEN}{BOLD}✅  SUCCESS!{RESET} {GREEN}Repository updated successfully!{RESET}")
+      if self.url_only_count > 0:
+        print(f"{YELLOW}ℹ️  Platform didn't provide solution code for {self.url_only_count} submissions, so stored Solution URL only.{RESET}")
       print(f"{GREEN}{'═' * 80}{RESET}\n")
     except Exception as e:
       print(f"\n{YELLOW}⚠️  Warning: Failed to push to repository: {str(e)}{RESET}")
