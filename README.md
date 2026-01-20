@@ -1,6 +1,10 @@
 # 📦 Competitive Programming Archive
 
 <div align="center">
+
+
+
+
 <!-- AUTO-UPDATE BADGES SECTION START -->
 [![Codeforces](https://badges.joonhyung.xyz/codeforces/Abdullah_78.svg)](https://codeforces.com/profile/Abdullah_78)
 [![AtCoder](https://badges.joonhyung.xyz/atcoder/Tridib21.svg)](https://atcoder.jp/users/Tridib21)
@@ -12,9 +16,7 @@
 
 
 
-
-
-
+[![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=github-actions)](../../actions/workflows/harwest.yml)
 
 **Automatically archive your competitive programming submissions from Codeforces & AtCoder**  
 
@@ -23,6 +25,7 @@
 > **v2.0** System upgraded with enhanced automation and improved user experience!
 
 </div>
+
 
 ---
 
@@ -50,15 +53,6 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 | **Codeforces** | [Abdullah_78](https://codeforces.com/profile/Abdullah_78) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/Abdullah_78.svg)](https://codeforces.com/profile/Abdullah_78) | [📝 View All](codeforces.md) |
 | **AtCoder** | [Tridib21](https://atcoder.jp/users/Tridib21) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/Tridib21.svg)](https://atcoder.jp/users/Tridib21) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
-
-
-
-
-
-
-
-
-
 
 
 
