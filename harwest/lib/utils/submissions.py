@@ -63,8 +63,9 @@ class Submissions:
       badges += f"[![Codeforces](https://badges.joonhyung.xyz/codeforces/{user}.svg)](https://codeforces.com/profile/{user})\n"
     for user in atcoder_users:
       badges += f"[![AtCoder](https://badges.joonhyung.xyz/atcoder/{user}.svg)](https://atcoder.jp/users/{user})\n"
+    badges += "[![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=github-actions)](../../actions/workflows/harwest.yml)\n"
     badges += "<!-- AUTO-UPDATE BADGES SECTION END -->\n"
-
+    
     # Update README.md using markers
     try:
       with open(readme_path, "r", encoding="utf-8") as f:
