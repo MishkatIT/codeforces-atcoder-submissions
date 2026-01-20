@@ -41,6 +41,41 @@ class Submissions:
       print("[OK] Updated platforms section in README.md")
     except Exception as e:
       print(f"Error updating README.md: {e}")
+  def update_readme_badges_section(self):
+    """Update the badges section in README.md using config/users.json"""
+    import json
+    import re
+    config_path = os.path.join(self.root_directory, "config", "users.json")
+    readme_path = os.path.join(self.root_directory, "README.md")
+    # Load usernames
+    try:
+      with open(config_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+      codeforces_users = data.get("codeforces", [])
+      atcoder_users = data.get("atcoder", [])
+    except Exception as e:
+      print(f"Error reading config/users.json: {e}")
+      return
+
+    # Build badges section
+    badges = "<!-- AUTO-UPDATE BADGES SECTION START -->\n"
+    for user in codeforces_users:
+      badges += f"[![Codeforces](https://badges.joonhyung.xyz/codeforces/{user}.svg)](https://codeforces.com/profile/{user})\n"
+    for user in atcoder_users:
+      badges += f"[![AtCoder](https://badges.joonhyung.xyz/atcoder/{user}.svg)](https://atcoder.jp/users/{user})\n"
+    badges += "<!-- AUTO-UPDATE BADGES SECTION END -->\n"
+
+    # Update README.md using markers
+    try:
+      with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+      pattern = r"<!-- AUTO-UPDATE BADGES SECTION START -->([\s\S]*?)<!-- AUTO-UPDATE BADGES SECTION END -->"
+      new_content = re.sub(pattern, badges, content, count=1)
+      with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(new_content)
+      print("[OK] Updated badges section in README.md")
+    except Exception as e:
+      print(f"Error updating README.md: {e}")
   def __init__(self, submissions_directory, user_data, platform_name=None):
     """Initialize Submissions handler with comprehensive error checking"""
     try:
@@ -80,8 +115,9 @@ class Submissions:
       # Update README platforms section after config/users.json is loaded
       try:
         self.update_readme_platforms_section()
+        self.update_readme_badges_section()
       except Exception as e:
-        print(f"Warning: Could not update README platforms section: {e}")
+        print(f"Warning: Could not update README sections: {e}")
     except Exception as e:
       print(f"Critical error initializing Submissions: {e}")
       raise

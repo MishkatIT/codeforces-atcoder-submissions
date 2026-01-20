@@ -111,11 +111,11 @@ def process_platform(args, platform, workflow):
       configs = init_from_args(args)
       full_scan = True
     else:
-      print(f"\n{RED}{'═' * 70}{RESET}")
+      print(f"\n{RED}{'═' * 80}{RESET}")
       print(f"{RED}{BOLD}❌  ERROR: No setup configuration found and interactive setup is disabled.{RESET}")
-      print(f"{RED}{'─' * 70}{RESET}")
+      print(f"{RED}{'─' * 80}{RESET}")
       print(f"{YELLOW}Please ensure config/users.json exists and is properly configured.{RESET}")
-      print(f"{RED}{'═' * 70}{RESET}\n")
+      print(f"{RED}{'═' * 80}{RESET}\n")
       return
   
   # Override config values with command-line arguments if provided
@@ -126,13 +126,16 @@ def process_platform(args, platform, workflow):
   platform_users = config.get_platform_users(platform)
   
   if not platform_users:
-    print(f"\n{RED}{'═' * 70}{RESET}")
+    print(f"\n{RED}{'═' * 100}{RESET}")
     print(f"{RED}{BOLD}❌  ERROR: No username configured for {platform}.{RESET}")
-    print(f"{RED}{'─' * 70}{RESET}")
-    print(f"{YELLOW}Please add your {platform} username(s) to config/users.json (supports multiple usernames){RESET}")
-    print(f"{YELLOW}Alternatively, run '{BOLD}python fresh_start.py{RESET}{YELLOW}' for interactive setup,")
-    print(f"{YELLOW}or use the control panel: '{BOLD}harwest_control_panel.bat and select option 4{RESET}{YELLOW}'{RESET}")
-    print(f"{RED}{'═' * 70}{RESET}\n")
+    print(f"{RED}{'─' * 100}{RESET}")
+    print(f"{YELLOW}No {platform} username(s) found in config/users.json.{RESET}")
+    print(f"{YELLOW}You have multiple options to proceed:{RESET}")
+    print(f"{YELLOW}  1. Add your {platform} username(s) directly to config/users.json (supports multiple usernames).{RESET}")
+    print(f"{YELLOW}  2. Run '{BOLD}python fresh_start.py{RESET}{YELLOW}' for interactive setup.{RESET}")
+    print(f"{YELLOW}  3. Use the control panel: '{BOLD}harwest_control_panel.bat{RESET}{YELLOW}' and select option 4.{RESET}")
+    print(f"{YELLOW}Use any one of the above methods to continue.{RESET}")
+    print(f"{RED}{'═' * 100}{RESET}\n")
     return
   
   if platform.lower() not in configs:
@@ -143,11 +146,11 @@ def process_platform(args, platform, workflow):
   
   # Check if we have a valid username
   if platform.lower() not in configs or not configs[platform.lower()]:
-    print(f"\n{RED}{'═' * 70}{RESET}")
+    print(f"\n{RED}{'═' * 80}{RESET}")
     print(f"{RED}{BOLD}⚠️  WARNING: No username configured for {platform}{RESET}")
-    print(f"{RED}{'─' * 70}{RESET}")
+    print(f"{RED}{'─' * 80}{RESET}")
     print(f"{YELLOW}Run: python fresh_start.py (or use harwest_control_panel.bat){RESET}")
-    print(f"{RED}{'═' * 70}{RESET}\n")
+    print(f"{RED}{'═' * 80}{RESET}\n")
     return
   
   workflow(configs, args.author_name, args.author_email, args.remote_url).run(start_page_index=args.start_page, full_scan=full_scan)

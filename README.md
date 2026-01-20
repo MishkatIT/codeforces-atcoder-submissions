@@ -1,14 +1,17 @@
 # 📦 Competitive Programming Archive
 
 <div align="center">
+<!-- AUTO-UPDATE BADGES SECTION START -->
+[![Codeforces](https://badges.joonhyung.xyz/codeforces/Abdullah_78.svg)](https://codeforces.com/profile/Abdullah_78)
+[![AtCoder](https://badges.joonhyung.xyz/atcoder/Tridib21.svg)](https://atcoder.jp/users/Tridib21)
+<!-- AUTO-UPDATE BADGES SECTION END -->
 
-[![Codeforces Profile](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT)
-[![AtCoder Profile](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT)
-[![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=github-actions)](../../actions/workflows/harwest.yml)
 
 **Automatically archive your competitive programming submissions from Codeforces & AtCoder**  
 
 > **NEW!** For all your harvesting needs, use the magical `harwest_control_panel.bat` (the one batch to rule them all)! It's so powerful, even your submissions are afraid to be left behind. Run it, and let the automation wizardry begin!
+>
+> **v2.0** System upgraded with enhanced automation and improved user experience!
 
 </div>
 
@@ -35,14 +38,9 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 <!-- AUTO-UPDATE PLATFORMS SECTION START -->
 | Platform | Profile | Solutions | Submissions |
 |----------|---------|-----------|-------------|
-| **Codeforces** | [MishkatIT](https://codeforces.com/profile/MishkatIT) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT) | [📝 View All](codeforces.md) |
+| **Codeforces** | [Abdullah_78](https://codeforces.com/profile/Abdullah_78) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/Abdullah_78.svg)](https://codeforces.com/profile/Abdullah_78) | [📝 View All](codeforces.md) |
+| **AtCoder** | [Tridib21](https://atcoder.jp/users/Tridib21) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/Tridib21.svg)](https://atcoder.jp/users/Tridib21) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
-
-
-
-
-
-
 
 
 
@@ -156,6 +154,6 @@ This repository uses [**Harwest**](https://github.com/nileshsah/harwest-tool) to
 
 **Last automated harvest:** _Check [Actions](../../actions) for latest run_
 
-Built with ❤️ using [Harwest](https://github.com/nileshsah/harwest-tool)
+Built with ❤️ by [Md Mishkatul Islam](https://github.com/MishkatIT) using [Harwest](https://github.com/nileshsah/harwest-tool)
 
 </div>

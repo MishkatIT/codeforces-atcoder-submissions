@@ -302,9 +302,9 @@ class AbstractWorkflow(ABC):
       cutoff_date = datetime.now() - timedelta(days=check_recent_days)
       cutoff_timestamp = int(cutoff_date.timestamp())
     
-    print(f"\n{CYAN}{'═' * 70}{RESET}")
+    print(f"\n{CYAN}{'═' * 80}{RESET}")
     print(f"{MAGENTA}{BOLD}⛏️  HARVESTING SUBMISSIONS{RESET}")
-    print(f"{CYAN}{'─' * 70}{RESET}")
+    print(f"{CYAN}{'─' * 80}{RESET}")
     print(f"{GREEN}Platform:{RESET} {platform}")
     print(f"{GREEN}Username:{RESET} {self.user_data[platform.lower()]}")
     print(f"{GREEN}Directory:{RESET} {self.submissions_directory}")
@@ -312,7 +312,7 @@ class AbstractWorkflow(ABC):
       print(f"{GREEN}Mode:{RESET} Full scan (all submissions)")
     elif check_recent_days:
       print(f"{GREEN}Mode:{RESET} Smart scan (Last {check_recent_days} days checking)")
-    print(f"{CYAN}{'═' * 70}{RESET}\n")
+    print(f"{CYAN}{'═' * 80}{RESET}\n")
     
     page_index = start_page_index
     new_submissions_count = 0
@@ -408,9 +408,9 @@ class AbstractWorkflow(ABC):
 
     try:
       self.repository.push()
-      print(f"\n{GREEN}{'═' * 70}{RESET}")
+      print(f"\n{GREEN}{'═' * 80}{RESET}")
       print(f"{GREEN}{BOLD}✅  SUCCESS!{RESET} {GREEN}Repository updated successfully!{RESET}")
-      print(f"{GREEN}{'═' * 70}{RESET}\n")
+      print(f"{GREEN}{'═' * 80}{RESET}\n")
     except Exception as e:
       print(f"\n{YELLOW}⚠️  Warning: Failed to push to repository: {str(e)}{RESET}")
       print(f"{YELLOW}    Changes are saved locally but not pushed{RESET}\n")

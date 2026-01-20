@@ -36,9 +36,9 @@ RESET = '\033[0m'
 
 
 def print_header(text):
-    print(f"\n{CYAN}{'═' * 70}{RESET}")
+    print(f"\n{CYAN}{'═' * 80}{RESET}")
     print(f"{MAGENTA}{BOLD}{text}{RESET}")
-    print(f"{CYAN}{'═' * 70}{RESET}\n")
+    print(f"{CYAN}{'═' * 80}{RESET}\n")
 
 
 def print_success(text):
@@ -238,6 +238,7 @@ def setup_config(repo_root):
     if not cf_username and detected_cf:
         cf_username = detected_cf
 
+    print("\n")
     # Get AtCoder username
     detected_ac = ''
     if 'atcoder' in detected_config and detected_config['atcoder']:
@@ -250,6 +251,7 @@ def setup_config(repo_root):
     if not ac_username and detected_ac:
         ac_username = detected_ac
 
+    print("\n")
     # Try to get current git config
     git_name = detected_config.get('name', '')
     git_email = detected_config.get('email', '')
