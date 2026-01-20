@@ -1566,5 +1566,4036 @@
       "*300"
     ],
     "timestamp": "Dec/27/2025 18:43"
+  },
+  "CF336521403": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2136,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Against the Difference",
+    "problem_url": "https://codeforces.com/contest/2136/problem/C",
+    "submission_id": "CF336521403",
+    "submission_url": "https://codeforces.com/contest/2136/submission/336521403",
+    "tags": [
+      "data structures",
+      "dp",
+      "*1200"
+    ],
+    "timestamp": "Sep/01/2025 21:12"
+  },
+  "CF336785019": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2135,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "For the Champion",
+    "problem_url": "https://codeforces.com/contest/2135/problem/B",
+    "submission_id": "CF336785019",
+    "submission_url": "https://codeforces.com/contest/2135/submission/336785019",
+    "tags": [
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Sep/03/2025 22:53"
+  },
+  "CF336906227": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1982,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Boring Day",
+    "problem_url": "https://codeforces.com/contest/1982/problem/C",
+    "submission_id": "CF336906227",
+    "submission_url": "https://codeforces.com/contest/1982/submission/336906227",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "greedy",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Sep/04/2025 23:24"
+  },
+  "CF337042886": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1884,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Haunted House",
+    "problem_url": "https://codeforces.com/contest/1884/problem/B",
+    "submission_id": "CF337042886",
+    "submission_url": "https://codeforces.com/contest/1884/submission/337042886",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "two pointers",
+      "*1100"
+    ],
+    "timestamp": "Sep/05/2025 22:24"
+  },
+  "CF337180894": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1729,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Friends and the Restaurant",
+    "problem_url": "https://codeforces.com/contest/1729/problem/D",
+    "submission_id": "CF337180894",
+    "submission_url": "https://codeforces.com/contest/1729/submission/337180894",
+    "tags": [
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Sep/06/2025 23:52"
+  },
+  "CF337196245": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1699,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Almost Ternary Matrix",
+    "problem_url": "https://codeforces.com/contest/1699/problem/B",
+    "submission_id": "CF337196245",
+    "submission_url": "https://codeforces.com/contest/1699/submission/337196245",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "matrices",
+      "*900"
+    ],
+    "timestamp": "Sep/07/2025 02:44"
+  },
+  "CF337281187": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2134,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Add 0 or K",
+    "problem_url": "https://codeforces.com/contest/2134/problem/B",
+    "submission_id": "CF337281187",
+    "submission_url": "https://codeforces.com/contest/2134/submission/337281187",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Sep/07/2025 20:31"
+  },
+  "CF337301007": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2137,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Collatz Conjecture",
+    "problem_url": "https://codeforces.com/contest/2137/problem/A",
+    "submission_id": "CF337301007",
+    "submission_url": "https://codeforces.com/contest/2137/submission/337301007",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/07/2025 20:46"
+  },
+  "CF337327939": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2137,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fun Permutation",
+    "problem_url": "https://codeforces.com/contest/2137/problem/B",
+    "submission_id": "CF337327939",
+    "submission_url": "https://codeforces.com/contest/2137/submission/337327939",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Sep/07/2025 21:02"
+  },
+  "CF337343429": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2137,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Maximum Even Sum",
+    "problem_url": "https://codeforces.com/contest/2137/problem/C",
+    "submission_id": "CF337343429",
+    "submission_url": "https://codeforces.com/contest/2137/submission/337343429",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/07/2025 21:13"
+  },
+  "CF337374764": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2137,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Replace with Occurrences",
+    "problem_url": "https://codeforces.com/contest/2137/problem/D",
+    "submission_id": "CF337374764",
+    "submission_url": "https://codeforces.com/contest/2137/submission/337374764",
+    "tags": [
+      "constructive algorithms",
+      "*1200"
+    ],
+    "timestamp": "Sep/07/2025 21:36"
+  },
+  "CF337451220": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2137,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Mexification",
+    "problem_url": "https://codeforces.com/contest/2137/problem/E",
+    "submission_id": "CF337451220",
+    "submission_url": "https://codeforces.com/contest/2137/submission/337451220",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Sep/07/2025 23:17"
+  },
+  "CF337561927": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2139,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Maple and Multiplication",
+    "problem_url": "https://codeforces.com/contest/2139/problem/A",
+    "submission_id": "CF337561927",
+    "submission_url": "https://codeforces.com/contest/2139/submission/337561927",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/08/2025 20:38"
+  },
+  "CF337579934": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2139,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cake Collection",
+    "problem_url": "https://codeforces.com/contest/2139/problem/B",
+    "submission_id": "CF337579934",
+    "submission_url": "https://codeforces.com/contest/2139/submission/337579934",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Sep/08/2025 20:52"
+  },
+  "CF337770407": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2139,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Cake Assignment",
+    "problem_url": "https://codeforces.com/contest/2139/problem/C",
+    "submission_id": "CF337770407",
+    "submission_url": "https://codeforces.com/contest/2139/submission/337770407",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Sep/09/2025 20:25"
+  },
+  "CF337776681": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2140,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Shift Sort",
+    "problem_url": "https://codeforces.com/contest/2140/problem/A",
+    "submission_id": "CF337776681",
+    "submission_url": "https://codeforces.com/contest/2140/submission/337776681",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Sep/09/2025 20:42"
+  },
+  "CF337941039": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2140,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Another Divisibility Problem",
+    "problem_url": "https://codeforces.com/contest/2140/problem/B",
+    "submission_id": "CF337941039",
+    "submission_url": "https://codeforces.com/contest/2140/submission/337941039",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Sep/10/2025 17:18"
+  },
+  "CF338111953": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2129,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Double Perspective",
+    "problem_url": "https://codeforces.com/contest/2129/problem/A",
+    "submission_id": "CF338111953",
+    "submission_url": "https://codeforces.com/contest/2129/submission/338111953",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "dsu",
+      "graphs",
+      "greedy",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Sep/11/2025 22:41"
+  },
+  "CF338125120": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2124,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Subset Multiplication",
+    "problem_url": "https://codeforces.com/contest/2124/problem/C",
+    "submission_id": "CF338125120",
+    "submission_url": "https://codeforces.com/contest/2124/submission/338125120",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Sep/12/2025 00:25"
+  },
+  "CF338208002": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2129,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Stay or Mirror",
+    "problem_url": "https://codeforces.com/contest/2129/problem/B",
+    "submission_id": "CF338208002",
+    "submission_url": "https://codeforces.com/contest/2129/submission/338208002",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Sep/12/2025 18:32"
+  },
+  "CF338518706": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2148,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sublime Sequence",
+    "problem_url": "https://codeforces.com/contest/2148/problem/A",
+    "submission_id": "CF338518706",
+    "submission_url": "https://codeforces.com/contest/2148/submission/338518706",
+    "tags": [
+      "brute force",
+      "hashing",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/13/2025 23:49"
+  },
+  "CF338637957": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2148,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lasers",
+    "problem_url": "https://codeforces.com/contest/2148/problem/B",
+    "submission_id": "CF338637957",
+    "submission_url": "https://codeforces.com/contest/2148/submission/338637957",
+    "tags": [
+      "geometry",
+      "*800"
+    ],
+    "timestamp": "Sep/14/2025 23:45"
+  },
+  "CF338669738": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2148,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pacer",
+    "problem_url": "https://codeforces.com/contest/2148/problem/C",
+    "submission_id": "CF338669738",
+    "submission_url": "https://codeforces.com/contest/2148/submission/338669738",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Sep/15/2025 10:23"
+  },
+  "CF338768649": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2144,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cut the Array",
+    "problem_url": "https://codeforces.com/contest/2144/problem/A",
+    "submission_id": "CF338768649",
+    "submission_url": "https://codeforces.com/contest/2144/submission/338768649",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Sep/15/2025 21:12"
+  },
+  "CF338776489": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2144,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maximum Cost Permutation",
+    "problem_url": "https://codeforces.com/contest/2144/problem/B",
+    "submission_id": "CF338776489",
+    "submission_url": "https://codeforces.com/contest/2144/submission/338776489",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Sep/15/2025 21:24"
+  },
+  "CF338802125": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2144,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Non-Descending Arrays",
+    "problem_url": "https://codeforces.com/contest/2144/problem/C",
+    "submission_id": "CF338802125",
+    "submission_url": "https://codeforces.com/contest/2144/submission/338802125",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Sep/15/2025 22:11"
+  },
+  "CF338956262": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2148,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Destruction of the Dandelion Fields",
+    "problem_url": "https://codeforces.com/contest/2148/problem/D",
+    "submission_id": "CF338956262",
+    "submission_url": "https://codeforces.com/contest/2148/submission/338956262",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Sep/16/2025 22:40"
+  },
+  "CF339094354": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2143,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "All Lengths Subtraction",
+    "problem_url": "https://codeforces.com/contest/2143/problem/A",
+    "submission_id": "CF339094354",
+    "submission_url": "https://codeforces.com/contest/2143/submission/339094354",
+    "tags": [
+      "brute force",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Sep/17/2025 20:42"
+  },
+  "CF339102438": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2143,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Discounts",
+    "problem_url": "https://codeforces.com/contest/2143/problem/B",
+    "submission_id": "CF339102438",
+    "submission_url": "https://codeforces.com/contest/2143/submission/339102438",
+    "tags": [
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1000"
+    ],
+    "timestamp": "Sep/17/2025 20:50"
+  },
+  "CF339139668": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2143,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Max Tree",
+    "problem_url": "https://codeforces.com/contest/2143/problem/C",
+    "submission_id": "CF339139668",
+    "submission_url": "https://codeforces.com/contest/2143/submission/339139668",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Sep/17/2025 21:51"
+  },
+  "CF339298292": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1903,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Halloumi Boxes",
+    "problem_url": "https://codeforces.com/contest/1903/problem/A",
+    "submission_id": "CF339298292",
+    "submission_url": "https://codeforces.com/contest/1903/submission/339298292",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Sep/18/2025 23:45"
+  },
+  "CF339403635": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1027,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Palindromic Twist",
+    "problem_url": "https://codeforces.com/contest/1027/problem/A",
+    "submission_id": "CF339403635",
+    "submission_url": "https://codeforces.com/contest/1027/submission/339403635",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Sep/19/2025 21:27"
+  },
+  "CF339406247": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 141,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Amusing Joke",
+    "problem_url": "https://codeforces.com/contest/141/problem/A",
+    "submission_id": "CF339406247",
+    "submission_url": "https://codeforces.com/contest/141/submission/339406247",
+    "tags": [
+      "implementation",
+      "sortings",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/19/2025 21:47"
+  },
+  "CF339474287": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 617,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elephant",
+    "problem_url": "https://codeforces.com/contest/617/problem/A",
+    "submission_id": "CF339474287",
+    "submission_url": "https://codeforces.com/contest/617/submission/339474287",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/20/2025 14:27"
+  },
+  "CF339515800": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2148,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Split",
+    "problem_url": "https://codeforces.com/contest/2148/problem/E",
+    "submission_id": "CF339515800",
+    "submission_url": "https://codeforces.com/contest/2148/submission/339515800",
+    "tags": [
+      "binary search",
+      "data structures",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Sep/20/2025 20:27"
+  },
+  "CF339529613": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2147,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Shortest Increasing Path",
+    "problem_url": "https://codeforces.com/contest/2147/problem/A",
+    "submission_id": "CF339529613",
+    "submission_url": "https://codeforces.com/contest/2147/submission/339529613",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Sep/20/2025 20:51"
+  },
+  "CF339578695": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2147,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Multiple Construction",
+    "problem_url": "https://codeforces.com/contest/2147/problem/B",
+    "submission_id": "CF339578695",
+    "submission_url": "https://codeforces.com/contest/2147/submission/339578695",
+    "tags": [
+      "constructive algorithms",
+      "*1000"
+    ],
+    "timestamp": "Sep/20/2025 22:22"
+  },
+  "CF339792297": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2131,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Arboris Contractio",
+    "problem_url": "https://codeforces.com/contest/2131/problem/D",
+    "submission_id": "CF339792297",
+    "submission_url": "https://codeforces.com/contest/2131/submission/339792297",
+    "tags": [
+      "data structures",
+      "graphs",
+      "greedy",
+      "trees",
+      "*1400"
+    ],
+    "timestamp": "Sep/21/2025 23:55"
+  },
+  "CF339930963": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1881,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Don't Try to Count",
+    "problem_url": "https://codeforces.com/contest/1881/problem/A",
+    "submission_id": "CF339930963",
+    "submission_url": "https://codeforces.com/contest/1881/submission/339930963",
+    "tags": [
+      "brute force",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/22/2025 23:56"
+  },
+  "CF340156708": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2151,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Incremental Subarray",
+    "problem_url": "https://codeforces.com/contest/2151/problem/A",
+    "submission_id": "CF340156708",
+    "submission_url": "https://codeforces.com/contest/2151/submission/340156708",
+    "tags": [
+      "math",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Sep/24/2025 17:51"
+  },
+  "CF340382421": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2149,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Be Positive",
+    "problem_url": "https://codeforces.com/contest/2149/problem/A",
+    "submission_id": "CF340382421",
+    "submission_url": "https://codeforces.com/contest/2149/submission/340382421",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/25/2025 20:41"
+  },
+  "CF340397231": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2149,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Unconventional Pairs",
+    "problem_url": "https://codeforces.com/contest/2149/problem/B",
+    "submission_id": "CF340397231",
+    "submission_url": "https://codeforces.com/contest/2149/submission/340397231",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Sep/25/2025 20:48"
+  },
+  "CF340441645": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2149,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "MEX rose",
+    "problem_url": "https://codeforces.com/contest/2149/problem/C",
+    "submission_id": "CF340441645",
+    "submission_url": "https://codeforces.com/contest/2149/submission/340441645",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Sep/25/2025 21:20"
+  },
+  "CF340460442": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2149,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "A and B",
+    "problem_url": "https://codeforces.com/contest/2149/problem/D",
+    "submission_id": "CF340460442",
+    "submission_url": "https://codeforces.com/contest/2149/submission/340460442",
+    "tags": [
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Sep/25/2025 21:40"
+  },
+  "CF340953157": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2149,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Nezuko in the Clearing",
+    "problem_url": "https://codeforces.com/contest/2149/problem/F",
+    "submission_id": "CF340953157",
+    "submission_url": "https://codeforces.com/contest/2149/submission/340953157",
+    "tags": [
+      "binary search",
+      "math",
+      "ternary search",
+      "*1900"
+    ],
+    "timestamp": "Sep/29/2025 02:50"
+  },
+  "CF341077744": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1666,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Deletive Editing",
+    "problem_url": "https://codeforces.com/contest/1666/problem/D",
+    "submission_id": "CF341077744",
+    "submission_url": "https://codeforces.com/contest/1666/submission/341077744",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Sep/29/2025 20:55"
+  },
+  "CF341208104": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2147,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Game on Array",
+    "problem_url": "https://codeforces.com/contest/2147/problem/D",
+    "submission_id": "CF341208104",
+    "submission_url": "https://codeforces.com/contest/2147/submission/341208104",
+    "tags": [
+      "games",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Sep/30/2025 20:22"
+  },
+  "CF341239329": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2147,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Rabbits",
+    "problem_url": "https://codeforces.com/contest/2147/problem/C",
+    "submission_id": "CF341239329",
+    "submission_url": "https://codeforces.com/contest/2147/submission/341239329",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Oct/01/2025 00:03"
+  },
+  "CF341290290": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1324,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Frog Jumps",
+    "problem_url": "https://codeforces.com/contest/1324/problem/C",
+    "submission_id": "CF341290290",
+    "submission_url": "https://codeforces.com/contest/1324/submission/341290290",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Oct/01/2025 13:24"
+  },
+  "CF341363408": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2149,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Hidden Knowledge of the Ancients",
+    "problem_url": "https://codeforces.com/contest/2149/problem/E",
+    "submission_id": "CF341363408",
+    "submission_url": "https://codeforces.com/contest/2149/submission/341363408",
+    "tags": [
+      "data structures",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Oct/01/2025 23:13"
+  },
+  "CF341524627": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2151,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Incremental Stay",
+    "problem_url": "https://codeforces.com/contest/2151/problem/C",
+    "submission_id": "CF341524627",
+    "submission_url": "https://codeforces.com/contest/2151/submission/341524627",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Oct/02/2025 21:37"
+  },
+  "CF341664360": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2152,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Increase or Smash",
+    "problem_url": "https://codeforces.com/contest/2152/problem/A",
+    "submission_id": "CF341664360",
+    "submission_url": "https://codeforces.com/contest/2152/submission/341664360",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/03/2025 20:42"
+  },
+  "CF341881567": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2152,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Catching the Krug",
+    "problem_url": "https://codeforces.com/contest/2152/problem/B",
+    "submission_id": "CF341881567",
+    "submission_url": "https://codeforces.com/contest/2152/submission/341881567",
+    "tags": [
+      "games",
+      "*1300"
+    ],
+    "timestamp": "Oct/04/2025 22:12"
+  },
+  "CF342012753": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2152,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Triple Removal",
+    "problem_url": "https://codeforces.com/contest/2152/problem/C",
+    "submission_id": "CF342012753",
+    "submission_url": "https://codeforces.com/contest/2152/submission/342012753",
+    "tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Oct/05/2025 19:19"
+  },
+  "CF342062655": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2155,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Abraham's Great Escape",
+    "problem_url": "https://codeforces.com/contest/2155/problem/B",
+    "submission_id": "CF342062655",
+    "submission_url": "https://codeforces.com/contest/2155/submission/342062655",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "*1100"
+    ],
+    "timestamp": "Oct/05/2025 23:02"
+  },
+  "CF342084535": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2155,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "El fucho",
+    "problem_url": "https://codeforces.com/contest/2155/problem/A",
+    "submission_id": "CF342084535",
+    "submission_url": "https://codeforces.com/contest/2155/submission/342084535",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/05/2025 23:35"
+  },
+  "CF342231942": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2145,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Candies for Nephews",
+    "problem_url": "https://codeforces.com/contest/2145/problem/A",
+    "submission_id": "CF342231942",
+    "submission_url": "https://codeforces.com/contest/2145/submission/342231942",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/06/2025 20:36"
+  },
+  "CF342257140": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2145,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Deck of Cards",
+    "problem_url": "https://codeforces.com/contest/2145/problem/B",
+    "submission_id": "CF342257140",
+    "submission_url": "https://codeforces.com/contest/2145/submission/342257140",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Oct/06/2025 20:58"
+  },
+  "CF342299878": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2145,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Monocarp's String",
+    "problem_url": "https://codeforces.com/contest/2145/problem/C",
+    "submission_id": "CF342299878",
+    "submission_url": "https://codeforces.com/contest/2145/submission/342299878",
+    "tags": [
+      "binary search",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Oct/06/2025 21:50"
+  },
+  "CF342466587": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2155,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "The Ancient Wizards' Capes",
+    "problem_url": "https://codeforces.com/contest/2155/problem/C",
+    "submission_id": "CF342466587",
+    "submission_url": "https://codeforces.com/contest/2155/submission/342466587",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Oct/07/2025 21:37"
+  },
+  "CF342473897": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2155,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Batteries",
+    "problem_url": "https://codeforces.com/contest/2155/problem/D",
+    "submission_id": "CF342473897",
+    "submission_url": "https://codeforces.com/contest/2155/submission/342473897",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "graph matchings",
+      "graphs",
+      "interactive",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Oct/07/2025 22:19"
+  },
+  "CF342792871": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 4,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Registration System",
+    "problem_url": "https://codeforces.com/contest/4/problem/C",
+    "submission_id": "CF342792871",
+    "submission_url": "https://codeforces.com/contest/4/submission/342792871",
+    "tags": [
+      "data structures",
+      "hashing",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/09/2025 22:57"
+  },
+  "CF342922300": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2153,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Circle of Apple Trees",
+    "problem_url": "https://codeforces.com/contest/2153/problem/A",
+    "submission_id": "CF342922300",
+    "submission_url": "https://codeforces.com/contest/2153/submission/342922300",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Oct/10/2025 20:37"
+  },
+  "CF342964659": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2153,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bitwise Reversion",
+    "problem_url": "https://codeforces.com/contest/2153/problem/B",
+    "submission_id": "CF342964659",
+    "submission_url": "https://codeforces.com/contest/2153/submission/342964659",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Oct/10/2025 21:14"
+  },
+  "CF342978890": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2153,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Symmetrical Polygons",
+    "problem_url": "https://codeforces.com/contest/2153/problem/C",
+    "submission_id": "CF342978890",
+    "submission_url": "https://codeforces.com/contest/2153/submission/342978890",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Oct/10/2025 21:34"
+  },
+  "CF343183260": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2153,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Not Alone",
+    "problem_url": "https://codeforces.com/contest/2153/problem/D",
+    "submission_id": "CF343183260",
+    "submission_url": "https://codeforces.com/contest/2153/submission/343183260",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Oct/12/2025 00:07"
+  },
+  "CF343276666": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1807,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "G1",
+    "problem_name": "Subsequence Addition (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1807/problem/G1",
+    "submission_id": "CF343276666",
+    "submission_url": "https://codeforces.com/contest/1807/submission/343276666",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Oct/12/2025 17:20"
+  },
+  "CF343276834": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1807,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "G2",
+    "problem_name": "Subsequence Addition (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1807/problem/G2",
+    "submission_id": "CF343276834",
+    "submission_url": "https://codeforces.com/contest/1807/submission/343276834",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Oct/12/2025 17:22"
+  },
+  "CF343299552": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2145,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Inversion Value of a Permutation",
+    "problem_url": "https://codeforces.com/contest/2145/problem/D",
+    "submission_id": "CF343299552",
+    "submission_url": "https://codeforces.com/contest/2145/submission/343299552",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "*1800"
+    ],
+    "timestamp": "Oct/12/2025 19:58"
+  },
+  "CF343574991": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2160,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "MEX Partition",
+    "problem_url": "https://codeforces.com/contest/2160/problem/A",
+    "submission_id": "CF343574991",
+    "submission_url": "https://codeforces.com/contest/2160/submission/343574991",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/13/2025 22:30"
+  },
+  "CF343726664": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2160,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Distinct Elements",
+    "problem_url": "https://codeforces.com/contest/2160/problem/B",
+    "submission_id": "CF343726664",
+    "submission_url": "https://codeforces.com/contest/2160/submission/343726664",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Oct/14/2025 21:24"
+  },
+  "CF343824777": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2140,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ultimate Value",
+    "problem_url": "https://codeforces.com/contest/2140/problem/C",
+    "submission_id": "CF343824777",
+    "submission_url": "https://codeforces.com/contest/2140/submission/343824777",
+    "tags": [
+      "data structures",
+      "games",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Oct/15/2025 13:56"
+  },
+  "CF343836111": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2128,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Sum of LDS",
+    "problem_url": "https://codeforces.com/contest/2128/problem/D",
+    "submission_id": "CF343836111",
+    "submission_url": "https://codeforces.com/contest/2128/submission/343836111",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Oct/15/2025 15:24"
+  },
+  "CF344075215": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2160,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Reverse XOR",
+    "problem_url": "https://codeforces.com/contest/2160/problem/C",
+    "submission_id": "CF344075215",
+    "submission_url": "https://codeforces.com/contest/2160/submission/344075215",
+    "tags": [
+      "bitmasks",
+      "*1300"
+    ],
+    "timestamp": "Oct/17/2025 00:00"
+  },
+  "CF344204270": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2162,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Beautiful Average",
+    "problem_url": "https://codeforces.com/contest/2162/problem/A",
+    "submission_id": "CF344204270",
+    "submission_url": "https://codeforces.com/contest/2162/submission/344204270",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Oct/17/2025 20:36"
+  },
+  "CF344222023": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2162,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Beautiful String",
+    "problem_url": "https://codeforces.com/contest/2162/problem/B",
+    "submission_id": "CF344222023",
+    "submission_url": "https://codeforces.com/contest/2162/submission/344222023",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1000"
+    ],
+    "timestamp": "Oct/17/2025 20:44"
+  },
+  "CF344249713": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2162,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Beautiful XOR",
+    "problem_url": "https://codeforces.com/contest/2162/problem/C",
+    "submission_id": "CF344249713",
+    "submission_url": "https://codeforces.com/contest/2162/submission/344249713",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Oct/17/2025 21:00"
+  },
+  "CF344598479": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2162,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Beautiful Permutation",
+    "problem_url": "https://codeforces.com/contest/2162/problem/D",
+    "submission_id": "CF344598479",
+    "submission_url": "https://codeforces.com/contest/2162/submission/344598479",
+    "tags": [
+      "binary search",
+      "interactive",
+      "*1400"
+    ],
+    "timestamp": "Oct/19/2025 13:08"
+  },
+  "CF344689889": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2154,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Notelock",
+    "problem_url": "https://codeforces.com/contest/2154/problem/A",
+    "submission_id": "CF344689889",
+    "submission_url": "https://codeforces.com/contest/2154/submission/344689889",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Oct/19/2025 21:15"
+  },
+  "CF344712112": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2154,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Make it Zigzag",
+    "problem_url": "https://codeforces.com/contest/2154/problem/B",
+    "submission_id": "CF344712112",
+    "submission_url": "https://codeforces.com/contest/2154/submission/344712112",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1000"
+    ],
+    "timestamp": "Oct/19/2025 21:47"
+  },
+  "CF344733086": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2154,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "No Cost Too Great (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/2154/problem/C1",
+    "submission_id": "CF344733086",
+    "submission_url": "https://codeforces.com/contest/2154/submission/344733086",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Oct/19/2025 22:18"
+  },
+  "CF344828696": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2113,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Smilo and Minecraft",
+    "problem_url": "https://codeforces.com/contest/2113/problem/C",
+    "submission_id": "CF344828696",
+    "submission_url": "https://codeforces.com/contest/2113/submission/344828696",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Oct/20/2025 14:16"
+  },
+  "CF345537343": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2156,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Pizza Time",
+    "problem_url": "https://codeforces.com/contest/2156/problem/A",
+    "submission_id": "CF345537343",
+    "submission_url": "https://codeforces.com/contest/2156/submission/345537343",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Oct/24/2025 20:45"
+  },
+  "CF345555417": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2156,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Strange Machine",
+    "problem_url": "https://codeforces.com/contest/2156/problem/B",
+    "submission_id": "CF345555417",
+    "submission_url": "https://codeforces.com/contest/2156/submission/345555417",
+    "tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Oct/24/2025 21:02"
+  },
+  "CF345698500": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2156,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Maximum GCD on Whiteboard",
+    "problem_url": "https://codeforces.com/contest/2156/problem/C",
+    "submission_id": "CF345698500",
+    "submission_url": "https://codeforces.com/contest/2156/submission/345698500",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Oct/25/2025 12:59"
+  },
+  "CF345753690": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2151,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Incremental Path",
+    "problem_url": "https://codeforces.com/contest/2151/problem/B",
+    "submission_id": "CF345753690",
+    "submission_url": "https://codeforces.com/contest/2151/submission/345753690",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Oct/25/2025 19:24"
+  },
+  "CF345904925": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1968,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Permutation Game",
+    "problem_url": "https://codeforces.com/contest/1968/problem/D",
+    "submission_id": "CF345904925",
+    "submission_url": "https://codeforces.com/contest/1968/submission/345904925",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "games",
+      "graphs",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Oct/26/2025 20:49"
+  },
+  "CF346190742": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2167,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Square?",
+    "problem_url": "https://codeforces.com/contest/2167/problem/A",
+    "submission_id": "CF346190742",
+    "submission_url": "https://codeforces.com/contest/2167/submission/346190742",
+    "tags": [
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Oct/28/2025 20:37"
+  },
+  "CF346201835": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2167,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Your Name",
+    "problem_url": "https://codeforces.com/contest/2167/problem/B",
+    "submission_id": "CF346201835",
+    "submission_url": "https://codeforces.com/contest/2167/submission/346201835",
+    "tags": [
+      "sortings",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Oct/28/2025 20:39"
+  },
+  "CF346225957": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2167,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Isamatdin and His Magic Wand!",
+    "problem_url": "https://codeforces.com/contest/2167/problem/C",
+    "submission_id": "CF346225957",
+    "submission_url": "https://codeforces.com/contest/2167/submission/346225957",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Oct/28/2025 20:47"
+  },
+  "CF346271423": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2167,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yet Another Array Problem",
+    "problem_url": "https://codeforces.com/contest/2167/problem/D",
+    "submission_id": "CF346271423",
+    "submission_url": "https://codeforces.com/contest/2167/submission/346271423",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Oct/28/2025 21:17"
+  },
+  "CF346335445": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2167,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "khba Loves to Sleep!",
+    "problem_url": "https://codeforces.com/contest/2167/problem/E",
+    "submission_id": "CF346335445",
+    "submission_url": "https://codeforces.com/contest/2167/submission/346335445",
+    "tags": [
+      "binary search",
+      "data structures",
+      "geometry",
+      "greedy",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Oct/28/2025 22:25"
+  },
+  "CF346437907": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1950,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Nearly Shortest Repeating Substring",
+    "problem_url": "https://codeforces.com/contest/1950/problem/E",
+    "submission_id": "CF346437907",
+    "submission_url": "https://codeforces.com/contest/1950/submission/346437907",
+    "tags": [
+      "brute force",
+      "implementation",
+      "number theory",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Oct/29/2025 15:14"
+  },
+  "CF346672017": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2161,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Round Trip",
+    "problem_url": "https://codeforces.com/contest/2161/problem/A",
+    "submission_id": "CF346672017",
+    "submission_url": "https://codeforces.com/contest/2161/submission/346672017",
+    "tags": [
+      "games",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/30/2025 22:44"
+  },
+  "CF346710269": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2161,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Loyalty",
+    "problem_url": "https://codeforces.com/contest/2161/problem/C",
+    "submission_id": "CF346710269",
+    "submission_url": "https://codeforces.com/contest/2161/submission/346710269",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Oct/31/2025 00:07"
+  },
+  "CF346736452": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2161,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Make Connected",
+    "problem_url": "https://codeforces.com/contest/2161/problem/B",
+    "submission_id": "CF346736452",
+    "submission_url": "https://codeforces.com/contest/2161/submission/346736452",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Oct/31/2025 02:04"
+  },
+  "CF347127454": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2167,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Tree, TREE!!!",
+    "problem_url": "https://codeforces.com/contest/2167/problem/F",
+    "submission_id": "CF347127454",
+    "submission_url": "https://codeforces.com/contest/2167/submission/347127454",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Nov/02/2025 22:10"
+  },
+  "CF347137002": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2167,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Mukhammadali and the Smooth Array",
+    "problem_url": "https://codeforces.com/contest/2167/problem/G",
+    "submission_id": "CF347137002",
+    "submission_url": "https://codeforces.com/contest/2167/submission/347137002",
+    "tags": [
+      "data structures",
+      "dp",
+      "*1600"
+    ],
+    "timestamp": "Nov/02/2025 23:32"
+  },
+  "CF347212859": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2162,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Beautiful Palindromes",
+    "problem_url": "https://codeforces.com/contest/2162/problem/E",
+    "submission_id": "CF347212859",
+    "submission_url": "https://codeforces.com/contest/2162/submission/347212859",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "schedules",
+      "*1600"
+    ],
+    "timestamp": "Nov/03/2025 14:01"
+  },
+  "CF347218741": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2148,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Gravity Falls",
+    "problem_url": "https://codeforces.com/contest/2148/problem/F",
+    "submission_id": "CF347218741",
+    "submission_url": "https://codeforces.com/contest/2148/submission/347218741",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Nov/03/2025 14:51"
+  },
+  "CF347271229": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2168,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A1",
+    "problem_name": "Encode and Decode (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/2168/problem/A1",
+    "submission_id": "CF347271229",
+    "submission_url": "https://codeforces.com/contest/2168/submission/347271229",
+    "tags": [
+      "constructive algorithms",
+      "interactive"
+    ],
+    "timestamp": "Nov/03/2025 20:49"
+  },
+  "CF347279119": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2168,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A2",
+    "problem_name": "Encode and Decode (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/2168/problem/A2",
+    "submission_id": "CF347279119",
+    "submission_url": "https://codeforces.com/contest/2168/submission/347279119",
+    "tags": [
+      "bitmasks",
+      "interactive",
+      "math"
+    ],
+    "timestamp": "Nov/03/2025 21:21"
+  },
+  "CF347440271": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1985,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Secret Box",
+    "problem_url": "https://codeforces.com/contest/1985/problem/E",
+    "submission_id": "CF347440271",
+    "submission_url": "https://codeforces.com/contest/1985/submission/347440271",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Nov/04/2025 22:46"
+  },
+  "CF347588429": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2065,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Skibidus and Slay",
+    "problem_url": "https://codeforces.com/contest/2065/problem/F",
+    "submission_id": "CF347588429",
+    "submission_url": "https://codeforces.com/contest/2065/submission/347588429",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "trees",
+      "*1700"
+    ],
+    "timestamp": "Nov/05/2025 23:32"
+  },
+  "CF347692454": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2164,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sequence Game",
+    "problem_url": "https://codeforces.com/contest/2164/problem/A",
+    "submission_id": "CF347692454",
+    "submission_url": "https://codeforces.com/contest/2164/submission/347692454",
+    "tags": [
+      "brute force",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Nov/06/2025 20:39"
+  },
+  "CF347751263": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2164,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Even Modulo Pair",
+    "problem_url": "https://codeforces.com/contest/2164/problem/B",
+    "submission_id": "CF347751263",
+    "submission_url": "https://codeforces.com/contest/2164/submission/347751263",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Nov/06/2025 22:19"
+  },
+  "CF347791095": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2164,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Even Modulo Pair",
+    "problem_url": "https://codeforces.com/contest/2164/problem/B",
+    "submission_id": "CF347791095",
+    "submission_url": "https://codeforces.com/contest/2164/submission/347791095",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Nov/07/2025 01:49"
+  },
+  "CF347791234": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2164,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Even Modulo Pair",
+    "problem_url": "https://codeforces.com/contest/2164/problem/B",
+    "submission_id": "CF347791234",
+    "submission_url": "https://codeforces.com/contest/2164/submission/347791234",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Nov/07/2025 01:51"
+  },
+  "CF347894954": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2164,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dungeon",
+    "problem_url": "https://codeforces.com/contest/2164/problem/C",
+    "submission_id": "CF347894954",
+    "submission_url": "https://codeforces.com/contest/2164/submission/347894954",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Nov/07/2025 20:56"
+  },
+  "CF348304214": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2163,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Souvlaki VS. Kalamaki",
+    "problem_url": "https://codeforces.com/contest/2163/problem/A",
+    "submission_id": "CF348304214",
+    "submission_url": "https://codeforces.com/contest/2163/submission/348304214",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Nov/10/2025 21:11"
+  },
+  "CF348502001": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2163,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Siga ta Kymata",
+    "problem_url": "https://codeforces.com/contest/2163/problem/B",
+    "submission_id": "CF348502001",
+    "submission_url": "https://codeforces.com/contest/2163/submission/348502001",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Nov/11/2025 22:06"
+  },
+  "CF348656481": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2146,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Equal Occurrences",
+    "problem_url": "https://codeforces.com/contest/2146/problem/A",
+    "submission_id": "CF348656481",
+    "submission_url": "https://codeforces.com/contest/2146/submission/348656481",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/12/2025 23:54"
+  },
+  "CF348921894": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2169,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alice and Bob",
+    "problem_url": "https://codeforces.com/contest/2169/problem/A",
+    "submission_id": "CF348921894",
+    "submission_url": "https://codeforces.com/contest/2169/submission/348921894",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Nov/14/2025 20:55"
+  },
+  "CF348963576": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2169,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Drifting Away",
+    "problem_url": "https://codeforces.com/contest/2169/problem/B",
+    "submission_id": "CF348963576",
+    "submission_url": "https://codeforces.com/contest/2169/submission/348963576",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Nov/14/2025 21:49"
+  },
+  "CF349274936": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2166,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Same Difference",
+    "problem_url": "https://codeforces.com/contest/2166/problem/A",
+    "submission_id": "CF349274936",
+    "submission_url": "https://codeforces.com/contest/2166/submission/349274936",
+    "tags": [
+      "brute force",
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Nov/16/2025 20:39"
+  },
+  "CF349289663": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2166,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Tab Closing",
+    "problem_url": "https://codeforces.com/contest/2166/problem/B",
+    "submission_id": "CF349289663",
+    "submission_url": "https://codeforces.com/contest/2166/submission/349289663",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Nov/16/2025 21:02"
+  },
+  "CF349321953": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2166,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Cyclic Merging",
+    "problem_url": "https://codeforces.com/contest/2166/problem/C",
+    "submission_id": "CF349321953",
+    "submission_url": "https://codeforces.com/contest/2166/submission/349321953",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "dsu",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Nov/16/2025 22:28"
+  },
+  "CF349448871": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1999,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Expected Median",
+    "problem_url": "https://codeforces.com/contest/1999/problem/F",
+    "submission_id": "CF349448871",
+    "submission_url": "https://codeforces.com/contest/1999/submission/349448871",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Nov/17/2025 19:45"
+  },
+  "CF349461338": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2065,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Skibidus and Capping",
+    "problem_url": "https://codeforces.com/contest/2065/problem/G",
+    "submission_id": "CF349461338",
+    "submission_url": "https://codeforces.com/contest/2065/submission/349461338",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Nov/17/2025 21:07"
+  },
+  "CF349616265": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1926,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Vlad and an Odd Ordering",
+    "problem_url": "https://codeforces.com/contest/1926/problem/E",
+    "submission_id": "CF349616265",
+    "submission_url": "https://codeforces.com/contest/1926/submission/349616265",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "dp",
+      "implementation",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Nov/18/2025 23:41"
+  },
+  "CF349752709": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2163,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Monopati",
+    "problem_url": "https://codeforces.com/contest/2163/problem/C",
+    "submission_id": "CF349752709",
+    "submission_url": "https://codeforces.com/contest/2163/submission/349752709",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Nov/19/2025 23:36"
+  },
+  "CF350071928": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2171,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Shizuku Hoshikawa and Farm Legs",
+    "problem_url": "https://codeforces.com/contest/2171/problem/A",
+    "submission_id": "CF350071928",
+    "submission_url": "https://codeforces.com/contest/2171/submission/350071928",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/21/2025 19:27"
+  },
+  "CF350075797": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2171,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yuu Koito and Minimum Absolute Sum",
+    "problem_url": "https://codeforces.com/contest/2171/problem/B",
+    "submission_id": "CF350075797",
+    "submission_url": "https://codeforces.com/contest/2171/submission/350075797",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Nov/21/2025 19:56"
+  },
+  "CF350079489": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2171,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Renako Amaori and XOR Game (hard version)",
+    "problem_url": "https://codeforces.com/contest/2171/problem/C2",
+    "submission_id": "CF350079489",
+    "submission_url": "https://codeforces.com/contest/2171/submission/350079489",
+    "tags": [
+      "bitmasks",
+      "games",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Nov/21/2025 20:23"
+  },
+  "CF350079594": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2171,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Renako Amaori and XOR Game (easy version)",
+    "problem_url": "https://codeforces.com/contest/2171/problem/C1",
+    "submission_id": "CF350079594",
+    "submission_url": "https://codeforces.com/contest/2171/submission/350079594",
+    "tags": [
+      "bitmasks",
+      "games",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Nov/21/2025 20:24"
+  },
+  "CF350087378": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2171,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Rae Taylor and Trees (easy version)",
+    "problem_url": "https://codeforces.com/contest/2171/problem/D",
+    "submission_id": "CF350087378",
+    "submission_url": "https://codeforces.com/contest/2171/submission/350087378",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "dsu",
+      "greedy",
+      "implementation",
+      "trees",
+      "*1400"
+    ],
+    "timestamp": "Nov/21/2025 21:20"
+  },
+  "CF350225643": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1353,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Constructing the Array",
+    "problem_url": "https://codeforces.com/contest/1353/problem/D",
+    "submission_id": "CF350225643",
+    "submission_url": "https://codeforces.com/contest/1353/submission/350225643",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Nov/22/2025 22:12"
+  },
+  "CF350514437": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1974,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Beautiful Triple Pairs",
+    "problem_url": "https://codeforces.com/contest/1974/problem/C",
+    "submission_id": "CF350514437",
+    "submission_url": "https://codeforces.com/contest/1974/submission/350514437",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "*1400"
+    ],
+    "timestamp": "Nov/24/2025 22:44"
+  },
+  "CF350642276": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2157,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dungeon Equilibrium",
+    "problem_url": "https://codeforces.com/contest/2157/problem/A",
+    "submission_id": "CF350642276",
+    "submission_url": "https://codeforces.com/contest/2157/submission/350642276",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Nov/25/2025 22:55"
+  },
+  "CF350752511": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2157,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Expansion Plan 2",
+    "problem_url": "https://codeforces.com/contest/2157/problem/B",
+    "submission_id": "CF350752511",
+    "submission_url": "https://codeforces.com/contest/2157/submission/350752511",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Nov/26/2025 21:32"
+  },
+  "CF350882180": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2157,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Meximum Array 2",
+    "problem_url": "https://codeforces.com/contest/2157/problem/C",
+    "submission_id": "CF350882180",
+    "submission_url": "https://codeforces.com/contest/2157/submission/350882180",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Nov/27/2025 21:33"
+  },
+  "CF351000382": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2170,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Maximum Neighborhood",
+    "problem_url": "https://codeforces.com/contest/2170/problem/A",
+    "submission_id": "CF351000382",
+    "submission_url": "https://codeforces.com/contest/2170/submission/351000382",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/28/2025 20:44"
+  },
+  "CF351009168": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2170,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Addition on a Segment",
+    "problem_url": "https://codeforces.com/contest/2170/problem/B",
+    "submission_id": "CF351009168",
+    "submission_url": "https://codeforces.com/contest/2170/submission/351009168",
+    "tags": [
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Nov/28/2025 20:54"
+  },
+  "CF351039799": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2170,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Quotient and Remainder",
+    "problem_url": "https://codeforces.com/contest/2170/problem/C",
+    "submission_id": "CF351039799",
+    "submission_url": "https://codeforces.com/contest/2170/submission/351039799",
+    "tags": [
+      "binary search",
+      "greedy",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Nov/28/2025 21:41"
+  },
+  "CF351247546": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2158,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Suspension",
+    "problem_url": "https://codeforces.com/contest/2158/problem/A",
+    "submission_id": "CF351247546",
+    "submission_url": "https://codeforces.com/contest/2158/submission/351247546",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/29/2025 23:11"
+  },
+  "CF351251620": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2158,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Split",
+    "problem_url": "https://codeforces.com/contest/2158/problem/B",
+    "submission_id": "CF351251620",
+    "submission_url": "https://codeforces.com/contest/2158/submission/351251620",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Nov/29/2025 23:41"
+  },
+  "CF351257920": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2158,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Annoying Game",
+    "problem_url": "https://codeforces.com/contest/2158/problem/C",
+    "submission_id": "CF351257920",
+    "submission_url": "https://codeforces.com/contest/2158/submission/351257920",
+    "tags": [
+      "dp",
+      "games",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Nov/30/2025 00:31"
+  },
+  "CF351305802": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2158,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Palindrome Flipping",
+    "problem_url": "https://codeforces.com/contest/2158/problem/D",
+    "submission_id": "CF351305802",
+    "submission_url": "https://codeforces.com/contest/2158/submission/351305802",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "shortest paths",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Nov/30/2025 14:05"
+  },
+  "CF351462121": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2172,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "ASCII Art Contest",
+    "problem_url": "https://codeforces.com/contest/2172/problem/A",
+    "submission_id": "CF351462121",
+    "submission_url": "https://codeforces.com/contest/2172/submission/351462121",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/01/2025 18:18"
+  },
+  "CF351619376": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1930,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Permutation Printing",
+    "problem_url": "https://codeforces.com/contest/1930/problem/B",
+    "submission_id": "CF351619376",
+    "submission_url": "https://codeforces.com/contest/1930/submission/351619376",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/02/2025 21:06"
+  },
+  "CF351692732": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2171,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Rae Taylor and Trees (hard version)",
+    "problem_url": "https://codeforces.com/contest/2171/problem/F",
+    "submission_id": "CF351692732",
+    "submission_url": "https://codeforces.com/contest/2171/submission/351692732",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "dsu",
+      "greedy",
+      "implementation",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Dec/03/2025 13:44"
+  },
+  "CF351924568": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1257,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Magic Stick",
+    "problem_url": "https://codeforces.com/contest/1257/problem/B",
+    "submission_id": "CF351924568",
+    "submission_url": "https://codeforces.com/contest/1257/submission/351924568",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/05/2025 03:02"
+  },
+  "CF352028145": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2173,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sleeping Through Classes",
+    "problem_url": "https://codeforces.com/contest/2173/problem/A",
+    "submission_id": "CF352028145",
+    "submission_url": "https://codeforces.com/contest/2173/submission/352028145",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/05/2025 20:44"
+  },
+  "CF352050665": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2173,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Niko's Tactical Cards",
+    "problem_url": "https://codeforces.com/contest/2173/problem/B",
+    "submission_id": "CF352050665",
+    "submission_url": "https://codeforces.com/contest/2173/submission/352050665",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Dec/05/2025 21:05"
+  },
+  "CF352103491": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2173,
+    "language": "C++17 (GCC 7-32)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Kanade's Perfect Multiples",
+    "problem_url": "https://codeforces.com/contest/2173/problem/C",
+    "submission_id": "CF352103491",
+    "submission_url": "https://codeforces.com/contest/2173/submission/352103491",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Dec/05/2025 23:19"
+  },
+  "CF352295913": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2175,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Fairy's Painting",
+    "problem_url": "https://codeforces.com/contest/2175/problem/A",
+    "submission_id": "CF352295913",
+    "submission_url": "https://codeforces.com/contest/2175/submission/352295913",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/06/2025 23:39"
+  },
+  "CF352427406": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2175,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "XOR Array",
+    "problem_url": "https://codeforces.com/contest/2175/problem/B",
+    "submission_id": "CF352427406",
+    "submission_url": "https://codeforces.com/contest/2175/submission/352427406",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Dec/07/2025 22:31"
+  },
+  "CF352436272": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2175,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Needle in a Haystack",
+    "problem_url": "https://codeforces.com/contest/2175/problem/C",
+    "submission_id": "CF352436272",
+    "submission_url": "https://codeforces.com/contest/2175/submission/352436272",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Dec/07/2025 23:48"
+  },
+  "CF352453694": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1877,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Effects of Anti Pimples",
+    "problem_url": "https://codeforces.com/contest/1877/problem/D",
+    "submission_id": "CF352453694",
+    "submission_url": "https://codeforces.com/contest/1877/submission/352453694",
+    "tags": [
+      "combinatorics",
+      "number theory",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Dec/08/2025 03:02"
+  },
+  "CF352513377": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1877,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Joyboard",
+    "problem_url": "https://codeforces.com/contest/1877/problem/C",
+    "submission_id": "CF352513377",
+    "submission_url": "https://codeforces.com/contest/1877/submission/352513377",
+    "tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Dec/08/2025 14:02"
+  },
+  "CF352662177": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2067,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Devyatkino",
+    "problem_url": "https://codeforces.com/contest/2067/problem/C",
+    "submission_id": "CF352662177",
+    "submission_url": "https://codeforces.com/contest/2067/submission/352662177",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Dec/09/2025 13:45"
+  },
+  "CF352664890": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2067,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Devyatkino",
+    "problem_url": "https://codeforces.com/contest/2067/problem/C",
+    "submission_id": "CF352664890",
+    "submission_url": "https://codeforces.com/contest/2067/submission/352664890",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Dec/09/2025 14:04"
+  },
+  "CF352719955": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2146,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Merging the Sets",
+    "problem_url": "https://codeforces.com/contest/2146/problem/B",
+    "submission_id": "CF352719955",
+    "submission_url": "https://codeforces.com/contest/2146/submission/352719955",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Dec/09/2025 20:55"
+  },
+  "CF352865214": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2172,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "M",
+    "problem_name": "Maximum Distance To Port",
+    "problem_url": "https://codeforces.com/contest/2172/problem/M",
+    "submission_id": "CF352865214",
+    "submission_url": "https://codeforces.com/contest/2172/submission/352865214",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "*1300"
+    ],
+    "timestamp": "Dec/10/2025 20:40"
+  },
+  "CF353021364": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2176,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Operations with Inversions",
+    "problem_url": "https://codeforces.com/contest/2176/problem/A",
+    "submission_id": "CF353021364",
+    "submission_url": "https://codeforces.com/contest/2176/submission/353021364",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/11/2025 20:40"
+  },
+  "CF353048647": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2176,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Optimal Shifts",
+    "problem_url": "https://codeforces.com/contest/2176/problem/B",
+    "submission_id": "CF353048647",
+    "submission_url": "https://codeforces.com/contest/2176/submission/353048647",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Dec/11/2025 21:07"
+  },
+  "CF353068268": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2176,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Odd Process",
+    "problem_url": "https://codeforces.com/contest/2176/problem/C",
+    "submission_id": "CF353068268",
+    "submission_url": "https://codeforces.com/contest/2176/submission/353068268",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Dec/11/2025 21:42"
+  },
+  "CF353228751": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2146,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Wrong Binary Search",
+    "problem_url": "https://codeforces.com/contest/2146/problem/C",
+    "submission_id": "CF353228751",
+    "submission_url": "https://codeforces.com/contest/2146/submission/353228751",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "*1300"
+    ],
+    "timestamp": "Dec/12/2025 23:03"
+  },
+  "CF353363725": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2027,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Stalin Sort",
+    "problem_url": "https://codeforces.com/contest/2027/problem/B",
+    "submission_id": "CF353363725",
+    "submission_url": "https://codeforces.com/contest/2027/submission/353363725",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Dec/13/2025 23:55"
+  },
+  "CF353483928": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 431,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "k-Tree",
+    "problem_url": "https://codeforces.com/contest/431/problem/C",
+    "submission_id": "CF353483928",
+    "submission_url": "https://codeforces.com/contest/431/submission/353483928",
+    "tags": [
+      "dp",
+      "implementation",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Dec/14/2025 23:08"
+  },
+  "CF353603275": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2148,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Farmer John's Last Wish",
+    "problem_url": "https://codeforces.com/contest/2148/problem/G",
+    "submission_id": "CF353603275",
+    "submission_url": "https://codeforces.com/contest/2148/submission/353603275",
+    "tags": [
+      "binary search",
+      "data structures",
+      "math",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Dec/15/2025 22:27"
+  },
+  "CF353745528": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1433,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Districts Connection",
+    "problem_url": "https://codeforces.com/contest/1433/problem/D",
+    "submission_id": "CF353745528",
+    "submission_url": "https://codeforces.com/contest/1433/submission/353745528",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "*1200"
+    ],
+    "timestamp": "Dec/16/2025 23:35"
+  },
+  "CF353812334": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2181,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "Honey Cake",
+    "problem_url": "https://codeforces.com/contest/2181/problem/H",
+    "submission_id": "CF353812334",
+    "submission_url": "https://codeforces.com/contest/2181/submission/353812334",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Dec/17/2025 15:16"
+  },
+  "CF353817518": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2181,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Battle of Arrays",
+    "problem_url": "https://codeforces.com/contest/2181/problem/B",
+    "submission_id": "CF353817518",
+    "submission_url": "https://codeforces.com/contest/2181/submission/353817518",
+    "tags": [
+      "data structures",
+      "games",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Dec/17/2025 15:49"
+  },
+  "CF353832670": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2181,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alphabet City",
+    "problem_url": "https://codeforces.com/contest/2181/problem/A",
+    "submission_id": "CF353832670",
+    "submission_url": "https://codeforces.com/contest/2181/submission/353832670",
+    "tags": [
+      "binary search",
+      "math",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Dec/17/2025 17:06"
+  },
+  "CF353841123": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2181,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "M",
+    "problem_name": "Medical Parity",
+    "problem_url": "https://codeforces.com/contest/2181/problem/M",
+    "submission_id": "CF353841123",
+    "submission_url": "https://codeforces.com/contest/2181/submission/353841123",
+    "tags": [
+      "dp",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Dec/17/2025 17:54"
+  },
+  "CF353947472": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2181,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Fragmented Nim",
+    "problem_url": "https://codeforces.com/contest/2181/problem/F",
+    "submission_id": "CF353947472",
+    "submission_url": "https://codeforces.com/contest/2181/submission/353947472",
+    "tags": [
+      "games",
+      "*1600"
+    ],
+    "timestamp": "Dec/18/2025 15:05"
+  },
+  "CF354116887": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2180,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Carnival Wheel",
+    "problem_url": "https://codeforces.com/contest/2180/problem/A",
+    "submission_id": "CF354116887",
+    "submission_url": "https://codeforces.com/contest/2180/submission/354116887",
+    "tags": [
+      "brute force",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Dec/19/2025 20:45"
+  },
+  "CF354130242": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2180,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ashmal",
+    "problem_url": "https://codeforces.com/contest/2180/problem/B",
+    "submission_id": "CF354130242",
+    "submission_url": "https://codeforces.com/contest/2180/submission/354130242",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Dec/19/2025 20:56"
+  },
+  "CF354468999": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1744,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Divisibility by 2^n",
+    "problem_url": "https://codeforces.com/contest/1744/problem/D",
+    "submission_id": "CF354468999",
+    "submission_url": "https://codeforces.com/contest/1744/submission/354468999",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Dec/21/2025 23:40"
+  },
+  "CF354722703": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2179,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Blackslex and Password",
+    "problem_url": "https://codeforces.com/contest/2179/problem/A",
+    "submission_id": "CF354722703",
+    "submission_url": "https://codeforces.com/contest/2179/submission/354722703",
+    "tags": [
+      "math",
+      "strings"
+    ],
+    "timestamp": "Dec/23/2025 20:57"
+  },
+  "CF354747055": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2179,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Blackslex and Showering",
+    "problem_url": "https://codeforces.com/contest/2179/problem/B",
+    "submission_id": "CF354747055",
+    "submission_url": "https://codeforces.com/contest/2179/submission/354747055",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Dec/23/2025 21:15"
+  },
+  "CF354774552": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2179,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Blackslex and Number Theory",
+    "problem_url": "https://codeforces.com/contest/2179/problem/C",
+    "submission_id": "CF354774552",
+    "submission_url": "https://codeforces.com/contest/2179/submission/354774552",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "sortings"
+    ],
+    "timestamp": "Dec/23/2025 21:38"
+  },
+  "CF354833452": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2179,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Blackslex and Girls",
+    "problem_url": "https://codeforces.com/contest/2179/problem/E",
+    "submission_id": "CF354833452",
+    "submission_url": "https://codeforces.com/contest/2179/submission/354833452",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "math"
+    ],
+    "timestamp": "Dec/23/2025 22:53"
+  },
+  "CF354973608": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2179,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Blackslex and Penguin Civilization",
+    "problem_url": "https://codeforces.com/contest/2179/problem/D",
+    "submission_id": "CF354973608",
+    "submission_url": "https://codeforces.com/contest/2179/submission/354973608",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Dec/24/2025 23:25"
+  },
+  "CF355206302": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2179,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Blackslex and Another RGB Walking",
+    "problem_url": "https://codeforces.com/contest/2179/problem/F",
+    "submission_id": "CF355206302",
+    "submission_url": "https://codeforces.com/contest/2179/submission/355206302",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "interactive",
+      "number theory",
+      "trees"
+    ],
+    "timestamp": "Dec/26/2025 23:09"
+  },
+  "CF355318012": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2178,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yes or Yes",
+    "problem_url": "https://codeforces.com/contest/2178/problem/A",
+    "submission_id": "CF355318012",
+    "submission_url": "https://codeforces.com/contest/2178/submission/355318012",
+    "tags": [
+      "greedy",
+      "strings"
+    ],
+    "timestamp": "Dec/27/2025 20:39"
+  },
+  "CF355345218": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2178,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Impost or Sus",
+    "problem_url": "https://codeforces.com/contest/2178/problem/B",
+    "submission_id": "CF355345218",
+    "submission_url": "https://codeforces.com/contest/2178/submission/355345218",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
+    "timestamp": "Dec/27/2025 21:04"
+  },
+  "CF355462554": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2178,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "First or Second",
+    "problem_url": "https://codeforces.com/contest/2178/problem/C",
+    "submission_id": "CF355462554",
+    "submission_url": "https://codeforces.com/contest/2178/submission/355462554",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Dec/28/2025 14:44"
+  },
+  "CF355553649": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2180,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "XOR-factorization",
+    "problem_url": "https://codeforces.com/contest/2180/problem/C",
+    "submission_id": "CF355553649",
+    "submission_url": "https://codeforces.com/contest/2180/submission/355553649",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Dec/28/2025 21:27"
+  },
+  "CF355674349": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2122,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Manhattan Pairs",
+    "problem_url": "https://codeforces.com/contest/2122/problem/C",
+    "submission_id": "CF355674349",
+    "submission_url": "https://codeforces.com/contest/2122/submission/355674349",
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "greedy",
+      "math",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Dec/29/2025 15:23"
+  },
+  "CF355714965": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2182,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "New Year String",
+    "problem_url": "https://codeforces.com/contest/2182/problem/A",
+    "submission_id": "CF355714965",
+    "submission_url": "https://codeforces.com/contest/2182/submission/355714965",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
+    "timestamp": "Dec/29/2025 20:43"
+  },
+  "CF355723447": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2182,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "New Year Cake",
+    "problem_url": "https://codeforces.com/contest/2182/problem/B",
+    "submission_id": "CF355723447",
+    "submission_url": "https://codeforces.com/contest/2182/submission/355723447",
+    "tags": [
+      "brute force"
+    ],
+    "timestamp": "Dec/29/2025 20:50"
+  },
+  "CF355892494": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1630,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "And Matching",
+    "problem_url": "https://codeforces.com/contest/1630/problem/A",
+    "submission_id": "CF355892494",
+    "submission_url": "https://codeforces.com/contest/1630/submission/355892494",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*1500"
+    ],
+    "timestamp": "Dec/30/2025 21:31"
+  },
+  "CF355893360": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1630,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "And Matching",
+    "problem_url": "https://codeforces.com/contest/1630/problem/A",
+    "submission_id": "CF355893360",
+    "submission_url": "https://codeforces.com/contest/1630/submission/355893360",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*1500"
+    ],
+    "timestamp": "Dec/30/2025 21:38"
+  },
+  "CF355998196": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2182,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Production of Snowmen",
+    "problem_url": "https://codeforces.com/contest/2182/problem/C",
+    "submission_id": "CF355998196",
+    "submission_url": "https://codeforces.com/contest/2182/submission/355998196",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp"
+    ],
+    "timestamp": "Dec/31/2025 22:20"
+  },
+  "CF356041483": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2182,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Christmas Tree Decoration",
+    "problem_url": "https://codeforces.com/contest/2182/problem/D",
+    "submission_id": "CF356041483",
+    "submission_url": "https://codeforces.com/contest/2182/submission/356041483",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Jan/01/2026 14:31"
+  },
+  "CF356077535": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2169,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Range Operation",
+    "problem_url": "https://codeforces.com/contest/2169/problem/C",
+    "submission_id": "CF356077535",
+    "submission_url": "https://codeforces.com/contest/2169/submission/356077535",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Jan/01/2026 21:20"
+  },
+  "CF356305535": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2144,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Price Tags",
+    "problem_url": "https://codeforces.com/contest/2144/problem/D",
+    "submission_id": "CF356305535",
+    "submission_url": "https://codeforces.com/contest/2144/submission/356305535",
+    "tags": [
+      "brute force",
+      "dp",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Jan/03/2026 23:51"
+  },
+  "CF356677233": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 762,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "k-th divisor",
+    "problem_url": "https://codeforces.com/contest/762/problem/A",
+    "submission_id": "CF356677233",
+    "submission_url": "https://codeforces.com/contest/762/submission/356677233",
+    "tags": [
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jan/07/2026 01:41"
+  },
+  "CF356766692": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 230,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "T-primes",
+    "problem_url": "https://codeforces.com/contest/230/problem/B",
+    "submission_id": "CF356766692",
+    "submission_url": "https://codeforces.com/contest/230/submission/356766692",
+    "tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Jan/07/2026 20:01"
+  },
+  "CF356782177": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2183,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Binary Array Game",
+    "problem_url": "https://codeforces.com/contest/2183/problem/A",
+    "submission_id": "CF356782177",
+    "submission_url": "https://codeforces.com/contest/2183/submission/356782177",
+    "tags": [
+      "games"
+    ],
+    "timestamp": "Jan/07/2026 20:48"
+  },
+  "CF356822902": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2183,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another MEX Problem",
+    "problem_url": "https://codeforces.com/contest/2183/problem/B",
+    "submission_id": "CF356822902",
+    "submission_url": "https://codeforces.com/contest/2183/submission/356822902",
+    "tags": [
+      "constructive algorithms",
+      "greedy"
+    ],
+    "timestamp": "Jan/07/2026 21:46"
+  },
+  "CF357097434": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1203,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Common Divisors",
+    "problem_url": "https://codeforces.com/contest/1203/problem/C",
+    "submission_id": "CF357097434",
+    "submission_url": "https://codeforces.com/contest/1203/submission/357097434",
+    "tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jan/09/2026 20:40"
+  },
+  "CF357101967": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 749,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bachgold Problem",
+    "problem_url": "https://codeforces.com/contest/749/problem/A",
+    "submission_id": "CF357101967",
+    "submission_url": "https://codeforces.com/contest/749/submission/357101967",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Jan/09/2026 21:16"
+  },
+  "CF357126913": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1051,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Relatively Prime Pairs",
+    "problem_url": "https://codeforces.com/contest/1051/problem/B",
+    "submission_id": "CF357126913",
+    "submission_url": "https://codeforces.com/contest/1051/submission/357126913",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Jan/09/2026 23:56"
+  },
+  "CF357245544": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1051,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Relatively Prime Pairs",
+    "problem_url": "https://codeforces.com/contest/1051/problem/B",
+    "submission_id": "CF357245544",
+    "submission_url": "https://codeforces.com/contest/1051/submission/357245544",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Jan/10/2026 23:55"
+  },
+  "CF357407033": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1864,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Increasing and Decreasing",
+    "problem_url": "https://codeforces.com/contest/1864/problem/A",
+    "submission_id": "CF357407033",
+    "submission_url": "https://codeforces.com/contest/1864/submission/357407033",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/12/2026 13:37"
+  },
+  "CF357453693": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2184,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Social Experiment",
+    "problem_url": "https://codeforces.com/contest/2184/problem/A",
+    "submission_id": "CF357453693",
+    "submission_url": "https://codeforces.com/contest/2184/submission/357453693",
+    "tags": [
+      "math"
+    ],
+    "timestamp": "Jan/12/2026 20:37"
+  },
+  "CF357492955": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2184,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hourglass",
+    "problem_url": "https://codeforces.com/contest/2184/problem/B",
+    "submission_id": "CF357492955",
+    "submission_url": "https://codeforces.com/contest/2184/submission/357492955",
+    "tags": [
+      "math"
+    ],
+    "timestamp": "Jan/12/2026 20:59"
+  },
+  "CF357538205": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2184,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Huge Pile",
+    "problem_url": "https://codeforces.com/contest/2184/problem/C",
+    "submission_id": "CF357538205",
+    "submission_url": "https://codeforces.com/contest/2184/submission/357538205",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "math"
+    ],
+    "timestamp": "Jan/12/2026 21:33"
+  },
+  "CF357741948": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2184,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Unfair Game",
+    "problem_url": "https://codeforces.com/contest/2184/problem/D",
+    "submission_id": "CF357741948",
+    "submission_url": "https://codeforces.com/contest/2184/submission/357741948",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math"
+    ],
+    "timestamp": "Jan/13/2026 23:41"
+  },
+  "CF357979183": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1285,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fadi and LCM",
+    "problem_url": "https://codeforces.com/contest/1285/problem/C",
+    "submission_id": "CF357979183",
+    "submission_url": "https://codeforces.com/contest/1285/submission/357979183",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jan/15/2026 21:57"
+  },
+  "CF358127607": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1370,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Maximum GCD",
+    "problem_url": "https://codeforces.com/contest/1370/problem/A",
+    "submission_id": "CF358127607",
+    "submission_url": "https://codeforces.com/contest/1370/submission/358127607",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Jan/16/2026 23:20"
+  },
+  "CF358130638": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 757,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Bash's Big Day",
+    "problem_url": "https://codeforces.com/contest/757/problem/B",
+    "submission_id": "CF358130638",
+    "submission_url": "https://codeforces.com/contest/757/submission/358130638",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jan/16/2026 23:41"
+  },
+  "CF358146874": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 735,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Taxes",
+    "problem_url": "https://codeforces.com/contest/735/problem/D",
+    "submission_id": "CF358146874",
+    "submission_url": "https://codeforces.com/contest/735/submission/358146874",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Jan/17/2026 02:27"
+  },
+  "CF358268262": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2191,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Array Coloring",
+    "problem_url": "https://codeforces.com/contest/2191/problem/A",
+    "submission_id": "CF358268262",
+    "submission_url": "https://codeforces.com/contest/2191/submission/358268262",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "Jan/17/2026 20:42"
+  },
+  "CF358288347": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2191,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "MEX Reordering",
+    "problem_url": "https://codeforces.com/contest/2191/problem/B",
+    "submission_id": "CF358288347",
+    "submission_url": "https://codeforces.com/contest/2191/submission/358288347",
+    "tags": [
+      "constructive algorithms",
+      "sortings"
+    ],
+    "timestamp": "Jan/17/2026 21:00"
+  },
+  "CF358341962": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2191,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sorting Game",
+    "problem_url": "https://codeforces.com/contest/2191/problem/C",
+    "submission_id": "CF358341962",
+    "submission_url": "https://codeforces.com/contest/2191/submission/358341962",
+    "tags": [
+      "games"
+    ],
+    "timestamp": "Jan/17/2026 22:20"
+  },
+  "CF358473949": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2185,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Perfect Root",
+    "problem_url": "https://codeforces.com/contest/2185/problem/A",
+    "submission_id": "CF358473949",
+    "submission_url": "https://codeforces.com/contest/2185/submission/358473949",
+    "tags": [
+      "constructive algorithms",
+      "math"
+    ],
+    "timestamp": "Jan/18/2026 20:37"
+  },
+  "CF358486389": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2185,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Prefix Max",
+    "problem_url": "https://codeforces.com/contest/2185/problem/B",
+    "submission_id": "CF358486389",
+    "submission_url": "https://codeforces.com/contest/2185/submission/358486389",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Jan/18/2026 20:41"
+  },
+  "CF358508206": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2185,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Shifted MEX",
+    "problem_url": "https://codeforces.com/contest/2185/problem/C",
+    "submission_id": "CF358508206",
+    "submission_url": "https://codeforces.com/contest/2185/submission/358508206",
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "timestamp": "Jan/18/2026 20:50"
+  },
+  "CF358545206": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2185,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "OutOfMemoryError",
+    "problem_url": "https://codeforces.com/contest/2185/problem/D",
+    "submission_id": "CF358545206",
+    "submission_url": "https://codeforces.com/contest/2185/submission/358545206",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "two pointers"
+    ],
+    "timestamp": "Jan/18/2026 21:14"
+  },
+  "CF358595397": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2185,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "The Robotic Rush",
+    "problem_url": "https://codeforces.com/contest/2185/problem/E",
+    "submission_id": "CF358595397",
+    "submission_url": "https://codeforces.com/contest/2185/submission/358595397",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers"
+    ],
+    "timestamp": "Jan/18/2026 21:59"
+  },
+  "CF358817810": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1604,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Di-visible Confusion",
+    "problem_url": "https://codeforces.com/contest/1604/problem/C",
+    "submission_id": "CF358817810",
+    "submission_url": "https://codeforces.com/contest/1604/submission/358817810",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Jan/19/2026 23:57"
   }
 }
