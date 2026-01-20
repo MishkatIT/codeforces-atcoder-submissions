@@ -1,8 +1,5 @@
 # 📖 Harwest - Complete User Guide
 
-...existing content...
-# 📖 Harwest - Complete User Guide
-
 **Comprehensive guide for setting up and using Harwest to automatically archive your competitive programming submissions from Codeforces and AtCoder.**
 
 ---
@@ -552,8 +549,6 @@ Your automated competitive programming archive is ready!
 **Happy Coding! 🚀**
 
 *Automatically archive your competitive programming journey*
-
-Built with ❤️ using [Harwest](https://github.com/nileshsah/harwest-tool)
 
 *Last Updated: January 2026*
 
