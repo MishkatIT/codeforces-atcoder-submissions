@@ -105,5 +105,20 @@ class Repository:
       args = ["origin", "main"]
       if force_push:
         args.insert(0, "-f")
-      self.git.push(*args)
-      print("\U0001F44C", "The updates were automatically pushed to the remote repository")
+      try:
+        self.git.push(*args)
+        print("\U0001F44C", "The updates were automatically pushed to the remote repository")
+      except Exception as push_error:
+        push_err_msg = str(push_error)
+        if 'non-fast-forward' in push_err_msg or 'Updates were rejected' in push_err_msg:
+          print("\u26a0\ufe0f", "Push rejected due to non-fast-forward. Retrying with force push...")
+          try:
+            force_args = ["-f", "origin", "main"]
+            self.git.push(*force_args)
+            print("\U0001F44C", "The updates were force-pushed to the remote repository")
+          except Exception as force_push_error:
+            print("\u26a0\ufe0f", f"Force push also failed: {force_push_error}")
+            print("\u26a0\ufe0f", "Changes are saved locally but could not be pushed")
+        else:
+          print("\u26a0\ufe0f", f"Push failed: {push_error}")
+          print("\u26a0\ufe0f", "Changes are saved locally but not pushed")
