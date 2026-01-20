@@ -6,19 +6,19 @@
 
 ## 📑 Table of Contents
 
-- [Quick Setup (5 Minutes)](#quick-setup-5-minutes)
-- [Automated Harvesting (GitHub Actions)](#automated-harvesting-github-actions)
-- [Manual/Local Usage](#manual-local-usage)
-- [Control Panel (Windows) — Highly Recommended!](#control-panel-windows-highly-recommended)
-- [Common Workflows](#common-workflows)
-- [Repository Structure](#repository-structure)
-- [Troubleshooting](#troubleshooting)
-- [Command Reference](#command-reference)
-- [Pro Tips](#pro-tips)
-- [Need to Setup?](#need-to-setup)
-- [Additional Resources](#additional-resources)
-- [FAQ](#faq)
-- [You're All Set!](#youre-all-set)
+- [Quick Setup (5 Minutes)](USER_GUIDE.md#-quick-setup-5-minutes)
+- [Automated Harvesting (GitHub Actions)](USER_GUIDE.md#-automated-harvesting-github-actions)
+- [Manual/Local Usage](USER_GUIDE.md#-manual-local-usage)
+- [Control Panel (Windows) — Highly Recommended!](USER_GUIDE.md#-control-panel-windows-highly-recommended)
+- [Common Workflows](USER_GUIDE.md#-common-workflows)
+- [Repository Structure](USER_GUIDE.md#-repository-structure)
+- [Troubleshooting](USER_GUIDE.md#-troubleshooting)
+- [Command Reference](USER_GUIDE.md#-command-reference)
+- [Pro Tips](USER_GUIDE.md#-pro-tips)
+- [Need to Setup?](USER_GUIDE.md#-need-to-setup)
+- [Additional Resources](USER_GUIDE.md#-additional-resources)
+- [FAQ](USER_GUIDE.md#-faq)
+- [You're All Set!](USER_GUIDE.md#-youre-all-set)
 
 ---
 

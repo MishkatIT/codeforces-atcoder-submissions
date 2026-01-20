@@ -10,8 +10,11 @@
 
 
 <!-- AUTO-UPDATE BADGES SECTION START -->
+[![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT)
+[![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT)
 [![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=github-actions)](../../actions/workflows/harwest.yml)
 <!-- AUTO-UPDATE BADGES SECTION END -->
+
 
 
 
@@ -75,7 +78,11 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 <!-- AUTO-UPDATE PLATFORMS SECTION START -->
 | Platform | Profile | Solutions | Submissions |
 |----------|---------|-----------|-------------|
+| **Codeforces** | [MishkatIT](https://codeforces.com/profile/MishkatIT) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT) | [📝 View All](codeforces.md) |
+| **AtCoder** | [MishkatIT](https://atcoder.jp/users/MishkatIT) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
+
+
 
 
 
