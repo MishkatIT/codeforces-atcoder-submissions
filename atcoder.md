@@ -6,7 +6,7 @@
 
 **Username:** [Tridib21](https://atcoder.jp/users/Tridib21)
 
-### 📊 Total Problems Solved: **9**
+### 📊 Total Problems Solved: **11**
 
 </div>
 
@@ -89,6 +89,20 @@
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Nov/28/2025 00:04</sub></td>
 </tr>
+<tr>
+<td align="center">10</td>
+<td><a href="https://atcoder.jp/contests/abc433/tasks/abc433_a"><b>A</b> - Happy Birthday! 4</a></td>
+<td align="center"><a href="./submissions/atcoder/abc433/abc433A%20Happy_Birthday__4.cpp" title="C++23 (GCC 15.2.0)"><code>C++23 (GCC 15.2.0)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Nov/28/2025 00:00</sub></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td><a href="https://atcoder.jp/contests/abc431/tasks/abc431_c"><b>C</b> - Robot Factory</a></td>
+<td align="center"><a href="./submissions/atcoder/abc431/abc431C%20Robot_Factory.cpp" title="C++23 (GCC 15.2.0)"><code>C++23 (GCC 15.2.0)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Nov/08/2025 18:21</sub></td>
+</tr>
 </tbody>
 </table>
 
@@ -98,6 +112,6 @@
 
 <div align="center">
 
-*Last Updated: January 20, 2026 at 17:51 BDT (UTC+6)*
+*Last Updated: January 20, 2026 at 17:54 BDT (UTC+6)*
 
 </div>
