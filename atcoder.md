@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **80**
+### 📊 Total Problems Solved: **121**
 
 </div>
 
@@ -585,6 +585,293 @@
 <td><code>AtCoder</code> <code>*100</code></td>
 <td align="center"><sub>Mar/20/2025 21:03</sub></td>
 </tr>
+<tr>
+<td align="center">81</td>
+<td><a href="https://atcoder.jp/contests/abc384/tasks/abc384_a"><b>A</b> - aaaadaa</a></td>
+<td align="center"><a href="./submissions/atcoder/abc384/abc384A%20aaaadaa.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Mar/20/2025 20:59</sub></td>
+</tr>
+<tr>
+<td align="center">82</td>
+<td><a href="https://atcoder.jp/contests/abc065/tasks/abc065_a"><b>A</b> - Expired?</a></td>
+<td align="center"><a href="./submissions/atcoder/abc065/abc065A%20Expired_.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Mar/20/2025 20:56</sub></td>
+</tr>
+<tr>
+<td align="center">83</td>
+<td><a href="https://atcoder.jp/contests/abc315/tasks/abc315_a"><b>A</b> - tcdr</a></td>
+<td align="center"><a href="./submissions/atcoder/abc315/abc315A%20tcdr.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Mar/18/2025 19:31</sub></td>
+</tr>
+<tr>
+<td align="center">84</td>
+<td><a href="https://atcoder.jp/contests/abc395/tasks/abc395_c"><b>C</b> - Shortest Duplicate Subarray</a></td>
+<td align="center"><a href="./submissions/atcoder/abc395/abc395C%20Shortest_Duplicate_Subarray.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Mar/01/2025 18:19</sub></td>
+</tr>
+<tr>
+<td align="center">85</td>
+<td><a href="https://atcoder.jp/contests/abc120/tasks/abc120_c"><b>C</b> - Unification</a></td>
+<td align="center"><a href="./submissions/atcoder/abc120/abc120C%20Unification.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Feb/24/2025 11:04</sub></td>
+</tr>
+<tr>
+<td align="center">86</td>
+<td><a href="https://atcoder.jp/contests/abc149/tasks/abc149_a"><b>A</b> - Strings</a></td>
+<td align="center"><a href="./submissions/atcoder/abc149/abc149A%20Strings.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Feb/18/2025 20:56</sub></td>
+</tr>
+<tr>
+<td align="center">87</td>
+<td><a href="https://atcoder.jp/contests/abc392/tasks/abc392_c"><b>C</b> - Bib</a></td>
+<td align="center"><a href="./submissions/atcoder/abc392/abc392C%20Bib.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Feb/08/2025 18:20</sub></td>
+</tr>
+<tr>
+<td align="center">88</td>
+<td><a href="https://atcoder.jp/contests/abc392/tasks/abc392_a"><b>A</b> - Shuffled Equation</a></td>
+<td align="center"><a href="./submissions/atcoder/abc392/abc392A%20Shuffled_Equation.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Feb/08/2025 18:01</sub></td>
+</tr>
+<tr>
+<td align="center">89</td>
+<td><a href="https://atcoder.jp/contests/abc391/tasks/abc391_c"><b>C</b> - Pigeonhole Query</a></td>
+<td align="center"><a href="./submissions/atcoder/abc391/abc391C%20Pigeonhole_Query.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Feb/02/2025 02:14</sub></td>
+</tr>
+<tr>
+<td align="center">90</td>
+<td><a href="https://atcoder.jp/contests/abc391/tasks/abc391_b"><b>B</b> - Seek Grid</a></td>
+<td align="center"><a href="./submissions/atcoder/abc391/abc391B%20Seek_Grid.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Feb/01/2025 22:56</sub></td>
+</tr>
+<tr>
+<td align="center">91</td>
+<td><a href="https://atcoder.jp/contests/abc391/tasks/abc391_a"><b>A</b> - Lucky Direction</a></td>
+<td align="center"><a href="./submissions/atcoder/abc391/abc391A%20Lucky_Direction.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Feb/01/2025 22:43</sub></td>
+</tr>
+<tr>
+<td align="center">92</td>
+<td><a href="https://atcoder.jp/contests/abc390/tasks/abc390_c"><b>C</b> - Paint to make a rectangle</a></td>
+<td align="center"><a href="./submissions/atcoder/abc390/abc390C%20Paint_to_make_a_rectangle.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Jan/25/2025 20:13</sub></td>
+</tr>
+<tr>
+<td align="center">93</td>
+<td><a href="https://atcoder.jp/contests/abc390/tasks/abc390_b"><b>B</b> - Geometric Sequence</a></td>
+<td align="center"><a href="./submissions/atcoder/abc390/abc390B%20Geometric_Sequence.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Jan/25/2025 19:57</sub></td>
+</tr>
+<tr>
+<td align="center">94</td>
+<td><a href="https://atcoder.jp/contests/abc390/tasks/abc390_a"><b>A</b> - 12435</a></td>
+<td align="center"><a href="./submissions/atcoder/abc390/abc390A%2012435.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Jan/25/2025 19:54</sub></td>
+</tr>
+<tr>
+<td align="center">95</td>
+<td><a href="https://atcoder.jp/contests/abc385/tasks/abc385_c"><b>C</b> - Illuminate Buildings</a></td>
+<td align="center"><a href="./submissions/atcoder/abc385/abc385C%20Illuminate_Buildings.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*350</code></td>
+<td align="center"><sub>Dec/23/2024 01:40</sub></td>
+</tr>
+<tr>
+<td align="center">96</td>
+<td><a href="https://atcoder.jp/contests/abc385/tasks/abc385_b"><b>B</b> - Santa Claus 1</a></td>
+<td align="center"><a href="./submissions/atcoder/abc385/abc385B%20Santa_Claus_1.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Dec/21/2024 18:09</sub></td>
+</tr>
+<tr>
+<td align="center">97</td>
+<td><a href="https://atcoder.jp/contests/abc384/tasks/abc384_e"><b>E</b> - Takahashi is Slime 2</a></td>
+<td align="center"><a href="./submissions/atcoder/abc384/abc384E%20Takahashi_is_Slime_2.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*450</code></td>
+<td align="center"><sub>Dec/14/2024 20:01</sub></td>
+</tr>
+<tr>
+<td align="center">98</td>
+<td><a href="https://atcoder.jp/contests/abc384/tasks/abc384_d"><b>D</b> - Repeated Sequence</a></td>
+<td align="center"><a href="./submissions/atcoder/abc384/abc384D%20Repeated_Sequence.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Dec/14/2024 18:38</sub></td>
+</tr>
+<tr>
+<td align="center">99</td>
+<td><a href="https://atcoder.jp/contests/abc384/tasks/abc384_c"><b>C</b> - Perfect Standings</a></td>
+<td align="center"><a href="./submissions/atcoder/abc384/abc384C%20Perfect_Standings.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Dec/14/2024 18:20</sub></td>
+</tr>
+<tr>
+<td align="center">100</td>
+<td><a href="https://atcoder.jp/contests/abc384/tasks/abc384_b"><b>B</b> - ARC Division</a></td>
+<td align="center"><a href="./submissions/atcoder/abc384/abc384B%20ARC_Division.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Dec/14/2024 18:13</sub></td>
+</tr>
+<tr>
+<td align="center">101</td>
+<td><a href="https://atcoder.jp/contests/abc380/tasks/abc380_c"><b>C</b> - Move Segment</a></td>
+<td align="center"><a href="./submissions/atcoder/abc380/abc380C%20Move_Segment.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Nov/16/2024 19:18</sub></td>
+</tr>
+<tr>
+<td align="center">102</td>
+<td><a href="https://atcoder.jp/contests/abc380/tasks/abc380_b"><b>B</b> - Hurdle Parsing</a></td>
+<td align="center"><a href="./submissions/atcoder/abc380/abc380B%20Hurdle_Parsing.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Nov/16/2024 18:06</sub></td>
+</tr>
+<tr>
+<td align="center">103</td>
+<td><a href="https://atcoder.jp/contests/abc380/tasks/abc380_a"><b>A</b> - 123233</a></td>
+<td align="center"><a href="./submissions/atcoder/abc380/abc380A%20123233.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Nov/16/2024 18:02</sub></td>
+</tr>
+<tr>
+<td align="center">104</td>
+<td><a href="https://atcoder.jp/contests/abc378/tasks/abc378_b"><b>B</b> - Garbage Collection</a></td>
+<td align="center"><a href="./submissions/atcoder/abc378/abc378B%20Garbage_Collection.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Nov/02/2024 18:51</sub></td>
+</tr>
+<tr>
+<td align="center">105</td>
+<td><a href="https://atcoder.jp/contests/abc378/tasks/abc378_d"><b>D</b> - Count Simple Paths</a></td>
+<td align="center"><a href="./submissions/atcoder/abc378/abc378D%20Count_Simple_Paths.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*425</code></td>
+<td align="center"><sub>Nov/02/2024 18:48</sub></td>
+</tr>
+<tr>
+<td align="center">106</td>
+<td><a href="https://atcoder.jp/contests/abc378/tasks/abc378_c"><b>C</b> - Repeating</a></td>
+<td align="center"><a href="./submissions/atcoder/abc378/abc378C%20Repeating.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Nov/02/2024 18:23</sub></td>
+</tr>
+<tr>
+<td align="center">107</td>
+<td><a href="https://atcoder.jp/contests/abc378/tasks/abc378_a"><b>A</b> - Pairing</a></td>
+<td align="center"><a href="./submissions/atcoder/abc378/abc378A%20Pairing.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Nov/02/2024 18:05</sub></td>
+</tr>
+<tr>
+<td align="center">108</td>
+<td><a href="https://atcoder.jp/contests/abc377/tasks/abc377_c"><b>C</b> - Avoid Knight Attack</a></td>
+<td align="center"><a href="./submissions/atcoder/abc377/abc377C%20Avoid_Knight_Attack.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Oct/26/2024 18:31</sub></td>
+</tr>
+<tr>
+<td align="center">109</td>
+<td><a href="https://atcoder.jp/contests/abc377/tasks/abc377_b"><b>B</b> - Avoid Rook Attack</a></td>
+<td align="center"><a href="./submissions/atcoder/abc377/abc377B%20Avoid_Rook_Attack.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Oct/26/2024 18:12</sub></td>
+</tr>
+<tr>
+<td align="center">110</td>
+<td><a href="https://atcoder.jp/contests/abc377/tasks/abc377_a"><b>A</b> - Rearranging ABC</a></td>
+<td align="center"><a href="./submissions/atcoder/abc377/abc377A%20Rearranging_ABC.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Oct/26/2024 18:01</sub></td>
+</tr>
+<tr>
+<td align="center">111</td>
+<td><a href="https://atcoder.jp/contests/abc376/tasks/abc376_d"><b>D</b> - Cycle</a></td>
+<td align="center"><a href="./submissions/atcoder/abc376/abc376D%20Cycle.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Oct/19/2024 19:12</sub></td>
+</tr>
+<tr>
+<td align="center">112</td>
+<td><a href="https://atcoder.jp/contests/abc376/tasks/abc376_c"><b>C</b> - Prepare Another Box</a></td>
+<td align="center"><a href="./submissions/atcoder/abc376/abc376C%20Prepare_Another_Box.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*350</code></td>
+<td align="center"><sub>Oct/19/2024 18:42</sub></td>
+</tr>
+<tr>
+<td align="center">113</td>
+<td><a href="https://atcoder.jp/contests/abc376/tasks/abc376_b"><b>B</b> - Hands on Ring (Easy)</a></td>
+<td align="center"><a href="./submissions/atcoder/abc376/abc376B%20Hands_on_Ring__Easy_.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*250</code></td>
+<td align="center"><sub>Oct/19/2024 18:32</sub></td>
+</tr>
+<tr>
+<td align="center">114</td>
+<td><a href="https://atcoder.jp/contests/abc376/tasks/abc376_a"><b>A</b> - Candy Button</a></td>
+<td align="center"><a href="./submissions/atcoder/abc376/abc376A%20Candy_Button.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Oct/19/2024 18:09</sub></td>
+</tr>
+<tr>
+<td align="center">115</td>
+<td><a href="https://atcoder.jp/contests/abc375/tasks/abc375_d"><b>D</b> - ABA</a></td>
+<td align="center"><a href="./submissions/atcoder/abc375/abc375D%20ABA.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*400</code></td>
+<td align="center"><sub>Oct/12/2024 19:18</sub></td>
+</tr>
+<tr>
+<td align="center">116</td>
+<td><a href="https://atcoder.jp/contests/abc375/tasks/abc375_b"><b>B</b> - Traveling Takahashi Problem</a></td>
+<td align="center"><a href="./submissions/atcoder/abc375/abc375B%20Traveling_Takahashi_Problem.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*150</code></td>
+<td align="center"><sub>Oct/12/2024 18:09</sub></td>
+</tr>
+<tr>
+<td align="center">117</td>
+<td><a href="https://atcoder.jp/contests/abc375/tasks/abc375_a"><b>A</b> - Seats</a></td>
+<td align="center"><a href="./submissions/atcoder/abc375/abc375A%20Seats.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Oct/12/2024 18:02</sub></td>
+</tr>
+<tr>
+<td align="center">118</td>
+<td><a href="https://atcoder.jp/contests/abc374/tasks/abc374_c"><b>C</b> - Separated Lunch</a></td>
+<td align="center"><a href="./submissions/atcoder/abc374/abc374C%20Separated_Lunch.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Oct/05/2024 21:48</sub></td>
+</tr>
+<tr>
+<td align="center">119</td>
+<td><a href="https://atcoder.jp/contests/abc369/tasks/abc369_c"><b>C</b> - Count Arithmetic Subarrays</a></td>
+<td align="center"><a href="./submissions/atcoder/abc369/abc369C%20Count_Arithmetic_Subarrays.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*300</code></td>
+<td align="center"><sub>Aug/31/2024 18:50</sub></td>
+</tr>
+<tr>
+<td align="center">120</td>
+<td><a href="https://atcoder.jp/contests/abc369/tasks/abc369_b"><b>B</b> - Piano 3</a></td>
+<td align="center"><a href="./submissions/atcoder/abc369/abc369B%20Piano_3.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Aug/31/2024 18:28</sub></td>
+</tr>
+<tr>
+<td align="center">121</td>
+<td><a href="https://atcoder.jp/contests/abc369/tasks/abc369_a"><b>A</b> - 369</a></td>
+<td align="center"><a href="./submissions/atcoder/abc369/abc369A%20369.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Aug/31/2024 18:07</sub></td>
+</tr>
 </tbody>
 </table>
 
@@ -592,6 +879,6 @@
 
 <div align="center">
 
-*Last Updated: January 20, 2026 at 13:34 BDT (UTC+6)*
+*Last Updated: January 20, 2026 at 13:37 BDT (UTC+6)*
 
 </div>
