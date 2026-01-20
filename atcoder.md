@@ -11,7 +11,7 @@
 </div>
 
 ---
-
+<div align="center">
 ## 📝 Recent Submissions
 
 <table>
@@ -650,11 +650,12 @@
 </tr>
 </tbody>
 </table>
+</div>
 
 ---
 
 <div align="center">
 
-*Last Updated: January 20, 2026 at 17:43 BDT (UTC+6)*
+*Last Updated: January 20, 2026 at 17:45 BDT (UTC+6)*
 
 </div>
