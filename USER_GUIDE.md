@@ -6,15 +6,19 @@
 
 ## 📑 Table of Contents
 
-- [🚀 Quick Setup](#-quick-setup-5-minutes)
-- [🤖 Automated Harvesting](#-automated-harvesting-github-actions)
-- [💻 Manual/Local Usage](#-manuallocal-usage)
-- [🔄 Common Workflows](#-common-workflows)
-- [📁 Repository Structure](#-repository-structure)
-- [🐛 Troubleshooting](#-troubleshooting)
-- [📝 Command Reference](#-command-reference)
-- [💡 Pro Tips](#-pro-tips)
-- [❓ FAQ](#-faq)
+- [🚀 Quick Setup (5 Minutes)](#quick-setup-5-minutes)
+- [🤖 Automated Harvesting (GitHub Actions)](#automated-harvesting-github-actions)
+- [💻 Manual/Local Usage](#manuallocal-usage)
+- [🧙‍♂️💡 Control Panel (Windows) — Highly Recommended!](#control-panel-windows--highly-recommended)
+- [🔄 Common Workflows](#common-workflows)
+- [📁 Repository Structure](#repository-structure)
+- [🐛 Troubleshooting](#troubleshooting)
+- [📝 Command Reference](#command-reference)
+- [💡 Pro Tips](#pro-tips)
+- [🔄 Need to Setup?](#need-to-setup)
+- [📚 Additional Resources](#additional-resources)
+- [❓ FAQ](#faq)
+- [🎉 You're All Set!](#youre-all-set)
 
 ---
 
@@ -227,20 +231,18 @@ python -m harwest atcoder --start-page 3
 python -m harwest atcoder --auto
 ```
 
-## 🧙‍♂️💡 **Control Panel (Windows) — Highly Recommended!**
+## 🧙‍♂️💡 Control Panel (Windows) — Highly Recommended!
 
-<div style="border:2px solid #4CAF50; border-radius:8px; background:#f9fff4; padding:16px; margin:12px 0; font-size:1.1em">
-<b>✨ The easiest way to manage everything locally!</b><br>
-<b style="color:#2088FF;">Just double-click or run:</b>
-
-<pre style="background:#222;color:#fff;padding:8px 12px;border-radius:6px;">harwest_control_panel.bat</pre>
-
-<ul>
-<li>🟢 <b>Menu-driven interface</b> for harvesting, full setups, and more</li>
-<li>🟢 <b>No need to remember commands</b></li>
-<li>🟢 <b>Perfect for Windows users</b></li>
-</ul>
-</div>
+> **✨ The easiest way to manage everything locally!**
+>
+> **Just double-click or run:**
+> ```
+> harwest_control_panel.bat
+> ```
+>
+> - 🟢 **Menu-driven interface** for harvesting, full setups, and more
+> - 🟢 **No need to remember commands**
+> - 🟢 **Perfect for Windows users**
 
 ---
 

@@ -63,7 +63,13 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 
 ---
 
+<div align="center">
+
 ## 📊 My Submissions
+
+</div>
+
+<div align="center">
 
 ### 🎯 Platforms
 
@@ -75,7 +81,7 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
 
 
-
+</div>
 
 
 
