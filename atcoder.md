@@ -6,7 +6,7 @@
 
 **Username:** [MishkatIT](https://atcoder.jp/users/MishkatIT)
 
-### 📊 Total Problems Solved: **47**
+### 📊 Total Problems Solved: **51**
 
 </div>
 
@@ -353,6 +353,34 @@
 <td align="center"><a href="./submissions/atcoder/abc294/abc294B%20ASCII_Art.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
 <td><code>AtCoder</code> <code>*200</code></td>
 <td align="center"><sub>Apr/25/2025 20:13</sub></td>
+</tr>
+<tr>
+<td align="center">48</td>
+<td><a href="https://atcoder.jp/contests/abc304/tasks/abc304_a"><b>A</b> - First Player</a></td>
+<td align="center"><a href="./submissions/atcoder/abc304/abc304A%20First_Player.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Apr/25/2025 20:06</sub></td>
+</tr>
+<tr>
+<td align="center">49</td>
+<td><a href="https://atcoder.jp/contests/abc352/tasks/abc352_b"><b>B</b> - Typing</a></td>
+<td align="center"><a href="./submissions/atcoder/abc352/abc352B%20Typing.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*200</code></td>
+<td align="center"><sub>Apr/25/2025 19:28</sub></td>
+</tr>
+<tr>
+<td align="center">50</td>
+<td><a href="https://atcoder.jp/contests/dp/tasks/dp_b"><b>B</b> - Frog 2</a></td>
+<td align="center"><a href="./submissions/atcoder/dp/dpB%20Frog_2.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Apr/21/2025 08:08</sub></td>
+</tr>
+<tr>
+<td align="center">51</td>
+<td><a href="https://atcoder.jp/contests/dp/tasks/dp_a"><b>A</b> - Frog 1</a></td>
+<td align="center"><a href="./submissions/atcoder/dp/dpA%20Frog_1.cpp" title="C++ 20 (gcc 12.2)"><code>C++ 20 (gcc 12.2)</code></a></td>
+<td><code>AtCoder</code> <code>*100</code></td>
+<td align="center"><sub>Apr/21/2025 08:06</sub></td>
 </tr>
 </tbody>
 </table>
