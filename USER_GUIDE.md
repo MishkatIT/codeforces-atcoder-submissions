@@ -166,6 +166,8 @@ Use [**crontab.guru**](https://crontab.guru/) to create custom schedules.
 
 For running Harwest manually on your local machine (without GitHub Actions).
 
+> 📖 **For detailed local usage instructions, including Windows control panel setup, see [LOCAL_USAGE.md](LOCAL_USAGE.md).**
+
 ### 📋 Prerequisites
 
 - Python 3.7 or higher
@@ -220,6 +222,44 @@ python -m harwest atcoder --start-page 3
 # Non-interactive mode (for scripts)
 python -m harwest atcoder --auto
 ```
+
+## 🧙‍♂️💡 **Control Panel (Windows) — Highly Recommended!**
+
+<div style="border:2px solid #4CAF50; border-radius:8px; background:#f9fff4; padding:16px; margin:12px 0; font-size:1.1em">
+<b>✨ The easiest way to manage everything locally!</b><br>
+<b style="color:#2088FF;">Just double-click or run:</b>
+
+<pre style="background:#222;color:#fff;padding:8px 12px;border-radius:6px;">harwest_control_panel.bat</pre>
+
+<ul>
+<li>🟢 <b>Menu-driven interface</b> for harvesting, full resets, and more</li>
+<li>🟢 <b>No need to remember commands</b></li>
+<li>🟢 <b>Perfect for Windows users</b></li>
+</ul>
+</div>
+
+---
+
+**Why use it:**
+- 🟢 Menu-driven interface for harvesting, full resets, and quick actions
+- 🟢 No need to remember flags or commands
+- 🟢 Built-in options for Normal or Full scans and Full System Reset
+
+**Menu options (what it runs):**
+- [1] Harvest Codeforces -> `python -m harwest codeforces` (or `--full-scan` when selected)
+- [2] Harvest AtCoder -> `python -m harwest atcoder` (or `--full-scan` when selected)
+- [3] Harvest Both Platforms -> runs Codeforces then AtCoder
+- [4] Full System Reset -> `python fresh_start.py` (interactive reset)
+- [5] Help -> shows help text
+- [0] Exit
+
+**Notes & tips:**
+- Ensure `python` and `git` are available in your PATH before running the batch file.
+- Run the batch file from the repository root so paths resolve correctly.
+- You can schedule this `.bat` using Windows Task Scheduler for daily automation (see "Scheduled Tasks" later).
+
+---
+
 
 ### 🌍 Environment Variables (Optional)
 
@@ -317,15 +357,18 @@ After first harvest, your repository will have this structure:
 📦 codeforces-atcoder-submissions/
 ├── 📄 README.md                   # Repository overview
 ├── 📄 USER_GUIDE.md               # This file
+├── 📄 LOCAL_USAGE.md              # Detailed local usage guide
 ├── 📄 codeforces.md               # Codeforces submissions table
 ├── 📄 atcoder.md                  # AtCoder submissions table
 ├── 📄 fresh_start.py              # Setup script
+├── 📄 harwest_control_panel.bat   # Windows control panel (menu-driven)
 ├── 📄 requirements.txt            # Python dependencies
 ├── 📄 setup.py                    # Package installer (for devs)
+├── 📄 LICENSE                     # License file
+├── 📄 MANIFEST.in                 # Package manifest
 │
 ├── 📂 submissions/
 │   ├── 📄 submissions.json        # Metadata database
-│   ├── 📄 README.md               # Auto-generated submission list
 │   ├── 📂 codeforces/
 │   │   └── 📂 [contest_id]/       # e.g., "1234/"
 │   │       └── 📄 [problem].[ext] # e.g., "A_Problem_Name.cpp"
@@ -345,6 +388,7 @@ After first harvest, your repository will have this structure:
 │       ├── 📄 abstractworkflow.py
 │       ├── 📂 codeforces/
 │       ├── 📂 atcoder/
+│       ├── 📂 resources/
 │       └── 📂 utils/
 │
 └── 📂 .github/
@@ -484,6 +528,7 @@ Works for:
 ## 📚 Additional Resources
 
 - **[README.md](README.md)** - Project overview and badges
+- **[LOCAL_USAGE.md](LOCAL_USAGE.md)** - Detailed local usage guide
 - **[Actions](../../actions)** - View workflow history
 - **[Issues](../../issues)** - Report bugs or request features
 - **[config/README.md](config/README.md)** - Configuration details
@@ -550,6 +595,6 @@ Your automated competitive programming archive is ready!
 
 *Automatically archive your competitive programming journey*
 
-*Last Updated: January 2026*
+*Last Updated: January 20, 2026*
 
 </div>
