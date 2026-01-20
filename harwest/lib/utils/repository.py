@@ -88,14 +88,14 @@ class Repository:
         pass
       # Pull latest changes before pushing, stashing if needed
       try:
-        self.git.pull("origin", "main", "--rebase")
+        self.git.pull("origin", "main")
       except Exception as e:
         err_msg = str(e)
         if 'You have unstaged changes' in err_msg or 'Please commit or stash them' in err_msg:
           print("\u26a0\ufe0f", "Unstaged changes detected, stashing before pull...")
           try:
             self.git.stash('save')
-            self.git.pull("origin", "main", "--rebase")
+            self.git.pull("origin", "main")
             self.git.stash('pop')
             print("\u2705", "Stash applied after pull.")
           except Exception as e2:

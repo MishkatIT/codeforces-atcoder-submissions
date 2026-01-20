@@ -365,7 +365,7 @@ def git_commit_and_push(repo_root):
         # Push to remote
         print_info("Pushing to remote repository...")
         push_result = subprocess.run(
-            ['git', 'push'], 
+            ['git', 'push', '--force'], 
             cwd=repo_root, capture_output=True, text=True
         )
         
