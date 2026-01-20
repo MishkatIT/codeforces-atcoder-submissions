@@ -36,8 +36,20 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 | Platform | Profile | Solutions | Submissions |
 |----------|---------|-----------|-------------|
 | **Codeforces** | [MishkatIT](https://codeforces.com/profile/MishkatIT) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/MishkatIT.svg)](https://codeforces.com/profile/MishkatIT) | [📝 View All](codeforces.md) |
-| **AtCoder** | [MishkatIT](https://atcoder.jp/users/MishkatIT) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

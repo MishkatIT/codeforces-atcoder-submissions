@@ -236,7 +236,7 @@ python -m harwest atcoder --auto
 <pre style="background:#222;color:#fff;padding:8px 12px;border-radius:6px;">harwest_control_panel.bat</pre>
 
 <ul>
-<li>🟢 <b>Menu-driven interface</b> for harvesting, full resets, and more</li>
+<li>🟢 <b>Menu-driven interface</b> for harvesting, full setups, and more</li>
 <li>🟢 <b>No need to remember commands</b></li>
 <li>🟢 <b>Perfect for Windows users</b></li>
 </ul>
@@ -245,15 +245,15 @@ python -m harwest atcoder --auto
 ---
 
 **Why use it:**
-- 🟢 Menu-driven interface for harvesting, full resets, and quick actions
+- 🟢 Menu-driven interface for harvesting, full setups, and quick actions
 - 🟢 No need to remember flags or commands
-- 🟢 Built-in options for Normal or Full scans and Full System Reset
+- 🟢 Built-in options for Normal or Full scans and System Reset and Update User Info
 
 **Menu options (what it runs):**
 - [1] Harvest Codeforces -> `python -m harwest codeforces` (or `--full-scan` when selected)
 - [2] Harvest AtCoder -> `python -m harwest atcoder` (or `--full-scan` when selected)
 - [3] Harvest Both Platforms -> runs Codeforces then AtCoder
-- [4] Full System Reset -> `python fresh_start.py` (interactive reset)
+- [4] System Reset and Update User Info -> `python fresh_start.py` (interactive setup)
 - [5] Help -> shows help text
 - [0] Exit
 
@@ -521,11 +521,11 @@ The script will clear everything and reconfigure.
 4. **Multiple Accounts:** Add multiple handles: `["handle1", "handle2"]`
 5. **Private Fork:** Works perfectly in private repositories
 6. **Failed Code Fetch:** Fallback links to platform automatically created
-7. **Fresh Start Anytime:** Run `python fresh_start.py` to reset
+7. **Fresh Start Anytime:** Run `python fresh_start.py` to setup
 
 ---
 
-## 🔄 Need to Reset?
+## 🔄 Need to Setup?
 
 Clear everything and start fresh:
 

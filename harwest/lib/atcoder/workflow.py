@@ -3,9 +3,9 @@ from harwest.lib.atcoder.client import AtcoderClient
 
 
 class AtcoderWorkflow(AbstractWorkflow):
-  def __init__(self, user_data):
+  def __init__(self, user_data, author_name=None, author_email=None, remote_url=None):
     username = user_data['atcoder'][0] if isinstance(user_data['atcoder'], list) and user_data['atcoder'] else ""
-    super().__init__(AtcoderClient(username), user_data)
+    super().__init__(AtcoderClient(username), user_data, author_name, author_email, remote_url)
 
   def enrich_submission(self, submission):
     problem_full_name = self.client.get_problem_name(submission['submission_url'])

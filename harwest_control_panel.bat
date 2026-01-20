@@ -17,7 +17,7 @@ echo.
 echo  [1] Harvest Codeforces
 echo  [2] Harvest AtCoder
 echo  [3] Harvest Both Platforms
-echo  [4] Full System Reset
+echo  [4] System Reset and Update User Info
 echo  [5] Help
 echo  [0] Exit
 echo.
@@ -32,7 +32,7 @@ if "%main_choice%"=="0" goto end
 color 0C
 echo Invalid choice. Please enter a number from 0 to 5.
 color 0A
-timeout /t 1 >nul
+timeout /t 2 >nul
 goto main_menu
 
 :scan_mode_cf
@@ -65,7 +65,7 @@ if "%scan_choice%"=="1" (
     color 0C
     echo Invalid scan mode.
     color 0A
-    timeout /t 1 >nul
+    timeout /t 2 >nul
     goto scan_mode_cf
 )
 
@@ -99,7 +99,7 @@ if "%scan_choice%"=="1" (
     color 0C
     echo Invalid scan mode.
     color 0A
-    timeout /t 1 >nul
+    timeout /t 2 >nul
     goto scan_mode_ac
 )
 
@@ -141,7 +141,7 @@ if "%scan_choice%"=="1" (
     color 0C
     echo Invalid scan mode.
     color 0A
-    timeout /t 1 >nul
+    timeout /t 2 >nul
     goto scan_mode_both
 )
 
@@ -149,7 +149,7 @@ if "%scan_choice%"=="1" (
 cls
 color 0E
 echo.
-echo Running full system reset (fresh_start.py)...
+echo Running system reset and update user info (fresh_start.py)...
 color 0A
 python fresh_start.py
 color 0A
@@ -162,7 +162,7 @@ echo ================= Help =================
 echo 1. Harvest Codeforces: Fetches new Codeforces submissions.
 echo 2. Harvest AtCoder: Fetches new AtCoder submissions.
 echo 3. Harvest Both: Runs both harvesters in sequence.
-echo 4. Full System Reset: Clears all data and reconfigures setup.
+echo 4. System Reset and Update User Info: Clears all data and reconfigures setup.
 echo 0. Exit: Close this menu.
 echo.
 pause
@@ -180,5 +180,5 @@ color 07
 echo.
 echo Thank you for using Harwest Automation!
 echo Goodbye!
-timeout /t 1 >nul
+timeout /t 2 >nul
 exit /b

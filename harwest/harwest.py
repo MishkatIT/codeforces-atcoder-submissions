@@ -129,7 +129,9 @@ def process_platform(args, platform, workflow):
     print(f"\n{RED}{'═' * 70}{RESET}")
     print(f"{RED}{BOLD}❌  ERROR: No username configured for {platform}.{RESET}")
     print(f"{RED}{'─' * 70}{RESET}")
-    print(f"{YELLOW}Please add your {platform} username to config/users.json{RESET}")
+    print(f"{YELLOW}Please add your {platform} username(s) to config/users.json (supports multiple usernames){RESET}")
+    print(f"{YELLOW}Alternatively, run '{BOLD}python fresh_start.py{RESET}{YELLOW}' for interactive setup,")
+    print(f"{YELLOW}or use the control panel: '{BOLD}harwest_control_panel.bat and select option 4{RESET}{YELLOW}'{RESET}")
     print(f"{RED}{'═' * 70}{RESET}\n")
     return
   
@@ -144,11 +146,11 @@ def process_platform(args, platform, workflow):
     print(f"\n{RED}{'═' * 70}{RESET}")
     print(f"{RED}{BOLD}⚠️  WARNING: No username configured for {platform}{RESET}")
     print(f"{RED}{'─' * 70}{RESET}")
-    print(f"{YELLOW}run: python fresh_start.py {RESET}")
+    print(f"{YELLOW}Run: python fresh_start.py (or use harwest_control_panel.bat){RESET}")
     print(f"{RED}{'═' * 70}{RESET}\n")
     return
-    
-    workflow(configs, args.author_name, args.author_email, args.remote_url).run(start_page_index=args.start_page, full_scan=full_scan)
+  
+  workflow(configs, args.author_name, args.author_email, args.remote_url).run(start_page_index=args.start_page, full_scan=full_scan)
 
 
 def main():
@@ -191,7 +193,8 @@ def main():
 
   def print_fresh_start_message():
     print(f"\n{GREEN}👋  Hey there!{RESET} {BLUE}It looks like your Harwest configuration is missing or empty.{RESET}")
-    print(f"{YELLOW}Please run '{BOLD}python fresh_start.py{RESET}{YELLOW}' to perform a fresh start and set up your configuration interactively.{RESET}\n")
+    print(f"{YELLOW}Please run '{BOLD}python fresh_start.py{RESET}{YELLOW}' for interactive setup,")
+    print(f"{YELLOW}or use the control panel: '{BOLD}harwest_control_panel.bat{RESET}{YELLOW}'{RESET}")
     print(f"{YELLOW}After setup, you can run '{BOLD}python -m harwest atcoder{RESET}{YELLOW}' as usual.{RESET}\n")
 
   # Only allow fresh start from 'python -m harwest', not from platform commands

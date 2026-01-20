@@ -241,7 +241,7 @@ class AbstractWorkflow(ABC):
     filled = int((iteration / total) * bar_length)
     bar = '#' * filled + '-' * (bar_length - filled)
     
-    text = f"\r{CYAN}Page #{page_index}{RESET} [{bar}] {GREEN}{progress_percent}%{RESET} ({iteration}/{total})"
+    text = f"{CYAN}Page #{page_index}{RESET} [{bar}] {GREEN}{progress_percent}%{RESET} ({iteration}/{total})"
     
     problem_name = submission['problem_name'] if 'problem_name' in submission else ""
     problem_url = submission['problem_url'] if 'problem_url' in submission else ""
@@ -252,14 +252,19 @@ class AbstractWorkflow(ABC):
     
     # If submission has an info message, append it to the progress bar
     info_message = submission.get('__info_message')
-    text += f"{problem_name}{RESET}"
+    text += f" {problem_name}{RESET}"
     if info_message:
-      text += f"[{info_message}]{RESET}"
-    print("\r", " " * width, end='\r')
-    print(text, end='\r')
+      text += f" [{info_message}]{RESET}"
     
-    ansi_code_length = len(CYAN) + len(RESET) + len(GREEN) + len(RESET) + len(YELLOW) + len(RESET)
-    return len(text) + ansi_code_length
+    # Clear line and print new progress (more reliable method)
+    print(f"\r{' ' * 120}", end='', flush=True)  # Clear entire line
+    print(f"\r{text}", end='', flush=True)       # Print new progress
+    
+    # Return visible text length (excluding ANSI codes)
+    visible_text = f"Page #{page_index} [{bar}] {progress_percent}% ({iteration}/{total}) {problem_name}"
+    if info_message:
+      visible_text += f" [{info_message}]"
+    return len(visible_text)
 
   def run(self, start_page_index=1, full_scan=False, check_recent_days=None):
     # Stylized eye-catching workflow start message
@@ -331,7 +336,7 @@ class AbstractWorkflow(ABC):
           page_timestamps = [self.__get_submission_timestamp(s) for s in submissions]
           if all(ts < cutoff_timestamp for ts in page_timestamps if ts > 0):
             within_recent_period = False
-            print(f"\n{CYAN}ℹ️  Passed {check_recent_days} days threshold, will stop at next duplicate page{RESET}")
+            print(f"\r{CYAN}ℹ️  Passed {check_recent_days} days threshold, will stop at next duplicate page{RESET}", end='', flush=True)
         
         response = []
         last_width = 0
