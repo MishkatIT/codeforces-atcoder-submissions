@@ -96,7 +96,9 @@ git push
 
 GitHub Actions runs **automatically every day at 11:20 PM BDT (5:20 PM UTC)**.
 
-**What happens during each run:**
+<details>
+<summary>What happens during each run</summary>
+
 - ✅ Checks **last 30 days** for new submissions (smart & efficient)
 - ✅ Fetches submission code with proper timestamps
 - ✅ Updates problem tags/ratings if they changed on platform
@@ -105,6 +107,8 @@ GitHub Actions runs **automatically every day at 11:20 PM BDT (5:20 PM UTC)**.
 - ✅ Creates fallback links if code fetch fails
 
 > 💡 **Smart Scheduling:** If repository is inactive >30 days, switches to monthly runs (1st of month) to save Actions minutes.
+
+</details>
 
 ### ⚡ Manual Trigger
 
@@ -351,6 +355,9 @@ Then create a scheduled task in Windows Task Scheduler to run this file daily.
 
 ## 📁 Repository Structure
 
+<details>
+<summary>Click to expand repository structure</summary>
+
 After first harvest, your repository will have this structure:
 
 ```
@@ -395,6 +402,8 @@ After first harvest, your repository will have this structure:
     └── 📂 workflows/
         └── 📄 harwest.yml         # GitHub Actions automation
 ```
+
+</details>
 
 ---
 

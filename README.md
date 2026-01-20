@@ -39,65 +39,10 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 | **AtCoder** | [MishkatIT](https://atcoder.jp/users/MishkatIT) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/MishkatIT.svg)](https://atcoder.jp/users/MishkatIT) | [📝 View All](atcoder.md) |
 <!-- AUTO-UPDATE PLATFORMS SECTION END -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 📁 Repository Structure
+
+<details>
+<summary>Click to expand repository structure</summary>
 
 ```
 📦 codeforces-atcoder-submissions/
@@ -116,9 +61,14 @@ That's it! Your submissions will be automatically harvested daily via GitHub Act
 └── 📄 fresh_start.py             # Setup script
 ```
 
+</details>
+
 ---
 
 ## ⚙️ How It Works
+
+<details>
+<summary>Click to expand how it works</summary>
 
 ### 🤖 Automated Daily Harvesting
 
@@ -138,6 +88,8 @@ GitHub Actions runs **every day at 11:20 PM BDT (5:20 PM UTC)**:
 - **Metadata Updates**: Auto-detects rating/tag changes
 - **Profile Contributions**: Shows as GitHub activity (with proper git config)
 - **Private Support**: Works with private repositories
+
+</details>
 
 ---
 
