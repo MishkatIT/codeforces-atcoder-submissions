@@ -9,7 +9,7 @@
 - [🚀 Quick Setup (5 Minutes)](#-quick-setup-5-minutes)
 - [🤖 Automated Harvesting (GitHub Actions)](#-automated-harvesting-github-actions)
 - [💻 Manual/Local Usage](#-manuallocal-usage)
-- [🧙‍♂️💡 Control Panel (Windows) — Highly Recommended!](#control-panel-windows--highly-recommended)
+- [🧙‍♂️💡 Control Panel (Windows) — Highly Recommended!](#%E2%80%8D%EF%B8%8F-control-panel-windows--highly-recommended)
 - [🌍 Environment Variables (Optional)](#-environment-variables-optional)
 - [🔄 Common Workflows](#-common-workflows)
 - [📁 Repository Structure](#-repository-structure)
