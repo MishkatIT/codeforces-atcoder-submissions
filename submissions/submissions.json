@@ -854,7 +854,7 @@
     "timestamp": "Dec/12/2025 00:00"
   },
   "CF353112271": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1744,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -864,11 +864,16 @@
     "problem_url": "https://codeforces.com/contest/1744/problem/E1",
     "submission_id": "CF353112271",
     "submission_url": "https://codeforces.com/contest/1744/submission/353112271",
-    "tags": [],
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1500"
+    ],
     "timestamp": "Dec/12/2025 01:17"
   },
   "CF353209103": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1213,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -878,11 +883,15 @@
     "problem_url": "https://codeforces.com/contest/1213/problem/E",
     "submission_id": "CF353209103",
     "submission_url": "https://codeforces.com/contest/1213/submission/353209103",
-    "tags": [],
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1900"
+    ],
     "timestamp": "Dec/12/2025 20:29"
   },
   "CF353374828": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1154,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -892,11 +901,16 @@
     "problem_url": "https://codeforces.com/contest/1154/problem/E",
     "submission_id": "CF353374828",
     "submission_url": "https://codeforces.com/contest/1154/submission/353374828",
-    "tags": [],
+    "tags": [
+      "data structures",
+      "implementation",
+      "sortings",
+      "*1800"
+    ],
     "timestamp": "Dec/14/2025 01:30"
   },
   "CF353578239": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 125,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -906,11 +920,15 @@
     "problem_url": "https://codeforces.com/contest/125/problem/E",
     "submission_id": "CF353578239",
     "submission_url": "https://codeforces.com/contest/125/submission/353578239",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "graphs",
+      "*2400"
+    ],
     "timestamp": "Dec/15/2025 19:27"
   },
   "CF353761826": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1513,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -920,11 +938,19 @@
     "problem_url": "https://codeforces.com/contest/1513/problem/D",
     "submission_id": "CF353761826",
     "submission_url": "https://codeforces.com/contest/1513/submission/353761826",
-    "tags": [],
+    "tags": [
+      "constructive algorithms",
+      "dsu",
+      "graphs",
+      "greedy",
+      "number theory",
+      "sortings",
+      "*2000"
+    ],
     "timestamp": "Dec/17/2025 02:33"
   },
   "CF353762541": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1513,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -934,11 +960,19 @@
     "problem_url": "https://codeforces.com/contest/1513/problem/D",
     "submission_id": "CF353762541",
     "submission_url": "https://codeforces.com/contest/1513/submission/353762541",
-    "tags": [],
+    "tags": [
+      "constructive algorithms",
+      "dsu",
+      "graphs",
+      "greedy",
+      "number theory",
+      "sortings",
+      "*2000"
+    ],
     "timestamp": "Dec/17/2025 02:44"
   },
   "CF353812334": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2181,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -948,11 +982,16 @@
     "problem_url": "https://codeforces.com/contest/2181/problem/H",
     "submission_id": "CF353812334",
     "submission_url": "https://codeforces.com/contest/2181/submission/353812334",
-    "tags": [],
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1200"
+    ],
     "timestamp": "Dec/17/2025 15:16"
   },
   "CF353817518": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2181,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -962,11 +1001,16 @@
     "problem_url": "https://codeforces.com/contest/2181/problem/B",
     "submission_id": "CF353817518",
     "submission_url": "https://codeforces.com/contest/2181/submission/353817518",
-    "tags": [],
+    "tags": [
+      "data structures",
+      "games",
+      "greedy",
+      "*1400"
+    ],
     "timestamp": "Dec/17/2025 15:49"
   },
   "CF353832670": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2181,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -976,11 +1020,16 @@
     "problem_url": "https://codeforces.com/contest/2181/problem/A",
     "submission_id": "CF353832670",
     "submission_url": "https://codeforces.com/contest/2181/submission/353832670",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "math",
+      "strings",
+      "*1300"
+    ],
     "timestamp": "Dec/17/2025 17:06"
   },
   "CF353841123": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2181,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -990,11 +1039,15 @@
     "problem_url": "https://codeforces.com/contest/2181/problem/M",
     "submission_id": "CF353841123",
     "submission_url": "https://codeforces.com/contest/2181/submission/353841123",
-    "tags": [],
+    "tags": [
+      "dp",
+      "strings",
+      "*1700"
+    ],
     "timestamp": "Dec/17/2025 17:54"
   },
   "CF353970353": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 609,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1004,11 +1057,18 @@
     "problem_url": "https://codeforces.com/contest/609/problem/E",
     "submission_id": "CF353970353",
     "submission_url": "https://codeforces.com/contest/609/submission/353970353",
-    "tags": [],
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "trees",
+      "*2100"
+    ],
     "timestamp": "Dec/18/2025 18:38"
   },
   "CF354560840": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2180,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1018,11 +1078,15 @@
     "problem_url": "https://codeforces.com/contest/2180/problem/B",
     "submission_id": "CF354560840",
     "submission_url": "https://codeforces.com/contest/2180/submission/354560840",
-    "tags": [],
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
     "timestamp": "Dec/22/2025 18:49"
   },
   "CF354760659": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2179,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1032,11 +1096,15 @@
     "problem_url": "https://codeforces.com/contest/2179/problem/B",
     "submission_id": "CF354760659",
     "submission_url": "https://codeforces.com/contest/2179/submission/354760659",
-    "tags": [],
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
     "timestamp": "Dec/23/2025 21:26"
   },
   "CF354773438": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2179,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1046,11 +1114,14 @@
     "problem_url": "https://codeforces.com/contest/2179/problem/A",
     "submission_id": "CF354773438",
     "submission_url": "https://codeforces.com/contest/2179/submission/354773438",
-    "tags": [],
+    "tags": [
+      "math",
+      "strings"
+    ],
     "timestamp": "Dec/23/2025 21:37"
   },
   "CF354782954": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2179,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1060,11 +1131,16 @@
     "problem_url": "https://codeforces.com/contest/2179/problem/C",
     "submission_id": "CF354782954",
     "submission_url": "https://codeforces.com/contest/2179/submission/354782954",
-    "tags": [],
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "sortings"
+    ],
     "timestamp": "Dec/23/2025 21:46"
   },
   "CF354821904": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2179,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1074,11 +1150,16 @@
     "problem_url": "https://codeforces.com/contest/2179/problem/D",
     "submission_id": "CF354821904",
     "submission_url": "https://codeforces.com/contest/2179/submission/354821904",
-    "tags": [],
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
     "timestamp": "Dec/23/2025 22:35"
   },
   "CF355151999": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2179,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1088,11 +1169,15 @@
     "problem_url": "https://codeforces.com/contest/2179/problem/E",
     "submission_id": "CF355151999",
     "submission_url": "https://codeforces.com/contest/2179/submission/355151999",
-    "tags": [],
+    "tags": [
+      "constructive algorithms",
+      "geometry",
+      "math"
+    ],
     "timestamp": "Dec/26/2025 15:50"
   },
   "CF355154500": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 733,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1102,11 +1187,14 @@
     "problem_url": "https://codeforces.com/contest/733/problem/A",
     "submission_id": "CF355154500",
     "submission_url": "https://codeforces.com/contest/733/submission/355154500",
-    "tags": [],
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
     "timestamp": "Dec/26/2025 16:13"
   },
   "CF355155762": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 733,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1116,11 +1204,14 @@
     "problem_url": "https://codeforces.com/contest/733/problem/A",
     "submission_id": "CF355155762",
     "submission_url": "https://codeforces.com/contest/733/submission/355155762",
-    "tags": [],
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
     "timestamp": "Dec/26/2025 16:25"
   },
   "CF355169961": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1898,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1130,11 +1221,15 @@
     "problem_url": "https://codeforces.com/contest/1898/problem/D",
     "submission_id": "CF355169961",
     "submission_url": "https://codeforces.com/contest/1898/submission/355169961",
-    "tags": [],
+    "tags": [
+      "greedy",
+      "math",
+      "*1900"
+    ],
     "timestamp": "Dec/26/2025 18:30"
   },
   "CF355330333": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2178,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1144,11 +1239,14 @@
     "problem_url": "https://codeforces.com/contest/2178/problem/A",
     "submission_id": "CF355330333",
     "submission_url": "https://codeforces.com/contest/2178/submission/355330333",
-    "tags": [],
+    "tags": [
+      "greedy",
+      "strings"
+    ],
     "timestamp": "Dec/27/2025 20:48"
   },
   "CF355344532": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2178,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1158,11 +1256,16 @@
     "problem_url": "https://codeforces.com/contest/2178/problem/B",
     "submission_id": "CF355344532",
     "submission_url": "https://codeforces.com/contest/2178/submission/355344532",
-    "tags": [],
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
     "timestamp": "Dec/27/2025 21:03"
   },
   "CF355384055": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2178,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1172,11 +1275,15 @@
     "problem_url": "https://codeforces.com/contest/2178/problem/C",
     "submission_id": "CF355384055",
     "submission_url": "https://codeforces.com/contest/2178/submission/355384055",
-    "tags": [],
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
     "timestamp": "Dec/27/2025 22:25"
   },
   "CF355616180": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1618,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1186,11 +1293,19 @@
     "problem_url": "https://codeforces.com/contest/1618/problem/F",
     "submission_id": "CF355616180",
     "submission_url": "https://codeforces.com/contest/1618/submission/355616180",
-    "tags": [],
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "dfs and similar",
+      "implementation",
+      "math",
+      "strings",
+      "*2000"
+    ],
     "timestamp": "Dec/28/2025 23:55"
   },
   "CF355709630": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2182,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1200,11 +1315,16 @@
     "problem_url": "https://codeforces.com/contest/2182/problem/A",
     "submission_id": "CF355709630",
     "submission_url": "https://codeforces.com/contest/2182/submission/355709630",
-    "tags": [],
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings"
+    ],
     "timestamp": "Dec/29/2025 20:39"
   },
   "CF355718121": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2182,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1214,11 +1334,13 @@
     "problem_url": "https://codeforces.com/contest/2182/problem/B",
     "submission_id": "CF355718121",
     "submission_url": "https://codeforces.com/contest/2182/submission/355718121",
-    "tags": [],
+    "tags": [
+      "brute force"
+    ],
     "timestamp": "Dec/29/2025 20:45"
   },
   "CF355758729": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2182,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1228,11 +1350,15 @@
     "problem_url": "https://codeforces.com/contest/2182/problem/C",
     "submission_id": "CF355758729",
     "submission_url": "https://codeforces.com/contest/2182/submission/355758729",
-    "tags": [],
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "dp"
+    ],
     "timestamp": "Dec/29/2025 21:43"
   },
   "CF355908375": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2169,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1242,11 +1368,17 @@
     "problem_url": "https://codeforces.com/contest/2169/problem/C",
     "submission_id": "CF355908375",
     "submission_url": "https://codeforces.com/contest/2169/submission/355908375",
-    "tags": [],
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "two pointers",
+      "*1300"
+    ],
     "timestamp": "Dec/30/2025 23:44"
   },
   "CF356260031": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2158,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1256,11 +1388,19 @@
     "problem_url": "https://codeforces.com/contest/2158/problem/D",
     "submission_id": "CF356260031",
     "submission_url": "https://codeforces.com/contest/2158/submission/356260031",
-    "tags": [],
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "shortest paths",
+      "strings",
+      "*2000"
+    ],
     "timestamp": "Jan/03/2026 16:27"
   },
   "CF357127369": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1528,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1270,11 +1410,16 @@
     "problem_url": "https://codeforces.com/contest/1528/problem/B",
     "submission_id": "CF357127369",
     "submission_url": "https://codeforces.com/contest/1528/submission/357127369",
-    "tags": [],
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1700"
+    ],
     "timestamp": "Jan/09/2026 23:59"
   },
   "CF357345243": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 1739,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1284,11 +1429,16 @@
     "problem_url": "https://codeforces.com/contest/1739/problem/B",
     "submission_id": "CF357345243",
     "submission_url": "https://codeforces.com/contest/1739/submission/357345243",
-    "tags": [],
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1100"
+    ],
     "timestamp": "Jan/11/2026 21:20"
   },
   "CF357495140": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2184,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1298,11 +1448,13 @@
     "problem_url": "https://codeforces.com/contest/2184/problem/A",
     "submission_id": "CF357495140",
     "submission_url": "https://codeforces.com/contest/2184/submission/357495140",
-    "tags": [],
+    "tags": [
+      "math"
+    ],
     "timestamp": "Jan/12/2026 21:00"
   },
   "CF357546964": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2184,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1312,11 +1464,17 @@
     "problem_url": "https://codeforces.com/contest/2184/problem/C",
     "submission_id": "CF357546964",
     "submission_url": "https://codeforces.com/contest/2184/submission/357546964",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "math"
+    ],
     "timestamp": "Jan/12/2026 21:41"
   },
   "CF358148790": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2184,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1326,11 +1484,13 @@
     "problem_url": "https://codeforces.com/contest/2184/problem/B",
     "submission_id": "CF358148790",
     "submission_url": "https://codeforces.com/contest/2184/submission/358148790",
-    "tags": [],
+    "tags": [
+      "math"
+    ],
     "timestamp": "Jan/17/2026 03:04"
   },
   "CF358269618": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2191,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1340,11 +1500,13 @@
     "problem_url": "https://codeforces.com/contest/2191/problem/A",
     "submission_id": "CF358269618",
     "submission_url": "https://codeforces.com/contest/2191/submission/358269618",
-    "tags": [],
+    "tags": [
+      "constructive algorithms"
+    ],
     "timestamp": "Jan/17/2026 20:43"
   },
   "CF358284638": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2191,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1354,11 +1516,14 @@
     "problem_url": "https://codeforces.com/contest/2191/problem/B",
     "submission_id": "CF358284638",
     "submission_url": "https://codeforces.com/contest/2191/submission/358284638",
-    "tags": [],
+    "tags": [
+      "constructive algorithms",
+      "sortings"
+    ],
     "timestamp": "Jan/17/2026 20:56"
   },
   "CF358300313": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2191,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1368,11 +1533,13 @@
     "problem_url": "https://codeforces.com/contest/2191/problem/C",
     "submission_id": "CF358300313",
     "submission_url": "https://codeforces.com/contest/2191/submission/358300313",
-    "tags": [],
+    "tags": [
+      "games"
+    ],
     "timestamp": "Jan/17/2026 21:13"
   },
   "CF358322274": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2191,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1382,11 +1549,13 @@
     "problem_url": "https://codeforces.com/contest/2191/problem/D1",
     "submission_id": "CF358322274",
     "submission_url": "https://codeforces.com/contest/2191/submission/358322274",
-    "tags": [],
+    "tags": [
+      "constructive algorithms"
+    ],
     "timestamp": "Jan/17/2026 21:44"
   },
   "CF358470053": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1396,11 +1565,14 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/A",
     "submission_id": "CF358470053",
     "submission_url": "https://codeforces.com/contest/2185/submission/358470053",
-    "tags": [],
+    "tags": [
+      "constructive algorithms",
+      "math"
+    ],
     "timestamp": "Jan/18/2026 20:36"
   },
   "CF358474837": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1410,11 +1582,13 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/B",
     "submission_id": "CF358474837",
     "submission_url": "https://codeforces.com/contest/2185/submission/358474837",
-    "tags": [],
+    "tags": [
+      "greedy"
+    ],
     "timestamp": "Jan/18/2026 20:37"
   },
   "CF358511516": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1424,11 +1598,14 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/C",
     "submission_id": "CF358511516",
     "submission_url": "https://codeforces.com/contest/2185/submission/358511516",
-    "tags": [],
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
     "timestamp": "Jan/18/2026 20:52"
   },
   "CF358540735": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1438,11 +1615,16 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/D",
     "submission_id": "CF358540735",
     "submission_url": "https://codeforces.com/contest/2185/submission/358540735",
-    "tags": [],
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "two pointers"
+    ],
     "timestamp": "Jan/18/2026 21:11"
   },
   "CF358629127": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1452,11 +1634,15 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/E",
     "submission_id": "CF358629127",
     "submission_url": "https://codeforces.com/contest/2185/submission/358629127",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers"
+    ],
     "timestamp": "Jan/18/2026 22:41"
   },
   "CF358635241": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1466,11 +1652,14 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/C",
     "submission_id": "CF358635241",
     "submission_url": "https://codeforces.com/contest/2185/submission/358635241",
-    "tags": [],
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
     "timestamp": "Jan/18/2026 22:49"
   },
   "CF358635534": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1480,11 +1669,16 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/D",
     "submission_id": "CF358635534",
     "submission_url": "https://codeforces.com/contest/2185/submission/358635534",
-    "tags": [],
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "two pointers"
+    ],
     "timestamp": "Jan/18/2026 22:49"
   },
   "CF358698577": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1494,11 +1688,15 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/E",
     "submission_id": "CF358698577",
     "submission_url": "https://codeforces.com/contest/2185/submission/358698577",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers"
+    ],
     "timestamp": "Jan/19/2026 13:02"
   },
   "CF358700153": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1508,11 +1706,15 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/E",
     "submission_id": "CF358700153",
     "submission_url": "https://codeforces.com/contest/2185/submission/358700153",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers"
+    ],
     "timestamp": "Jan/19/2026 13:09"
   },
   "CF358700232": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1522,11 +1724,15 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/E",
     "submission_id": "CF358700232",
     "submission_url": "https://codeforces.com/contest/2185/submission/358700232",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers"
+    ],
     "timestamp": "Jan/19/2026 13:09"
   },
   "CF358700279": {
-    "__info_message": "Info: Codeforces did not provide solution code; storing submission with link only.",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -1536,7 +1742,11 @@
     "problem_url": "https://codeforces.com/contest/2185/problem/E",
     "submission_id": "CF358700279",
     "submission_url": "https://codeforces.com/contest/2185/submission/358700279",
-    "tags": [],
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers"
+    ],
     "timestamp": "Jan/19/2026 13:09"
   }
 }
