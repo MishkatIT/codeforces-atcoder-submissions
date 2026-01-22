@@ -51935,7 +51935,7 @@
     "timestamp": "Jan/18/2026 15:11"
   },
   "CF358629127": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -51947,6 +51947,7 @@
     "submission_url": "https://codeforces.com/contest/2185/submission/358629127",
     "tags": [
       "binary search",
+      "greedy",
       "implementation",
       "two pointers"
     ],
@@ -51989,7 +51990,7 @@
     "timestamp": "Jan/18/2026 16:49"
   },
   "CF358698577": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52001,13 +52002,14 @@
     "submission_url": "https://codeforces.com/contest/2185/submission/358698577",
     "tags": [
       "binary search",
+      "greedy",
       "implementation",
       "two pointers"
     ],
     "timestamp": "Jan/19/2026 07:02"
   },
   "CF358700153": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52019,13 +52021,14 @@
     "submission_url": "https://codeforces.com/contest/2185/submission/358700153",
     "tags": [
       "binary search",
+      "greedy",
       "implementation",
       "two pointers"
     ],
     "timestamp": "Jan/19/2026 07:09"
   },
   "CF358700232": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52037,13 +52040,14 @@
     "submission_url": "https://codeforces.com/contest/2185/submission/358700232",
     "tags": [
       "binary search",
+      "greedy",
       "implementation",
       "two pointers"
     ],
     "timestamp": "Jan/19/2026 07:09"
   },
   "CF358700279": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2185,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52055,6 +52059,7 @@
     "submission_url": "https://codeforces.com/contest/2185/submission/358700279",
     "tags": [
       "binary search",
+      "greedy",
       "implementation",
       "two pointers"
     ],

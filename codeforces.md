@@ -34,7 +34,7 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2185/problem/E"><b>E</b> - The Robotic Rush</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2185/submission/358700153" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>binary search</code> <code>implementation</code> <code>two pointers</code></td>
+<td><code>binary search</code> <code>greedy</code> <code>implementation</code></td>
 <td align="center"><sub>Jan/19/2026 07:09</sub></td>
 </tr>
 <tr>
@@ -15747,6 +15747,6 @@
 
 <div align="center">
 
-*Last Updated: January 22, 2026 at 00:11 BDT (UTC+6)*
+*Last Updated: January 22, 2026 at 23:57 BDT (UTC+6)*
 
 </div>
