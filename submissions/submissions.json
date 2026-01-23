@@ -52083,7 +52083,7 @@
     "timestamp": "Jan/23/2026 20:48"
   },
   "CF359420481": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2189,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52094,7 +52094,8 @@
     "submission_id": "CF359420481",
     "submission_url": "https://codeforces.com/contest/2189/submission/359420481",
     "tags": [
-      "greedy"
+      "greedy",
+      "math"
     ],
     "timestamp": "Jan/23/2026 21:51"
   }
