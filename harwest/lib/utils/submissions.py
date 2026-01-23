@@ -28,13 +28,15 @@ class Submissions:
       table += f"| **Codeforces** | [{user}](https://codeforces.com/profile/{user}) | [![Codeforces](https://badges.joonhyung.xyz/codeforces/{user}.svg)](https://codeforces.com/profile/{user}) | [📝 View All](codeforces.md) |\n"
     for user in atcoder_users:
       table += f"| **AtCoder** | [{user}](https://atcoder.jp/users/{user}) | [![AtCoder](https://badges.joonhyung.xyz/atcoder/{user}.svg)](https://atcoder.jp/users/{user}) | [📝 View All](atcoder.md) |\n"
-    table += "<!-- AUTO-UPDATE PLATFORMS SECTION END -->\n"
+    table += "<!-- AUTO-UPDATE PLATFORMS SECTION END -->"
 
     # Update README.md using markers
     try:
       with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
       pattern = r"<!-- AUTO-UPDATE PLATFORMS SECTION START -->([\s\S]*?)<!-- AUTO-UPDATE PLATFORMS SECTION END -->"
+      # Remove trailing whitespace after the END marker to prevent accumulation
+      content = re.sub(r"(<!-- AUTO-UPDATE PLATFORMS SECTION END -->)\s*", r"\1", content)
       new_content = re.sub(pattern, table, content, count=1)
       with open(readme_path, "w", encoding="utf-8") as f:
         f.write(new_content)
@@ -64,13 +66,15 @@ class Submissions:
     for user in atcoder_users:
       badges += f"[![AtCoder](https://badges.joonhyung.xyz/atcoder/{user}.svg)](https://atcoder.jp/users/{user})\n"
     badges += "[![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=github-actions)](../../actions/workflows/harwest.yml)\n"
-    badges += "<!-- AUTO-UPDATE BADGES SECTION END -->\n"
+    badges += "<!-- AUTO-UPDATE BADGES SECTION END -->"
     
     # Update README.md using markers
     try:
       with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
       pattern = r"<!-- AUTO-UPDATE BADGES SECTION START -->([\s\S]*?)<!-- AUTO-UPDATE BADGES SECTION END -->"
+      # Remove trailing whitespace after the END marker to prevent accumulation
+      content = re.sub(r"(<!-- AUTO-UPDATE BADGES SECTION END -->)\s*", r"\1", content)
       new_content = re.sub(pattern, badges, content, count=1)
       with open(readme_path, "w", encoding="utf-8") as f:
         f.write(new_content)

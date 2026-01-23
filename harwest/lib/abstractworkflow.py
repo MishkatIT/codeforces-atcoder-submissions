@@ -414,7 +414,7 @@ class AbstractWorkflow(ABC):
       print(f"\n{GREEN}{'═' * 80}{RESET}")
       print(f"{GREEN}{BOLD}✅  SUCCESS!{RESET} {GREEN}Repository updated successfully!{RESET}")
       if self.url_only_count > 0:
-        print(f"{YELLOW}ℹ️  Platform didn't provide solution code for {self.url_only_count} submissions, so stored Solution URL only.{RESET}")
+        print(f"{YELLOW}ℹ️  {platform} didn't provide solution code for {self.url_only_count} submissions, so stored Solution URL only.{RESET}")
       print(f"{GREEN}{'═' * 80}{RESET}\n")
     except Exception as e:
       print(f"\n{YELLOW}⚠️  Warning: Failed to push to repository: {str(e)}{RESET}")

@@ -1,25 +1,160 @@
-# 📖 Harwest - Complete User Guide
+# 📖 Harwest - User Guide
 
-**Comprehensive guide for setting up and using Harwest to automatically archive your competitive programming submissions from Codeforces and AtCoder.**
+**Automated archiving of competitive programming submissions from Codeforces and AtCoder.**
 
 ---
 
+## 📋 Quick Setup
+
+1. **Fork & clone** this repository
+2. **Install dependencies:** `pip install -r requirements.txt`
+3. **Run setup:** `python fresh_start.py`
+4. **Enable GitHub Actions** in repository settings
+
+**Done!** Harvesting runs automatically daily at 11:00 PM BDT.
+
+---
+
+## 🤖 Automated Harvesting
+
+- **Daily schedule:** 11:00 PM BDT (5:00 PM UTC)
+- **Smart scanning:** Checks last 30 days for efficiency
+- **Manual trigger:** Use Actions tab → "Run workflow"
+- **Full scan option:** For complete history or recovery
+
+**Profile contributions:** Add `GIT_AUTHOR_EMAIL` variable with your GitHub-verified email.
+
+---
+
+## 💻 Local Usage
+
+### Prerequisites
+- Python 3.7+
+- Git
+- Platform usernames
+
+### Basic Commands
+```bash
+# Quick harvest (last 30 days)
+python -m harwest codeforces
+python -m harwest atcoder
+
+# Full scan (all submissions)
+python -m harwest codeforces --full-scan
+python -m harwest atcoder --full-scan
+
+# Specific page
+python -m harwest codeforces --start-page 5
+```
+
+### Windows Control Panel
+**Easiest option:** Double-click `harwest_control_panel.bat`
+
+Menu options:
+- [1] Codeforces harvest
+- [2] AtCoder harvest
+- [3] Both platforms
+- [4] Reset & reconfigure
+- [5] Help
+
+---
+
+## 🔧 Configuration
+
+**File:** `config/users.json`
+```json
+{
+  "codeforces": ["your_handle"],
+  "atcoder": ["your_handle"]
+}
+```
+
+**Multiple accounts supported:**
+```json
+{
+  "codeforces": ["handle1", "handle2"],
+  "atcoder": ["handle1"]
+}
+```
+
+---
+
+## 🐛 Troubleshooting
+
+### Common Issues
+- **"No module named 'harwest'"** → Run `pip install -r requirements.txt`
+- **"Config file not found"** → Run `python fresh_start.py`
+- **"Authentication failed"** → Check repository permissions
+- **Empty submissions** → Check username spelling on platform
+
+### Git Issues
+```bash
+# Fix remote
+git remote set-url origin https://github.com/YOUR_USERNAME/codeforces-atcoder-submissions.git
+
+# Reset if needed
+python fresh_start.py
+```
+
+---
+
+## 📝 Command Reference
+
+| Command | Description |
+|---------|-------------|
+| `python fresh_start.py` | Interactive setup/reset |
+| `harwest_control_panel.bat` | Windows GUI menu |
+| `python -m harwest PLATFORM` | Harvest recent submissions |
+| `python -m harwest PLATFORM --full-scan` | Harvest all submissions |
+| `python -m harwest PLATFORM --start-page N` | Start from page N |
+
+---
+
+## 💡 Key Features
+
+- ✅ **Zero maintenance** - Fully automated
+- ✅ **Multi-platform** - Codeforces + AtCoder
+- ✅ **Smart updates** - Only recent submissions
+- ✅ **Profile integration** - GitHub contributions
+- ✅ **Fallback links** - Never lose submissions
+- ✅ **Multi-account** - Track multiple handles
+
+---
+
+## ❓ FAQ
+
+**Q: How does the 30-day check work?**  
+A: Daily runs fetch last 30 days only (fast). Full scan gets everything.
+
+**Q: Can I track multiple accounts?**  
+A: Yes, add multiple usernames in `config/users.json` arrays.
+
+**Q: Will this work in private repositories?**  
+A: Yes, everything works the same.
+
+**Q: What if code fetch fails?**  
+A: Automatic fallback links to platform submissions.
+
+---
+
+**🎉 Happy harvesting!** Automatically archive your competitive programming journey.
+
 ## 📑 Table of Contents
 
-- [🚀 Quick Setup (5 Minutes)](#-quick-setup-5-minutes)
-- [🤖 Automated Harvesting (GitHub Actions)](#-automated-harvesting-github-actions)
-- [💻 Manual/Local Usage](#-manuallocal-usage)
-- [🧙‍♂️💡 Control Panel (Windows) — Highly Recommended!](#%E2%80%8D%EF%B8%8F-control-panel-windows--highly-recommended)
-- [🌍 Environment Variables (Optional)](#-environment-variables-optional)
-- [🔄 Common Workflows](#-common-workflows)
-- [📁 Repository Structure](#-repository-structure)
-- [🐛 Troubleshooting](#-troubleshooting)
-- [📝 Command Reference](#-command-reference)
-- [💡 Pro Tips](#-pro-tips)
-- [🔄 Need to Setup?](#-need-to-setup)
-- [📚 Additional Resources](#-additional-resources)
-- [❓ FAQ](#-faq)
-- [🎉 You're All Set!](#-youre-all-set)
+- [🚀 Quick Setup (5 Minutes)](#quick-setup-5-minutes)
+- [🤖 Automated Harvesting (GitHub Actions)](#automated-harvesting-github-actions)
+- [💻 Local Usage & Manual Harvesting](#local-usage--manual-harvesting)
+- [🧙‍♂️💡 Control Panel (Windows) — Highly Recommended!](#control-panel-windows--highly-recommended)
+- [🌍 Environment Variables (Optional)](#environment-variables-optional)
+- [🔄 Common Workflows](#common-workflows)
+- [📁 Repository Structure](#repository-structure)
+- [🐛 Troubleshooting](#troubleshooting)
+- [📝 Command Reference](#command-reference)
+- [💡 Pro Tips](#pro-tips)
+- [🔄 Need to Setup?](#need-to-setup)
+- [📚 Additional Resources](#additional-resources)
+- [❓ FAQ](#faq)
+- [🎉 You're All Set!](#youre-all-set)
 
 ---
 
@@ -171,66 +306,99 @@ Use [**crontab.guru**](https://crontab.guru/) to create custom schedules.
 
 ---
 
-## 💻 Manual/Local Usage
+## 💻 Local Usage & Manual Harvesting
 
-For running Harwest manually on your local machine (without GitHub Actions).
-
-> 📖 **For detailed local usage instructions, including Windows control panel setup, see [LOCAL_USAGE.md](LOCAL_USAGE.md).**
+This section covers running Harwest manually on your local machine, including detailed setup, harvesting commands, and automation options.
 
 ### 📋 Prerequisites
 
 - Python 3.7 or higher
-- Git installed
-- Your platform username(s)
+- Git installed and configured
+- Your Codeforces/AtCoder usernames
 
-### ⚙️ Configuration
+### 🚀 Local Quick Start
 
-**Method A: Fresh Start Script (Recommended)**
+#### 1. Clone Your Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/codeforces-atcoder-submissions.git
+cd codeforces-atcoder-submissions
+```
+
+#### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 3. Configure Usernames & Git (Recommended)
+
+Run the interactive setup:
+
 ```bash
 python fresh_start.py
 ```
 
-**Method B: Manual Edit**
+This script will:
+- Clear old data (if you want)
+- Ask for your Codeforces/AtCoder usernames
+- Set up git author info
+- Initialize config and markdown files
 
-Create/edit `config/users.json`:
+**Manual alternative:** Edit `config/users.json`:
+
 ```json
 {
-  "codeforces": ["YourHandle"],
-  "atcoder": ["YourHandle"]
+  "codeforces": ["YourCodeforcesHandle"],
+  "atcoder": ["YourAtCoderHandle"]
 }
 ```
 
-### 🎯 Harvest Commands
+### 📥 Harvesting Submissions
 
-**Codeforces:**
+#### Codeforces
+
 ```bash
-# Check last 30 days (fast, default behavior)
-python -m harwest codeforces
-
-# Full scan - all submissions (slower)
+# Harvest all submissions (full scan)
 python -m harwest codeforces --full-scan
-
-# Start from specific page
+# Harvest only new submissions (incremental)
+python -m harwest codeforces
+# Harvest from a specific page
 python -m harwest codeforces --start-page 5
-
-# Non-interactive mode (for scripts)
-python -m harwest codeforces --auto
 ```
 
-**AtCoder:**
+#### AtCoder
+
 ```bash
-# Check recent submissions
-python -m harwest atcoder
-
-# Full scan - all submissions
+# Harvest all submissions (full scan)
 python -m harwest atcoder --full-scan
-
-# Start from specific page
+# Harvest only new submissions (incremental)
+python -m harwest atcoder
+# Harvest from a specific page
 python -m harwest atcoder --start-page 3
-
-# Non-interactive mode (for scripts)
-python -m harwest atcoder --auto
 ```
+
+#### Automation Mode (Non-Interactive)
+
+For scripts or CI/CD:
+
+```bash
+python -m harwest codeforces --auto --full-scan
+python -m harwest atcoder --auto --full-scan
+```
+
+### 📊 Markdown Output
+
+- `codeforces.md` — Codeforces submissions table
+- `atcoder.md` — AtCoder submissions table
+
+These are auto-generated/updated after each harvest.
+
+### 🔧 Advanced Usage
+
+- **Multiple accounts:** Add more usernames in `config/users.json` arrays
+- **Custom submissions directory:** Set the `directory` field in `users.json`
+- **Language mapping:** Edit `harwest/lib/resources/language.json` to add new language extensions
 
 ## 🧙‍♂️💡 Control Panel (Windows) — Highly Recommended!
 
@@ -366,11 +534,10 @@ After first harvest, your repository will have this structure:
 ```
 📦 codeforces-atcoder-submissions/
 ├── 📄 README.md                   # Repository overview
-├── 📄 USER_GUIDE.md               # This file
-├── 📄 LOCAL_USAGE.md              # Detailed local usage guide
+├── 📄 USER_GUIDE.md               # This comprehensive guide
 ├── 📄 codeforces.md               # Codeforces submissions table
 ├── 📄 atcoder.md                  # AtCoder submissions table
-├── 📄 fresh_start.py              # Setup script
+├── 📄 fresh_start.py              # Interactive setup script
 ├── 📄 harwest_control_panel.bat   # Windows control panel (menu-driven)
 ├── 📄 requirements.txt            # Python dependencies
 ├── 📄 setup.py                    # Package installer (for devs)
@@ -470,6 +637,12 @@ git remote add origin https://github.com/YOUR_USERNAME/codeforces-atcoder-submis
 git remote set-url origin https://github.com/YOUR_USERNAME/codeforces-atcoder-submissions.git
 ```
 
+**"Unknown language warning":**
+- Add the language to `harwest/lib/resources/language.json`
+
+**"Empty submissions.json":**
+- This is normal for a new setup. Run a harvest command.
+
 ### ❌ Tags/Ratings Not Updated
 
 Tags and ratings automatically update! Daily runs check last 30 days and update metadata if problems were re-rated.
@@ -547,7 +720,6 @@ Works for:
 ## 📚 Additional Resources
 
 - **[README.md](README.md)** - Project overview and badges
-- **[LOCAL_USAGE.md](LOCAL_USAGE.md)** - Detailed local usage guide
 - **[Actions](../../actions)** - View workflow history
 - **[Issues](../../issues)** - Report bugs or request features
 - **[config/README.md](config/README.md)** - Configuration details
