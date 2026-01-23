@@ -51,22 +51,26 @@ if "%scan_choice%"=="1" (
     python -m harwest codeforces
     color 0A
     goto pause_and_return
-) else if "%scan_choice%"=="2" (
-    color 0E
-    echo.
-    echo Running: python -m harwest codeforces --full-scan
-    color 0A
-    python -m harwest codeforces --full-scan
-    color 0A
-    goto pause_and_return
-) else if "%scan_choice%"=="0" (
-    goto main_menu
 ) else (
-    color 0C
-    echo Invalid scan mode.
-    color 0A
-    timeout /t 2 >nul
-    goto scan_mode_cf
+    if "%scan_choice%"=="2" (
+        color 0E
+        echo.
+        echo Running: python -m harwest codeforces --full-scan
+        color 0A
+        python -m harwest codeforces --full-scan
+        color 0A
+        goto pause_and_return
+    ) else (
+        if "%scan_choice%"=="0" (
+            goto main_menu
+        ) else (
+            color 0C
+            echo Invalid scan mode.
+            color 0A
+            timeout /t 2 >nul
+            goto scan_mode_cf
+        )
+    )
 )
 
 :scan_mode_ac
@@ -85,22 +89,26 @@ if "%scan_choice%"=="1" (
     python -m harwest atcoder
     color 0A
     goto pause_and_return
-) else if "%scan_choice%"=="2" (
-    color 0E
-    echo.
-    echo Running: python -m harwest atcoder --full-scan
-    color 0A
-    python -m harwest atcoder --full-scan
-    color 0A
-    goto pause_and_return
-) else if "%scan_choice%"=="0" (
-    goto main_menu
 ) else (
-    color 0C
-    echo Invalid scan mode.
-    color 0A
-    timeout /t 2 >nul
-    goto scan_mode_ac
+    if "%scan_choice%"=="2" (
+        color 0E
+        echo.
+        echo Running: python -m harwest atcoder --full-scan
+        color 0A
+        python -m harwest atcoder --full-scan
+        color 0A
+        goto pause_and_return
+    ) else (
+        if "%scan_choice%"=="0" (
+            goto main_menu
+        ) else (
+            color 0C
+            echo Invalid scan mode.
+            color 0A
+            timeout /t 2 >nul
+            goto scan_mode_ac
+        )
+    )
 )
 
 :scan_mode_both
@@ -123,26 +131,30 @@ if "%scan_choice%"=="1" (
     python -m harwest atcoder
     color 0A
     goto pause_and_return
-) else if "%scan_choice%"=="2" (
-    color 0E
-    echo.
-    echo Running: python -m harwest codeforces --full-scan
-    color 0A
-    python -m harwest codeforces --full-scan
-    color 0E
-    echo Running: python -m harwest atcoder --full-scan
-    color 0A
-    python -m harwest atcoder --full-scan
-    color 0A
-    goto pause_and_return
-) else if "%scan_choice%"=="0" (
-    goto main_menu
 ) else (
-    color 0C
-    echo Invalid scan mode.
-    color 0A
-    timeout /t 2 >nul
-    goto scan_mode_both
+    if "%scan_choice%"=="2" (
+        color 0E
+        echo.
+        echo Running: python -m harwest codeforces --full-scan
+        color 0A
+        python -m harwest codeforces --full-scan
+        color 0E
+        echo Running: python -m harwest atcoder --full-scan
+        color 0A
+        python -m harwest atcoder --full-scan
+        color 0A
+        goto pause_and_return
+    ) else (
+        if "%scan_choice%"=="0" (
+            goto main_menu
+        ) else (
+            color 0C
+            echo Invalid scan mode.
+            color 0A
+            timeout /t 2 >nul
+            goto scan_mode_both
+        )
+    )
 )
 
 :full_reset
