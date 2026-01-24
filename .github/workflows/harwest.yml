@@ -157,7 +157,7 @@ jobs:
 
             git commit \
             --author="$GITHUB_ACTOR <$GITHUB_ACTOR@users.noreply.github.com>" \
-            -m "Update submissions - $(date +'%Y-%m-%d %H:%M:%S')"
+            -m "Auto updated submissions - $(date +'%Y-%m-%d %H:%M:%S')"
 
             git push
           else
