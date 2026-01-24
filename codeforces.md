@@ -32,17 +32,17 @@
 <tbody>
 <tr>
 <td align="center">1</td>
-<td><a href="https://codeforces.com/contest/2189/problem/B"><b>B</b> - The Curse of the Frog</a></td>
-<td align="center"><a href="https://codeforces.com/contest/2189/submission/359420481" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>greedy</code> <code>math</code></td>
-<td align="center"><sub>Jan/23/2026 21:51</sub></td>
-</tr>
-<tr>
-<td align="center">2</td>
 <td><a href="https://codeforces.com/contest/2189/problem/A"><b>A</b> - Table with Numbers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2189/submission/359370106" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
 <td><code>greedy</code> <code>implementation</code></td>
 <td align="center"><sub>Jan/23/2026 20:48</sub></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><a href="https://codeforces.com/contest/2189/problem/B"><b>B</b> - The Curse of the Frog</a></td>
+<td align="center"><a href="https://codeforces.com/contest/2189/submission/359420481" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
+<td><code>constructive algorithms</code> <code>greedy</code> <code>math</code></td>
+<td align="center"><sub>Jan/23/2026 15:51</sub></td>
 </tr>
 <tr>
 <td align="center">3</td>
@@ -15761,6 +15761,6 @@
 
 <div align="center">
 
-*Last Updated: January 24, 2026 at 04:41 BDT (UTC+6)*
+*Last Updated: January 24, 2026 at 23:47 BDT (UTC+6)*
 
 </div>
