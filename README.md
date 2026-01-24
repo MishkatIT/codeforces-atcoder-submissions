@@ -189,3 +189,8 @@ This repository uses [**Harwest**](https://github.com/nileshsah/harwest-tool) to
 Built with ❤️ by [Md Mishkatul Islam](https://github.com/MishkatIT) using [Harwest](https://github.com/nileshsah/harwest-tool)
 
 </div>
+
+<br>
+<p align="center"><sub>Version: v2.0.1</sub></p>
+
+
