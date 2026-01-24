@@ -5,7 +5,6 @@ on:
   schedule:
     - cron: '0 17 * * *'
   
-  # Manual trigger
   workflow_dispatch:
     inputs:
       platform:
@@ -18,8 +17,12 @@ on:
         type: boolean
         default: false
 
+# ==========================
+# GLOBAL TIMEZONE (BDT)
+# ==========================
 env:
   PYTHON_VERSION: '3.9'
+  TZ: Asia/Dhaka
 
 jobs:
   check-activity:
@@ -68,40 +71,44 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
+      
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       # ==========================
-      # FIXED GIT CONFIG (STEP 2)
+      # AUTO GITHUB USER CONFIG
       # ==========================
 
-      - name: Configure Git
+      - name: Configure Git Identity
         run: |
-          git config --local user.name "MishkatIT"
-          git config --local user.email "MishkatIT@users.noreply.github.com"
+          USERNAME="${GITHUB_ACTOR}"
+
+          echo "Using GitHub username: $USERNAME"
+
+          git config --local user.name "$USERNAME"
+          git config --local user.email "$USERNAME@users.noreply.github.com"
 
       - name: Check configuration
         id: check_config
         run: |
           if [ ! -f config/users.json ]; then
-            echo "❌ config/users.json not found"
+            echo "❌ Error: config/users.json not found"
             exit 1
           fi
-
+          
           CODEFORCES_COUNT=$(python3 -c "import json; d=json.load(open('config/users.json')); print(len(d.get('codeforces', [])))")
           ATCODER_COUNT=$(python3 -c "import json; d=json.load(open('config/users.json')); print(len(d.get('atcoder', [])))")
 
@@ -110,6 +117,13 @@ jobs:
           else
             echo "has_users=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: Set environment variables
+        if: steps.check_config.outputs.has_users == 'true'
+        run: |
+          echo "SUBMISSIONS_DIR=${{ vars.SUBMISSIONS_DIR || './submissions' }}" >> $GITHUB_ENV
+          echo "GITHUB_REPOSITORY_URL=${{ github.server_url }}/${{ github.repository }}.git" >> $GITHUB_ENV
+          echo "GITHUB_REF_NAME=${{ github.ref_name }}" >> $GITHUB_ENV
 
       - name: Harvest Codeforces submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'codeforces' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
@@ -132,7 +146,7 @@ jobs:
           python3 -m harwest atcoder $FULL_SCAN_FLAG --auto
 
       # ==========================
-      # FIXED COMMIT + BDT TIME (STEP 3)
+      # COMMIT + PUSH (BDT TIME)
       # ==========================
 
       - name: Push changes
@@ -142,10 +156,22 @@ jobs:
             git add .
 
             git commit \
-            --author="MishkatIT <MishkatIT@users.noreply.github.com>" \
-            -m "Update submissions - $(TZ='Asia/Dhaka' date +'%Y-%m-%d %H:%M:%S')"
+            --author="$GITHUB_ACTOR <$GITHUB_ACTOR@users.noreply.github.com>" \
+            -m "Update submissions - $(date +'%Y-%m-%d %H:%M:%S')"
 
             git push
           else
             echo "ℹ️ No new submissions found"
+          fi
+
+      - name: Log schedule status
+        if: always()
+        run: |
+          DAYS=${{ needs.check-activity.outputs.days_since_commit }}
+
+          if [ "$DAYS" -gt 30 ]; then
+            echo "📅 Schedule Status: MONTHLY (inactive for $DAYS days)"
+          else
+            echo "📅 Schedule Status: DAILY (last activity $DAYS days ago)"
+            echo "Next run: Tomorrow at 11:00 PM BDT"
           fi
