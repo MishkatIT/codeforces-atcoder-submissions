@@ -22,7 +22,6 @@
 - **Manual trigger:** Use Actions tab → "Run workflow"
 - **Full scan option:** For complete history or recovery
 
-**Profile contributions:** Add `GIT_AUTHOR_EMAIL` variable with your GitHub-verified email.
 
 ---
 
@@ -268,23 +267,6 @@ Want to run immediately or do a full scan?
 - ✅ Recovering missing submissions
 - ❌ Regular daily updates (use default)
 
-### 📈 Show Contributions on GitHub Profile
-
-Make your submissions appear as contributions on your GitHub profile graph:
-
-**Setup Instructions:**
-1. Go to: **Repository Settings → Secrets and variables → Actions → Variables tab**
-2. Click **"New repository variable"**
-3. Add variable:
-   - **Name**: `GIT_AUTHOR_EMAIL`
-   - **Value**: Your GitHub-verified email address
-4. Click **"Add variable"**
-
-⚠️ **Critical:** Email must exactly match one verified in **GitHub Settings → Emails**.
-
-**Optional:** Add your name for better commit attribution:
-- **Name**: `GIT_AUTHOR_NAME`
-- **Value**: Your full name
 
 ### 🔧 Customize Schedule
 
@@ -302,7 +284,6 @@ schedule:
 - `0 12 * * *` - Noon UTC daily
 - `0 0 * * 0` - Midnight UTC every Sunday
 
-Use [**crontab.guru**](https://crontab.guru/) to create custom schedules.
 
 ---
 
@@ -433,30 +414,6 @@ These are auto-generated/updated after each harvest.
 - Run the batch file from the repository root so paths resolve correctly.
 - You can schedule this `.bat` using Windows Task Scheduler for daily automation (see "Scheduled Tasks" later).
 
----
-
-
-### 🌍 Environment Variables (Optional)
-
-For automation/scripting, set these environment variables:
-
-**Linux/Mac:**
-```bash
-export SUBMISSIONS_DIR="./submissions"
-export GIT_AUTHOR_NAME="Your Name"
-export GIT_AUTHOR_EMAIL="your.email@example.com"
-export GITHUB_REPOSITORY="username/repo"
-```
-
-**Windows PowerShell:**
-```powershell
-$env:SUBMISSIONS_DIR="./submissions"
-$env:GIT_AUTHOR_NAME="Your Name"
-$env:GIT_AUTHOR_EMAIL="your.email@example.com"
-$env:GITHUB_REPOSITORY="username/repo"
-```
-
-Then run commands with `--auto` flag for non-interactive mode.
 
 ---
 
@@ -474,53 +431,6 @@ git add .
 git commit -m "Update submissions $(date +'%Y-%m-%d')"
 git push
 ```
-
-### 🔄 Complete Re-Sync
-
-Need to start fresh or recover all submissions?
-
-```bash
-# Method 1: Use fresh_start.py (recommended)
-python fresh_start.py
-
-# Method 2: Manual clear and re-scan
-rm submissions/submissions.json
-echo "{}" > submissions/submissions.json
-python -m harwest codeforces --full-scan
-python -m harwest atcoder --full-scan
-git add .
-git commit -m "Full re-sync of all submissions"
-git push
-```
-
-### ⏰ Scheduled Tasks
-
-**Linux/Mac (Cron):**
-
-Edit crontab:
-```bash
-crontab -e
-```
-
-Add daily job at 11:30 PM:
-```cron
-30 23 * * * cd /path/to/codeforces-atcoder-submissions && python -m harwest codeforces && python -m harwest atcoder && git add . && git commit -m "Daily update" && git push
-```
-
-**Windows (Task Scheduler):**
-
-Create `harwest_update.bat`:
-```batch
-@echo off
-cd /d D:\codeforces-atcoder-submissions
-python -m harwest codeforces --auto
-python -m harwest atcoder --auto
-git add .
-git commit -m "Daily update - %date%"
-git push
-```
-
-Then create a scheduled task in Windows Task Scheduler to run this file daily.
 
 ---
 
@@ -603,12 +513,6 @@ After first harvest, your repository will have this structure:
 | "Permission denied" | Re-enable GitHub Actions in Settings → Actions |
 | "Authentication failed" | Check repository permissions |
 
-### ❌ Contributions Not Showing
-
-1. Add `GIT_AUTHOR_EMAIL` variable (see Automated section)
-2. Verify email matches GitHub account exactly
-3. Check email is verified: Settings → Emails
-4. Wait for next harvest after configuring
 
 ### ❌ Local Command Errors
 
@@ -767,7 +671,7 @@ Your automated competitive programming archive is ready!
 ### 📈 What Happens Next
 
 1. **💻 You solve problems** on Codeforces or AtCoder
-2. **🤖 Harwest runs daily** at 11:20 PM BDT (or manually triggered)
+2. **🤖 Harwest runs daily** at 11:00 PM BDT (or manually triggered)
 3. **📊 Markdown files update** with new submissions and tags
 4. **📈 GitHub profile grows** with your coding contributions
 
