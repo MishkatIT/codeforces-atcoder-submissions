@@ -52099,5 +52099,106 @@
       "math"
     ],
     "timestamp": "Jan/23/2026 15:51"
+  },
+  "CF359735220": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2193,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "DBMB and the Array",
+    "problem_url": "https://codeforces.com/contest/2193/problem/A",
+    "submission_id": "CF359735220",
+    "submission_url": "https://codeforces.com/contest/2193/submission/359735220",
+    "tags": [
+      "brute force",
+      "math"
+    ],
+    "timestamp": "Jan/25/2026 20:37"
+  },
+  "CF359746483": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2193,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Reverse a Permutation",
+    "problem_url": "https://codeforces.com/contest/2193/problem/B",
+    "submission_id": "CF359746483",
+    "submission_url": "https://codeforces.com/contest/2193/submission/359746483",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Jan/25/2026 20:42"
+  },
+  "CF359759124": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2193,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Replace and Sum",
+    "problem_url": "https://codeforces.com/contest/2193/problem/C",
+    "submission_id": "CF359759124",
+    "submission_url": "https://codeforces.com/contest/2193/submission/359759124",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Jan/25/2026 20:48"
+  },
+  "CF359766281": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2193,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Replace and Sum",
+    "problem_url": "https://codeforces.com/contest/2193/problem/C",
+    "submission_id": "CF359766281",
+    "submission_url": "https://codeforces.com/contest/2193/submission/359766281",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Jan/25/2026 20:52"
+  },
+  "CF359805899": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2193,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Monster Game",
+    "problem_url": "https://codeforces.com/contest/2193/problem/D",
+    "submission_id": "CF359805899",
+    "submission_url": "https://codeforces.com/contest/2193/submission/359805899",
+    "tags": [
+      "binary search",
+      "sortings",
+      "two pointers"
+    ],
+    "timestamp": "Jan/25/2026 21:19"
+  },
+  "CF359891717": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2193,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Product Queries",
+    "problem_url": "https://codeforces.com/contest/2193/problem/E",
+    "submission_id": "CF359891717",
+    "submission_url": "https://codeforces.com/contest/2193/submission/359891717",
+    "tags": [
+      "dp",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jan/25/2026 23:23"
   }
 }
