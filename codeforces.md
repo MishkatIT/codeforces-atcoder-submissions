@@ -48,7 +48,7 @@
 <td align="center">3</td>
 <td><a href="https://codeforces.com/contest/2193/problem/C"><b>C</b> - Replace and Sum</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2193/submission/359766281" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>greedy</code></td>
+<td><code>data structures</code> <code>greedy</code></td>
 <td align="center"><sub>Jan/25/2026 20:52</sub></td>
 </tr>
 <tr>
@@ -15796,6 +15796,6 @@
 
 <div align="center">
 
-*Last Updated: January 25, 2026 at 23:48 BDT (UTC+6)*
+*Last Updated: January 26, 2026 at 23:56 BDT (UTC+6)*
 
 </div>

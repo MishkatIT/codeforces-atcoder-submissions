@@ -52134,7 +52134,7 @@
     "timestamp": "Jan/25/2026 20:42"
   },
   "CF359759124": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2193,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52145,12 +52145,13 @@
     "submission_id": "CF359759124",
     "submission_url": "https://codeforces.com/contest/2193/submission/359759124",
     "tags": [
+      "data structures",
       "greedy"
     ],
     "timestamp": "Jan/25/2026 20:48"
   },
   "CF359766281": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2193,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52161,6 +52162,7 @@
     "submission_id": "CF359766281",
     "submission_url": "https://codeforces.com/contest/2193/submission/359766281",
     "tags": [
+      "data structures",
       "greedy"
     ],
     "timestamp": "Jan/25/2026 20:52"
