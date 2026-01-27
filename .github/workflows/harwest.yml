@@ -89,17 +89,17 @@ jobs:
           pip install -r requirements.txt
 
       # ==========================
-      # AUTO GITHUB USER CONFIG
+      # AUTO GITHUB OWNER CONFIG
       # ==========================
 
       - name: Configure Git Identity
         run: |
-          USERNAME="${GITHUB_ACTOR}"
+          OWNER="${GITHUB_REPOSITORY_OWNER}"
 
-          echo "Using GitHub username: $USERNAME"
+          echo "Using repository owner: $OWNER"
 
-          git config --local user.name "$USERNAME"
-          git config --local user.email "$USERNAME@users.noreply.github.com"
+          git config --local user.name "$OWNER"
+          git config --local user.email "$OWNER@users.noreply.github.com"
 
       - name: Check configuration
         id: check_config
@@ -156,7 +156,7 @@ jobs:
             git add .
 
             git commit \
-            --author="$GITHUB_ACTOR <$GITHUB_ACTOR@users.noreply.github.com>" \
+            --author="$GITHUB_REPOSITORY_OWNER <$GITHUB_REPOSITORY_OWNER@users.noreply.github.com>" \
             -m "Auto updated submissions - $(date +'%Y-%m-%d %H:%M:%S')"
 
             git push
