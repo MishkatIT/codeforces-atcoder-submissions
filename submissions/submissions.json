@@ -52186,7 +52186,7 @@
     "timestamp": "Jan/25/2026 21:19"
   },
   "CF359891717": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2193,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -52199,7 +52199,8 @@
     "tags": [
       "dp",
       "math",
-      "number theory"
+      "number theory",
+      "shortest paths"
     ],
     "timestamp": "Jan/25/2026 23:23"
   }
