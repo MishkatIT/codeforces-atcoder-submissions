@@ -3231,6 +3231,22 @@
     ],
     "timestamp": "Nov/29/2025 18:26"
   },
+  "AC72875175": {
+    "contest_id": "abc443",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder/abc443/abc443B Setsubun.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Setsubun",
+    "problem_url": "https://atcoder.jp/contests/abc443/tasks/abc443_b",
+    "submission_id": "AC72875175",
+    "submission_url": "https://atcoder.jp/contests/abc443/submissions/72875175",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jan/31/2026 18:11"
+  },
   "AC72884133": {
     "contest_id": "abc443",
     "language": "C++23 (GCC 15.2.0)",
