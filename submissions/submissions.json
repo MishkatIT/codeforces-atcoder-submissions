@@ -3231,6 +3231,22 @@
     ],
     "timestamp": "Nov/29/2025 18:26"
   },
+  "AC72900255": {
+    "contest_id": "abc443",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder/abc443/abc443D Pawn_Line.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Pawn Line",
+    "problem_url": "https://atcoder.jp/contests/abc443/tasks/abc443_d",
+    "submission_id": "AC72900255",
+    "submission_url": "https://atcoder.jp/contests/abc443/submissions/72900255",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/31/2026 19:08"
+  },
   "CF167035148": {
     "__info_message": "Info: storing URL",
     "contest_id": 4,
