@@ -3231,6 +3231,22 @@
     ],
     "timestamp": "Nov/29/2025 18:26"
   },
+  "AC72884133": {
+    "contest_id": "abc443",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder/abc443/abc443C Chokutter_Addiction.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Chokutter Addiction",
+    "problem_url": "https://atcoder.jp/contests/abc443/tasks/abc443_c",
+    "submission_id": "AC72884133",
+    "submission_url": "https://atcoder.jp/contests/abc443/submissions/72884133",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/31/2026 18:25"
+  },
   "AC72900255": {
     "contest_id": "abc443",
     "language": "C++23 (GCC 15.2.0)",
