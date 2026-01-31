@@ -3231,6 +3231,22 @@
     ],
     "timestamp": "Nov/29/2025 18:26"
   },
+  "AC72862638": {
+    "contest_id": "abc443",
+    "language": "C++23 (GCC 15.2.0)",
+    "path": "atcoder/abc443/abc443A Append_s.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Append s",
+    "problem_url": "https://atcoder.jp/contests/abc443/tasks/abc443_a",
+    "submission_id": "AC72862638",
+    "submission_url": "https://atcoder.jp/contests/abc443/submissions/72862638",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/31/2026 18:01"
+  },
   "AC72875175": {
     "contest_id": "abc443",
     "language": "C++23 (GCC 15.2.0)",
