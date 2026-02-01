@@ -75,7 +75,13 @@ class AbstractWorkflow(ABC):
           existing_tags = set(existing.get('tags', []))
           new_tags = set(submission.get('tags', []))
           if existing_tags != new_tags:
-            submission['__info_message'] = 'Info: Updating Tags'
+            # Detect if rating specifically changed (tags starting with *)
+            old_ratings = [t for t in existing_tags if t.startswith('*')]
+            new_ratings = [t for t in new_tags if t.startswith('*')]
+            if old_ratings != new_ratings:
+              submission['__info_message'] = f'Info: Rating Updated {old_ratings} -> {new_ratings}'
+            else:
+              submission['__info_message'] = 'Info: Tags Updated'
             # Update only metadata, keep existing path
             submission['path'] = existing.get('path')
             self.submissions.update(submission, skip_markdown=True)

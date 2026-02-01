@@ -128,9 +128,14 @@ jobs:
       - name: Harvest Codeforces submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'codeforces' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
-          FULL_SCAN_FLAG="--full-scan"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" != "true" ]; then
-            FULL_SCAN_FLAG=""
+          # Default: smart scan (no --full-scan) for daily scheduled runs
+          # Full scan only when explicitly requested via workflow_dispatch
+          FULL_SCAN_FLAG=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            FULL_SCAN_FLAG="--full-scan"
+            echo "📊 Running FULL SCAN (all submissions)"
+          else
+            echo "⚡ Running SMART SCAN (recent submissions only)"
           fi
 
           python3 -m harwest codeforces $FULL_SCAN_FLAG --auto
@@ -138,9 +143,14 @@ jobs:
       - name: Harvest AtCoder submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'atcoder' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
-          FULL_SCAN_FLAG="--full-scan"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" != "true" ]; then
-            FULL_SCAN_FLAG=""
+          # Default: smart scan (no --full-scan) for daily scheduled runs
+          # Full scan only when explicitly requested via workflow_dispatch
+          FULL_SCAN_FLAG=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            FULL_SCAN_FLAG="--full-scan"
+            echo "📊 Running FULL SCAN (all submissions)"
+          else
+            echo "⚡ Running SMART SCAN (recent submissions only)"
           fi
 
           python3 -m harwest atcoder $FULL_SCAN_FLAG --auto
