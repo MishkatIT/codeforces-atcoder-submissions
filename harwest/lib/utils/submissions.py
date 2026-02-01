@@ -181,6 +181,23 @@ class Submissions:
         print("Warning: Submission missing submission_id")
         return
       
+      # Log tag changes if present
+      if '__info_message' in submission:
+        old_submission = self.store.get(str(submission_id), {})
+        old_tags = set(old_submission.get('tags', []))
+        new_tags = set(submission.get('tags', []))
+        
+        added_tags = new_tags - old_tags
+        removed_tags = old_tags - new_tags
+        
+        if added_tags or removed_tags:
+          problem_name = submission.get('problem_name', 'Unknown')
+          print(f"\n  ✓ {submission['__info_message']}: {problem_name} ({submission_id})")
+          if added_tags:
+            print(f"    Added tags: {', '.join(sorted(added_tags))}")
+          if removed_tags:
+            print(f"    Removed tags: {', '.join(sorted(removed_tags))}")
+      
       # Update the submission
       self.store[str(submission_id)] = submission
       

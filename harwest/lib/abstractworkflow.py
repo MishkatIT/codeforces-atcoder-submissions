@@ -71,6 +71,12 @@ class AbstractWorkflow(ABC):
         # Update tags/rating if they've changed (but don't re-fetch code)
         existing = self.submissions.get_submission(submission['submission_id'])
         if existing:
+          # Enrich submission with latest tags from problem page
+          try:
+            self.enrich_submission(submission)
+          except Exception as e:
+            print(f"Warning: Failed to enrich existing submission: {e}")
+          
           # Check if tags have changed (they might update ratings/tags later)
           existing_tags = set(existing.get('tags', []))
           new_tags = set(submission.get('tags', []))
