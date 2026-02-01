@@ -128,9 +128,9 @@ jobs:
       - name: Harvest Codeforces submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'codeforces' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
-          FULL_SCAN_FLAG="--full-scan"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" != "true" ]; then
-            FULL_SCAN_FLAG=""
+          FULL_SCAN_FLAG=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            FULL_SCAN_FLAG="--full-scan"
           fi
 
           python3 -m harwest codeforces $FULL_SCAN_FLAG --auto
@@ -138,9 +138,9 @@ jobs:
       - name: Harvest AtCoder submissions
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'atcoder' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
-          FULL_SCAN_FLAG="--full-scan"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" != "true" ]; then
-            FULL_SCAN_FLAG=""
+          FULL_SCAN_FLAG=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            FULL_SCAN_FLAG="--full-scan"
           fi
 
           python3 -m harwest atcoder $FULL_SCAN_FLAG --auto
