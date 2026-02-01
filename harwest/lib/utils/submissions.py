@@ -182,6 +182,8 @@ class Submissions:
         return
       
       # Log tag changes if present
+      # Note: We retrieve old_submission from store before updating (line 202)
+      # to ensure we capture the actual differences
       if '__info_message' in submission:
         old_submission = self.store.get(str(submission_id), {})
         old_tags = set(old_submission.get('tags', []))

@@ -72,6 +72,7 @@ class AbstractWorkflow(ABC):
         existing = self.submissions.get_submission(submission['submission_id'])
         if existing:
           # Enrich submission with latest tags from problem page
+          # Note: This mutates the submission dict by adding updated tag information
           try:
             self.enrich_submission(submission)
           except Exception as e:
