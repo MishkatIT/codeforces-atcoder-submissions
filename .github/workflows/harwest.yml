@@ -129,6 +129,14 @@ jobs:
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'codeforces' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
           FULL_SCAN_FLAG=""
+          
+          # For scheduled runs after long inactivity (>30 days), use full scan
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ needs.check-activity.outputs.days_since_commit }}" -gt 30 ]; then
+            FULL_SCAN_FLAG="--full-scan"
+            echo "📅 Long inactivity detected (${{ needs.check-activity.outputs.days_since_commit }} days), using full scan"
+          fi
+          
+          # For manual runs, only use full scan if explicitly requested
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
             FULL_SCAN_FLAG="--full-scan"
           fi
@@ -139,6 +147,14 @@ jobs:
         if: steps.check_config.outputs.has_users == 'true' && (github.event.inputs.platform == 'atcoder' || github.event.inputs.platform == 'all' || github.event.inputs.platform == '')
         run: |
           FULL_SCAN_FLAG=""
+          
+          # For scheduled runs after long inactivity (>30 days), use full scan
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ needs.check-activity.outputs.days_since_commit }}" -gt 30 ]; then
+            FULL_SCAN_FLAG="--full-scan"
+            echo "📅 Long inactivity detected (${{ needs.check-activity.outputs.days_since_commit }} days), using full scan"
+          fi
+          
+          # For manual runs, only use full scan if explicitly requested
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
             FULL_SCAN_FLAG="--full-scan"
           fi
@@ -171,7 +187,10 @@ jobs:
 
           if [ "$DAYS" -gt 30 ]; then
             echo "📅 Schedule Status: MONTHLY (inactive for $DAYS days)"
+            echo "    Full scan will be used to catch up on all submissions"
+            echo "    Next run: 1st of next month at 11:00 PM BDT"
           else
             echo "📅 Schedule Status: DAILY (last activity $DAYS days ago)"
-            echo "Next run: Tomorrow at 11:00 PM BDT"
+            echo "    Smart scheduling active (checking last 30 days)"
+            echo "    Next run: Tomorrow at 11:00 PM BDT"
           fi
