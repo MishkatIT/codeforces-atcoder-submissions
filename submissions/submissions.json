@@ -56019,7 +56019,7 @@
     "timestamp": "Jun/18/2026 21:07"
   },
   "CF379387437": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2237,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56030,12 +56030,13 @@
     "submission_id": "CF379387437",
     "submission_url": "https://codeforces.com/contest/2237/submission/379387437",
     "tags": [
+      "dp",
       "greedy"
     ],
     "timestamp": "Jun/18/2026 21:22"
   },
   "CF379428604": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2237,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56047,7 +56048,8 @@
     "submission_url": "https://codeforces.com/contest/2237/submission/379428604",
     "tags": [
       "graphs",
-      "greedy"
+      "greedy",
+      "implementation"
     ],
     "timestamp": "Jun/19/2026 01:13"
   }

@@ -34,14 +34,14 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2237/problem/E"><b>E</b> - Permutation Commutation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2237/submission/379428604" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>graphs</code> <code>greedy</code></td>
+<td><code>graphs</code> <code>greedy</code> <code>implementation</code></td>
 <td align="center"><sub>Jun/19/2026 01:13</sub></td>
 </tr>
 <tr>
 <td align="center">2</td>
 <td><a href="https://codeforces.com/contest/2237/problem/C"><b>C</b> - Duck Surplus</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2237/submission/379387437" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>greedy</code></td>
+<td><code>dp</code> <code>greedy</code></td>
 <td align="center"><sub>Jun/18/2026 21:22</sub></td>
 </tr>
 <tr>
@@ -16713,6 +16713,6 @@
 
 <div align="center">
 
-*Last Updated: June 19, 2026 at 01:26 BDT (UTC+6)*
+*Last Updated: June 20, 2026 at 00:53 BDT (UTC+6)*
 
 </div>
