@@ -34,7 +34,7 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2237/problem/E"><b>E</b> - Permutation Commutation</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2237/submission/379428604" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>graphs</code> <code>greedy</code> <code>implementation</code></td>
+<td><code>data structures</code> <code>graphs</code> <code>greedy</code></td>
 <td align="center"><sub>Jun/19/2026 01:13</sub></td>
 </tr>
 <tr>
@@ -55,7 +55,7 @@
 <td align="center">4</td>
 <td><a href="https://codeforces.com/contest/2237/problem/A"><b>A</b> - Destroying Towers</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2237/submission/379359681" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>greedy</code></td>
+<td><code>2-sat</code> <code>fft</code> <code>flows</code> <code>games</code> <code>greedy</code> <code>schedules</code></td>
 <td align="center"><sub>Jun/18/2026 20:37</sub></td>
 </tr>
 <tr>
@@ -16713,6 +16713,6 @@
 
 <div align="center">
 
-*Last Updated: June 20, 2026 at 00:53 BDT (UTC+6)*
+*Last Updated: June 21, 2026 at 00:09 BDT (UTC+6)*
 
 </div>

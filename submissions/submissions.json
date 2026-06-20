@@ -55986,7 +55986,7 @@
     "timestamp": "Jun/15/2026 04:07"
   },
   "CF379359681": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2237,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -55997,7 +55997,12 @@
     "submission_id": "CF379359681",
     "submission_url": "https://codeforces.com/contest/2237/submission/379359681",
     "tags": [
-      "greedy"
+      "2-sat",
+      "fft",
+      "flows",
+      "games",
+      "greedy",
+      "schedules"
     ],
     "timestamp": "Jun/18/2026 20:37"
   },
@@ -56047,9 +56052,9 @@
     "submission_id": "CF379428604",
     "submission_url": "https://codeforces.com/contest/2237/submission/379428604",
     "tags": [
+      "data structures",
       "graphs",
-      "greedy",
-      "implementation"
+      "greedy"
     ],
     "timestamp": "Jun/19/2026 01:13"
   }
