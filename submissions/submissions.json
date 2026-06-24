@@ -55999,12 +55999,13 @@
     "tags": [
       "games",
       "greedy",
-      "schedules"
+      "schedules",
+      "*800"
     ],
     "timestamp": "Jun/18/2026 20:37"
   },
   "CF379381666": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2237,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56016,7 +56017,8 @@
     "submission_url": "https://codeforces.com/contest/2237/submission/379381666",
     "tags": [
       "brute force",
-      "greedy"
+      "greedy",
+      "*1000"
     ],
     "timestamp": "Jun/18/2026 21:07"
   },
@@ -56032,7 +56034,8 @@
     "submission_id": "CF379387437",
     "submission_url": "https://codeforces.com/contest/2237/submission/379387437",
     "tags": [
-      "greedy"
+      "greedy",
+      "*1000"
     ],
     "timestamp": "Jun/18/2026 21:22"
   },
@@ -56050,7 +56053,8 @@
     "tags": [
       "data structures",
       "graphs",
-      "greedy"
+      "greedy",
+      "*2000"
     ],
     "timestamp": "Jun/19/2026 01:13"
   }
