@@ -56034,6 +56034,7 @@
     "submission_id": "CF379387437",
     "submission_url": "https://codeforces.com/contest/2237/submission/379387437",
     "tags": [
+      "binary search",
       "greedy",
       "*1000"
     ],
@@ -56057,5 +56058,25 @@
       "*2000"
     ],
     "timestamp": "Jun/19/2026 01:13"
+  },
+  "CF380059166": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 1709,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Recover an RBS",
+    "problem_url": "https://codeforces.com/contest/1709/problem/C",
+    "submission_id": "CF380059166",
+    "submission_url": "https://codeforces.com/contest/1709/submission/380059166",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Jun/25/2026 02:38"
   }
 }
