@@ -56080,7 +56080,7 @@
     "timestamp": "Jun/25/2026 02:38"
   },
   "CF380326656": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2240,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56091,12 +56091,13 @@
     "submission_id": "CF380326656",
     "submission_url": "https://codeforces.com/contest/2240/submission/380326656",
     "tags": [
-      "greedy"
+      "greedy",
+      "*800"
     ],
     "timestamp": "Jun/27/2026 20:45"
   },
   "CF380338122": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2240,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56107,12 +56108,13 @@
     "submission_id": "CF380338122",
     "submission_url": "https://codeforces.com/contest/2240/submission/380338122",
     "tags": [
-      "combinatorics"
+      "combinatorics",
+      "*1100"
     ],
     "timestamp": "Jun/27/2026 21:07"
   },
   "CF380352116": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2240,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56124,12 +56126,13 @@
     "submission_url": "https://codeforces.com/contest/2240/submission/380352116",
     "tags": [
       "games",
-      "greedy"
+      "greedy",
+      "*1300"
     ],
     "timestamp": "Jun/27/2026 21:44"
   },
   "CF380365650": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2240,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56141,7 +56144,8 @@
     "submission_url": "https://codeforces.com/contest/2240/submission/380365650",
     "tags": [
       "greedy",
-      "sortings"
+      "sortings",
+      "*1500"
     ],
     "timestamp": "Jun/27/2026 22:38"
   }

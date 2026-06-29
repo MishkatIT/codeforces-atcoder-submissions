@@ -34,28 +34,28 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2240/problem/D"><b>D</b> - Decidophobia</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2240/submission/380365650" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>greedy</code> <code>sortings</code></td>
+<td><code>greedy</code> <code>sortings</code> <code>*1500</code></td>
 <td align="center"><sub>Jun/27/2026 22:38</sub></td>
 </tr>
 <tr>
 <td align="center">2</td>
 <td><a href="https://codeforces.com/contest/2240/problem/C"><b>C</b> - Nim Game Is XOR Game</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2240/submission/380352116" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>games</code> <code>greedy</code></td>
+<td><code>games</code> <code>greedy</code> <code>*1300</code></td>
 <td align="center"><sub>Jun/27/2026 21:44</sub></td>
 </tr>
 <tr>
 <td align="center">3</td>
 <td><a href="https://codeforces.com/contest/2240/problem/B"><b>B</b> - AI Finds Nothing Here</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2240/submission/380338122" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>combinatorics</code></td>
+<td><code>combinatorics</code> <code>*1100</code></td>
 <td align="center"><sub>Jun/27/2026 21:07</sub></td>
 </tr>
 <tr>
 <td align="center">4</td>
 <td><a href="https://codeforces.com/contest/2240/problem/A"><b>A</b> - Another Popcount Problem</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2240/submission/380326656" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>greedy</code></td>
+<td><code>greedy</code> <code>*800</code></td>
 <td align="center"><sub>Jun/27/2026 20:45</sub></td>
 </tr>
 <tr>
@@ -16748,6 +16748,6 @@
 
 <div align="center">
 
-*Last Updated: June 28, 2026 at 00:01 BDT (UTC+6)*
+*Last Updated: June 30, 2026 at 01:03 BDT (UTC+6)*
 
 </div>
