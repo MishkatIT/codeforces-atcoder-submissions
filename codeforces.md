@@ -48,7 +48,7 @@
 <td align="center">3</td>
 <td><a href="https://codeforces.com/contest/2240/problem/B"><b>B</b> - AI Finds Nothing Here</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2240/submission/380338122" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>combinatorics</code> <code>*1100</code></td>
+<td><code>combinatorics</code> <code>math</code> <code>*1100</code></td>
 <td align="center"><sub>Jun/27/2026 21:07</sub></td>
 </tr>
 <tr>
@@ -16748,6 +16748,6 @@
 
 <div align="center">
 
-*Last Updated: June 30, 2026 at 01:03 BDT (UTC+6)*
+*Last Updated: July 01, 2026 at 00:55 BDT (UTC+6)*
 
 </div>
