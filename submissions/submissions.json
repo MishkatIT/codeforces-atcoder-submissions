@@ -56149,5 +56149,41 @@
       "*1500"
     ],
     "timestamp": "Jun/27/2026 22:38"
+  },
+  "CF381840966": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2242,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bigrams",
+    "problem_url": "https://codeforces.com/contest/2242/problem/A",
+    "submission_id": "CF381840966",
+    "submission_url": "https://codeforces.com/contest/2242/submission/381840966",
+    "tags": [
+      "sortings",
+      "strings"
+    ],
+    "timestamp": "Jul/09/2026 17:11"
+  },
+  "CF381843945": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2242,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Predominant Frequency Division",
+    "problem_url": "https://codeforces.com/contest/2242/problem/B",
+    "submission_id": "CF381843945",
+    "submission_url": "https://codeforces.com/contest/2242/submission/381843945",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "timestamp": "Jul/09/2026 17:36"
   }
 }
