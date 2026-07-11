@@ -34,14 +34,14 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2242/problem/B"><b>B</b> - Predominant Frequency Division</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2242/submission/381843945" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>data structures</code> <code>greedy</code> <code>implementation</code> <code>math</code></td>
+<td><code>data structures</code> <code>greedy</code> <code>implementation</code> <code>math</code> <code>*1000</code></td>
 <td align="center"><sub>Jul/09/2026 17:36</sub></td>
 </tr>
 <tr>
 <td align="center">2</td>
 <td><a href="https://codeforces.com/contest/2242/problem/A"><b>A</b> - Bigrams</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2242/submission/381840966" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>sortings</code> <code>strings</code></td>
+<td><code>sortings</code> <code>strings</code> <code>*800</code></td>
 <td align="center"><sub>Jul/09/2026 17:11</sub></td>
 </tr>
 <tr>
@@ -16762,6 +16762,6 @@
 
 <div align="center">
 
-*Last Updated: July 10, 2026 at 00:49 BDT (UTC+6)*
+*Last Updated: July 11, 2026 at 23:54 BDT (UTC+6)*
 
 </div>
