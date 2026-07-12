@@ -56187,5 +56187,53 @@
       "*1000"
     ],
     "timestamp": "Jul/09/2026 17:36"
+  },
+  "CF382238296": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2246,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "farmpiggie and Subset Sum",
+    "problem_url": "https://codeforces.com/contest/2246/problem/A",
+    "submission_id": "CF382238296",
+    "submission_url": "https://codeforces.com/contest/2246/submission/382238296",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "Jul/12/2026 20:42"
+  },
+  "CF382263789": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2246,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "ezraft and Array",
+    "problem_url": "https://codeforces.com/contest/2246/problem/B",
+    "submission_id": "CF382263789",
+    "submission_url": "https://codeforces.com/contest/2246/submission/382263789",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "Jul/12/2026 21:15"
+  },
+  "CF382284629": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2246,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "0mar and Alternating Sums",
+    "problem_url": "https://codeforces.com/contest/2246/problem/C",
+    "submission_id": "CF382284629",
+    "submission_url": "https://codeforces.com/contest/2246/submission/382284629",
+    "tags": [
+      "combinatorics"
+    ],
+    "timestamp": "Jul/12/2026 22:06"
   }
 }
