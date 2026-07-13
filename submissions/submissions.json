@@ -56205,7 +56205,7 @@
     "timestamp": "Jul/12/2026 20:42"
   },
   "CF382263789": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2246,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56216,12 +56216,13 @@
     "submission_id": "CF382263789",
     "submission_url": "https://codeforces.com/contest/2246/submission/382263789",
     "tags": [
-      "constructive algorithms"
+      "constructive algorithms",
+      "number theory"
     ],
     "timestamp": "Jul/12/2026 21:15"
   },
   "CF382284629": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2246,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56232,7 +56233,9 @@
     "submission_id": "CF382284629",
     "submission_url": "https://codeforces.com/contest/2246/submission/382284629",
     "tags": [
-      "combinatorics"
+      "combinatorics",
+      "dp",
+      "math"
     ],
     "timestamp": "Jul/12/2026 22:06"
   }

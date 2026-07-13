@@ -34,14 +34,14 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2246/problem/C"><b>C</b> - 0mar and Alternating Sums</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2246/submission/382284629" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>combinatorics</code></td>
+<td><code>combinatorics</code> <code>dp</code> <code>math</code></td>
 <td align="center"><sub>Jul/12/2026 22:06</sub></td>
 </tr>
 <tr>
 <td align="center">2</td>
 <td><a href="https://codeforces.com/contest/2246/problem/B"><b>B</b> - ezraft and Array</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2246/submission/382263789" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>constructive algorithms</code></td>
+<td><code>constructive algorithms</code> <code>number theory</code></td>
 <td align="center"><sub>Jul/12/2026 21:15</sub></td>
 </tr>
 <tr>
@@ -16783,6 +16783,6 @@
 
 <div align="center">
 
-*Last Updated: July 12, 2026 at 23:57 BDT (UTC+6)*
+*Last Updated: July 14, 2026 at 00:42 BDT (UTC+6)*
 
 </div>
