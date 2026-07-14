@@ -56238,5 +56238,83 @@
       "math"
     ],
     "timestamp": "Jul/12/2026 22:06"
+  },
+  "CF382659498": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2244,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Iskander and Drawings",
+    "problem_url": "https://codeforces.com/contest/2244/problem/A",
+    "submission_id": "CF382659498",
+    "submission_url": "https://codeforces.com/contest/2244/submission/382659498",
+    "tags": [
+      "dp",
+      "games",
+      "greedy",
+      "strings"
+    ],
+    "timestamp": "Jul/14/2026 22:00"
+  },
+  "CF382662428": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2244,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nikita and Books",
+    "problem_url": "https://codeforces.com/contest/2244/problem/B",
+    "submission_id": "CF382662428",
+    "submission_url": "https://codeforces.com/contest/2244/submission/382662428",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings"
+    ],
+    "timestamp": "Jul/14/2026 22:05"
+  },
+  "CF382672323": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2244,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Stepan and Permutation",
+    "problem_url": "https://codeforces.com/contest/2244/problem/C",
+    "submission_id": "CF382672323",
+    "submission_url": "https://codeforces.com/contest/2244/submission/382672323",
+    "tags": [
+      "constructive algorithms",
+      "dsu",
+      "greedy",
+      "math",
+      "number theory",
+      "sortings"
+    ],
+    "timestamp": "Jul/14/2026 22:23"
+  },
+  "CF382685730": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2244,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yaroslav and Productivity",
+    "problem_url": "https://codeforces.com/contest/2244/problem/D",
+    "submission_id": "CF382685730",
+    "submission_url": "https://codeforces.com/contest/2244/submission/382685730",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jul/14/2026 22:49"
   }
 }
