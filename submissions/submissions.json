@@ -56277,7 +56277,7 @@
     "timestamp": "Jul/14/2026 22:05"
   },
   "CF382672323": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2244,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56289,6 +56289,7 @@
     "submission_url": "https://codeforces.com/contest/2244/submission/382672323",
     "tags": [
       "constructive algorithms",
+      "dfs and similar",
       "dsu",
       "greedy",
       "math",
@@ -56316,5 +56317,54 @@
       "number theory"
     ],
     "timestamp": "Jul/14/2026 22:49"
+  },
+  "CF382965479": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2245,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Who Watches the Watchpig?",
+    "problem_url": "https://codeforces.com/contest/2245/problem/A",
+    "submission_id": "CF382965479",
+    "submission_url": "https://codeforces.com/contest/2245/submission/382965479",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Jul/16/2026 21:00"
+  },
+  "CF382979288": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2245,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Delete and Concatenate",
+    "problem_url": "https://codeforces.com/contest/2245/problem/B",
+    "submission_id": "CF382979288",
+    "submission_url": "https://codeforces.com/contest/2245/submission/382979288",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Jul/16/2026 21:29"
+  },
+  "CF382994970": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2245,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "MEXOR",
+    "problem_url": "https://codeforces.com/contest/2245/problem/C",
+    "submission_id": "CF382994970",
+    "submission_url": "https://codeforces.com/contest/2245/submission/382994970",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms"
+    ],
+    "timestamp": "Jul/16/2026 22:10"
   }
 }
