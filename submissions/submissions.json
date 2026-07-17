@@ -56351,7 +56351,7 @@
     "timestamp": "Jul/16/2026 21:29"
   },
   "CF382994970": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2245,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56363,7 +56363,8 @@
     "submission_url": "https://codeforces.com/contest/2245/submission/382994970",
     "tags": [
       "bitmasks",
-      "constructive algorithms"
+      "constructive algorithms",
+      "math"
     ],
     "timestamp": "Jul/16/2026 22:10"
   }
