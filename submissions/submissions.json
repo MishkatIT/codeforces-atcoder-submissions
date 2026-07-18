@@ -56367,5 +56367,71 @@
       "math"
     ],
     "timestamp": "Jul/16/2026 22:10"
+  },
+  "CF383313860": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2247,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Zero Sum",
+    "problem_url": "https://codeforces.com/contest/2247/problem/A",
+    "submission_id": "CF383313860",
+    "submission_url": "https://codeforces.com/contest/2247/submission/383313860",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "Jul/18/2026 20:46"
+  },
+  "CF383350093": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2247,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Inversion of a Subsequence",
+    "problem_url": "https://codeforces.com/contest/2247/problem/C",
+    "submission_id": "CF383350093",
+    "submission_url": "https://codeforces.com/contest/2247/submission/383350093",
+    "tags": [
+      "greedy"
+    ],
+    "timestamp": "Jul/18/2026 21:38"
+  },
+  "CF383351372": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2247,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Yet Another Constructive",
+    "problem_url": "https://codeforces.com/contest/2247/problem/B",
+    "submission_id": "CF383351372",
+    "submission_url": "https://codeforces.com/contest/2247/submission/383351372",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "Jul/18/2026 21:41"
+  },
+  "CF383369159": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2247,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "XOR Sorting (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/2247/problem/D1",
+    "submission_id": "CF383369159",
+    "submission_url": "https://codeforces.com/contest/2247/submission/383369159",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "greedy"
+    ],
+    "timestamp": "Jul/18/2026 22:25"
   }
 }
