@@ -56369,7 +56369,7 @@
     "timestamp": "Jul/16/2026 22:10"
   },
   "CF383313860": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2247,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56380,12 +56380,14 @@
     "submission_id": "CF383313860",
     "submission_url": "https://codeforces.com/contest/2247/submission/383313860",
     "tags": [
-      "constructive algorithms"
+      "constructive algorithms",
+      "dp",
+      "number theory"
     ],
     "timestamp": "Jul/18/2026 20:46"
   },
   "CF383350093": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2247,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56396,7 +56398,8 @@
     "submission_id": "CF383350093",
     "submission_url": "https://codeforces.com/contest/2247/submission/383350093",
     "tags": [
-      "greedy"
+      "greedy",
+      "math"
     ],
     "timestamp": "Jul/18/2026 21:38"
   },
@@ -56417,7 +56420,7 @@
     "timestamp": "Jul/18/2026 21:41"
   },
   "CF383369159": {
-    "__info_message": "Info: storing URL",
+    "__info_message": "Info: Updating Tags",
     "contest_id": 2247,
     "language": "C++23 (GCC 14-64, msys2)",
     "path": null,
@@ -56430,6 +56433,7 @@
     "tags": [
       "binary search",
       "bitmasks",
+      "divide and conquer",
       "greedy"
     ],
     "timestamp": "Jul/18/2026 22:25"

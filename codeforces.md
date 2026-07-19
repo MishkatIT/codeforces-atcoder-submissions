@@ -34,7 +34,7 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2247/problem/D1"><b>D1</b> - XOR Sorting (Easy Version)</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2247/submission/383369159" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>binary search</code> <code>bitmasks</code> <code>greedy</code></td>
+<td><code>binary search</code> <code>bitmasks</code> <code>divide and conquer</code> <code>greedy</code></td>
 <td align="center"><sub>Jul/18/2026 22:25</sub></td>
 </tr>
 <tr>
@@ -48,14 +48,14 @@
 <td align="center">3</td>
 <td><a href="https://codeforces.com/contest/2247/problem/C"><b>C</b> - Inversion of a Subsequence</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2247/submission/383350093" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>greedy</code></td>
+<td><code>greedy</code> <code>math</code></td>
 <td align="center"><sub>Jul/18/2026 21:38</sub></td>
 </tr>
 <tr>
 <td align="center">4</td>
 <td><a href="https://codeforces.com/contest/2247/problem/A"><b>A</b> - Zero Sum</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2247/submission/383313860" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>constructive algorithms</code></td>
+<td><code>constructive algorithms</code> <code>dp</code> <code>number theory</code></td>
 <td align="center"><sub>Jul/18/2026 20:46</sub></td>
 </tr>
 <tr>
@@ -16860,6 +16860,6 @@
 
 <div align="center">
 
-*Last Updated: July 18, 2026 at 23:55 BDT (UTC+6)*
+*Last Updated: July 19, 2026 at 23:57 BDT (UTC+6)*
 
 </div>
