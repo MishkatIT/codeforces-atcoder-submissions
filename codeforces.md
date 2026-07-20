@@ -34,7 +34,7 @@
 <td align="center">1</td>
 <td><a href="https://codeforces.com/contest/2247/problem/D1"><b>D1</b> - XOR Sorting (Easy Version)</a></td>
 <td align="center"><a href="https://codeforces.com/contest/2247/submission/383369159" title="C++23 (GCC 14-64, msys2)"><code>C++23 (GCC 14-64, msys2)</code></a></td>
-<td><code>binary search</code> <code>bitmasks</code> <code>divide and conquer</code> <code>greedy</code></td>
+<td><code>bitmasks</code> <code>greedy</code></td>
 <td align="center"><sub>Jul/18/2026 22:25</sub></td>
 </tr>
 <tr>
@@ -16860,6 +16860,6 @@
 
 <div align="center">
 
-*Last Updated: July 19, 2026 at 23:57 BDT (UTC+6)*
+*Last Updated: July 21, 2026 at 00:51 BDT (UTC+6)*
 
 </div>
