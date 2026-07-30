@@ -56435,5 +56435,39 @@
       "greedy"
     ],
     "timestamp": "Jul/18/2026 22:25"
+  },
+  "CF384904399": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2250,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "String Construction",
+    "problem_url": "https://codeforces.com/contest/2250/problem/B",
+    "submission_id": "CF384904399",
+    "submission_url": "https://codeforces.com/contest/2250/submission/384904399",
+    "tags": [
+      "constructive algorithms"
+    ],
+    "timestamp": "Jul/30/2026 22:44"
+  },
+  "CF384905784": {
+    "__info_message": "Info: storing URL",
+    "contest_id": 2250,
+    "language": "C++23 (GCC 14-64, msys2)",
+    "path": null,
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Threshold Movement",
+    "problem_url": "https://codeforces.com/contest/2250/problem/A",
+    "submission_id": "CF384905784",
+    "submission_url": "https://codeforces.com/contest/2250/submission/384905784",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math"
+    ],
+    "timestamp": "Jul/30/2026 22:56"
   }
 }
